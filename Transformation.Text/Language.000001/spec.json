@@ -1,0 +1,361 @@
+{
+  "Examples": [
+    {
+      "Input": [
+        "Arabic",
+        "http://proseware.com/ar"
+      ],
+      "Output": "Arabic = ar"
+    },
+    {
+      "Input": [
+        "Basque",
+        "http://proseware.com/eu"
+      ],
+      "Output": "Basque = eu"
+    },
+    {
+      "Input": [
+        "Bosnian",
+        "http://proseware.com/bs"
+      ],
+      "Output": "Bosnian = bs"
+    },
+    {
+      "Input": [
+        "Bulgarian",
+        "http://proseware.com/bg"
+      ],
+      "Output": "Bulgarian = bg"
+    },
+    {
+      "Input": [
+        "Catalan",
+        "http://proseware.com/ca"
+      ],
+      "Output": "Catalan = ca"
+    },
+    {
+      "Input": [
+        "Chinese - Simplified",
+        "http://proseware.com/zh"
+      ],
+      "Output": "Chinese - Simplified = zh"
+    },
+    {
+      "Input": [
+        "Chinese - Traditional",
+        "http://proseware.com/hk"
+      ],
+      "Output": "Chinese - Traditional = hk"
+    },
+    {
+      "Input": [
+        "Croatian",
+        "http://proseware.com/hr"
+      ],
+      "Output": "Croatian = hr"
+    },
+    {
+      "Input": [
+        "Czech",
+        "http://proseware.com/cs"
+      ],
+      "Output": "Czech = cs"
+    },
+    {
+      "Input": [
+        "Danish",
+        "http://proseware.com/da"
+      ],
+      "Output": "Danish = da"
+    },
+    {
+      "Input": [
+        "Dutch",
+        "http://proseware.com/nl"
+      ],
+      "Output": "Dutch = nl"
+    },
+    {
+      "Input": [
+        "English",
+        "http://proseware.com/en"
+      ],
+      "Output": "English = en"
+    },
+    {
+      "Input": [
+        "Estonian",
+        "http://proseware.com/et"
+      ],
+      "Output": "Estonian = et"
+    },
+    {
+      "Input": [
+        "Finnish",
+        "http://proseware.com/fi"
+      ],
+      "Output": "Finnish = fi"
+    },
+    {
+      "Input": [
+        "French",
+        "http://proseware.com/fr"
+      ],
+      "Output": "French = fr"
+    },
+    {
+      "Input": [
+        "Galician",
+        "http://proseware.com/gl"
+      ],
+      "Output": "Galician = gl"
+    },
+    {
+      "Input": [
+        "German",
+        "http://proseware.com/de"
+      ],
+      "Output": "German = de"
+    },
+    {
+      "Input": [
+        "Greek",
+        "http://proseware.com/el"
+      ],
+      "Output": "Greek = el"
+    },
+    {
+      "Input": [
+        "Gujarati",
+        "http://proseware.com/gu"
+      ],
+      "Output": "Gujarati = gu"
+    },
+    {
+      "Input": [
+        "Hebrew",
+        "http://proseware.com/he"
+      ],
+      "Output": "Hebrew = he"
+    },
+    {
+      "Input": [
+        "Hindi",
+        "http://proseware.com/hi"
+      ],
+      "Output": "Hindi = hi"
+    },
+    {
+      "Input": [
+        "Hungarian",
+        "http://proseware.com/hu"
+      ],
+      "Output": "Hungarian = hu"
+    },
+    {
+      "Input": [
+        "Icelandic",
+        "http://proseware.com/is"
+      ],
+      "Output": "Icelandic = is"
+    },
+    {
+      "Input": [
+        "Indonesian",
+        "http://proseware.com/id"
+      ],
+      "Output": "Indonesian = id"
+    },
+    {
+      "Input": [
+        "Italian",
+        "http://proseware.com/it"
+      ],
+      "Output": "Italian = it"
+    },
+    {
+      "Input": [
+        "Japanese",
+        "http://proseware.com/ja"
+      ],
+      "Output": "Japanese = ja"
+    },
+    {
+      "Input": [
+        "Kazakh",
+        "http://proseware.com/kk"
+      ],
+      "Output": "Kazakh = kk"
+    },
+    {
+      "Input": [
+        "Kannada",
+        "http://proseware.com/kn"
+      ],
+      "Output": "Kannada = kn"
+    },
+    {
+      "Input": [
+        "Korean",
+        "http://proseware.com/ko"
+      ],
+      "Output": "Korean = ko"
+    },
+    {
+      "Input": [
+        "Latvian",
+        "http://proseware.com/lv"
+      ],
+      "Output": "Latvian = lv"
+    },
+    {
+      "Input": [
+        "Lithuanian",
+        "http://proseware.com/lt"
+      ],
+      "Output": "Lithuanian = lt"
+    },
+    {
+      "Input": [
+        "Malay",
+        "http://proseware.com/ms"
+      ],
+      "Output": "Malay = ms"
+    },
+    {
+      "Input": [
+        "Malayalam",
+        "http://proseware.com/ml"
+      ],
+      "Output": "Malayalam = ml"
+    },
+    {
+      "Input": [
+        "Marathi",
+        "http://proseware.com/mr"
+      ],
+      "Output": "Marathi = mr"
+    },
+    {
+      "Input": [
+        "Norwegian",
+        "http://proseware.com/nb"
+      ],
+      "Output": "Norwegian = nb"
+    },
+    {
+      "Input": [
+        "Polish",
+        "http://proseware.com/pl"
+      ],
+      "Output": "Polish = pl"
+    },
+    {
+      "Input": [
+        "Portuguese - Brazil",
+        "http://proseware.com/br"
+      ],
+      "Output": "Portuguese - Brazil = br"
+    },
+    {
+      "Input": [
+        "Portuguese - Portugal",
+        "http://proseware.com/pt"
+      ],
+      "Output": "Portuguese - Portugal = pt"
+    },
+    {
+      "Input": [
+        "Romanian",
+        "http://proseware.com/ro"
+      ],
+      "Output": "Romanian = ro"
+    },
+    {
+      "Input": [
+        "Russian",
+        "http://proseware.com/ru"
+      ],
+      "Output": "Russian = ru"
+    },
+    {
+      "Input": [
+        "Serbian",
+        "http://proseware.com/sr"
+      ],
+      "Output": "Serbian = sr"
+    },
+    {
+      "Input": [
+        "Slovakian",
+        "http://proseware.com/sk"
+      ],
+      "Output": "Slovakian = sk"
+    },
+    {
+      "Input": [
+        "Slovenian",
+        "http://proseware.com/sl"
+      ],
+      "Output": "Slovenian = sl"
+    },
+    {
+      "Input": [
+        "Spanish",
+        "http://proseware.com/es"
+      ],
+      "Output": "Spanish = es"
+    },
+    {
+      "Input": [
+        "Swedish",
+        "http://proseware.com/sv"
+      ],
+      "Output": "Swedish = sv"
+    },
+    {
+      "Input": [
+        "Tamil",
+        "http://proseware.com/ta"
+      ],
+      "Output": "Tamil = ta"
+    },
+    {
+      "Input": [
+        "Telugu",
+        "http://proseware.com/te"
+      ],
+      "Output": "Telugu = te"
+    },
+    {
+      "Input": [
+        "Thai",
+        "http://proseware.com/th"
+      ],
+      "Output": "Thai = th"
+    },
+    {
+      "Input": [
+        "Turkish",
+        "http://proseware.com/tr"
+      ],
+      "Output": "Turkish = tr"
+    },
+    {
+      "Input": [
+        "Ukrainian",
+        "http://proseware.com/uk"
+      ],
+      "Output": "Ukrainian = uk"
+    },
+    {
+      "Input": [
+        "Vietnamese",
+        "http://proseware.com/vi"
+      ],
+      "Output": "Vietnamese = vi"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "Examples": [
+    {
+      "Input": [
+        "joyikutty@fabrikam.com"
+      ],
+      "Output": "joyikutty@fabrikam.com"
+    },
+    {
+      "Input": [
+        "giftiantonio@fabrikam.com"
+      ],
+      "Output": "giftiantonio@fabrikam.com"
+    },
+    {
+      "Input": [
+        "claudia"
+      ],
+      "Output": "claudia@proseware.com"
+    },
+    {
+      "Input": [
+        "francis@contoso.com"
+      ],
+      "Output": "francis@contoso.com"
+    },
+    {
+      "Input": [
+        "iñaki"
+      ],
+      "Output": "iñaki@proseware.com"
+    },
+    {
+      "Input": [
+        "celtia@contoso.com"
+      ],
+      "Output": "celtia@contoso.com"
+    },
+    {
+      "Input": [
+        "nina@fabrikam.com"
+      ],
+      "Output": "nina@fabrikam.com"
+    },
+    {
+      "Input": [
+        "benito"
+      ],
+      "Output": "benito@proseware.com"
+    },
+    {
+      "Input": [
+        "bernardosagar@fabrikam.com"
+      ],
+      "Output": "bernardosagar@fabrikam.com"
+    },
+    {
+      "Input": [
+        "marthamaría@fabrikam.com"
+      ],
+      "Output": "marthamaría@fabrikam.com"
+    }
+  ]
+}

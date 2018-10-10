@@ -1,0 +1,111 @@
+{
+  "Kind": "Field",
+  "Examples": [
+    {
+      "Input": [
+        {
+          "Start": 3,
+          "End": 41,
+          "Value": "Luxembourg          4828\t190\tAustralia"
+        },
+        {
+          "Start": 45,
+          "End": 78,
+          "Value": "Cameroon            8456\t247\tAsia"
+        },
+        {
+          "Start": 82,
+          "End": 117,
+          "Value": "Congo (DRC)         4061\t851\tAfrica"
+        },
+        {
+          "Start": 121,
+          "End": 163,
+          "Value": "Singapore           5858\t282\tNorth America"
+        },
+        {
+          "Start": 167,
+          "End": 204,
+          "Value": "Hong Kong SAR       282\t610\tAustralia"
+        },
+        {
+          "Start": 208,
+          "End": 246,
+          "Value": "Cameroon            4730\t83\tAntarctica"
+        },
+        {
+          "Start": 250,
+          "End": 292,
+          "Value": "Rwanda              8551\t562\tNorth America"
+        },
+        {
+          "Start": 296,
+          "End": 334,
+          "Value": "Panama              2968\t830\tAustralia"
+        },
+        {
+          "Start": 338,
+          "End": 380,
+          "Value": "France              2365\t787\tNorth America"
+        },
+        {
+          "Start": 384,
+          "End": 417,
+          "Value": "Haiti               1270\t203\tAsia"
+        }
+      ],
+      "Output": [
+        {
+          "Start": 23,
+          "End": 27,
+          "Value": "4828"
+        },
+        {
+          "Start": 65,
+          "End": 69,
+          "Value": "8456"
+        },
+        {
+          "Start": 102,
+          "End": 106,
+          "Value": "4061"
+        },
+        {
+          "Start": 141,
+          "End": 145,
+          "Value": "5858"
+        },
+        {
+          "Start": 187,
+          "End": 190,
+          "Value": "282"
+        },
+        {
+          "Start": 228,
+          "End": 232,
+          "Value": "4730"
+        },
+        {
+          "Start": 270,
+          "End": 274,
+          "Value": "8551"
+        },
+        {
+          "Start": 316,
+          "End": 320,
+          "Value": "2968"
+        },
+        {
+          "Start": 358,
+          "End": 362,
+          "Value": "2365"
+        },
+        {
+          "Start": 404,
+          "End": 408,
+          "Value": "1270"
+        }
+      ]
+    }
+  ]
+}

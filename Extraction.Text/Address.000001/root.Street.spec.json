@@ -1,0 +1,113 @@
+{
+  "Kind": "Sequence",
+  "Examples": [
+    {
+      "Input": [
+        {
+          "Start": 0,
+          "End": 1146,
+          "Value": "Hone Albert\n1234 Cherry Court\nGreensboro, VA\n(492) 246-4908\n\nOjerinde Adeniyi\n789 Eighth Parkway\nVallejo, WY\n(065) 965-0142\n\nHaf Evans\n678 Redwood Lane\nPrague, KY\n(957) 129-7341\n\nEitan Gonen\n123 Oak Road\nLouisville, FL\n(887) 866-2880\n\nDunja Vukovic\n456 Eighth Highway\nDenver, TN\n(877) 925-6328\n\nYaron Misha\n56 Second Road\nOceanside, NY\n(929) 096-0116\n\nMeaza Goitom\n345 Fourth Highway\nChula Vista, HI\n(603) 802-7993\n\nJens Persson\n78 Birch Boulevard\nSuzhou, IN\n(486) 174-9166\n\nJyeshta Davgar\n789 Elm Street\nQuezon City, NM\n(295) 028-5659\n\nRuza Antunovic\n345 Fourth Parkway\nYonkers, NH\n(569) 304-4202\n\nJukka-Pekka Enestam\n234 Apple Lane\nNizhny Novgorod, SD\n(290) 599-0629\n\nNgoc Thach\n1234 Eighth Avenue\nJurupa Valley, VT\n(921) 818-5753\n\nMoustapha Ndaw\n12 Pecan Street\nLuanda, MO\n(523) 271-6563\n\nRayko Dimitrov\n34 12th Highway\nPearland, NC\n(224) 184-6332\n\nOguntade Olagunju\n678 First Route\nTyler, DC\n(701) 017-1865\n\nShweta Chourasia\n3456 1st Avenue\nMurrieta, SC\n(437) 469-6069\n\nRazia Saleem\n456 Fourth Lane\nHenderson, ND\n(383) 758-5516\n\nMehmet Yildirim\n89 Sixth Parkway\nColumbus, WA\n(311) 625-5741\n\nMarta Grasu\n34 1st Road\nOntario, NY\n(054) 911-2672\n"
+        }
+      ],
+      "Output": [
+        [
+          {
+            "Start": 12,
+            "End": 29,
+            "Value": "1234 Cherry Court"
+          },
+          {
+            "Start": 78,
+            "End": 96,
+            "Value": "789 Eighth Parkway"
+          },
+          {
+            "Start": 135,
+            "End": 151,
+            "Value": "678 Redwood Lane"
+          },
+          {
+            "Start": 191,
+            "End": 203,
+            "Value": "123 Oak Road"
+          },
+          {
+            "Start": 249,
+            "End": 267,
+            "Value": "456 Eighth Highway"
+          },
+          {
+            "Start": 307,
+            "End": 321,
+            "Value": "56 Second Road"
+          },
+          {
+            "Start": 365,
+            "End": 383,
+            "Value": "345 Fourth Highway"
+          },
+          {
+            "Start": 429,
+            "End": 447,
+            "Value": "78 Birch Boulevard"
+          },
+          {
+            "Start": 490,
+            "End": 504,
+            "Value": "789 Elm Street"
+          },
+          {
+            "Start": 552,
+            "End": 570,
+            "Value": "345 Fourth Parkway"
+          },
+          {
+            "Start": 619,
+            "End": 633,
+            "Value": "234 Apple Lane"
+          },
+          {
+            "Start": 681,
+            "End": 699,
+            "Value": "1234 Eighth Avenue"
+          },
+          {
+            "Start": 749,
+            "End": 764,
+            "Value": "12 Pecan Street"
+          },
+          {
+            "Start": 807,
+            "End": 822,
+            "Value": "34 12th Highway"
+          },
+          {
+            "Start": 870,
+            "End": 885,
+            "Value": "678 First Route"
+          },
+          {
+            "Start": 929,
+            "End": 944,
+            "Value": "3456 1st Avenue"
+          },
+          {
+            "Start": 987,
+            "End": 1002,
+            "Value": "456 Fourth Lane"
+          },
+          {
+            "Start": 1049,
+            "End": 1065,
+            "Value": "89 Sixth Parkway"
+          },
+          {
+            "Start": 1107,
+            "End": 1118,
+            "Value": "34 1st Road"
+          }
+        ]
+      ]
+    }
+  ]
+}

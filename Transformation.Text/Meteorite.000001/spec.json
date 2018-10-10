@@ -1,0 +1,832 @@
+{
+  "Examples": [
+    {
+      "Input": [
+        "Visalia",
+        "25949",
+        "1846-01-31 07:00:20",
+        "(-5.883, 173.574451)"
+      ],
+      "Output": "The meteorite named VISALIA weighing 25.949 kg fell in 1846 near lat/long (-5.9, 173.6)"
+    },
+    {
+      "Input": [
+        "Brownsville",
+        "89.0",
+        "2079-06-26 12:37:50",
+        "(78.123, -150.800)"
+      ],
+      "Output": "The meteorite named BROWNSVILLE weighing 0.089 kg fell in 2079 near lat/long (78.1, -150.8)"
+    },
+    {
+      "Input": [
+        "South Bend",
+        "03.3",
+        "2220-06-30 12:07:23",
+        "(38.88, 146.555)"
+      ],
+      "Output": "The meteorite named SOUTH BEND weighing 0.003 kg fell in 2220 near lat/long (38.9, 146.6)"
+    },
+    {
+      "Input": [
+        "Busan",
+        "7641",
+        "2177-02-02 19:48:36",
+        "(42.371548, 44.951809)"
+      ],
+      "Output": "The meteorite named BUSAN weighing 7.641 kg fell in 2177 near lat/long (42.4, 45.0)"
+    },
+    {
+      "Input": [
+        "Zunyi",
+        "682",
+        "2243-10-11 11:33:09",
+        "(27.396943, -143.663257)"
+      ],
+      "Output": "The meteorite named ZUNYI weighing 0.682 kg fell in 2243 near lat/long (27.4, -143.7)"
+    },
+    {
+      "Input": [
+        "Elgin",
+        "53648",
+        "2139-04-25 19:02:49",
+        "(47.61, 8.20)"
+      ],
+      "Output": "The meteorite named ELGIN weighing 53.648 kg fell in 2139 near lat/long (47.6, 8.2)"
+    },
+    {
+      "Input": [
+        "New Haven",
+        "066",
+        "2041-05-26 22:15:47",
+        "(-50.16, 144.04)"
+      ],
+      "Output": "The meteorite named NEW HAVEN weighing 0.066 kg fell in 2041 near lat/long (-50.2, 144.0)"
+    },
+    {
+      "Input": [
+        "Chengdu",
+        "416.5",
+        "1819-08-21 14:50:10",
+        "(-89.085204, -157.568969)"
+      ],
+      "Output": "The meteorite named CHENGDU weighing 0.417 kg fell in 1819 near lat/long (-89.1, -157.6)"
+    },
+    {
+      "Input": [
+        "South Bend",
+        "25502",
+        "1967-11-08 20:18:50",
+        "(20.368416, -35.32)"
+      ],
+      "Output": "The meteorite named SOUTH BEND weighing 25.502 kg fell in 1967 near lat/long (20.4, -35.3)"
+    },
+    {
+      "Input": [
+        "Boise",
+        "511629",
+        "2007-08-12 01:31:20",
+        "(-42.537, 52.556441)"
+      ],
+      "Output": "The meteorite named BOISE weighing 511.629 kg fell in 2007 near lat/long (-42.5, 52.6)"
+    },
+    {
+      "Input": [
+        "Virginia Beach",
+        "65.5",
+        "2064-06-13 23:52:08",
+        "(-35.705, -6.09)"
+      ],
+      "Output": "The meteorite named VIRGINIA BEACH weighing 0.066 kg fell in 2064 near lat/long (-35.7, -6.1)"
+    },
+    {
+      "Input": [
+        "Jeddah",
+        "03829",
+        "1712-05-28 12:13:37",
+        "(83.32, 55.266719)"
+      ],
+      "Output": "The meteorite named JEDDAH weighing 3.829 kg fell in 1712 near lat/long (83.3, 55.3)"
+    },
+    {
+      "Input": [
+        "McAllen",
+        "9892",
+        "1768-08-19 21:32:02",
+        "(-57.920, 102.616)"
+      ],
+      "Output": "The meteorite named MCALLEN weighing 9.892 kg fell in 1768 near lat/long (-57.9, 102.6)"
+    },
+    {
+      "Input": [
+        "Jakarta",
+        "14",
+        "2014-07-06 06:16:47",
+        "(-34.134632, -132.098)"
+      ],
+      "Output": "The meteorite named JAKARTA weighing 0.014 kg fell in 2014 near lat/long (-34.1, -132.1)"
+    },
+    {
+      "Input": [
+        "Daejeon",
+        "87",
+        "2184-09-22 15:37:49",
+        "(-44.045, -109.474)"
+      ],
+      "Output": "The meteorite named DAEJEON weighing 0.087 kg fell in 2184 near lat/long (-44.0, -109.5)"
+    },
+    {
+      "Input": [
+        "Harare",
+        "960",
+        "2234-09-19 23:04:58",
+        "(-61.71, -111.27)"
+      ],
+      "Output": "The meteorite named HARARE weighing 0.960 kg fell in 2234 near lat/long (-61.7, -111.3)"
+    },
+    {
+      "Input": [
+        "Saint Petersburg",
+        "528849",
+        "2136-01-04 11:02:45",
+        "(-28.713, 52.982)"
+      ],
+      "Output": "The meteorite named SAINT PETERSBURG weighing 528.849 kg fell in 2136 near lat/long (-28.7, 53.0)"
+    },
+    {
+      "Input": [
+        "Modesto",
+        "510.5",
+        "2064-04-15 09:06:06",
+        "(65.910208, 7.186)"
+      ],
+      "Output": "The meteorite named MODESTO weighing 0.511 kg fell in 2064 near lat/long (65.9, 7.2)"
+    },
+    {
+      "Input": [
+        "Madrid",
+        "32849",
+        "1880-12-17 04:36:50",
+        "(-62.95, 12.562862)"
+      ],
+      "Output": "The meteorite named MADRID weighing 32.849 kg fell in 1880 near lat/long (-63.0, 12.6)"
+    },
+    {
+      "Input": [
+        "Yangon",
+        "85",
+        "2080-09-17 15:22:34",
+        "(-87.208, 177.63)"
+      ],
+      "Output": "The meteorite named YANGON weighing 0.085 kg fell in 2080 near lat/long (-87.2, 177.6)"
+    },
+    {
+      "Input": [
+        "Rochester",
+        "204",
+        "1857-05-17 20:09:14",
+        "(58.177908, -107.227129)"
+      ],
+      "Output": "The meteorite named ROCHESTER weighing 0.204 kg fell in 1857 near lat/long (58.2, -107.2)"
+    },
+    {
+      "Input": [
+        "Seattle",
+        "5343",
+        "1927-03-06 15:54:32",
+        "(18.095276, -72.324)"
+      ],
+      "Output": "The meteorite named SEATTLE weighing 5.343 kg fell in 1927 near lat/long (18.1, -72.3)"
+    },
+    {
+      "Input": [
+        "Charleston",
+        "589.2",
+        "1968-05-07 07:51:34",
+        "(-56.156, 32.001)"
+      ],
+      "Output": "The meteorite named CHARLESTON weighing 0.589 kg fell in 1968 near lat/long (-56.2, 32.0)"
+    },
+    {
+      "Input": [
+        "Olathe",
+        "66",
+        "2008-08-21 19:35:20",
+        "(65.602, 33.39)"
+      ],
+      "Output": "The meteorite named OLATHE weighing 0.066 kg fell in 2008 near lat/long (65.6, 33.4)"
+    },
+    {
+      "Input": [
+        "Lakewood",
+        "01903",
+        "1714-11-11 12:24:49",
+        "(13.22, -138.142785)"
+      ],
+      "Output": "The meteorite named LAKEWOOD weighing 1.903 kg fell in 1714 near lat/long (13.2, -138.1)"
+    },
+    {
+      "Input": [
+        "Joliet",
+        "115",
+        "2095-06-05 19:54:29",
+        "(-48.84, -79.193)"
+      ],
+      "Output": "The meteorite named JOLIET weighing 0.115 kg fell in 2095 near lat/long (-48.8, -79.2)"
+    },
+    {
+      "Input": [
+        "Monterrey",
+        "115",
+        "2110-01-19 08:59:58",
+        "(39.68, 30.710247)"
+      ],
+      "Output": "The meteorite named MONTERREY weighing 0.115 kg fell in 2110 near lat/long (39.7, 30.7)"
+    },
+    {
+      "Input": [
+        "Sioux Falls",
+        "58494",
+        "2142-10-07 13:57:02",
+        "(45.266562, 30.44)"
+      ],
+      "Output": "The meteorite named SIOUX FALLS weighing 58.494 kg fell in 2142 near lat/long (45.3, 30.4)"
+    },
+    {
+      "Input": [
+        "Pyongyang",
+        "49063",
+        "2243-04-08 20:46:03",
+        "(-8.15, 177.36)"
+      ],
+      "Output": "The meteorite named PYONGYANG weighing 49.063 kg fell in 2243 near lat/long (-8.2, 177.4)"
+    },
+    {
+      "Input": [
+        "Sioux Falls",
+        "95.1",
+        "1975-08-02 09:13:56",
+        "(-22.087, -75.314451)"
+      ],
+      "Output": "The meteorite named SIOUX FALLS weighing 0.095 kg fell in 1975 near lat/long (-22.1, -75.3)"
+    },
+    {
+      "Input": [
+        "Belgrade",
+        "0397",
+        "2053-04-08 19:45:50",
+        "(-47.379, -17.620007)"
+      ],
+      "Output": "The meteorite named BELGRADE weighing 0.397 kg fell in 2053 near lat/long (-47.4, -17.6)"
+    },
+    {
+      "Input": [
+        "Tehran",
+        "86",
+        "1825-07-10 14:37:41",
+        "(25.440051, -163.674)"
+      ],
+      "Output": "The meteorite named TEHRAN weighing 0.086 kg fell in 1825 near lat/long (25.4, -163.7)"
+    },
+    {
+      "Input": [
+        "Tokyo",
+        "72",
+        "2002-01-24 13:37:26",
+        "(20.637094, 152.741637)"
+      ],
+      "Output": "The meteorite named TOKYO weighing 0.072 kg fell in 2002 near lat/long (20.6, 152.7)"
+    },
+    {
+      "Input": [
+        "Santa Clarita",
+        "66",
+        "2206-09-24 07:41:58",
+        "(-70.559964, -153.223423)"
+      ],
+      "Output": "The meteorite named SANTA CLARITA weighing 0.066 kg fell in 2206 near lat/long (-70.6, -153.2)"
+    },
+    {
+      "Input": [
+        "Hamburg",
+        "215.2",
+        "2064-03-09 11:35:27",
+        "(40.50, -172.460)"
+      ],
+      "Output": "The meteorite named HAMBURG weighing 0.215 kg fell in 2064 near lat/long (40.5, -172.5)"
+    },
+    {
+      "Input": [
+        "Green Bay",
+        "991",
+        "2174-09-25 09:41:01",
+        "(70.199637, 147.25)"
+      ],
+      "Output": "The meteorite named GREEN BAY weighing 0.991 kg fell in 2174 near lat/long (70.2, 147.3)"
+    },
+    {
+      "Input": [
+        "Ahmedabad",
+        "33.0",
+        "2076-03-23 13:37:08",
+        "(-13.30, -128.34)"
+      ],
+      "Output": "The meteorite named AHMEDABAD weighing 0.033 kg fell in 2076 near lat/long (-13.3, -128.3)"
+    },
+    {
+      "Input": [
+        "High Point",
+        "791908",
+        "1771-05-26 12:40:07",
+        "(-5.868, 46.79)"
+      ],
+      "Output": "The meteorite named HIGH POINT weighing 791.908 kg fell in 1771 near lat/long (-5.9, 46.8)"
+    },
+    {
+      "Input": [
+        "Baghdad",
+        "21192",
+        "1916-01-24 19:37:24",
+        "(-13.88, 14.315)"
+      ],
+      "Output": "The meteorite named BAGHDAD weighing 21.192 kg fell in 1916 near lat/long (-13.9, 14.3)"
+    },
+    {
+      "Input": [
+        "Quanzhou",
+        "251691",
+        "2127-03-24 15:04:11",
+        "(-26.334592, -117.833180)"
+      ],
+      "Output": "The meteorite named QUANZHOU weighing 251.691 kg fell in 2127 near lat/long (-26.3, -117.8)"
+    },
+    {
+      "Input": [
+        "Pasadena",
+        "747671",
+        "2023-03-13 20:51:42",
+        "(-67.40, 159.810)"
+      ],
+      "Output": "The meteorite named PASADENA weighing 747.671 kg fell in 2023 near lat/long (-67.4, 159.8)"
+    },
+    {
+      "Input": [
+        "Fayetteville",
+        "29293",
+        "1888-11-01 21:53:03",
+        "(-26.98, -93.18)"
+      ],
+      "Output": "The meteorite named FAYETTEVILLE weighing 29.293 kg fell in 1888 near lat/long (-27.0, -93.2)"
+    },
+    {
+      "Input": [
+        "Islamabad",
+        "7958",
+        "1729-09-14 00:21:41",
+        "(-73.374689, -34.93)"
+      ],
+      "Output": "The meteorite named ISLAMABAD weighing 7.958 kg fell in 1729 near lat/long (-73.4, -34.9)"
+    },
+    {
+      "Input": [
+        "Los Angeles",
+        "75.0",
+        "1914-10-04 19:20:33",
+        "(-67.156639, -52.621)"
+      ],
+      "Output": "The meteorite named LOS ANGELES weighing 0.075 kg fell in 1914 near lat/long (-67.2, -52.6)"
+    },
+    {
+      "Input": [
+        "Boulder",
+        "58.2",
+        "1842-08-30 17:06:00",
+        "(9.69, 145.100062)"
+      ],
+      "Output": "The meteorite named BOULDER weighing 0.058 kg fell in 1842 near lat/long (9.7, 145.1)"
+    },
+    {
+      "Input": [
+        "Daly City",
+        "71",
+        "1786-09-30 10:44:32",
+        "(8.168, 42.090)"
+      ],
+      "Output": "The meteorite named DALY CITY weighing 0.071 kg fell in 1786 near lat/long (8.2, 42.1)"
+    },
+    {
+      "Input": [
+        "Syracuse",
+        "641.0",
+        "2050-07-03 21:34:29",
+        "(-15.075608, -49.20)"
+      ],
+      "Output": "The meteorite named SYRACUSE weighing 0.641 kg fell in 2050 near lat/long (-15.1, -49.2)"
+    },
+    {
+      "Input": [
+        "Xiamen",
+        "542.2",
+        "1857-02-13 05:25:08",
+        "(-6.71, 122.91)"
+      ],
+      "Output": "The meteorite named XIAMEN weighing 0.542 kg fell in 1857 near lat/long (-6.7, 122.9)"
+    },
+    {
+      "Input": [
+        "San Bernardino",
+        "11.2",
+        "2089-09-25 18:22:00",
+        "(-4.504, 74.89)"
+      ],
+      "Output": "The meteorite named SAN BERNARDINO weighing 0.011 kg fell in 2089 near lat/long (-4.5, 74.9)"
+    },
+    {
+      "Input": [
+        "Jinan",
+        "24501",
+        "1971-04-03 06:12:51",
+        "(32.68, 43.739087)"
+      ],
+      "Output": "The meteorite named JINAN weighing 24.501 kg fell in 1971 near lat/long (32.7, 43.7)"
+    },
+    {
+      "Input": [
+        "Daegu",
+        "138",
+        "1813-05-26 21:46:18",
+        "(-0.45, -131.782)"
+      ],
+      "Output": "The meteorite named DAEGU weighing 0.138 kg fell in 1813 near lat/long (-0.5, -131.8)"
+    },
+    {
+      "Input": [
+        "Lewisville",
+        "638",
+        "2129-10-28 03:40:16",
+        "(5.55, 157.468370)"
+      ],
+      "Output": "The meteorite named LEWISVILLE weighing 0.638 kg fell in 2129 near lat/long (5.6, 157.5)"
+    },
+    {
+      "Input": [
+        "Berlin",
+        "84506",
+        "2171-10-23 15:27:30",
+        "(-35.271358, -26.054000)"
+      ],
+      "Output": "The meteorite named BERLIN weighing 84.506 kg fell in 2171 near lat/long (-35.3, -26.1)"
+    },
+    {
+      "Input": [
+        "Springfield",
+        "33248",
+        "1932-08-13 02:05:43",
+        "(38.27, 149.42)"
+      ],
+      "Output": "The meteorite named SPRINGFIELD weighing 33.248 kg fell in 1932 near lat/long (38.3, 149.4)"
+    },
+    {
+      "Input": [
+        "Istanbul",
+        "809903",
+        "1708-10-28 00:27:47",
+        "(6.931964, 10.983)"
+      ],
+      "Output": "The meteorite named ISTANBUL weighing 809.903 kg fell in 1708 near lat/long (6.9, 11.0)"
+    },
+    {
+      "Input": [
+        "Warsaw",
+        "7209",
+        "1725-01-27 11:37:48",
+        "(-35.351278, 82.46)"
+      ],
+      "Output": "The meteorite named WARSAW weighing 7.209 kg fell in 1725 near lat/long (-35.4, 82.5)"
+    },
+    {
+      "Input": [
+        "Abu Dhabi",
+        "0725",
+        "1856-03-26 00:46:18",
+        "(-47.510, 15.53)"
+      ],
+      "Output": "The meteorite named ABU DHABI weighing 0.725 kg fell in 1856 near lat/long (-47.5, 15.5)"
+    },
+    {
+      "Input": [
+        "Knoxville",
+        "7422",
+        "2037-10-24 21:49:19",
+        "(87.183, 20.34)"
+      ],
+      "Output": "The meteorite named KNOXVILLE weighing 7.422 kg fell in 2037 near lat/long (87.2, 20.3)"
+    },
+    {
+      "Input": [
+        "Patna",
+        "0744",
+        "1702-03-01 18:58:09",
+        "(-74.88, 18.345)"
+      ],
+      "Output": "The meteorite named PATNA weighing 0.744 kg fell in 1702 near lat/long (-74.9, 18.3)"
+    },
+    {
+      "Input": [
+        "Shijiazhuang",
+        "01",
+        "1929-07-23 17:14:55",
+        "(-63.217831, -147.220427)"
+      ],
+      "Output": "The meteorite named SHIJIAZHUANG weighing 0.001 kg fell in 1929 near lat/long (-63.2, -147.2)"
+    },
+    {
+      "Input": [
+        "Lakewood",
+        "007.0",
+        "1758-06-04 06:00:50",
+        "(-48.867, -177.268)"
+      ],
+      "Output": "The meteorite named LAKEWOOD weighing 0.007 kg fell in 1758 near lat/long (-48.9, -177.3)"
+    },
+    {
+      "Input": [
+        "Baghdad",
+        "35052",
+        "1832-11-11 21:19:04",
+        "(-81.538894, -158.050566)"
+      ],
+      "Output": "The meteorite named BAGHDAD weighing 35.052 kg fell in 1832 near lat/long (-81.5, -158.1)"
+    },
+    {
+      "Input": [
+        "High Point",
+        "1557",
+        "1736-05-25 00:11:22",
+        "(-50.018740, 99.922)"
+      ],
+      "Output": "The meteorite named HIGH POINT weighing 1.557 kg fell in 1736 near lat/long (-50.0, 99.9)"
+    },
+    {
+      "Input": [
+        "Tokyo",
+        "25.3",
+        "2053-03-10 21:31:47",
+        "(29.17, 82.96)"
+      ],
+      "Output": "The meteorite named TOKYO weighing 0.025 kg fell in 2053 near lat/long (29.2, 83.0)"
+    },
+    {
+      "Input": [
+        "El Monte",
+        "092",
+        "1741-12-10 13:21:23",
+        "(57.53, 6.103742)"
+      ],
+      "Output": "The meteorite named EL MONTE weighing 0.092 kg fell in 1741 near lat/long (57.5, 6.1)"
+    },
+    {
+      "Input": [
+        "Washington",
+        "584655",
+        "2000-07-04 16:42:42",
+        "(-18.427811, -48.92)"
+      ],
+      "Output": "The meteorite named WASHINGTON weighing 584.655 kg fell in 2000 near lat/long (-18.4, -48.9)"
+    },
+    {
+      "Input": [
+        "Kinshasa",
+        "5343",
+        "2208-02-16 01:52:58",
+        "(77.41, 121.66)"
+      ],
+      "Output": "The meteorite named KINSHASA weighing 5.343 kg fell in 2208 near lat/long (77.4, 121.7)"
+    },
+    {
+      "Input": [
+        "Tijuana",
+        "34",
+        "2114-05-10 06:33:17",
+        "(70.108, -80.768)"
+      ],
+      "Output": "The meteorite named TIJUANA weighing 0.034 kg fell in 2114 near lat/long (70.1, -80.8)"
+    },
+    {
+      "Input": [
+        "Jacksonville",
+        "78",
+        "2079-02-15 02:45:17",
+        "(80.95, -105.887)"
+      ],
+      "Output": "The meteorite named JACKSONVILLE weighing 0.078 kg fell in 2079 near lat/long (81.0, -105.9)"
+    },
+    {
+      "Input": [
+        "Xi'an",
+        "91.2",
+        "1925-04-05 16:13:32",
+        "(75.56, -83.204)"
+      ],
+      "Output": "The meteorite named XI'AN weighing 0.091 kg fell in 1925 near lat/long (75.6, -83.2)"
+    },
+    {
+      "Input": [
+        "Orange",
+        "32472",
+        "1734-09-22 23:03:54",
+        "(4.052, 14.37)"
+      ],
+      "Output": "The meteorite named ORANGE weighing 32.472 kg fell in 1734 near lat/long (4.1, 14.4)"
+    },
+    {
+      "Input": [
+        "Monterrey",
+        "48.3",
+        "2066-09-10 08:45:59",
+        "(-16.758830, -115.806)"
+      ],
+      "Output": "The meteorite named MONTERREY weighing 0.048 kg fell in 2066 near lat/long (-16.8, -115.8)"
+    },
+    {
+      "Input": [
+        "Aurora",
+        "0760",
+        "1804-10-15 06:52:01",
+        "(82.488294, 55.19)"
+      ],
+      "Output": "The meteorite named AURORA weighing 0.760 kg fell in 1804 near lat/long (82.5, 55.2)"
+    },
+    {
+      "Input": [
+        "Dongguan",
+        "81.6",
+        "1931-03-21 22:57:50",
+        "(50.635138, 124.693994)"
+      ],
+      "Output": "The meteorite named DONGGUAN weighing 0.082 kg fell in 1931 near lat/long (50.6, 124.7)"
+    },
+    {
+      "Input": [
+        "Rochester",
+        "42174",
+        "2199-06-28 07:43:23",
+        "(-17.642, -116.62)"
+      ],
+      "Output": "The meteorite named ROCHESTER weighing 42.174 kg fell in 2199 near lat/long (-17.6, -116.6)"
+    },
+    {
+      "Input": [
+        "Fukuoka",
+        "46.7",
+        "2185-08-27 00:08:49",
+        "(30.61, 136.51)"
+      ],
+      "Output": "The meteorite named FUKUOKA weighing 0.047 kg fell in 2185 near lat/long (30.6, 136.5)"
+    },
+    {
+      "Input": [
+        "Auckland",
+        "51",
+        "2120-06-12 18:58:55",
+        "(83.52, 139.761547)"
+      ],
+      "Output": "The meteorite named AUCKLAND weighing 0.051 kg fell in 2120 near lat/long (83.5, 139.8)"
+    },
+    {
+      "Input": [
+        "Lewisville",
+        "8740",
+        "1792-03-05 16:17:22",
+        "(89.513, -28.044184)"
+      ],
+      "Output": "The meteorite named LEWISVILLE weighing 8.740 kg fell in 1792 near lat/long (89.5, -28.0)"
+    },
+    {
+      "Input": [
+        "Anaheim",
+        "82",
+        "2034-12-13 03:48:39",
+        "(68.437, 21.951)"
+      ],
+      "Output": "The meteorite named ANAHEIM weighing 0.082 kg fell in 2034 near lat/long (68.4, 22.0)"
+    },
+    {
+      "Input": [
+        "Pomona",
+        "976",
+        "2207-02-21 01:51:29",
+        "(70.608, -117.22)"
+      ],
+      "Output": "The meteorite named POMONA weighing 0.976 kg fell in 2207 near lat/long (70.6, -117.2)"
+    },
+    {
+      "Input": [
+        "Tucson",
+        "277",
+        "2043-09-19 10:58:13",
+        "(54.317, 43.914748)"
+      ],
+      "Output": "The meteorite named TUCSON weighing 0.277 kg fell in 2043 near lat/long (54.3, 43.9)"
+    },
+    {
+      "Input": [
+        "Pompano Beach",
+        "525448",
+        "1767-12-18 13:34:42",
+        "(-7.45, -18.889)"
+      ],
+      "Output": "The meteorite named POMPANO BEACH weighing 525.448 kg fell in 1767 near lat/long (-7.5, -18.9)"
+    },
+    {
+      "Input": [
+        "Cairo",
+        "34",
+        "2089-03-02 07:33:51",
+        "(-70.198, -153.97)"
+      ],
+      "Output": "The meteorite named CAIRO weighing 0.034 kg fell in 2089 near lat/long (-70.2, -154.0)"
+    },
+    {
+      "Input": [
+        "Nairobi",
+        "04.5",
+        "2116-05-17 08:01:28",
+        "(-79.93, -154.17)"
+      ],
+      "Output": "The meteorite named NAIROBI weighing 0.005 kg fell in 2116 near lat/long (-79.9, -154.2)"
+    },
+    {
+      "Input": [
+        "Khartoum",
+        "84.4",
+        "1972-07-13 08:25:09",
+        "(12.498061, -87.675285)"
+      ],
+      "Output": "The meteorite named KHARTOUM weighing 0.084 kg fell in 1972 near lat/long (12.5, -87.7)"
+    },
+    {
+      "Input": [
+        "Monterrey",
+        "12",
+        "2164-04-04 12:00:46",
+        "(-23.617746, -46.259)"
+      ],
+      "Output": "The meteorite named MONTERREY weighing 0.012 kg fell in 2164 near lat/long (-23.6, -46.3)"
+    },
+    {
+      "Input": [
+        "Nanjing",
+        "98502",
+        "1949-02-14 12:36:00",
+        "(-88.38, -89.821)"
+      ],
+      "Output": "The meteorite named NANJING weighing 98.502 kg fell in 1949 near lat/long (-88.4, -89.8)"
+    },
+    {
+      "Input": [
+        "Birmingham",
+        "47",
+        "2215-10-21 02:20:06",
+        "(-81.654, 174.76)"
+      ],
+      "Output": "The meteorite named BIRMINGHAM weighing 0.047 kg fell in 2215 near lat/long (-81.7, 174.8)"
+    },
+    {
+      "Input": [
+        "Clarksville",
+        "544",
+        "1846-07-23 07:20:32",
+        "(-51.39, -154.18)"
+      ],
+      "Output": "The meteorite named CLARKSVILLE weighing 0.544 kg fell in 1846 near lat/long (-51.4, -154.2)"
+    },
+    {
+      "Input": [
+        "Vancouver",
+        "057",
+        "1782-07-30 08:04:56",
+        "(39.751, -31.060)"
+      ],
+      "Output": "The meteorite named VANCOUVER weighing 0.057 kg fell in 1782 near lat/long (39.8, -31.1)"
+    },
+    {
+      "Input": [
+        "Shenzhen",
+        "4259",
+        "2100-06-24 16:35:32",
+        "(-78.31, -63.89)"
+      ],
+      "Output": "The meteorite named SHENZHEN weighing 4.259 kg fell in 2100 near lat/long (-78.3, -63.9)"
+    },
+    {
+      "Input": [
+        "Vijayawada",
+        "7372",
+        "1978-01-12 08:45:20",
+        "(17.092, -97.82)"
+      ],
+      "Output": "The meteorite named VIJAYAWADA weighing 7.372 kg fell in 1978 near lat/long (17.1, -97.8)"
+    }
+  ]
+}

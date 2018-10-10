@@ -1,0 +1,184 @@
+{
+  "Examples": [
+    {
+      "Input": [
+        "May 17 1835"
+      ],
+      "Output": "W20"
+    },
+    {
+      "Input": [
+        "11-Jan-1886"
+      ],
+      "Output": "W02"
+    },
+    {
+      "Input": [
+        "29 Sep 2048"
+      ],
+      "Output": "W40"
+    },
+    {
+      "Input": [
+        "16 Jun 1931"
+      ],
+      "Output": "W25"
+    },
+    {
+      "Input": [
+        "11 May 2215"
+      ],
+      "Output": "W19"
+    },
+    {
+      "Input": [
+        "Oct 17 1892"
+      ],
+      "Output": "W42"
+    },
+    {
+      "Input": [
+        "Tue wk 42 in 2222"
+      ],
+      "Output": "W42"
+    },
+    {
+      "Input": [
+        "03302077"
+      ],
+      "Output": "W13"
+    },
+    {
+      "Input": [
+        "26 Dec 2231"
+      ],
+      "Output": "W52"
+    },
+    {
+      "Input": [
+        "Sat wk 8 in 2106"
+      ],
+      "Output": "W08"
+    },
+    {
+      "Input": [
+        "28 August 2212"
+      ],
+      "Output": "W35"
+    },
+    {
+      "Input": [
+        "May 7 1791"
+      ],
+      "Output": "W18"
+    },
+    {
+      "Input": [
+        "06202214"
+      ],
+      "Output": "W25"
+    },
+    {
+      "Input": [
+        "03171719"
+      ],
+      "Output": "W11"
+    },
+    {
+      "Input": [
+        "14 July 1939"
+      ],
+      "Output": "W28"
+    },
+    {
+      "Input": [
+        "Apr 11 1699"
+      ],
+      "Output": "W15"
+    },
+    {
+      "Input": [
+        "22 Oct 2124"
+      ],
+      "Output": "W42"
+    },
+    {
+      "Input": [
+        "Jun 1779 Thu 2"
+      ],
+      "Output": "W23"
+    },
+    {
+      "Input": [
+        "09-Jan-1866"
+      ],
+      "Output": "W02"
+    },
+    {
+      "Input": [
+        "27 Oct 2107"
+      ],
+      "Output": "W43"
+    },
+    {
+      "Input": [
+        "Nov 21 1934"
+      ],
+      "Output": "W47"
+    },
+    {
+      "Input": [
+        "23 Dec 2075"
+      ],
+      "Output": "W52"
+    },
+    {
+      "Input": [
+        "16 Jul 1949"
+      ],
+      "Output": "W28"
+    },
+    {
+      "Input": [
+        "Aug 14 1944"
+      ],
+      "Output": "W33"
+    },
+    {
+      "Input": [
+        "Jun 2135 Thu 2"
+      ],
+      "Output": "W23"
+    },
+    {
+      "Input": [
+        "Jul 31 2204"
+      ],
+      "Output": "W31"
+    },
+    {
+      "Input": [
+        "Jun 2132 Thu 2"
+      ],
+      "Output": "W24"
+    },
+    {
+      "Input": [
+        "1877 358"
+      ],
+      "Output": "W52"
+    },
+    {
+      "Input": [
+        "12 Dec 1718"
+      ],
+      "Output": "W50"
+    },
+    {
+      "Input": [
+        "9 May 1728"
+      ],
+      "Output": "W19"
+    }
+  ]
+}

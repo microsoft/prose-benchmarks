@@ -1,0 +1,41 @@
+{
+  "Kind": "Field",
+  "Examples": [
+    {
+      "Input": [
+        {
+          "Start": 91,
+          "End": 114,
+          "Value": "f914d9a8  PAGE_NOACCESS"
+        },
+        {
+          "Start": 248,
+          "End": 271,
+          "Value": "5a7dcccf  PAGE_READONLY"
+        },
+        {
+          "Start": 445,
+          "End": 468,
+          "Value": "0b137944  PAGE_READONLY"
+        }
+      ],
+      "Output": [
+        {
+          "Start": 91,
+          "End": 99,
+          "Value": "f914d9a8"
+        },
+        {
+          "Start": 248,
+          "End": 256,
+          "Value": "5a7dcccf"
+        },
+        {
+          "Start": 445,
+          "End": 453,
+          "Value": "0b137944"
+        }
+      ]
+    }
+  ]
+}

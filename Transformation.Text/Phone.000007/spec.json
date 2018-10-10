@@ -1,0 +1,178 @@
+{
+  "Examples": [
+    {
+      "Input": [
+        "Aysu Kiriakos Yilmaz                 7890 Seventh Place ,Denver,WY,(089) 638-8906,000-52-9340,41230"
+      ],
+      "Output": "638-8906"
+    },
+    {
+      "Input": [
+        "Svetlana Konovalova                 678 Redwood Lane NW ,Long Beach,OK,(129) 734-1247,000-61-4879,03719"
+      ],
+      "Output": "734-1247"
+    },
+    {
+      "Input": [
+        "Murali Marie Poghosyan                 4567 Second Way NE ,Brasília,WY,(467) 817-7191,000-47-5407,17293"
+      ],
+      "Output": "817-7191"
+    },
+    {
+      "Input": [
+        "Joyikutty Laddavone Rukundo                 456 Pecan Place ,Belo Horizonte,FL,(066) 692-9096,000-09-1490,03719"
+      ],
+      "Output": "692-9096"
+    },
+    {
+      "Input": [
+        "Liidia Vadeboncoeur                 678 First Place,Curitiba,OH,(993) 525-5024,000-84-6131,03719"
+      ],
+      "Output": "525-5024"
+    },
+    {
+      "Input": [
+        "Julia Erwin Mebratu                 567 Fourth Court SE ,Orlando,AR,(285) 659-0518,000-64-5753,38891"
+      ],
+      "Output": "659-0518"
+    },
+    {
+      "Input": [
+        "Gordan Vukelic                 56 Second Court,Dallas,AK,(382) 905-9906,000-27-9671,38891"
+      ],
+      "Output": "905-9906"
+    },
+    {
+      "Input": [
+        "Nozim Novak                 45 12th Street ,Thornton,MT,(390) 611-4523,000-24-7840,03719"
+      ],
+      "Output": "611-4523"
+    },
+    {
+      "Input": [
+        "Filips Dimitrov                 890 12th Highway NW,Lucknow,VT,(463) 329-6099,000-15-7722,03719"
+      ],
+      "Output": "329-6099"
+    },
+    {
+      "Input": [
+        "Fionn Ó Cathasaigh                 678 Elm Court SW,Murrieta,SC,(437) 469-6069,000-87-5395,03719"
+      ],
+      "Output": "469-6069"
+    },
+    {
+      "Input": [
+        "Yasmin Simranpreet Bekzhankyzy                 3456 Cherry Boulevard NE ,Patna,ID,(849) 311-6255,000-77-4823,03719"
+      ],
+      "Output": "311-6255"
+    },
+    {
+      "Input": [
+        "Yasemin Christine Haiduk                 234 123rd Street NE ,Columbia,IL,(204) 288-5929,000-85-8961,38891"
+      ],
+      "Output": "288-5929"
+    },
+    {
+      "Input": [
+        "Takuma Pinto                 789 Elm Route,Santa Clarita,KY,(472) 958-9243,000-18-2614,41230"
+      ],
+      "Output": "958-9243"
+    },
+    {
+      "Input": [
+        "Bopha Choibekova                 678 Maple Road ,Isfahan,ME,(560) 591-4019,000-03-3320,03719"
+      ],
+      "Output": "591-4019"
+    },
+    {
+      "Input": [
+        "Hagai Heidi Vasala                 1234 Sixth Street NE ,Hayward,TN,(240) 243-6471,000-10-1349,38891"
+      ],
+      "Output": "243-6471"
+    },
+    {
+      "Input": [
+        "Ilija Jana Banh                 89 Oak Highway NW ,Fez,VA,(485) 729-5905,000-16-9659,38891"
+      ],
+      "Output": "729-5905"
+    },
+    {
+      "Input": [
+        "Vasil Haiduk                 3456 Apple Highway NE ,Bengaluru,VT,(738) 951-5335,000-38-2907,58712"
+      ],
+      "Output": "951-5335"
+    },
+    {
+      "Input": [
+        "Malin Cavalcanti                 5678 Redwood Highway,Athens,NV,(477) 501-0862,000-60-6413,41230"
+      ],
+      "Output": "501-0862"
+    },
+    {
+      "Input": [
+        "Jeanette Dubey                 23 Oak Court ,Richmond,OK,(996) 976-6066,000-93-3208,03719"
+      ],
+      "Output": "976-6066"
+    },
+    {
+      "Input": [
+        "Gilbert Lacroix                 78 Tenth Way NE ,Brasília,ND,(474) 104-4099,000-24-9063,58712"
+      ],
+      "Output": "104-4099"
+    },
+    {
+      "Input": [
+        "Teodora Vanh                 90 Fourth Highway NE ,Barcelona,KS,(065) 440-1314,000-91-8728,41230"
+      ],
+      "Output": "440-1314"
+    },
+    {
+      "Input": [
+        "Nuria Acevedo                 45 Cherry Boulevard NW ,Palembang,IA,(303) 521-1924,000-81-4228,58712"
+      ],
+      "Output": "521-1924"
+    },
+    {
+      "Input": [
+        "Maciej Dudek                 78 Pecan Court,Baton Rouge,WI,(176) 307-1782,000-77-9632,41230"
+      ],
+      "Output": "307-1782"
+    },
+    {
+      "Input": [
+        "Arianne Jennifer Damgaard                 34 123rd Court SW ,Xi'an,NY,(052) 929-3393,000-02-2501,17293"
+      ],
+      "Output": "929-3393"
+    },
+    {
+      "Input": [
+        "Emil Agirrezabalaga                 5678 Cherry Way NE,Dongguan,SC,(442) 210-7750,000-39-8059,03719"
+      ],
+      "Output": "210-7750"
+    },
+    {
+      "Input": [
+        "Lenka Krievins                 890 Redwood Boulevard SW,Salem,NV,(619) 185-9517,000-12-1653,38891"
+      ],
+      "Output": "185-9517"
+    },
+    {
+      "Input": [
+        "Eba Casanova                 1234 Birch Route SE,Santiago,NY,(849) 831-0312,000-92-5619,38891"
+      ],
+      "Output": "831-0312"
+    },
+    {
+      "Input": [
+        "Shir Rosenstein                 45 1st Street ,San Bernardino,DC,(711) 277-4367,000-81-2596,58712"
+      ],
+      "Output": "277-4367"
+    },
+    {
+      "Input": [
+        "Amit Majewski                 34 Birch Court,Chongqing,NM,(987) 222-1382,000-90-4974,03719"
+      ],
+      "Output": "222-1382"
+    }
+  ]
+}

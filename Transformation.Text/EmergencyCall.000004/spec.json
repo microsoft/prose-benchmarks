@@ -1,0 +1,52 @@
+{
+  "Examples": [
+    {
+      "Input": [
+        "MONTGOMERY AVE & WOODSIDE RD; LOWER MERION; Station 313; 2015-12-11 @ 04:11:35;"
+      ],
+      "Output": "12 Nov 2015 4AM"
+    },
+    {
+      "Input": [
+        "DREYCOTT LN & W LANCASTER AVE; LOWER MERION; Station 313; 2015-12-11 @ 01:29:52;"
+      ],
+      "Output": "12 Nov 2015 1AM"
+    },
+    {
+      "Input": [
+        "E LEVERING MILL RD & CONSHOHOCKEN STATE RD; LOWER MERION; 2015-12-11 @ 07:29:58;"
+      ],
+      "Output": "12 Nov 2015 7AM"
+    },
+    {
+      "Input": [
+        "PENN VALLEY RD & MANOR RD; LOWER MERION; Station 313; 2015-12-10 @ 20:53:30;"
+      ],
+      "Output": "12 Oct 2015 8PM"
+    },
+    {
+      "Input": [
+        "BELMONT AVE & OVERHILL RD; LOWER MERION; 2015-12-10 @ 23:02:27;"
+      ],
+      "Output": "12 Oct 2015 11PM"
+    },
+    {
+      "Input": [
+        "W MONTGOMERY AVE & PENNSWOOD RD; LOWER MERION; 2015-12-10 @ 19:25:22;"
+      ],
+      "Output": "12 Oct 2015 7PM"
+    },
+    {
+      "Input": [
+        "ROSEMONT AVE & DEAD END; LOWER MERION; Station 313; 2015-12-10 @ 18:43:07;"
+      ],
+      "Output": "12 Oct 2015 6PM"
+    },
+    {
+      "Input": [
+        "AVIGNON DR & DEAD END; LOWER MERION; 2015-12-10 @ 20:01:29-Station:STA24;"
+      ],
+      "Output": "12 Oct 2015 8PM"
+    }
+  ]
+}

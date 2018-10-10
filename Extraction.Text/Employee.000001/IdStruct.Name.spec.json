@@ -1,0 +1,41 @@
+{
+  "Kind": "Field",
+  "Examples": [
+    {
+      "Input": [
+        {
+          "Start": 45,
+          "End": 123,
+          "Value": "795\">\n\t\t<name>Hatice Demir</name>\n\t\t<age>58</age>\n\t</employee>\n\t<employee id=\""
+        },
+        {
+          "Start": 123,
+          "End": 200,
+          "Value": "461\">\n\t\t<name>Lavena Tari</name>\n\t\t<age>46</age>\n\t</employee>\n\t<employee id=\""
+        },
+        {
+          "Start": 200,
+          "End": 281,
+          "Value": "665\">\n\t\t<name>Marta Guanyavents</name>\n\t\t<age>66</age>\n\t</employee>\n</employees>\n"
+        }
+      ],
+      "Output": [
+        {
+          "Start": 59,
+          "End": 71,
+          "Value": "Hatice Demir"
+        },
+        {
+          "Start": 137,
+          "End": 148,
+          "Value": "Lavena Tari"
+        },
+        {
+          "Start": 214,
+          "End": 231,
+          "Value": "Marta Guanyavents"
+        }
+      ]
+    }
+  ]
+}

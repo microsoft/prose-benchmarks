@@ -1,0 +1,31 @@
+{
+  "Kind": "Field",
+  "Examples": [
+    {
+      "Input": [
+        {
+          "Start": 134,
+          "End": 155,
+          "Value": "da98af41  MEM_PRIVATE"
+        },
+        {
+          "Start": 291,
+          "End": 312,
+          "Value": "4d3219ba  MEM_PRIVATE"
+        }
+      ],
+      "Output": [
+        {
+          "Start": 134,
+          "End": 142,
+          "Value": "da98af41"
+        },
+        {
+          "Start": 291,
+          "End": 299,
+          "Value": "4d3219ba"
+        }
+      ]
+    }
+  ]
+}

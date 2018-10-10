@@ -1,0 +1,28 @@
+{
+  "Examples": [
+    {
+      "Input": [
+        "875.25.9492"
+      ],
+      "Output": "25"
+    },
+    {
+      "Input": [
+        "harum.totam.voluptatibus"
+      ],
+      "Output": "totam"
+    },
+    {
+      "Input": [
+        "asperiores.cum.ipsam"
+      ],
+      "Output": "cum"
+    },
+    {
+      "Input": [
+        "890.65.9650"
+      ],
+      "Output": "65"
+    }
+  ]
+}

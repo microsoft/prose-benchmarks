@@ -1,0 +1,197 @@
+{
+  "Property": "root",
+  "Start": 0,
+  "End": 509,
+  "Children": [
+    {
+      "Property": "BaseAddressStruct",
+      "Start": 19,
+      "End": 176,
+      "Children": [
+        {
+          "Property": "BaseAddress",
+          "Start": 19,
+          "End": 35,
+          "Value": "3905d04bff684880"
+        },
+        {
+          "Property": "RegionSize",
+          "Start": 55,
+          "End": 71,
+          "Value": "7d91b6e2b9da9229"
+        },
+        {
+          "Property": "State",
+          "Start": 91,
+          "End": 114,
+          "Children": [
+            {
+              "Property": "StateFlag",
+              "Start": 91,
+              "End": 99,
+              "Value": "f914d9a8"
+            },
+            {
+              "Property": "StateDefinition",
+              "Start": 101,
+              "End": 114,
+              "Value": "PAGE_NOACCESS"
+            }
+          ]
+        },
+        {
+          "Property": "Protect",
+          "Start": 134,
+          "End": 155,
+          "Children": [
+            {
+              "Property": "ProtectFlag",
+              "Start": 134,
+              "End": 142,
+              "Value": "da98af41"
+            },
+            {
+              "Property": "ProtectDefinition",
+              "Start": 144,
+              "End": 155,
+              "Value": "MEM_PRIVATE"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Property": "BaseAddressStruct",
+      "Start": 176,
+      "End": 373,
+      "Children": [
+        {
+          "Property": "BaseAddress",
+          "Start": 176,
+          "End": 192,
+          "Value": "36b973edbda93ee1"
+        },
+        {
+          "Property": "RegionSize",
+          "Start": 212,
+          "End": 228,
+          "Value": "2ad3f7abc1bb2e37"
+        },
+        {
+          "Property": "State",
+          "Start": 248,
+          "End": 271,
+          "Children": [
+            {
+              "Property": "StateFlag",
+              "Start": 248,
+              "End": 256,
+              "Value": "5a7dcccf"
+            },
+            {
+              "Property": "StateDefinition",
+              "Start": 258,
+              "End": 271,
+              "Value": "PAGE_READONLY"
+            }
+          ]
+        },
+        {
+          "Property": "Protect",
+          "Start": 291,
+          "End": 312,
+          "Children": [
+            {
+              "Property": "ProtectFlag",
+              "Start": 291,
+              "End": 299,
+              "Value": "4d3219ba"
+            },
+            {
+              "Property": "ProtectDefinition",
+              "Start": 301,
+              "End": 312,
+              "Value": "MEM_PRIVATE"
+            }
+          ]
+        },
+        {
+          "Property": "Type",
+          "Start": 332,
+          "End": 352,
+          "Children": [
+            {
+              "Property": "TypeFlag",
+              "Start": 332,
+              "End": 340,
+              "Value": "ea1219f7"
+            },
+            {
+              "Property": "Definition",
+              "Start": 342,
+              "End": 352,
+              "Value": "MEM_PUBLIC"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Property": "BaseAddressStruct",
+      "Start": 373,
+      "End": 509,
+      "Children": [
+        {
+          "Property": "BaseAddress",
+          "Start": 373,
+          "End": 389,
+          "Value": "327706d3e08ff0a4"
+        },
+        {
+          "Property": "RegionSize",
+          "Start": 409,
+          "End": 425,
+          "Value": "9c56fef42e2e8c85"
+        },
+        {
+          "Property": "State",
+          "Start": 445,
+          "End": 468,
+          "Children": [
+            {
+              "Property": "StateFlag",
+              "Start": 445,
+              "End": 453,
+              "Value": "0b137944"
+            },
+            {
+              "Property": "StateDefinition",
+              "Start": 455,
+              "End": 468,
+              "Value": "PAGE_READONLY"
+            }
+          ]
+        },
+        {
+          "Property": "Type",
+          "Start": 488,
+          "End": 509,
+          "Children": [
+            {
+              "Property": "TypeFlag",
+              "Start": 488,
+              "End": 496,
+              "Value": "a501ebea"
+            },
+            {
+              "Property": "Definition",
+              "Start": 498,
+              "End": 509,
+              "Value": "MEM_PRIVATE"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

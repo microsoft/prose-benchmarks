@@ -1,0 +1,8 @@
+{
+  "Features": [
+    "Numeric",
+    "NumericRange",
+    "NumericRounding"
+  ],
+  "Synthetic": true
+}

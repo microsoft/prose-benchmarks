@@ -1,0 +1,64 @@
+{
+  "Examples": [
+    {
+      "Input": [
+        "ET DIGNISSIMOS REICIENDIS AD NOSTRUM 52MG ZAW 963-889-0659 - - 501429-67 11-07-1712"
+      ],
+      "Output": "963-889-0659"
+    },
+    {
+      "Input": [
+        "ET AUTEM SUSCIPIT 3 BLANDITIIS [KS] 641-887-8662 - - 808168-29 10-19-1959"
+      ],
+      "Output": "641-887-8662"
+    },
+    {
+      "Input": [
+        "Et Consectetur Voluptatum [RM] 887-792-5632 - - 210666-92 10-02-2204"
+      ],
+      "Output": "887-792-5632"
+    },
+    {
+      "Input": [
+        "TENETUR QUOS RATIONE CUM SIMILIQUE 10MG JWB 279-935-2550 486174-91 04-29-2079"
+      ],
+      "Output": "279-935-2550"
+    },
+    {
+      "Input": [
+        "MAGNAM REPELLAT SIMILIQUE VERITATIS VOLUPTATEM 68MG NZC 518-655-6930 420214-40 02-17-1909"
+      ],
+      "Output": "518-655-6930"
+    },
+    {
+      "Input": [
+        "Sit Et Minima Delectus Officia Est 97MG XZG 181-857-5390 - - 114523-27 01-25-1769"
+      ],
+      "Output": "181-857-5390"
+    },
+    {
+      "Input": [
+        "QUO SAEPE ET ALIQUAM VOLUPTATEM VOLUPTATUM 54'S 633-296-0991 - - 010171-86 12-16-2009"
+      ],
+      "Output": "633-296-0991"
+    },
+    {
+      "Input": [
+        "Laboriosam Omnis Molestiae Est 18MG QZW 510-563-8375 - - 551653-28 03-03-1948"
+      ],
+      "Output": "510-563-8375"
+    },
+    {
+      "Input": [
+        "MOLESTIAS EST ATQUE AUT ODIO 60'S 760-549-1126 - - 220428-85 04-08-2217"
+      ],
+      "Output": "760-549-1126"
+    },
+    {
+      "Input": [
+        "Omnis Corporis Quam Reprehenderit 64MG YXH 634-729-5892 312659-37 03-20-2128"
+      ],
+      "Output": "634-729-5892"
+    }
+  ]
+}

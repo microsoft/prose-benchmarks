@@ -1,0 +1,6004 @@
+{
+  "Examples": [
+    {
+      "Input": [
+        "1Z TFX 926 49 0896 388 9"
+      ],
+      "Output": "TFX"
+    },
+    {
+      "Input": [
+        "1Z NRC 49T 03 3957 129 7"
+      ],
+      "Output": "NRC"
+    },
+    {
+      "Input": [
+        "1Z 14Q 1VW 66 2880 816 8"
+      ],
+      "Output": "14Q"
+    },
+    {
+      "Input": [
+        "1Z MSC S94 53 6488 779 2"
+      ],
+      "Output": "MSC"
+    },
+    {
+      "Input": [
+        "1Z I81 6QF 90 9601 169 4"
+      ],
+      "Output": "I81"
+    },
+    {
+      "Input": [
+        "1Z O63 B7Z 35 2550 248 6"
+      ],
+      "Output": "O63"
+    },
+    {
+      "Input": [
+        "1Z KDQ RE6 29 5028 565 9"
+      ],
+      "Output": "KDQ"
+    },
+    {
+      "Input": [
+        "1Z EQO Z04 20 2144 038 2"
+      ],
+      "Output": "EQO"
+    },
+    {
+      "Input": [
+        "1Z 5Z6 9U4 98 9218 185 7"
+      ],
+      "Output": "5Z6"
+    },
+    {
+      "Input": [
+        "1Z 961 537 16 5630 087 8"
+      ],
+      "Output": "961"
+    },
+    {
+      "Input": [
+        "1Z 21M I2P 09 9170 101 7"
+      ],
+      "Output": "21M"
+    },
+    {
+      "Input": [
+        "1Z QGW 9L7 46 9606 985 1"
+      ],
+      "Output": "QGW"
+    },
+    {
+      "Input": [
+        "1Z R87 VN6 53 2849 311 6"
+      ],
+      "Output": "R87"
+    },
+    {
+      "Input": [
+        "1Z NM4 8SA 54 9112 672 2"
+      ],
+      "Output": "NM4"
+    },
+    {
+      "Input": [
+        "1Z 2VY 9X8 35 3434 669 9"
+      ],
+      "Output": "2VY"
+    },
+    {
+      "Input": [
+        "1Z I79 WH3 12 6593 771 1"
+      ],
+      "Output": "I79"
+    },
+    {
+      "Input": [
+        "1Z OW3 R5E 40 1903 055 8"
+      ],
+      "Output": "OW3"
+    },
+    {
+      "Input": [
+        "1Z 1VG 15V 24 0243 647 1"
+      ],
+      "Output": "1VG"
+    },
+    {
+      "Input": [
+        "1Z 5JL 576 74 5849 485 7"
+      ],
+      "Output": "5JL"
+    },
+    {
+      "Input": [
+        "1Z PBE L96 39 8460 960 8"
+      ],
+      "Output": "PBE"
+    },
+    {
+      "Input": [
+        "1Z 8N5 3J8 77 4540 397 6"
+      ],
+      "Output": "8N5"
+    },
+    {
+      "Input": [
+        "1Z 8LS B0R 26 6790 552 0"
+      ],
+      "Output": "8LS"
+    },
+    {
+      "Input": [
+        "1Z 75P ZRS 66 0669 317 9"
+      ],
+      "Output": "75P"
+    },
+    {
+      "Input": [
+        "1Z 9H8 1FM 74 1044 099 2"
+      ],
+      "Output": "9H8"
+    },
+    {
+      "Input": [
+        "1Z EKP X1C 67 3306 544 0"
+      ],
+      "Output": "EKP"
+    },
+    {
+      "Input": [
+        "1Z 19Q Y98 15 4356 323 0"
+      ],
+      "Output": "19Q"
+    },
+    {
+      "Input": [
+        "1Z G1G 895 23 6026 251 6"
+      ],
+      "Output": "G1G"
+    },
+    {
+      "Input": [
+        "1Z 7J7 7GZ 67 4767 158 1"
+      ],
+      "Output": "7J7"
+    },
+    {
+      "Input": [
+        "1Z 9O6 599 33 9302 212 4"
+      ],
+      "Output": "9O6"
+    },
+    {
+      "Input": [
+        "1Z 3YV 00K 42 2107 750 3"
+      ],
+      "Output": "3YV"
+    },
+    {
+      "Input": [
+        "1Z 3J3 YTV 22 7561 918 5"
+      ],
+      "Output": "3J3"
+    },
+    {
+      "Input": [
+        "1Z DD4 X6Q 57 4964 106 8"
+      ],
+      "Output": "DD4"
+    },
+    {
+      "Input": [
+        "1Z W13 2O2 22 2441 811 7"
+      ],
+      "Output": "W13"
+    },
+    {
+      "Input": [
+        "1Z 717 M6V 28 2452 450 1"
+      ],
+      "Output": "717"
+    },
+    {
+      "Input": [
+        "1Z 60Y U21 38 2941 016 5"
+      ],
+      "Output": "60Y"
+    },
+    {
+      "Input": [
+        "1Z R68 DB9 57 7154 845 0"
+      ],
+      "Output": "R68"
+    },
+    {
+      "Input": [
+        "1Z Q3L 9T4 33 2484 071 1"
+      ],
+      "Output": "Q3L"
+    },
+    {
+      "Input": [
+        "1Z CAQ AY3 00 5875 141 3"
+      ],
+      "Output": "CAQ"
+    },
+    {
+      "Input": [
+        "1Z 70B 37P 21 4430 725 2"
+      ],
+      "Output": "70B"
+    },
+    {
+      "Input": [
+        "1Z 451 6KK 22 6994 656 2"
+      ],
+      "Output": "451"
+    },
+    {
+      "Input": [
+        "1Z 70L 0CB 55 5114 001 4"
+      ],
+      "Output": "70L"
+    },
+    {
+      "Input": [
+        "1Z 2CW T90 70 1222 403 5"
+      ],
+      "Output": "2CW"
+    },
+    {
+      "Input": [
+        "1Z 33C H81 80 3719 321 5"
+      ],
+      "Output": "33C"
+    },
+    {
+      "Input": [
+        "1Z B2U K66 72 5368 671 7"
+      ],
+      "Output": "B2U"
+    },
+    {
+      "Input": [
+        "1Z 1L0 G5T 25 8644 465 8"
+      ],
+      "Output": "1L0"
+    },
+    {
+      "Input": [
+        "1Z OOK 707 09 3534 390 9"
+      ],
+      "Output": "OOK"
+    },
+    {
+      "Input": [
+        "1Z 8F3 C4H 86 5286 847 0"
+      ],
+      "Output": "8F3"
+    },
+    {
+      "Input": [
+        "1Z S92 962 79 1246 983 2"
+      ],
+      "Output": "S92"
+    },
+    {
+      "Input": [
+        "1Z 8DH 4H9 50 3581 546 8"
+      ],
+      "Output": "8DH"
+    },
+    {
+      "Input": [
+        "1Z JJ7 E5Q 03 0760 129 6"
+      ],
+      "Output": "JJ7"
+    },
+    {
+      "Input": [
+        "1Z F17 W69 78 9869 164 5"
+      ],
+      "Output": "F17"
+    },
+    {
+      "Input": [
+        "1Z 1KI 510 13 6746 780 6"
+      ],
+      "Output": "1KI"
+    },
+    {
+      "Input": [
+        "1Z 8GJ ADU 92 3857 097 3"
+      ],
+      "Output": "8GJ"
+    },
+    {
+      "Input": [
+        "1Z M1Z Q5M 52 0826 188 3"
+      ],
+      "Output": "M1Z"
+    },
+    {
+      "Input": [
+        "1Z M71 SY8 74 1108 431 2"
+      ],
+      "Output": "M71"
+    },
+    {
+      "Input": [
+        "1Z Q8J MKJ 65 2544 815 4"
+      ],
+      "Output": "Q8J"
+    },
+    {
+      "Input": [
+        "1Z 440 04I 17 3030 415 8"
+      ],
+      "Output": "440"
+    },
+    {
+      "Input": [
+        "1Z 5I8 031 38 8445 358 9"
+      ],
+      "Output": "5I8"
+    },
+    {
+      "Input": [
+        "1Z 74D 2N5 83 6310 459 8"
+      ],
+      "Output": "74D"
+    },
+    {
+      "Input": [
+        "1Z 256 256 50 4790 046 9"
+      ],
+      "Output": "256"
+    },
+    {
+      "Input": [
+        "1Z 1E5 430 10 5166 210 5"
+      ],
+      "Output": "1E5"
+    },
+    {
+      "Input": [
+        "1Z 3H4 KBL 42 5976 003 3"
+      ],
+      "Output": "3H4"
+    },
+    {
+      "Input": [
+        "1Z 797 755 84 2003 829 2"
+      ],
+      "Output": "797"
+    },
+    {
+      "Input": [
+        "1Z 87M L84 51 4565 279 0"
+      ],
+      "Output": "87M"
+    },
+    {
+      "Input": [
+        "1Z NR7 001 13 9832 097 4"
+      ],
+      "Output": "NR7"
+    },
+    {
+      "Input": [
+        "1Z YV7 MD4 20 8979 723 5"
+      ],
+      "Output": "YV7"
+    },
+    {
+      "Input": [
+        "1Z 1RK CF8 73 8233 530 9"
+      ],
+      "Output": "1RK"
+    },
+    {
+      "Input": [
+        "1Z W39 EDJ 64 0708 022 7"
+      ],
+      "Output": "W39"
+    },
+    {
+      "Input": [
+        "1Z 5T9 FH9 84 0519 087 7"
+      ],
+      "Output": "5T9"
+    },
+    {
+      "Input": [
+        "1Z 75L 6BJ 84 1528 900 3"
+      ],
+      "Output": "75L"
+    },
+    {
+      "Input": [
+        "1Z 23J 83P 91 3279 668 0"
+      ],
+      "Output": "23J"
+    },
+    {
+      "Input": [
+        "1Z 0JZ QY1 24 0134 239 3"
+      ],
+      "Output": "0JZ"
+    },
+    {
+      "Input": [
+        "1Z 4P1 6D7 28 9485 756 8"
+      ],
+      "Output": "4P1"
+    },
+    {
+      "Input": [
+        "1Z 7T1 T98 99 3644 249 1"
+      ],
+      "Output": "7T1"
+    },
+    {
+      "Input": [
+        "1Z H07 737 84 4140 398 1"
+      ],
+      "Output": "H07"
+    },
+    {
+      "Input": [
+        "1Z 4W0 3Y8 49 1399 184 4"
+      ],
+      "Output": "4W0"
+    },
+    {
+      "Input": [
+        "1Z F3J EQ3 57 8978 048 7"
+      ],
+      "Output": "F3J"
+    },
+    {
+      "Input": [
+        "1Z G70 GO9 62 7693 722 2"
+      ],
+      "Output": "G70"
+    },
+    {
+      "Input": [
+        "1Z N90 08B 04 5112 357 3"
+      ],
+      "Output": "N90"
+    },
+    {
+      "Input": [
+        "1Z 7F0 57T 23 1222 571 1"
+      ],
+      "Output": "7F0"
+    },
+    {
+      "Input": [
+        "1Z F2Z QFW 24 8393 312 3"
+      ],
+      "Output": "F2Z"
+    },
+    {
+      "Input": [
+        "1Z 7A3 5CH 06 8355 175 5"
+      ],
+      "Output": "7A3"
+    },
+    {
+      "Input": [
+        "1Z S8K XHA 46 9627 697 6"
+      ],
+      "Output": "S8K"
+    },
+    {
+      "Input": [
+        "1Z T0Q 680 28 5519 169 5"
+      ],
+      "Output": "T0Q"
+    },
+    {
+      "Input": [
+        "1Z 6YB OGO 04 3027 631 1"
+      ],
+      "Output": "6YB"
+    },
+    {
+      "Input": [
+        "1Z UC0 A37 32 6251 258 7"
+      ],
+      "Output": "UC0"
+    },
+    {
+      "Input": [
+        "1Z DXY 128 12 9551 222 8"
+      ],
+      "Output": "DXY"
+    },
+    {
+      "Input": [
+        "1Z 8K1 RYE 96 1609 174 2"
+      ],
+      "Output": "8K1"
+    },
+    {
+      "Input": [
+        "1Z CRH M67 12 5294 529 6"
+      ],
+      "Output": "CRH"
+    },
+    {
+      "Input": [
+        "1Z W53 170 34 4231 445 6"
+      ],
+      "Output": "W53"
+    },
+    {
+      "Input": [
+        "1Z KQ2 A96 82 7419 400 6"
+      ],
+      "Output": "KQ2"
+    },
+    {
+      "Input": [
+        "1Z 821 134 06 7883 701 2"
+      ],
+      "Output": "821"
+    },
+    {
+      "Input": [
+        "1Z XS5 5I3 77 9689 753 7"
+      ],
+      "Output": "XS5"
+    },
+    {
+      "Input": [
+        "1Z V0R 6X7 36 3153 731 8"
+      ],
+      "Output": "V0R"
+    },
+    {
+      "Input": [
+        "1Z CSA 698 89 4583 624 6"
+      ],
+      "Output": "CSA"
+    },
+    {
+      "Input": [
+        "1Z A82 LVL 96 9565 288 3"
+      ],
+      "Output": "A82"
+    },
+    {
+      "Input": [
+        "1Z D8X 6H2 63 1247 430 2"
+      ],
+      "Output": "D8X"
+    },
+    {
+      "Input": [
+        "1Z VV6 839 71 3652 271 8"
+      ],
+      "Output": "VV6"
+    },
+    {
+      "Input": [
+        "1Z 23B 9FN 00 0496 499 4"
+      ],
+      "Output": "23B"
+    },
+    {
+      "Input": [
+        "1Z 11A N75 65 3378 347 1"
+      ],
+      "Output": "11A"
+    },
+    {
+      "Input": [
+        "1Z 581 X8A 17 9399 628 5"
+      ],
+      "Output": "581"
+    },
+    {
+      "Input": [
+        "1Z 8FC ZIS 54 1436 797 7"
+      ],
+      "Output": "8FC"
+    },
+    {
+      "Input": [
+        "1Z 6M4 9T0 97 9988 827 6"
+      ],
+      "Output": "6M4"
+    },
+    {
+      "Input": [
+        "1Z 8N5 6Q3 58 6245 489 3"
+      ],
+      "Output": "8N5"
+    },
+    {
+      "Input": [
+        "1Z 67D OOL 56 9737 143 5"
+      ],
+      "Output": "67D"
+    },
+    {
+      "Input": [
+        "1Z 166 805 88 8147 058 9"
+      ],
+      "Output": "166"
+    },
+    {
+      "Input": [
+        "1Z 5V1 Y60 57 5584 754 1"
+      ],
+      "Output": "5V1"
+    },
+    {
+      "Input": [
+        "1Z 8PS 9LF 08 8362 038 5"
+      ],
+      "Output": "8PS"
+    },
+    {
+      "Input": [
+        "1Z 3E1 3W3 04 5128 666 8"
+      ],
+      "Output": "3E1"
+    },
+    {
+      "Input": [
+        "1Z T13 863 26 5085 173 5"
+      ],
+      "Output": "T13"
+    },
+    {
+      "Input": [
+        "1Z W0M 83L 32 9905 017 9"
+      ],
+      "Output": "W0M"
+    },
+    {
+      "Input": [
+        "1Z 4TD D91 28 2530 780 3"
+      ],
+      "Output": "4TD"
+    },
+    {
+      "Input": [
+        "1Z 8O1 3VW 51 7376 275 1"
+      ],
+      "Output": "8O1"
+    },
+    {
+      "Input": [
+        "1Z CBD E95 98 5498 553 4"
+      ],
+      "Output": "CBD"
+    },
+    {
+      "Input": [
+        "1Z LRD QAG 42 0627 688 3"
+      ],
+      "Output": "LRD"
+    },
+    {
+      "Input": [
+        "1Z N28 PF1 60 4001 355 0"
+      ],
+      "Output": "N28"
+    },
+    {
+      "Input": [
+        "1Z 2E7 Q2V 17 9578 410 3"
+      ],
+      "Output": "2E7"
+    },
+    {
+      "Input": [
+        "1Z 6TQ VSB 03 6589 598 7"
+      ],
+      "Output": "6TQ"
+    },
+    {
+      "Input": [
+        "1Z 26S 9U4 55 9106 490 2"
+      ],
+      "Output": "26S"
+    },
+    {
+      "Input": [
+        "1Z E2G L74 54 0917 832 8"
+      ],
+      "Output": "E2G"
+    },
+    {
+      "Input": [
+        "1Z 0VI 702 44 4660 396 1"
+      ],
+      "Output": "0VI"
+    },
+    {
+      "Input": [
+        "1Z 6Q1 909 26 3917 924 0"
+      ],
+      "Output": "6Q1"
+    },
+    {
+      "Input": [
+        "1Z ND3 X9M 15 6168 192 2"
+      ],
+      "Output": "ND3"
+    },
+    {
+      "Input": [
+        "1Z 002 WI4 16 0155 189 3"
+      ],
+      "Output": "002"
+    },
+    {
+      "Input": [
+        "1Z 454 1H4 18 3765 121 7"
+      ],
+      "Output": "454"
+    },
+    {
+      "Input": [
+        "1Z NTK 49B 58 6444 151 0"
+      ],
+      "Output": "NTK"
+    },
+    {
+      "Input": [
+        "1Z F83 CN8 07 6777 855 2"
+      ],
+      "Output": "F83"
+    },
+    {
+      "Input": [
+        "1Z XCV E56 53 5605 885 2"
+      ],
+      "Output": "XCV"
+    },
+    {
+      "Input": [
+        "1Z TS7 4P5 95 2220 333 6"
+      ],
+      "Output": "TS7"
+    },
+    {
+      "Input": [
+        "1Z 31Z L4H 38 1447 060 1"
+      ],
+      "Output": "31Z"
+    },
+    {
+      "Input": [
+        "1Z EJV 9ZS 33 6350 110 0"
+      ],
+      "Output": "EJV"
+    },
+    {
+      "Input": [
+        "1Z J5N 0AP 99 5150 523 5"
+      ],
+      "Output": "J5N"
+    },
+    {
+      "Input": [
+        "1Z FK6 YOX 03 3333 986 6"
+      ],
+      "Output": "FK6"
+    },
+    {
+      "Input": [
+        "1Z LWD 7J3 31 1830 080 0"
+      ],
+      "Output": "LWD"
+    },
+    {
+      "Input": [
+        "1Z T79 710 95 7282 895 8"
+      ],
+      "Output": "T79"
+    },
+    {
+      "Input": [
+        "1Z 15V VR3 13 4375 671 8"
+      ],
+      "Output": "15V"
+    },
+    {
+      "Input": [
+        "1Z 2S6 07G 59 4898 373 5"
+      ],
+      "Output": "2S6"
+    },
+    {
+      "Input": [
+        "1Z Y94 CE0 29 0324 686 4"
+      ],
+      "Output": "Y94"
+    },
+    {
+      "Input": [
+        "1Z K7X BP9 78 6255 670 5"
+      ],
+      "Output": "K7X"
+    },
+    {
+      "Input": [
+        "1Z 8L3 SEP 56 6129 034 1"
+      ],
+      "Output": "8L3"
+    },
+    {
+      "Input": [
+        "1Z 5F2 R3C 99 4779 857 9"
+      ],
+      "Output": "5F2"
+    },
+    {
+      "Input": [
+        "1Z 5K8 10N 85 1645 582 0"
+      ],
+      "Output": "5K8"
+    },
+    {
+      "Input": [
+        "1Z HF3 Q34 61 8589 110 0"
+      ],
+      "Output": "HF3"
+    },
+    {
+      "Input": [
+        "1Z FI9 0CE 16 5677 461 5"
+      ],
+      "Output": "FI9"
+    },
+    {
+      "Input": [
+        "1Z 5BW 8SF 07 0169 333 7"
+      ],
+      "Output": "5BW"
+    },
+    {
+      "Input": [
+        "1Z W34 L01 89 8628 334 2"
+      ],
+      "Output": "W34"
+    },
+    {
+      "Input": [
+        "1Z WPQ FRV 23 4639 261 9"
+      ],
+      "Output": "WPQ"
+    },
+    {
+      "Input": [
+        "1Z 2I4 357 46 8883 725 2"
+      ],
+      "Output": "2I4"
+    },
+    {
+      "Input": [
+        "1Z HFK 565 39 2777 313 8"
+      ],
+      "Output": "HFK"
+    },
+    {
+      "Input": [
+        "1Z 013 691 03 2092 910 1"
+      ],
+      "Output": "013"
+    },
+    {
+      "Input": [
+        "1Z WP4 1VS 15 2828 926 1"
+      ],
+      "Output": "WP4"
+    },
+    {
+      "Input": [
+        "1Z 3T8 7WY 38 7318 733 3"
+      ],
+      "Output": "3T8"
+    },
+    {
+      "Input": [
+        "1Z 5JF 8J2 25 7824 018 2"
+      ],
+      "Output": "5JF"
+    },
+    {
+      "Input": [
+        "1Z Z5L V9L 26 5554 945 2"
+      ],
+      "Output": "Z5L"
+    },
+    {
+      "Input": [
+        "1Z 899 1VV 32 7346 563 5"
+      ],
+      "Output": "899"
+    },
+    {
+      "Input": [
+        "1Z FWS W69 63 4391 786 2"
+      ],
+      "Output": "FWS"
+    },
+    {
+      "Input": [
+        "1Z 3DT 59Y 77 0649 991 9"
+      ],
+      "Output": "3DT"
+    },
+    {
+      "Input": [
+        "1Z 9HN Q26 57 5319 119 8"
+      ],
+      "Output": "9HN"
+    },
+    {
+      "Input": [
+        "1Z QL9 GD7 15 4406 336 3"
+      ],
+      "Output": "QL9"
+    },
+    {
+      "Input": [
+        "1Z XQA 81H 68 0368 074 5"
+      ],
+      "Output": "XQA"
+    },
+    {
+      "Input": [
+        "1Z 7N5 OJH 54 3826 275 5"
+      ],
+      "Output": "7N5"
+    },
+    {
+      "Input": [
+        "1Z Q3N QAL 81 4936 689 1"
+      ],
+      "Output": "Q3N"
+    },
+    {
+      "Input": [
+        "1Z X9B 7WY 90 1900 782 7"
+      ],
+      "Output": "X9B"
+    },
+    {
+      "Input": [
+        "1Z 6RB R55 42 5854 225 3"
+      ],
+      "Output": "6RB"
+    },
+    {
+      "Input": [
+        "1Z Z6U 37Y 39 3276 113 7"
+      ],
+      "Output": "Z6U"
+    },
+    {
+      "Input": [
+        "1Z SF3 411 68 3381 287 5"
+      ],
+      "Output": "SF3"
+    },
+    {
+      "Input": [
+        "1Z 82P 2U3 90 5092 258 8"
+      ],
+      "Output": "82P"
+    },
+    {
+      "Input": [
+        "1Z J29 9G3 39 1580 964 2"
+      ],
+      "Output": "J29"
+    },
+    {
+      "Input": [
+        "1Z 315 935 81 3027 871 5"
+      ],
+      "Output": "315"
+    },
+    {
+      "Input": [
+        "1Z 1T5 G4W 90 7832 290 3"
+      ],
+      "Output": "1T5"
+    },
+    {
+      "Input": [
+        "1Z 3YX N9C 05 8045 061 9"
+      ],
+      "Output": "3YX"
+    },
+    {
+      "Input": [
+        "1Z 0X4 QXO 38 5338 969 2"
+      ],
+      "Output": "0X4"
+    },
+    {
+      "Input": [
+        "1Z HFI R21 81 9113 201 2"
+      ],
+      "Output": "HFI"
+    },
+    {
+      "Input": [
+        "1Z 2GV 217 69 2127 252 3"
+      ],
+      "Output": "2GV"
+    },
+    {
+      "Input": [
+        "1Z F6H FO0 98 0180 979 7"
+      ],
+      "Output": "F6H"
+    },
+    {
+      "Input": [
+        "1Z 2FH SE2 03 1306 941 2"
+      ],
+      "Output": "2FH"
+    },
+    {
+      "Input": [
+        "1Z 354 5XZ 48 0697 869 5"
+      ],
+      "Output": "354"
+    },
+    {
+      "Input": [
+        "1Z VRB 216 87 7523 573 2"
+      ],
+      "Output": "VRB"
+    },
+    {
+      "Input": [
+        "1Z NA6 5SG 76 8256 668 0"
+      ],
+      "Output": "NA6"
+    },
+    {
+      "Input": [
+        "1Z 92H 770 10 0068 549 1"
+      ],
+      "Output": "92H"
+    },
+    {
+      "Input": [
+        "1Z 800 OP7 18 4726 954 2"
+      ],
+      "Output": "800"
+    },
+    {
+      "Input": [
+        "1Z GR8 600 32 2364 294 8"
+      ],
+      "Output": "GR8"
+    },
+    {
+      "Input": [
+        "1Z D18 577 85 4772 907 7"
+      ],
+      "Output": "D18"
+    },
+    {
+      "Input": [
+        "1Z 520 375 58 6982 432 1"
+      ],
+      "Output": "520"
+    },
+    {
+      "Input": [
+        "1Z 876 8G0 63 5747 499 8"
+      ],
+      "Output": "876"
+    },
+    {
+      "Input": [
+        "1Z X38 3X6 40 3867 943 1"
+      ],
+      "Output": "X38"
+    },
+    {
+      "Input": [
+        "1Z 64P F5K 83 3293 881 5"
+      ],
+      "Output": "64P"
+    },
+    {
+      "Input": [
+        "1Z 79E JR9 68 3276 651 6"
+      ],
+      "Output": "79E"
+    },
+    {
+      "Input": [
+        "1Z L51 3OG 78 6005 127 7"
+      ],
+      "Output": "L51"
+    },
+    {
+      "Input": [
+        "1Z KB1 ZL6 45 6921 254 6"
+      ],
+      "Output": "KB1"
+    },
+    {
+      "Input": [
+        "1Z K6B IT5 13 1320 548 6"
+      ],
+      "Output": "K6B"
+    },
+    {
+      "Input": [
+        "1Z 55E 2AA 60 4995 128 4"
+      ],
+      "Output": "55E"
+    },
+    {
+      "Input": [
+        "1Z O84 EZ9 11 4014 515 2"
+      ],
+      "Output": "O84"
+    },
+    {
+      "Input": [
+        "1Z 2EY J7X 98 3470 800 4"
+      ],
+      "Output": "2EY"
+    },
+    {
+      "Input": [
+        "1Z 75W 226 52 2220 681 6"
+      ],
+      "Output": "75W"
+    },
+    {
+      "Input": [
+        "1Z EAB F95 42 4750 516 7"
+      ],
+      "Output": "EAB"
+    },
+    {
+      "Input": [
+        "1Z E8B 669 31 8426 087 4"
+      ],
+      "Output": "E8B"
+    },
+    {
+      "Input": [
+        "1Z AG7 KSB 83 2119 208 9"
+      ],
+      "Output": "AG7"
+    },
+    {
+      "Input": [
+        "1Z 6O5 Y26 88 8383 282 3"
+      ],
+      "Output": "6O5"
+    },
+    {
+      "Input": [
+        "1Z EOY 4VS 64 2380 758 4"
+      ],
+      "Output": "EOY"
+    },
+    {
+      "Input": [
+        "1Z 256 E7R 33 9790 857 0"
+      ],
+      "Output": "256"
+    },
+    {
+      "Input": [
+        "1Z 8B7 855 24 3073 679 0"
+      ],
+      "Output": "8B7"
+    },
+    {
+      "Input": [
+        "1Z BFN WK1 77 6135 930 9"
+      ],
+      "Output": "BFN"
+    },
+    {
+      "Input": [
+        "1Z IZ2 218 05 5632 751 1"
+      ],
+      "Output": "IZ2"
+    },
+    {
+      "Input": [
+        "1Z H11 7Y1 81 5967 100 5"
+      ],
+      "Output": "H11"
+    },
+    {
+      "Input": [
+        "1Z QYB 3P9 79 0811 448 7"
+      ],
+      "Output": "QYB"
+    },
+    {
+      "Input": [
+        "1Z LJ8 005 54 2462 675 8"
+      ],
+      "Output": "LJ8"
+    },
+    {
+      "Input": [
+        "1Z ZWW D81 48 7244 578 3"
+      ],
+      "Output": "ZWW"
+    },
+    {
+      "Input": [
+        "1Z 4SE 9V0 34 9027 926 3"
+      ],
+      "Output": "4SE"
+    },
+    {
+      "Input": [
+        "1Z PA2 04D 41 1798 943 2"
+      ],
+      "Output": "PA2"
+    },
+    {
+      "Input": [
+        "1Z 740 BE1 18 1077 785 7"
+      ],
+      "Output": "740"
+    },
+    {
+      "Input": [
+        "1Z Z9M WNQ 26 8704 389 2"
+      ],
+      "Output": "Z9M"
+    },
+    {
+      "Input": [
+        "1Z 9T6 K59 42 0960 316 3"
+      ],
+      "Output": "9T6"
+    },
+    {
+      "Input": [
+        "1Z KAL 92Z 01 7514 150 8"
+      ],
+      "Output": "KAL"
+    },
+    {
+      "Input": [
+        "1Z 44T C7W 33 6890 596 4"
+      ],
+      "Output": "44T"
+    },
+    {
+      "Input": [
+        "1Z TO7 70N 56 9327 152 3"
+      ],
+      "Output": "TO7"
+    },
+    {
+      "Input": [
+        "1Z 1N4 V90 79 1438 057 6"
+      ],
+      "Output": "1N4"
+    },
+    {
+      "Input": [
+        "1Z 1S2 854 36 2336 256 3"
+      ],
+      "Output": "1S2"
+    },
+    {
+      "Input": [
+        "1Z 43R 8T4 31 7266 014 2"
+      ],
+      "Output": "43R"
+    },
+    {
+      "Input": [
+        "1Z V5Y B8R 22 8628 797 9"
+      ],
+      "Output": "V5Y"
+    },
+    {
+      "Input": [
+        "1Z DJY D02 46 1590 616 7"
+      ],
+      "Output": "DJY"
+    },
+    {
+      "Input": [
+        "1Z 0YJ IUG 41 5816 646 2"
+      ],
+      "Output": "0YJ"
+    },
+    {
+      "Input": [
+        "1Z 93Y 8CD 38 9773 624 8"
+      ],
+      "Output": "93Y"
+    },
+    {
+      "Input": [
+        "1Z K1O JF3 96 0937 901 8"
+      ],
+      "Output": "K1O"
+    },
+    {
+      "Input": [
+        "1Z 98A Y5K 93 8427 779 2"
+      ],
+      "Output": "98A"
+    },
+    {
+      "Input": [
+        "1Z 0K5 881 14 7938 258 4"
+      ],
+      "Output": "0K5"
+    },
+    {
+      "Input": [
+        "1Z 5HH 090 72 6630 625 4"
+      ],
+      "Output": "5HH"
+    },
+    {
+      "Input": [
+        "1Z ZT8 SPP 76 3758 832 7"
+      ],
+      "Output": "ZT8"
+    },
+    {
+      "Input": [
+        "1Z 7FP 1R9 21 5014 274 9"
+      ],
+      "Output": "7FP"
+    },
+    {
+      "Input": [
+        "1Z Z24 CXN 96 6715 409 4"
+      ],
+      "Output": "Z24"
+    },
+    {
+      "Input": [
+        "1Z 68X 9C8 28 3070 530 6"
+      ],
+      "Output": "68X"
+    },
+    {
+      "Input": [
+        "1Z I61 WL0 61 5019 974 8"
+      ],
+      "Output": "I61"
+    },
+    {
+      "Input": [
+        "1Z 9MA 0JK 51 2888 244 9"
+      ],
+      "Output": "9MA"
+    },
+    {
+      "Input": [
+        "1Z Y94 870 73 6283 356 6"
+      ],
+      "Output": "Y94"
+    },
+    {
+      "Input": [
+        "1Z 8C8 440 56 0965 476 0"
+      ],
+      "Output": "8C8"
+    },
+    {
+      "Input": [
+        "1Z 560 410 13 3999 305 5"
+      ],
+      "Output": "560"
+    },
+    {
+      "Input": [
+        "1Z 5JY 80M 59 2834 018 3"
+      ],
+      "Output": "5JY"
+    },
+    {
+      "Input": [
+        "1Z P6U 9Y0 15 7258 220 4"
+      ],
+      "Output": "P6U"
+    },
+    {
+      "Input": [
+        "1Z AEQ K8W 74 3606 005 3"
+      ],
+      "Output": "AEQ"
+    },
+    {
+      "Input": [
+        "1Z 2DH C5O 57 5331 572 1"
+      ],
+      "Output": "2DH"
+    },
+    {
+      "Input": [
+        "1Z V15 336 93 4918 653 0"
+      ],
+      "Output": "V15"
+    },
+    {
+      "Input": [
+        "1Z Z3Z 6Z7 33 0353 232 5"
+      ],
+      "Output": "Z3Z"
+    },
+    {
+      "Input": [
+        "1Z BC8 P8L 27 1433 736 4"
+      ],
+      "Output": "BC8"
+    },
+    {
+      "Input": [
+        "1Z 641 6GV 27 8672 318 3"
+      ],
+      "Output": "641"
+    },
+    {
+      "Input": [
+        "1Z Q9B 216 43 4342 221 2"
+      ],
+      "Output": "Q9B"
+    },
+    {
+      "Input": [
+        "1Z Q6C 3UE 87 1261 056 8"
+      ],
+      "Output": "Q6C"
+    },
+    {
+      "Input": [
+        "1Z 38X CPM 34 3510 869 7"
+      ],
+      "Output": "38X"
+    },
+    {
+      "Input": [
+        "1Z R0D 70Z 35 2441 605 0"
+      ],
+      "Output": "R0D"
+    },
+    {
+      "Input": [
+        "1Z S6O G77 15 8095 844 8"
+      ],
+      "Output": "S6O"
+    },
+    {
+      "Input": [
+        "1Z 0P4 7M5 33 5213 832 2"
+      ],
+      "Output": "0P4"
+    },
+    {
+      "Input": [
+        "1Z 9DL PY2 50 9489 952 7"
+      ],
+      "Output": "9DL"
+    },
+    {
+      "Input": [
+        "1Z S3C M88 67 2529 856 0"
+      ],
+      "Output": "S3C"
+    },
+    {
+      "Input": [
+        "1Z F94 72A 42 1952 493 3"
+      ],
+      "Output": "F94"
+    },
+    {
+      "Input": [
+        "1Z 6KP 14O 14 1609 075 6"
+      ],
+      "Output": "6KP"
+    },
+    {
+      "Input": [
+        "1Z G93 0O9 24 9510 165 8"
+      ],
+      "Output": "G93"
+    },
+    {
+      "Input": [
+        "1Z 560 6QR 15 6081 389 1"
+      ],
+      "Output": "560"
+    },
+    {
+      "Input": [
+        "1Z C3R 99D 49 7804 932 3"
+      ],
+      "Output": "C3R"
+    },
+    {
+      "Input": [
+        "1Z B05 0XK 42 7392 667 6"
+      ],
+      "Output": "B05"
+    },
+    {
+      "Input": [
+        "1Z 024 863 25 6131 972 4"
+      ],
+      "Output": "024"
+    },
+    {
+      "Input": [
+        "1Z 50A R1F 92 3766 168 1"
+      ],
+      "Output": "50A"
+    },
+    {
+      "Input": [
+        "1Z V15 V78 61 3076 921 5"
+      ],
+      "Output": "V15"
+    },
+    {
+      "Input": [
+        "1Z Y31 8CT 26 8312 344 5"
+      ],
+      "Output": "Y31"
+    },
+    {
+      "Input": [
+        "1Z Q50 YXS 21 1570 967 0"
+      ],
+      "Output": "Q50"
+    },
+    {
+      "Input": [
+        "1Z 4GZ CCK 79 5778 188 7"
+      ],
+      "Output": "4GZ"
+    },
+    {
+      "Input": [
+        "1Z ERL VQ3 03 8190 766 7"
+      ],
+      "Output": "ERL"
+    },
+    {
+      "Input": [
+        "1Z 628 FHI 07 3163 288 4"
+      ],
+      "Output": "628"
+    },
+    {
+      "Input": [
+        "1Z 4T7 095 04 2300 470 4"
+      ],
+      "Output": "4T7"
+    },
+    {
+      "Input": [
+        "1Z KX3 8A7 82 0444 134 6"
+      ],
+      "Output": "KX3"
+    },
+    {
+      "Input": [
+        "1Z 608 6Y1 35 8979 045 0"
+      ],
+      "Output": "608"
+    },
+    {
+      "Input": [
+        "1Z 0Q3 ED3 26 3005 347 4"
+      ],
+      "Output": "0Q3"
+    },
+    {
+      "Input": [
+        "1Z XO4 1GB 93 1337 770 1"
+      ],
+      "Output": "XO4"
+    },
+    {
+      "Input": [
+        "1Z F88 5Y1 74 7473 941 3"
+      ],
+      "Output": "F88"
+    },
+    {
+      "Input": [
+        "1Z 6F6 S5Y 39 5235 691 8"
+      ],
+      "Output": "6F6"
+    },
+    {
+      "Input": [
+        "1Z 9I4 73A 11 6190 296 0"
+      ],
+      "Output": "9I4"
+    },
+    {
+      "Input": [
+        "1Z 40X 35L 24 3929 866 7"
+      ],
+      "Output": "40X"
+    },
+    {
+      "Input": [
+        "1Z 1LX XK1 87 4486 914 6"
+      ],
+      "Output": "1LX"
+    },
+    {
+      "Input": [
+        "1Z 7DB ISX 98 4655 600 8"
+      ],
+      "Output": "7DB"
+    },
+    {
+      "Input": [
+        "1Z 1LB P63 62 7986 044 3"
+      ],
+      "Output": "1LB"
+    },
+    {
+      "Input": [
+        "1Z P05 RLC 00 5822 002 5"
+      ],
+      "Output": "P05"
+    },
+    {
+      "Input": [
+        "1Z KOI KC3 85 0205 979 1"
+      ],
+      "Output": "KOI"
+    },
+    {
+      "Input": [
+        "1Z X7H 3Z6 66 0037 079 7"
+      ],
+      "Output": "X7H"
+    },
+    {
+      "Input": [
+        "1Z H94 8P9 65 5114 763 7"
+      ],
+      "Output": "H94"
+    },
+    {
+      "Input": [
+        "1Z 64Z L95 55 3383 140 3"
+      ],
+      "Output": "64Z"
+    },
+    {
+      "Input": [
+        "1Z 5OI 198 20 9586 109 4"
+      ],
+      "Output": "5OI"
+    },
+    {
+      "Input": [
+        "1Z 5CG 2AR 99 4019 885 2"
+      ],
+      "Output": "5CG"
+    },
+    {
+      "Input": [
+        "1Z 2U8 HWS 91 2291 738 3"
+      ],
+      "Output": "2U8"
+    },
+    {
+      "Input": [
+        "1Z 661 68S 80 4941 718 2"
+      ],
+      "Output": "661"
+    },
+    {
+      "Input": [
+        "1Z 8RR WRV 08 1815 218 0"
+      ],
+      "Output": "8RR"
+    },
+    {
+      "Input": [
+        "1Z 222 1T9 81 4295 990 8"
+      ],
+      "Output": "222"
+    },
+    {
+      "Input": [
+        "1Z 02P C34 34 4568 440 6"
+      ],
+      "Output": "02P"
+    },
+    {
+      "Input": [
+        "1Z 6J6 D50 19 9469 615 3"
+      ],
+      "Output": "6J6"
+    },
+    {
+      "Input": [
+        "1Z 790 K70 58 2344 208 3"
+      ],
+      "Output": "790"
+    },
+    {
+      "Input": [
+        "1Z 6JO 496 57 6508 193 1"
+      ],
+      "Output": "6JO"
+    },
+    {
+      "Input": [
+        "1Z 657 2T1 26 7686 370 5"
+      ],
+      "Output": "657"
+    },
+    {
+      "Input": [
+        "1Z PW1 I1I 65 9260 629 2"
+      ],
+      "Output": "PW1"
+    },
+    {
+      "Input": [
+        "1Z 922 KUT 93 8210 439 4"
+      ],
+      "Output": "922"
+    },
+    {
+      "Input": [
+        "1Z 1LS 34N 98 9300 705 1"
+      ],
+      "Output": "1LS"
+    },
+    {
+      "Input": [
+        "1Z 9UE 8WH 14 8373 423 9"
+      ],
+      "Output": "9UE"
+    },
+    {
+      "Input": [
+        "1Z J62 3V8 48 8917 536 2"
+      ],
+      "Output": "J62"
+    },
+    {
+      "Input": [
+        "1Z Y77 908 43 5054 484 7"
+      ],
+      "Output": "Y77"
+    },
+    {
+      "Input": [
+        "1Z 5J4 Q6K 71 5166 998 3"
+      ],
+      "Output": "5J4"
+    },
+    {
+      "Input": [
+        "1Z 6RY 308 12 3846 302 6"
+      ],
+      "Output": "6RY"
+    },
+    {
+      "Input": [
+        "1Z X3H TAI 75 8869 273 4"
+      ],
+      "Output": "X3H"
+    },
+    {
+      "Input": [
+        "1Z 873 3WY 79 6315 358 6"
+      ],
+      "Output": "873"
+    },
+    {
+      "Input": [
+        "1Z JUA WJS 46 5033 684 0"
+      ],
+      "Output": "JUA"
+    },
+    {
+      "Input": [
+        "1Z 862 87P 38 5727 925 1"
+      ],
+      "Output": "862"
+    },
+    {
+      "Input": [
+        "1Z 6MF 76N 96 3864 419 5"
+      ],
+      "Output": "6MF"
+    },
+    {
+      "Input": [
+        "1Z 1P1 U9W 05 7062 949 5"
+      ],
+      "Output": "1P1"
+    },
+    {
+      "Input": [
+        "1Z BW7 95J 21 5759 875 2"
+      ],
+      "Output": "BW7"
+    },
+    {
+      "Input": [
+        "1Z 2LY D6C 55 2109 032 3"
+      ],
+      "Output": "2LY"
+    },
+    {
+      "Input": [
+        "1Z 845 8L5 53 2203 457 4"
+      ],
+      "Output": "845"
+    },
+    {
+      "Input": [
+        "1Z 27T WA4 57 4559 706 3"
+      ],
+      "Output": "27T"
+    },
+    {
+      "Input": [
+        "1Z UR0 T0A 20 8311 565 5"
+      ],
+      "Output": "UR0"
+    },
+    {
+      "Input": [
+        "1Z NTQ J76 99 0587 254 7"
+      ],
+      "Output": "NTQ"
+    },
+    {
+      "Input": [
+        "1Z 4OX 61B 14 2915 633 9"
+      ],
+      "Output": "4OX"
+    },
+    {
+      "Input": [
+        "1Z L6Y 99J 20 0343 095 0"
+      ],
+      "Output": "L6Y"
+    },
+    {
+      "Input": [
+        "1Z DT0 K28 15 2371 140 3"
+      ],
+      "Output": "DT0"
+    },
+    {
+      "Input": [
+        "1Z 810 0WD 42 1196 541 2"
+      ],
+      "Output": "810"
+    },
+    {
+      "Input": [
+        "1Z T98 6P5 81 8630 210 5"
+      ],
+      "Output": "T98"
+    },
+    {
+      "Input": [
+        "1Z EZ7 8UC 49 1925 285 4"
+      ],
+      "Output": "EZ7"
+    },
+    {
+      "Input": [
+        "1Z 003 B43 77 8082 717 1"
+      ],
+      "Output": "003"
+    },
+    {
+      "Input": [
+        "1Z 605 SK1 92 7240 756 1"
+      ],
+      "Output": "605"
+    },
+    {
+      "Input": [
+        "1Z 255 HER 30 3844 739 3"
+      ],
+      "Output": "255"
+    },
+    {
+      "Input": [
+        "1Z V00 Q28 86 0210 140 9"
+      ],
+      "Output": "V00"
+    },
+    {
+      "Input": [
+        "1Z 110 UAN 64 4620 554 3"
+      ],
+      "Output": "110"
+    },
+    {
+      "Input": [
+        "1Z 21I WX6 80 9754 438 2"
+      ],
+      "Output": "21I"
+    },
+    {
+      "Input": [
+        "1Z 8KL K07 88 9348 106 4"
+      ],
+      "Output": "8KL"
+    },
+    {
+      "Input": [
+        "1Z Q2D Z20 28 9940 515 8"
+      ],
+      "Output": "Q2D"
+    },
+    {
+      "Input": [
+        "1Z 9BO DY1 76 2521 065 7"
+      ],
+      "Output": "9BO"
+    },
+    {
+      "Input": [
+        "1Z OWB 372 23 0046 061 2"
+      ],
+      "Output": "OWB"
+    },
+    {
+      "Input": [
+        "1Z 249 2I9 54 6904 674 4"
+      ],
+      "Output": "249"
+    },
+    {
+      "Input": [
+        "1Z G1A 0JK 64 6838 468 0"
+      ],
+      "Output": "G1A"
+    },
+    {
+      "Input": [
+        "1Z QR2 O7H 10 8722 265 6"
+      ],
+      "Output": "QR2"
+    },
+    {
+      "Input": [
+        "1Z 558 TWP 49 3480 856 7"
+      ],
+      "Output": "558"
+    },
+    {
+      "Input": [
+        "1Z 714 LWR 15 6264 924 2"
+      ],
+      "Output": "714"
+    },
+    {
+      "Input": [
+        "1Z 7T5 E20 88 7639 417 8"
+      ],
+      "Output": "7T5"
+    },
+    {
+      "Input": [
+        "1Z 981 MD0 34 6189 723 8"
+      ],
+      "Output": "981"
+    },
+    {
+      "Input": [
+        "1Z KTJ CM6 82 7606 858 5"
+      ],
+      "Output": "KTJ"
+    },
+    {
+      "Input": [
+        "1Z 2UF 6J3 41 3917 055 8"
+      ],
+      "Output": "2UF"
+    },
+    {
+      "Input": [
+        "1Z W3P GFP 50 5497 853 4"
+      ],
+      "Output": "W3P"
+    },
+    {
+      "Input": [
+        "1Z 4SV B57 94 8303 171 7"
+      ],
+      "Output": "4SV"
+    },
+    {
+      "Input": [
+        "1Z XI7 I4W 99 8848 151 1"
+      ],
+      "Output": "XI7"
+    },
+    {
+      "Input": [
+        "1Z Z3E 6NX 71 4724 193 9"
+      ],
+      "Output": "Z3E"
+    },
+    {
+      "Input": [
+        "1Z K5Y G6X 30 4812 723 0"
+      ],
+      "Output": "K5Y"
+    },
+    {
+      "Input": [
+        "1Z 7CC DS1 97 6577 242 1"
+      ],
+      "Output": "7CC"
+    },
+    {
+      "Input": [
+        "1Z 6N7 S90 77 8015 561 9"
+      ],
+      "Output": "6N7"
+    },
+    {
+      "Input": [
+        "1Z 1TM 5YV 40 5932 011 6"
+      ],
+      "Output": "1TM"
+    },
+    {
+      "Input": [
+        "1Z VR9 MEJ 35 9722 350 1"
+      ],
+      "Output": "VR9"
+    },
+    {
+      "Input": [
+        "1Z 0Q4 7WP 90 8961 456 7"
+      ],
+      "Output": "0Q4"
+    },
+    {
+      "Input": [
+        "1Z 35Z ATN 65 3408 495 8"
+      ],
+      "Output": "35Z"
+    },
+    {
+      "Input": [
+        "1Z 62L O53 27 8389 888 0"
+      ],
+      "Output": "62L"
+    },
+    {
+      "Input": [
+        "1Z 367 84I 83 6059 169 3"
+      ],
+      "Output": "367"
+    },
+    {
+      "Input": [
+        "1Z 74Y Y02 94 8279 619 7"
+      ],
+      "Output": "74Y"
+    },
+    {
+      "Input": [
+        "1Z 099 HW2 92 3694 442 7"
+      ],
+      "Output": "099"
+    },
+    {
+      "Input": [
+        "1Z PU7 131 34 0403 764 9"
+      ],
+      "Output": "PU7"
+    },
+    {
+      "Input": [
+        "1Z Z3U 22L 34 1253 778 6"
+      ],
+      "Output": "Z3U"
+    },
+    {
+      "Input": [
+        "1Z FY1 CU8 79 4438 118 4"
+      ],
+      "Output": "FY1"
+    },
+    {
+      "Input": [
+        "1Z AB2 E2M 08 8016 126 8"
+      ],
+      "Output": "AB2"
+    },
+    {
+      "Input": [
+        "1Z 388 N51 85 0389 605 8"
+      ],
+      "Output": "388"
+    },
+    {
+      "Input": [
+        "1Z 685 E85 60 4335 779 8"
+      ],
+      "Output": "685"
+    },
+    {
+      "Input": [
+        "1Z L23 84V 18 9705 393 4"
+      ],
+      "Output": "L23"
+    },
+    {
+      "Input": [
+        "1Z 365 E5O 40 2382 030 7"
+      ],
+      "Output": "365"
+    },
+    {
+      "Input": [
+        "1Z 48F X46 80 6732 243 2"
+      ],
+      "Output": "48F"
+    },
+    {
+      "Input": [
+        "1Z TEQ 0Q0 29 6098 650 9"
+      ],
+      "Output": "TEQ"
+    },
+    {
+      "Input": [
+        "1Z 25D IA8 09 0120 359 6"
+      ],
+      "Output": "25D"
+    },
+    {
+      "Input": [
+        "1Z 8F6 S54 93 1691 239 1"
+      ],
+      "Output": "8F6"
+    },
+    {
+      "Input": [
+        "1Z BR4 J67 60 9461 372 7"
+      ],
+      "Output": "BR4"
+    },
+    {
+      "Input": [
+        "1Z 744 J2B 14 9326 197 6"
+      ],
+      "Output": "744"
+    },
+    {
+      "Input": [
+        "1Z 56F JV8 82 0296 324 8"
+      ],
+      "Output": "56F"
+    },
+    {
+      "Input": [
+        "1Z AT1 7L6 84 8113 802 6"
+      ],
+      "Output": "AT1"
+    },
+    {
+      "Input": [
+        "1Z 132 46F 68 4626 063 7"
+      ],
+      "Output": "132"
+    },
+    {
+      "Input": [
+        "1Z 858 VD6 68 7843 000 3"
+      ],
+      "Output": "858"
+    },
+    {
+      "Input": [
+        "1Z 2TI 03C 51 7354 880 2"
+      ],
+      "Output": "2TI"
+    },
+    {
+      "Input": [
+        "1Z T8H 6VY 34 1945 112 0"
+      ],
+      "Output": "T8H"
+    },
+    {
+      "Input": [
+        "1Z 6B6 59X 92 4679 702 8"
+      ],
+      "Output": "6B6"
+    },
+    {
+      "Input": [
+        "1Z 852 BVD 28 2803 359 4"
+      ],
+      "Output": "852"
+    },
+    {
+      "Input": [
+        "1Z 692 Z33 10 0821 890 0"
+      ],
+      "Output": "692"
+    },
+    {
+      "Input": [
+        "1Z 80R I93 83 2584 847 8"
+      ],
+      "Output": "80R"
+    },
+    {
+      "Input": [
+        "1Z 8N4 41U 19 1735 014 8"
+      ],
+      "Output": "8N4"
+    },
+    {
+      "Input": [
+        "1Z 565 534 18 1991 581 2"
+      ],
+      "Output": "565"
+    },
+    {
+      "Input": [
+        "1Z 5R9 RF6 00 7091 614 7"
+      ],
+      "Output": "5R9"
+    },
+    {
+      "Input": [
+        "1Z Y59 YYX 03 8756 732 0"
+      ],
+      "Output": "Y59"
+    },
+    {
+      "Input": [
+        "1Z 91R D36 72 3560 267 0"
+      ],
+      "Output": "91R"
+    },
+    {
+      "Input": [
+        "1Z R44 K9D 60 8229 886 9"
+      ],
+      "Output": "R44"
+    },
+    {
+      "Input": [
+        "1Z 512 J0K 45 2564 977 9"
+      ],
+      "Output": "512"
+    },
+    {
+      "Input": [
+        "1Z LVT GSZ 88 2603 631 8"
+      ],
+      "Output": "LVT"
+    },
+    {
+      "Input": [
+        "1Z 743 GF4 72 4965 736 4"
+      ],
+      "Output": "743"
+    },
+    {
+      "Input": [
+        "1Z 67K 58K 09 3688 407 4"
+      ],
+      "Output": "67K"
+    },
+    {
+      "Input": [
+        "1Z LJU 5X6 88 5888 636 9"
+      ],
+      "Output": "LJU"
+    },
+    {
+      "Input": [
+        "1Z 08M 4W8 32 0177 285 7"
+      ],
+      "Output": "08M"
+    },
+    {
+      "Input": [
+        "1Z W9D 1PE 36 9307 447 5"
+      ],
+      "Output": "W9D"
+    },
+    {
+      "Input": [
+        "1Z 6SQ 06V 06 5536 742 7"
+      ],
+      "Output": "6SQ"
+    },
+    {
+      "Input": [
+        "1Z MI1 3XA 28 4254 534 6"
+      ],
+      "Output": "MI1"
+    },
+    {
+      "Input": [
+        "1Z TF8 1NC 20 3192 318 1"
+      ],
+      "Output": "TF8"
+    },
+    {
+      "Input": [
+        "1Z 6I9 IBX 56 8945 705 6"
+      ],
+      "Output": "6I9"
+    },
+    {
+      "Input": [
+        "1Z 23E 5U2 51 5821 100 6"
+      ],
+      "Output": "23E"
+    },
+    {
+      "Input": [
+        "1Z L2P 15S 09 5014 561 4"
+      ],
+      "Output": "L2P"
+    },
+    {
+      "Input": [
+        "1Z 7S9 6O5 95 9197 697 7"
+      ],
+      "Output": "7S9"
+    },
+    {
+      "Input": [
+        "1Z WB6 Z27 40 8718 911 9"
+      ],
+      "Output": "WB6"
+    },
+    {
+      "Input": [
+        "1Z P2W 4P3 88 8292 502 8"
+      ],
+      "Output": "P2W"
+    },
+    {
+      "Input": [
+        "1Z 101 P59 47 4905 731 1"
+      ],
+      "Output": "101"
+    },
+    {
+      "Input": [
+        "1Z X5W W8T 15 8938 997 4"
+      ],
+      "Output": "X5W"
+    },
+    {
+      "Input": [
+        "1Z 4HM MI0 11 6777 621 6"
+      ],
+      "Output": "4HM"
+    },
+    {
+      "Input": [
+        "1Z 464 2N8 04 5036 323 7"
+      ],
+      "Output": "464"
+    },
+    {
+      "Input": [
+        "1Z UC1 2V2 82 8004 145 0"
+      ],
+      "Output": "UC1"
+    },
+    {
+      "Input": [
+        "1Z J75 JPP 87 3808 230 6"
+      ],
+      "Output": "J75"
+    },
+    {
+      "Input": [
+        "1Z VO7 3OD 71 4878 476 8"
+      ],
+      "Output": "VO7"
+    },
+    {
+      "Input": [
+        "1Z 3O5 794 97 9554 210 2"
+      ],
+      "Output": "3O5"
+    },
+    {
+      "Input": [
+        "1Z TAN XW5 27 2175 831 6"
+      ],
+      "Output": "TAN"
+    },
+    {
+      "Input": [
+        "1Z BII 7TZ 84 5725 055 7"
+      ],
+      "Output": "BII"
+    },
+    {
+      "Input": [
+        "1Z U2N 801 98 1752 057 5"
+      ],
+      "Output": "U2N"
+    },
+    {
+      "Input": [
+        "1Z 68W 17Y 54 0824 829 7"
+      ],
+      "Output": "68W"
+    },
+    {
+      "Input": [
+        "1Z X73 F29 53 6502 993 1"
+      ],
+      "Output": "X73"
+    },
+    {
+      "Input": [
+        "1Z HJC HS6 95 1776 537 4"
+      ],
+      "Output": "HJC"
+    },
+    {
+      "Input": [
+        "1Z 5XZ 7K3 48 9604 922 2"
+      ],
+      "Output": "5XZ"
+    },
+    {
+      "Input": [
+        "1Z YN3 T1C 82 2127 932 9"
+      ],
+      "Output": "YN3"
+    },
+    {
+      "Input": [
+        "1Z WX9 E2X 98 4931 682 7"
+      ],
+      "Output": "WX9"
+    },
+    {
+      "Input": [
+        "1Z 4IO 87H 62 4383 948 0"
+      ],
+      "Output": "4IO"
+    },
+    {
+      "Input": [
+        "1Z 2UF AY8 45 6160 431 1"
+      ],
+      "Output": "2UF"
+    },
+    {
+      "Input": [
+        "1Z SVO 2A5 08 7668 773 6"
+      ],
+      "Output": "SVO"
+    },
+    {
+      "Input": [
+        "1Z 714 61A 07 3747 707 3"
+      ],
+      "Output": "714"
+    },
+    {
+      "Input": [
+        "1Z HJN 328 05 3875 394 3"
+      ],
+      "Output": "HJN"
+    },
+    {
+      "Input": [
+        "1Z Y00 NSR 85 1618 738 8"
+      ],
+      "Output": "Y00"
+    },
+    {
+      "Input": [
+        "1Z 28N 3E1 45 4036 661 3"
+      ],
+      "Output": "28N"
+    },
+    {
+      "Input": [
+        "1Z 3X1 Z89 81 2702 315 4"
+      ],
+      "Output": "3X1"
+    },
+    {
+      "Input": [
+        "1Z DT7 2A6 42 6128 142 3"
+      ],
+      "Output": "DT7"
+    },
+    {
+      "Input": [
+        "1Z X9I E00 75 3228 648 4"
+      ],
+      "Output": "X9I"
+    },
+    {
+      "Input": [
+        "1Z M12 930 83 7488 896 4"
+      ],
+      "Output": "M12"
+    },
+    {
+      "Input": [
+        "1Z NQO YE3 42 1790 096 3"
+      ],
+      "Output": "NQO"
+    },
+    {
+      "Input": [
+        "1Z Y4P 4G5 62 6344 478 4"
+      ],
+      "Output": "Y4P"
+    },
+    {
+      "Input": [
+        "1Z 1BY NNI 64 1837 641 2"
+      ],
+      "Output": "1BY"
+    },
+    {
+      "Input": [
+        "1Z M6M 5B1 20 5053 760 6"
+      ],
+      "Output": "M6M"
+    },
+    {
+      "Input": [
+        "1Z X60 0DE 56 3902 912 6"
+      ],
+      "Output": "X60"
+    },
+    {
+      "Input": [
+        "1Z TQ0 5VI 73 8256 019 7"
+      ],
+      "Output": "TQ0"
+    },
+    {
+      "Input": [
+        "1Z L4K 5HK 92 4994 693 9"
+      ],
+      "Output": "L4K"
+    },
+    {
+      "Input": [
+        "1Z O05 41W 19 6714 390 2"
+      ],
+      "Output": "O05"
+    },
+    {
+      "Input": [
+        "1Z Z67 7Y6 94 3794 712 0"
+      ],
+      "Output": "Z67"
+    },
+    {
+      "Input": [
+        "1Z 065 03I 13 9160 339 0"
+      ],
+      "Output": "065"
+    },
+    {
+      "Input": [
+        "1Z JS5 1WX 67 1824 882 3"
+      ],
+      "Output": "JS5"
+    },
+    {
+      "Input": [
+        "1Z 3H0 S1O 26 7659 284 4"
+      ],
+      "Output": "3H0"
+    },
+    {
+      "Input": [
+        "1Z 3D8 246 34 2107 127 9"
+      ],
+      "Output": "3D8"
+    },
+    {
+      "Input": [
+        "1Z F88 4SQ 95 9883 961 9"
+      ],
+      "Output": "F88"
+    },
+    {
+      "Input": [
+        "1Z 271 2K6 85 0739 079 3"
+      ],
+      "Output": "271"
+    },
+    {
+      "Input": [
+        "1Z 698 I80 59 0832 432 8"
+      ],
+      "Output": "698"
+    },
+    {
+      "Input": [
+        "1Z 2QQ 200 11 1947 008 7"
+      ],
+      "Output": "2QQ"
+    },
+    {
+      "Input": [
+        "1Z 70L 0MZ 65 1369 609 1"
+      ],
+      "Output": "70L"
+    },
+    {
+      "Input": [
+        "1Z U3N 83H 82 5486 085 3"
+      ],
+      "Output": "U3N"
+    },
+    {
+      "Input": [
+        "1Z 340 6HI 35 1453 676 9"
+      ],
+      "Output": "340"
+    },
+    {
+      "Input": [
+        "1Z 05K H6R 97 0878 710 9"
+      ],
+      "Output": "05K"
+    },
+    {
+      "Input": [
+        "1Z 8FN OM9 42 5327 056 6"
+      ],
+      "Output": "8FN"
+    },
+    {
+      "Input": [
+        "1Z 75W W38 61 1373 001 8"
+      ],
+      "Output": "75W"
+    },
+    {
+      "Input": [
+        "1Z Q53 L5L 40 0066 676 3"
+      ],
+      "Output": "Q53"
+    },
+    {
+      "Input": [
+        "1Z E41 PI8 85 3352 872 6"
+      ],
+      "Output": "E41"
+    },
+    {
+      "Input": [
+        "1Z GH4 B14 34 9726 921 4"
+      ],
+      "Output": "GH4"
+    },
+    {
+      "Input": [
+        "1Z 525 P13 15 8211 297 6"
+      ],
+      "Output": "525"
+    },
+    {
+      "Input": [
+        "1Z 9PC 3H5 70 1452 512 8"
+      ],
+      "Output": "9PC"
+    },
+    {
+      "Input": [
+        "1Z D4D N43 35 9157 880 0"
+      ],
+      "Output": "D4D"
+    },
+    {
+      "Input": [
+        "1Z 26Q 4DT 42 6427 750 3"
+      ],
+      "Output": "26Q"
+    },
+    {
+      "Input": [
+        "1Z XC3 972 27 4183 042 4"
+      ],
+      "Output": "XC3"
+    },
+    {
+      "Input": [
+        "1Z 9IE 4TG 70 5004 170 2"
+      ],
+      "Output": "9IE"
+    },
+    {
+      "Input": [
+        "1Z 6PG 921 12 0887 224 7"
+      ],
+      "Output": "6PG"
+    },
+    {
+      "Input": [
+        "1Z C2A 7EM 66 5428 809 6"
+      ],
+      "Output": "C2A"
+    },
+    {
+      "Input": [
+        "1Z 8O9 AR1 55 9094 520 1"
+      ],
+      "Output": "8O9"
+    },
+    {
+      "Input": [
+        "1Z 23L RY8 49 4670 148 4"
+      ],
+      "Output": "23L"
+    },
+    {
+      "Input": [
+        "1Z 87Q 4H5 31 6758 952 2"
+      ],
+      "Output": "87Q"
+    },
+    {
+      "Input": [
+        "1Z 17F TZE 56 6701 535 3"
+      ],
+      "Output": "17F"
+    },
+    {
+      "Input": [
+        "1Z 52O W78 64 8529 515 6"
+      ],
+      "Output": "52O"
+    },
+    {
+      "Input": [
+        "1Z 0EL X1K 16 9310 143 4"
+      ],
+      "Output": "0EL"
+    },
+    {
+      "Input": [
+        "1Z 254 1KC 26 3945 896 9"
+      ],
+      "Output": "254"
+    },
+    {
+      "Input": [
+        "1Z Y61 2R8 97 8441 080 5"
+      ],
+      "Output": "Y61"
+    },
+    {
+      "Input": [
+        "1Z QEW L14 69 7604 104 0"
+      ],
+      "Output": "QEW"
+    },
+    {
+      "Input": [
+        "1Z 1D8 C16 95 9730 296 7"
+      ],
+      "Output": "1D8"
+    },
+    {
+      "Input": [
+        "1Z 4N3 O6J 91 7166 013 2"
+      ],
+      "Output": "4N3"
+    },
+    {
+      "Input": [
+        "1Z B7X 07J 66 2571 529 2"
+      ],
+      "Output": "B7X"
+    },
+    {
+      "Input": [
+        "1Z QZI OZ9 49 5169 666 0"
+      ],
+      "Output": "QZI"
+    },
+    {
+      "Input": [
+        "1Z 400 A5C 11 9675 104 5"
+      ],
+      "Output": "400"
+    },
+    {
+      "Input": [
+        "1Z Q0I 6XP 51 2351 963 5"
+      ],
+      "Output": "Q0I"
+    },
+    {
+      "Input": [
+        "1Z 9GA 04N 41 9860 931 2"
+      ],
+      "Output": "9GA"
+    },
+    {
+      "Input": [
+        "1Z 42W 82S 02 0450 851 8"
+      ],
+      "Output": "42W"
+    },
+    {
+      "Input": [
+        "1Z FH6 2F2 74 7818 532 6"
+      ],
+      "Output": "FH6"
+    },
+    {
+      "Input": [
+        "1Z QR2 76O 00 5229 015 5"
+      ],
+      "Output": "QR2"
+    },
+    {
+      "Input": [
+        "1Z 9ER L2P 66 9093 516 9"
+      ],
+      "Output": "9ER"
+    },
+    {
+      "Input": [
+        "1Z UR3 4KG 75 0607 142 1"
+      ],
+      "Output": "UR3"
+    },
+    {
+      "Input": [
+        "1Z O98 34C 30 0301 791 9"
+      ],
+      "Output": "O98"
+    },
+    {
+      "Input": [
+        "1Z 4S4 LN7 19 4268 048 7"
+      ],
+      "Output": "4S4"
+    },
+    {
+      "Input": [
+        "1Z P33 G91 41 1597 025 0"
+      ],
+      "Output": "P33"
+    },
+    {
+      "Input": [
+        "1Z KW0 5KF 14 0411 207 9"
+      ],
+      "Output": "KW0"
+    },
+    {
+      "Input": [
+        "1Z CI7 MQ1 95 4311 457 5"
+      ],
+      "Output": "CI7"
+    },
+    {
+      "Input": [
+        "1Z BID 0ZQ 75 7177 905 8"
+      ],
+      "Output": "BID"
+    },
+    {
+      "Input": [
+        "1Z 9U9 345 21 3836 571 4"
+      ],
+      "Output": "9U9"
+    },
+    {
+      "Input": [
+        "1Z V9V M1U 42 3111 642 5"
+      ],
+      "Output": "V9V"
+    },
+    {
+      "Input": [
+        "1Z 98J 069 97 9652 983 5"
+      ],
+      "Output": "98J"
+    },
+    {
+      "Input": [
+        "1Z QO6 ZCY 02 9213 141 3"
+      ],
+      "Output": "QO6"
+    },
+    {
+      "Input": [
+        "1Z 341 7XL 25 7646 638 1"
+      ],
+      "Output": "341"
+    },
+    {
+      "Input": [
+        "1Z MZO 066 11 1483 310 4"
+      ],
+      "Output": "MZO"
+    },
+    {
+      "Input": [
+        "1Z S6U 92H 94 1413 828 9"
+      ],
+      "Output": "S6U"
+    },
+    {
+      "Input": [
+        "1Z L2A ZMX 24 8528 693 5"
+      ],
+      "Output": "L2A"
+    },
+    {
+      "Input": [
+        "1Z 9X8 1UT 24 5599 287 2"
+      ],
+      "Output": "9X8"
+    },
+    {
+      "Input": [
+        "1Z A7K 0BB 32 0314 371 4"
+      ],
+      "Output": "A7K"
+    },
+    {
+      "Input": [
+        "1Z CJZ 687 88 0677 727 7"
+      ],
+      "Output": "CJZ"
+    },
+    {
+      "Input": [
+        "1Z 2O4 546 68 0504 331 9"
+      ],
+      "Output": "2O4"
+    },
+    {
+      "Input": [
+        "1Z 48B 2ZM 08 4926 393 5"
+      ],
+      "Output": "48B"
+    },
+    {
+      "Input": [
+        "1Z 8FU 33Q 00 6940 136 0"
+      ],
+      "Output": "8FU"
+    },
+    {
+      "Input": [
+        "1Z RL7 Z66 97 8646 641 3"
+      ],
+      "Output": "RL7"
+    },
+    {
+      "Input": [
+        "1Z 9RX 1JU 51 3253 359 8"
+      ],
+      "Output": "9RX"
+    },
+    {
+      "Input": [
+        "1Z FKT 562 54 0900 573 4"
+      ],
+      "Output": "FKT"
+    },
+    {
+      "Input": [
+        "1Z 440 U4A 42 4545 831 1"
+      ],
+      "Output": "440"
+    },
+    {
+      "Input": [
+        "1Z UL5 123 94 3943 818 0"
+      ],
+      "Output": "UL5"
+    },
+    {
+      "Input": [
+        "1Z RN1 0EI 65 6528 347 1"
+      ],
+      "Output": "RN1"
+    },
+    {
+      "Input": [
+        "1Z A50 989 77 9296 151 3"
+      ],
+      "Output": "A50"
+    },
+    {
+      "Input": [
+        "1Z LUI 6LZ 40 6103 255 3"
+      ],
+      "Output": "LUI"
+    },
+    {
+      "Input": [
+        "1Z U57 RFL 05 2865 165 0"
+      ],
+      "Output": "U57"
+    },
+    {
+      "Input": [
+        "1Z G41 TIX 92 7180 797 6"
+      ],
+      "Output": "G41"
+    },
+    {
+      "Input": [
+        "1Z OOB 687 30 3558 420 2"
+      ],
+      "Output": "OOB"
+    },
+    {
+      "Input": [
+        "1Z 6K5 BXT 92 5273 670 9"
+      ],
+      "Output": "6K5"
+    },
+    {
+      "Input": [
+        "1Z 0N0 3IP 98 6903 808 6"
+      ],
+      "Output": "0N0"
+    },
+    {
+      "Input": [
+        "1Z 2QX 4H3 38 0596 514 9"
+      ],
+      "Output": "2QX"
+    },
+    {
+      "Input": [
+        "1Z L3L 8UD 22 4541 823 7"
+      ],
+      "Output": "L3L"
+    },
+    {
+      "Input": [
+        "1Z 18L 5KH 16 5804 466 6"
+      ],
+      "Output": "18L"
+    },
+    {
+      "Input": [
+        "1Z FB0 S97 25 5332 287 6"
+      ],
+      "Output": "FB0"
+    },
+    {
+      "Input": [
+        "1Z 9HX CR2 62 4254 633 1"
+      ],
+      "Output": "9HX"
+    },
+    {
+      "Input": [
+        "1Z 203 7D3 11 7684 821 7"
+      ],
+      "Output": "203"
+    },
+    {
+      "Input": [
+        "1Z DZK 3B5 04 8874 840 3"
+      ],
+      "Output": "DZK"
+    },
+    {
+      "Input": [
+        "1Z 1UX 9PL 80 4638 852 0"
+      ],
+      "Output": "1UX"
+    },
+    {
+      "Input": [
+        "1Z EO7 257 88 6142 129 1"
+      ],
+      "Output": "EO7"
+    },
+    {
+      "Input": [
+        "1Z 876 8F1 69 3315 258 6"
+      ],
+      "Output": "876"
+    },
+    {
+      "Input": [
+        "1Z TR2 7L9 78 9760 764 3"
+      ],
+      "Output": "TR2"
+    },
+    {
+      "Input": [
+        "1Z 29T P47 07 9854 477 4"
+      ],
+      "Output": "29T"
+    },
+    {
+      "Input": [
+        "1Z M8O 9E7 43 3200 805 2"
+      ],
+      "Output": "M8O"
+    },
+    {
+      "Input": [
+        "1Z AD2 664 47 9009 465 9"
+      ],
+      "Output": "AD2"
+    },
+    {
+      "Input": [
+        "1Z 516 IJ1 78 4077 501 2"
+      ],
+      "Output": "516"
+    },
+    {
+      "Input": [
+        "1Z M0E 692 58 0791 260 0"
+      ],
+      "Output": "M0E"
+    },
+    {
+      "Input": [
+        "1Z 2WW YHL 62 6014 792 6"
+      ],
+      "Output": "2WW"
+    },
+    {
+      "Input": [
+        "1Z GBX NUA 82 3375 030 9"
+      ],
+      "Output": "GBX"
+    },
+    {
+      "Input": [
+        "1Z 402 14T 61 8308 786 7"
+      ],
+      "Output": "402"
+    },
+    {
+      "Input": [
+        "1Z VD4 3XF 54 7725 655 1"
+      ],
+      "Output": "VD4"
+    },
+    {
+      "Input": [
+        "1Z FFL 0P4 23 1271 118 7"
+      ],
+      "Output": "FFL"
+    },
+    {
+      "Input": [
+        "1Z 912 GR1 91 2182 816 3"
+      ],
+      "Output": "912"
+    },
+    {
+      "Input": [
+        "1Z K2I 9Y6 26 2787 357 9"
+      ],
+      "Output": "K2I"
+    },
+    {
+      "Input": [
+        "1Z 1A9 68T 72 0092 671 6"
+      ],
+      "Output": "1A9"
+    },
+    {
+      "Input": [
+        "1Z ML3 760 14 3206 307 3"
+      ],
+      "Output": "ML3"
+    },
+    {
+      "Input": [
+        "1Z 5S3 1NP 55 4920 171 5"
+      ],
+      "Output": "5S3"
+    },
+    {
+      "Input": [
+        "1Z PZC QOD 92 6841 425 4"
+      ],
+      "Output": "PZC"
+    },
+    {
+      "Input": [
+        "1Z RR9 PY9 18 3400 800 9"
+      ],
+      "Output": "RR9"
+    },
+    {
+      "Input": [
+        "1Z TEP HLU 30 4869 971 6"
+      ],
+      "Output": "TEP"
+    },
+    {
+      "Input": [
+        "1Z A71 IW0 94 8000 644 3"
+      ],
+      "Output": "A71"
+    },
+    {
+      "Input": [
+        "1Z KG1 180 15 8311 189 1"
+      ],
+      "Output": "KG1"
+    },
+    {
+      "Input": [
+        "1Z KXS FFD 37 9327 692 4"
+      ],
+      "Output": "KXS"
+    },
+    {
+      "Input": [
+        "1Z N73 480 84 2147 658 1"
+      ],
+      "Output": "N73"
+    },
+    {
+      "Input": [
+        "1Z P7C 2BD 37 9084 682 8"
+      ],
+      "Output": "P7C"
+    },
+    {
+      "Input": [
+        "1Z 9R2 XO5 12 5449 670 9"
+      ],
+      "Output": "9R2"
+    },
+    {
+      "Input": [
+        "1Z I6D 26E 89 4000 135 2"
+      ],
+      "Output": "I6D"
+    },
+    {
+      "Input": [
+        "1Z U99 DED 37 5975 209 1"
+      ],
+      "Output": "U99"
+    },
+    {
+      "Input": [
+        "1Z OWS PP6 83 1834 539 1"
+      ],
+      "Output": "OWS"
+    },
+    {
+      "Input": [
+        "1Z 318 17Q 43 0946 595 1"
+      ],
+      "Output": "318"
+    },
+    {
+      "Input": [
+        "1Z PRP 75V 51 5574 488 2"
+      ],
+      "Output": "PRP"
+    },
+    {
+      "Input": [
+        "1Z M46 298 57 1358 951 6"
+      ],
+      "Output": "M46"
+    },
+    {
+      "Input": [
+        "1Z VDM 24Z 16 1207 248 3"
+      ],
+      "Output": "VDM"
+    },
+    {
+      "Input": [
+        "1Z 8AA QZT 62 5571 704 6"
+      ],
+      "Output": "8AA"
+    },
+    {
+      "Input": [
+        "1Z T6V EFU 21 4223 729 1"
+      ],
+      "Output": "T6V"
+    },
+    {
+      "Input": [
+        "1Z A13 2K7 24 4986 835 1"
+      ],
+      "Output": "A13"
+    },
+    {
+      "Input": [
+        "1Z 496 KTX 64 7484 964 1"
+      ],
+      "Output": "496"
+    },
+    {
+      "Input": [
+        "1Z 7IP 83F 61 3651 039 4"
+      ],
+      "Output": "7IP"
+    },
+    {
+      "Input": [
+        "1Z O2W M11 16 3785 945 0"
+      ],
+      "Output": "O2W"
+    },
+    {
+      "Input": [
+        "1Z 384 870 78 3297 850 6"
+      ],
+      "Output": "384"
+    },
+    {
+      "Input": [
+        "1Z 047 970 84 0306 363 9"
+      ],
+      "Output": "047"
+    },
+    {
+      "Input": [
+        "1Z V3S N32 80 9203 712 4"
+      ],
+      "Output": "V3S"
+    },
+    {
+      "Input": [
+        "1Z 7KX BF6 67 4123 216 5"
+      ],
+      "Output": "7KX"
+    },
+    {
+      "Input": [
+        "1Z 242 V19 50 3763 361 4"
+      ],
+      "Output": "242"
+    },
+    {
+      "Input": [
+        "1Z 4FU 28R 18 4470 305 5"
+      ],
+      "Output": "4FU"
+    },
+    {
+      "Input": [
+        "1Z CPU 98R 96 0003 891 9"
+      ],
+      "Output": "CPU"
+    },
+    {
+      "Input": [
+        "1Z 98O ITT 15 1447 958 2"
+      ],
+      "Output": "98O"
+    },
+    {
+      "Input": [
+        "1Z WB7 QYT 74 8733 409 2"
+      ],
+      "Output": "WB7"
+    },
+    {
+      "Input": [
+        "1Z LW1 3YR 07 4351 108 3"
+      ],
+      "Output": "LW1"
+    },
+    {
+      "Input": [
+        "1Z 9YG 12X 55 8244 528 9"
+      ],
+      "Output": "9YG"
+    },
+    {
+      "Input": [
+        "1Z AZX F5I 88 2511 754 0"
+      ],
+      "Output": "AZX"
+    },
+    {
+      "Input": [
+        "1Z UYO 156 96 2423 983 9"
+      ],
+      "Output": "UYO"
+    },
+    {
+      "Input": [
+        "1Z I81 479 11 9168 467 6"
+      ],
+      "Output": "I81"
+    },
+    {
+      "Input": [
+        "1Z 9R1 1YS 64 7709 189 7"
+      ],
+      "Output": "9R1"
+    },
+    {
+      "Input": [
+        "1Z 210 J38 96 4628 560 6"
+      ],
+      "Output": "210"
+    },
+    {
+      "Input": [
+        "1Z 7D6 U57 40 9115 513 4"
+      ],
+      "Output": "7D6"
+    },
+    {
+      "Input": [
+        "1Z DHZ 1MA 43 8567 583 7"
+      ],
+      "Output": "DHZ"
+    },
+    {
+      "Input": [
+        "1Z O70 482 98 3789 353 6"
+      ],
+      "Output": "O70"
+    },
+    {
+      "Input": [
+        "1Z S0J Q95 76 1901 961 2"
+      ],
+      "Output": "S0J"
+    },
+    {
+      "Input": [
+        "1Z T0W GI7 01 0612 192 6"
+      ],
+      "Output": "T0W"
+    },
+    {
+      "Input": [
+        "1Z CA3 9FJ 25 3172 672 2"
+      ],
+      "Output": "CA3"
+    },
+    {
+      "Input": [
+        "1Z 85L JFS 90 8692 355 5"
+      ],
+      "Output": "85L"
+    },
+    {
+      "Input": [
+        "1Z CB6 YI5 12 7459 861 7"
+      ],
+      "Output": "CB6"
+    },
+    {
+      "Input": [
+        "1Z 1QO S62 40 3563 254 6"
+      ],
+      "Output": "1QO"
+    },
+    {
+      "Input": [
+        "1Z K7R VA3 95 0830 588 0"
+      ],
+      "Output": "K7R"
+    },
+    {
+      "Input": [
+        "1Z 333 F7G 25 7106 752 2"
+      ],
+      "Output": "333"
+    },
+    {
+      "Input": [
+        "1Z 0NN VO8 35 2546 886 3"
+      ],
+      "Output": "0NN"
+    },
+    {
+      "Input": [
+        "1Z FWE 5BT 35 8965 896 8"
+      ],
+      "Output": "FWE"
+    },
+    {
+      "Input": [
+        "1Z 6E8 30V 33 6265 068 7"
+      ],
+      "Output": "6E8"
+    },
+    {
+      "Input": [
+        "1Z ZS2 KY1 27 9863 756 6"
+      ],
+      "Output": "ZS2"
+    },
+    {
+      "Input": [
+        "1Z RH4 FQV 16 1313 708 8"
+      ],
+      "Output": "RH4"
+    },
+    {
+      "Input": [
+        "1Z 5S3 231 01 9599 755 3"
+      ],
+      "Output": "5S3"
+    },
+    {
+      "Input": [
+        "1Z FAF OSO 75 7398 474 8"
+      ],
+      "Output": "FAF"
+    },
+    {
+      "Input": [
+        "1Z 18C 2BX 47 2401 744 4"
+      ],
+      "Output": "18C"
+    },
+    {
+      "Input": [
+        "1Z 96T 68L 84 3246 494 1"
+      ],
+      "Output": "96T"
+    },
+    {
+      "Input": [
+        "1Z 5I5 K6Y 85 4344 410 7"
+      ],
+      "Output": "5I5"
+    },
+    {
+      "Input": [
+        "1Z 0Y7 N09 12 4707 468 2"
+      ],
+      "Output": "0Y7"
+    },
+    {
+      "Input": [
+        "1Z 635 9N1 37 6361 148 4"
+      ],
+      "Output": "635"
+    },
+    {
+      "Input": [
+        "1Z 074 BEE 22 4890 174 9"
+      ],
+      "Output": "074"
+    },
+    {
+      "Input": [
+        "1Z 93P VA7 20 8740 460 8"
+      ],
+      "Output": "93P"
+    },
+    {
+      "Input": [
+        "1Z 123 R38 78 1748 381 1"
+      ],
+      "Output": "123"
+    },
+    {
+      "Input": [
+        "1Z 83U G31 26 3548 303 2"
+      ],
+      "Output": "83U"
+    },
+    {
+      "Input": [
+        "1Z 828 Y1D 30 0180 005 3"
+      ],
+      "Output": "828"
+    },
+    {
+      "Input": [
+        "1Z D2A D8Z 52 5943 399 6"
+      ],
+      "Output": "D2A"
+    },
+    {
+      "Input": [
+        "1Z N79 2S4 18 6896 042 6"
+      ],
+      "Output": "N79"
+    },
+    {
+      "Input": [
+        "1Z 81Q 4GE 74 2318 612 4"
+      ],
+      "Output": "81Q"
+    },
+    {
+      "Input": [
+        "1Z 0O2 G29 80 8653 231 4"
+      ],
+      "Output": "0O2"
+    },
+    {
+      "Input": [
+        "1Z KGP NC9 09 0718 048 2"
+      ],
+      "Output": "KGP"
+    },
+    {
+      "Input": [
+        "1Z 228 0Y8 18 0065 778 8"
+      ],
+      "Output": "228"
+    },
+    {
+      "Input": [
+        "1Z S64 0RG 94 3677 039 6"
+      ],
+      "Output": "S64"
+    },
+    {
+      "Input": [
+        "1Z X88 5N5 45 1055 941 2"
+      ],
+      "Output": "X88"
+    },
+    {
+      "Input": [
+        "1Z 599 O1O 78 6727 137 8"
+      ],
+      "Output": "599"
+    },
+    {
+      "Input": [
+        "1Z BS7 1S1 21 8057 994 8"
+      ],
+      "Output": "BS7"
+    },
+    {
+      "Input": [
+        "1Z 1UT 8FI 95 2471 978 3"
+      ],
+      "Output": "1UT"
+    },
+    {
+      "Input": [
+        "1Z 57R W00 54 9348 859 6"
+      ],
+      "Output": "57R"
+    },
+    {
+      "Input": [
+        "1Z M28 B15 23 0310 312 8"
+      ],
+      "Output": "M28"
+    },
+    {
+      "Input": [
+        "1Z XT9 UTJ 23 3509 099 1"
+      ],
+      "Output": "XT9"
+    },
+    {
+      "Input": [
+        "1Z Z4L ND5 33 1011 368 4"
+      ],
+      "Output": "Z4L"
+    },
+    {
+      "Input": [
+        "1Z ZN1 85C 70 4331 212 1"
+      ],
+      "Output": "ZN1"
+    },
+    {
+      "Input": [
+        "1Z FYV O2R 48 9233 250 4"
+      ],
+      "Output": "FYV"
+    },
+    {
+      "Input": [
+        "1Z 9UK GO8 33 2307 988 7"
+      ],
+      "Output": "9UK"
+    },
+    {
+      "Input": [
+        "1Z N9W PPP 92 0615 020 3"
+      ],
+      "Output": "N9W"
+    },
+    {
+      "Input": [
+        "1Z X08 55S 25 5748 932 3"
+      ],
+      "Output": "X08"
+    },
+    {
+      "Input": [
+        "1Z 0CG O6V 97 8687 050 4"
+      ],
+      "Output": "0CG"
+    },
+    {
+      "Input": [
+        "1Z DWK 9F9 92 7136 020 7"
+      ],
+      "Output": "DWK"
+    },
+    {
+      "Input": [
+        "1Z AD5 8UG 92 4111 686 8"
+      ],
+      "Output": "AD5"
+    },
+    {
+      "Input": [
+        "1Z K6W 1Z1 80 2944 331 4"
+      ],
+      "Output": "K6W"
+    },
+    {
+      "Input": [
+        "1Z YMC 967 70 9507 602 5"
+      ],
+      "Output": "YMC"
+    },
+    {
+      "Input": [
+        "1Z DF3 5M3 68 3101 024 6"
+      ],
+      "Output": "DF3"
+    },
+    {
+      "Input": [
+        "1Z XX5 3EH 30 8059 062 3"
+      ],
+      "Output": "XX5"
+    },
+    {
+      "Input": [
+        "1Z 7QW 3ZI 37 4901 051 8"
+      ],
+      "Output": "7QW"
+    },
+    {
+      "Input": [
+        "1Z 103 913 17 8855 813 5"
+      ],
+      "Output": "103"
+    },
+    {
+      "Input": [
+        "1Z J94 8I5 54 7802 971 1"
+      ],
+      "Output": "J94"
+    },
+    {
+      "Input": [
+        "1Z 12B 756 62 3459 359 0"
+      ],
+      "Output": "12B"
+    },
+    {
+      "Input": [
+        "1Z 4SX 8LX 88 1672 690 1"
+      ],
+      "Output": "4SX"
+    },
+    {
+      "Input": [
+        "1Z 5V7 P27 88 3578 681 7"
+      ],
+      "Output": "5V7"
+    },
+    {
+      "Input": [
+        "1Z O2H 02Q 20 0906 846 7"
+      ],
+      "Output": "O2H"
+    },
+    {
+      "Input": [
+        "1Z 86D 2J2 20 5321 295 1"
+      ],
+      "Output": "86D"
+    },
+    {
+      "Input": [
+        "1Z 5YF 2T9 40 5587 902 1"
+      ],
+      "Output": "5YF"
+    },
+    {
+      "Input": [
+        "1Z VII 8FJ 11 2703 034 8"
+      ],
+      "Output": "VII"
+    },
+    {
+      "Input": [
+        "1Z 2Q2 DAX 10 8793 897 8"
+      ],
+      "Output": "2Q2"
+    },
+    {
+      "Input": [
+        "1Z 3XR 79N 08 6069 073 3"
+      ],
+      "Output": "3XR"
+    },
+    {
+      "Input": [
+        "1Z 750 W2G 26 3546 239 3"
+      ],
+      "Output": "750"
+    },
+    {
+      "Input": [
+        "1Z W20 B05 18 0177 142 5"
+      ],
+      "Output": "W20"
+    },
+    {
+      "Input": [
+        "1Z 33B 073 77 7385 121 0"
+      ],
+      "Output": "33B"
+    },
+    {
+      "Input": [
+        "1Z 75O W28 89 6102 098 0"
+      ],
+      "Output": "75O"
+    },
+    {
+      "Input": [
+        "1Z 3M8 332 52 5543 891 4"
+      ],
+      "Output": "3M8"
+    },
+    {
+      "Input": [
+        "1Z J49 100 16 0591 975 6"
+      ],
+      "Output": "J49"
+    },
+    {
+      "Input": [
+        "1Z 86O C80 10 4933 291 2"
+      ],
+      "Output": "86O"
+    },
+    {
+      "Input": [
+        "1Z 98U 72C 66 2553 991 7"
+      ],
+      "Output": "98U"
+    },
+    {
+      "Input": [
+        "1Z ODL 6VD 72 7031 108 4"
+      ],
+      "Output": "ODL"
+    },
+    {
+      "Input": [
+        "1Z H7O 254 23 6620 502 9"
+      ],
+      "Output": "H7O"
+    },
+    {
+      "Input": [
+        "1Z IJU TNU 84 6614 555 3"
+      ],
+      "Output": "IJU"
+    },
+    {
+      "Input": [
+        "1Z 7NX 3WN 48 1451 778 6"
+      ],
+      "Output": "7NX"
+    },
+    {
+      "Input": [
+        "1Z EL6 KGI 69 2084 199 0"
+      ],
+      "Output": "EL6"
+    },
+    {
+      "Input": [
+        "1Z 8Z4 PV9 32 4779 482 9"
+      ],
+      "Output": "8Z4"
+    },
+    {
+      "Input": [
+        "1Z P0F SR4 55 6791 654 4"
+      ],
+      "Output": "P0F"
+    },
+    {
+      "Input": [
+        "1Z U70 2H3 37 3831 152 1"
+      ],
+      "Output": "U70"
+    },
+    {
+      "Input": [
+        "1Z E16 JAJ 35 4361 351 1"
+      ],
+      "Output": "E16"
+    },
+    {
+      "Input": [
+        "1Z 9H3 9TL 52 8069 943 7"
+      ],
+      "Output": "9H3"
+    },
+    {
+      "Input": [
+        "1Z 3VM NSW 28 3496 195 4"
+      ],
+      "Output": "3VM"
+    },
+    {
+      "Input": [
+        "1Z ECQ 7MR 93 5848 217 5"
+      ],
+      "Output": "ECQ"
+    },
+    {
+      "Input": [
+        "1Z F5V 8P9 67 4195 913 6"
+      ],
+      "Output": "F5V"
+    },
+    {
+      "Input": [
+        "1Z 07C 23C 84 0295 670 7"
+      ],
+      "Output": "07C"
+    },
+    {
+      "Input": [
+        "1Z D76 KB8 55 0574 386 8"
+      ],
+      "Output": "D76"
+    },
+    {
+      "Input": [
+        "1Z QGP W6L 66 3055 980 7"
+      ],
+      "Output": "QGP"
+    },
+    {
+      "Input": [
+        "1Z RAI YC4 04 3782 192 8"
+      ],
+      "Output": "RAI"
+    },
+    {
+      "Input": [
+        "1Z 84H ZTI 50 6854 693 1"
+      ],
+      "Output": "84H"
+    },
+    {
+      "Input": [
+        "1Z 575 V7N 15 9869 197 0"
+      ],
+      "Output": "575"
+    },
+    {
+      "Input": [
+        "1Z S4N VFA 86 4636 956 0"
+      ],
+      "Output": "S4N"
+    },
+    {
+      "Input": [
+        "1Z 2P0 223 08 1238 882 4"
+      ],
+      "Output": "2P0"
+    },
+    {
+      "Input": [
+        "1Z 12G MV7 19 9575 917 3"
+      ],
+      "Output": "12G"
+    },
+    {
+      "Input": [
+        "1Z 73T E0P 48 8596 795 9"
+      ],
+      "Output": "73T"
+    },
+    {
+      "Input": [
+        "1Z J33 2RS 44 8177 686 4"
+      ],
+      "Output": "J33"
+    },
+    {
+      "Input": [
+        "1Z 6ZN 4NG 02 4689 899 5"
+      ],
+      "Output": "6ZN"
+    },
+    {
+      "Input": [
+        "1Z 051 A49 61 3377 202 8"
+      ],
+      "Output": "051"
+    },
+    {
+      "Input": [
+        "1Z Y1Y N9O 98 0028 517 0"
+      ],
+      "Output": "Y1Y"
+    },
+    {
+      "Input": [
+        "1Z LQ2 MNJ 57 0106 959 1"
+      ],
+      "Output": "LQ2"
+    },
+    {
+      "Input": [
+        "1Z 4SG S7O 72 2836 460 1"
+      ],
+      "Output": "4SG"
+    },
+    {
+      "Input": [
+        "1Z 365 L6C 13 4722 835 9"
+      ],
+      "Output": "365"
+    },
+    {
+      "Input": [
+        "1Z 9VX MHG 46 5216 339 9"
+      ],
+      "Output": "9VX"
+    },
+    {
+      "Input": [
+        "1Z 4X3 7O9 76 7157 117 1"
+      ],
+      "Output": "4X3"
+    },
+    {
+      "Input": [
+        "1Z 1YS 53R 38 0303 506 2"
+      ],
+      "Output": "1YS"
+    },
+    {
+      "Input": [
+        "1Z R4N S97 75 4506 995 9"
+      ],
+      "Output": "R4N"
+    },
+    {
+      "Input": [
+        "1Z 3L8 088 21 2404 647 0"
+      ],
+      "Output": "3L8"
+    },
+    {
+      "Input": [
+        "1Z 8U4 I8D 12 0790 899 2"
+      ],
+      "Output": "8U4"
+    },
+    {
+      "Input": [
+        "1Z 3DN M32 64 0766 430 5"
+      ],
+      "Output": "3DN"
+    },
+    {
+      "Input": [
+        "1Z 2SK C94 46 3881 348 0"
+      ],
+      "Output": "2SK"
+    },
+    {
+      "Input": [
+        "1Z 3I2 9P7 89 8103 293 4"
+      ],
+      "Output": "3I2"
+    },
+    {
+      "Input": [
+        "1Z C8D B05 38 0687 958 0"
+      ],
+      "Output": "C8D"
+    },
+    {
+      "Input": [
+        "1Z 9A1 AZ2 29 3789 507 5"
+      ],
+      "Output": "9A1"
+    },
+    {
+      "Input": [
+        "1Z 272 958 97 1396 065 9"
+      ],
+      "Output": "272"
+    },
+    {
+      "Input": [
+        "1Z RB6 98P 72 4282 037 0"
+      ],
+      "Output": "RB6"
+    },
+    {
+      "Input": [
+        "1Z 0OL XLE 08 1126 509 4"
+      ],
+      "Output": "0OL"
+    },
+    {
+      "Input": [
+        "1Z 133 6UC 04 0754 961 0"
+      ],
+      "Output": "133"
+    },
+    {
+      "Input": [
+        "1Z 4CR 09I 41 0543 883 4"
+      ],
+      "Output": "4CR"
+    },
+    {
+      "Input": [
+        "1Z 795 UJ0 95 2797 741 1"
+      ],
+      "Output": "795"
+    },
+    {
+      "Input": [
+        "1Z Q93 2ZO 35 7141 199 3"
+      ],
+      "Output": "Q93"
+    },
+    {
+      "Input": [
+        "1Z 06C ZZO 25 6446 131 2"
+      ],
+      "Output": "06C"
+    },
+    {
+      "Input": [
+        "1Z D62 F2I 82 6411 915 7"
+      ],
+      "Output": "D62"
+    },
+    {
+      "Input": [
+        "1Z NSH CX3 57 4276 752 6"
+      ],
+      "Output": "NSH"
+    },
+    {
+      "Input": [
+        "1Z EF1 116 06 5292 174 8"
+      ],
+      "Output": "EF1"
+    },
+    {
+      "Input": [
+        "1Z 6X4 GX9 59 0897 761 4"
+      ],
+      "Output": "6X4"
+    },
+    {
+      "Input": [
+        "1Z 54G 8Z6 54 2966 837 7"
+      ],
+      "Output": "54G"
+    },
+    {
+      "Input": [
+        "1Z 2L9 ETF 30 0896 949 2"
+      ],
+      "Output": "2L9"
+    },
+    {
+      "Input": [
+        "1Z 4V0 06D 10 8891 849 0"
+      ],
+      "Output": "4V0"
+    },
+    {
+      "Input": [
+        "1Z WTT ITJ 05 1414 715 4"
+      ],
+      "Output": "WTT"
+    },
+    {
+      "Input": [
+        "1Z W73 747 96 2426 304 1"
+      ],
+      "Output": "W73"
+    },
+    {
+      "Input": [
+        "1Z HSB 9MO 87 9606 969 8"
+      ],
+      "Output": "HSB"
+    },
+    {
+      "Input": [
+        "1Z 8A4 3V3 43 5371 552 0"
+      ],
+      "Output": "8A4"
+    },
+    {
+      "Input": [
+        "1Z 604 5A6 98 0743 147 6"
+      ],
+      "Output": "604"
+    },
+    {
+      "Input": [
+        "1Z 334 2DK 31 4990 352 9"
+      ],
+      "Output": "334"
+    },
+    {
+      "Input": [
+        "1Z ML1 578 68 0103 794 1"
+      ],
+      "Output": "ML1"
+    },
+    {
+      "Input": [
+        "1Z QK3 15T 85 9204 535 1"
+      ],
+      "Output": "QK3"
+    },
+    {
+      "Input": [
+        "1Z BW1 A4Z 71 7919 603 9"
+      ],
+      "Output": "BW1"
+    },
+    {
+      "Input": [
+        "1Z 60O UP1 33 5196 442 8"
+      ],
+      "Output": "60O"
+    },
+    {
+      "Input": [
+        "1Z 154 AVO 21 0742 603 4"
+      ],
+      "Output": "154"
+    },
+    {
+      "Input": [
+        "1Z 5SM NL8 94 0539 533 4"
+      ],
+      "Output": "5SM"
+    },
+    {
+      "Input": [
+        "1Z 0WE U78 97 7151 201 1"
+      ],
+      "Output": "0WE"
+    },
+    {
+      "Input": [
+        "1Z 270 BZJ 68 5832 680 7"
+      ],
+      "Output": "270"
+    },
+    {
+      "Input": [
+        "1Z 7U2 4DU 65 4273 768 2"
+      ],
+      "Output": "7U2"
+    },
+    {
+      "Input": [
+        "1Z 3HU 23K 98 2784 502 8"
+      ],
+      "Output": "3HU"
+    },
+    {
+      "Input": [
+        "1Z IAN 1V4 40 9161 864 0"
+      ],
+      "Output": "IAN"
+    },
+    {
+      "Input": [
+        "1Z 45F 129 99 7578 285 5"
+      ],
+      "Output": "45F"
+    },
+    {
+      "Input": [
+        "1Z SGW 1Y5 55 9484 621 1"
+      ],
+      "Output": "SGW"
+    },
+    {
+      "Input": [
+        "1Z FQ8 1W5 89 9337 160 7"
+      ],
+      "Output": "FQ8"
+    },
+    {
+      "Input": [
+        "1Z 0J3 H6Y 00 2334 766 5"
+      ],
+      "Output": "0J3"
+    },
+    {
+      "Input": [
+        "1Z 4B4 51T 61 4876 589 2"
+      ],
+      "Output": "4B4"
+    },
+    {
+      "Input": [
+        "1Z J4F 1Q8 94 3582 157 2"
+      ],
+      "Output": "J4F"
+    },
+    {
+      "Input": [
+        "1Z DOY 679 62 9237 000 5"
+      ],
+      "Output": "DOY"
+    },
+    {
+      "Input": [
+        "1Z L0P R75 39 6326 901 4"
+      ],
+      "Output": "L0P"
+    },
+    {
+      "Input": [
+        "1Z JAW F9I 15 8302 012 6"
+      ],
+      "Output": "JAW"
+    },
+    {
+      "Input": [
+        "1Z HLI 507 78 5984 485 5"
+      ],
+      "Output": "HLI"
+    },
+    {
+      "Input": [
+        "1Z T3T 20G 71 4981 362 1"
+      ],
+      "Output": "T3T"
+    },
+    {
+      "Input": [
+        "1Z 437 U0D 64 9280 787 0"
+      ],
+      "Output": "437"
+    },
+    {
+      "Input": [
+        "1Z V5T 84D 84 4853 241 9"
+      ],
+      "Output": "V5T"
+    },
+    {
+      "Input": [
+        "1Z NXO 21Q 48 1100 147 6"
+      ],
+      "Output": "NXO"
+    },
+    {
+      "Input": [
+        "1Z 725 58Q 06 8538 190 9"
+      ],
+      "Output": "725"
+    },
+    {
+      "Input": [
+        "1Z Z14 O08 11 2375 547 6"
+      ],
+      "Output": "Z14"
+    },
+    {
+      "Input": [
+        "1Z 54Q T14 27 3214 255 8"
+      ],
+      "Output": "54Q"
+    },
+    {
+      "Input": [
+        "1Z K43 5IF 60 0197 387 0"
+      ],
+      "Output": "K43"
+    },
+    {
+      "Input": [
+        "1Z 530 0IM 07 1048 501 4"
+      ],
+      "Output": "530"
+    },
+    {
+      "Input": [
+        "1Z F28 96B 90 9044 218 9"
+      ],
+      "Output": "F28"
+    },
+    {
+      "Input": [
+        "1Z JPZ 0NQ 13 7123 358 3"
+      ],
+      "Output": "JPZ"
+    },
+    {
+      "Input": [
+        "1Z 985 IUB 85 2400 505 9"
+      ],
+      "Output": "985"
+    },
+    {
+      "Input": [
+        "1Z QI7 MQQ 63 1957 138 4"
+      ],
+      "Output": "QI7"
+    },
+    {
+      "Input": [
+        "1Z RY4 32Q 24 2851 304 2"
+      ],
+      "Output": "RY4"
+    },
+    {
+      "Input": [
+        "1Z AC2 6K8 60 8103 243 1"
+      ],
+      "Output": "AC2"
+    },
+    {
+      "Input": [
+        "1Z O9E JQI 94 3118 682 9"
+      ],
+      "Output": "O9E"
+    },
+    {
+      "Input": [
+        "1Z TY6 759 57 3740 042 8"
+      ],
+      "Output": "TY6"
+    },
+    {
+      "Input": [
+        "1Z SF6 F9T 19 2276 837 6"
+      ],
+      "Output": "SF6"
+    },
+    {
+      "Input": [
+        "1Z KC7 468 26 4017 379 5"
+      ],
+      "Output": "KC7"
+    },
+    {
+      "Input": [
+        "1Z 888 5F7 83 5642 550 1"
+      ],
+      "Output": "888"
+    },
+    {
+      "Input": [
+        "1Z P6P 8H6 29 9959 105 0"
+      ],
+      "Output": "P6P"
+    },
+    {
+      "Input": [
+        "1Z RCO 90F 29 2794 374 5"
+      ],
+      "Output": "RCO"
+    },
+    {
+      "Input": [
+        "1Z 63P BZS 90 4630 335 6"
+      ],
+      "Output": "63P"
+    },
+    {
+      "Input": [
+        "1Z Y25 30J 44 2431 912 4"
+      ],
+      "Output": "Y25"
+    },
+    {
+      "Input": [
+        "1Z 786 16U 36 3743 636 0"
+      ],
+      "Output": "786"
+    },
+    {
+      "Input": [
+        "1Z 261 L2D 57 7262 977 5"
+      ],
+      "Output": "261"
+    },
+    {
+      "Input": [
+        "1Z VL8 CE4 69 9195 145 7"
+      ],
+      "Output": "VL8"
+    },
+    {
+      "Input": [
+        "1Z ZCE IMF 80 7168 099 4"
+      ],
+      "Output": "ZCE"
+    },
+    {
+      "Input": [
+        "1Z 3CD B11 47 7599 819 0"
+      ],
+      "Output": "3CD"
+    },
+    {
+      "Input": [
+        "1Z 04P 74R 72 0723 450 4"
+      ],
+      "Output": "04P"
+    },
+    {
+      "Input": [
+        "1Z 3H9 20Q 06 6045 487 7"
+      ],
+      "Output": "3H9"
+    },
+    {
+      "Input": [
+        "1Z IEV NP9 16 3373 136 2"
+      ],
+      "Output": "IEV"
+    },
+    {
+      "Input": [
+        "1Z 1JZ Q59 92 7448 490 8"
+      ],
+      "Output": "1JZ"
+    },
+    {
+      "Input": [
+        "1Z J2M J7W 01 4550 993 8"
+      ],
+      "Output": "J2M"
+    },
+    {
+      "Input": [
+        "1Z 09O 2D9 98 7916 282 2"
+      ],
+      "Output": "09O"
+    },
+    {
+      "Input": [
+        "1Z JHW 97T 16 5873 407 6"
+      ],
+      "Output": "JHW"
+    },
+    {
+      "Input": [
+        "1Z 6BJ 01I 58 2235 292 3"
+      ],
+      "Output": "6BJ"
+    },
+    {
+      "Input": [
+        "1Z KU5 EA4 61 8253 625 4"
+      ],
+      "Output": "KU5"
+    },
+    {
+      "Input": [
+        "1Z 0C5 7EE 62 5656 903 3"
+      ],
+      "Output": "0C5"
+    },
+    {
+      "Input": [
+        "1Z BHQ BD5 79 4761 232 1"
+      ],
+      "Output": "BHQ"
+    },
+    {
+      "Input": [
+        "1Z 9R6 MSX 04 2813 190 5"
+      ],
+      "Output": "9R6"
+    },
+    {
+      "Input": [
+        "1Z R88 943 36 9449 618 0"
+      ],
+      "Output": "R88"
+    },
+    {
+      "Input": [
+        "1Z 230 1Q1 00 7269 754 9"
+      ],
+      "Output": "230"
+    },
+    {
+      "Input": [
+        "1Z D9B 4TT 60 4899 317 1"
+      ],
+      "Output": "D9B"
+    },
+    {
+      "Input": [
+        "1Z JQ1 4K4 29 1415 124 3"
+      ],
+      "Output": "JQ1"
+    },
+    {
+      "Input": [
+        "1Z 20Q 87G 59 4328 293 5"
+      ],
+      "Output": "20Q"
+    },
+    {
+      "Input": [
+        "1Z 9N5 Z56 38 1285 577 6"
+      ],
+      "Output": "9N5"
+    },
+    {
+      "Input": [
+        "1Z LEI 4NZ 19 1927 756 5"
+      ],
+      "Output": "LEI"
+    },
+    {
+      "Input": [
+        "1Z 564 TP3 04 3669 101 6"
+      ],
+      "Output": "564"
+    },
+    {
+      "Input": [
+        "1Z JP9 D06 67 7792 793 0"
+      ],
+      "Output": "JP9"
+    },
+    {
+      "Input": [
+        "1Z 4D5 M3G 26 8578 402 9"
+      ],
+      "Output": "4D5"
+    },
+    {
+      "Input": [
+        "1Z YE8 79Q 13 8854 582 8"
+      ],
+      "Output": "YE8"
+    },
+    {
+      "Input": [
+        "1Z 06C X1E 11 3469 622 5"
+      ],
+      "Output": "06C"
+    },
+    {
+      "Input": [
+        "1Z FYQ CW4 19 1364 044 5"
+      ],
+      "Output": "FYQ"
+    },
+    {
+      "Input": [
+        "1Z S0Y O95 40 1025 002 7"
+      ],
+      "Output": "S0Y"
+    },
+    {
+      "Input": [
+        "1Z 55V 0B2 26 6818 325 0"
+      ],
+      "Output": "55V"
+    },
+    {
+      "Input": [
+        "1Z IKW 5X9 44 4779 844 4"
+      ],
+      "Output": "IKW"
+    },
+    {
+      "Input": [
+        "1Z KRE O17 24 3521 513 2"
+      ],
+      "Output": "KRE"
+    },
+    {
+      "Input": [
+        "1Z 4DH QH6 00 1538 387 3"
+      ],
+      "Output": "4DH"
+    },
+    {
+      "Input": [
+        "1Z 34J G6N 12 0425 514 7"
+      ],
+      "Output": "34J"
+    },
+    {
+      "Input": [
+        "1Z 452 KTM 81 8020 000 3"
+      ],
+      "Output": "452"
+    },
+    {
+      "Input": [
+        "1Z 242 24Z 05 7895 278 3"
+      ],
+      "Output": "242"
+    },
+    {
+      "Input": [
+        "1Z 251 6BB 37 8817 460 2"
+      ],
+      "Output": "251"
+    },
+    {
+      "Input": [
+        "1Z L15 PRE 16 7916 789 1"
+      ],
+      "Output": "L15"
+    },
+    {
+      "Input": [
+        "1Z 060 6W6 18 9419 413 7"
+      ],
+      "Output": "060"
+    },
+    {
+      "Input": [
+        "1Z F70 46A 18 8754 083 1"
+      ],
+      "Output": "F70"
+    },
+    {
+      "Input": [
+        "1Z D2X 065 47 2065 470 1"
+      ],
+      "Output": "D2X"
+    },
+    {
+      "Input": [
+        "1Z O2S 947 50 7557 583 6"
+      ],
+      "Output": "O2S"
+    },
+    {
+      "Input": [
+        "1Z 932 I44 73 6637 710 2"
+      ],
+      "Output": "932"
+    },
+    {
+      "Input": [
+        "1Z AYA 208 25 3963 112 2"
+      ],
+      "Output": "AYA"
+    },
+    {
+      "Input": [
+        "1Z 2E1 M16 35 3035 193 4"
+      ],
+      "Output": "2E1"
+    },
+    {
+      "Input": [
+        "1Z 0U7 BM8 69 8118 696 1"
+      ],
+      "Output": "0U7"
+    },
+    {
+      "Input": [
+        "1Z L3P 25K 02 3573 141 9"
+      ],
+      "Output": "L3P"
+    },
+    {
+      "Input": [
+        "1Z C3D MI9 37 4045 222 7"
+      ],
+      "Output": "C3D"
+    },
+    {
+      "Input": [
+        "1Z YHP SBO 23 2114 000 9"
+      ],
+      "Output": "YHP"
+    },
+    {
+      "Input": [
+        "1Z 72X S9T 41 8882 649 5"
+      ],
+      "Output": "72X"
+    },
+    {
+      "Input": [
+        "1Z 748 68W 56 3878 346 7"
+      ],
+      "Output": "748"
+    },
+    {
+      "Input": [
+        "1Z Z58 54Z 54 5891 209 8"
+      ],
+      "Output": "Z58"
+    },
+    {
+      "Input": [
+        "1Z 1IP DN4 48 2079 234 0"
+      ],
+      "Output": "1IP"
+    },
+    {
+      "Input": [
+        "1Z L92 6YX 36 5697 384 4"
+      ],
+      "Output": "L92"
+    },
+    {
+      "Input": [
+        "1Z 9E0 MIV 85 6092 855 7"
+      ],
+      "Output": "9E0"
+    },
+    {
+      "Input": [
+        "1Z K35 13F 98 0869 485 8"
+      ],
+      "Output": "K35"
+    },
+    {
+      "Input": [
+        "1Z D65 W37 72 7397 234 3"
+      ],
+      "Output": "D65"
+    },
+    {
+      "Input": [
+        "1Z HL5 90O 20 8656 418 9"
+      ],
+      "Output": "HL5"
+    },
+    {
+      "Input": [
+        "1Z 6Q0 53R 35 1322 467 2"
+      ],
+      "Output": "6Q0"
+    },
+    {
+      "Input": [
+        "1Z G1S F65 83 9690 522 4"
+      ],
+      "Output": "G1S"
+    },
+    {
+      "Input": [
+        "1Z 128 20J 43 9683 129 1"
+      ],
+      "Output": "128"
+    },
+    {
+      "Input": [
+        "1Z 966 90R 93 4730 394 9"
+      ],
+      "Output": "966"
+    },
+    {
+      "Input": [
+        "1Z H3V 130 39 2961 053 5"
+      ],
+      "Output": "H3V"
+    },
+    {
+      "Input": [
+        "1Z I6F EKU 34 3512 843 7"
+      ],
+      "Output": "I6F"
+    },
+    {
+      "Input": [
+        "1Z 81V 4ZB 02 2397 166 3"
+      ],
+      "Output": "81V"
+    },
+    {
+      "Input": [
+        "1Z M5F 113 77 1831 028 7"
+      ],
+      "Output": "M5F"
+    },
+    {
+      "Input": [
+        "1Z 2YQ 1SD 64 2412 829 0"
+      ],
+      "Output": "2YQ"
+    },
+    {
+      "Input": [
+        "1Z 5XO D10 29 2450 035 0"
+      ],
+      "Output": "5XO"
+    },
+    {
+      "Input": [
+        "1Z 46Z M24 31 7450 639 5"
+      ],
+      "Output": "46Z"
+    },
+    {
+      "Input": [
+        "1Z 5U1 R3I 47 9713 657 9"
+      ],
+      "Output": "5U1"
+    },
+    {
+      "Input": [
+        "1Z JQ3 RY0 09 2626 601 4"
+      ],
+      "Output": "JQ3"
+    },
+    {
+      "Input": [
+        "1Z 7G0 9C0 45 5333 733 4"
+      ],
+      "Output": "7G0"
+    },
+    {
+      "Input": [
+        "1Z WR9 95O 98 0563 049 0"
+      ],
+      "Output": "WR9"
+    },
+    {
+      "Input": [
+        "1Z EG6 087 35 3994 164 8"
+      ],
+      "Output": "EG6"
+    },
+    {
+      "Input": [
+        "1Z N80 9UE 46 7829 417 8"
+      ],
+      "Output": "N80"
+    },
+    {
+      "Input": [
+        "1Z Z39 J81 79 8300 839 4"
+      ],
+      "Output": "Z39"
+    },
+    {
+      "Input": [
+        "1Z H5S 675 88 6309 452 2"
+      ],
+      "Output": "H5S"
+    },
+    {
+      "Input": [
+        "1Z X61 O2K 07 3863 193 3"
+      ],
+      "Output": "X61"
+    },
+    {
+      "Input": [
+        "1Z 56K W5I 65 0653 123 2"
+      ],
+      "Output": "56K"
+    },
+    {
+      "Input": [
+        "1Z QCE 363 19 4015 447 2"
+      ],
+      "Output": "QCE"
+    },
+    {
+      "Input": [
+        "1Z HSO 078 02 3870 266 2"
+      ],
+      "Output": "HSO"
+    },
+    {
+      "Input": [
+        "1Z R37 UG9 81 4479 636 0"
+      ],
+      "Output": "R37"
+    },
+    {
+      "Input": [
+        "1Z 8TK QL7 05 1132 945 7"
+      ],
+      "Output": "8TK"
+    },
+    {
+      "Input": [
+        "1Z R67 8UP 52 9130 655 7"
+      ],
+      "Output": "R67"
+    },
+    {
+      "Input": [
+        "1Z 8T1 QSI 04 7086 659 5"
+      ],
+      "Output": "8T1"
+    },
+    {
+      "Input": [
+        "1Z Y0J ET7 78 9768 198 0"
+      ],
+      "Output": "Y0J"
+    },
+    {
+      "Input": [
+        "1Z SZY F9B 89 1125 585 7"
+      ],
+      "Output": "SZY"
+    },
+    {
+      "Input": [
+        "1Z GVS N54 29 4128 588 9"
+      ],
+      "Output": "GVS"
+    },
+    {
+      "Input": [
+        "1Z 86K 105 79 1847 364 7"
+      ],
+      "Output": "86K"
+    },
+    {
+      "Input": [
+        "1Z GK0 ZA6 95 1818 463 2"
+      ],
+      "Output": "GK0"
+    },
+    {
+      "Input": [
+        "1Z G91 335 30 9013 125 2"
+      ],
+      "Output": "G91"
+    },
+    {
+      "Input": [
+        "1Z 388 16E 12 0883 613 6"
+      ],
+      "Output": "388"
+    },
+    {
+      "Input": [
+        "1Z T83 9M9 57 2252 228 4"
+      ],
+      "Output": "T83"
+    },
+    {
+      "Input": [
+        "1Z U49 AN6 10 9777 716 1"
+      ],
+      "Output": "U49"
+    },
+    {
+      "Input": [
+        "1Z EC9 32I 02 8008 414 1"
+      ],
+      "Output": "EC9"
+    },
+    {
+      "Input": [
+        "1Z 1M4 37N 26 8708 133 2"
+      ],
+      "Output": "1M4"
+    },
+    {
+      "Input": [
+        "1Z MTH 9K4 96 4588 966 5"
+      ],
+      "Output": "MTH"
+    },
+    {
+      "Input": [
+        "1Z K03 7V5 05 7500 761 2"
+      ],
+      "Output": "K03"
+    },
+    {
+      "Input": [
+        "1Z DH5 64I 34 1865 636 6"
+      ],
+      "Output": "DH5"
+    },
+    {
+      "Input": [
+        "1Z 93P VI4 97 0922 121 2"
+      ],
+      "Output": "93P"
+    },
+    {
+      "Input": [
+        "1Z 1E1 811 31 1602 609 0"
+      ],
+      "Output": "1E1"
+    },
+    {
+      "Input": [
+        "1Z 0O1 4DT 29 4762 472 9"
+      ],
+      "Output": "0O1"
+    },
+    {
+      "Input": [
+        "1Z V69 226 04 5970 700 6"
+      ],
+      "Output": "V69"
+    },
+    {
+      "Input": [
+        "1Z QNV HHX 74 4344 944 0"
+      ],
+      "Output": "QNV"
+    },
+    {
+      "Input": [
+        "1Z 22U VC0 04 4537 953 5"
+      ],
+      "Output": "22U"
+    },
+    {
+      "Input": [
+        "1Z N66 2Y2 29 5751 498 3"
+      ],
+      "Output": "N66"
+    },
+    {
+      "Input": [
+        "1Z 99Q NUF 74 1314 851 6"
+      ],
+      "Output": "99Q"
+    },
+    {
+      "Input": [
+        "1Z 6Z4 PN8 61 7653 435 5"
+      ],
+      "Output": "6Z4"
+    },
+    {
+      "Input": [
+        "1Z J75 V7X 27 6010 296 5"
+      ],
+      "Output": "J75"
+    },
+    {
+      "Input": [
+        "1Z 171 IQY 60 6607 780 9"
+      ],
+      "Output": "171"
+    },
+    {
+      "Input": [
+        "1Z 8I3 52X 68 7666 412 3"
+      ],
+      "Output": "8I3"
+    },
+    {
+      "Input": [
+        "1Z 941 RNA 93 8303 086 8"
+      ],
+      "Output": "941"
+    },
+    {
+      "Input": [
+        "1Z U12 VC8 38 8140 623 7"
+      ],
+      "Output": "U12"
+    },
+    {
+      "Input": [
+        "1Z GG7 41N 69 0849 799 8"
+      ],
+      "Output": "GG7"
+    },
+    {
+      "Input": [
+        "1Z 52U 6HJ 81 0207 697 5"
+      ],
+      "Output": "52U"
+    },
+    {
+      "Input": [
+        "1Z 113 UBL 73 5661 592 6"
+      ],
+      "Output": "113"
+    },
+    {
+      "Input": [
+        "1Z 77F 8W8 02 6832 503 1"
+      ],
+      "Output": "77F"
+    },
+    {
+      "Input": [
+        "1Z 81U 65G 48 6955 195 5"
+      ],
+      "Output": "81U"
+    },
+    {
+      "Input": [
+        "1Z K37 Q01 82 0305 102 4"
+      ],
+      "Output": "K37"
+    },
+    {
+      "Input": [
+        "1Z 0HM 179 79 4093 932 4"
+      ],
+      "Output": "0HM"
+    },
+    {
+      "Input": [
+        "1Z TG4 408 24 4810 983 4"
+      ],
+      "Output": "TG4"
+    },
+    {
+      "Input": [
+        "1Z 4N7 0R9 53 2077 329 2"
+      ],
+      "Output": "4N7"
+    },
+    {
+      "Input": [
+        "1Z 6OH 53E 84 9278 072 9"
+      ],
+      "Output": "6OH"
+    },
+    {
+      "Input": [
+        "1Z KA1 104 86 1574 096 0"
+      ],
+      "Output": "KA1"
+    },
+    {
+      "Input": [
+        "1Z 5NK NG6 18 2143 120 4"
+      ],
+      "Output": "5NK"
+    },
+    {
+      "Input": [
+        "1Z 5G3 9X6 44 5473 551 6"
+      ],
+      "Output": "5G3"
+    },
+    {
+      "Input": [
+        "1Z 7HR 78S 90 1627 247 9"
+      ],
+      "Output": "7HR"
+    },
+    {
+      "Input": [
+        "1Z SW8 YLO 46 0433 007 9"
+      ],
+      "Output": "SW8"
+    },
+    {
+      "Input": [
+        "1Z JS8 F0S 57 7095 962 4"
+      ],
+      "Output": "JS8"
+    },
+    {
+      "Input": [
+        "1Z Z2B Y82 47 0200 225 8"
+      ],
+      "Output": "Z2B"
+    },
+    {
+      "Input": [
+        "1Z 7G4 H1W 71 6916 018 5"
+      ],
+      "Output": "7G4"
+    },
+    {
+      "Input": [
+        "1Z 3JP 1X6 54 7546 560 6"
+      ],
+      "Output": "3JP"
+    },
+    {
+      "Input": [
+        "1Z 006 692 92 0972 989 7"
+      ],
+      "Output": "006"
+    },
+    {
+      "Input": [
+        "1Z 40N 865 34 4055 286 2"
+      ],
+      "Output": "40N"
+    },
+    {
+      "Input": [
+        "1Z I6K 7PI 56 6719 175 5"
+      ],
+      "Output": "I6K"
+    },
+    {
+      "Input": [
+        "1Z N23 XV5 72 8343 959 8"
+      ],
+      "Output": "N23"
+    },
+    {
+      "Input": [
+        "1Z IU9 NIR 16 1640 775 2"
+      ],
+      "Output": "IU9"
+    },
+    {
+      "Input": [
+        "1Z O5K YX3 95 5792 371 0"
+      ],
+      "Output": "O5K"
+    },
+    {
+      "Input": [
+        "1Z R74 0P0 26 3819 387 6"
+      ],
+      "Output": "R74"
+    },
+    {
+      "Input": [
+        "1Z 0JL 5U6 94 6145 897 7"
+      ],
+      "Output": "0JL"
+    },
+    {
+      "Input": [
+        "1Z 0M7 GY1 76 1463 012 2"
+      ],
+      "Output": "0M7"
+    },
+    {
+      "Input": [
+        "1Z 47G UKO 30 9071 517 6"
+      ],
+      "Output": "47G"
+    },
+    {
+      "Input": [
+        "1Z O15 O12 06 0998 167 1"
+      ],
+      "Output": "O15"
+    },
+    {
+      "Input": [
+        "1Z JI0 A75 24 1729 834 2"
+      ],
+      "Output": "JI0"
+    },
+    {
+      "Input": [
+        "1Z IFH XUP 74 2454 075 9"
+      ],
+      "Output": "IFH"
+    },
+    {
+      "Input": [
+        "1Z MDT VOW 94 8277 867 6"
+      ],
+      "Output": "MDT"
+    },
+    {
+      "Input": [
+        "1Z 358 499 76 1616 990 1"
+      ],
+      "Output": "358"
+    },
+    {
+      "Input": [
+        "1Z 9G0 I1N 79 2592 039 7"
+      ],
+      "Output": "9G0"
+    },
+    {
+      "Input": [
+        "1Z 5BZ UFU 56 5945 688 1"
+      ],
+      "Output": "5BZ"
+    },
+    {
+      "Input": [
+        "1Z 7CQ VL5 68 0935 373 0"
+      ],
+      "Output": "7CQ"
+    },
+    {
+      "Input": [
+        "1Z W3T 9Z1 37 8818 303 1"
+      ],
+      "Output": "W3T"
+    },
+    {
+      "Input": [
+        "1Z D62 4IH 15 3303 575 2"
+      ],
+      "Output": "D62"
+    },
+    {
+      "Input": [
+        "1Z G78 YOO 12 1061 568 7"
+      ],
+      "Output": "G78"
+    },
+    {
+      "Input": [
+        "1Z HN7 IQT 38 5368 477 4"
+      ],
+      "Output": "HN7"
+    },
+    {
+      "Input": [
+        "1Z 1GP 6YT 43 2619 219 6"
+      ],
+      "Output": "1GP"
+    },
+    {
+      "Input": [
+        "1Z G8T 9G6 43 5975 967 5"
+      ],
+      "Output": "G8T"
+    },
+    {
+      "Input": [
+        "1Z 928 35E 06 7183 005 1"
+      ],
+      "Output": "928"
+    },
+    {
+      "Input": [
+        "1Z HZP YF0 85 4112 921 7"
+      ],
+      "Output": "HZP"
+    },
+    {
+      "Input": [
+        "1Z 3J3 NZ4 95 8971 599 8"
+      ],
+      "Output": "3J3"
+    },
+    {
+      "Input": [
+        "1Z Q2U WD1 65 2869 660 5"
+      ],
+      "Output": "Q2U"
+    },
+    {
+      "Input": [
+        "1Z Q31 T6D 76 0879 073 8"
+      ],
+      "Output": "Q31"
+    },
+    {
+      "Input": [
+        "1Z 32C 2GX 55 4378 495 9"
+      ],
+      "Output": "32C"
+    },
+    {
+      "Input": [
+        "1Z 1BQ 7R1 96 9668 418 1"
+      ],
+      "Output": "1BQ"
+    },
+    {
+      "Input": [
+        "1Z G58 WEA 03 0365 482 3"
+      ],
+      "Output": "G58"
+    },
+    {
+      "Input": [
+        "1Z SFB 7I0 77 0688 849 9"
+      ],
+      "Output": "SFB"
+    },
+    {
+      "Input": [
+        "1Z JOR 3FS 85 6187 446 6"
+      ],
+      "Output": "JOR"
+    },
+    {
+      "Input": [
+        "1Z 5WA 859 81 4300 088 9"
+      ],
+      "Output": "5WA"
+    },
+    {
+      "Input": [
+        "1Z 16S O13 02 8830 341 8"
+      ],
+      "Output": "16S"
+    },
+    {
+      "Input": [
+        "1Z A43 THL 73 3418 098 8"
+      ],
+      "Output": "A43"
+    },
+    {
+      "Input": [
+        "1Z 01U 5GJ 66 3224 450 4"
+      ],
+      "Output": "01U"
+    },
+    {
+      "Input": [
+        "1Z 5R5 9A8 31 1890 761 1"
+      ],
+      "Output": "5R5"
+    },
+    {
+      "Input": [
+        "1Z TQO 2A1 67 1397 383 4"
+      ],
+      "Output": "TQO"
+    },
+    {
+      "Input": [
+        "1Z B55 8AG 93 9333 757 0"
+      ],
+      "Output": "B55"
+    },
+    {
+      "Input": [
+        "1Z 1RX FHW 57 0874 260 0"
+      ],
+      "Output": "1RX"
+    },
+    {
+      "Input": [
+        "1Z 04O X85 36 8497 789 0"
+      ],
+      "Output": "04O"
+    },
+    {
+      "Input": [
+        "1Z 54C LKO 67 4961 370 5"
+      ],
+      "Output": "54C"
+    },
+    {
+      "Input": [
+        "1Z FY8 2FR 86 0585 401 7"
+      ],
+      "Output": "FY8"
+    },
+    {
+      "Input": [
+        "1Z 787 G86 20 1256 103 0"
+      ],
+      "Output": "787"
+    },
+    {
+      "Input": [
+        "1Z FNG LX7 28 0149 918 4"
+      ],
+      "Output": "FNG"
+    },
+    {
+      "Input": [
+        "1Z OHL 7EX 65 2008 347 1"
+      ],
+      "Output": "OHL"
+    },
+    {
+      "Input": [
+        "1Z KLD 807 99 9799 135 6"
+      ],
+      "Output": "KLD"
+    },
+    {
+      "Input": [
+        "1Z 69J 066 83 9263 338 4"
+      ],
+      "Output": "69J"
+    },
+    {
+      "Input": [
+        "1Z 104 WI1 75 2447 081 7"
+      ],
+      "Output": "104"
+    },
+    {
+      "Input": [
+        "1Z 4RY 29X 88 2157 743 4"
+      ],
+      "Output": "4RY"
+    },
+    {
+      "Input": [
+        "1Z 78P OOA 63 8095 041 8"
+      ],
+      "Output": "78P"
+    },
+    {
+      "Input": [
+        "1Z 66D 2Q7 91 0373 433 9"
+      ],
+      "Output": "66D"
+    },
+    {
+      "Input": [
+        "1Z SSY 049 27 9142 393 4"
+      ],
+      "Output": "SSY"
+    },
+    {
+      "Input": [
+        "1Z WE0 M4N 98 4535 613 7"
+      ],
+      "Output": "WE0"
+    },
+    {
+      "Input": [
+        "1Z QD0 928 89 7093 985 5"
+      ],
+      "Output": "QD0"
+    },
+    {
+      "Input": [
+        "1Z JSL G1D 55 9643 432 8"
+      ],
+      "Output": "JSL"
+    },
+    {
+      "Input": [
+        "1Z PNU 9G8 70 3057 986 1"
+      ],
+      "Output": "PNU"
+    },
+    {
+      "Input": [
+        "1Z 46N 1D3 14 8048 109 0"
+      ],
+      "Output": "46N"
+    },
+    {
+      "Input": [
+        "1Z 63P 04I 06 1945 046 4"
+      ],
+      "Output": "63P"
+    },
+    {
+      "Input": [
+        "1Z 5RA BDY 04 2156 108 2"
+      ],
+      "Output": "5RA"
+    },
+    {
+      "Input": [
+        "1Z K9M P6V 72 9708 491 3"
+      ],
+      "Output": "K9M"
+    },
+    {
+      "Input": [
+        "1Z 448 LZ8 21 0769 562 1"
+      ],
+      "Output": "448"
+    },
+    {
+      "Input": [
+        "1Z 8Y1 2LH 44 9475 218 3"
+      ],
+      "Output": "8Y1"
+    },
+    {
+      "Input": [
+        "1Z OAZ T9T 68 9423 644 6"
+      ],
+      "Output": "OAZ"
+    },
+    {
+      "Input": [
+        "1Z HPC 0D9 32 1633 613 6"
+      ],
+      "Output": "HPC"
+    },
+    {
+      "Input": [
+        "1Z 6DT 80I 71 4763 906 2"
+      ],
+      "Output": "6DT"
+    },
+    {
+      "Input": [
+        "1Z F60 KYH 99 9126 239 7"
+      ],
+      "Output": "F60"
+    },
+    {
+      "Input": [
+        "1Z 5P8 60I 98 0783 604 1"
+      ],
+      "Output": "5P8"
+    },
+    {
+      "Input": [
+        "1Z 8GK 9V6 14 4661 242 2"
+      ],
+      "Output": "8GK"
+    },
+    {
+      "Input": [
+        "1Z 280 62M 73 5727 185 6"
+      ],
+      "Output": "280"
+    },
+    {
+      "Input": [
+        "1Z I69 7F6 94 5896 184 5"
+      ],
+      "Output": "I69"
+    },
+    {
+      "Input": [
+        "1Z J46 342 40 3273 402 5"
+      ],
+      "Output": "J46"
+    },
+    {
+      "Input": [
+        "1Z GX2 7J6 29 4104 802 8"
+      ],
+      "Output": "GX2"
+    },
+    {
+      "Input": [
+        "1Z 8J4 MDM 23 7908 649 1"
+      ],
+      "Output": "8J4"
+    },
+    {
+      "Input": [
+        "1Z 225 575 06 8826 865 5"
+      ],
+      "Output": "225"
+    },
+    {
+      "Input": [
+        "1Z 74G I94 02 2583 636 1"
+      ],
+      "Output": "74G"
+    },
+    {
+      "Input": [
+        "1Z I98 5NY 40 1627 476 6"
+      ],
+      "Output": "I98"
+    },
+    {
+      "Input": [
+        "1Z Q03 GDP 15 3252 459 3"
+      ],
+      "Output": "Q03"
+    },
+    {
+      "Input": [
+        "1Z NR5 403 33 7018 298 5"
+      ],
+      "Output": "NR5"
+    },
+    {
+      "Input": [
+        "1Z ANM 042 52 6566 685 0"
+      ],
+      "Output": "ANM"
+    },
+    {
+      "Input": [
+        "1Z WG7 JF7 64 0299 979 0"
+      ],
+      "Output": "WG7"
+    },
+    {
+      "Input": [
+        "1Z 7HI 7XY 61 2936 170 5"
+      ],
+      "Output": "7HI"
+    },
+    {
+      "Input": [
+        "1Z DJW H9Q 47 4003 508 8"
+      ],
+      "Output": "DJW"
+    },
+    {
+      "Input": [
+        "1Z 0ZC F55 19 9383 659 8"
+      ],
+      "Output": "0ZC"
+    },
+    {
+      "Input": [
+        "1Z FO4 MEG 30 8915 760 1"
+      ],
+      "Output": "FO4"
+    },
+    {
+      "Input": [
+        "1Z 10S 2MA 76 5685 073 5"
+      ],
+      "Output": "10S"
+    },
+    {
+      "Input": [
+        "1Z JJ0 256 30 3873 917 7"
+      ],
+      "Output": "JJ0"
+    },
+    {
+      "Input": [
+        "1Z 3VD LTL 67 3723 204 7"
+      ],
+      "Output": "3VD"
+    },
+    {
+      "Input": [
+        "1Z 673 3W8 98 1304 119 8"
+      ],
+      "Output": "673"
+    },
+    {
+      "Input": [
+        "1Z C5U 6J4 14 4603 375 2"
+      ],
+      "Output": "C5U"
+    },
+    {
+      "Input": [
+        "1Z 995 536 69 7753 185 5"
+      ],
+      "Output": "995"
+    },
+    {
+      "Input": [
+        "1Z 8V8 CM0 66 8211 730 0"
+      ],
+      "Output": "8V8"
+    },
+    {
+      "Input": [
+        "1Z T5I 48A 16 7274 212 4"
+      ],
+      "Output": "T5I"
+    },
+    {
+      "Input": [
+        "1Z 1C6 E97 07 2775 071 1"
+      ],
+      "Output": "1C6"
+    },
+    {
+      "Input": [
+        "1Z R99 WKE 40 2376 610 1"
+      ],
+      "Output": "R99"
+    },
+    {
+      "Input": [
+        "1Z M66 6XD 46 7624 143 2"
+      ],
+      "Output": "M66"
+    },
+    {
+      "Input": [
+        "1Z UF1 ANS 45 2323 812 8"
+      ],
+      "Output": "UF1"
+    },
+    {
+      "Input": [
+        "1Z R07 Q4R 89 4951 906 5"
+      ],
+      "Output": "R07"
+    },
+    {
+      "Input": [
+        "1Z 0DC D9R 51 0136 832 5"
+      ],
+      "Output": "0DC"
+    },
+    {
+      "Input": [
+        "1Z 3K9 82S 94 5059 256 9"
+      ],
+      "Output": "3K9"
+    },
+    {
+      "Input": [
+        "1Z U9J FV5 70 7210 164 8"
+      ],
+      "Output": "U9J"
+    },
+    {
+      "Input": [
+        "1Z 7O4 949 68 0745 099 8"
+      ],
+      "Output": "7O4"
+    }
+  ]
+}

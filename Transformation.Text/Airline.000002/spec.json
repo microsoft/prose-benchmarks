@@ -1,0 +1,34 @@
+{
+  "Examples": [
+    {
+      "Input": [
+        " Austin Airways, acquired by Air Ontario"
+      ],
+      "Output": "Austin Airways"
+    },
+    {
+      "Input": [
+        " Canada 3000 folded, discount airline"
+      ],
+      "Output": "Canada 3000 folded"
+    },
+    {
+      "Input": [
+        " Canadian Pacific Airlines, acquired by Canadian Airlines"
+      ],
+      "Output": "Canadian Pacific Airlines"
+    },
+    {
+      "Input": [
+        " Canadian Regional Airlines, merged with Air Canada Jazz"
+      ],
+      "Output": "Canadian Regional Airlines"
+    },
+    {
+      "Input": [
+        " Greyhound Air, winnow"
+      ],
+      "Output": "Greyhound Air"
+    }
+  ]
+}

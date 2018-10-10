@@ -1,0 +1,46 @@
+{
+  "Examples": [
+    {
+      "Input": [
+        "New York City"
+      ],
+      "Output": "New York City"
+    },
+    {
+      "Input": [
+        "n.y.c."
+      ],
+      "Output": "New York City"
+    },
+    {
+      "Input": [
+        "New York City  "
+      ],
+      "Output": "New York City"
+    },
+    {
+      "Input": [
+        "NYC"
+      ],
+      "Output": "New York City"
+    },
+    {
+      "Input": [
+        "new york city"
+      ],
+      "Output": "New York City"
+    },
+    {
+      "Input": [
+        null
+      ],
+      "Output": null
+    },
+    {
+      "Input": [
+        "SJ"
+      ],
+      "Output": "San Jose"
+    }
+  ]
+}

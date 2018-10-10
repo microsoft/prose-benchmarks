@@ -1,0 +1,166 @@
+{
+  "Examples": [
+    {
+      "Input": [
+        "2026-12-30T06:25:57Z"
+      ],
+      "Output": "Dec 2026"
+    },
+    {
+      "Input": [
+        "2026-04-15T09:44:40Z"
+      ],
+      "Output": "Apr 2026"
+    },
+    {
+      "Input": [
+        null
+      ],
+      "Output": "Not a date."
+    },
+    {
+      "Input": [
+        "2025-07-22T11:12:55Z"
+      ],
+      "Output": "Jul 2025"
+    },
+    {
+      "Input": [
+        "2027-06-13T12:43:43Z"
+      ],
+      "Output": "Jun 2027"
+    },
+    {
+      "Input": [
+        null
+      ],
+      "Output": "Not a date."
+    },
+    {
+      "Input": [
+        "2025-08-14T07:36:20Z"
+      ],
+      "Output": "Aug 2025"
+    },
+    {
+      "Input": [
+        null
+      ],
+      "Output": "Not a date."
+    },
+    {
+      "Input": [
+        "2026-09-03T12:37:50Z"
+      ],
+      "Output": "Sep 2026"
+    },
+    {
+      "Input": [
+        "2026-04-03T01:56:47Z"
+      ],
+      "Output": "Apr 2026"
+    },
+    {
+      "Input": [
+        "2025-07-28T11:43:30Z"
+      ],
+      "Output": "Jul 2025"
+    },
+    {
+      "Input": [
+        "2024-11-03T09:08:38Z"
+      ],
+      "Output": "Nov 2024"
+    },
+    {
+      "Input": [
+        "Q8k^WoxaguRJAe#ZS@"
+      ],
+      "Output": "Not a date."
+    },
+    {
+      "Input": [
+        "2026-06-20T05:14:30Z"
+      ],
+      "Output": "Jun 2026"
+    },
+    {
+      "Input": [
+        "2024-12-29T08:07:33Z"
+      ],
+      "Output": "Dec 2024"
+    },
+    {
+      "Input": [
+        "2027-01-08T05:15:37Z"
+      ],
+      "Output": "Jan 2027"
+    },
+    {
+      "Input": [
+        "2026-07-18T05:16:24Z"
+      ],
+      "Output": "Jul 2026"
+    },
+    {
+      "Input": [
+        "2026-10-03T05:14:34Z"
+      ],
+      "Output": "Oct 2026"
+    },
+    {
+      "Input": [
+        "2025-04-11T11:26:36Z"
+      ],
+      "Output": "Apr 2025"
+    },
+    {
+      "Input": [
+        "2026-08-06T11:14:29Z"
+      ],
+      "Output": "Aug 2026"
+    },
+    {
+      "Input": [
+        "2026-12-06T06:20:53Z"
+      ],
+      "Output": "Dec 2026"
+    },
+    {
+      "Input": [
+        "2026-03-10T03:55:17Z"
+      ],
+      "Output": "Mar 2026"
+    },
+    {
+      "Input": [
+        "2027-01-02T05:20:25Z"
+      ],
+      "Output": "Jan 2027"
+    },
+    {
+      "Input": [
+        "2026-06-20T04:37:59Z"
+      ],
+      "Output": "Jun 2026"
+    },
+    {
+      "Input": [
+        "&4%O6b7J(AaOGgJ0"
+      ],
+      "Output": "Not a date."
+    },
+    {
+      "Input": [
+        "2027-02-01T01:29:43Z"
+      ],
+      "Output": "Feb 2027"
+    },
+    {
+      "Input": [
+        "2027-05-20T11:43:53Z"
+      ],
+      "Output": "May 2027"
+    }
+  ]
+}

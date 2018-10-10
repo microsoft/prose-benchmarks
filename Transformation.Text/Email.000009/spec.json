@@ -1,0 +1,64 @@
+{
+  "Examples": [
+    {
+      "Input": [
+        "assumenda iste quia natus et @ humongousinsurance.com ad nostrum totam harum totam"
+      ],
+      "Output": null
+    },
+    {
+      "Input": [
+        "eos @ woodgrovebank.com ipsam illum pariatur doloribus"
+      ],
+      "Output": null
+    },
+    {
+      "Input": [
+        "non recusandae est unde l@humongousinsurance.com doloribus facilis"
+      ],
+      "Output": "l@humongousinsurance.com"
+    },
+    {
+      "Input": [
+        "vel @ firstupconsultants.com quas porro sed ad et"
+      ],
+      "Output": null
+    },
+    {
+      "Input": [
+        "blanditiis ratione @ contososuites.com porro dolorum corrupti"
+      ],
+      "Output": null
+    },
+    {
+      "Input": [
+        "dolorem id vero soluta fuga 33f@treyresearch.net facilis"
+      ],
+      "Output": "33f@treyresearch.net"
+    },
+    {
+      "Input": [
+        "repellat deleniti @ northwindtraders.com consequatur aut qui porro"
+      ],
+      "Output": null
+    },
+    {
+      "Input": [
+        "consectetur voluptatum ut voluptas tempore zyxv6@fabrikam.com nam sit quis"
+      ],
+      "Output": "zyxv6@fabrikam.com"
+    },
+    {
+      "Input": [
+        "amet quasi @ nodpublishers.com et molestiae modi non"
+      ],
+      "Output": null
+    },
+    {
+      "Input": [
+        "cum explicabo voluptatem odit est ejqjnmaw0d@fabrikam.com a doloribus iure cupiditate"
+      ],
+      "Output": "ejqjnmaw0d@fabrikam.com"
+    }
+  ]
+}

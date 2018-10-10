@@ -1,0 +1,34 @@
+{
+  "Examples": [
+    {
+      "Input": [
+        "Akila Kadija 643 91th Lane ,Yonkers,AK,(239) 662-6779,000-09-1609,17293"
+      ],
+      "Output": "643 91th Lane"
+    },
+    {
+      "Input": [
+        "Kotonexxxxx Janjic 576 09th Lane ,Surprise,TX,(055) 296-3466,000-47-2445,17293"
+      ],
+      "Output": "576 09th Lane"
+    },
+    {
+      "Input": [
+        "Sonia Rees 319 09th Lane ,Baltimore,NY,(012) 035-3987,000-22-1009,03719"
+      ],
+      "Output": "319 09th Lane"
+    },
+    {
+      "Input": [
+        "Manohar Prabhukonkar 914 30th Lane ,Denver,LA,(330) 688-7008,000-22-8729,38891"
+      ],
+      "Output": "914 30th Lane"
+    },
+    {
+      "Input": [
+        "Fahmi Ibrahim 435 30th Lane ,Tangshan,IL,(471) 189-3968,000-69-9417,38891"
+      ],
+      "Output": "435 30th Lane"
+    }
+  ]
+}

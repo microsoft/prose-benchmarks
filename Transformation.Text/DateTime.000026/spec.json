@@ -1,0 +1,184 @@
+{
+  "Examples": [
+    {
+      "Input": [
+        "06-Oct-2143"
+      ],
+      "Output": "October 2143"
+    },
+    {
+      "Input": [
+        "Mar 30 2002"
+      ],
+      "Output": "March 2002"
+    },
+    {
+      "Input": [
+        "01311846"
+      ],
+      "Output": "January 1846"
+    },
+    {
+      "Input": [
+        "22 Apr 1953"
+      ],
+      "Output": "April 1953"
+    },
+    {
+      "Input": [
+        "03302241"
+      ],
+      "Output": "March 2241"
+    },
+    {
+      "Input": [
+        "02-Aug-2160"
+      ],
+      "Output": "August 2160"
+    },
+    {
+      "Input": [
+        "23 May 1984"
+      ],
+      "Output": "May 1984"
+    },
+    {
+      "Input": [
+        "15 August 1740"
+      ],
+      "Output": "August 1740"
+    },
+    {
+      "Input": [
+        "Jul 08 2237"
+      ],
+      "Output": "July 2237"
+    },
+    {
+      "Input": [
+        "3 Nov 1904"
+      ],
+      "Output": "November 1904"
+    },
+    {
+      "Input": [
+        "5 April 2088"
+      ],
+      "Output": "April 2088"
+    },
+    {
+      "Input": [
+        "05302131"
+      ],
+      "Output": "May 2131"
+    },
+    {
+      "Input": [
+        "May 25 1817"
+      ],
+      "Output": "May 1817"
+    },
+    {
+      "Input": [
+        "31 May 1963"
+      ],
+      "Output": "May 1963"
+    },
+    {
+      "Input": [
+        "24-Nov-2098"
+      ],
+      "Output": "November 2098"
+    },
+    {
+      "Input": [
+        "22 Oct 1815"
+      ],
+      "Output": "October 1815"
+    },
+    {
+      "Input": [
+        "26 May 2155"
+      ],
+      "Output": "May 2155"
+    },
+    {
+      "Input": [
+        "26-Mar-1816"
+      ],
+      "Output": "March 1816"
+    },
+    {
+      "Input": [
+        "26 Apr 2090"
+      ],
+      "Output": "April 2090"
+    },
+    {
+      "Input": [
+        "14-Aug-2089"
+      ],
+      "Output": "August 2089"
+    },
+    {
+      "Input": [
+        "Apr 20 1957"
+      ],
+      "Output": "April 1957"
+    },
+    {
+      "Input": [
+        "11 Sep 1952"
+      ],
+      "Output": "September 1952"
+    },
+    {
+      "Input": [
+        "03-Nov-2114"
+      ],
+      "Output": "November 2114"
+    },
+    {
+      "Input": [
+        "21 June 2059"
+      ],
+      "Output": "June 2059"
+    },
+    {
+      "Input": [
+        "21-Jan-1818"
+      ],
+      "Output": "January 1818"
+    },
+    {
+      "Input": [
+        "16 Sep 2075"
+      ],
+      "Output": "September 2075"
+    },
+    {
+      "Input": [
+        "Oct 2 2204"
+      ],
+      "Output": "October 2204"
+    },
+    {
+      "Input": [
+        "02 Sep 1747"
+      ],
+      "Output": "September 1747"
+    },
+    {
+      "Input": [
+        "29 Jan 2218"
+      ],
+      "Output": "January 2218"
+    },
+    {
+      "Input": [
+        "03 Apr 2008"
+      ],
+      "Output": "April 2008"
+    }
+  ]
+}

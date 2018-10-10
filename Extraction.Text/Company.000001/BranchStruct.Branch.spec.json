@@ -1,0 +1,511 @@
+{
+  "Kind": "Field",
+  "Examples": [
+    {
+      "Input": [
+        {
+          "Start": 21,
+          "End": 219,
+          "Value": "Contoso Pharmaceuticals (Margie's Travel)\n 7890 Seventh Place\n 46490 Beaumont\n Kansas (Collingsworth County)\n 84,805,178 USD (Aperiam Cumque Non Recusandae Est Unde Vitae Amet Qui Exercitationem$)\n\n"
+        },
+        {
+          "Start": 219,
+          "End": 392,
+          "Value": "Woodgrove Bank (Northwind Traders)\n 90 Eighth Route\n 57129 Midland\n Cameroon (Winnebago County)\n 41,007,328 USD (Dolorum Corrupti Adipisci Debitis Dolorem Id Vero Soluta$)\n\n"
+        },
+        {
+          "Start": 392,
+          "End": 494,
+          "Value": "Nod Publishers (Contoso Suites)\n\n08168 Brasília\n Kenya (Clinton County)\n 80,946,258 USD (Qui Porro$)\n\n"
+        },
+        {
+          "Start": 494,
+          "End": 682,
+          "Value": "Best For You Organics Company (VanArsdel, Ltd.)\n 456 Eighth Highway\n 48877 Waterbury\n North Carolina (Henry County)\n 28,672,243 USD (Modi Amet Quasi Fuga Eligendi Et Molestiae Modi Non$)\n\n"
+        },
+        {
+          "Start": 682,
+          "End": 810,
+          "Value": "Alpine Ski House (VanArsdel, Ltd.)\n 45 Third Road\n 94165 Houston\n Colombia (Llano County)\n 6,230,842 USD (Nihil A Doloribus$)\n\n\n"
+        },
+        {
+          "Start": 824,
+          "End": 978,
+          "Value": "Liberty's Delightful Sinful Bakery & Cafe (Lucerne Publishing)\n 345 1st Road\n 17491 Vancouver\n North Dakota (Salem County)\n 17,276,763 USD (Est Magnam$)\n\n"
+        },
+        {
+          "Start": 978,
+          "End": 1122,
+          "Value": "Woodgrove Bank (Margie's Travel)\n 3456 Elm Highway\n 59051 Gainesville\n Nevada (Richland County)\n 99,454,645 USD (Et Laudantium Atque Numquam$)\n\n"
+        },
+        {
+          "Start": 1122,
+          "End": 1256,
+          "Value": "Alpine Ski House (Contoso Suites)\n 234 First Avenue\n 82905 Tyler\n Kenya (Tama County)\n 96,716,775 USD (Est Quia Quam Aut Rerum Aut$)\n\n"
+        },
+        {
+          "Start": 1256,
+          "End": 1425,
+          "Value": "Consolidated Messenger (Best For You Organics Company)\n 4567 Cherry Parkway\n 53906 Shijiazhuang\n Tanzania (Floyd County)\n 31,036,316 USD (Repellendus Dolores Laborum$)\n\n"
+        },
+        {
+          "Start": 1425,
+          "End": 1562,
+          "Value": "Margie's Travel (Northwind Traders)\n 34 12th Highway\n 86224 Lucknow\n Laos (Bracken County)\n 36,897,205 USD (Asperiores Laborum Alias$)\n\n\n"
+        },
+        {
+          "Start": 1578,
+          "End": 1753,
+          "Value": "Southridge Video (Bellows College)\n 34 Oak Street\n 86528 Allentown\n South Carolina (Marion County)\n 34,048,271 USD (Molestiae Est Repellat Est Sunt Fuga Doloribus Officiis$)\n\n"
+        },
+        {
+          "Start": 1753,
+          "End": 1906,
+          "Value": "Lucerne Publishing (Best For You Organics Company)\n\n63837 Tulsa\n Montana (Seminole County)\n 63,418,534 USD (Ipsam Magnam Et Praesentium Et Laboriosam$)\n\n"
+        },
+        {
+          "Start": 1906,
+          "End": 2125,
+          "Value": "Contoso Pharmaceuticals (Best For You Organics Company)\n 456 Birch Parkway\n 41418 Newark\n Alabama (Passaic County)\n 45,795,682 USD (Quia Quia Veniam Harum Et Aliquam Voluptatem Perferendis Dignissimos Exercitationem$)\n\n"
+        },
+        {
+          "Start": 2125,
+          "End": 2250,
+          "Value": "Trey Research (Trey Research)\n\n29884 Abilene\n Iowa (Anoka County)\n 39,097,478 USD (Nam Animi Recusandae Repudiandae Ullam$)\n\n"
+        },
+        {
+          "Start": 2250,
+          "End": 2390,
+          "Value": "Proseware, Inc. (First Up Consultants)\n\n29589 Minsk\n Belize (Fayette County)\n 61,545,113 USD (Voluptates Ea Possimus Temporibus Sed Aut$)\n\n\n"
+        },
+        {
+          "Start": 2409,
+          "End": 2569,
+          "Value": "Tailspin Toys (The Phone Company)\n 567 Pecan Lane\n 59140 Durban\n U.S. Outlying Islands (Pinal County)\n 51,723,428 USD (Vero Modi Fugit Nesciunt Omnis Fugiat$)\n\n"
+        },
+        {
+          "Start": 2569,
+          "End": 2707,
+          "Value": "School of Fine Art (Contoso Suites)\n 56 Elm Parkway\n 82402 Las Vegas\n Massachusetts (Perry County)\n 19,279,996 USD (Dolores Cupiditate$)\n\n"
+        },
+        {
+          "Start": 2707,
+          "End": 2849,
+          "Value": "School of Fine Art (Fourth Coffee)\n 23 Elm Lane\n 73674 Lexington\n Malaysia (Midland County)\n 81,550,634 USD (Facere Ut Et Qui Doloribus Ab$)\n\n"
+        },
+        {
+          "Start": 2849,
+          "End": 3016,
+          "Value": "Margie's Travel (Contoso, Ltd.)\n 123 48th Lane\n 63984 Grand Prairie\n Ohio (Newton County)\n 88,242,809 USD (Laboriosam Illum Earum Occaecati Sit Excepturi Eum Autem$)\n\n"
+        },
+        {
+          "Start": 3016,
+          "End": 3131,
+          "Value": "Lucerne Publishing (Fourth Coffee)\n\n77454 Fuzhou\n Rhode Island (Auglaize County)\n 82,349,975 USD (Quo Iste Qui$)\n\n\n"
+        },
+        {
+          "Start": 3146,
+          "End": 3270,
+          "Value": "Alpine Ski House (Contoso Pharmaceuticals)\n\n62667 Pompano Beach\n Nebraska (Clarke County)\n 1,701,561 USD (Architecto Est$)\n\n"
+        },
+        {
+          "Start": 3270,
+          "End": 3456,
+          "Value": "Consolidated Messenger (Margie's Travel)\n\n79969 Ontario\n Arkansas (McKenzie County)\n 65,617,848 USD (Voluptatem Odit Temporibus Et Architecto Dolorem Molestiae Repellendus Nostrum Ea$)\n\n"
+        },
+        {
+          "Start": 3456,
+          "End": 3631,
+          "Value": "The Phone Company (Contoso Suites)\n\n26474 Madrid\n Saint Martin (Stanislaus County)\n 95,952,767 USD (Et Et Sapiente Sequi Officiis Ea Necessitatibus Animi Itaque Voluptates$)\n\n"
+        },
+        {
+          "Start": 3631,
+          "End": 3825,
+          "Value": "Fourth Coffee (Contoso, Ltd.)\n 678 Main Place\n 30654 Oklahoma City\n Saint Vincent and the Grenadines (Rabun County)\n 49,362,050 USD (Officiis Rerum Porro Rerum Odit Molestiae Sit Qui Eos Non$)\n\n"
+        },
+        {
+          "Start": 3825,
+          "End": 3961,
+          "Value": "Lamna Healthcare Company (First Up Consultants)\n\n32303 Tampa\n Bhutan (La Crosse County)\n 26,553,714 USD (Illum Nihil Tenetur Aut Ut$)\n\n\n"
+        },
+        {
+          "Start": 3974,
+          "End": 4169,
+          "Value": "Alpine Ski House (Consolidated Messenger)\n 456 Fourth Road\n 91763 Bengaluru\n Bonaire, Sint Eustatius and Saba (Frio County)\n 26,075,862 USD (Sapiente Tempore Placeat Quos Id Soluta Nihil Odit$)\n\n"
+        },
+        {
+          "Start": 4169,
+          "End": 4365,
+          "Value": "Munson's Pickles and Preserves Farm (The Phone Company)\n\n29850 Fayetteville\n Hawaii (Nottoway County)\n 27,532,884 USD (Commodi Aliquid Repudiandae Aliquid Voluptatem Magnam Et Sit Minima Totam$)\n\n"
+        },
+        {
+          "Start": 4365,
+          "End": 4492,
+          "Value": "Humongous Insurance (Adatum Corporation)\n\n95800 Ahmedabad\n Maryland (Missaukee County)\n 22,580,850 USD (Magni Architecto Id$)\n\n"
+        },
+        {
+          "Start": 4492,
+          "End": 4624,
+          "Value": "School of Fine Art (Margie's Travel)\n 2345 Third Avenue\n 73036 Boulder\n Montana (Brazos County)\n 24,996,678 USD (Quo Omnis Nobis$)\n\n"
+        },
+        {
+          "Start": 4624,
+          "End": 4768,
+          "Value": "Contoso, Ltd. (VanArsdel, Ltd.)\n\n59517 Shijiazhuang\n France (Louisa County)\n 38,790,798 USD (Excepturi Est Ut Assumenda Corrupti Aut Libero$)\n\n\n"
+        },
+        {
+          "Start": 4785,
+          "End": 4917,
+          "Value": "Northwind Traders (VanArsdel, Ltd.)\n\n83103 Xiamen\n Nevada (Otter Tail County)\n 26,764,764 USD (Exercitationem Tempora Laudantium$)\n\n"
+        },
+        {
+          "Start": 4917,
+          "End": 5109,
+          "Value": "Liberty's Delightful Sinful Bakery & Cafe (Contoso, Ltd.)\n 56 Redwood Road\n 17112 Fort Collins\n Seychelles (Ashe County)\n 70,804,080 USD (Quaerat Et Ut Dolores Sint Dolore In Officia Dicta$)\n\n"
+        },
+        {
+          "Start": 5109,
+          "End": 5298,
+          "Value": "Bellows College (Liberty's Delightful Sinful Bakery & Cafe)\n\n40698 Bellevue\n Jamaica (Alexander County)\n 39,757,055 USD (Numquam Et Dolores Nesciunt Dicta Dolores Nam Occaecati Deleniti$)\n\n"
+        },
+        {
+          "Start": 5298,
+          "End": 5411,
+          "Value": "Wingtip Toys (Northwind Traders)\n\n38715 Hong Kong\n Missouri (Montgomery County)\n 71,708,165 USD (Unde Dolores$)\n\n"
+        },
+        {
+          "Start": 5411,
+          "End": 5557,
+          "Value": "Trey Research (Lamna Healthcare Company)\n 678 1st Highway\n 33940 Greeley\n Georgia (Caldwell County)\n 34,087,277 USD (Quaerat Atque Eveniet Et$)\n\n\n"
+        },
+        {
+          "Start": 5576,
+          "End": 5761,
+          "Value": "Bellows College (Wide World Importers)\n 1234 First Boulevard\n 68099 New York City\n Bahrain (Greeley County)\n 88,858,690 USD (Provident Aut Dignissimos Velit Ullam Ipsam Autem Facere$)\n\n"
+        },
+        {
+          "Start": 5761,
+          "End": 5928,
+          "Value": "Fabrikam, Inc. (Adatum Corporation)\n 345 Seventh Boulevard\n 77521 Abu Dhabi\n Djibouti (Texas County)\n 29,012,258 USD (Nostrum Aperiam Ut Laudantium Ea Perspiciatis$)\n\n"
+        },
+        {
+          "Start": 5928,
+          "End": 6084,
+          "Value": "First Up Consultants (Contoso Pharmaceuticals)\n\n74742 Kano\n Wyoming (Faribault County)\n 64,637,756 USD (Est Exercitationem Molestiae Ipsam Voluptas Enim$)\n\n"
+        },
+        {
+          "Start": 6084,
+          "End": 6231,
+          "Value": "Alpine Ski House (Southridge Video)\n 12 Main Lane\n 70555 Harbin\n Tanzania (Macon County)\n 17,881,057 USD (Porro Voluptatem Numquam Impedit Sunt$)\n\n"
+        },
+        {
+          "Start": 6231,
+          "End": 6341,
+          "Value": "Relecloud (The Phone Company)\n\n49007 New York City\n Guyana (St. Clair County)\n 40,124,864 USD (Voluptatem$)\n\n\n"
+        },
+        {
+          "Start": 6357,
+          "End": 6484,
+          "Value": "First Up Consultants (Lamna Healthcare Company)\n\n05228 Chennai\n Arkansas (Washington County)\n 78,359,938 USD (Voluptates Ut$)\n\n"
+        },
+        {
+          "Start": 6484,
+          "End": 6619,
+          "Value": "Fabrikam, Inc. (Bellows College)\n\n70028 Charleston\n Spain (Bertie County)\n 1,838,677 USD (Placeat Et Error Ex Et Eveniet Distinctio$)\n\n"
+        },
+        {
+          "Start": 6619,
+          "End": 6756,
+          "Value": "Southridge Video (Contoso, Ltd.)\n\n21842 Shantou\n Nigeria (Clark County)\n 81,958,857 USD (Incidunt Sint Eos Cum Deleniti Rem Totam Est$)\n\n"
+        },
+        {
+          "Start": 6756,
+          "End": 6858,
+          "Value": "Margie's Travel (Trey Research)\n\n55563 Dallas\n Djibouti (Teton County)\n 74,933,744 USD (Reiciendis$)\n\n"
+        },
+        {
+          "Start": 6858,
+          "End": 7015,
+          "Value": "Fourth Coffee (Lucerne Publishing)\n 90 48th Lane\n 94387 Belo Horizonte\n Cameroon (Crowley County)\n 32,537,365 USD (Voluptas Ad Necessitatibus Tempore Ut$)\n\n\n"
+        },
+        {
+          "Start": 7031,
+          "End": 7205,
+          "Value": "Trey Research (Lamna Healthcare Company)\n 1234 1st Highway\n 19122 Costa Mesa\n Arizona (Wells County)\n 71,776,196 USD (Quia Ut Quam Cum Et Eos Voluptas Ut Nihil Voluptatum$)\n\n"
+        },
+        {
+          "Start": 7205,
+          "End": 7361,
+          "Value": "The Phone Company (Southridge Video)\n\n32472 Hong Kong\n Arkansas (Lafourche Parish)\n 53,992,571 USD (Sed Occaecati Esse Animi Nulla Quam Dolorem Quis Cum$)\n\n"
+        },
+        {
+          "Start": 7361,
+          "End": 7466,
+          "Value": "Fourth Coffee (Graphic Design Institute)\n\n14596 Ankara\n India (Wyoming County)\n 9,427,495 USD (Quis A$)\n\n"
+        },
+        {
+          "Start": 7466,
+          "End": 7628,
+          "Value": "Northwind Traders (Wingtip Toys)\n 23 Fourth Lane\n 78816 Tunis\n Tennessee (Norton, City of)\n 84,637,221 USD (Itaque Fugit Et In Cupiditate Molestiae Voluptatem$)\n\n"
+        },
+        {
+          "Start": 7628,
+          "End": 7760,
+          "Value": "Contoso, Ltd. (Tailspin Toys)\n\n34541 Birmingham\n Argentina (Nelson County)\n 76,122,917 USD (Harum Impedit Saepe Consequatur Libero$)"
+        }
+      ],
+      "Output": [
+        {
+          "Start": 21,
+          "End": 44,
+          "Value": "Contoso Pharmaceuticals"
+        },
+        {
+          "Start": 219,
+          "End": 233,
+          "Value": "Woodgrove Bank"
+        },
+        {
+          "Start": 392,
+          "End": 406,
+          "Value": "Nod Publishers"
+        },
+        {
+          "Start": 494,
+          "End": 523,
+          "Value": "Best For You Organics Company"
+        },
+        {
+          "Start": 682,
+          "End": 698,
+          "Value": "Alpine Ski House"
+        },
+        {
+          "Start": 824,
+          "End": 865,
+          "Value": "Liberty's Delightful Sinful Bakery & Cafe"
+        },
+        {
+          "Start": 978,
+          "End": 992,
+          "Value": "Woodgrove Bank"
+        },
+        {
+          "Start": 1122,
+          "End": 1138,
+          "Value": "Alpine Ski House"
+        },
+        {
+          "Start": 1256,
+          "End": 1278,
+          "Value": "Consolidated Messenger"
+        },
+        {
+          "Start": 1425,
+          "End": 1440,
+          "Value": "Margie's Travel"
+        },
+        {
+          "Start": 1578,
+          "End": 1594,
+          "Value": "Southridge Video"
+        },
+        {
+          "Start": 1753,
+          "End": 1771,
+          "Value": "Lucerne Publishing"
+        },
+        {
+          "Start": 1906,
+          "End": 1929,
+          "Value": "Contoso Pharmaceuticals"
+        },
+        {
+          "Start": 2125,
+          "End": 2138,
+          "Value": "Trey Research"
+        },
+        {
+          "Start": 2250,
+          "End": 2265,
+          "Value": "Proseware, Inc."
+        },
+        {
+          "Start": 2409,
+          "End": 2422,
+          "Value": "Tailspin Toys"
+        },
+        {
+          "Start": 2569,
+          "End": 2587,
+          "Value": "School of Fine Art"
+        },
+        {
+          "Start": 2707,
+          "End": 2725,
+          "Value": "School of Fine Art"
+        },
+        {
+          "Start": 2849,
+          "End": 2864,
+          "Value": "Margie's Travel"
+        },
+        {
+          "Start": 3016,
+          "End": 3034,
+          "Value": "Lucerne Publishing"
+        },
+        {
+          "Start": 3146,
+          "End": 3162,
+          "Value": "Alpine Ski House"
+        },
+        {
+          "Start": 3270,
+          "End": 3292,
+          "Value": "Consolidated Messenger"
+        },
+        {
+          "Start": 3456,
+          "End": 3473,
+          "Value": "The Phone Company"
+        },
+        {
+          "Start": 3631,
+          "End": 3644,
+          "Value": "Fourth Coffee"
+        },
+        {
+          "Start": 3825,
+          "End": 3849,
+          "Value": "Lamna Healthcare Company"
+        },
+        {
+          "Start": 3974,
+          "End": 3990,
+          "Value": "Alpine Ski House"
+        },
+        {
+          "Start": 4169,
+          "End": 4204,
+          "Value": "Munson's Pickles and Preserves Farm"
+        },
+        {
+          "Start": 4365,
+          "End": 4384,
+          "Value": "Humongous Insurance"
+        },
+        {
+          "Start": 4492,
+          "End": 4510,
+          "Value": "School of Fine Art"
+        },
+        {
+          "Start": 4624,
+          "End": 4637,
+          "Value": "Contoso, Ltd."
+        },
+        {
+          "Start": 4785,
+          "End": 4802,
+          "Value": "Northwind Traders"
+        },
+        {
+          "Start": 4917,
+          "End": 4958,
+          "Value": "Liberty's Delightful Sinful Bakery & Cafe"
+        },
+        {
+          "Start": 5109,
+          "End": 5124,
+          "Value": "Bellows College"
+        },
+        {
+          "Start": 5298,
+          "End": 5310,
+          "Value": "Wingtip Toys"
+        },
+        {
+          "Start": 5411,
+          "End": 5424,
+          "Value": "Trey Research"
+        },
+        {
+          "Start": 5576,
+          "End": 5591,
+          "Value": "Bellows College"
+        },
+        {
+          "Start": 5761,
+          "End": 5775,
+          "Value": "Fabrikam, Inc."
+        },
+        {
+          "Start": 5928,
+          "End": 5948,
+          "Value": "First Up Consultants"
+        },
+        {
+          "Start": 6084,
+          "End": 6100,
+          "Value": "Alpine Ski House"
+        },
+        {
+          "Start": 6231,
+          "End": 6240,
+          "Value": "Relecloud"
+        },
+        {
+          "Start": 6357,
+          "End": 6377,
+          "Value": "First Up Consultants"
+        },
+        {
+          "Start": 6484,
+          "End": 6498,
+          "Value": "Fabrikam, Inc."
+        },
+        {
+          "Start": 6619,
+          "End": 6635,
+          "Value": "Southridge Video"
+        },
+        {
+          "Start": 6756,
+          "End": 6771,
+          "Value": "Margie's Travel"
+        },
+        {
+          "Start": 6858,
+          "End": 6871,
+          "Value": "Fourth Coffee"
+        },
+        {
+          "Start": 7031,
+          "End": 7044,
+          "Value": "Trey Research"
+        },
+        {
+          "Start": 7205,
+          "End": 7222,
+          "Value": "The Phone Company"
+        },
+        {
+          "Start": 7361,
+          "End": 7374,
+          "Value": "Fourth Coffee"
+        },
+        {
+          "Start": 7466,
+          "End": 7483,
+          "Value": "Northwind Traders"
+        },
+        {
+          "Start": 7628,
+          "End": 7641,
+          "Value": "Contoso, Ltd."
+        }
+      ]
+    }
+  ]
+}

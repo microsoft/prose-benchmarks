@@ -1,0 +1,111 @@
+{
+  "Kind": "Field",
+  "Examples": [
+    {
+      "Input": [
+        {
+          "Start": 241,
+          "End": 291,
+          "Value": ".gitconfig\n03/22/2014  10:24 PM               811 "
+        },
+        {
+          "Start": 291,
+          "End": 341,
+          "Value": ".jscs.json\n03/22/2014  10:24 PM             6,054 "
+        },
+        {
+          "Start": 341,
+          "End": 390,
+          "Value": ".jshintrc\n01/27/2014  06:29 PM                35 "
+        },
+        {
+          "Start": 390,
+          "End": 672,
+          "Value": ".lesshst\n04/30/2014  04:00 PM    <DIR>          .receitanet\n04/23/2014  10:39 AM    <DIR>          .ssh\n11/29/2013  01:28 PM    <DIR>          atal\n04/09/2014  09:55 PM    <DIR>          Contacts\n05/08/2014  11:10 PM    <DIR>          Desktop\n01/22/2014  12:49 PM         3,211,264 "
+        },
+        {
+          "Start": 672,
+          "End": 738,
+          "Value": "DevelopmentStorageDb21.mdf\n01/22/2014  12:49 PM           802,816 "
+        },
+        {
+          "Start": 738,
+          "End": 808,
+          "Value": "DevelopmentStorageDb21_log.ldf\n05/06/2014  11:50 PM        62,980,096 "
+        },
+        {
+          "Start": 808,
+          "End": 874,
+          "Value": "DevelopmentStorageDb22.mdf\n05/06/2014  11:50 PM         1,114,112 "
+        },
+        {
+          "Start": 874,
+          "End": 1712,
+          "Value": "DevelopmentStorageDb22_log.ldf\n05/09/2014  12:24 PM    <DIR>          Documents\n05/09/2014  11:01 PM    <DIR>          Downloads\n05/10/2014  12:30 PM    <DIR>          Dropbox\n04/21/2014  10:46 AM    <DIR>          Favorites\n03/28/2014  01:34 PM    <DIR>          git\n05/02/2014  12:10 AM    <DIR>          Links\n05/07/2014  07:28 PM    <DIR>          Microsoft\n05/09/2014  12:17 PM    <DIR>          Music\n04/15/2014  05:15 PM    <DIR>          p2\n05/05/2014  03:33 PM    <DIR>          Pictures\n04/09/2014  09:55 PM    <DIR>          Saved Games\n04/09/2014  09:55 PM    <DIR>          Searches\n05/08/2014  09:35 AM    <DIR>          SkyDrive\n01/11/2014  12:25 PM    <DIR>          SkyDrive (2).old\n10/23/2013  07:56 AM    <DIR>          SkyDrive.old\n10/10/2013  01:01 PM    <DIR>          Tracing\n03/22/2014  10:24 PM             1,119 "
+        },
+        {
+          "Start": 1712,
+          "End": 1912,
+          "Value": "tslint.json\n04/09/2014  09:55 PM    <DIR>          Videos\n09/14/2013  01:10 PM    <DIR>          Web Essentials\n11/19/2013  04:31 PM    <DIR>          workspace\n05/11/2014  12:50 AM             7,238 "
+        },
+        {
+          "Start": 1912,
+          "End": 2017,
+          "Value": "_viminfo\n              10 File(s)     68,123,606 bytes\n              26 Dir(s)  29,080,342,528 bytes free"
+        }
+      ],
+      "Output": [
+        {
+          "Start": 241,
+          "End": 251,
+          "Value": ".gitconfig"
+        },
+        {
+          "Start": 291,
+          "End": 301,
+          "Value": ".jscs.json"
+        },
+        {
+          "Start": 341,
+          "End": 350,
+          "Value": ".jshintrc"
+        },
+        {
+          "Start": 390,
+          "End": 398,
+          "Value": ".lesshst"
+        },
+        {
+          "Start": 672,
+          "End": 698,
+          "Value": "DevelopmentStorageDb21.mdf"
+        },
+        {
+          "Start": 738,
+          "End": 768,
+          "Value": "DevelopmentStorageDb21_log.ldf"
+        },
+        {
+          "Start": 808,
+          "End": 834,
+          "Value": "DevelopmentStorageDb22.mdf"
+        },
+        {
+          "Start": 874,
+          "End": 904,
+          "Value": "DevelopmentStorageDb22_log.ldf"
+        },
+        {
+          "Start": 1712,
+          "End": 1723,
+          "Value": "tslint.json"
+        },
+        {
+          "Start": 1912,
+          "End": 1920,
+          "Value": "_viminfo"
+        }
+      ]
+    }
+  ]
+}

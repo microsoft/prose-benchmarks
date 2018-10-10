@@ -1,0 +1,79 @@
+{
+  "Kind": "Sequence",
+  "Examples": [
+    {
+      "Input": [
+        {
+          "Start": 0,
+          "End": 102,
+          "Value": "Header0\n    Subheading0a\n\tSubheading0aa\n\tSubheading0ba\n    Subheading0b\n\tSubheading0ba\n\tSubheading0ca\n"
+        },
+        {
+          "Start": 102,
+          "End": 157,
+          "Value": "Header1\n    Subheading1a\n\tSubheading1aa\n\tSubheading1ab\n"
+        },
+        {
+          "Start": 157,
+          "End": 259,
+          "Value": "Header2\n    Subheading2a\n\tSubheading2aa\n\tSubheading2ab\n    Subheading2b\n\tSubheading2ba\n\tSubheading2bb\n"
+        },
+        {
+          "Start": 259,
+          "End": 363,
+          "Value": "Header3\n    Subheading3a\n    Subheading3b\n\tSubheading3ba\n    Subheading3c\n\tSubheading3ca\n\tSubheading3cb\n"
+        }
+      ],
+      "Output": [
+        [
+          {
+            "Start": 12,
+            "End": 24,
+            "Value": "Subheading0a"
+          },
+          {
+            "Start": 59,
+            "End": 71,
+            "Value": "Subheading0b"
+          }
+        ],
+        [
+          {
+            "Start": 114,
+            "End": 126,
+            "Value": "Subheading1a"
+          }
+        ],
+        [
+          {
+            "Start": 169,
+            "End": 181,
+            "Value": "Subheading2a"
+          },
+          {
+            "Start": 216,
+            "End": 228,
+            "Value": "Subheading2b"
+          }
+        ],
+        [
+          {
+            "Start": 271,
+            "End": 283,
+            "Value": "Subheading3a"
+          },
+          {
+            "Start": 288,
+            "End": 300,
+            "Value": "Subheading3b"
+          },
+          {
+            "Start": 320,
+            "End": 332,
+            "Value": "Subheading3c"
+          }
+        ]
+      ]
+    }
+  ]
+}

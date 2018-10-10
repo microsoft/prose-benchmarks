@@ -1,0 +1,184 @@
+{
+  "Examples": [
+    {
+      "Input": [
+        "06-Oct-2143"
+      ],
+      "Output": "Sunday, October 6, 2143"
+    },
+    {
+      "Input": [
+        "Mar 30 2002"
+      ],
+      "Output": "Saturday, March 30, 2002"
+    },
+    {
+      "Input": [
+        "01311846"
+      ],
+      "Output": "Saturday, January 31, 1846"
+    },
+    {
+      "Input": [
+        "22 Apr 1953"
+      ],
+      "Output": "Wednesday, April 22, 1953"
+    },
+    {
+      "Input": [
+        "03302241"
+      ],
+      "Output": "Tuesday, March 30, 2241"
+    },
+    {
+      "Input": [
+        "02-Aug-2160"
+      ],
+      "Output": "Saturday, August 2, 2160"
+    },
+    {
+      "Input": [
+        "23 May 1984"
+      ],
+      "Output": "Wednesday, May 23, 1984"
+    },
+    {
+      "Input": [
+        "15 August 1740"
+      ],
+      "Output": "Monday, August 15, 1740"
+    },
+    {
+      "Input": [
+        "Jul 08 2237"
+      ],
+      "Output": "Saturday, July 8, 2237"
+    },
+    {
+      "Input": [
+        "3 Nov 1904"
+      ],
+      "Output": "Thursday, November 3, 1904"
+    },
+    {
+      "Input": [
+        "5 April 2088"
+      ],
+      "Output": "Monday, April 5, 2088"
+    },
+    {
+      "Input": [
+        "05302131"
+      ],
+      "Output": "Wednesday, May 30, 2131"
+    },
+    {
+      "Input": [
+        "May 25 1817"
+      ],
+      "Output": "Sunday, May 25, 1817"
+    },
+    {
+      "Input": [
+        "31 May 1963"
+      ],
+      "Output": "Friday, May 31, 1963"
+    },
+    {
+      "Input": [
+        "24-Nov-2098"
+      ],
+      "Output": "Monday, November 24, 2098"
+    },
+    {
+      "Input": [
+        "22 Oct 1815"
+      ],
+      "Output": "Sunday, October 22, 1815"
+    },
+    {
+      "Input": [
+        "26 May 2155"
+      ],
+      "Output": "Monday, May 26, 2155"
+    },
+    {
+      "Input": [
+        "26-Mar-1816"
+      ],
+      "Output": "Tuesday, March 26, 1816"
+    },
+    {
+      "Input": [
+        "26 Apr 2090"
+      ],
+      "Output": "Wednesday, April 26, 2090"
+    },
+    {
+      "Input": [
+        "14-Aug-2089"
+      ],
+      "Output": "Sunday, August 14, 2089"
+    },
+    {
+      "Input": [
+        "Apr 20 1957"
+      ],
+      "Output": "Saturday, April 20, 1957"
+    },
+    {
+      "Input": [
+        "11 Sep 1952"
+      ],
+      "Output": "Thursday, September 11, 1952"
+    },
+    {
+      "Input": [
+        "03-Nov-2114"
+      ],
+      "Output": "Saturday, November 3, 2114"
+    },
+    {
+      "Input": [
+        "21 June 2059"
+      ],
+      "Output": "Saturday, June 21, 2059"
+    },
+    {
+      "Input": [
+        "21-Jan-1818"
+      ],
+      "Output": "Wednesday, January 21, 1818"
+    },
+    {
+      "Input": [
+        "16 Sep 2075"
+      ],
+      "Output": "Monday, September 16, 2075"
+    },
+    {
+      "Input": [
+        "Oct 2 2204"
+      ],
+      "Output": "Tuesday, October 2, 2204"
+    },
+    {
+      "Input": [
+        "02 Sep 1747"
+      ],
+      "Output": "Saturday, September 2, 1747"
+    },
+    {
+      "Input": [
+        "29 Jan 2218"
+      ],
+      "Output": "Thursday, January 29, 2218"
+    },
+    {
+      "Input": [
+        "03 Apr 2008"
+      ],
+      "Output": "Thursday, April 3, 2008"
+    }
+  ]
+}

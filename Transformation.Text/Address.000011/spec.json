@@ -1,0 +1,28 @@
+{
+  "Examples": [
+    {
+      "Input": [
+        "One Madeup Way, Modesto, AZ 17293"
+      ],
+      "Output": "Modesto"
+    },
+    {
+      "Input": [
+        "45 1ST WAY SE, Mandalay, MT 58712"
+      ],
+      "Output": "Mandalay"
+    },
+    {
+      "Input": [
+        "678 Third Place, Topeka, IN 58712"
+      ],
+      "Output": "Topeka"
+    },
+    {
+      "Input": [
+        "2345 SW 5th Road, Eugene, CA 38891"
+      ],
+      "Output": "Eugene"
+    }
+  ]
+}

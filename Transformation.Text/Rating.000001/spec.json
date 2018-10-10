@@ -1,0 +1,124 @@
+{
+  "Examples": [
+    {
+      "Input": [
+        "( \t\r\t \n \n\nNo Rating)"
+      ],
+      "Output": "0"
+    },
+    {
+      "Input": [
+        "(6)"
+      ],
+      "Output": "6"
+    },
+    {
+      "Input": [
+        "(10)"
+      ],
+      "Output": "10"
+    },
+    {
+      "Input": [
+        " \t\n   \r\t\t(10)"
+      ],
+      "Output": "10"
+    },
+    {
+      "Input": [
+        "(\r\r\n\n \tNo Rating)"
+      ],
+      "Output": "0"
+    },
+    {
+      "Input": [
+        "(\nNo Rating)"
+      ],
+      "Output": "0"
+    },
+    {
+      "Input": [
+        "(10)"
+      ],
+      "Output": "10"
+    },
+    {
+      "Input": [
+        "(7)"
+      ],
+      "Output": "7"
+    },
+    {
+      "Input": [
+        "  \n(5)"
+      ],
+      "Output": "5"
+    },
+    {
+      "Input": [
+        "\n\t\t(5)"
+      ],
+      "Output": "5"
+    },
+    {
+      "Input": [
+        " \t \t\t\r  \r(9)"
+      ],
+      "Output": "9"
+    },
+    {
+      "Input": [
+        " \r \n\t\t (1)"
+      ],
+      "Output": "1"
+    },
+    {
+      "Input": [
+        "(\r \r\n\t\n\t\nNo Rating)"
+      ],
+      "Output": "0"
+    },
+    {
+      "Input": [
+        "(   \n\t\t\n\n No Rating)"
+      ],
+      "Output": "0"
+    },
+    {
+      "Input": [
+        "\r\t(7)"
+      ],
+      "Output": "7"
+    },
+    {
+      "Input": [
+        "(10)"
+      ],
+      "Output": "10"
+    },
+    {
+      "Input": [
+        "\r \t\r\r\r\t \n\r(7)"
+      ],
+      "Output": "7"
+    },
+    {
+      "Input": [
+        "(2)"
+      ],
+      "Output": "2"
+    },
+    {
+      "Input": [
+        "(0)"
+      ],
+      "Output": "0"
+    },
+    {
+      "Input": [
+        "(9)"
+      ],
+      "Output": "9"
+    }
+  ]
+}

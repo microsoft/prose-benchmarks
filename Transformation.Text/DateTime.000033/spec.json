@@ -1,0 +1,52 @@
+{
+  "Examples": [
+    {
+      "Input": [
+        "6:25:57 PM"
+      ],
+      "Output": "18:25 PM"
+    },
+    {
+      "Input": [
+        "9:44:40 PM"
+      ],
+      "Output": "21:44 PM"
+    },
+    {
+      "Input": [
+        "0:00:20 AM"
+      ],
+      "Output": "0:00 AM"
+    },
+    {
+      "Input": [
+        "11:34:17 PM"
+      ],
+      "Output": "23:34 PM"
+    },
+    {
+      "Input": [
+        "4:15:08 PM"
+      ],
+      "Output": "16:15 PM"
+    },
+    {
+      "Input": [
+        "11:48:20 PM"
+      ],
+      "Output": "23:48 PM"
+    },
+    {
+      "Input": [
+        "10:24:59 PM"
+      ],
+      "Output": "22:24 PM"
+    },
+    {
+      "Input": [
+        "4:29:27 AM"
+      ],
+      "Output": "4:29 AM"
+    }
+  ]
+}

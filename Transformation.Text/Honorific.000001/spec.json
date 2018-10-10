@@ -1,0 +1,28 @@
+{
+  "Examples": [
+    {
+      "Input": [
+        "Woman"
+      ],
+      "Output": "Mrs"
+    },
+    {
+      "Input": [
+        "Woman"
+      ],
+      "Output": "Mrs"
+    },
+    {
+      "Input": [
+        "Woman"
+      ],
+      "Output": "Mrs"
+    },
+    {
+      "Input": [
+        "Man"
+      ],
+      "Output": "Mr"
+    }
+  ]
+}

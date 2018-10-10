@@ -1,0 +1,40 @@
+{
+  "Examples": [
+    {
+      "Input": [
+        "30+"
+      ],
+      "Output": "30"
+    },
+    {
+      "Input": [
+        "43"
+      ],
+      "Output": "43"
+    },
+    {
+      "Input": [
+        null
+      ],
+      "Output": "0"
+    },
+    {
+      "Input": [
+        "9"
+      ],
+      "Output": "9"
+    },
+    {
+      "Input": [
+        "20+"
+      ],
+      "Output": "20"
+    },
+    {
+      "Input": [
+        null
+      ],
+      "Output": "0"
+    }
+  ]
+}

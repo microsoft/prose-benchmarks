@@ -1,0 +1,113 @@
+{
+  "Kind": "Sequence",
+  "Examples": [
+    {
+      "Input": [
+        {
+          "Start": 0,
+          "End": 1146,
+          "Value": "Hone Albert\n1234 Cherry Court\nGreensboro, VA\n(492) 246-4908\n\nOjerinde Adeniyi\n789 Eighth Parkway\nVallejo, WY\n(065) 965-0142\n\nHaf Evans\n678 Redwood Lane\nPrague, KY\n(957) 129-7341\n\nEitan Gonen\n123 Oak Road\nLouisville, FL\n(887) 866-2880\n\nDunja Vukovic\n456 Eighth Highway\nDenver, TN\n(877) 925-6328\n\nYaron Misha\n56 Second Road\nOceanside, NY\n(929) 096-0116\n\nMeaza Goitom\n345 Fourth Highway\nChula Vista, HI\n(603) 802-7993\n\nJens Persson\n78 Birch Boulevard\nSuzhou, IN\n(486) 174-9166\n\nJyeshta Davgar\n789 Elm Street\nQuezon City, NM\n(295) 028-5659\n\nRuza Antunovic\n345 Fourth Parkway\nYonkers, NH\n(569) 304-4202\n\nJukka-Pekka Enestam\n234 Apple Lane\nNizhny Novgorod, SD\n(290) 599-0629\n\nNgoc Thach\n1234 Eighth Avenue\nJurupa Valley, VT\n(921) 818-5753\n\nMoustapha Ndaw\n12 Pecan Street\nLuanda, MO\n(523) 271-6563\n\nRayko Dimitrov\n34 12th Highway\nPearland, NC\n(224) 184-6332\n\nOguntade Olagunju\n678 First Route\nTyler, DC\n(701) 017-1865\n\nShweta Chourasia\n3456 1st Avenue\nMurrieta, SC\n(437) 469-6069\n\nRazia Saleem\n456 Fourth Lane\nHenderson, ND\n(383) 758-5516\n\nMehmet Yildirim\n89 Sixth Parkway\nColumbus, WA\n(311) 625-5741\n\nMarta Grasu\n34 1st Road\nOntario, NY\n(054) 911-2672\n"
+        }
+      ],
+      "Output": [
+        [
+          {
+            "Start": 30,
+            "End": 40,
+            "Value": "Greensboro"
+          },
+          {
+            "Start": 97,
+            "End": 104,
+            "Value": "Vallejo"
+          },
+          {
+            "Start": 152,
+            "End": 158,
+            "Value": "Prague"
+          },
+          {
+            "Start": 204,
+            "End": 214,
+            "Value": "Louisville"
+          },
+          {
+            "Start": 268,
+            "End": 274,
+            "Value": "Denver"
+          },
+          {
+            "Start": 322,
+            "End": 331,
+            "Value": "Oceanside"
+          },
+          {
+            "Start": 384,
+            "End": 395,
+            "Value": "Chula Vista"
+          },
+          {
+            "Start": 448,
+            "End": 454,
+            "Value": "Suzhou"
+          },
+          {
+            "Start": 505,
+            "End": 516,
+            "Value": "Quezon City"
+          },
+          {
+            "Start": 571,
+            "End": 578,
+            "Value": "Yonkers"
+          },
+          {
+            "Start": 634,
+            "End": 649,
+            "Value": "Nizhny Novgorod"
+          },
+          {
+            "Start": 700,
+            "End": 713,
+            "Value": "Jurupa Valley"
+          },
+          {
+            "Start": 765,
+            "End": 771,
+            "Value": "Luanda"
+          },
+          {
+            "Start": 823,
+            "End": 831,
+            "Value": "Pearland"
+          },
+          {
+            "Start": 886,
+            "End": 891,
+            "Value": "Tyler"
+          },
+          {
+            "Start": 945,
+            "End": 953,
+            "Value": "Murrieta"
+          },
+          {
+            "Start": 1003,
+            "End": 1012,
+            "Value": "Henderson"
+          },
+          {
+            "Start": 1066,
+            "End": 1074,
+            "Value": "Columbus"
+          },
+          {
+            "Start": 1119,
+            "End": 1126,
+            "Value": "Ontario"
+          }
+        ]
+      ]
+    }
+  ]
+}

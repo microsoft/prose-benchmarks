@@ -1,0 +1,64 @@
+{
+  "Examples": [
+    {
+      "Input": [
+        "Sunday #1 March 2002"
+      ],
+      "Output": "2002 3 3"
+    },
+    {
+      "Input": [
+        "Saturday #2 April 1953"
+      ],
+      "Output": "1953 11 4"
+    },
+    {
+      "Input": [
+        "Tuesday #3 August 2160"
+      ],
+      "Output": "2160 19 8"
+    },
+    {
+      "Input": [
+        "Wednesday #2 August 1740"
+      ],
+      "Output": "1740 10 8"
+    },
+    {
+      "Input": [
+        "8/7/2237"
+      ],
+      "Output": "2237 8 7"
+    },
+    {
+      "Input": [
+        "3/11/1904"
+      ],
+      "Output": "1904 3 11"
+    },
+    {
+      "Input": [
+        "2088 331"
+      ],
+      "Output": "2088 26 11"
+    },
+    {
+      "Input": [
+        "Sunday #1 October 1920"
+      ],
+      "Output": "1920 3 10"
+    },
+    {
+      "Input": [
+        "1802 268"
+      ],
+      "Output": "1802 25 9"
+    },
+    {
+      "Input": [
+        "Monday #3 January 2187"
+      ],
+      "Output": "2187 15 1"
+    }
+  ]
+}

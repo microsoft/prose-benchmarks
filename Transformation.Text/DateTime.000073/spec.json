@@ -1,0 +1,64 @@
+{
+  "Examples": [
+    {
+      "Input": [
+        "6:25PM"
+      ],
+      "Output": "6:00PM-6:30PM"
+    },
+    {
+      "Input": [
+        "9:44PM"
+      ],
+      "Output": "9:30PM-10:00PM"
+    },
+    {
+      "Input": [
+        "7:00AM"
+      ],
+      "Output": "7:00AM-7:30AM"
+    },
+    {
+      "Input": [
+        "11:34PM"
+      ],
+      "Output": "11:30PM-12:00AM"
+    },
+    {
+      "Input": [
+        "4:15PM"
+      ],
+      "Output": "4:00PM-4:30PM"
+    },
+    {
+      "Input": [
+        "11:48PM"
+      ],
+      "Output": "11:30PM-12:00AM"
+    },
+    {
+      "Input": [
+        "10:24PM"
+      ],
+      "Output": "10:00PM-10:30PM"
+    },
+    {
+      "Input": [
+        "4:29AM"
+      ],
+      "Output": "4:00AM-4:30AM"
+    },
+    {
+      "Input": [
+        "3:25PM"
+      ],
+      "Output": "3:00PM-3:30PM"
+    },
+    {
+      "Input": [
+        "8:14AM"
+      ],
+      "Output": "8:00AM-8:30AM"
+    }
+  ]
+}

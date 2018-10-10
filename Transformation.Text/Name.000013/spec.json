@@ -1,0 +1,124 @@
+{
+  "Examples": [
+    {
+      "Input": [
+        "Hone Albert"
+      ],
+      "Output": "H"
+    },
+    {
+      "Input": [
+        "Aysu Polat"
+      ],
+      "Output": "A"
+    },
+    {
+      "Input": [
+        "Fatma Yilmaz"
+      ],
+      "Output": "F"
+    },
+    {
+      "Input": [
+        "Artem Kuznetsov"
+      ],
+      "Output": "A"
+    },
+    {
+      "Input": [
+        "Cecep Sutresna"
+      ],
+      "Output": "C"
+    },
+    {
+      "Input": [
+        "Milica Zujovic"
+      ],
+      "Output": "M"
+    },
+    {
+      "Input": [
+        "Radmilo Bogic"
+      ],
+      "Output": "R"
+    },
+    {
+      "Input": [
+        "Snezhana Bozhilova"
+      ],
+      "Output": "S"
+    },
+    {
+      "Input": [
+        "Ojerinde Adeniyi"
+      ],
+      "Output": "O"
+    },
+    {
+      "Input": [
+        "Daniyar Shakenuly"
+      ],
+      "Output": "D"
+    },
+    {
+      "Input": [
+        "Snorre Kolstad"
+      ],
+      "Output": "S"
+    },
+    {
+      "Input": [
+        "Pere Castellsegui"
+      ],
+      "Output": "P"
+    },
+    {
+      "Input": [
+        "Niklas Bengtsson"
+      ],
+      "Output": "N"
+    },
+    {
+      "Input": [
+        "Habiba Haidari"
+      ],
+      "Output": "H"
+    },
+    {
+      "Input": [
+        "Jakub Lukes"
+      ],
+      "Output": "J"
+    },
+    {
+      "Input": [
+        "Svetlana Konovalova"
+      ],
+      "Output": "S"
+    },
+    {
+      "Input": [
+        "Haf Evans"
+      ],
+      "Output": "H"
+    },
+    {
+      "Input": [
+        "Antonia Guachiac"
+      ],
+      "Output": "A"
+    },
+    {
+      "Input": [
+        "Klemmet Reiersen"
+      ],
+      "Output": "K"
+    },
+    {
+      "Input": [
+        "Serdar Kakayew"
+      ],
+      "Output": "S"
+    }
+  ]
+}

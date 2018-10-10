@@ -1,0 +1,437 @@
+{
+  "Property": "root",
+  "Start": 0,
+  "End": 2876,
+  "Children": [
+    {
+      "Property": "Product",
+      "Start": 17,
+      "End": 185,
+      "Children": [
+        {
+          "Property": "ProductName",
+          "Start": 17,
+          "End": 37,
+          "Value": "Licensed Soft Towels"
+        },
+        {
+          "Property": "Price1",
+          "Start": 38,
+          "End": 45,
+          "Value": "$259.49"
+        },
+        {
+          "Property": "Price2",
+          "Start": 47,
+          "End": 54,
+          "Value": "$224.64"
+        },
+        {
+          "Property": "Price3",
+          "Start": 84,
+          "End": 91,
+          "Value": "$862.37"
+        },
+        {
+          "Property": "Price4",
+          "Start": 112,
+          "End": 119,
+          "Value": "$314.59"
+        },
+        {
+          "Property": "Category",
+          "Start": 153,
+          "End": 167,
+          "Value": "Home & Kitchen"
+        }
+      ]
+    },
+    {
+      "Property": "Product",
+      "Start": 206,
+      "End": 426,
+      "Children": [
+        {
+          "Property": "ProductName",
+          "Start": 206,
+          "End": 229,
+          "Value": "Practical Plastic Chips"
+        },
+        {
+          "Property": "Price1",
+          "Start": 230,
+          "End": 237,
+          "Value": "$670.33"
+        },
+        {
+          "Property": "Price2",
+          "Start": 239,
+          "End": 246,
+          "Value": "$957.12"
+        },
+        {
+          "Property": "Price3",
+          "Start": 325,
+          "End": 332,
+          "Value": "$146.83"
+        },
+        {
+          "Property": "Price4",
+          "Start": 353,
+          "End": 360,
+          "Value": "$718.73"
+        },
+        {
+          "Property": "Category",
+          "Start": 394,
+          "End": 408,
+          "Value": "Home & Kitchen"
+        }
+      ]
+    },
+    {
+      "Property": "Product",
+      "Start": 447,
+      "End": 664,
+      "Children": [
+        {
+          "Property": "ProductName",
+          "Start": 447,
+          "End": 468,
+          "Value": "Unbranded Steel Pizza"
+        },
+        {
+          "Property": "Price1",
+          "Start": 469,
+          "End": 476,
+          "Value": "$168.29"
+        },
+        {
+          "Property": "Price2",
+          "Start": 478,
+          "End": 485,
+          "Value": "$467.81"
+        },
+        {
+          "Property": "Price3",
+          "Start": 564,
+          "End": 571,
+          "Value": "$189.12"
+        },
+        {
+          "Property": "Price4",
+          "Start": 592,
+          "End": 599,
+          "Value": "$325.50"
+        },
+        {
+          "Property": "Category",
+          "Start": 633,
+          "End": 647,
+          "Value": "Home & Kitchen"
+        }
+      ]
+    },
+    {
+      "Property": "Product",
+      "Start": 685,
+      "End": 852,
+      "Children": [
+        {
+          "Property": "ProductName",
+          "Start": 685,
+          "End": 704,
+          "Value": "Gorgeous Fresh Bike"
+        },
+        {
+          "Property": "Price1",
+          "Start": 705,
+          "End": 712,
+          "Value": "$106.66"
+        },
+        {
+          "Property": "Price2",
+          "Start": 714,
+          "End": 721,
+          "Value": "$929.09"
+        },
+        {
+          "Property": "Price3",
+          "Start": 751,
+          "End": 758,
+          "Value": "$149.10"
+        },
+        {
+          "Property": "Price4",
+          "Start": 779,
+          "End": 786,
+          "Value": "$953.04"
+        },
+        {
+          "Property": "Category",
+          "Start": 820,
+          "End": 835,
+          "Value": "Office Products"
+        }
+      ]
+    },
+    {
+      "Property": "Product",
+      "Start": 873,
+      "End": 1094,
+      "Children": [
+        {
+          "Property": "ProductName",
+          "Start": 873,
+          "End": 897,
+          "Value": "Handcrafted Frozen Chips"
+        },
+        {
+          "Property": "Price1",
+          "Start": 898,
+          "End": 905,
+          "Value": "$352.55"
+        },
+        {
+          "Property": "Price2",
+          "Start": 907,
+          "End": 914,
+          "Value": "$024.86"
+        },
+        {
+          "Property": "Price3",
+          "Start": 993,
+          "End": 1000,
+          "Value": "$130.70"
+        },
+        {
+          "Property": "Price4",
+          "Start": 1021,
+          "End": 1028,
+          "Value": "$830.57"
+        },
+        {
+          "Property": "Category",
+          "Start": 1062,
+          "End": 1076,
+          "Value": "Home & Kitchen"
+        }
+      ]
+    },
+    {
+      "Property": "Product",
+      "Start": 1115,
+      "End": 1278,
+      "Children": [
+        {
+          "Property": "ProductName",
+          "Start": 1115,
+          "End": 1132,
+          "Value": "Awesome Metal Hat"
+        },
+        {
+          "Property": "Price1",
+          "Start": 1133,
+          "End": 1140,
+          "Value": "$905.18"
+        },
+        {
+          "Property": "Price2",
+          "Start": 1142,
+          "End": 1149,
+          "Value": "$655.69"
+        },
+        {
+          "Property": "Price3",
+          "Start": 1179,
+          "End": 1186,
+          "Value": "$465.70"
+        },
+        {
+          "Property": "Price4",
+          "Start": 1207,
+          "End": 1213,
+          "Value": "$71.69"
+        },
+        {
+          "Property": "Category",
+          "Start": 1247,
+          "End": 1261,
+          "Value": "Home & Kitchen"
+        }
+      ]
+    },
+    {
+      "Property": "Product",
+      "Start": 1299,
+      "End": 1465,
+      "Children": [
+        {
+          "Property": "ProductName",
+          "Start": 1299,
+          "End": 1317,
+          "Value": "Tasty Frozen Chair"
+        },
+        {
+          "Property": "Price1",
+          "Start": 1318,
+          "End": 1325,
+          "Value": "$629.57"
+        },
+        {
+          "Property": "Price2",
+          "Start": 1327,
+          "End": 1334,
+          "Value": "$349.89"
+        },
+        {
+          "Property": "Price3",
+          "Start": 1364,
+          "End": 1371,
+          "Value": "$897.25"
+        },
+        {
+          "Property": "Price4",
+          "Start": 1392,
+          "End": 1399,
+          "Value": "$544.66"
+        },
+        {
+          "Property": "Category",
+          "Start": 1433,
+          "End": 1448,
+          "Value": "Office Products"
+        }
+      ]
+    },
+    {
+      "Property": "Product",
+      "Start": 1486,
+      "End": 1656,
+      "Children": [
+        {
+          "Property": "ProductName",
+          "Start": 1486,
+          "End": 1512,
+          "Value": "Incredible Concrete Cheese"
+        },
+        {
+          "Property": "Price1",
+          "Start": 1513,
+          "End": 1520,
+          "Value": "$165.63"
+        },
+        {
+          "Property": "Price2",
+          "Start": 1522,
+          "End": 1529,
+          "Value": "$008.78"
+        },
+        {
+          "Property": "Price3",
+          "Start": 1559,
+          "End": 1566,
+          "Value": "$264.83"
+        },
+        {
+          "Property": "Price4",
+          "Start": 1587,
+          "End": 1594,
+          "Value": "$887.58"
+        },
+        {
+          "Property": "Category",
+          "Start": 1628,
+          "End": 1642,
+          "Value": "Home & Kitchen"
+        }
+      ]
+    },
+    {
+      "Property": "Product",
+      "Start": 1683,
+      "End": 1900,
+      "Children": [
+        {
+          "Property": "ProductName",
+          "Start": 1683,
+          "End": 1704,
+          "Value": "Licensed Wooden Mouse"
+        },
+        {
+          "Property": "Price1",
+          "Start": 1705,
+          "End": 1712,
+          "Value": "$017.18"
+        },
+        {
+          "Property": "Price2",
+          "Start": 1714,
+          "End": 1721,
+          "Value": "$652.88"
+        },
+        {
+          "Property": "Price3",
+          "Start": 1800,
+          "End": 1807,
+          "Value": "$340.48"
+        },
+        {
+          "Property": "Price4",
+          "Start": 1828,
+          "End": 1835,
+          "Value": "$647.17"
+        },
+        {
+          "Property": "Category",
+          "Start": 1869,
+          "End": 1883,
+          "Value": "Home & Kitchen"
+        }
+      ]
+    },
+    {
+      "Property": "Product",
+      "Start": 1921,
+      "End": 2136,
+      "Children": [
+        {
+          "Property": "ProductName",
+          "Start": 1921,
+          "End": 1943,
+          "Value": "Fantastic Fresh Gloves"
+        },
+        {
+          "Property": "Price1",
+          "Start": 1944,
+          "End": 1951,
+          "Value": "$758.55"
+        },
+        {
+          "Property": "Price2",
+          "Start": 1953,
+          "End": 1960,
+          "Value": "$165.32"
+        },
+        {
+          "Property": "Price3",
+          "Start": 2034,
+          "End": 2041,
+          "Value": "$192.25"
+        },
+        {
+          "Property": "Price4",
+          "Start": 2062,
+          "End": 2069,
+          "Value": "$205.29"
+        },
+        {
+          "Property": "Category",
+          "Start": 2103,
+          "End": 2118,
+          "Value": "Office Products"
+        }
+      ]
+    }
+  ]
+}

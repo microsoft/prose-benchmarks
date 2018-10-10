@@ -1,0 +1,3107 @@
+{
+  "Property": "root",
+  "Start": 0,
+  "End": 3512,
+  "Children": [
+    {
+      "Property": "region0",
+      "Start": 0,
+      "End": 33,
+      "Children": [
+        {
+          "Property": "field1",
+          "Start": 0,
+          "End": 1,
+          "Value": "1"
+        },
+        {
+          "Property": "field2",
+          "Start": 2,
+          "End": 13,
+          "Value": "Exxon Mobil"
+        },
+        {
+          "Property": "field3",
+          "Start": 14,
+          "End": 23,
+          "Value": "452,926.0"
+        },
+        {
+          "Property": "field4",
+          "Start": 25,
+          "End": 33,
+          "Value": "41,060.0"
+        }
+      ]
+    },
+    {
+      "Property": "region0",
+      "Start": 34,
+      "End": 71,
+      "Children": [
+        {
+          "Property": "field1",
+          "Start": 34,
+          "End": 35,
+          "Value": "2"
+        },
+        {
+          "Property": "field2",
+          "Start": 36,
+          "End": 51,
+          "Value": "Wal-Mart Stores"
+        },
+        {
+          "Property": "field3",
+          "Start": 52,
+          "End": 61,
+          "Value": "446,950.0"
+        },
+        {
+          "Property": "field4",
+          "Start": 63,
+          "End": 71,
+          "Value": "15,699.0"
+        }
+      ]
+    },
+    {
+      "Property": "region0",
+      "Start": 72,
+      "End": 101,
+      "Children": [
+        {
+          "Property": "field1",
+          "Start": 72,
+          "End": 73,
+          "Value": "3"
+        },
+        {
+          "Property": "field2",
+          "Start": 74,
+          "End": 81,
+          "Value": "Chevron"
+        },
+        {
+          "Property": "field3",
+          "Start": 82,
+          "End": 91,
+          "Value": "245,621.0"
+        },
+        {
+          "Property": "field4",
+          "Start": 93,
+          "End": 101,
+          "Value": "26,895.0"
+        }
+      ]
+    },
+    {
+      "Property": "region0",
+      "Start": 102,
+      "End": 138,
+      "Children": [
+        {
+          "Property": "field1",
+          "Start": 102,
+          "End": 103,
+          "Value": "4"
+        },
+        {
+          "Property": "field2",
+          "Start": 104,
+          "End": 118,
+          "Value": "ConocoPhillips"
+        },
+        {
+          "Property": "field3",
+          "Start": 119,
+          "End": 128,
+          "Value": "237,272.0"
+        },
+        {
+          "Property": "field4",
+          "Start": 130,
+          "End": 138,
+          "Value": "12,436.0"
+        }
+      ]
+    },
+    {
+      "Property": "region0",
+      "Start": 139,
+      "End": 174,
+      "Children": [
+        {
+          "Property": "field1",
+          "Start": 139,
+          "End": 140,
+          "Value": "5"
+        },
+        {
+          "Property": "field2",
+          "Start": 141,
+          "End": 155,
+          "Value": "General Motors"
+        },
+        {
+          "Property": "field3",
+          "Start": 156,
+          "End": 165,
+          "Value": "150,276.0"
+        },
+        {
+          "Property": "field4",
+          "Start": 167,
+          "End": 174,
+          "Value": "9,190.0"
+        }
+      ]
+    },
+    {
+      "Property": "region0",
+      "Start": 175,
+      "End": 213,
+      "Children": [
+        {
+          "Property": "field1",
+          "Start": 175,
+          "End": 176,
+          "Value": "6"
+        },
+        {
+          "Property": "field2",
+          "Start": 177,
+          "End": 193,
+          "Value": "General Electric"
+        },
+        {
+          "Property": "field3",
+          "Start": 194,
+          "End": 203,
+          "Value": "147,616.0"
+        },
+        {
+          "Property": "field4",
+          "Start": 205,
+          "End": 213,
+          "Value": "14,151.0"
+        }
+      ]
+    },
+    {
+      "Property": "region0",
+      "Start": 214,
+      "End": 254,
+      "Children": [
+        {
+          "Property": "field1",
+          "Start": 214,
+          "End": 215,
+          "Value": "7"
+        },
+        {
+          "Property": "field2",
+          "Start": 216,
+          "End": 234,
+          "Value": "Berkshire Hathaway"
+        },
+        {
+          "Property": "field3",
+          "Start": 235,
+          "End": 244,
+          "Value": "143,688.0"
+        },
+        {
+          "Property": "field4",
+          "Start": 246,
+          "End": 254,
+          "Value": "10,254.0"
+        }
+      ]
+    },
+    {
+      "Property": "region0",
+      "Start": 255,
+      "End": 288,
+      "Children": [
+        {
+          "Property": "field1",
+          "Start": 255,
+          "End": 256,
+          "Value": "8"
+        },
+        {
+          "Property": "field2",
+          "Start": 257,
+          "End": 267,
+          "Value": "Fannie Mae"
+        },
+        {
+          "Property": "field3",
+          "Start": 268,
+          "End": 277,
+          "Value": "137,451.0"
+        },
+        {
+          "Property": "field4",
+          "Start": 279,
+          "End": 288,
+          "Value": "-16,855.0"
+        }
+      ]
+    },
+    {
+      "Property": "region0",
+      "Start": 289,
+      "End": 321,
+      "Children": [
+        {
+          "Property": "field1",
+          "Start": 289,
+          "End": 290,
+          "Value": "9"
+        },
+        {
+          "Property": "field2",
+          "Start": 291,
+          "End": 301,
+          "Value": "Ford Motor"
+        },
+        {
+          "Property": "field3",
+          "Start": 302,
+          "End": 311,
+          "Value": "136,264.0"
+        },
+        {
+          "Property": "field4",
+          "Start": 313,
+          "End": 321,
+          "Value": "20,213.0"
+        }
+      ]
+    },
+    {
+      "Property": "region0",
+      "Start": 322,
+      "End": 359,
+      "Children": [
+        {
+          "Property": "field1",
+          "Start": 322,
+          "End": 324,
+          "Value": "10"
+        },
+        {
+          "Property": "field2",
+          "Start": 325,
+          "End": 340,
+          "Value": "Hewlett-Packard"
+        },
+        {
+          "Property": "field3",
+          "Start": 341,
+          "End": 350,
+          "Value": "127,245.0"
+        },
+        {
+          "Property": "field4",
+          "Start": 352,
+          "End": 359,
+          "Value": "7,074.0"
+        }
+      ]
+    },
+    {
+      "Property": "region0",
+      "Start": 360,
+      "End": 386,
+      "Children": [
+        {
+          "Property": "field1",
+          "Start": 360,
+          "End": 362,
+          "Value": "11"
+        },
+        {
+          "Property": "field2",
+          "Start": 363,
+          "End": 367,
+          "Value": "AT&T"
+        },
+        {
+          "Property": "field3",
+          "Start": 368,
+          "End": 377,
+          "Value": "126,723.0"
+        },
+        {
+          "Property": "field4",
+          "Start": 379,
+          "End": 386,
+          "Value": "3,944.0"
+        }
+      ]
+    },
+    {
+      "Property": "region0",
+      "Start": 387,
+      "End": 422,
+      "Children": [
+        {
+          "Property": "field1",
+          "Start": 387,
+          "End": 389,
+          "Value": "12"
+        },
+        {
+          "Property": "field2",
+          "Start": 390,
+          "End": 403,
+          "Value": "Valero Energy"
+        },
+        {
+          "Property": "field3",
+          "Start": 404,
+          "End": 413,
+          "Value": "125,095.0"
+        },
+        {
+          "Property": "field4",
+          "Start": 415,
+          "End": 422,
+          "Value": "2,090.0"
+        }
+      ]
+    },
+    {
+      "Property": "region0",
+      "Start": 423,
+      "End": 466,
+      "Children": [
+        {
+          "Property": "field1",
+          "Start": 423,
+          "End": 425,
+          "Value": "13"
+        },
+        {
+          "Property": "field2",
+          "Start": 426,
+          "End": 447,
+          "Value": "Bank of America Corp."
+        },
+        {
+          "Property": "field3",
+          "Start": 448,
+          "End": 457,
+          "Value": "115,074.0"
+        },
+        {
+          "Property": "field4",
+          "Start": 459,
+          "End": 466,
+          "Value": "1,446.0"
+        }
+      ]
+    },
+    {
+      "Property": "region0",
+      "Start": 467,
+      "End": 497,
+      "Children": [
+        {
+          "Property": "field1",
+          "Start": 467,
+          "End": 469,
+          "Value": "14"
+        },
+        {
+          "Property": "field2",
+          "Start": 470,
+          "End": 478,
+          "Value": "McKesson"
+        },
+        {
+          "Property": "field3",
+          "Start": 479,
+          "End": 488,
+          "Value": "112,084.0"
+        },
+        {
+          "Property": "field4",
+          "Start": 490,
+          "End": 497,
+          "Value": "1,202.0"
+        }
+      ]
+    },
+    {
+      "Property": "region0",
+      "Start": 498,
+      "End": 542,
+      "Children": [
+        {
+          "Property": "field1",
+          "Start": 498,
+          "End": 500,
+          "Value": "15"
+        },
+        {
+          "Property": "field2",
+          "Start": 501,
+          "End": 523,
+          "Value": "Verizon Communications"
+        },
+        {
+          "Property": "field3",
+          "Start": 524,
+          "End": 533,
+          "Value": "110,875.0"
+        },
+        {
+          "Property": "field4",
+          "Start": 535,
+          "End": 542,
+          "Value": "2,404.0"
+        }
+      ]
+    },
+    {
+      "Property": "region0",
+      "Start": 543,
+      "End": 589,
+      "Children": [
+        {
+          "Property": "field1",
+          "Start": 543,
+          "End": 545,
+          "Value": "16"
+        },
+        {
+          "Property": "field2",
+          "Start": 546,
+          "End": 569,
+          "Value": "J.P. Morgan Chase & Co."
+        },
+        {
+          "Property": "field3",
+          "Start": 570,
+          "End": 579,
+          "Value": "110,838.0"
+        },
+        {
+          "Property": "field4",
+          "Start": 581,
+          "End": 589,
+          "Value": "18,976.0"
+        }
+      ]
+    },
+    {
+      "Property": "region0",
+      "Start": 590,
+      "End": 618,
+      "Children": [
+        {
+          "Property": "field1",
+          "Start": 590,
+          "End": 592,
+          "Value": "17"
+        },
+        {
+          "Property": "field2",
+          "Start": 593,
+          "End": 598,
+          "Value": "Apple"
+        },
+        {
+          "Property": "field3",
+          "Start": 599,
+          "End": 608,
+          "Value": "108,249.0"
+        },
+        {
+          "Property": "field4",
+          "Start": 610,
+          "End": 618,
+          "Value": "25,922.0"
+        }
+      ]
+    },
+    {
+      "Property": "region0",
+      "Start": 619,
+      "End": 653,
+      "Children": [
+        {
+          "Property": "field1",
+          "Start": 619,
+          "End": 621,
+          "Value": "18"
+        },
+        {
+          "Property": "field2",
+          "Start": 622,
+          "End": 634,
+          "Value": "CVS Caremark"
+        },
+        {
+          "Property": "field3",
+          "Start": 635,
+          "End": 644,
+          "Value": "107,750.0"
+        },
+        {
+          "Property": "field4",
+          "Start": 646,
+          "End": 653,
+          "Value": "3,461.0"
+        }
+      ]
+    },
+    {
+      "Property": "region0",
+      "Start": 654,
+      "End": 708,
+      "Children": [
+        {
+          "Property": "field1",
+          "Start": 654,
+          "End": 656,
+          "Value": "19"
+        },
+        {
+          "Property": "field2",
+          "Start": 657,
+          "End": 688,
+          "Value": "International Business Machines"
+        },
+        {
+          "Property": "field3",
+          "Start": 689,
+          "End": 698,
+          "Value": "106,916.0"
+        },
+        {
+          "Property": "field4",
+          "Start": 700,
+          "End": 708,
+          "Value": "15,855.0"
+        }
+      ]
+    },
+    {
+      "Property": "region0",
+      "Start": 709,
+      "End": 741,
+      "Children": [
+        {
+          "Property": "field1",
+          "Start": 709,
+          "End": 711,
+          "Value": "20"
+        },
+        {
+          "Property": "field2",
+          "Start": 712,
+          "End": 721,
+          "Value": "Citigroup"
+        },
+        {
+          "Property": "field3",
+          "Start": 722,
+          "End": 731,
+          "Value": "102,939.0"
+        },
+        {
+          "Property": "field4",
+          "Start": 733,
+          "End": 741,
+          "Value": "11,067.0"
+        }
+      ]
+    },
+    {
+      "Property": "region0",
+      "Start": 742,
+      "End": 777,
+      "Children": [
+        {
+          "Property": "field1",
+          "Start": 742,
+          "End": 744,
+          "Value": "21"
+        },
+        {
+          "Property": "field2",
+          "Start": 745,
+          "End": 760,
+          "Value": "Cardinal Health"
+        },
+        {
+          "Property": "field3",
+          "Start": 761,
+          "End": 770,
+          "Value": "102,644.2"
+        },
+        {
+          "Property": "field4",
+          "Start": 772,
+          "End": 777,
+          "Value": "959.0"
+        }
+      ]
+    },
+    {
+      "Property": "region0",
+      "Start": 778,
+      "End": 818,
+      "Children": [
+        {
+          "Property": "field1",
+          "Start": 778,
+          "End": 780,
+          "Value": "22"
+        },
+        {
+          "Property": "field2",
+          "Start": 781,
+          "End": 799,
+          "Value": "UnitedHealth Group"
+        },
+        {
+          "Property": "field3",
+          "Start": 800,
+          "End": 809,
+          "Value": "101,862.0"
+        },
+        {
+          "Property": "field4",
+          "Start": 811,
+          "End": 818,
+          "Value": "5,142.0"
+        }
+      ]
+    },
+    {
+      "Property": "region0",
+      "Start": 819,
+      "End": 844,
+      "Children": [
+        {
+          "Property": "field1",
+          "Start": 819,
+          "End": 821,
+          "Value": "23"
+        },
+        {
+          "Property": "field2",
+          "Start": 822,
+          "End": 828,
+          "Value": "Kroger"
+        },
+        {
+          "Property": "field3",
+          "Start": 829,
+          "End": 837,
+          "Value": "90,374.0"
+        },
+        {
+          "Property": "field4",
+          "Start": 839,
+          "End": 844,
+          "Value": "602.0"
+        }
+      ]
+    },
+    {
+      "Property": "region0",
+      "Start": 845,
+      "End": 882,
+      "Children": [
+        {
+          "Property": "field1",
+          "Start": 845,
+          "End": 847,
+          "Value": "24"
+        },
+        {
+          "Property": "field2",
+          "Start": 848,
+          "End": 864,
+          "Value": "Costco Wholesale"
+        },
+        {
+          "Property": "field3",
+          "Start": 865,
+          "End": 873,
+          "Value": "88,915.0"
+        },
+        {
+          "Property": "field4",
+          "Start": 875,
+          "End": 882,
+          "Value": "1,462.0"
+        }
+      ]
+    },
+    {
+      "Property": "region0",
+      "Start": 883,
+      "End": 916,
+      "Children": [
+        {
+          "Property": "field1",
+          "Start": 883,
+          "End": 885,
+          "Value": "25"
+        },
+        {
+          "Property": "field2",
+          "Start": 886,
+          "End": 897,
+          "Value": "Freddie Mac"
+        },
+        {
+          "Property": "field3",
+          "Start": 898,
+          "End": 906,
+          "Value": "88,262.0"
+        },
+        {
+          "Property": "field4",
+          "Start": 908,
+          "End": 916,
+          "Value": "-5,266.0"
+        }
+      ]
+    },
+    {
+      "Property": "region0",
+      "Start": 917,
+      "End": 950,
+      "Children": [
+        {
+          "Property": "field1",
+          "Start": 917,
+          "End": 919,
+          "Value": "26"
+        },
+        {
+          "Property": "field2",
+          "Start": 920,
+          "End": 931,
+          "Value": "Wells Fargo"
+        },
+        {
+          "Property": "field3",
+          "Start": 932,
+          "End": 940,
+          "Value": "87,597.0"
+        },
+        {
+          "Property": "field4",
+          "Start": 942,
+          "End": 950,
+          "Value": "15,869.0"
+        }
+      ]
+    },
+    {
+      "Property": "region0",
+      "Start": 951,
+      "End": 989,
+      "Children": [
+        {
+          "Property": "field1",
+          "Start": 951,
+          "End": 953,
+          "Value": "27"
+        },
+        {
+          "Property": "field2",
+          "Start": 954,
+          "End": 970,
+          "Value": "Procter & Gamble"
+        },
+        {
+          "Property": "field3",
+          "Start": 971,
+          "End": 979,
+          "Value": "82,559.0"
+        },
+        {
+          "Property": "field4",
+          "Start": 981,
+          "End": 989,
+          "Value": "11,797.0"
+        }
+      ]
+    },
+    {
+      "Property": "region0",
+      "Start": 990,
+      "End": 1033,
+      "Children": [
+        {
+          "Property": "field1",
+          "Start": 990,
+          "End": 992,
+          "Value": "28"
+        },
+        {
+          "Property": "field2",
+          "Start": 993,
+          "End": 1015,
+          "Value": "Archer Daniels Midland"
+        },
+        {
+          "Property": "field3",
+          "Start": 1016,
+          "End": 1024,
+          "Value": "80,676.0"
+        },
+        {
+          "Property": "field4",
+          "Start": 1026,
+          "End": 1033,
+          "Value": "2,036.0"
+        }
+      ]
+    },
+    {
+      "Property": "region0",
+      "Start": 1034,
+      "End": 1070,
+      "Children": [
+        {
+          "Property": "field1",
+          "Start": 1034,
+          "End": 1036,
+          "Value": "29"
+        },
+        {
+          "Property": "field2",
+          "Start": 1037,
+          "End": 1054,
+          "Value": "AmerisourceBergen"
+        },
+        {
+          "Property": "field3",
+          "Start": 1055,
+          "End": 1063,
+          "Value": "80,217.6"
+        },
+        {
+          "Property": "field4",
+          "Start": 1065,
+          "End": 1070,
+          "Value": "706.6"
+        }
+      ]
+    },
+    {
+      "Property": "region0",
+      "Start": 1071,
+      "End": 1101,
+      "Children": [
+        {
+          "Property": "field1",
+          "Start": 1071,
+          "End": 1073,
+          "Value": "30"
+        },
+        {
+          "Property": "field2",
+          "Start": 1074,
+          "End": 1086,
+          "Value": "INTL FCStone"
+        },
+        {
+          "Property": "field3",
+          "Start": 1087,
+          "End": 1095,
+          "Value": "75,497.6"
+        },
+        {
+          "Property": "field4",
+          "Start": 1097,
+          "End": 1101,
+          "Value": "37.3"
+        }
+      ]
+    },
+    {
+      "Property": "region0",
+      "Start": 1102,
+      "End": 1141,
+      "Children": [
+        {
+          "Property": "field1",
+          "Start": 1102,
+          "End": 1104,
+          "Value": "31"
+        },
+        {
+          "Property": "field2",
+          "Start": 1105,
+          "End": 1123,
+          "Value": "Marathon Petroleum"
+        },
+        {
+          "Property": "field3",
+          "Start": 1124,
+          "End": 1132,
+          "Value": "73,645.0"
+        },
+        {
+          "Property": "field4",
+          "Start": 1134,
+          "End": 1141,
+          "Value": "2,389.0"
+        }
+      ]
+    },
+    {
+      "Property": "region0",
+      "Start": 1142,
+      "End": 1171,
+      "Children": [
+        {
+          "Property": "field1",
+          "Start": 1142,
+          "End": 1144,
+          "Value": "32"
+        },
+        {
+          "Property": "field2",
+          "Start": 1145,
+          "End": 1153,
+          "Value": "Walgreen"
+        },
+        {
+          "Property": "field3",
+          "Start": 1154,
+          "End": 1162,
+          "Value": "72,184.0"
+        },
+        {
+          "Property": "field4",
+          "Start": 1164,
+          "End": 1171,
+          "Value": "2,714.0"
+        }
+      ]
+    },
+    {
+      "Property": "region0",
+      "Start": 1172,
+      "End": 1222,
+      "Children": [
+        {
+          "Property": "field1",
+          "Start": 1172,
+          "End": 1174,
+          "Value": "33"
+        },
+        {
+          "Property": "field2",
+          "Start": 1175,
+          "End": 1203,
+          "Value": "American International Group"
+        },
+        {
+          "Property": "field3",
+          "Start": 1204,
+          "End": 1212,
+          "Value": "71,730.0"
+        },
+        {
+          "Property": "field4",
+          "Start": 1214,
+          "End": 1222,
+          "Value": "17,798.0"
+        }
+      ]
+    },
+    {
+      "Property": "region0",
+      "Start": 1223,
+      "End": 1251,
+      "Children": [
+        {
+          "Property": "field1",
+          "Start": 1223,
+          "End": 1225,
+          "Value": "34"
+        },
+        {
+          "Property": "field2",
+          "Start": 1226,
+          "End": 1233,
+          "Value": "MetLife"
+        },
+        {
+          "Property": "field3",
+          "Start": 1234,
+          "End": 1242,
+          "Value": "70,641.0"
+        },
+        {
+          "Property": "field4",
+          "Start": 1244,
+          "End": 1251,
+          "Value": "6,981.0"
+        }
+      ]
+    },
+    {
+      "Property": "region0",
+      "Start": 1252,
+      "End": 1283,
+      "Children": [
+        {
+          "Property": "field1",
+          "Start": 1252,
+          "End": 1254,
+          "Value": "35"
+        },
+        {
+          "Property": "field2",
+          "Start": 1255,
+          "End": 1265,
+          "Value": "Home Depot"
+        },
+        {
+          "Property": "field3",
+          "Start": 1266,
+          "End": 1274,
+          "Value": "70,395.0"
+        },
+        {
+          "Property": "field4",
+          "Start": 1276,
+          "End": 1283,
+          "Value": "3,883.0"
+        }
+      ]
+    },
+    {
+      "Property": "region0",
+      "Start": 1284,
+      "End": 1327,
+      "Children": [
+        {
+          "Property": "field1",
+          "Start": 1284,
+          "End": 1286,
+          "Value": "36"
+        },
+        {
+          "Property": "field2",
+          "Start": 1287,
+          "End": 1309,
+          "Value": "Medco Health Solutions"
+        },
+        {
+          "Property": "field3",
+          "Start": 1310,
+          "End": 1318,
+          "Value": "70,063.3"
+        },
+        {
+          "Property": "field4",
+          "Start": 1320,
+          "End": 1327,
+          "Value": "1,455.7"
+        }
+      ]
+    },
+    {
+      "Property": "region0",
+      "Start": 1328,
+      "End": 1359,
+      "Children": [
+        {
+          "Property": "field1",
+          "Start": 1328,
+          "End": 1330,
+          "Value": "37"
+        },
+        {
+          "Property": "field2",
+          "Start": 1331,
+          "End": 1340,
+          "Value": "Microsoft"
+        },
+        {
+          "Property": "field3",
+          "Start": 1341,
+          "End": 1349,
+          "Value": "69,943.0"
+        },
+        {
+          "Property": "field4",
+          "Start": 1351,
+          "End": 1359,
+          "Value": "23,150.0"
+        }
+      ]
+    },
+    {
+      "Property": "region0",
+      "Start": 1360,
+      "End": 1387,
+      "Children": [
+        {
+          "Property": "field1",
+          "Start": 1360,
+          "End": 1362,
+          "Value": "38"
+        },
+        {
+          "Property": "field2",
+          "Start": 1363,
+          "End": 1369,
+          "Value": "Target"
+        },
+        {
+          "Property": "field3",
+          "Start": 1370,
+          "End": 1378,
+          "Value": "69,865.0"
+        },
+        {
+          "Property": "field4",
+          "Start": 1380,
+          "End": 1387,
+          "Value": "2,929.0"
+        }
+      ]
+    },
+    {
+      "Property": "region0",
+      "Start": 1388,
+      "End": 1415,
+      "Children": [
+        {
+          "Property": "field1",
+          "Start": 1388,
+          "End": 1390,
+          "Value": "39"
+        },
+        {
+          "Property": "field2",
+          "Start": 1391,
+          "End": 1397,
+          "Value": "Boeing"
+        },
+        {
+          "Property": "field3",
+          "Start": 1398,
+          "End": 1406,
+          "Value": "68,735.0"
+        },
+        {
+          "Property": "field4",
+          "Start": 1408,
+          "End": 1415,
+          "Value": "4,018.0"
+        }
+      ]
+    },
+    {
+      "Property": "region0",
+      "Start": 1416,
+      "End": 1444,
+      "Children": [
+        {
+          "Property": "field1",
+          "Start": 1416,
+          "End": 1418,
+          "Value": "40"
+        },
+        {
+          "Property": "field2",
+          "Start": 1419,
+          "End": 1425,
+          "Value": "Pfizer"
+        },
+        {
+          "Property": "field3",
+          "Start": 1426,
+          "End": 1434,
+          "Value": "67,932.0"
+        },
+        {
+          "Property": "field4",
+          "Start": 1436,
+          "End": 1444,
+          "Value": "10,009.0"
+        }
+      ]
+    },
+    {
+      "Property": "region0",
+      "Start": 1445,
+      "End": 1473,
+      "Children": [
+        {
+          "Property": "field1",
+          "Start": 1445,
+          "End": 1447,
+          "Value": "41"
+        },
+        {
+          "Property": "field2",
+          "Start": 1448,
+          "End": 1455,
+          "Value": "PepsiCo"
+        },
+        {
+          "Property": "field3",
+          "Start": 1456,
+          "End": 1464,
+          "Value": "66,504.0"
+        },
+        {
+          "Property": "field4",
+          "Start": 1466,
+          "End": 1473,
+          "Value": "6,443.0"
+        }
+      ]
+    },
+    {
+      "Property": "region0",
+      "Start": 1474,
+      "End": 1512,
+      "Children": [
+        {
+          "Property": "field1",
+          "Start": 1474,
+          "End": 1476,
+          "Value": "42"
+        },
+        {
+          "Property": "field2",
+          "Start": 1477,
+          "End": 1494,
+          "Value": "Johnson & Johnson"
+        },
+        {
+          "Property": "field3",
+          "Start": 1495,
+          "End": 1503,
+          "Value": "65,030.0"
+        },
+        {
+          "Property": "field4",
+          "Start": 1505,
+          "End": 1512,
+          "Value": "9,672.0"
+        }
+      ]
+    },
+    {
+      "Property": "region0",
+      "Start": 1513,
+      "End": 1557,
+      "Children": [
+        {
+          "Property": "field1",
+          "Start": 1513,
+          "End": 1515,
+          "Value": "43"
+        },
+        {
+          "Property": "field2",
+          "Start": 1516,
+          "End": 1541,
+          "Value": "State Farm Insurance Cos."
+        },
+        {
+          "Property": "field3",
+          "Start": 1542,
+          "End": 1550,
+          "Value": "64,305.1"
+        },
+        {
+          "Property": "field4",
+          "Start": 1552,
+          "End": 1557,
+          "Value": "845.0"
+        }
+      ]
+    },
+    {
+      "Property": "region0",
+      "Start": 1558,
+      "End": 1583,
+      "Children": [
+        {
+          "Property": "field1",
+          "Start": 1558,
+          "End": 1560,
+          "Value": "44"
+        },
+        {
+          "Property": "field2",
+          "Start": 1561,
+          "End": 1565,
+          "Value": "Dell"
+        },
+        {
+          "Property": "field3",
+          "Start": 1566,
+          "End": 1574,
+          "Value": "62,071.0"
+        },
+        {
+          "Property": "field4",
+          "Start": 1576,
+          "End": 1583,
+          "Value": "3,492.0"
+        }
+      ]
+    },
+    {
+      "Property": "region0",
+      "Start": 1584,
+      "End": 1614,
+      "Children": [
+        {
+          "Property": "field1",
+          "Start": 1584,
+          "End": 1586,
+          "Value": "45"
+        },
+        {
+          "Property": "field2",
+          "Start": 1587,
+          "End": 1596,
+          "Value": "WellPoint"
+        },
+        {
+          "Property": "field3",
+          "Start": 1597,
+          "End": 1605,
+          "Value": "60,710.7"
+        },
+        {
+          "Property": "field4",
+          "Start": 1607,
+          "End": 1614,
+          "Value": "2,646.7"
+        }
+      ]
+    },
+    {
+      "Property": "region0",
+      "Start": 1615,
+      "End": 1647,
+      "Children": [
+        {
+          "Property": "field1",
+          "Start": 1615,
+          "End": 1617,
+          "Value": "46"
+        },
+        {
+          "Property": "field2",
+          "Start": 1618,
+          "End": 1629,
+          "Value": "Caterpillar"
+        },
+        {
+          "Property": "field3",
+          "Start": 1630,
+          "End": 1638,
+          "Value": "60,138.0"
+        },
+        {
+          "Property": "field4",
+          "Start": 1640,
+          "End": 1647,
+          "Value": "4,928.0"
+        }
+      ]
+    },
+    {
+      "Property": "region0",
+      "Start": 1648,
+      "End": 1681,
+      "Children": [
+        {
+          "Property": "field1",
+          "Start": 1648,
+          "End": 1650,
+          "Value": "47"
+        },
+        {
+          "Property": "field2",
+          "Start": 1651,
+          "End": 1663,
+          "Value": "Dow Chemical"
+        },
+        {
+          "Property": "field3",
+          "Start": 1664,
+          "End": 1672,
+          "Value": "59,985.0"
+        },
+        {
+          "Property": "field4",
+          "Start": 1674,
+          "End": 1681,
+          "Value": "2,742.0"
+        }
+      ]
+    },
+    {
+      "Property": "region0",
+      "Start": 1682,
+      "End": 1722,
+      "Children": [
+        {
+          "Property": "field1",
+          "Start": 1682,
+          "End": 1684,
+          "Value": "48"
+        },
+        {
+          "Property": "field2",
+          "Start": 1685,
+          "End": 1704,
+          "Value": "United Technologies"
+        },
+        {
+          "Property": "field3",
+          "Start": 1705,
+          "End": 1713,
+          "Value": "58,190.0"
+        },
+        {
+          "Property": "field4",
+          "Start": 1715,
+          "End": 1722,
+          "Value": "4,979.0"
+        }
+      ]
+    },
+    {
+      "Property": "region0",
+      "Start": 1723,
+      "End": 1751,
+      "Children": [
+        {
+          "Property": "field1",
+          "Start": 1723,
+          "End": 1725,
+          "Value": "49"
+        },
+        {
+          "Property": "field2",
+          "Start": 1726,
+          "End": 1733,
+          "Value": "Comcast"
+        },
+        {
+          "Property": "field3",
+          "Start": 1734,
+          "End": 1742,
+          "Value": "55,842.0"
+        },
+        {
+          "Property": "field4",
+          "Start": 1744,
+          "End": 1751,
+          "Value": "4,160.0"
+        }
+      ]
+    },
+    {
+      "Property": "region0",
+      "Start": 1752,
+      "End": 1784,
+      "Children": [
+        {
+          "Property": "field1",
+          "Start": 1752,
+          "End": 1754,
+          "Value": "50"
+        },
+        {
+          "Property": "field2",
+          "Start": 1755,
+          "End": 1766,
+          "Value": "Kraft Foods"
+        },
+        {
+          "Property": "field3",
+          "Start": 1767,
+          "End": 1775,
+          "Value": "54,365.0"
+        },
+        {
+          "Property": "field4",
+          "Start": 1777,
+          "End": 1784,
+          "Value": "3,527.0"
+        }
+      ]
+    },
+    {
+      "Property": "region0",
+      "Start": 1785,
+      "End": 1812,
+      "Children": [
+        {
+          "Property": "field1",
+          "Start": 1785,
+          "End": 1787,
+          "Value": "51"
+        },
+        {
+          "Property": "field2",
+          "Start": 1788,
+          "End": 1793,
+          "Value": "Intel"
+        },
+        {
+          "Property": "field3",
+          "Start": 1794,
+          "End": 1802,
+          "Value": "53,999.0"
+        },
+        {
+          "Property": "field4",
+          "Start": 1804,
+          "End": 1812,
+          "Value": "12,942.0"
+        }
+      ]
+    },
+    {
+      "Property": "region0",
+      "Start": 1813,
+      "End": 1855,
+      "Children": [
+        {
+          "Property": "field1",
+          "Start": 1813,
+          "End": 1815,
+          "Value": "52"
+        },
+        {
+          "Property": "field2",
+          "Start": 1816,
+          "End": 1837,
+          "Value": "United Parcel Service"
+        },
+        {
+          "Property": "field3",
+          "Start": 1838,
+          "End": 1846,
+          "Value": "53,105.0"
+        },
+        {
+          "Property": "field4",
+          "Start": 1848,
+          "End": 1855,
+          "Value": "3,804.0"
+        }
+      ]
+    },
+    {
+      "Property": "region0",
+      "Start": 1856,
+      "End": 1885,
+      "Children": [
+        {
+          "Property": "field1",
+          "Start": 1856,
+          "End": 1858,
+          "Value": "53"
+        },
+        {
+          "Property": "field2",
+          "Start": 1859,
+          "End": 1867,
+          "Value": "Best Buy"
+        },
+        {
+          "Property": "field3",
+          "Start": 1868,
+          "End": 1876,
+          "Value": "50,272.0"
+        },
+        {
+          "Property": "field4",
+          "Start": 1878,
+          "End": 1885,
+          "Value": "1,277.0"
+        }
+      ]
+    },
+    {
+      "Property": "region0",
+      "Start": 1886,
+      "End": 1913,
+      "Children": [
+        {
+          "Property": "field1",
+          "Start": 1886,
+          "End": 1888,
+          "Value": "54"
+        },
+        {
+          "Property": "field2",
+          "Start": 1889,
+          "End": 1895,
+          "Value": "Lowe's"
+        },
+        {
+          "Property": "field3",
+          "Start": 1896,
+          "End": 1904,
+          "Value": "50,208.0"
+        },
+        {
+          "Property": "field4",
+          "Start": 1906,
+          "End": 1913,
+          "Value": "1,839.0"
+        }
+      ]
+    },
+    {
+      "Property": "region0",
+      "Start": 1914,
+      "End": 1955,
+      "Children": [
+        {
+          "Property": "field1",
+          "Start": 1914,
+          "End": 1916,
+          "Value": "55"
+        },
+        {
+          "Property": "field2",
+          "Start": 1917,
+          "End": 1937,
+          "Value": "Prudential Financial"
+        },
+        {
+          "Property": "field3",
+          "Start": 1938,
+          "End": 1946,
+          "Value": "49,045.0"
+        },
+        {
+          "Property": "field4",
+          "Start": 1948,
+          "End": 1955,
+          "Value": "3,666.0"
+        }
+      ]
+    },
+    {
+      "Property": "region0",
+      "Start": 1956,
+      "End": 1985,
+      "Children": [
+        {
+          "Property": "field1",
+          "Start": 1956,
+          "End": 1958,
+          "Value": "56"
+        },
+        {
+          "Property": "field2",
+          "Start": 1959,
+          "End": 1969,
+          "Value": "Amazon.com"
+        },
+        {
+          "Property": "field3",
+          "Start": 1970,
+          "End": 1978,
+          "Value": "48,077.0"
+        },
+        {
+          "Property": "field4",
+          "Start": 1980,
+          "End": 1985,
+          "Value": "631.0"
+        }
+      ]
+    },
+    {
+      "Property": "region0",
+      "Start": 1986,
+      "End": 2012,
+      "Children": [
+        {
+          "Property": "field1",
+          "Start": 1986,
+          "End": 1988,
+          "Value": "57"
+        },
+        {
+          "Property": "field2",
+          "Start": 1989,
+          "End": 1994,
+          "Value": "Merck"
+        },
+        {
+          "Property": "field3",
+          "Start": 1995,
+          "End": 2003,
+          "Value": "48,047.0"
+        },
+        {
+          "Property": "field4",
+          "Start": 2005,
+          "End": 2012,
+          "Value": "6,272.0"
+        }
+      ]
+    },
+    {
+      "Property": "region0",
+      "Start": 2013,
+      "End": 2049,
+      "Children": [
+        {
+          "Property": "field1",
+          "Start": 2013,
+          "End": 2015,
+          "Value": "58"
+        },
+        {
+          "Property": "field2",
+          "Start": 2016,
+          "End": 2031,
+          "Value": "Lockheed Martin"
+        },
+        {
+          "Property": "field3",
+          "Start": 2032,
+          "End": 2040,
+          "Value": "46,692.0"
+        },
+        {
+          "Property": "field4",
+          "Start": 2042,
+          "End": 2049,
+          "Value": "2,655.0"
+        }
+      ]
+    },
+    {
+      "Property": "region0",
+      "Start": 2050,
+      "End": 2080,
+      "Children": [
+        {
+          "Property": "field1",
+          "Start": 2050,
+          "End": 2052,
+          "Value": "59"
+        },
+        {
+          "Property": "field2",
+          "Start": 2053,
+          "End": 2062,
+          "Value": "Coca-Cola"
+        },
+        {
+          "Property": "field3",
+          "Start": 2063,
+          "End": 2071,
+          "Value": "46,542.0"
+        },
+        {
+          "Property": "field4",
+          "Start": 2073,
+          "End": 2080,
+          "Value": "8,572.0"
+        }
+      ]
+    },
+    {
+      "Property": "region0",
+      "Start": 2081,
+      "End": 2125,
+      "Children": [
+        {
+          "Property": "field1",
+          "Start": 2081,
+          "End": 2083,
+          "Value": "60"
+        },
+        {
+          "Property": "field2",
+          "Start": 2084,
+          "End": 2107,
+          "Value": "Express Scripts Holding"
+        },
+        {
+          "Property": "field3",
+          "Start": 2108,
+          "End": 2116,
+          "Value": "46,128.3"
+        },
+        {
+          "Property": "field4",
+          "Start": 2118,
+          "End": 2125,
+          "Value": "1,275.8"
+        }
+      ]
+    },
+    {
+      "Property": "region0",
+      "Start": 2126,
+      "End": 2154,
+      "Children": [
+        {
+          "Property": "field1",
+          "Start": 2126,
+          "End": 2128,
+          "Value": "61"
+        },
+        {
+          "Property": "field2",
+          "Start": 2129,
+          "End": 2135,
+          "Value": "Sunoco"
+        },
+        {
+          "Property": "field3",
+          "Start": 2136,
+          "End": 2144,
+          "Value": "45,765.0"
+        },
+        {
+          "Property": "field4",
+          "Start": 2146,
+          "End": 2154,
+          "Value": "-1,684.0"
+        }
+      ]
+    },
+    {
+      "Property": "region0",
+      "Start": 2155,
+      "End": 2204,
+      "Children": [
+        {
+          "Property": "field1",
+          "Start": 2155,
+          "End": 2157,
+          "Value": "62"
+        },
+        {
+          "Property": "field2",
+          "Start": 2158,
+          "End": 2186,
+          "Value": "Enterprise Products Partners"
+        },
+        {
+          "Property": "field3",
+          "Start": 2187,
+          "End": 2195,
+          "Value": "44,313.0"
+        },
+        {
+          "Property": "field4",
+          "Start": 2197,
+          "End": 2204,
+          "Value": "2,046.9"
+        }
+      ]
+    },
+    {
+      "Property": "region0",
+      "Start": 2205,
+      "End": 2231,
+      "Children": [
+        {
+          "Property": "field1",
+          "Start": 2205,
+          "End": 2207,
+          "Value": "63"
+        },
+        {
+          "Property": "field2",
+          "Start": 2208,
+          "End": 2215,
+          "Value": "Safeway"
+        },
+        {
+          "Property": "field3",
+          "Start": 2216,
+          "End": 2224,
+          "Value": "43,630.2"
+        },
+        {
+          "Property": "field4",
+          "Start": 2226,
+          "End": 2231,
+          "Value": "516.7"
+        }
+      ]
+    },
+    {
+      "Property": "region0",
+      "Start": 2232,
+      "End": 2266,
+      "Children": [
+        {
+          "Property": "field1",
+          "Start": 2232,
+          "End": 2234,
+          "Value": "64"
+        },
+        {
+          "Property": "field2",
+          "Start": 2235,
+          "End": 2248,
+          "Value": "Cisco Systems"
+        },
+        {
+          "Property": "field3",
+          "Start": 2249,
+          "End": 2257,
+          "Value": "43,218.0"
+        },
+        {
+          "Property": "field4",
+          "Start": 2259,
+          "End": 2266,
+          "Value": "6,490.0"
+        }
+      ]
+    },
+    {
+      "Property": "region0",
+      "Start": 2267,
+      "End": 2303,
+      "Children": [
+        {
+          "Property": "field1",
+          "Start": 2267,
+          "End": 2269,
+          "Value": "65"
+        },
+        {
+          "Property": "field2",
+          "Start": 2270,
+          "End": 2284,
+          "Value": "Sears Holdings"
+        },
+        {
+          "Property": "field3",
+          "Start": 2285,
+          "End": 2293,
+          "Value": "41,567.0"
+        },
+        {
+          "Property": "field4",
+          "Start": 2295,
+          "End": 2303,
+          "Value": "-3,140.0"
+        }
+      ]
+    },
+    {
+      "Property": "region0",
+      "Start": 2304,
+      "End": 2336,
+      "Children": [
+        {
+          "Property": "field1",
+          "Start": 2304,
+          "End": 2306,
+          "Value": "66"
+        },
+        {
+          "Property": "field2",
+          "Start": 2307,
+          "End": 2318,
+          "Value": "Walt Disney"
+        },
+        {
+          "Property": "field3",
+          "Start": 2319,
+          "End": 2327,
+          "Value": "40,893.0"
+        },
+        {
+          "Property": "field4",
+          "Start": 2329,
+          "End": 2336,
+          "Value": "4,807.0"
+        }
+      ]
+    },
+    {
+      "Property": "region0",
+      "Start": 2337,
+      "End": 2374,
+      "Children": [
+        {
+          "Property": "field1",
+          "Start": 2337,
+          "End": 2339,
+          "Value": "67"
+        },
+        {
+          "Property": "field2",
+          "Start": 2340,
+          "End": 2356,
+          "Value": "Johnson Controls"
+        },
+        {
+          "Property": "field3",
+          "Start": 2357,
+          "End": 2365,
+          "Value": "40,833.0"
+        },
+        {
+          "Property": "field4",
+          "Start": 2367,
+          "End": 2374,
+          "Value": "1,624.0"
+        }
+      ]
+    },
+    {
+      "Property": "region0",
+      "Start": 2375,
+      "End": 2410,
+      "Children": [
+        {
+          "Property": "field1",
+          "Start": 2375,
+          "End": 2377,
+          "Value": "68"
+        },
+        {
+          "Property": "field2",
+          "Start": 2378,
+          "End": 2392,
+          "Value": "Morgan Stanley"
+        },
+        {
+          "Property": "field3",
+          "Start": 2393,
+          "End": 2401,
+          "Value": "39,376.0"
+        },
+        {
+          "Property": "field4",
+          "Start": 2403,
+          "End": 2410,
+          "Value": "4,110.0"
+        }
+      ]
+    },
+    {
+      "Property": "region0",
+      "Start": 2411,
+      "End": 2437,
+      "Children": [
+        {
+          "Property": "field1",
+          "Start": 2411,
+          "End": 2413,
+          "Value": "69"
+        },
+        {
+          "Property": "field2",
+          "Start": 2414,
+          "End": 2419,
+          "Value": "Sysco"
+        },
+        {
+          "Property": "field3",
+          "Start": 2420,
+          "End": 2428,
+          "Value": "39,323.5"
+        },
+        {
+          "Property": "field4",
+          "Start": 2430,
+          "End": 2437,
+          "Value": "1,152.0"
+        }
+      ]
+    },
+    {
+      "Property": "region0",
+      "Start": 2438,
+      "End": 2464,
+      "Children": [
+        {
+          "Property": "field1",
+          "Start": 2438,
+          "End": 2440,
+          "Value": "70"
+        },
+        {
+          "Property": "field2",
+          "Start": 2441,
+          "End": 2446,
+          "Value": "FedEx"
+        },
+        {
+          "Property": "field3",
+          "Start": 2447,
+          "End": 2455,
+          "Value": "39,304.0"
+        },
+        {
+          "Property": "field4",
+          "Start": 2457,
+          "End": 2464,
+          "Value": "1,452.0"
+        }
+      ]
+    },
+    {
+      "Property": "region0",
+      "Start": 2465,
+      "End": 2505,
+      "Children": [
+        {
+          "Property": "field1",
+          "Start": 2465,
+          "End": 2467,
+          "Value": "71"
+        },
+        {
+          "Property": "field2",
+          "Start": 2468,
+          "End": 2487,
+          "Value": "Abbott Laboratories"
+        },
+        {
+          "Property": "field3",
+          "Start": 2488,
+          "End": 2496,
+          "Value": "38,851.3"
+        },
+        {
+          "Property": "field4",
+          "Start": 2498,
+          "End": 2505,
+          "Value": "4,728.4"
+        }
+      ]
+    },
+    {
+      "Property": "region0",
+      "Start": 2506,
+      "End": 2533,
+      "Children": [
+        {
+          "Property": "field1",
+          "Start": 2506,
+          "End": 2508,
+          "Value": "72"
+        },
+        {
+          "Property": "field2",
+          "Start": 2509,
+          "End": 2515,
+          "Value": "DuPont"
+        },
+        {
+          "Property": "field3",
+          "Start": 2516,
+          "End": 2524,
+          "Value": "38,719.0"
+        },
+        {
+          "Property": "field4",
+          "Start": 2526,
+          "End": 2533,
+          "Value": "3,474.0"
+        }
+      ]
+    },
+    {
+      "Property": "region0",
+      "Start": 2534,
+      "End": 2561,
+      "Children": [
+        {
+          "Property": "field1",
+          "Start": 2534,
+          "End": 2536,
+          "Value": "73"
+        },
+        {
+          "Property": "field2",
+          "Start": 2537,
+          "End": 2543,
+          "Value": "Google"
+        },
+        {
+          "Property": "field3",
+          "Start": 2544,
+          "End": 2552,
+          "Value": "37,905.0"
+        },
+        {
+          "Property": "field4",
+          "Start": 2554,
+          "End": 2561,
+          "Value": "9,737.0"
+        }
+      ]
+    },
+    {
+      "Property": "region0",
+      "Start": 2562,
+      "End": 2587,
+      "Children": [
+        {
+          "Property": "field1",
+          "Start": 2562,
+          "End": 2564,
+          "Value": "74"
+        },
+        {
+          "Property": "field2",
+          "Start": 2565,
+          "End": 2569,
+          "Value": "Hess"
+        },
+        {
+          "Property": "field3",
+          "Start": 2570,
+          "End": 2578,
+          "Value": "37,871.0"
+        },
+        {
+          "Property": "field4",
+          "Start": 2580,
+          "End": 2587,
+          "Value": "1,703.0"
+        }
+      ]
+    },
+    {
+      "Property": "region0",
+      "Start": 2588,
+      "End": 2619,
+      "Children": [
+        {
+          "Property": "field1",
+          "Start": 2588,
+          "End": 2590,
+          "Value": "75"
+        },
+        {
+          "Property": "field2",
+          "Start": 2591,
+          "End": 2600,
+          "Value": "Supervalu"
+        },
+        {
+          "Property": "field3",
+          "Start": 2601,
+          "End": 2609,
+          "Value": "37,534.0"
+        },
+        {
+          "Property": "field4",
+          "Start": 2611,
+          "End": 2619,
+          "Value": "-1,510.0"
+        }
+      ]
+    },
+    {
+      "Property": "region0",
+      "Start": 2620,
+      "End": 2666,
+      "Children": [
+        {
+          "Property": "field1",
+          "Start": 2620,
+          "End": 2622,
+          "Value": "76"
+        },
+        {
+          "Property": "field2",
+          "Start": 2623,
+          "End": 2650,
+          "Value": "United Continental Holdings"
+        },
+        {
+          "Property": "field3",
+          "Start": 2651,
+          "End": 2659,
+          "Value": "37,110.0"
+        },
+        {
+          "Property": "field4",
+          "Start": 2661,
+          "End": 2666,
+          "Value": "840.0"
+        }
+      ]
+    },
+    {
+      "Property": "region0",
+      "Start": 2667,
+      "End": 2711,
+      "Children": [
+        {
+          "Property": "field1",
+          "Start": 2667,
+          "End": 2669,
+          "Value": "77"
+        },
+        {
+          "Property": "field2",
+          "Start": 2670,
+          "End": 2693,
+          "Value": "Honeywell International"
+        },
+        {
+          "Property": "field3",
+          "Start": 2694,
+          "End": 2702,
+          "Value": "37,059.0"
+        },
+        {
+          "Property": "field4",
+          "Start": 2704,
+          "End": 2711,
+          "Value": "2,067.0"
+        }
+      ]
+    },
+    {
+      "Property": "region0",
+      "Start": 2712,
+      "End": 2734,
+      "Children": [
+        {
+          "Property": "field1",
+          "Start": 2712,
+          "End": 2714,
+          "Value": "78"
+        },
+        {
+          "Property": "field2",
+          "Start": 2715,
+          "End": 2718,
+          "Value": "CHS"
+        },
+        {
+          "Property": "field3",
+          "Start": 2719,
+          "End": 2727,
+          "Value": "36,915.8"
+        },
+        {
+          "Property": "field4",
+          "Start": 2729,
+          "End": 2734,
+          "Value": "961.4"
+        }
+      ]
+    },
+    {
+      "Property": "region0",
+      "Start": 2735,
+      "End": 2762,
+      "Children": [
+        {
+          "Property": "field1",
+          "Start": 2735,
+          "End": 2737,
+          "Value": "79"
+        },
+        {
+          "Property": "field2",
+          "Start": 2738,
+          "End": 2744,
+          "Value": "Humana"
+        },
+        {
+          "Property": "field3",
+          "Start": 2745,
+          "End": 2753,
+          "Value": "36,832.0"
+        },
+        {
+          "Property": "field4",
+          "Start": 2755,
+          "End": 2762,
+          "Value": "1,419.0"
+        }
+      ]
+    },
+    {
+      "Property": "region0",
+      "Start": 2763,
+      "End": 2803,
+      "Children": [
+        {
+          "Property": "field1",
+          "Start": 2763,
+          "End": 2765,
+          "Value": "80"
+        },
+        {
+          "Property": "field2",
+          "Start": 2766,
+          "End": 2785,
+          "Value": "Goldman Sachs Group"
+        },
+        {
+          "Property": "field3",
+          "Start": 2786,
+          "End": 2794,
+          "Value": "36,793.0"
+        },
+        {
+          "Property": "field4",
+          "Start": 2796,
+          "End": 2803,
+          "Value": "4,442.0"
+        }
+      ]
+    },
+    {
+      "Property": "region0",
+      "Start": 2804,
+      "End": 2835,
+      "Children": [
+        {
+          "Property": "field1",
+          "Start": 2804,
+          "End": 2806,
+          "Value": "81"
+        },
+        {
+          "Property": "field2",
+          "Start": 2807,
+          "End": 2819,
+          "Value": "Ingram Micro"
+        },
+        {
+          "Property": "field3",
+          "Start": 2820,
+          "End": 2828,
+          "Value": "36,328.7"
+        },
+        {
+          "Property": "field4",
+          "Start": 2830,
+          "End": 2835,
+          "Value": "244.2"
+        }
+      ]
+    },
+    {
+      "Property": "region0",
+      "Start": 2836,
+      "End": 2863,
+      "Children": [
+        {
+          "Property": "field1",
+          "Start": 2836,
+          "End": 2838,
+          "Value": "82"
+        },
+        {
+          "Property": "field2",
+          "Start": 2839,
+          "End": 2845,
+          "Value": "Oracle"
+        },
+        {
+          "Property": "field3",
+          "Start": 2846,
+          "End": 2854,
+          "Value": "35,622.0"
+        },
+        {
+          "Property": "field4",
+          "Start": 2856,
+          "End": 2863,
+          "Value": "8,547.0"
+        }
+      ]
+    },
+    {
+      "Property": "region0",
+      "Start": 2864,
+      "End": 2898,
+      "Children": [
+        {
+          "Property": "field1",
+          "Start": 2864,
+          "End": 2866,
+          "Value": "83"
+        },
+        {
+          "Property": "field2",
+          "Start": 2867,
+          "End": 2882,
+          "Value": "Delta Air Lines"
+        },
+        {
+          "Property": "field3",
+          "Start": 2883,
+          "End": 2891,
+          "Value": "35,115.0"
+        },
+        {
+          "Property": "field4",
+          "Start": 2893,
+          "End": 2898,
+          "Value": "854.0"
+        }
+      ]
+    },
+    {
+      "Property": "region0",
+      "Start": 2899,
+      "End": 2948,
+      "Children": [
+        {
+          "Property": "field1",
+          "Start": 2899,
+          "End": 2901,
+          "Value": "84"
+        },
+        {
+          "Property": "field2",
+          "Start": 2902,
+          "End": 2932,
+          "Value": "Liberty Mutual Insurance Group"
+        },
+        {
+          "Property": "field3",
+          "Start": 2933,
+          "End": 2941,
+          "Value": "34,671.0"
+        },
+        {
+          "Property": "field4",
+          "Start": 2943,
+          "End": 2948,
+          "Value": "365.0"
+        }
+      ]
+    },
+    {
+      "Property": "region0",
+      "Start": 2949,
+      "End": 2987,
+      "Children": [
+        {
+          "Property": "field1",
+          "Start": 2949,
+          "End": 2951,
+          "Value": "85"
+        },
+        {
+          "Property": "field2",
+          "Start": 2952,
+          "End": 2971,
+          "Value": "World Fuel Services"
+        },
+        {
+          "Property": "field3",
+          "Start": 2972,
+          "End": 2980,
+          "Value": "34,622.9"
+        },
+        {
+          "Property": "field4",
+          "Start": 2982,
+          "End": 2987,
+          "Value": "194.0"
+        }
+      ]
+    },
+    {
+      "Property": "region0",
+      "Start": 2988,
+      "End": 3030,
+      "Children": [
+        {
+          "Property": "field1",
+          "Start": 2988,
+          "End": 2990,
+          "Value": "86"
+        },
+        {
+          "Property": "field2",
+          "Start": 2991,
+          "End": 3014,
+          "Value": "New York Life Insurance"
+        },
+        {
+          "Property": "field3",
+          "Start": 3015,
+          "End": 3023,
+          "Value": "34,393.5"
+        },
+        {
+          "Property": "field4",
+          "Start": 3025,
+          "End": 3030,
+          "Value": "557.3"
+        }
+      ]
+    },
+    {
+      "Property": "region0",
+      "Start": 3031,
+      "End": 3078,
+      "Children": [
+        {
+          "Property": "field1",
+          "Start": 3031,
+          "End": 3033,
+          "Value": "87"
+        },
+        {
+          "Property": "field2",
+          "Start": 3034,
+          "End": 3062,
+          "Value": "Plains All American Pipeline"
+        },
+        {
+          "Property": "field3",
+          "Start": 3063,
+          "End": 3071,
+          "Value": "34,275.0"
+        },
+        {
+          "Property": "field4",
+          "Start": 3073,
+          "End": 3078,
+          "Value": "966.0"
+        }
+      ]
+    },
+    {
+      "Property": "region0",
+      "Start": 3079,
+      "End": 3109,
+      "Children": [
+        {
+          "Property": "field1",
+          "Start": 3079,
+          "End": 3081,
+          "Value": "88"
+        },
+        {
+          "Property": "field2",
+          "Start": 3082,
+          "End": 3091,
+          "Value": "TIAA-CREF"
+        },
+        {
+          "Property": "field3",
+          "Start": 3092,
+          "End": 3100,
+          "Value": "34,079.0"
+        },
+        {
+          "Property": "field4",
+          "Start": 3102,
+          "End": 3109,
+          "Value": "2,388.4"
+        }
+      ]
+    },
+    {
+      "Property": "region0",
+      "Start": 3110,
+      "End": 3136,
+      "Children": [
+        {
+          "Property": "field1",
+          "Start": 3110,
+          "End": 3112,
+          "Value": "89"
+        },
+        {
+          "Property": "field2",
+          "Start": 3113,
+          "End": 3118,
+          "Value": "Aetna"
+        },
+        {
+          "Property": "field3",
+          "Start": 3119,
+          "End": 3127,
+          "Value": "33,779.8"
+        },
+        {
+          "Property": "field4",
+          "Start": 3129,
+          "End": 3136,
+          "Value": "1,985.7"
+        }
+      ]
+    },
+    {
+      "Property": "region0",
+      "Start": 3137,
+      "End": 3172,
+      "Children": [
+        {
+          "Property": "field1",
+          "Start": 3137,
+          "End": 3139,
+          "Value": "90"
+        },
+        {
+          "Property": "field2",
+          "Start": 3140,
+          "End": 3153,
+          "Value": "Sprint Nextel"
+        },
+        {
+          "Property": "field3",
+          "Start": 3154,
+          "End": 3162,
+          "Value": "33,679.0"
+        },
+        {
+          "Property": "field4",
+          "Start": 3164,
+          "End": 3172,
+          "Value": "-2,890.0"
+        }
+      ]
+    },
+    {
+      "Property": "region0",
+      "Start": 3173,
+      "End": 3204,
+      "Children": [
+        {
+          "Property": "field1",
+          "Start": 3173,
+          "End": 3175,
+          "Value": "91"
+        },
+        {
+          "Property": "field2",
+          "Start": 3176,
+          "End": 3186,
+          "Value": "News Corp."
+        },
+        {
+          "Property": "field3",
+          "Start": 3187,
+          "End": 3195,
+          "Value": "33,405.0"
+        },
+        {
+          "Property": "field4",
+          "Start": 3197,
+          "End": 3204,
+          "Value": "2,739.0"
+        }
+      ]
+    },
+    {
+      "Property": "region0",
+      "Start": 3205,
+      "End": 3242,
+      "Children": [
+        {
+          "Property": "field1",
+          "Start": 3205,
+          "End": 3207,
+          "Value": "92"
+        },
+        {
+          "Property": "field2",
+          "Start": 3208,
+          "End": 3224,
+          "Value": "General Dynamics"
+        },
+        {
+          "Property": "field3",
+          "Start": 3225,
+          "End": 3233,
+          "Value": "32,677.0"
+        },
+        {
+          "Property": "field4",
+          "Start": 3235,
+          "End": 3242,
+          "Value": "2,526.0"
+        }
+      ]
+    },
+    {
+      "Property": "region0",
+      "Start": 3243,
+      "End": 3270,
+      "Children": [
+        {
+          "Property": "field1",
+          "Start": 3243,
+          "End": 3245,
+          "Value": "93"
+        },
+        {
+          "Property": "field2",
+          "Start": 3246,
+          "End": 3254,
+          "Value": "Allstate"
+        },
+        {
+          "Property": "field3",
+          "Start": 3255,
+          "End": 3263,
+          "Value": "32,654.0"
+        },
+        {
+          "Property": "field4",
+          "Start": 3265,
+          "End": 3270,
+          "Value": "788.0"
+        }
+      ]
+    },
+    {
+      "Property": "region0",
+      "Start": 3271,
+      "End": 3304,
+      "Children": [
+        {
+          "Property": "field1",
+          "Start": 3271,
+          "End": 3273,
+          "Value": "94"
+        },
+        {
+          "Property": "field2",
+          "Start": 3274,
+          "End": 3286,
+          "Value": "HCA Holdings"
+        },
+        {
+          "Property": "field3",
+          "Start": 3287,
+          "End": 3295,
+          "Value": "32,506.0"
+        },
+        {
+          "Property": "field4",
+          "Start": 3297,
+          "End": 3304,
+          "Value": "2,465.0"
+        }
+      ]
+    },
+    {
+      "Property": "region0",
+      "Start": 3305,
+      "End": 3342,
+      "Children": [
+        {
+          "Property": "field1",
+          "Start": 3305,
+          "End": 3307,
+          "Value": "95"
+        },
+        {
+          "Property": "field2",
+          "Start": 3308,
+          "End": 3324,
+          "Value": "American Express"
+        },
+        {
+          "Property": "field3",
+          "Start": 3325,
+          "End": 3333,
+          "Value": "32,282.0"
+        },
+        {
+          "Property": "field4",
+          "Start": 3335,
+          "End": 3342,
+          "Value": "4,935.0"
+        }
+      ]
+    },
+    {
+      "Property": "region0",
+      "Start": 3343,
+      "End": 3373,
+      "Children": [
+        {
+          "Property": "field1",
+          "Start": 3343,
+          "End": 3345,
+          "Value": "96"
+        },
+        {
+          "Property": "field2",
+          "Start": 3346,
+          "End": 3357,
+          "Value": "Tyson Foods"
+        },
+        {
+          "Property": "field3",
+          "Start": 3358,
+          "End": 3366,
+          "Value": "32,266.0"
+        },
+        {
+          "Property": "field4",
+          "Start": 3368,
+          "End": 3373,
+          "Value": "750.0"
+        }
+      ]
+    },
+    {
+      "Property": "region0",
+      "Start": 3374,
+      "End": 3400,
+      "Children": [
+        {
+          "Property": "field1",
+          "Start": 3374,
+          "End": 3376,
+          "Value": "97"
+        },
+        {
+          "Property": "field2",
+          "Start": 3377,
+          "End": 3382,
+          "Value": "Deere"
+        },
+        {
+          "Property": "field3",
+          "Start": 3383,
+          "End": 3391,
+          "Value": "32,012.5"
+        },
+        {
+          "Property": "field4",
+          "Start": 3393,
+          "End": 3400,
+          "Value": "2,799.9"
+        }
+      ]
+    },
+    {
+      "Property": "region0",
+      "Start": 3401,
+      "End": 3430,
+      "Children": [
+        {
+          "Property": "field1",
+          "Start": 3401,
+          "End": 3403,
+          "Value": "98"
+        },
+        {
+          "Property": "field2",
+          "Start": 3404,
+          "End": 3414,
+          "Value": "Murphy Oil"
+        },
+        {
+          "Property": "field3",
+          "Start": 3415,
+          "End": 3423,
+          "Value": "31,446.3"
+        },
+        {
+          "Property": "field4",
+          "Start": 3425,
+          "End": 3430,
+          "Value": "872.7"
+        }
+      ]
+    },
+    {
+      "Property": "region0",
+      "Start": 3431,
+      "End": 3479,
+      "Children": [
+        {
+          "Property": "field1",
+          "Start": 3431,
+          "End": 3433,
+          "Value": "99"
+        },
+        {
+          "Property": "field2",
+          "Start": 3434,
+          "End": 3461,
+          "Value": "Philip Morris International"
+        },
+        {
+          "Property": "field3",
+          "Start": 3462,
+          "End": 3470,
+          "Value": "31,097.0"
+        },
+        {
+          "Property": "field4",
+          "Start": 3472,
+          "End": 3479,
+          "Value": "8,591.0"
+        }
+      ]
+    },
+    {
+      "Property": "region0",
+      "Start": 3480,
+      "End": 3511,
+      "Children": [
+        {
+          "Property": "field1",
+          "Start": 3480,
+          "End": 3483,
+          "Value": "100"
+        },
+        {
+          "Property": "field2",
+          "Start": 3484,
+          "End": 3494,
+          "Value": "Nationwide"
+        },
+        {
+          "Property": "field3",
+          "Start": 3495,
+          "End": 3503,
+          "Value": "30,697.8"
+        },
+        {
+          "Property": "field4",
+          "Start": 3505,
+          "End": 3511,
+          "Value": "-793.1"
+        }
+      ]
+    }
+  ]
+}

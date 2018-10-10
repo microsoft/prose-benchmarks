@@ -1,0 +1,15 @@
+BaseAddress:       3905d04bff684880
+RegionSize:        7d91b6e2b9da9229
+State:             f914d9a8  PAGE_NOACCESS
+Protect:           da98af41  MEM_PRIVATE
+
+BaseAddress:       36b973edbda93ee1
+RegionSize:        2ad3f7abc1bb2e37
+State:             5a7dcccf  PAGE_READONLY
+Protect:           4d3219ba  MEM_PRIVATE
+Type:              ea1219f7  MEM_PUBLIC
+
+BaseAddress:       327706d3e08ff0a4
+RegionSize:        9c56fef42e2e8c85
+State:             0b137944  PAGE_READONLY
+Type:              a501ebea  MEM_PRIVATE

@@ -1,0 +1,1011 @@
+{
+  "Kind": "Field",
+  "Examples": [
+    {
+      "Input": [
+        {
+          "Start": 0,
+          "End": 33,
+          "Value": "1\tExxon Mobil\t452,926.0\t 41,060.0"
+        },
+        {
+          "Start": 34,
+          "End": 71,
+          "Value": "2\tWal-Mart Stores\t446,950.0\t 15,699.0"
+        },
+        {
+          "Start": 72,
+          "End": 101,
+          "Value": "3\tChevron\t245,621.0\t 26,895.0"
+        },
+        {
+          "Start": 102,
+          "End": 138,
+          "Value": "4\tConocoPhillips\t237,272.0\t 12,436.0"
+        },
+        {
+          "Start": 139,
+          "End": 174,
+          "Value": "5\tGeneral Motors\t150,276.0\t 9,190.0"
+        },
+        {
+          "Start": 175,
+          "End": 213,
+          "Value": "6\tGeneral Electric\t147,616.0\t 14,151.0"
+        },
+        {
+          "Start": 214,
+          "End": 254,
+          "Value": "7\tBerkshire Hathaway\t143,688.0\t 10,254.0"
+        },
+        {
+          "Start": 255,
+          "End": 288,
+          "Value": "8\tFannie Mae\t137,451.0\t -16,855.0"
+        },
+        {
+          "Start": 289,
+          "End": 321,
+          "Value": "9\tFord Motor\t136,264.0\t 20,213.0"
+        },
+        {
+          "Start": 322,
+          "End": 359,
+          "Value": "10\tHewlett-Packard\t127,245.0\t 7,074.0"
+        },
+        {
+          "Start": 360,
+          "End": 386,
+          "Value": "11\tAT&T\t126,723.0\t 3,944.0"
+        },
+        {
+          "Start": 387,
+          "End": 422,
+          "Value": "12\tValero Energy\t125,095.0\t 2,090.0"
+        },
+        {
+          "Start": 423,
+          "End": 466,
+          "Value": "13\tBank of America Corp.\t115,074.0\t 1,446.0"
+        },
+        {
+          "Start": 467,
+          "End": 497,
+          "Value": "14\tMcKesson\t112,084.0\t 1,202.0"
+        },
+        {
+          "Start": 498,
+          "End": 542,
+          "Value": "15\tVerizon Communications\t110,875.0\t 2,404.0"
+        },
+        {
+          "Start": 543,
+          "End": 589,
+          "Value": "16\tJ.P. Morgan Chase & Co.\t110,838.0\t 18,976.0"
+        },
+        {
+          "Start": 590,
+          "End": 618,
+          "Value": "17\tApple\t108,249.0\t 25,922.0"
+        },
+        {
+          "Start": 619,
+          "End": 653,
+          "Value": "18\tCVS Caremark\t107,750.0\t 3,461.0"
+        },
+        {
+          "Start": 654,
+          "End": 708,
+          "Value": "19\tInternational Business Machines\t106,916.0\t 15,855.0"
+        },
+        {
+          "Start": 709,
+          "End": 741,
+          "Value": "20\tCitigroup\t102,939.0\t 11,067.0"
+        },
+        {
+          "Start": 742,
+          "End": 777,
+          "Value": "21\tCardinal Health\t102,644.2\t 959.0"
+        },
+        {
+          "Start": 778,
+          "End": 818,
+          "Value": "22\tUnitedHealth Group\t101,862.0\t 5,142.0"
+        },
+        {
+          "Start": 819,
+          "End": 844,
+          "Value": "23\tKroger\t90,374.0\t 602.0"
+        },
+        {
+          "Start": 845,
+          "End": 882,
+          "Value": "24\tCostco Wholesale\t88,915.0\t 1,462.0"
+        },
+        {
+          "Start": 883,
+          "End": 916,
+          "Value": "25\tFreddie Mac\t88,262.0\t -5,266.0"
+        },
+        {
+          "Start": 917,
+          "End": 950,
+          "Value": "26\tWells Fargo\t87,597.0\t 15,869.0"
+        },
+        {
+          "Start": 951,
+          "End": 989,
+          "Value": "27\tProcter & Gamble\t82,559.0\t 11,797.0"
+        },
+        {
+          "Start": 990,
+          "End": 1033,
+          "Value": "28\tArcher Daniels Midland\t80,676.0\t 2,036.0"
+        },
+        {
+          "Start": 1034,
+          "End": 1070,
+          "Value": "29\tAmerisourceBergen\t80,217.6\t 706.6"
+        },
+        {
+          "Start": 1071,
+          "End": 1101,
+          "Value": "30\tINTL FCStone\t75,497.6\t 37.3"
+        },
+        {
+          "Start": 1102,
+          "End": 1141,
+          "Value": "31\tMarathon Petroleum\t73,645.0\t 2,389.0"
+        },
+        {
+          "Start": 1142,
+          "End": 1171,
+          "Value": "32\tWalgreen\t72,184.0\t 2,714.0"
+        },
+        {
+          "Start": 1172,
+          "End": 1222,
+          "Value": "33\tAmerican International Group\t71,730.0\t 17,798.0"
+        },
+        {
+          "Start": 1223,
+          "End": 1251,
+          "Value": "34\tMetLife\t70,641.0\t 6,981.0"
+        },
+        {
+          "Start": 1252,
+          "End": 1283,
+          "Value": "35\tHome Depot\t70,395.0\t 3,883.0"
+        },
+        {
+          "Start": 1284,
+          "End": 1327,
+          "Value": "36\tMedco Health Solutions\t70,063.3\t 1,455.7"
+        },
+        {
+          "Start": 1328,
+          "End": 1359,
+          "Value": "37\tMicrosoft\t69,943.0\t 23,150.0"
+        },
+        {
+          "Start": 1360,
+          "End": 1387,
+          "Value": "38\tTarget\t69,865.0\t 2,929.0"
+        },
+        {
+          "Start": 1388,
+          "End": 1415,
+          "Value": "39\tBoeing\t68,735.0\t 4,018.0"
+        },
+        {
+          "Start": 1416,
+          "End": 1444,
+          "Value": "40\tPfizer\t67,932.0\t 10,009.0"
+        },
+        {
+          "Start": 1445,
+          "End": 1473,
+          "Value": "41\tPepsiCo\t66,504.0\t 6,443.0"
+        },
+        {
+          "Start": 1474,
+          "End": 1512,
+          "Value": "42\tJohnson & Johnson\t65,030.0\t 9,672.0"
+        },
+        {
+          "Start": 1513,
+          "End": 1557,
+          "Value": "43\tState Farm Insurance Cos.\t64,305.1\t 845.0"
+        },
+        {
+          "Start": 1558,
+          "End": 1583,
+          "Value": "44\tDell\t62,071.0\t 3,492.0"
+        },
+        {
+          "Start": 1584,
+          "End": 1614,
+          "Value": "45\tWellPoint\t60,710.7\t 2,646.7"
+        },
+        {
+          "Start": 1615,
+          "End": 1647,
+          "Value": "46\tCaterpillar\t60,138.0\t 4,928.0"
+        },
+        {
+          "Start": 1648,
+          "End": 1681,
+          "Value": "47\tDow Chemical\t59,985.0\t 2,742.0"
+        },
+        {
+          "Start": 1682,
+          "End": 1722,
+          "Value": "48\tUnited Technologies\t58,190.0\t 4,979.0"
+        },
+        {
+          "Start": 1723,
+          "End": 1751,
+          "Value": "49\tComcast\t55,842.0\t 4,160.0"
+        },
+        {
+          "Start": 1752,
+          "End": 1784,
+          "Value": "50\tKraft Foods\t54,365.0\t 3,527.0"
+        },
+        {
+          "Start": 1785,
+          "End": 1812,
+          "Value": "51\tIntel\t53,999.0\t 12,942.0"
+        },
+        {
+          "Start": 1813,
+          "End": 1855,
+          "Value": "52\tUnited Parcel Service\t53,105.0\t 3,804.0"
+        },
+        {
+          "Start": 1856,
+          "End": 1885,
+          "Value": "53\tBest Buy\t50,272.0\t 1,277.0"
+        },
+        {
+          "Start": 1886,
+          "End": 1913,
+          "Value": "54\tLowe's\t50,208.0\t 1,839.0"
+        },
+        {
+          "Start": 1914,
+          "End": 1955,
+          "Value": "55\tPrudential Financial\t49,045.0\t 3,666.0"
+        },
+        {
+          "Start": 1956,
+          "End": 1985,
+          "Value": "56\tAmazon.com\t48,077.0\t 631.0"
+        },
+        {
+          "Start": 1986,
+          "End": 2012,
+          "Value": "57\tMerck\t48,047.0\t 6,272.0"
+        },
+        {
+          "Start": 2013,
+          "End": 2049,
+          "Value": "58\tLockheed Martin\t46,692.0\t 2,655.0"
+        },
+        {
+          "Start": 2050,
+          "End": 2080,
+          "Value": "59\tCoca-Cola\t46,542.0\t 8,572.0"
+        },
+        {
+          "Start": 2081,
+          "End": 2125,
+          "Value": "60\tExpress Scripts Holding\t46,128.3\t 1,275.8"
+        },
+        {
+          "Start": 2126,
+          "End": 2154,
+          "Value": "61\tSunoco\t45,765.0\t -1,684.0"
+        },
+        {
+          "Start": 2155,
+          "End": 2204,
+          "Value": "62\tEnterprise Products Partners\t44,313.0\t 2,046.9"
+        },
+        {
+          "Start": 2205,
+          "End": 2231,
+          "Value": "63\tSafeway\t43,630.2\t 516.7"
+        },
+        {
+          "Start": 2232,
+          "End": 2266,
+          "Value": "64\tCisco Systems\t43,218.0\t 6,490.0"
+        },
+        {
+          "Start": 2267,
+          "End": 2303,
+          "Value": "65\tSears Holdings\t41,567.0\t -3,140.0"
+        },
+        {
+          "Start": 2304,
+          "End": 2336,
+          "Value": "66\tWalt Disney\t40,893.0\t 4,807.0"
+        },
+        {
+          "Start": 2337,
+          "End": 2374,
+          "Value": "67\tJohnson Controls\t40,833.0\t 1,624.0"
+        },
+        {
+          "Start": 2375,
+          "End": 2410,
+          "Value": "68\tMorgan Stanley\t39,376.0\t 4,110.0"
+        },
+        {
+          "Start": 2411,
+          "End": 2437,
+          "Value": "69\tSysco\t39,323.5\t 1,152.0"
+        },
+        {
+          "Start": 2438,
+          "End": 2464,
+          "Value": "70\tFedEx\t39,304.0\t 1,452.0"
+        },
+        {
+          "Start": 2465,
+          "End": 2505,
+          "Value": "71\tAbbott Laboratories\t38,851.3\t 4,728.4"
+        },
+        {
+          "Start": 2506,
+          "End": 2533,
+          "Value": "72\tDuPont\t38,719.0\t 3,474.0"
+        },
+        {
+          "Start": 2534,
+          "End": 2561,
+          "Value": "73\tGoogle\t37,905.0\t 9,737.0"
+        },
+        {
+          "Start": 2562,
+          "End": 2587,
+          "Value": "74\tHess\t37,871.0\t 1,703.0"
+        },
+        {
+          "Start": 2588,
+          "End": 2619,
+          "Value": "75\tSupervalu\t37,534.0\t -1,510.0"
+        },
+        {
+          "Start": 2620,
+          "End": 2666,
+          "Value": "76\tUnited Continental Holdings\t37,110.0\t 840.0"
+        },
+        {
+          "Start": 2667,
+          "End": 2711,
+          "Value": "77\tHoneywell International\t37,059.0\t 2,067.0"
+        },
+        {
+          "Start": 2712,
+          "End": 2734,
+          "Value": "78\tCHS\t36,915.8\t 961.4"
+        },
+        {
+          "Start": 2735,
+          "End": 2762,
+          "Value": "79\tHumana\t36,832.0\t 1,419.0"
+        },
+        {
+          "Start": 2763,
+          "End": 2803,
+          "Value": "80\tGoldman Sachs Group\t36,793.0\t 4,442.0"
+        },
+        {
+          "Start": 2804,
+          "End": 2835,
+          "Value": "81\tIngram Micro\t36,328.7\t 244.2"
+        },
+        {
+          "Start": 2836,
+          "End": 2863,
+          "Value": "82\tOracle\t35,622.0\t 8,547.0"
+        },
+        {
+          "Start": 2864,
+          "End": 2898,
+          "Value": "83\tDelta Air Lines\t35,115.0\t 854.0"
+        },
+        {
+          "Start": 2899,
+          "End": 2948,
+          "Value": "84\tLiberty Mutual Insurance Group\t34,671.0\t 365.0"
+        },
+        {
+          "Start": 2949,
+          "End": 2987,
+          "Value": "85\tWorld Fuel Services\t34,622.9\t 194.0"
+        },
+        {
+          "Start": 2988,
+          "End": 3030,
+          "Value": "86\tNew York Life Insurance\t34,393.5\t 557.3"
+        },
+        {
+          "Start": 3031,
+          "End": 3078,
+          "Value": "87\tPlains All American Pipeline\t34,275.0\t 966.0"
+        },
+        {
+          "Start": 3079,
+          "End": 3109,
+          "Value": "88\tTIAA-CREF\t34,079.0\t 2,388.4"
+        },
+        {
+          "Start": 3110,
+          "End": 3136,
+          "Value": "89\tAetna\t33,779.8\t 1,985.7"
+        },
+        {
+          "Start": 3137,
+          "End": 3172,
+          "Value": "90\tSprint Nextel\t33,679.0\t -2,890.0"
+        },
+        {
+          "Start": 3173,
+          "End": 3204,
+          "Value": "91\tNews Corp.\t33,405.0\t 2,739.0"
+        },
+        {
+          "Start": 3205,
+          "End": 3242,
+          "Value": "92\tGeneral Dynamics\t32,677.0\t 2,526.0"
+        },
+        {
+          "Start": 3243,
+          "End": 3270,
+          "Value": "93\tAllstate\t32,654.0\t 788.0"
+        },
+        {
+          "Start": 3271,
+          "End": 3304,
+          "Value": "94\tHCA Holdings\t32,506.0\t 2,465.0"
+        },
+        {
+          "Start": 3305,
+          "End": 3342,
+          "Value": "95\tAmerican Express\t32,282.0\t 4,935.0"
+        },
+        {
+          "Start": 3343,
+          "End": 3373,
+          "Value": "96\tTyson Foods\t32,266.0\t 750.0"
+        },
+        {
+          "Start": 3374,
+          "End": 3400,
+          "Value": "97\tDeere\t32,012.5\t 2,799.9"
+        },
+        {
+          "Start": 3401,
+          "End": 3430,
+          "Value": "98\tMurphy Oil\t31,446.3\t 872.7"
+        },
+        {
+          "Start": 3431,
+          "End": 3479,
+          "Value": "99\tPhilip Morris International\t31,097.0\t 8,591.0"
+        },
+        {
+          "Start": 3480,
+          "End": 3511,
+          "Value": "100\tNationwide\t30,697.8\t -793.1"
+        }
+      ],
+      "Output": [
+        {
+          "Start": 0,
+          "End": 1,
+          "Value": "1"
+        },
+        {
+          "Start": 34,
+          "End": 35,
+          "Value": "2"
+        },
+        {
+          "Start": 72,
+          "End": 73,
+          "Value": "3"
+        },
+        {
+          "Start": 102,
+          "End": 103,
+          "Value": "4"
+        },
+        {
+          "Start": 139,
+          "End": 140,
+          "Value": "5"
+        },
+        {
+          "Start": 175,
+          "End": 176,
+          "Value": "6"
+        },
+        {
+          "Start": 214,
+          "End": 215,
+          "Value": "7"
+        },
+        {
+          "Start": 255,
+          "End": 256,
+          "Value": "8"
+        },
+        {
+          "Start": 289,
+          "End": 290,
+          "Value": "9"
+        },
+        {
+          "Start": 322,
+          "End": 324,
+          "Value": "10"
+        },
+        {
+          "Start": 360,
+          "End": 362,
+          "Value": "11"
+        },
+        {
+          "Start": 387,
+          "End": 389,
+          "Value": "12"
+        },
+        {
+          "Start": 423,
+          "End": 425,
+          "Value": "13"
+        },
+        {
+          "Start": 467,
+          "End": 469,
+          "Value": "14"
+        },
+        {
+          "Start": 498,
+          "End": 500,
+          "Value": "15"
+        },
+        {
+          "Start": 543,
+          "End": 545,
+          "Value": "16"
+        },
+        {
+          "Start": 590,
+          "End": 592,
+          "Value": "17"
+        },
+        {
+          "Start": 619,
+          "End": 621,
+          "Value": "18"
+        },
+        {
+          "Start": 654,
+          "End": 656,
+          "Value": "19"
+        },
+        {
+          "Start": 709,
+          "End": 711,
+          "Value": "20"
+        },
+        {
+          "Start": 742,
+          "End": 744,
+          "Value": "21"
+        },
+        {
+          "Start": 778,
+          "End": 780,
+          "Value": "22"
+        },
+        {
+          "Start": 819,
+          "End": 821,
+          "Value": "23"
+        },
+        {
+          "Start": 845,
+          "End": 847,
+          "Value": "24"
+        },
+        {
+          "Start": 883,
+          "End": 885,
+          "Value": "25"
+        },
+        {
+          "Start": 917,
+          "End": 919,
+          "Value": "26"
+        },
+        {
+          "Start": 951,
+          "End": 953,
+          "Value": "27"
+        },
+        {
+          "Start": 990,
+          "End": 992,
+          "Value": "28"
+        },
+        {
+          "Start": 1034,
+          "End": 1036,
+          "Value": "29"
+        },
+        {
+          "Start": 1071,
+          "End": 1073,
+          "Value": "30"
+        },
+        {
+          "Start": 1102,
+          "End": 1104,
+          "Value": "31"
+        },
+        {
+          "Start": 1142,
+          "End": 1144,
+          "Value": "32"
+        },
+        {
+          "Start": 1172,
+          "End": 1174,
+          "Value": "33"
+        },
+        {
+          "Start": 1223,
+          "End": 1225,
+          "Value": "34"
+        },
+        {
+          "Start": 1252,
+          "End": 1254,
+          "Value": "35"
+        },
+        {
+          "Start": 1284,
+          "End": 1286,
+          "Value": "36"
+        },
+        {
+          "Start": 1328,
+          "End": 1330,
+          "Value": "37"
+        },
+        {
+          "Start": 1360,
+          "End": 1362,
+          "Value": "38"
+        },
+        {
+          "Start": 1388,
+          "End": 1390,
+          "Value": "39"
+        },
+        {
+          "Start": 1416,
+          "End": 1418,
+          "Value": "40"
+        },
+        {
+          "Start": 1445,
+          "End": 1447,
+          "Value": "41"
+        },
+        {
+          "Start": 1474,
+          "End": 1476,
+          "Value": "42"
+        },
+        {
+          "Start": 1513,
+          "End": 1515,
+          "Value": "43"
+        },
+        {
+          "Start": 1558,
+          "End": 1560,
+          "Value": "44"
+        },
+        {
+          "Start": 1584,
+          "End": 1586,
+          "Value": "45"
+        },
+        {
+          "Start": 1615,
+          "End": 1617,
+          "Value": "46"
+        },
+        {
+          "Start": 1648,
+          "End": 1650,
+          "Value": "47"
+        },
+        {
+          "Start": 1682,
+          "End": 1684,
+          "Value": "48"
+        },
+        {
+          "Start": 1723,
+          "End": 1725,
+          "Value": "49"
+        },
+        {
+          "Start": 1752,
+          "End": 1754,
+          "Value": "50"
+        },
+        {
+          "Start": 1785,
+          "End": 1787,
+          "Value": "51"
+        },
+        {
+          "Start": 1813,
+          "End": 1815,
+          "Value": "52"
+        },
+        {
+          "Start": 1856,
+          "End": 1858,
+          "Value": "53"
+        },
+        {
+          "Start": 1886,
+          "End": 1888,
+          "Value": "54"
+        },
+        {
+          "Start": 1914,
+          "End": 1916,
+          "Value": "55"
+        },
+        {
+          "Start": 1956,
+          "End": 1958,
+          "Value": "56"
+        },
+        {
+          "Start": 1986,
+          "End": 1988,
+          "Value": "57"
+        },
+        {
+          "Start": 2013,
+          "End": 2015,
+          "Value": "58"
+        },
+        {
+          "Start": 2050,
+          "End": 2052,
+          "Value": "59"
+        },
+        {
+          "Start": 2081,
+          "End": 2083,
+          "Value": "60"
+        },
+        {
+          "Start": 2126,
+          "End": 2128,
+          "Value": "61"
+        },
+        {
+          "Start": 2155,
+          "End": 2157,
+          "Value": "62"
+        },
+        {
+          "Start": 2205,
+          "End": 2207,
+          "Value": "63"
+        },
+        {
+          "Start": 2232,
+          "End": 2234,
+          "Value": "64"
+        },
+        {
+          "Start": 2267,
+          "End": 2269,
+          "Value": "65"
+        },
+        {
+          "Start": 2304,
+          "End": 2306,
+          "Value": "66"
+        },
+        {
+          "Start": 2337,
+          "End": 2339,
+          "Value": "67"
+        },
+        {
+          "Start": 2375,
+          "End": 2377,
+          "Value": "68"
+        },
+        {
+          "Start": 2411,
+          "End": 2413,
+          "Value": "69"
+        },
+        {
+          "Start": 2438,
+          "End": 2440,
+          "Value": "70"
+        },
+        {
+          "Start": 2465,
+          "End": 2467,
+          "Value": "71"
+        },
+        {
+          "Start": 2506,
+          "End": 2508,
+          "Value": "72"
+        },
+        {
+          "Start": 2534,
+          "End": 2536,
+          "Value": "73"
+        },
+        {
+          "Start": 2562,
+          "End": 2564,
+          "Value": "74"
+        },
+        {
+          "Start": 2588,
+          "End": 2590,
+          "Value": "75"
+        },
+        {
+          "Start": 2620,
+          "End": 2622,
+          "Value": "76"
+        },
+        {
+          "Start": 2667,
+          "End": 2669,
+          "Value": "77"
+        },
+        {
+          "Start": 2712,
+          "End": 2714,
+          "Value": "78"
+        },
+        {
+          "Start": 2735,
+          "End": 2737,
+          "Value": "79"
+        },
+        {
+          "Start": 2763,
+          "End": 2765,
+          "Value": "80"
+        },
+        {
+          "Start": 2804,
+          "End": 2806,
+          "Value": "81"
+        },
+        {
+          "Start": 2836,
+          "End": 2838,
+          "Value": "82"
+        },
+        {
+          "Start": 2864,
+          "End": 2866,
+          "Value": "83"
+        },
+        {
+          "Start": 2899,
+          "End": 2901,
+          "Value": "84"
+        },
+        {
+          "Start": 2949,
+          "End": 2951,
+          "Value": "85"
+        },
+        {
+          "Start": 2988,
+          "End": 2990,
+          "Value": "86"
+        },
+        {
+          "Start": 3031,
+          "End": 3033,
+          "Value": "87"
+        },
+        {
+          "Start": 3079,
+          "End": 3081,
+          "Value": "88"
+        },
+        {
+          "Start": 3110,
+          "End": 3112,
+          "Value": "89"
+        },
+        {
+          "Start": 3137,
+          "End": 3139,
+          "Value": "90"
+        },
+        {
+          "Start": 3173,
+          "End": 3175,
+          "Value": "91"
+        },
+        {
+          "Start": 3205,
+          "End": 3207,
+          "Value": "92"
+        },
+        {
+          "Start": 3243,
+          "End": 3245,
+          "Value": "93"
+        },
+        {
+          "Start": 3271,
+          "End": 3273,
+          "Value": "94"
+        },
+        {
+          "Start": 3305,
+          "End": 3307,
+          "Value": "95"
+        },
+        {
+          "Start": 3343,
+          "End": 3345,
+          "Value": "96"
+        },
+        {
+          "Start": 3374,
+          "End": 3376,
+          "Value": "97"
+        },
+        {
+          "Start": 3401,
+          "End": 3403,
+          "Value": "98"
+        },
+        {
+          "Start": 3431,
+          "End": 3433,
+          "Value": "99"
+        },
+        {
+          "Start": 3480,
+          "End": 3483,
+          "Value": "100"
+        }
+      ]
+    }
+  ]
+}

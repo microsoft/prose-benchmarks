@@ -1,0 +1,511 @@
+{
+  "Kind": "Field",
+  "Examples": [
+    {
+      "Input": [
+        {
+          "Start": 0,
+          "End": 356,
+          "Value": "Hone Albert, Professor of Computer Science\nPhd (1996) University of Voluptatibus Doloremque Eos, Brownsville\nTrey Research Prize\nResearch: est unde vitae amet qui; facilis omnis doloremque vel nisi; porro sed ad; suscipit blanditiis ratione modi; dolorum corrupti adipisci debitis\n\nemail: qmn33fzk | office: FZ 4678C | tel: 771-914-5364 | fax: 877-925-6328"
+        },
+        {
+          "Start": 359,
+          "End": 671,
+          "Value": "Yaron Misha, Adjunct Professor of Computer Science\nPhd (1973) University of Voluptatem\nLiberty's Delightful Sinful Bakery & Cafe Prize, Contoso Suites Prize\nResearch: veniam; doloribus iure cupiditate minima molestias; minima; laborum aut quod ea recusandae\n\nemail: zqjkllp | office: BG 8565Z | tel: 051-865-5693"
+        },
+        {
+          "Start": 674,
+          "End": 1131,
+          "Value": "Ljubica Stojsic, Associate Professor of Computer Science\nPhd (1980) Doloremque Molestias Sapiente Asperiores Sit University\nWingtip Toys Fellow, Graphic Design Institute Fellow\nResearch: eveniet; perspiciatis repellendus excepturi aliquid doloribus; quia adipisci dolores culpa; et repellendus; natus expedita laboriosam voluptatem; quo saepe et aliquam voluptatem\n\nemail: entwp9la8@wingtiptoys.com | office: CE 0171V | tel: 652-884-9843 | fax: 469-606-9851"
+        },
+        {
+          "Start": 1134,
+          "End": 1476,
+          "Value": "Gadi Kuzbari, Emeritus Professor of Computer Science\nPhd (1982) Omnis Ipsam Magnam Et University\nFirst Up Consultants Prize\nResearch: molestias est atque; sed eos error; perferendis similique praesentium asperiores; veniam; aliquam voluptatem perferendis dignissimos\n\nemail: g6m603c0 | office: HK 3466Y | tel: 926-347-2958 | fax: 243-126-5937"
+        },
+        {
+          "Start": 1479,
+          "End": 1733,
+          "Value": "Aichurok Choibekova, Adjunct Professor of Computer Science\nPhd (1993) University of Provident, Mashhad\nContoso, Ltd. Fellow\nResearch: sunt vero modi; omnis; labore quia quia dolor; eum tempora in quae\n\nemail: lzxlgi | office: JS 4050U | tel: 367-458-4948"
+        },
+        {
+          "Start": 1736,
+          "End": 2119,
+          "Value": "Anjali Chaturvedi, Chancellor's Professor of Computer Science\nPhd (1972) University of Rerum\nLamna Healthcare Company Prize; Proseware, Inc. Prize, First Up Consultants Prize\nResearch: eum autem occaecati; fugiat temporibus; sed nihil architecto; omnis et dolorem ut quo; quod quisquam officia\n\nemail: 2@northwindtraders.com | office: QU 9055G | tel: 010-725-5679 | fax: 697-660-6693"
+        },
+        {
+          "Start": 2122,
+          "End": 2422,
+          "Value": "Lasse Berg, Chancellor's Professor of Computer Science\nPhd (1976) Eius Tempore Atque University\nContoso, Ltd. Fellow; Alpine Ski House Fellow\nResearch: sequi officiis ea necessitatibus animi; autem dolorem et explicabo harum; ipsam explicabo\n\nemail: daiuje | office: 678 Oak Route | tel: 190-815-4356"
+        },
+        {
+          "Start": 2425,
+          "End": 2639,
+          "Value": "Isotta Pinto, Adjunct Professor of Computer Science\nPhd (1971) University of Tenetur Aut Ut\nAlpine Ski House Prize\nResearch: laborum; repellendus; ab quibusdam\n\nemail: qv7puetq | office: PW 1929 | tel: 850-605-2929"
+        },
+        {
+          "Start": 2642,
+          "End": 2850,
+          "Value": "Ida Abolina, Assistant Professor of Computer Science\nPhd (1975) Et Ut Voluptas Veritatis University\n\nResearch: ea velit tempora incidunt; id; quae in aut\n\nemail: vfvm6ruf | office: GS 5619 | tel: 185-951-7114"
+        },
+        {
+          "Start": 2853,
+          "End": 3151,
+          "Value": "Sergio Valladares, Professor of Computer Science\nPhd (1981) Est University\nWoodgrove Bank Fellow; Adventure Works Cycles Fellow; Wide World Importers Fellow\nResearch: tempora laudantium; voluptas; quod; repellendus\n\nemail: svd@fabrikam.com | office: VG 8245G | tel: 450-152-6406 | fax: 872-221-3829"
+        },
+        {
+          "Start": 3154,
+          "End": 3529,
+          "Value": "Marko Potocnik, Adjunct Professor of Computer Science\nPhd (1996) Autem Sequi Provident Quasi Veniam University\nTailspin Toys Prize; Liberty's Delightful Sinful Bakery & Cafe Prize; Adatum Corporation Prize\nResearch: ut molestiae; quo id velit voluptatum laboriosam; atque eveniet; quo; repudiandae\n\nemail: ahnzc46d@firstupconsultants.com | office: OX 7514 | tel: 133-372-0904"
+        },
+        {
+          "Start": 3532,
+          "End": 3863,
+          "Value": "Miroslava Beňová, Emeritus Professor of Computer Science\nPhd (1981) Nostrum Aperiam Ut University\nLucerne Publishing Fellow\nResearch: velit quibusdam ea voluptatem; voluptates maiores nihil facilis; exercitationem molestiae ipsam voluptas\n\nemail: beaxfsdi@margiestravel.com | office: DM 0014 | tel: 712-707-8874 | fax: 007-012-2240"
+        },
+        {
+          "Start": 3866,
+          "End": 4209,
+          "Value": "Asiya Orazkyzy, Associate Professor of Computer Science\nPhd (1983) Quae Neque At Veritatis Aliquid University\nWide World Importers Fellow; Lucerne Publishing Fellow, Adatum Corporation Fellow\nResearch: in id sit; et error ex et; repellendus nesciunt qui rerum; debitis; aspernatur aut; iste\n\nemail: g1pdd | office: OV 4655O | tel: 634-730-1709"
+        },
+        {
+          "Start": 4212,
+          "End": 4509,
+          "Value": "Cristina Echevarría, Assistant Professor of Computer Science\nPhd (1982) Enim University\nFabrikam Residences Fellow, VanArsdel, Ltd. Fellow\nResearch: dolorem blanditiis quod ipsa; cumque fugit hic ratione modi; ut tempore ipsa magnam porro; ut\n\nemail: 1uqrd0wj | office: GM 7209 | tel: 503-581-5468"
+        },
+        {
+          "Start": 4512,
+          "End": 4787,
+          "Value": "Abhijit Dixit, Emeritus Professor of Computer Science\nPhd (1972) University of Consequatur\nBellows College Prize; Northwind Traders Prize\nResearch: inventore; at aut harum molestiae a; recusandae nulla optio itaque fugit\n\nemail: aqkwz4t | office: ME 4013Q | tel: 746-780-6428"
+        },
+        {
+          "Start": 4790,
+          "End": 5137,
+          "Value": "Prakash Malviya, Assistant Professor of Computer Science, Professor of Mathematics\nPhd (1990) Provident Cumque Quasi Delectus Dolor University\nSouthridge Video Prize\nResearch: eligendi harum nihil deserunt omnis; aliquam architecto eveniet; nesciunt aut eveniet iure\n\nemail: gukl5r | office: 23 12th Parkway | tel: 411-084-3127 | fax: 648-836-4939"
+        },
+        {
+          "Start": 5140,
+          "End": 5420,
+          "Value": "Suresh Hanafi, Professor of Computer Science\nPhd (1994) Ducimus Aperiam University\nAdatum Corporation Fellow\nResearch: ipsam aut quisquam reprehenderit; aut blanditiis; qui beatae corrupti; suscipit illo et nemo\n\nemail: qivz@vanarsdelltd.com | office: NJ 5892D | tel: 704-511-2853"
+        },
+        {
+          "Start": 5423,
+          "End": 5632,
+          "Value": "Akashya Mishra, Emeritus Professor of Computer Science\nPhd (1982) GMN\n\nResearch: sit occaecati; sed aut ducimus est; quae; maiores minima aperiam aut; dolor\n\nemail: rsnake | office: QS 2105 | tel: 713-724-4949"
+        },
+        {
+          "Start": 5635,
+          "End": 5907,
+          "Value": "Mahnaz Qureshi, Assistant Professor of Computer Science\nPhd (1988) Minima Cumque Aliquid Repellat Molestiae University\nTailspin Toys Fellow, Munson's Pickles and Preserves Farm Fellow\nResearch: laboriosam; a sed; nulla\n\nemail: e7cazub | office: KN 6527 | tel: 906-655-6074"
+        },
+        {
+          "Start": 5910,
+          "End": 6253,
+          "Value": "De Hsieh, Adjunct Professor of Computer Science, Professor of Statistics\nPhd (1993) University of Atque Sit Facilis Non, Lafayette\n\nResearch: minus dolores sit; alias quo; repellat dolor ullam commodi; voluptatem adipisci nihil nobis hic; aut ut sed dolores et\n\nemail: ovuktb82 | office: 234 Ninth Place | tel: 991-619-3640 | fax: 080-227-1158"
+        },
+        {
+          "Start": 6256,
+          "End": 6548,
+          "Value": "Sovan Vong, Chancellor's Professor of Computer Science\nPhd (1976) NEXA\nSchool of Fine Art Prize; Fabrikam Residences Prize, Adatum Corporation Fellow\nResearch: vel atque; eius accusamus repudiandae; voluptas\n\nemail: bv0@firstupconsultants.com | office: 123 Ninth Boulevard | tel: 591-327-9668"
+        },
+        {
+          "Start": 6551,
+          "End": 6773,
+          "Value": "Elsje Quint, Adjunct Professor of Computer Science\nPhd (1992) Ullam University\nContoso, Ltd. Fellow\nResearch: nemo ut amet odio eum; sit; qui consequuntur ratione est\n\nemail: z3ithoy9 | office: RT 2167E | tel: 918-993-6442"
+        },
+        {
+          "Start": 6776,
+          "End": 7146,
+          "Value": "Moustapha Ndaw, Emeritus Professor of Computer Science (Deceased)\nPhd (1976) Blanditiis Id University\nHumongous Insurance Fellow; Fourth Coffee Fellow, Alpine Ski House Fellow\nResearch: quae in; itaque architecto accusamus blanditiis molestiae; a et; et deleniti tempora sunt adipisci; voluptas commodi\n\nemail: ooskw38s0@adatum.com | office: SP 9237L | tel: 062-652-9627"
+        },
+        {
+          "Start": 7149,
+          "End": 7392,
+          "Value": "Fatou Ndiaye, Emeritus Professor of Computer Science\nPhd (1984) Esse University\n\nResearch: ab eaque odio; aspernatur; animi minus; quia minus reiciendis numquam voluptatem\n\nemail: yunuox@bellowscollege.com | office: FO 7111 | tel: 613-269-8681"
+        },
+        {
+          "Start": 7395,
+          "End": 7629,
+          "Value": "Linda Skistad, Assistant Professor of Computer Science\nPhd (1976) University of Autem Voluptatibus\n\nResearch: minus aspernatur unde; et; ut similique; iste provident occaecati et\n\nemail: kyx43sfb | office: ZQ 2769T | tel: 628-710-7616"
+        },
+        {
+          "Start": 7632,
+          "End": 7976,
+          "Value": "Dulam Batbold, Adjunct Professor of Computer Science\nPhd (1972) University of Animi Ea Cum, West Covina\nWide World Importers Fellow, Lucerne Publishing Fellow; Fourth Coffee Fellow\nResearch: consectetur neque; quibusdam soluta odit iusto; aut incidunt ullam; ex eius cum exercitationem; ut\n\nemail: rfhy426t | office: GB 8129 | tel: 551-222-8708"
+        },
+        {
+          "Start": 7979,
+          "End": 8331,
+          "Value": "Clara Barbosa, Associate Professor of Computer Science\nPhd (1982) Quasi Repudiandae Neque Placeat University\nFirst Up Consultants Fellow\nResearch: nemo est voluptatum accusantium; quibusdam fugit; quaerat hic atque; et et; debitis et excepturi nesciunt autem\n\nemail: sbf@fabrikamresidences.com | office: FJ 1445Q | tel: 894-562-2804 | fax: 068-274-1940"
+        },
+        {
+          "Start": 8334,
+          "End": 8657,
+          "Value": "Dorotea Ceh, Associate Professor of Computer Science\nPhd (1973) Illo Iusto University\n\nResearch: aut iure quo alias consectetur; eligendi repudiandae error porro; aspernatur unde placeat; ea autem; cum necessitatibus aut voluptas mollitia\n\nemail: rzxdkqwp | office: 45 Redwood Avenue | tel: 631-537-3182 | fax: 187-804-6390"
+        },
+        {
+          "Start": 8660,
+          "End": 9013,
+          "Value": "Muskaan Gill, Chancellor's Professor of Computer Science\nPhd (1987) QAM\nContoso Suites Fellow; Trey Research Prize; Proseware, Inc. Prize\nResearch: illum qui; occaecati magni vitae pariatur; blanditiis id vel exercitationem odit; sit dolorem labore ducimus; quia accusantium exercitationem\n\nemail: 20bqmylt | office: 890 Third Avenue | tel: 652-271-8422"
+        },
+        {
+          "Start": 9016,
+          "End": 9364,
+          "Value": "Damira Musakyzy, Adjunct Professor of Computer Science\nPhd (1985) LXQM\nLamna Healthcare Company Prize; Alpine Ski House Fellow, Tailspin Toys Fellow\nResearch: quidem perspiciatis consequatur; nulla laboriosam totam placeat; ea mollitia praesentium; sequi soluta; eum pariatur aperiam\n\nemail: x68rnzlc | office: 456 Sixth Highway | tel: 069-635-7541"
+        },
+        {
+          "Start": 9367,
+          "End": 9681,
+          "Value": "Kelvin Ong, Emeritus Professor of Computer Science\nPhd (1972) Ab Voluptates Maxime University\nAdatum Corporation Fellow, Woodgrove Bank Prize, Contoso Suites Prize\nResearch: facere molestias sit occaecati ipsa; est vel commodi natus; modi dolores natus ea\n\nemail: doqbs6 | office: 456 Main Road | tel: 645-697-3714"
+        },
+        {
+          "Start": 9684,
+          "End": 10014,
+          "Value": "Olena Prutko, Assistant Professor of Computer Science\nPhd (1987) KNV\nBellows College Prize, Munson's Pickles and Preserves Farm Fellow, Adventure Works Cycles Fellow\nResearch: illum; expedita; deserunt; deserunt accusamus rem; odio dolorem quia; qui animi rerum eligendi minima\n\nemail: smbz0s | office: BI 8582 | tel: 391-210-3984"
+        },
+        {
+          "Start": 10017,
+          "End": 10317,
+          "Value": "Lisha Daher, Professor of Computer Science\nPhd (1987) Accusantium Dolorem Veritatis Enim University\nConsolidated Messenger Prize\nResearch: non ab accusamus perspiciatis; suscipit error corrupti fugiat; vitae; adipisci aut velit\n\nemail: ym69cl | office: SZ 0347 | tel: 771-511-9212 | fax: 253-078-0321"
+        },
+        {
+          "Start": 10320,
+          "End": 10685,
+          "Value": "Kristian Stensen, Professor of Computer Science, Professor of Statistics\nPhd (1990) University of Qui\nContoso Suites Prize, Adatum Corporation Fellow; Alpine Ski House Prize\nResearch: aut; et debitis in; pariatur in sint ex totam; nihil dolorum tempore reiciendis; harum id aut quo voluptatem; aspernatur libero\n\nemail: y2vgyfl | office: WY 6610 | tel: 160-400-1355"
+        },
+        {
+          "Start": 10688,
+          "End": 10939,
+          "Value": "Hassen Seid, Associate Professor of Computer Science\nPhd (1988) University of Nesciunt Quibusdam Et Error Omnis, Brisbane\n\nResearch: praesentium; assumenda mollitia quidem ut; est ut ipsa sit qui\n\nemail: 6h53tnsn | office: OS 1957D | tel: 455-910-6490"
+        },
+        {
+          "Start": 10942,
+          "End": 11265,
+          "Value": "Chantha Mean, Associate Professor of Computer Science\nPhd (1983) Iste Ducimus Sit University\nSouthridge Video Fellow; The Phone Company Fellow; VanArsdel, Ltd. Fellow\nResearch: dolores quae praesentium voluptatem; totam rerum libero; aut nobis; esse\n\nemail: skq4eak | office: QK 9179 | tel: 240-155-6113 | fax: 939-941-5616"
+        },
+        {
+          "Start": 11268,
+          "End": 11525,
+          "Value": "Imran Anjum, Chancellor's Professor of Computer Science\nPhd (1967) Eos Soluta Voluptatem Voluptatum University\nNod Publishers Fellow\nResearch: et; sequi non; natus exercitationem voluptate; recusandae; et\n\nemail: rnhhnk | office: PN 5754 | tel: 144-980-5864"
+        },
+        {
+          "Start": 11528,
+          "End": 11844,
+          "Value": "Milena Kowalska, Professor of Computer Science, Professor of Mathematics\nPhd (1974) Aspernatur Doloribus Quas Voluptas Voluptas University\n\nResearch: porro temporibus ut similique; vel minus; vitae nam qui aut dolorem; laboriosam optio non; soluta vitae mollitia\n\nemail: p7pvyrd | office: MR 6459 | tel: 522-203-3360"
+        },
+        {
+          "Start": 11847,
+          "End": 12213,
+          "Value": "Johanne Balstad, Adjunct Professor of Computer Science\nPhd (1974) Consequuntur Et Esse Temporibus Perferendis University\nBellows College Fellow, Trey Research Fellow\nResearch: rerum aut omnis eligendi ullam; in non alias amet; eaque; ea sequi sint et provident; molestiae; qui earum aut officia\n\nemail: issij | office: UK 4689 | tel: 759-903-3333 | fax: 866-774-9861"
+        },
+        {
+          "Start": 12216,
+          "End": 12443,
+          "Value": "Slavica Savicevic, Chancellor's Professor of Computer Science\nPhd (1971) BWA\n\nResearch: aliquam qui ipsum sapiente; rem dolores rem quasi; repellendus exercitationem illum\n\nemail: iyeajpfi | office: VR 6331I | tel: 437-567-1801"
+        },
+        {
+          "Start": 12446,
+          "End": 12790,
+          "Value": "Chi Lieu, Associate Professor of Computer Science\nPhd (1989) University of Consequatur Repudiandae Voluptas\nMunson's Pickles and Preserves Farm Fellow, Graphic Design Institute Prize; VanArsdel, Ltd. Fellow\nResearch: ut; qui; libero debitis dolorum\n\nemail: yuvt22erk@alpineskihouse.com | office: VR 2556U | tel: 058-288-4137 | fax: 518-556-6129"
+        },
+        {
+          "Start": 12793,
+          "End": 13192,
+          "Value": "Alena Jankova, Assistant Professor of Computer Science, Professor of Mathematics\nPhd (1983) University of Alias Voluptatem Omnis Odit, Temecula\nRelecloud Prize\nResearch: dolore aut provident itaque esse; alias ratione aliquid architecto nulla; error fugit facilis quam deserunt; voluptatem alias qui possimus ad; commodi autem\n\nemail: xuari | office: WZ 1100J | tel: 526-349-2091 | fax: 116-567-7461"
+        },
+        {
+          "Start": 13195,
+          "End": 13489,
+          "Value": "Omer Dogan, Assistant Professor of Computer Science\nPhd (1992) University of Sed Aut Facere Doloremque Sequi, Jurupa Valley\nFabrikam Residences Fellow\nResearch: ea in; praesentium non aut; eum; rerum numquam necessitatibus nemo iure; rem in\n\nemail: vm0nypi | office: IM 6392 | tel: 619-512-8304"
+        },
+        {
+          "Start": 13492,
+          "End": 13839,
+          "Value": "Margarita Kairyte, Professor of Computer Science\nPhd (1993) University of Occaecati Ut\nRelecloud Fellow, Consolidated Messenger Fellow\nResearch: suscipit hic nostrum; quibusdam nemo aut enim; sit doloremque laudantium quia; in nam; ratione ipsum doloremque quis dolore\n\nemail: 7gejh | office: 456 Maple Lane | tel: 421-786-7152 | fax: 289-261-7235"
+        },
+        {
+          "Start": 13842,
+          "End": 14148,
+          "Value": "Raghavendra Hosamani, Chancellor's Professor of Computer Science\nPhd (1994) University of Consectetur Fugiat, Santa Cruz de la Sierra\nProseware, Inc. Fellow\nResearch: incidunt explicabo rerum molestias; minima; est vero minima; nesciunt; in repudiandae\n\nemail: xb0za5s | office: QN 5549 | tel: 452-548-4949"
+        },
+        {
+          "Start": 14151,
+          "End": 14430,
+          "Value": "Camille Brunelle, Emeritus Professor of Computer Science\nPhd (1989) Aliquid Excepturi Beatae Occaecati University\n\nResearch: porro et vero; iure voluptatibus expedita quia; ut ratione; et incidunt qui eos enim; provident; in\n\nemail: 6uterc77 | office: ZH 0993 | tel: 656-642-4657"
+        },
+        {
+          "Start": 14433,
+          "End": 14725,
+          "Value": "Seo-hyeon Chung, Chancellor's Professor of Computer Science, Professor of Statistics\nPhd (1978) Molestiae Expedita University\nBest For You Organics Company Prize\nResearch: molestiae quasi quidem; expedita ut; eveniet officiis fuga\n\nemail: 0@fabrikam.com | office: HR 8036U | tel: 074-504-7650"
+        },
+        {
+          "Start": 14728,
+          "End": 15015,
+          "Value": "Hleb Krukouski, Emeritus Professor of Computer Science\nPhd (1979) University of Quisquam Non, Shiraz\nAdatum Corporation Prize, Nod Publishers Prize\nResearch: voluptas voluptatem atque; et et; dolor occaecati et necessitatibus in\n\nemail: kxi2f | office: 12 Fifth Route | tel: 007-827-9467"
+        },
+        {
+          "Start": 15018,
+          "End": 15318,
+          "Value": "Musa Yasin, Chancellor's Professor of Computer Science\nPhd (1982) University of Rem Incidunt Aliquam, Daejeon\n\nResearch: libero; dolor quia enim omnis; quia repellat quis quia qui; consequuntur; excepturi placeat qui perspiciatis\n\nemail: beyh@lamnahealtcare.com | office: VK 3812V | tel: 753-182-2563"
+        },
+        {
+          "Start": 15321,
+          "End": 15636,
+          "Value": "Kaviraj Dangol, Assistant Professor of Computer Science\nPhd (1968) Et Vel Tempore Vel Sit University\nWide World Importers Fellow\nResearch: nisi ex voluptates; officiis perferendis ut; ut dignissimos blanditiis; ratione ipsam; asperiores et sit; aut dolorem sit\n\nemail: yrjhpni | office: KN 9244Y | tel: 890-783-2290"
+        }
+      ],
+      "Output": [
+        {
+          "Start": 13,
+          "End": 42,
+          "Value": "Professor of Computer Science"
+        },
+        {
+          "Start": 372,
+          "End": 409,
+          "Value": "Adjunct Professor of Computer Science"
+        },
+        {
+          "Start": 691,
+          "End": 730,
+          "Value": "Associate Professor of Computer Science"
+        },
+        {
+          "Start": 1148,
+          "End": 1186,
+          "Value": "Emeritus Professor of Computer Science"
+        },
+        {
+          "Start": 1500,
+          "End": 1537,
+          "Value": "Adjunct Professor of Computer Science"
+        },
+        {
+          "Start": 1755,
+          "End": 1797,
+          "Value": "Chancellor's Professor of Computer Science"
+        },
+        {
+          "Start": 2134,
+          "End": 2176,
+          "Value": "Chancellor's Professor of Computer Science"
+        },
+        {
+          "Start": 2439,
+          "End": 2476,
+          "Value": "Adjunct Professor of Computer Science"
+        },
+        {
+          "Start": 2655,
+          "End": 2694,
+          "Value": "Assistant Professor of Computer Science"
+        },
+        {
+          "Start": 2872,
+          "End": 2901,
+          "Value": "Professor of Computer Science"
+        },
+        {
+          "Start": 3170,
+          "End": 3207,
+          "Value": "Adjunct Professor of Computer Science"
+        },
+        {
+          "Start": 3550,
+          "End": 3588,
+          "Value": "Emeritus Professor of Computer Science"
+        },
+        {
+          "Start": 3882,
+          "End": 3921,
+          "Value": "Associate Professor of Computer Science"
+        },
+        {
+          "Start": 4233,
+          "End": 4272,
+          "Value": "Assistant Professor of Computer Science"
+        },
+        {
+          "Start": 4527,
+          "End": 4565,
+          "Value": "Emeritus Professor of Computer Science"
+        },
+        {
+          "Start": 4807,
+          "End": 4872,
+          "Value": "Assistant Professor of Computer Science, Professor of Mathematics"
+        },
+        {
+          "Start": 5155,
+          "End": 5184,
+          "Value": "Professor of Computer Science"
+        },
+        {
+          "Start": 5439,
+          "End": 5477,
+          "Value": "Emeritus Professor of Computer Science"
+        },
+        {
+          "Start": 5651,
+          "End": 5690,
+          "Value": "Assistant Professor of Computer Science"
+        },
+        {
+          "Start": 5920,
+          "End": 5982,
+          "Value": "Adjunct Professor of Computer Science, Professor of Statistics"
+        },
+        {
+          "Start": 6268,
+          "End": 6310,
+          "Value": "Chancellor's Professor of Computer Science"
+        },
+        {
+          "Start": 6564,
+          "End": 6601,
+          "Value": "Adjunct Professor of Computer Science"
+        },
+        {
+          "Start": 6792,
+          "End": 6841,
+          "Value": "Emeritus Professor of Computer Science (Deceased)"
+        },
+        {
+          "Start": 7163,
+          "End": 7201,
+          "Value": "Emeritus Professor of Computer Science"
+        },
+        {
+          "Start": 7410,
+          "End": 7449,
+          "Value": "Assistant Professor of Computer Science"
+        },
+        {
+          "Start": 7647,
+          "End": 7684,
+          "Value": "Adjunct Professor of Computer Science"
+        },
+        {
+          "Start": 7994,
+          "End": 8033,
+          "Value": "Associate Professor of Computer Science"
+        },
+        {
+          "Start": 8347,
+          "End": 8386,
+          "Value": "Associate Professor of Computer Science"
+        },
+        {
+          "Start": 8674,
+          "End": 8716,
+          "Value": "Chancellor's Professor of Computer Science"
+        },
+        {
+          "Start": 9033,
+          "End": 9070,
+          "Value": "Adjunct Professor of Computer Science"
+        },
+        {
+          "Start": 9379,
+          "End": 9417,
+          "Value": "Emeritus Professor of Computer Science"
+        },
+        {
+          "Start": 9698,
+          "End": 9737,
+          "Value": "Assistant Professor of Computer Science"
+        },
+        {
+          "Start": 10030,
+          "End": 10059,
+          "Value": "Professor of Computer Science"
+        },
+        {
+          "Start": 10338,
+          "End": 10392,
+          "Value": "Professor of Computer Science, Professor of Statistics"
+        },
+        {
+          "Start": 10701,
+          "End": 10740,
+          "Value": "Associate Professor of Computer Science"
+        },
+        {
+          "Start": 10956,
+          "End": 10995,
+          "Value": "Associate Professor of Computer Science"
+        },
+        {
+          "Start": 11281,
+          "End": 11323,
+          "Value": "Chancellor's Professor of Computer Science"
+        },
+        {
+          "Start": 11545,
+          "End": 11600,
+          "Value": "Professor of Computer Science, Professor of Mathematics"
+        },
+        {
+          "Start": 11864,
+          "End": 11901,
+          "Value": "Adjunct Professor of Computer Science"
+        },
+        {
+          "Start": 12235,
+          "End": 12277,
+          "Value": "Chancellor's Professor of Computer Science"
+        },
+        {
+          "Start": 12456,
+          "End": 12495,
+          "Value": "Associate Professor of Computer Science"
+        },
+        {
+          "Start": 12808,
+          "End": 12873,
+          "Value": "Assistant Professor of Computer Science, Professor of Mathematics"
+        },
+        {
+          "Start": 13207,
+          "End": 13246,
+          "Value": "Assistant Professor of Computer Science"
+        },
+        {
+          "Start": 13511,
+          "End": 13540,
+          "Value": "Professor of Computer Science"
+        },
+        {
+          "Start": 13864,
+          "End": 13906,
+          "Value": "Chancellor's Professor of Computer Science"
+        },
+        {
+          "Start": 14169,
+          "End": 14207,
+          "Value": "Emeritus Professor of Computer Science"
+        },
+        {
+          "Start": 14450,
+          "End": 14517,
+          "Value": "Chancellor's Professor of Computer Science, Professor of Statistics"
+        },
+        {
+          "Start": 14744,
+          "End": 14782,
+          "Value": "Emeritus Professor of Computer Science"
+        },
+        {
+          "Start": 15030,
+          "End": 15072,
+          "Value": "Chancellor's Professor of Computer Science"
+        },
+        {
+          "Start": 15337,
+          "End": 15376,
+          "Value": "Assistant Professor of Computer Science"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,184 @@
+{
+  "Examples": [
+    {
+      "Input": [
+        "MFM-Robot/5.2.59-internal HH464 OS 9.0.8"
+      ],
+      "Output": "Robot"
+    },
+    {
+      "Input": [
+        "MFM-8.8.90/xPhone-6.5.9"
+      ],
+      "Output": "xOS"
+    },
+    {
+      "Input": [
+        "MFM-1.4.29/xPhone-6.7.0"
+      ],
+      "Output": "xOS"
+    },
+    {
+      "Input": [
+        ""
+      ],
+      "Output": ""
+    },
+    {
+      "Input": [
+        ""
+      ],
+      "Output": ""
+    },
+    {
+      "Input": [
+        "MFM-Robot/1.2.97-internal DF-K764 OS 1.8.8"
+      ],
+      "Output": "Robot"
+    },
+    {
+      "Input": [
+        "MFM-Robot/6.2.88-internal EQ829 OS 4.6.7"
+      ],
+      "Output": "Robot"
+    },
+    {
+      "Input": [
+        "MFM-Robot/7.1.91-internal IR-M887 OS 7.9.2"
+      ],
+      "Output": "Robot"
+    },
+    {
+      "Input": [
+        "MFM-2.8.21/xPhone-0.6.6"
+      ],
+      "Output": "xOS"
+    },
+    {
+      "Input": [
+        "MFM-9.0.96/xPhone-0.1.1"
+      ],
+      "Output": "xOS"
+    },
+    {
+      "Input": [
+        "MFM-1.6.52/xPhone-6.0"
+      ],
+      "Output": "xOS"
+    },
+    {
+      "Input": [
+        ""
+      ],
+      "Output": ""
+    },
+    {
+      "Input": [
+        "MFM-7.9.93/xPhone-5.2.5"
+      ],
+      "Output": "xOS"
+    },
+    {
+      "Input": [
+        "MFM-4.8.61/xPhone-7.4.9"
+      ],
+      "Output": "xOS"
+    },
+    {
+      "Input": [
+        ""
+      ],
+      "Output": ""
+    },
+    {
+      "Input": [
+        "MFM-Robot/6.5.11-internal ZO BGVO OS 6.5.9"
+      ],
+      "Output": "Robot"
+    },
+    {
+      "Input": [
+        ""
+      ],
+      "Output": ""
+    },
+    {
+      "Input": [
+        "MFM-Robot/6.5.56-internal BM MFBF OS 1.4.4"
+      ],
+      "Output": "Robot"
+    },
+    {
+      "Input": [
+        ""
+      ],
+      "Output": ""
+    },
+    {
+      "Input": [
+        ""
+      ],
+      "Output": ""
+    },
+    {
+      "Input": [
+        "MFM-Robot/0.5.99-internal HZ-P734 OS 9.8.9"
+      ],
+      "Output": "Robot"
+    },
+    {
+      "Input": [
+        ""
+      ],
+      "Output": ""
+    },
+    {
+      "Input": [
+        ""
+      ],
+      "Output": ""
+    },
+    {
+      "Input": [
+        "MFM-Robot/5.7.53-internal RD FMPG OS 3.2.7"
+      ],
+      "Output": "Robot"
+    },
+    {
+      "Input": [
+        ""
+      ],
+      "Output": ""
+    },
+    {
+      "Input": [
+        "MFM-3.0.08/xPhone-7.8"
+      ],
+      "Output": "xOS"
+    },
+    {
+      "Input": [
+        "MFM-4.1.84/xPhone-6.3.3"
+      ],
+      "Output": "xOS"
+    },
+    {
+      "Input": [
+        ""
+      ],
+      "Output": ""
+    },
+    {
+      "Input": [
+        "MFM-9.9.17/xPhone-0.1.0"
+      ],
+      "Output": "xOS"
+    },
+    {
+      "Input": [
+        ""
+      ],
+      "Output": ""
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "Kind": "Sequence",
+  "Examples": [
+    {
+      "Input": [
+        {
+          "Start": 0,
+          "End": 417,
+          "Value": "   Luxembourg          4828\t190\tAustralia\n   Cameroon            8456\t247\tAsia\n   Congo (DRC)         4061\t851\tAfrica\n   Singapore           5858\t282\tNorth America\n   Hong Kong SAR       282\t610\tAustralia\n   Cameroon            4730\t83\tAntarctica\n   Rwanda              8551\t562\tNorth America\n   Panama              2968\t830\tAustralia\n   France              2365\t787\tNorth America\n   Haiti               1270\t203\tAsia"
+        }
+      ],
+      "Output": [
+        [
+          {
+            "Start": 32,
+            "End": 41,
+            "Value": "Australia"
+          },
+          {
+            "Start": 74,
+            "End": 78,
+            "Value": "Asia"
+          },
+          {
+            "Start": 111,
+            "End": 117,
+            "Value": "Africa"
+          },
+          {
+            "Start": 150,
+            "End": 163,
+            "Value": "North America"
+          },
+          {
+            "Start": 195,
+            "End": 204,
+            "Value": "Australia"
+          },
+          {
+            "Start": 236,
+            "End": 246,
+            "Value": "Antarctica"
+          },
+          {
+            "Start": 279,
+            "End": 292,
+            "Value": "North America"
+          },
+          {
+            "Start": 325,
+            "End": 334,
+            "Value": "Australia"
+          },
+          {
+            "Start": 367,
+            "End": 380,
+            "Value": "North America"
+          },
+          {
+            "Start": 413,
+            "End": 417,
+            "Value": "Asia"
+          }
+        ]
+      ]
+    }
+  ]
+}

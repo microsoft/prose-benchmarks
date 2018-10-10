@@ -1,0 +1,34 @@
+{
+  "Examples": [
+    {
+      "Input": [
+        "INVENTORE DELENITI ENIM 9.6 OZ"
+      ],
+      "Output": "9.6 OZ"
+    },
+    {
+      "Input": [
+        "QUI VOLUPTATEM VENIAM 6.2 PK"
+      ],
+      "Output": "6.2 PK"
+    },
+    {
+      "Input": [
+        "EXCEPTURI DOLOR 7Z"
+      ],
+      "Output": "7Z"
+    },
+    {
+      "Input": [
+        "DOLOREM SINT NUMQUAM REPELLENDUS 5Z"
+      ],
+      "Output": "5Z"
+    },
+    {
+      "Input": [
+        "UT NOSTRUM 4.6Z"
+      ],
+      "Output": "4.6Z"
+    }
+  ]
+}

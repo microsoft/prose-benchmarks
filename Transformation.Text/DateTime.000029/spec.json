@@ -1,0 +1,184 @@
+{
+  "Examples": [
+    {
+      "Input": [
+        "06-Oct-2143"
+      ],
+      "Output": "Sunday"
+    },
+    {
+      "Input": [
+        "Mar 30 2002"
+      ],
+      "Output": "Saturday"
+    },
+    {
+      "Input": [
+        "01311846"
+      ],
+      "Output": "Saturday"
+    },
+    {
+      "Input": [
+        "22 Apr 1953"
+      ],
+      "Output": "Wednesday"
+    },
+    {
+      "Input": [
+        "03302241"
+      ],
+      "Output": "Tuesday"
+    },
+    {
+      "Input": [
+        "02-Aug-2160"
+      ],
+      "Output": "Saturday"
+    },
+    {
+      "Input": [
+        "23 May 1984"
+      ],
+      "Output": "Wednesday"
+    },
+    {
+      "Input": [
+        "15 August 1740"
+      ],
+      "Output": "Monday"
+    },
+    {
+      "Input": [
+        "Jul 08 2237"
+      ],
+      "Output": "Saturday"
+    },
+    {
+      "Input": [
+        "3 Nov 1904"
+      ],
+      "Output": "Thursday"
+    },
+    {
+      "Input": [
+        "5 April 2088"
+      ],
+      "Output": "Monday"
+    },
+    {
+      "Input": [
+        "05302131"
+      ],
+      "Output": "Wednesday"
+    },
+    {
+      "Input": [
+        "May 25 1817"
+      ],
+      "Output": "Sunday"
+    },
+    {
+      "Input": [
+        "31 May 1963"
+      ],
+      "Output": "Friday"
+    },
+    {
+      "Input": [
+        "24-Nov-2098"
+      ],
+      "Output": "Monday"
+    },
+    {
+      "Input": [
+        "22 Oct 1815"
+      ],
+      "Output": "Sunday"
+    },
+    {
+      "Input": [
+        "26 May 2155"
+      ],
+      "Output": "Monday"
+    },
+    {
+      "Input": [
+        "26-Mar-1816"
+      ],
+      "Output": "Tuesday"
+    },
+    {
+      "Input": [
+        "26 Apr 2090"
+      ],
+      "Output": "Wednesday"
+    },
+    {
+      "Input": [
+        "14-Aug-2089"
+      ],
+      "Output": "Sunday"
+    },
+    {
+      "Input": [
+        "Apr 20 1957"
+      ],
+      "Output": "Saturday"
+    },
+    {
+      "Input": [
+        "11 Sep 1952"
+      ],
+      "Output": "Thursday"
+    },
+    {
+      "Input": [
+        "03-Nov-2114"
+      ],
+      "Output": "Saturday"
+    },
+    {
+      "Input": [
+        "21 June 2059"
+      ],
+      "Output": "Saturday"
+    },
+    {
+      "Input": [
+        "21-Jan-1818"
+      ],
+      "Output": "Wednesday"
+    },
+    {
+      "Input": [
+        "16 Sep 2075"
+      ],
+      "Output": "Monday"
+    },
+    {
+      "Input": [
+        "Oct 2 2204"
+      ],
+      "Output": "Tuesday"
+    },
+    {
+      "Input": [
+        "02 Sep 1747"
+      ],
+      "Output": "Saturday"
+    },
+    {
+      "Input": [
+        "29 Jan 2218"
+      ],
+      "Output": "Thursday"
+    },
+    {
+      "Input": [
+        "03 Apr 2008"
+      ],
+      "Output": "Thursday"
+    }
+  ]
+}

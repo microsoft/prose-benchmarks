@@ -1,0 +1,124 @@
+{
+  "Examples": [
+    {
+      "Input": [
+        "san fraccisno"
+      ],
+      "Output": "San Francisco"
+    },
+    {
+      "Input": [
+        "SF."
+      ],
+      "Output": "San Francisco"
+    },
+    {
+      "Input": [
+        ""
+      ],
+      "Output": ""
+    },
+    {
+      "Input": [
+        "SAN FRANCISOC"
+      ],
+      "Output": "San Francisco"
+    },
+    {
+      "Input": [
+        "sf"
+      ],
+      "Output": "San Francisco"
+    },
+    {
+      "Input": [
+        "sf"
+      ],
+      "Output": "San Francisco"
+    },
+    {
+      "Input": [
+        "sf"
+      ],
+      "Output": "San Francisco"
+    },
+    {
+      "Input": [
+        "san francisco"
+      ],
+      "Output": "San Francisco"
+    },
+    {
+      "Input": [
+        "san francicso"
+      ],
+      "Output": "San Francisco"
+    },
+    {
+      "Input": [
+        "SF`"
+      ],
+      "Output": "San Francisco"
+    },
+    {
+      "Input": [
+        "S.F`"
+      ],
+      "Output": "San Francisco"
+    },
+    {
+      "Input": [
+        "SCN FRANCISAO"
+      ],
+      "Output": "San Francisco"
+    },
+    {
+      "Input": [
+        "san froncisca"
+      ],
+      "Output": "San Francisco"
+    },
+    {
+      "Input": [
+        "SIN FRANCASCO"
+      ],
+      "Output": "San Francisco"
+    },
+    {
+      "Input": [
+        "sf"
+      ],
+      "Output": "San Francisco"
+    },
+    {
+      "Input": [
+        "SAN FRANCISCO"
+      ],
+      "Output": "San Francisco"
+    },
+    {
+      "Input": [
+        "S.F"
+      ],
+      "Output": "San Francisco"
+    },
+    {
+      "Input": [
+        "SF."
+      ],
+      "Output": "San Francisco"
+    },
+    {
+      "Input": [
+        "CAN FRANCISSO"
+      ],
+      "Output": "San Francisco"
+    },
+    {
+      "Input": [
+        "SF`"
+      ],
+      "Output": "San Francisco"
+    }
+  ]
+}

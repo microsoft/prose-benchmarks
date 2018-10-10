@@ -1,0 +1,82 @@
+{
+  "Property": "root",
+  "Start": 0,
+  "End": 281,
+  "Children": [
+    {
+      "Property": "IdStruct",
+      "Start": 45,
+      "End": 123,
+      "Children": [
+        {
+          "Property": "Id",
+          "Start": 45,
+          "End": 48,
+          "Value": "795"
+        },
+        {
+          "Property": "Name",
+          "Start": 59,
+          "End": 71,
+          "Value": "Hatice Demir"
+        },
+        {
+          "Property": "Age",
+          "Start": 86,
+          "End": 88,
+          "Value": "58"
+        }
+      ]
+    },
+    {
+      "Property": "IdStruct",
+      "Start": 123,
+      "End": 200,
+      "Children": [
+        {
+          "Property": "Id",
+          "Start": 123,
+          "End": 126,
+          "Value": "461"
+        },
+        {
+          "Property": "Name",
+          "Start": 137,
+          "End": 148,
+          "Value": "Lavena Tari"
+        },
+        {
+          "Property": "Age",
+          "Start": 163,
+          "End": 165,
+          "Value": "46"
+        }
+      ]
+    },
+    {
+      "Property": "IdStruct",
+      "Start": 200,
+      "End": 281,
+      "Children": [
+        {
+          "Property": "Id",
+          "Start": 200,
+          "End": 203,
+          "Value": "665"
+        },
+        {
+          "Property": "Name",
+          "Start": 214,
+          "End": 231,
+          "Value": "Marta Guanyavents"
+        },
+        {
+          "Property": "Age",
+          "Start": 246,
+          "End": 248,
+          "Value": "66"
+        }
+      ]
+    }
+  ]
+}

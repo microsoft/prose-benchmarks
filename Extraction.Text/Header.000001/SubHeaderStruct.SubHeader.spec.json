@@ -1,0 +1,91 @@
+{
+  "Kind": "Field",
+  "Examples": [
+    {
+      "Input": [
+        {
+          "Start": 12,
+          "End": 59,
+          "Value": "Subheading0a\n\tSubheading0aa\n\tSubheading0ba\n    "
+        },
+        {
+          "Start": 59,
+          "End": 102,
+          "Value": "Subheading0b\n\tSubheading0ba\n\tSubheading0ca\n"
+        },
+        {
+          "Start": 114,
+          "End": 157,
+          "Value": "Subheading1a\n\tSubheading1aa\n\tSubheading1ab\n"
+        },
+        {
+          "Start": 169,
+          "End": 216,
+          "Value": "Subheading2a\n\tSubheading2aa\n\tSubheading2ab\n    "
+        },
+        {
+          "Start": 216,
+          "End": 259,
+          "Value": "Subheading2b\n\tSubheading2ba\n\tSubheading2bb\n"
+        },
+        {
+          "Start": 271,
+          "End": 288,
+          "Value": "Subheading3a\n    "
+        },
+        {
+          "Start": 288,
+          "End": 320,
+          "Value": "Subheading3b\n\tSubheading3ba\n    "
+        },
+        {
+          "Start": 320,
+          "End": 363,
+          "Value": "Subheading3c\n\tSubheading3ca\n\tSubheading3cb\n"
+        }
+      ],
+      "Output": [
+        {
+          "Start": 12,
+          "End": 24,
+          "Value": "Subheading0a"
+        },
+        {
+          "Start": 59,
+          "End": 71,
+          "Value": "Subheading0b"
+        },
+        {
+          "Start": 114,
+          "End": 126,
+          "Value": "Subheading1a"
+        },
+        {
+          "Start": 169,
+          "End": 181,
+          "Value": "Subheading2a"
+        },
+        {
+          "Start": 216,
+          "End": 228,
+          "Value": "Subheading2b"
+        },
+        {
+          "Start": 271,
+          "End": 283,
+          "Value": "Subheading3a"
+        },
+        {
+          "Start": 288,
+          "End": 300,
+          "Value": "Subheading3b"
+        },
+        {
+          "Start": 320,
+          "End": 332,
+          "Value": "Subheading3c"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "Examples": [
+    {
+      "Input": [
+        "http://example.com/SomePath/another/en/foo-a4/GUID-8ADE3E75-6C71-4C6A-ACFD-D00D4B7D72E2"
+      ],
+      "Output": "en_foo-a4_GUID-8ADE3E75-6C71-4C6A-ACFD-D00D4B7D72E2"
+    },
+    {
+      "Input": [
+        "http://example.com/SomePath/another/en/foo-a4/GUID-B3D68203-6E71-43CD-ABF1-32156B6848B0"
+      ],
+      "Output": "en_foo-a4_GUID-B3D68203-6E71-43CD-ABF1-32156B6848B0"
+    },
+    {
+      "Input": [
+        "http://example.com/SomePath/another/en/foo-a4/GUID-B9D86D1B-3B9B-4271-B74D-98607EB34A8E"
+      ],
+      "Output": "en_foo-a4_GUID-B9D86D1B-3B9B-4271-B74D-98607EB34A8E"
+    },
+    {
+      "Input": [
+        "http://example.com/SomePath/another/en/foo-a2/GUID-F2E27132-5CF4-4739-A6B7-0DDAEA7D1FDB"
+      ],
+      "Output": "en_foo-a2_GUID-F2E27132-5CF4-4739-A6B7-0DDAEA7D1FDB"
+    },
+    {
+      "Input": [
+        "http://example.com/SomePath/another/en/foo-a4/GUID-754D9B48-D35B-4F57-B164-54426E6F4640"
+      ],
+      "Output": "en_foo-a4_GUID-754D9B48-D35B-4F57-B164-54426E6F4640"
+    },
+    {
+      "Input": [
+        "http://example.com/SomePath/another/en/foo-a4/GUID-98FAB309-BEA9-40E9-A0AA-FC7CD8C2AA70"
+      ],
+      "Output": "en_foo-a4_GUID-98FAB309-BEA9-40E9-A0AA-FC7CD8C2AA70"
+    },
+    {
+      "Input": [
+        "http://example.com/SomePath/another/en/foo-a7/GUID-91C51783-B91C-465A-9F8F-41AD22487AE0"
+      ],
+      "Output": "en_foo-a7_GUID-91C51783-B91C-465A-9F8F-41AD22487AE0"
+    },
+    {
+      "Input": [
+        "http://example.com/SomePath/another/en/foo-a4/GUID-0BE43650-E7EB-4A78-8E9D-C3D477073FD9"
+      ],
+      "Output": "en_foo-a4_GUID-0BE43650-E7EB-4A78-8E9D-C3D477073FD9"
+    },
+    {
+      "Input": [
+        "http://example.com/SomePath/another/en/foo-a9/GUID-8DDB2E31-0FCE-4EA9-8A6D-7CE2CB4A051A"
+      ],
+      "Output": "en_foo-a9_GUID-8DDB2E31-0FCE-4EA9-8A6D-7CE2CB4A051A"
+    },
+    {
+      "Input": [
+        "http://example.com/SomePath/another/en/foo-a4/GUID-194CACB9-C2DE-4492-BAC5-054EE8C17BF5"
+      ],
+      "Output": "en_foo-a4_GUID-194CACB9-C2DE-4492-BAC5-054EE8C17BF5"
+    }
+  ]
+}

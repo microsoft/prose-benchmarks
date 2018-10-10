@@ -1,0 +1,70 @@
+{
+  "Examples": [
+    {
+      "Input": [
+        "MFM-5.2.59/xPhone-4.9"
+      ],
+      "Output": "4.9"
+    },
+    {
+      "Input": [
+        "MFM-6.4.90/xPad-8.9"
+      ],
+      "Output": "8.9"
+    },
+    {
+      "Input": [
+        "MFM-8.9.06/xPhone-5.9"
+      ],
+      "Output": "5.9"
+    },
+    {
+      "Input": [
+        "MFM-1.4.29/xPad-6.7.0"
+      ],
+      "Output": "6.7.0"
+    },
+    {
+      "Input": [
+        "MFM-5.7.12/xPhone-9.7"
+      ],
+      "Output": "9.7"
+    },
+    {
+      "Input": [
+        "MFM-2.4.76/xPad-4.1.8"
+      ],
+      "Output": "4.1.8"
+    },
+    {
+      "Input": [
+        "MFM-6.6.28/xPhone-8.0"
+      ],
+      "Output": "8.0"
+    },
+    {
+      "Input": [
+        "MFM-8.2.94/xPhone-6.7.8"
+      ],
+      "Output": "6.7.8"
+    },
+    {
+      "Input": [
+        "MFM-1.9.14/xPhone-5.3.6"
+      ],
+      "Output": "5.3.6"
+    },
+    {
+      "Input": [
+        "MFM-7.7.92/xPhone-5.6"
+      ],
+      "Output": "5.6"
+    },
+    {
+      "Input": [
+        "MFM-2.1.06/xPhone-6.6"
+      ],
+      "Output": "6.6"
+    }
+  ]
+}

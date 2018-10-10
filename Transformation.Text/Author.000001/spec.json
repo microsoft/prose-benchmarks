@@ -1,0 +1,238 @@
+{
+  "Examples": [
+    {
+      "Input": [
+        "Living"
+      ],
+      "Output": "2016"
+    },
+    {
+      "Input": [
+        "6-Apr-92"
+      ],
+      "Output": "1992"
+    },
+    {
+      "Input": [
+        "1 December 1848"
+      ],
+      "Output": "1848"
+    },
+    {
+      "Input": [
+        "1984"
+      ],
+      "Output": "1984"
+    },
+    {
+      "Input": [
+        "28-Nov-68"
+      ],
+      "Output": "1968"
+    },
+    {
+      "Input": [
+        "2-Dec-65"
+      ],
+      "Output": "1965"
+    },
+    {
+      "Input": [
+        "21-May-00"
+      ],
+      "Output": "2000"
+    },
+    {
+      "Input": [
+        "9-Jun-73"
+      ],
+      "Output": "1973"
+    },
+    {
+      "Input": [
+        "Living"
+      ],
+      "Output": "2016"
+    },
+    {
+      "Input": [
+        "Living"
+      ],
+      "Output": "2016"
+    },
+    {
+      "Input": [
+        "5 December 1870"
+      ],
+      "Output": "1870"
+    },
+    {
+      "Input": [
+        "6-Nov-62"
+      ],
+      "Output": "1962"
+    },
+    {
+      "Input": [
+        "1-Mar-20"
+      ],
+      "Output": "2020"
+    },
+    {
+      "Input": [
+        "Living"
+      ],
+      "Output": "2016"
+    },
+    {
+      "Input": [
+        "1111"
+      ],
+      "Output": "1111"
+    },
+    {
+      "Input": [
+        "24-Dec-61"
+      ],
+      "Output": "1961"
+    },
+    {
+      "Input": [
+        "8 November 1240"
+      ],
+      "Output": "1240"
+    },
+    {
+      "Input": [
+        "16-Aug-04"
+      ],
+      "Output": "2004"
+    },
+    {
+      "Input": [
+        "Living"
+      ],
+      "Output": "2016"
+    },
+    {
+      "Input": [
+        "27-Nov-40"
+      ],
+      "Output": "1940"
+    },
+    {
+      "Input": [
+        "10-Mar-07"
+      ],
+      "Output": "2007"
+    },
+    {
+      "Input": [
+        "1887"
+      ],
+      "Output": "1887"
+    },
+    {
+      "Input": [
+        "1973"
+      ],
+      "Output": "1973"
+    },
+    {
+      "Input": [
+        "1987"
+      ],
+      "Output": "1987"
+    },
+    {
+      "Input": [
+        "1914"
+      ],
+      "Output": "1914"
+    },
+    {
+      "Input": [
+        "18-Jan-17"
+      ],
+      "Output": "2017"
+    },
+    {
+      "Input": [
+        "Living"
+      ],
+      "Output": "2016"
+    },
+    {
+      "Input": [
+        "2003"
+      ],
+      "Output": "2003"
+    },
+    {
+      "Input": [
+        "Living"
+      ],
+      "Output": "2016"
+    },
+    {
+      "Input": [
+        "Living"
+      ],
+      "Output": "2016"
+    },
+    {
+      "Input": [
+        "19-Oct-61"
+      ],
+      "Output": "1961"
+    },
+    {
+      "Input": [
+        "2001"
+      ],
+      "Output": "2001"
+    },
+    {
+      "Input": [
+        "4-Sep-89"
+      ],
+      "Output": "1989"
+    },
+    {
+      "Input": [
+        "Living"
+      ],
+      "Output": "2016"
+    },
+    {
+      "Input": [
+        "1505"
+      ],
+      "Output": "1505"
+    },
+    {
+      "Input": [
+        "17-Jun-43"
+      ],
+      "Output": "1943"
+    },
+    {
+      "Input": [
+        "11-Apr-09"
+      ],
+      "Output": "2009"
+    },
+    {
+      "Input": [
+        "27 August 1635"
+      ],
+      "Output": "1635"
+    },
+    {
+      "Input": [
+        "30-Jun-02"
+      ],
+      "Output": "2002"
+    }
+  ]
+}

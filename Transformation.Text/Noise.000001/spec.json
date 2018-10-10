@@ -1,0 +1,39 @@
+{
+  "Examples": [
+    {
+      "Input": [
+        "#uhu*q kkrxr b^ z",
+        "%^ bzt(z"
+      ],
+      "Output": "#uhu*q kkrxr b^ z%^ bzt(z"
+    },
+    {
+      "Input": [
+        "gqk",
+        "x#bom)s!ek*$mqfip!ws"
+      ],
+      "Output": "gqkx#bom)s!ek*$mqfip!ws"
+    },
+    {
+      "Input": [
+        "%@^zxi**d^gx%i ry!",
+        "d!!e*grumyr%$$#(k"
+      ],
+      "Output": "%@^zxi**d^gx%i ry!d!!e*grumyr%$$#(k"
+    },
+    {
+      "Input": [
+        "mk%igcxzx(i(c*",
+        "dfdw)sfzviwan^c"
+      ],
+      "Output": "mk%igcxzx(i(c*dfdw)sfzviwan^c"
+    },
+    {
+      "Input": [
+        ") otkstcks^wd@o",
+        "ezw%zvggwj vcj^vxt)"
+      ],
+      "Output": ") otkstcks^wd@oezw%zvggwj vcj^vxt)"
+    }
+  ]
+}

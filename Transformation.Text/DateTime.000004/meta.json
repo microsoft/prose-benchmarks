@@ -1,0 +1,8 @@
+{
+  "Features": [
+    "Concatenation",
+    "DateTime",
+    "Multicolumn"
+  ],
+  "Synthetic": true
+}

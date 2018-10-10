@@ -1,0 +1,271 @@
+{
+  "Kind": "Field",
+  "Examples": [
+    {
+      "Input": [
+        {
+          "Start": 158,
+          "End": 199,
+          "Value": ".\n05/11/2014  12:50 AM    <DIR>          "
+        },
+        {
+          "Start": 199,
+          "End": 438,
+          "Value": "..\n01/17/2014  07:18 PM                61 .gitconfig\n03/22/2014  10:24 PM               811 .jscs.json\n03/22/2014  10:24 PM             6,054 .jshintrc\n01/27/2014  06:29 PM                35 .lesshst\n04/30/2014  04:00 PM    <DIR>          "
+        },
+        {
+          "Start": 438,
+          "End": 489,
+          "Value": ".receitanet\n04/23/2014  10:39 AM    <DIR>          "
+        },
+        {
+          "Start": 489,
+          "End": 533,
+          "Value": ".ssh\n11/29/2013  01:28 PM    <DIR>          "
+        },
+        {
+          "Start": 533,
+          "End": 577,
+          "Value": "atal\n04/09/2014  09:55 PM    <DIR>          "
+        },
+        {
+          "Start": 577,
+          "End": 625,
+          "Value": "Contacts\n05/08/2014  11:10 PM    <DIR>          "
+        },
+        {
+          "Start": 625,
+          "End": 944,
+          "Value": "Desktop\n01/22/2014  12:49 PM         3,211,264 DevelopmentStorageDb21.mdf\n01/22/2014  12:49 PM           802,816 DevelopmentStorageDb21_log.ldf\n05/06/2014  11:50 PM        62,980,096 DevelopmentStorageDb22.mdf\n05/06/2014  11:50 PM         1,114,112 DevelopmentStorageDb22_log.ldf\n05/09/2014  12:24 PM    <DIR>          "
+        },
+        {
+          "Start": 944,
+          "End": 993,
+          "Value": "Documents\n05/09/2014  11:01 PM    <DIR>          "
+        },
+        {
+          "Start": 993,
+          "End": 1042,
+          "Value": "Downloads\n05/10/2014  12:30 PM    <DIR>          "
+        },
+        {
+          "Start": 1042,
+          "End": 1089,
+          "Value": "Dropbox\n04/21/2014  10:46 AM    <DIR>          "
+        },
+        {
+          "Start": 1089,
+          "End": 1138,
+          "Value": "Favorites\n03/28/2014  01:34 PM    <DIR>          "
+        },
+        {
+          "Start": 1138,
+          "End": 1181,
+          "Value": "git\n05/02/2014  12:10 AM    <DIR>          "
+        },
+        {
+          "Start": 1181,
+          "End": 1226,
+          "Value": "Links\n05/07/2014  07:28 PM    <DIR>          "
+        },
+        {
+          "Start": 1226,
+          "End": 1275,
+          "Value": "Microsoft\n05/09/2014  12:17 PM    <DIR>          "
+        },
+        {
+          "Start": 1275,
+          "End": 1320,
+          "Value": "Music\n04/15/2014  05:15 PM    <DIR>          "
+        },
+        {
+          "Start": 1320,
+          "End": 1362,
+          "Value": "p2\n05/05/2014  03:33 PM    <DIR>          "
+        },
+        {
+          "Start": 1362,
+          "End": 1410,
+          "Value": "Pictures\n04/09/2014  09:55 PM    <DIR>          "
+        },
+        {
+          "Start": 1410,
+          "End": 1461,
+          "Value": "Saved Games\n04/09/2014  09:55 PM    <DIR>          "
+        },
+        {
+          "Start": 1461,
+          "End": 1509,
+          "Value": "Searches\n05/08/2014  09:35 AM    <DIR>          "
+        },
+        {
+          "Start": 1509,
+          "End": 1557,
+          "Value": "SkyDrive\n01/11/2014  12:25 PM    <DIR>          "
+        },
+        {
+          "Start": 1557,
+          "End": 1613,
+          "Value": "SkyDrive (2).old\n10/23/2013  07:56 AM    <DIR>          "
+        },
+        {
+          "Start": 1613,
+          "End": 1665,
+          "Value": "SkyDrive.old\n10/10/2013  01:01 PM    <DIR>          "
+        },
+        {
+          "Start": 1665,
+          "End": 1763,
+          "Value": "Tracing\n03/22/2014  10:24 PM             1,119 tslint.json\n04/09/2014  09:55 PM    <DIR>          "
+        },
+        {
+          "Start": 1763,
+          "End": 1809,
+          "Value": "Videos\n09/14/2013  01:10 PM    <DIR>          "
+        },
+        {
+          "Start": 1809,
+          "End": 1863,
+          "Value": "Web Essentials\n11/19/2013  04:31 PM    <DIR>          "
+        },
+        {
+          "Start": 1863,
+          "End": 2017,
+          "Value": "workspace\n05/11/2014  12:50 AM             7,238 _viminfo\n              10 File(s)     68,123,606 bytes\n              26 Dir(s)  29,080,342,528 bytes free"
+        }
+      ],
+      "Output": [
+        {
+          "Start": 158,
+          "End": 159,
+          "Value": "."
+        },
+        {
+          "Start": 199,
+          "End": 201,
+          "Value": ".."
+        },
+        {
+          "Start": 438,
+          "End": 449,
+          "Value": ".receitanet"
+        },
+        {
+          "Start": 489,
+          "End": 493,
+          "Value": ".ssh"
+        },
+        {
+          "Start": 533,
+          "End": 537,
+          "Value": "atal"
+        },
+        {
+          "Start": 577,
+          "End": 585,
+          "Value": "Contacts"
+        },
+        {
+          "Start": 625,
+          "End": 632,
+          "Value": "Desktop"
+        },
+        {
+          "Start": 944,
+          "End": 953,
+          "Value": "Documents"
+        },
+        {
+          "Start": 993,
+          "End": 1002,
+          "Value": "Downloads"
+        },
+        {
+          "Start": 1042,
+          "End": 1049,
+          "Value": "Dropbox"
+        },
+        {
+          "Start": 1089,
+          "End": 1098,
+          "Value": "Favorites"
+        },
+        {
+          "Start": 1138,
+          "End": 1141,
+          "Value": "git"
+        },
+        {
+          "Start": 1181,
+          "End": 1186,
+          "Value": "Links"
+        },
+        {
+          "Start": 1226,
+          "End": 1235,
+          "Value": "Microsoft"
+        },
+        {
+          "Start": 1275,
+          "End": 1280,
+          "Value": "Music"
+        },
+        {
+          "Start": 1320,
+          "End": 1322,
+          "Value": "p2"
+        },
+        {
+          "Start": 1362,
+          "End": 1370,
+          "Value": "Pictures"
+        },
+        {
+          "Start": 1410,
+          "End": 1421,
+          "Value": "Saved Games"
+        },
+        {
+          "Start": 1461,
+          "End": 1469,
+          "Value": "Searches"
+        },
+        {
+          "Start": 1509,
+          "End": 1517,
+          "Value": "SkyDrive"
+        },
+        {
+          "Start": 1557,
+          "End": 1573,
+          "Value": "SkyDrive (2).old"
+        },
+        {
+          "Start": 1613,
+          "End": 1625,
+          "Value": "SkyDrive.old"
+        },
+        {
+          "Start": 1665,
+          "End": 1672,
+          "Value": "Tracing"
+        },
+        {
+          "Start": 1763,
+          "End": 1769,
+          "Value": "Videos"
+        },
+        {
+          "Start": 1809,
+          "End": 1823,
+          "Value": "Web Essentials"
+        },
+        {
+          "Start": 1863,
+          "End": 1872,
+          "Value": "workspace"
+        }
+      ]
+    }
+  ]
+}

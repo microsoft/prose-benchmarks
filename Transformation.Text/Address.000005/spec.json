@@ -1,0 +1,22 @@
+{
+  "Examples": [
+    {
+      "Input": [
+        "Abdoulaye Drubych\n123 First Ln.\nVancouver\nMI\n38891"
+      ],
+      "Output": "123 First Ln."
+    },
+    {
+      "Input": [
+        "Rohini Che\n90 Cherry Pkwy.\nCleveland\nNE\n38891"
+      ],
+      "Output": "90 Cherry Pkwy."
+    },
+    {
+      "Input": [
+        "Nitin Lapsa\n3456 Pecan Ave.\nRiyadh\nCO\n17293"
+      ],
+      "Output": "3456 Pecan Ave."
+    }
+  ]
+}

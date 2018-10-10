@@ -1,0 +1,44 @@
+C:\Users\Gustavo>dir
+ Volume in drive C is Windows
+ Volume Serial Number is 1082-67CE
+
+ Directory of C:\Users\Gustavo
+
+05/11/2014  12:50 AM    <DIR>          .
+05/11/2014  12:50 AM    <DIR>          ..
+01/17/2014  07:18 PM                61 .gitconfig
+03/22/2014  10:24 PM               811 .jscs.json
+03/22/2014  10:24 PM             6,054 .jshintrc
+01/27/2014  06:29 PM                35 .lesshst
+04/30/2014  04:00 PM    <DIR>          .receitanet
+04/23/2014  10:39 AM    <DIR>          .ssh
+11/29/2013  01:28 PM    <DIR>          atal
+04/09/2014  09:55 PM    <DIR>          Contacts
+05/08/2014  11:10 PM    <DIR>          Desktop
+01/22/2014  12:49 PM         3,211,264 DevelopmentStorageDb21.mdf
+01/22/2014  12:49 PM           802,816 DevelopmentStorageDb21_log.ldf
+05/06/2014  11:50 PM        62,980,096 DevelopmentStorageDb22.mdf
+05/06/2014  11:50 PM         1,114,112 DevelopmentStorageDb22_log.ldf
+05/09/2014  12:24 PM    <DIR>          Documents
+05/09/2014  11:01 PM    <DIR>          Downloads
+05/10/2014  12:30 PM    <DIR>          Dropbox
+04/21/2014  10:46 AM    <DIR>          Favorites
+03/28/2014  01:34 PM    <DIR>          git
+05/02/2014  12:10 AM    <DIR>          Links
+05/07/2014  07:28 PM    <DIR>          Microsoft
+05/09/2014  12:17 PM    <DIR>          Music
+04/15/2014  05:15 PM    <DIR>          p2
+05/05/2014  03:33 PM    <DIR>          Pictures
+04/09/2014  09:55 PM    <DIR>          Saved Games
+04/09/2014  09:55 PM    <DIR>          Searches
+05/08/2014  09:35 AM    <DIR>          SkyDrive
+01/11/2014  12:25 PM    <DIR>          SkyDrive (2).old
+10/23/2013  07:56 AM    <DIR>          SkyDrive.old
+10/10/2013  01:01 PM    <DIR>          Tracing
+03/22/2014  10:24 PM             1,119 tslint.json
+04/09/2014  09:55 PM    <DIR>          Videos
+09/14/2013  01:10 PM    <DIR>          Web Essentials
+11/19/2013  04:31 PM    <DIR>          workspace
+05/11/2014  12:50 AM             7,238 _viminfo
+              10 File(s)     68,123,606 bytes
+              26 Dir(s)  29,080,342,528 bytes free

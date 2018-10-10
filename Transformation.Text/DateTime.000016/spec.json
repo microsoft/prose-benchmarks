@@ -1,0 +1,100 @@
+{
+  "Examples": [
+    {
+      "Input": [
+        "1 January 2015"
+      ],
+      "Output": "Thu W1"
+    },
+    {
+      "Input": [
+        "8 January 2015"
+      ],
+      "Output": "Thu W2"
+    },
+    {
+      "Input": [
+        "17 Dec 1973"
+      ],
+      "Output": "Mon W51"
+    },
+    {
+      "Input": [
+        "15 Aug 1947"
+      ],
+      "Output": "Fri W33"
+    },
+    {
+      "Input": [
+        "Jan 10 1975"
+      ],
+      "Output": "Fri W2"
+    },
+    {
+      "Input": [
+        "1 Feb 2013"
+      ],
+      "Output": "Fri W5"
+    },
+    {
+      "Input": [
+        "12 Dec 2002"
+      ],
+      "Output": "Thu W50"
+    },
+    {
+      "Input": [
+        "01 Sep 2012"
+      ],
+      "Output": "Sat W35"
+    },
+    {
+      "Input": [
+        "5 June 2016"
+      ],
+      "Output": "Sun W22"
+    },
+    {
+      "Input": [
+        "02-Jan-1998"
+      ],
+      "Output": "Fri W1"
+    },
+    {
+      "Input": [
+        "12171973"
+      ],
+      "Output": "Mon W51"
+    },
+    {
+      "Input": [
+        "1932 97"
+      ],
+      "Output": "Wed W14"
+    },
+    {
+      "Input": [
+        "Mar 1983 Tue 3"
+      ],
+      "Output": "Tue W11"
+    },
+    {
+      "Input": [
+        "1 Jan 1999"
+      ],
+      "Output": "Fri W53"
+    },
+    {
+      "Input": [
+        "30 Dec 1997"
+      ],
+      "Output": "Tue W1"
+    },
+    {
+      "Input": [
+        "Thu wk 10 in 2039"
+      ],
+      "Output": "Thu W10"
+    }
+  ]
+}

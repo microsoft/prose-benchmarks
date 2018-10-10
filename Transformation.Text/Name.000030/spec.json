@@ -1,0 +1,22 @@
+{
+  "Examples": [
+    {
+      "Input": [
+        "Albert, Anne"
+      ],
+      "Output": "Albert"
+    },
+    {
+      "Input": [
+        "Sarlis, Fatma"
+      ],
+      "Output": "Sarlis"
+    },
+    {
+      "Input": [
+        "Kuznetsov, Dilorom"
+      ],
+      "Output": "Kuznetsov"
+    }
+  ]
+}

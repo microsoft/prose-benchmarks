@@ -1,0 +1,64 @@
+{
+  "Examples": [
+    {
+      "Input": [
+        "Hone-Kiriakos Yilmaz"
+      ],
+      "Output": "Hone"
+    },
+    {
+      "Input": [
+        "Artem Milanesi"
+      ],
+      "Output": "Artem"
+    },
+    {
+      "Input": [
+        "Bidisha-Snezhana Panigrahi"
+      ],
+      "Output": "Bidisha"
+    },
+    {
+      "Input": [
+        "Maureen-Snorre Ndiaye"
+      ],
+      "Output": "Maureen"
+    },
+    {
+      "Input": [
+        "Rodel-Habiba Chaiprasit"
+      ],
+      "Output": "Rodel"
+    },
+    {
+      "Input": [
+        "Jan Evans"
+      ],
+      "Output": "Jan"
+    },
+    {
+      "Input": [
+        "Antonia Lusis"
+      ],
+      "Output": "Antonia"
+    },
+    {
+      "Input": [
+        "Barbara Susila"
+      ],
+      "Output": "Barbara"
+    },
+    {
+      "Input": [
+        "Meena Orav"
+      ],
+      "Output": "Meena"
+    },
+    {
+      "Input": [
+        "Afonso-Igor Krause"
+      ],
+      "Output": "Afonso"
+    }
+  ]
+}

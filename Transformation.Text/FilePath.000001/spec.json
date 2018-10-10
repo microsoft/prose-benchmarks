@@ -1,0 +1,106 @@
+{
+  "Examples": [
+    {
+      "Input": [
+        "/libero/quas/enim5.png"
+      ],
+      "Output": "enim5"
+    },
+    {
+      "Input": [
+        "/libero/enim5.png"
+      ],
+      "Output": "enim5"
+    },
+    {
+      "Input": [
+        "/libero/quas/enim2.png"
+      ],
+      "Output": "enim2"
+    },
+    {
+      "Input": [
+        "/libero/enim4.png"
+      ],
+      "Output": "enim4"
+    },
+    {
+      "Input": [
+        "/libero/quas/enim0.png"
+      ],
+      "Output": "enim0"
+    },
+    {
+      "Input": [
+        "/libero/quas/enim3.png"
+      ],
+      "Output": "enim3"
+    },
+    {
+      "Input": [
+        "/libero/quas/enim0.png"
+      ],
+      "Output": "enim0"
+    },
+    {
+      "Input": [
+        "/libero/quas/enim6.png"
+      ],
+      "Output": "enim6"
+    },
+    {
+      "Input": [
+        "/libero/enim0.png"
+      ],
+      "Output": "enim0"
+    },
+    {
+      "Input": [
+        "/libero/enim4.png"
+      ],
+      "Output": "enim4"
+    },
+    {
+      "Input": [
+        "/libero/enim9.png"
+      ],
+      "Output": "enim9"
+    },
+    {
+      "Input": [
+        "/libero/iste/enim3.png"
+      ],
+      "Output": "enim3"
+    },
+    {
+      "Input": [
+        "/libero/enim9.png"
+      ],
+      "Output": "enim9"
+    },
+    {
+      "Input": [
+        "/libero/enim7.png"
+      ],
+      "Output": "enim7"
+    },
+    {
+      "Input": [
+        "/"
+      ],
+      "Output": "root"
+    },
+    {
+      "Input": [
+        "/libero/enim9.png"
+      ],
+      "Output": "enim9"
+    },
+    {
+      "Input": [
+        "/libero/non3/enim1.png"
+      ],
+      "Output": "enim1"
+    }
+  ]
+}

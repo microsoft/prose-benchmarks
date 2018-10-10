@@ -1,0 +1,317 @@
+{
+  "Property": "root",
+  "Start": 0,
+  "End": 417,
+  "Children": [
+    {
+      "Property": "Record",
+      "Start": 3,
+      "End": 41,
+      "Children": [
+        {
+          "Property": "Country",
+          "Start": 3,
+          "End": 13,
+          "Value": "Luxembourg"
+        },
+        {
+          "Property": "No1",
+          "Start": 23,
+          "End": 27,
+          "Value": "4828"
+        },
+        {
+          "Property": "No2",
+          "Start": 28,
+          "End": 31,
+          "Value": "190"
+        },
+        {
+          "Property": "Continent",
+          "Start": 32,
+          "End": 41,
+          "Value": "Australia"
+        }
+      ]
+    },
+    {
+      "Property": "Record",
+      "Start": 45,
+      "End": 78,
+      "Children": [
+        {
+          "Property": "Country",
+          "Start": 45,
+          "End": 53,
+          "Value": "Cameroon"
+        },
+        {
+          "Property": "No1",
+          "Start": 65,
+          "End": 69,
+          "Value": "8456"
+        },
+        {
+          "Property": "No2",
+          "Start": 70,
+          "End": 73,
+          "Value": "247"
+        },
+        {
+          "Property": "Continent",
+          "Start": 74,
+          "End": 78,
+          "Value": "Asia"
+        }
+      ]
+    },
+    {
+      "Property": "Record",
+      "Start": 82,
+      "End": 117,
+      "Children": [
+        {
+          "Property": "Country",
+          "Start": 82,
+          "End": 93,
+          "Value": "Congo (DRC)"
+        },
+        {
+          "Property": "No1",
+          "Start": 102,
+          "End": 106,
+          "Value": "4061"
+        },
+        {
+          "Property": "No2",
+          "Start": 107,
+          "End": 110,
+          "Value": "851"
+        },
+        {
+          "Property": "Continent",
+          "Start": 111,
+          "End": 117,
+          "Value": "Africa"
+        }
+      ]
+    },
+    {
+      "Property": "Record",
+      "Start": 121,
+      "End": 163,
+      "Children": [
+        {
+          "Property": "Country",
+          "Start": 121,
+          "End": 130,
+          "Value": "Singapore"
+        },
+        {
+          "Property": "No1",
+          "Start": 141,
+          "End": 145,
+          "Value": "5858"
+        },
+        {
+          "Property": "No2",
+          "Start": 146,
+          "End": 149,
+          "Value": "282"
+        },
+        {
+          "Property": "Continent",
+          "Start": 150,
+          "End": 163,
+          "Value": "North America"
+        }
+      ]
+    },
+    {
+      "Property": "Record",
+      "Start": 167,
+      "End": 204,
+      "Children": [
+        {
+          "Property": "Country",
+          "Start": 167,
+          "End": 180,
+          "Value": "Hong Kong SAR"
+        },
+        {
+          "Property": "No1",
+          "Start": 187,
+          "End": 190,
+          "Value": "282"
+        },
+        {
+          "Property": "No2",
+          "Start": 191,
+          "End": 194,
+          "Value": "610"
+        },
+        {
+          "Property": "Continent",
+          "Start": 195,
+          "End": 204,
+          "Value": "Australia"
+        }
+      ]
+    },
+    {
+      "Property": "Record",
+      "Start": 208,
+      "End": 246,
+      "Children": [
+        {
+          "Property": "Country",
+          "Start": 208,
+          "End": 216,
+          "Value": "Cameroon"
+        },
+        {
+          "Property": "No1",
+          "Start": 228,
+          "End": 232,
+          "Value": "4730"
+        },
+        {
+          "Property": "No2",
+          "Start": 233,
+          "End": 235,
+          "Value": "83"
+        },
+        {
+          "Property": "Continent",
+          "Start": 236,
+          "End": 246,
+          "Value": "Antarctica"
+        }
+      ]
+    },
+    {
+      "Property": "Record",
+      "Start": 250,
+      "End": 292,
+      "Children": [
+        {
+          "Property": "Country",
+          "Start": 250,
+          "End": 256,
+          "Value": "Rwanda"
+        },
+        {
+          "Property": "No1",
+          "Start": 270,
+          "End": 274,
+          "Value": "8551"
+        },
+        {
+          "Property": "No2",
+          "Start": 275,
+          "End": 278,
+          "Value": "562"
+        },
+        {
+          "Property": "Continent",
+          "Start": 279,
+          "End": 292,
+          "Value": "North America"
+        }
+      ]
+    },
+    {
+      "Property": "Record",
+      "Start": 296,
+      "End": 334,
+      "Children": [
+        {
+          "Property": "Country",
+          "Start": 296,
+          "End": 302,
+          "Value": "Panama"
+        },
+        {
+          "Property": "No1",
+          "Start": 316,
+          "End": 320,
+          "Value": "2968"
+        },
+        {
+          "Property": "No2",
+          "Start": 321,
+          "End": 324,
+          "Value": "830"
+        },
+        {
+          "Property": "Continent",
+          "Start": 325,
+          "End": 334,
+          "Value": "Australia"
+        }
+      ]
+    },
+    {
+      "Property": "Record",
+      "Start": 338,
+      "End": 380,
+      "Children": [
+        {
+          "Property": "Country",
+          "Start": 338,
+          "End": 344,
+          "Value": "France"
+        },
+        {
+          "Property": "No1",
+          "Start": 358,
+          "End": 362,
+          "Value": "2365"
+        },
+        {
+          "Property": "No2",
+          "Start": 363,
+          "End": 366,
+          "Value": "787"
+        },
+        {
+          "Property": "Continent",
+          "Start": 367,
+          "End": 380,
+          "Value": "North America"
+        }
+      ]
+    },
+    {
+      "Property": "Record",
+      "Start": 384,
+      "End": 417,
+      "Children": [
+        {
+          "Property": "Country",
+          "Start": 384,
+          "End": 389,
+          "Value": "Haiti"
+        },
+        {
+          "Property": "No1",
+          "Start": 404,
+          "End": 408,
+          "Value": "1270"
+        },
+        {
+          "Property": "No2",
+          "Start": 409,
+          "End": 412,
+          "Value": "203"
+        },
+        {
+          "Property": "Continent",
+          "Start": 413,
+          "End": 417,
+          "Value": "Asia"
+        }
+      ]
+    }
+  ]
+}

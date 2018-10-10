@@ -1,0 +1,40 @@
+{
+  "Examples": [
+    {
+      "Input": [
+        "Foo"
+      ],
+      "Output": "F"
+    },
+    {
+      "Input": [
+        "A"
+      ],
+      "Output": "A"
+    },
+    {
+      "Input": [
+        null
+      ],
+      "Output": "N/A"
+    },
+    {
+      "Input": [
+        "Z"
+      ],
+      "Output": "Z"
+    },
+    {
+      "Input": [
+        "Baz"
+      ],
+      "Output": "B"
+    },
+    {
+      "Input": [
+        null
+      ],
+      "Output": "N/A"
+    }
+  ]
+}

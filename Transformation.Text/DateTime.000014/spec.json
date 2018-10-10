@@ -1,0 +1,82 @@
+{
+  "Examples": [
+    {
+      "Input": [
+        "17 Dec 1973"
+      ],
+      "Output": "Monday #3 December 1973"
+    },
+    {
+      "Input": [
+        "15 Aug 1947"
+      ],
+      "Output": "Friday #3 August 1947"
+    },
+    {
+      "Input": [
+        "Jan 10 1975"
+      ],
+      "Output": "Friday #2 January 1975"
+    },
+    {
+      "Input": [
+        "1 January 2014"
+      ],
+      "Output": "Wednesday #1 January 2014"
+    },
+    {
+      "Input": [
+        "1 Feb 2013"
+      ],
+      "Output": "Friday #1 February 2013"
+    },
+    {
+      "Input": [
+        "12 Dec 2002"
+      ],
+      "Output": "Thursday #2 December 2002"
+    },
+    {
+      "Input": [
+        "01 Sep 2012"
+      ],
+      "Output": "Saturday #1 September 2012"
+    },
+    {
+      "Input": [
+        "5 June 2016"
+      ],
+      "Output": "Sunday #1 June 2016"
+    },
+    {
+      "Input": [
+        "02-Jan-1998"
+      ],
+      "Output": "Friday #1 January 1998"
+    },
+    {
+      "Input": [
+        "12171973"
+      ],
+      "Output": "Monday #3 December 1973"
+    },
+    {
+      "Input": [
+        "1932 97"
+      ],
+      "Output": "Wednesday #1 April 1932"
+    },
+    {
+      "Input": [
+        "Mar 1983 Tue 3"
+      ],
+      "Output": "Tuesday #3 March 1983"
+    },
+    {
+      "Input": [
+        "Thu wk 10 in 2039"
+      ],
+      "Output": "Thursday #2 March 2039"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "Examples": [
+    {
+      "Input": [
+        "a",
+        "b",
+        "c"
+      ],
+      "Output": "abc"
+    },
+    {
+      "Input": [
+        "d",
+        "e",
+        "f"
+      ],
+      "Output": "def"
+    }
+  ]
+}

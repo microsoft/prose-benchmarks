@@ -1,0 +1,34 @@
+{
+  "Examples": [
+    {
+      "Input": [
+        "06/10/2143"
+      ],
+      "Output": "October the 6th 2143"
+    },
+    {
+      "Input": [
+        "30/3/2002"
+      ],
+      "Output": "March the 30th 2002"
+    },
+    {
+      "Input": [
+        "31/1/1846"
+      ],
+      "Output": "January the 31th 1846"
+    },
+    {
+      "Input": [
+        "22/4/1953"
+      ],
+      "Output": "April the 22th 1953"
+    },
+    {
+      "Input": [
+        "30/3/2241"
+      ],
+      "Output": "March the 30th 2241"
+    }
+  ]
+}

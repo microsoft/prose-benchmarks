@@ -1,0 +1,604 @@
+{
+  "Examples": [
+    {
+      "Input": [
+        "vimi4b8qs@lamnahealtcare.com"
+      ],
+      "Output": "lamnahealtcare.com"
+    },
+    {
+      "Input": [
+        "8b19p@fabrikamresidences.com"
+      ],
+      "Output": "fabrikamresidences.com"
+    },
+    {
+      "Input": [
+        "9crg5qhfl@humongousinsurance.com"
+      ],
+      "Output": "humongousinsurance.com"
+    },
+    {
+      "Input": [
+        "nvbxv7fshq@vanarsdelltd.com"
+      ],
+      "Output": "vanarsdelltd.com"
+    },
+    {
+      "Input": [
+        "cjnz@relecloud.com"
+      ],
+      "Output": "relecloud.com"
+    },
+    {
+      "Input": [
+        "m2zt1@proseware.com"
+      ],
+      "Output": "proseware.com"
+    },
+    {
+      "Input": [
+        "33f@treyresearch.net"
+      ],
+      "Output": "treyresearch.net"
+    },
+    {
+      "Input": [
+        "zn9dosy@bellowscollege.com"
+      ],
+      "Output": "bellowscollege.com"
+    },
+    {
+      "Input": [
+        "h4ldhupd@treyresearch.net"
+      ],
+      "Output": "treyresearch.net"
+    },
+    {
+      "Input": [
+        "v6sgpury@contososuites.com"
+      ],
+      "Output": "contososuites.com"
+    },
+    {
+      "Input": [
+        "m@proseware.com"
+      ],
+      "Output": "proseware.com"
+    },
+    {
+      "Input": [
+        "n5e3qfjgl7@libertysdelightfulsinfulbakeryandcafe.com"
+      ],
+      "Output": "libertysdelightfulsinfulbakeryandcafe.com"
+    },
+    {
+      "Input": [
+        "jnmaw0d@fabrikam.com"
+      ],
+      "Output": "fabrikam.com"
+    },
+    {
+      "Input": [
+        "9ygrfgdre0@nodpublishers.com"
+      ],
+      "Output": "nodpublishers.com"
+    },
+    {
+      "Input": [
+        "y5irmzqj@contoso.com"
+      ],
+      "Output": "contoso.com"
+    },
+    {
+      "Input": [
+        "p9jdq0j@northwindtraders.com"
+      ],
+      "Output": "northwindtraders.com"
+    },
+    {
+      "Input": [
+        "efjynjip9s@alpineskihouse.com"
+      ],
+      "Output": "alpineskihouse.com"
+    },
+    {
+      "Input": [
+        "neojb@humongousinsurance.com"
+      ],
+      "Output": "humongousinsurance.com"
+    },
+    {
+      "Input": [
+        "ym4b@libertysdelightfulsinfulbakeryandcafe.com"
+      ],
+      "Output": "libertysdelightfulsinfulbakeryandcafe.com"
+    },
+    {
+      "Input": [
+        "bor7kvua82@woodgrovebank.com"
+      ],
+      "Output": "woodgrovebank.com"
+    },
+    {
+      "Input": [
+        "3l@vanarsdelltd.com"
+      ],
+      "Output": "vanarsdelltd.com"
+    },
+    {
+      "Input": [
+        "fv9cqhme@munsonspicklesandpreservesfarm.com"
+      ],
+      "Output": "munsonspicklesandpreservesfarm.com"
+    },
+    {
+      "Input": [
+        "pwil@margiestravel.com"
+      ],
+      "Output": "margiestravel.com"
+    },
+    {
+      "Input": [
+        "bg2s@vanarsdelltd.com"
+      ],
+      "Output": "vanarsdelltd.com"
+    },
+    {
+      "Input": [
+        "qdm@vanarsdelltd.com"
+      ],
+      "Output": "vanarsdelltd.com"
+    },
+    {
+      "Input": [
+        "twp9la8@wingtiptoys.com"
+      ],
+      "Output": "wingtiptoys.com"
+    },
+    {
+      "Input": [
+        "fldgtg0n@margiestravel.com"
+      ],
+      "Output": "margiestravel.com"
+    },
+    {
+      "Input": [
+        "1b4xcvwao@woodgrovebank.com"
+      ],
+      "Output": "woodgrovebank.com"
+    },
+    {
+      "Input": [
+        "m@woodgrovebank.com"
+      ],
+      "Output": "woodgrovebank.com"
+    },
+    {
+      "Input": [
+        "iaipx1@fabrikamresidences.com"
+      ],
+      "Output": "fabrikamresidences.com"
+    },
+    {
+      "Input": [
+        "zhgkni@fabrikamresidences.com"
+      ],
+      "Output": "fabrikamresidences.com"
+    },
+    {
+      "Input": [
+        "c5uljpmhf@southridgevideo.com"
+      ],
+      "Output": "southridgevideo.com"
+    },
+    {
+      "Input": [
+        "bh@thephone-company.com"
+      ],
+      "Output": "thephone-company.com"
+    },
+    {
+      "Input": [
+        "najc9hhr@nodpublishers.com"
+      ],
+      "Output": "nodpublishers.com"
+    },
+    {
+      "Input": [
+        "qab@fabrikam.com"
+      ],
+      "Output": "fabrikam.com"
+    },
+    {
+      "Input": [
+        "g6m603c0w@margiestravel.com"
+      ],
+      "Output": "margiestravel.com"
+    },
+    {
+      "Input": [
+        "yapl5@wideworldimporters.com"
+      ],
+      "Output": "wideworldimporters.com"
+    },
+    {
+      "Input": [
+        "vcxn4g1@wingtiptoys.com"
+      ],
+      "Output": "wingtiptoys.com"
+    },
+    {
+      "Input": [
+        "ulqmk@vanarsdelltd.com"
+      ],
+      "Output": "vanarsdelltd.com"
+    },
+    {
+      "Input": [
+        "whgmnjy1@contososuites.com"
+      ],
+      "Output": "contososuites.com"
+    },
+    {
+      "Input": [
+        "pfh9jd@alpineskihouse.com"
+      ],
+      "Output": "alpineskihouse.com"
+    },
+    {
+      "Input": [
+        "cucgj1nhjw@treyresearch.net"
+      ],
+      "Output": "treyresearch.net"
+    },
+    {
+      "Input": [
+        "khl@munsonspicklesandpreservesfarm.com"
+      ],
+      "Output": "munsonspicklesandpreservesfarm.com"
+    },
+    {
+      "Input": [
+        "oycrewlzx@contoso.com"
+      ],
+      "Output": "contoso.com"
+    },
+    {
+      "Input": [
+        "gu@fourthcoffee.com"
+      ],
+      "Output": "fourthcoffee.com"
+    },
+    {
+      "Input": [
+        "fkcwv@relecloud.com"
+      ],
+      "Output": "relecloud.com"
+    },
+    {
+      "Input": [
+        "hza4z@tailspintoys.com"
+      ],
+      "Output": "tailspintoys.com"
+    },
+    {
+      "Input": [
+        "o5k9dij7@humongousinsurance.com"
+      ],
+      "Output": "humongousinsurance.com"
+    },
+    {
+      "Input": [
+        "dnt91cpf9q@adventure-works.com"
+      ],
+      "Output": "adventure-works.com"
+    },
+    {
+      "Input": [
+        "uy6glfxx@lucernepublishing.com"
+      ],
+      "Output": "lucernepublishing.com"
+    },
+    {
+      "Input": [
+        "zxt@graphicdesigninstitute.com"
+      ],
+      "Output": "graphicdesigninstitute.com"
+    },
+    {
+      "Input": [
+        "eu4wo@treyresearch.net"
+      ],
+      "Output": "treyresearch.net"
+    },
+    {
+      "Input": [
+        "ibuskdlc2@northwindtraders.com"
+      ],
+      "Output": "northwindtraders.com"
+    },
+    {
+      "Input": [
+        "nw5chhp@adatum.com"
+      ],
+      "Output": "adatum.com"
+    },
+    {
+      "Input": [
+        "t@consolidatedmessenger.com"
+      ],
+      "Output": "consolidatedmessenger.com"
+    },
+    {
+      "Input": [
+        "ms75q9@relecloud.com"
+      ],
+      "Output": "relecloud.com"
+    },
+    {
+      "Input": [
+        "dno5tgx@vanarsdelltd.com"
+      ],
+      "Output": "vanarsdelltd.com"
+    },
+    {
+      "Input": [
+        "5w@fabrikam.com"
+      ],
+      "Output": "fabrikam.com"
+    },
+    {
+      "Input": [
+        "ohjnpdsdk@adatum.com"
+      ],
+      "Output": "adatum.com"
+    },
+    {
+      "Input": [
+        "e78p4@wingtiptoys.com"
+      ],
+      "Output": "wingtiptoys.com"
+    },
+    {
+      "Input": [
+        "z3l64xkof@nodpublishers.com"
+      ],
+      "Output": "nodpublishers.com"
+    },
+    {
+      "Input": [
+        "tfrj@humongousinsurance.com"
+      ],
+      "Output": "humongousinsurance.com"
+    },
+    {
+      "Input": [
+        "i@firstupconsultants.com"
+      ],
+      "Output": "firstupconsultants.com"
+    },
+    {
+      "Input": [
+        "42ns6@bellowscollege.com"
+      ],
+      "Output": "bellowscollege.com"
+    },
+    {
+      "Input": [
+        "y@bestforyouorganics.com"
+      ],
+      "Output": "bestforyouorganics.com"
+    },
+    {
+      "Input": [
+        "vfnts@fabrikamresidences.com"
+      ],
+      "Output": "fabrikamresidences.com"
+    },
+    {
+      "Input": [
+        "gohj@woodgrovebank.com"
+      ],
+      "Output": "woodgrovebank.com"
+    },
+    {
+      "Input": [
+        "ya7ah@consolidatedmessenger.com"
+      ],
+      "Output": "consolidatedmessenger.com"
+    },
+    {
+      "Input": [
+        "dqonhkl@wingtiptoys.com"
+      ],
+      "Output": "wingtiptoys.com"
+    },
+    {
+      "Input": [
+        "mvdxkszq@southridgevideo.com"
+      ],
+      "Output": "southridgevideo.com"
+    },
+    {
+      "Input": [
+        "uetqrgl@thephone-company.com"
+      ],
+      "Output": "thephone-company.com"
+    },
+    {
+      "Input": [
+        "n6zjcnfgn4@fabrikam.com"
+      ],
+      "Output": "fabrikam.com"
+    },
+    {
+      "Input": [
+        "v4vb@consolidatedmessenger.com"
+      ],
+      "Output": "consolidatedmessenger.com"
+    },
+    {
+      "Input": [
+        "rd@humongousinsurance.com"
+      ],
+      "Output": "humongousinsurance.com"
+    },
+    {
+      "Input": [
+        "w5h0@alpineskihouse.com"
+      ],
+      "Output": "alpineskihouse.com"
+    },
+    {
+      "Input": [
+        "d@tailspintoys.com"
+      ],
+      "Output": "tailspintoys.com"
+    },
+    {
+      "Input": [
+        "oohet@fineartschool.net"
+      ],
+      "Output": "fineartschool.net"
+    },
+    {
+      "Input": [
+        "y@tailspintoys.com"
+      ],
+      "Output": "tailspintoys.com"
+    },
+    {
+      "Input": [
+        "vvfv@nodpublishers.com"
+      ],
+      "Output": "nodpublishers.com"
+    },
+    {
+      "Input": [
+        "ufypqsiq@contoso.com"
+      ],
+      "Output": "contoso.com"
+    },
+    {
+      "Input": [
+        "2j@wingtiptoys.com"
+      ],
+      "Output": "wingtiptoys.com"
+    },
+    {
+      "Input": [
+        "xh@contoso.com"
+      ],
+      "Output": "contoso.com"
+    },
+    {
+      "Input": [
+        "4ymfoh@southridgevideo.com"
+      ],
+      "Output": "southridgevideo.com"
+    },
+    {
+      "Input": [
+        "pchfo3z81w@contoso.com"
+      ],
+      "Output": "contoso.com"
+    },
+    {
+      "Input": [
+        "in5i@humongousinsurance.com"
+      ],
+      "Output": "humongousinsurance.com"
+    },
+    {
+      "Input": [
+        "snc@libertysdelightfulsinfulbakeryandcafe.com"
+      ],
+      "Output": "libertysdelightfulsinfulbakeryandcafe.com"
+    },
+    {
+      "Input": [
+        "hltmkwmlo@relecloud.com"
+      ],
+      "Output": "relecloud.com"
+    },
+    {
+      "Input": [
+        "slryq@tailspintoys.com"
+      ],
+      "Output": "tailspintoys.com"
+    },
+    {
+      "Input": [
+        "gpykf@bellowscollege.com"
+      ],
+      "Output": "bellowscollege.com"
+    },
+    {
+      "Input": [
+        "qba@nodpublishers.com"
+      ],
+      "Output": "nodpublishers.com"
+    },
+    {
+      "Input": [
+        "wnoply0n4@libertysdelightfulsinfulbakeryandcafe.com"
+      ],
+      "Output": "libertysdelightfulsinfulbakeryandcafe.com"
+    },
+    {
+      "Input": [
+        "i@northwindtraders.com"
+      ],
+      "Output": "northwindtraders.com"
+    },
+    {
+      "Input": [
+        "7oopu@thephone-company.com"
+      ],
+      "Output": "thephone-company.com"
+    },
+    {
+      "Input": [
+        "ge@fabrikam.com"
+      ],
+      "Output": "fabrikam.com"
+    },
+    {
+      "Input": [
+        "xsiiez@lamnahealtcare.com"
+      ],
+      "Output": "lamnahealtcare.com"
+    },
+    {
+      "Input": [
+        "l@thephone-company.com"
+      ],
+      "Output": "thephone-company.com"
+    },
+    {
+      "Input": [
+        "u4aa@wingtiptoys.com"
+      ],
+      "Output": "wingtiptoys.com"
+    },
+    {
+      "Input": [
+        "mdvyqd3a@alpineskihouse.com"
+      ],
+      "Output": "alpineskihouse.com"
+    },
+    {
+      "Input": [
+        "h4@relecloud.com"
+      ],
+      "Output": "relecloud.com"
+    },
+    {
+      "Input": [
+        "ahnzc46d@firstupconsultants.com"
+      ],
+      "Output": "firstupconsultants.com"
+    }
+  ]
+}

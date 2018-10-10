@@ -1,0 +1,211 @@
+{
+  "Kind": "Field",
+  "Examples": [
+    {
+      "Input": [
+        {
+          "Start": 102,
+          "End": 167,
+          "Value": "143.231.113.250      44-7a-7f-0d-fa-5d    dynamic             \n  "
+        },
+        {
+          "Start": 167,
+          "End": 232,
+          "Value": "217.253.8.179        8e-b8-12-74-fa-c0    dynamic             \n  "
+        },
+        {
+          "Start": 232,
+          "End": 297,
+          "Value": "97.87.245.129        b1-4e-c5-72-36-b9    dynamic             \n  "
+        },
+        {
+          "Start": 297,
+          "End": 362,
+          "Value": "124.49.224.211       bd-a9-3e-e1-d2-ad    dynamic             \n  "
+        },
+        {
+          "Start": 362,
+          "End": 427,
+          "Value": "56.255.123.166       bc-1b-b2-e3-78-5a    dynamic             \n  "
+        },
+        {
+          "Start": 427,
+          "End": 492,
+          "Value": "119.213.207.203      cf-48-a5-4d-32-19    dynamic             \n  "
+        },
+        {
+          "Start": 492,
+          "End": 557,
+          "Value": "177.161.237.56       e1-ea-12-19-f7-2a    dynamic             \n  "
+        },
+        {
+          "Start": 557,
+          "End": 622,
+          "Value": "145.57.158.1         5d-04-bf-f6-84-88    dynamic             \n  "
+        },
+        {
+          "Start": 622,
+          "End": 687,
+          "Value": "14.71.126.216        91-b6-e2-b9-da-92    dynamic             \n  "
+        },
+        {
+          "Start": 687,
+          "End": 752,
+          "Value": "47.155.64.255        91-4d-9a-8f-18-2d    dynamic             \n  "
+        },
+        {
+          "Start": 752,
+          "End": 817,
+          "Value": "147.141.172.254      41-77-31-32-77-06    static              \n  "
+        },
+        {
+          "Start": 817,
+          "End": 882,
+          "Value": "208.51.233.7         8f-f0-a4-f9-c5-6f    static              \n  "
+        },
+        {
+          "Start": 882,
+          "End": 947,
+          "Value": "226.249.65.33        e2-e8-c8-5f-0b-13    static              \n  "
+        },
+        {
+          "Start": 947,
+          "End": 1012,
+          "Value": "127.148.66.79        3c-29-8a-50-1e-be    static              \n  "
+        },
+        {
+          "Start": 1012,
+          "End": 1077,
+          "Value": "166.65.67.121        3e-7a-55-3f-90-ff    static              \n  "
+        },
+        {
+          "Start": 1077,
+          "End": 1142,
+          "Value": "40.197.23.48         11-b1-da-93-dd-7e    static              \n  "
+        },
+        {
+          "Start": 1142,
+          "End": 1207,
+          "Value": "205.117.87.199       6a-f9-19-fd-82-08    static              \n  "
+        },
+        {
+          "Start": 1207,
+          "End": 1272,
+          "Value": "172.97.221.83        c8-d8-82-a8-53-c7    static              \n  "
+        },
+        {
+          "Start": 1272,
+          "End": 1337,
+          "Value": "235.86.49.38         a3-88-c7-17-1d-8b    static              \n  "
+        },
+        {
+          "Start": 1337,
+          "End": 1399,
+          "Value": "164.3.145.117        f1-14-ac-44-07-4d    static              "
+        }
+      ],
+      "Output": [
+        {
+          "Start": 144,
+          "End": 151,
+          "Value": "dynamic"
+        },
+        {
+          "Start": 209,
+          "End": 216,
+          "Value": "dynamic"
+        },
+        {
+          "Start": 274,
+          "End": 281,
+          "Value": "dynamic"
+        },
+        {
+          "Start": 339,
+          "End": 346,
+          "Value": "dynamic"
+        },
+        {
+          "Start": 404,
+          "End": 411,
+          "Value": "dynamic"
+        },
+        {
+          "Start": 469,
+          "End": 476,
+          "Value": "dynamic"
+        },
+        {
+          "Start": 534,
+          "End": 541,
+          "Value": "dynamic"
+        },
+        {
+          "Start": 599,
+          "End": 606,
+          "Value": "dynamic"
+        },
+        {
+          "Start": 664,
+          "End": 671,
+          "Value": "dynamic"
+        },
+        {
+          "Start": 729,
+          "End": 736,
+          "Value": "dynamic"
+        },
+        {
+          "Start": 794,
+          "End": 800,
+          "Value": "static"
+        },
+        {
+          "Start": 859,
+          "End": 865,
+          "Value": "static"
+        },
+        {
+          "Start": 924,
+          "End": 930,
+          "Value": "static"
+        },
+        {
+          "Start": 989,
+          "End": 995,
+          "Value": "static"
+        },
+        {
+          "Start": 1054,
+          "End": 1060,
+          "Value": "static"
+        },
+        {
+          "Start": 1119,
+          "End": 1125,
+          "Value": "static"
+        },
+        {
+          "Start": 1184,
+          "End": 1190,
+          "Value": "static"
+        },
+        {
+          "Start": 1249,
+          "End": 1255,
+          "Value": "static"
+        },
+        {
+          "Start": 1314,
+          "End": 1320,
+          "Value": "static"
+        },
+        {
+          "Start": 1379,
+          "End": 1385,
+          "Value": "static"
+        }
+      ]
+    }
+  ]
+}

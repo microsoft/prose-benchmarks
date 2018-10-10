@@ -1,0 +1,52 @@
+{
+  "Examples": [
+    {
+      "Input": [
+        "1.243"
+      ],
+      "Output": "1.2 pts"
+    },
+    {
+      "Input": [
+        "372.32"
+      ],
+      "Output": "372.3 pts"
+    },
+    {
+      "Input": [
+        "1.25238"
+      ],
+      "Output": "1.3 pts"
+    },
+    {
+      "Input": [
+        "5"
+      ],
+      "Output": "5 pts"
+    },
+    {
+      "Input": [
+        "200.0"
+      ],
+      "Output": "200.0 pts"
+    },
+    {
+      "Input": [
+        "8.238"
+      ],
+      "Output": "8.2 pts"
+    },
+    {
+      "Input": [
+        "4.18"
+      ],
+      "Output": "4.2 pts"
+    },
+    {
+      "Input": [
+        "19.252"
+      ],
+      "Output": "19.3 pts"
+    }
+  ]
+}

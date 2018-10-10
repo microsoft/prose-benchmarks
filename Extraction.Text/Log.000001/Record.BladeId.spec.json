@@ -1,0 +1,101 @@
+{
+  "Kind": "Field",
+  "Examples": [
+    {
+      "Input": [
+        {
+          "Start": 0,
+          "End": 411,
+          "Value": "2024-10-04T01:23:45.127, 600000, 594, Information, 0x7A7F0DFA, x:\\totergc\\1829\\totally\\spurious\\Usr\\Ports\\Beauty__Automotive_&_Clothing_California_Turquoise.Xpx\\OmnisVelA.cs Line: 505, BladeId=73412476-4188-7866-2880-81682946V7DE , Q>]Jmkjhu<O]?;l64+WbWt6t+ra-1.VvM1aS7V Bn*;cvyDO;NP*;MnV-fEt/cVmbS34V9yS*:nS\\Ow+N1k[SRay<*JL6+71HI&Dl5s(Nwy&\\;wTh>Fxqw90r3qQiOAy(b/4MT9=8i0VR\\?&-pdq\\9:L4qM[>C8yV xw1h,4*.e-m[S8moI"
+        },
+        {
+          "Start": 2172,
+          "End": 2612,
+          "Value": "2024-10-04T12:14:25.355, 600005, 074, Information, 0x0225FD44, x:\\totergc\\1829\\totally\\spurious\\Usr\\Libdata\\Automotive_&_Kids_Overriding.Xht\\MinusSitQuia.cs Line: 2, BladeId=72359217-6948-1924-8738-23353098W39E , /yB[L&g+p&;7d0.QmgGwi5r<=skL*P3t&nfe(9g>SNH b]+eAkL4Q6ps,+>S5:&AnB5pDCNTy.D:grU\\m+/8)yCjwm\\wt4/<M-1?I5Aw=r4HmU13Jae/1h<oxFrReQ\\kx,i]f:4[e2u1kuwCaJM8Iy1dj<A(=i8g9CIfkLH4L-Dym1*)HOq:)EByu+pIt2>vs3rGL7S4(=hBU2p\\7<Tirwdn&IjeVx:>hH+"
+        },
+        {
+          "Start": 3268,
+          "End": 3727,
+          "Value": "2024-10-04T02:39:52.047, 600008, 780,     Verbose, 0xE1DEF78D, x:\\totergc\\1829\\totally\\spurious\\Library\\Checking_Account_Checking_Account.Sxm\\TemporaQuiVoluptas.cs Line: 585, BladeId=56528837-5108-9946-8212-631247432OWA , 4l3>7we-C[P;8h1nF;5J>j)?xg6UP&)+HsWJtvIBH0+/v(jOCcFU[QBEhn?Jg/SBUIn>1asIln(4etCuwc6lUIHqQ7c+WyV=RcPM4JCciwhiN3]nJEM)sfg0&vitxnmm8dW&EqgN?O)Wb\\CBRnV7MRElvDJ7bHdu0tQjR[IT[ydDc/ICSFC/7V?a>k+ FOlqj-Mg-TksE(TNm&.lu-\\:+UdPUoJfSH2/2mTU[b;yUId5&"
+        },
+        {
+          "Start": 3728,
+          "End": 4270,
+          "Value": "2024-10-04T07:18:44.166, 600009, 203,     Verbose, 0x36F23105, x:\\totergc\\1829\\totally\\spurious\\Private\\Beauty_&_Games_Sharable.Xap\\OfficiisMolestiasAccusantium.cs Line: 167, BladeId=26032650-8517-3548-8108-418138439BA7 , )=Mdhj/O.3u;4<q7PA+ek)?8/ntQ*1>BhmloU.eDga6cN/ ].k*\\0x4 x8TtpSIvnSOBJ(WGWax/lWf m9H8-]7i\\lqAPkO379ntV\\4+3[(J *3ANS,V05o3Afc\\1;rk1jrSikE3+B+I[hhU[Qmver)&EaTovQtrf6=61VRb3rQh0EQSw. VHu,9gq2.7P7OH2dFJRI&x0hlA:py/ rmP>Ij0)I9HIJ[]&?wa0-F]yW<2:rM 3x6[Dy.dt:G-4SOa01?tr=xrL3Qb1Wp0w9:L8 :(79goa>LF.W(.SR.oy>15IGR<E;/t=)G0p=c\\Q/6"
+        },
+        {
+          "Start": 4653,
+          "End": 5057,
+          "Value": "2024-10-04T01:51:35.394, 600011, 489, Information, 0x692AF6F0, x:\\totergc\\1829\\totally\\spurious\\Etc\\Ergonomic_Steel_Bike_Brand_Eyeballs.Qps\\DolorumExplicaboQui.cs Line: 327, BladeId=07509786-2556-7058-2884-13775185RE93 , 1 <SQ7+<wa >Q-rrHheypOht8.PuFHj 1A+nPpR.\\FUNn: Tg:h6BCVW8C>Gb/pOpy35(*BR5VAIt:+x.u30aT[hfIU1R0FOQ+Wn,jRbr5 g(1bx=?>fven<BEISI6 +4mso[6q=DM7JSqfThWn6k]Rk6?Mb?x7b4tR58l?-I&BJNCdL]pkmBj:"
+        },
+        {
+          "Start": 5371,
+          "End": 5830,
+          "Value": "2024-10-04T01:10:38.244, 600013, 297,     Verbose, 0x1B7FFF2F, x:\\totergc\\1829\\absolutely\\fake\\Var\\Tmp\\Middleware_Morocco_Investment_Account.Sc\\ProvidentCulpaQuia.cs Line: 954, BladeId=37684296-2610-7154-4063-36315886A81H , j*=ck&cJO,GibP(O[SdBN;RF<l9]<dPR;fW >\\N[[\\(kIn1Ly>\\Vpr3ONqEyh)3jRpNur&4x*,eo9fwI]haw+saCS-NH9OoUJ79S?5Tx0]Qj3>:gsu>yC5e[5/CjNgeQ6/D&LD.I4cmEBq48mgO>5o69NVC6miJDu S)u9:PlokaC?;>t/wg7EABs/Op&rVE7HIA=1=TLyM?*Qq2?*;dlc1P]60keENs8FHupt ikD;"
+        },
+        {
+          "Start": 5831,
+          "End": 6144,
+          "Value": "2024-10-04T12:15:34.832, 600014, 323,     Verbose, 0xE984EA10, x:\\totergc\\1829\\totally\\spurious\\Dev\\Cliffs_Deposit.H263\\InventoreVoluptatesQuam.cs Line: 916, BladeId=53853389-6929-7352-7396-22018191302M , t:ek5<?11eVs61<e8P:>d\\5Bbj;]6cQB*ym*4n*yexfCC7r6y=uc]1M:*B/E&auH48n6>8PEJ:UesmyIr+]shncrNRyld\\x))<3/DbqghP7D"
+        },
+        {
+          "Start": 6677,
+          "End": 6936,
+          "Value": "2024-10-04T07:18:33.924, 600017, 054,     Verbose, 0x2868F273, x:\\totergc\\1829\\absolutely\\fake\\Usr\\Local\\Src\\Deposit.Bed\\SedUtEa.cs Line: 933, BladeId=04817919-1140-1451-5234-27169733OZI7 , n*)M1;eHOvn=:C84]T8;77&Vl/U;N3l k*d7?v,OH5HiN)N4\\j3f2LmV)G]&aHuA0mM6\\"
+        },
+        {
+          "Start": 10097,
+          "End": 10566,
+          "Value": "2024-10-04T04:24:05.091, 600027, 214,     Verbose, 0xEBDDEBFD, x:\\totergc\\1829\\totally\\spurious\\Etc\\Defaults\\Plum_Distributed_Sdd.Odm\\BlanditiisMagnamInventore.cs Line: 196, BladeId=81429599-0813-0325-5613-34434456M0Y6 , B9Vq1ES,,3rvMVr\\2TAa*hLx>,OE.h+)Tm6AMG6*r<C=bcBqQFHBu aUh[R*q3x>.oB]DR2fB<igE3<We[nc?c-T2WSoo22d>*4m?bNy9b \\6s5U?t>9>;xEgiNgx=p5/*GAxJ<(/oH[cIB8FxOtmsE)+i+Q4f vlkO2LoVp[</JmAc=G9AyiuB6]D:4DfmDnMlrt4hRC[<Pjt6e,h/tE&2pH=N-TFLqIeV?PkC7MiW0\\lFe3Q.WVsym"
+        }
+      ],
+      "Output": [
+        {
+          "Start": 193,
+          "End": 229,
+          "Value": "73412476-4188-7866-2880-81682946V7DE"
+        },
+        {
+          "Start": 2346,
+          "End": 2382,
+          "Value": "72359217-6948-1924-8738-23353098W39E"
+        },
+        {
+          "Start": 3451,
+          "End": 3487,
+          "Value": "56528837-5108-9946-8212-631247432OWA"
+        },
+        {
+          "Start": 3911,
+          "End": 3947,
+          "Value": "26032650-8517-3548-8108-418138439BA7"
+        },
+        {
+          "Start": 4835,
+          "End": 4871,
+          "Value": "07509786-2556-7058-2884-13775185RE93"
+        },
+        {
+          "Start": 5556,
+          "End": 5592,
+          "Value": "37684296-2610-7154-4063-36315886A81H"
+        },
+        {
+          "Start": 5997,
+          "End": 6033,
+          "Value": "53853389-6929-7352-7396-22018191302M"
+        },
+        {
+          "Start": 6828,
+          "End": 6864,
+          "Value": "04817919-1140-1451-5234-27169733OZI7"
+        },
+        {
+          "Start": 10279,
+          "End": 10315,
+          "Value": "81429599-0813-0325-5613-34434456M0Y6"
+        }
+      ]
+    }
+  ]
+}

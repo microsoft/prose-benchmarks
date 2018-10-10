@@ -1,0 +1,88 @@
+{
+  "Examples": [
+    {
+      "Input": [
+        "zzzzzz"
+      ],
+      "Output": "San Francisco"
+    },
+    {
+      "Input": [
+        ""
+      ],
+      "Output": "Empty"
+    },
+    {
+      "Input": [
+        "\u001c"
+      ],
+      "Output": "San Francisco"
+    },
+    {
+      "Input": [
+        "\u001d"
+      ],
+      "Output": "San Francisco"
+    },
+    {
+      "Input": [
+        "\u001e"
+      ],
+      "Output": "San Francisco"
+    },
+    {
+      "Input": [
+        "\u001f"
+      ],
+      "Output": "San Francisco"
+    },
+    {
+      "Input": [
+        "\u0085"
+      ],
+      "Output": "Empty"
+    },
+    {
+      "Input": [
+        " "
+      ],
+      "Output": "Empty"
+    },
+    {
+      "Input": [
+        "᠎"
+      ],
+      "Output": "San Francisco"
+    },
+    {
+      "Input": [
+        " "
+      ],
+      "Output": "Empty"
+    },
+    {
+      "Input": [
+        " "
+      ],
+      "Output": "Empty"
+    },
+    {
+      "Input": [
+        null
+      ],
+      "Output": "Empty"
+    },
+    {
+      "Input": [
+        "SAN FRANCISCO"
+      ],
+      "Output": "San Francisco"
+    },
+    {
+      "Input": [
+        "san francisco"
+      ],
+      "Output": "San Francisco"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "Examples": [
+    {
+      "Input": [
+        "2345 Redwood Road NE, Greensboro, VA 38891"
+      ],
+      "Output": "2345"
+    },
+    {
+      "Input": [
+        "78 Seventh Boulevard SE, Denver, WY 03719"
+      ],
+      "Output": "78"
+    },
+    {
+      "Input": [
+        "7890 Pecan Place SW, Vallejo, WY 03719"
+      ],
+      "Output": "7890"
+    },
+    {
+      "Input": [
+        "456 48th Highway SE, Rio de Janeiro, FL 38891"
+      ],
+      "Output": "456"
+    },
+    {
+      "Input": [
+        "One Madeup Street, South Bend, NY 41230"
+      ],
+      "Output": ""
+    },
+    {
+      "Input": [
+        "One Madeup Street, Prague, KY 58712"
+      ],
+      "Output": ""
+    },
+    {
+      "Input": [
+        "890 Third Place SW, Midland, KY 38891"
+      ],
+      "Output": "890"
+    },
+    {
+      "Input": [
+        "One Madeup Street, Belo Horizonte, MD 41230"
+      ],
+      "Output": ""
+    },
+    {
+      "Input": [
+        "345 Fifth Way SW, Lakewood, TX 41230"
+      ],
+      "Output": "345"
+    },
+    {
+      "Input": [
+        "67 12th Way NE, Athens, DC 41230"
+      ],
+      "Output": "67"
+    }
+  ]
+}

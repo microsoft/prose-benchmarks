@@ -1,0 +1,34 @@
+{
+  "Examples": [
+    {
+      "Input": [
+        "18:25:57"
+      ],
+      "Output": "Between 6PM and 8PM"
+    },
+    {
+      "Input": [
+        "21:44:40"
+      ],
+      "Output": "Between 8PM and 10PM"
+    },
+    {
+      "Input": [
+        "07:00:20"
+      ],
+      "Output": "Between 6AM and 8AM"
+    },
+    {
+      "Input": [
+        "23:34:17"
+      ],
+      "Output": "Between 10PM and 12AM"
+    },
+    {
+      "Input": [
+        "16:15:08"
+      ],
+      "Output": "Between 4PM and 6PM"
+    }
+  ]
+}

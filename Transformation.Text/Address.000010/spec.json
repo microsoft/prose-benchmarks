@@ -1,0 +1,28 @@
+{
+  "Examples": [
+    {
+      "Input": [
+        "4594 133TH PLACE NE, Independence, DE 41230"
+      ],
+      "Output": "Independence"
+    },
+    {
+      "Input": [
+        "One Madeup Street, Lancaster, MD 58712"
+      ],
+      "Output": "Lancaster"
+    },
+    {
+      "Input": [
+        "12 1st Way, Dalian, NJ 41230"
+      ],
+      "Output": "Dalian"
+    },
+    {
+      "Input": [
+        "840 SW 126th Way, Oakland, CT 03719"
+      ],
+      "Output": "Oakland"
+    }
+  ]
+}

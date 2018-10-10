@@ -1,0 +1,28 @@
+{
+  "Examples": [
+    {
+      "Input": [
+        "+31.52.671.94.92"
+      ],
+      "Output": "Netherlands"
+    },
+    {
+      "Input": [
+        "+31.49.279.89.63"
+      ],
+      "Output": "Netherlands"
+    },
+    {
+      "Input": [
+        "+31.06.647.96.50"
+      ],
+      "Output": "Netherlands"
+    },
+    {
+      "Input": [
+        "+49.96.70.33.95.71"
+      ],
+      "Output": "Germany"
+    }
+  ]
+}

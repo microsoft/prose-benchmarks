@@ -1,0 +1,28 @@
+{
+  "Examples": [
+    {
+      "Input": [
+        "[CPT-1011]"
+      ],
+      "Output": "[CPT-1011]"
+    },
+    {
+      "Input": [
+        "[CPT-101"
+      ],
+      "Output": "[CPT-101]"
+    },
+    {
+      "Input": [
+        "[CPT-1010"
+      ],
+      "Output": "[CPT-1010]"
+    },
+    {
+      "Input": [
+        "[CPT-11]"
+      ],
+      "Output": "[CPT-11]"
+    }
+  ]
+}

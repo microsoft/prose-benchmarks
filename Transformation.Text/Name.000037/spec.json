@@ -1,0 +1,124 @@
+{
+  "Examples": [
+    {
+      "Input": [
+        "Mrs. Filipe Oliveira, Jr."
+      ],
+      "Output": "Jr."
+    },
+    {
+      "Input": [
+        "Dr. Manjunath Naik, II"
+      ],
+      "Output": "II"
+    },
+    {
+      "Input": [
+        "Staffan Bergqvist, II"
+      ],
+      "Output": "II"
+    },
+    {
+      "Input": [
+        "Dr. Aswini Ragrez, II"
+      ],
+      "Output": "II"
+    },
+    {
+      "Input": [
+        "Dr. Christophe Beaulieu, Sr."
+      ],
+      "Output": "Sr."
+    },
+    {
+      "Input": [
+        "Marcela Kubatova"
+      ],
+      "Output": "NULL"
+    },
+    {
+      "Input": [
+        "Mr. Hadar Caspit"
+      ],
+      "Output": "NULL"
+    },
+    {
+      "Input": [
+        "Mr. Karim Tursynuly, II"
+      ],
+      "Output": "II"
+    },
+    {
+      "Input": [
+        "Marina Robledo, Sr."
+      ],
+      "Output": "Sr."
+    },
+    {
+      "Input": [
+        "Dr. Kylie Nolet"
+      ],
+      "Output": "NULL"
+    },
+    {
+      "Input": [
+        "Theodore Lamy, III"
+      ],
+      "Output": "III"
+    },
+    {
+      "Input": [
+        "Mrs. Preben Bjerklund, II"
+      ],
+      "Output": "II"
+    },
+    {
+      "Input": [
+        "Dr. Nerea Núñez"
+      ],
+      "Output": "NULL"
+    },
+    {
+      "Input": [
+        "Dr. Linda Skistad"
+      ],
+      "Output": "NULL"
+    },
+    {
+      "Input": [
+        "Quy Cu, Jr."
+      ],
+      "Output": "Jr."
+    },
+    {
+      "Input": [
+        "Maibritt Andreasen, Jr."
+      ],
+      "Output": "Jr."
+    },
+    {
+      "Input": [
+        "Mrs. Mayang Damayanti, II"
+      ],
+      "Output": "II"
+    },
+    {
+      "Input": [
+        "Mrs. Crina Codreanu"
+      ],
+      "Output": "NULL"
+    },
+    {
+      "Input": [
+        "Mrs. Ulf Vestre, II"
+      ],
+      "Output": "II"
+    },
+    {
+      "Input": [
+        "Pheladi Rammala"
+      ],
+      "Output": "NULL"
+    }
+  ]
+}

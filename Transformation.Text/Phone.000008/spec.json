@@ -1,0 +1,136 @@
+{
+  "Examples": [
+    {
+      "Input": [
+        "Aksel Hedegaard     1234 Pecan Avenue,Yangon,NY,(023) 966-2677,000-94-0933,03719"
+      ],
+      "Output": "(023) 966-2677"
+    },
+    {
+      "Input": [
+        "Yves Grethen  2345 Eighth Way ,Henderson,OK,(609) 880-5529,000-69-3866,38891"
+      ],
+      "Output": "(609) 880-5529"
+    },
+    {
+      "Input": [
+        "Jacqueline Martin     67 Ninth Boulevard,Guadalajara,OH,(319) 094-6012,000-08-3119,38891"
+      ],
+      "Output": "(319) 094-6012"
+    },
+    {
+      "Input": [
+        "Bola Atanda         2345 Sixth Street,Cologne,WV,(479) 143-0433,000-37-0076,41230"
+      ],
+      "Output": "(479) 143-0433"
+    },
+    {
+      "Input": [
+        "Amanda Haraldsen        34 First Way,Lansing,MS,(311) 343-5301,000-26-4391,41230"
+      ],
+      "Output": "(311) 343-5301"
+    },
+    {
+      "Input": [
+        "Marten Ruutli         7890 Eighth Route ,Fargo,OH,(956) 100-1022,000-08-9259,38891"
+      ],
+      "Output": "(956) 100-1022"
+    },
+    {
+      "Input": [
+        "Oríowó Owólabi  3456 Pecan Route,Basra,OR,(106) 620-5226,000-60-1806,38891"
+      ],
+      "Output": "(106) 620-5226"
+    },
+    {
+      "Input": [
+        "Bazarbay Abildauly    456 Fifth Route ,Dongguan,LA,(873) 884-2783,000-73-7962,38891"
+      ],
+      "Output": "(873) 884-2783"
+    },
+    {
+      "Input": [
+        "Mee-Yon Hah    4567 Second Highway ,Evansville,IA,(864) 453-3833,000-68-8231,17293"
+      ],
+      "Output": "(864) 453-3833"
+    },
+    {
+      "Input": [
+        "Zamira Yesimkyzy    45 Third Route,Brasília,MI,(712) 012-9104,000-52-8290,41230"
+      ],
+      "Output": "(712) 012-9104"
+    },
+    {
+      "Input": [
+        "Ileana Stanescu          5678 Ninth Route,Dakar,CO,(683) 058-6034,000-65-2030,41230"
+      ],
+      "Output": "(683) 058-6034"
+    },
+    {
+      "Input": [
+        "Isotta Pinto    67 Elm Avenue,Lubbock,KS,(716) 971-0191,000-02-6781,38891"
+      ],
+      "Output": "(716) 971-0191"
+    },
+    {
+      "Input": [
+        "Chandrima Sen 1234 Second Boulevard,Johannesburg,AZ,(148) 166-1362,000-52-3571,03719"
+      ],
+      "Output": "(148) 166-1362"
+    },
+    {
+      "Input": [
+        "Justyna Wojciechowska      45 Apple Lane,Buffalo,MS,(197) 861-8364,000-21-6939,58712"
+      ],
+      "Output": "(197) 861-8364"
+    },
+    {
+      "Input": [
+        "Anika Jensen      345 Tenth Route ,Waco,DE,(134) 618-0084,000-68-2914,58712"
+      ],
+      "Output": "(134) 618-0084"
+    },
+    {
+      "Input": [
+        "Rosa Jaminez          7890 Birch Avenue ,Lahore,DE,(322) 469-6200,000-37-7891,41230"
+      ],
+      "Output": "(322) 469-6200"
+    },
+    {
+      "Input": [
+        "Sheetal Sahu     678 Tenth Road,Kwangju,ID,(292) 174-9012,000-12-9865,58712"
+      ],
+      "Output": "(292) 174-9012"
+    },
+    {
+      "Input": [
+        "Natasa Lekovic        78 Third Boulevard ,Austin,ND,(907) 265-8996,000-79-1568,58712"
+      ],
+      "Output": "(907) 265-8996"
+    },
+    {
+      "Input": [
+        "Maayan Gold     56 Fourth Place ,Mashhad,NC,(660) 981-5977,000-60-9861,03719"
+      ],
+      "Output": "(660) 981-5977"
+    },
+    {
+      "Input": [
+        "Nopparat Udomprecha        234 Sixth Street,Miami,FL,(721) 578-3357,000-75-4294,03719"
+      ],
+      "Output": "(721) 578-3357"
+    },
+    {
+      "Input": [
+        "Mausami Das      7890 Main Boulevard ,Milan,KY,(300) 638-6791,000-46-8421,41230"
+      ],
+      "Output": "(300) 638-6791"
+    },
+    {
+      "Input": [
+        "Jostein Bergersen    678 Elm Avenue,Murfreesboro,HI,(739) 192-3781,000-40-9081,58712"
+      ],
+      "Output": "(739) 192-3781"
+    }
+  ]
+}

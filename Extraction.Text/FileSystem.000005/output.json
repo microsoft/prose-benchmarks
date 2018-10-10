@@ -1,0 +1,19 @@
+{
+  "Property": "root",
+  "Start": 0,
+  "End": 2017,
+  "Children": [
+    {
+      "Property": "Size",
+      "Start": 1950,
+      "End": 1960,
+      "Value": "68,123,606"
+    },
+    {
+      "Property": "FreeSize",
+      "Start": 1992,
+      "End": 2006,
+      "Value": "29,080,342,528"
+    }
+  ]
+}

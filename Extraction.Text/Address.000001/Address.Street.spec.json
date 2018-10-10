@@ -1,0 +1,201 @@
+{
+  "Kind": "Field",
+  "Examples": [
+    {
+      "Input": [
+        {
+          "Start": 12,
+          "End": 44,
+          "Value": "1234 Cherry Court\nGreensboro, VA"
+        },
+        {
+          "Start": 78,
+          "End": 108,
+          "Value": "789 Eighth Parkway\nVallejo, WY"
+        },
+        {
+          "Start": 135,
+          "End": 162,
+          "Value": "678 Redwood Lane\nPrague, KY"
+        },
+        {
+          "Start": 191,
+          "End": 218,
+          "Value": "123 Oak Road\nLouisville, FL"
+        },
+        {
+          "Start": 249,
+          "End": 278,
+          "Value": "456 Eighth Highway\nDenver, TN"
+        },
+        {
+          "Start": 307,
+          "End": 335,
+          "Value": "56 Second Road\nOceanside, NY"
+        },
+        {
+          "Start": 365,
+          "End": 399,
+          "Value": "345 Fourth Highway\nChula Vista, HI"
+        },
+        {
+          "Start": 429,
+          "End": 458,
+          "Value": "78 Birch Boulevard\nSuzhou, IN"
+        },
+        {
+          "Start": 490,
+          "End": 520,
+          "Value": "789 Elm Street\nQuezon City, NM"
+        },
+        {
+          "Start": 552,
+          "End": 582,
+          "Value": "345 Fourth Parkway\nYonkers, NH"
+        },
+        {
+          "Start": 619,
+          "End": 653,
+          "Value": "234 Apple Lane\nNizhny Novgorod, SD"
+        },
+        {
+          "Start": 681,
+          "End": 717,
+          "Value": "1234 Eighth Avenue\nJurupa Valley, VT"
+        },
+        {
+          "Start": 749,
+          "End": 775,
+          "Value": "12 Pecan Street\nLuanda, MO"
+        },
+        {
+          "Start": 807,
+          "End": 835,
+          "Value": "34 12th Highway\nPearland, NC"
+        },
+        {
+          "Start": 870,
+          "End": 895,
+          "Value": "678 First Route\nTyler, DC"
+        },
+        {
+          "Start": 929,
+          "End": 957,
+          "Value": "3456 1st Avenue\nMurrieta, SC"
+        },
+        {
+          "Start": 987,
+          "End": 1016,
+          "Value": "456 Fourth Lane\nHenderson, ND"
+        },
+        {
+          "Start": 1049,
+          "End": 1078,
+          "Value": "89 Sixth Parkway\nColumbus, WA"
+        },
+        {
+          "Start": 1107,
+          "End": 1130,
+          "Value": "34 1st Road\nOntario, NY"
+        }
+      ],
+      "Output": [
+        {
+          "Start": 12,
+          "End": 29,
+          "Value": "1234 Cherry Court"
+        },
+        {
+          "Start": 78,
+          "End": 96,
+          "Value": "789 Eighth Parkway"
+        },
+        {
+          "Start": 135,
+          "End": 151,
+          "Value": "678 Redwood Lane"
+        },
+        {
+          "Start": 191,
+          "End": 203,
+          "Value": "123 Oak Road"
+        },
+        {
+          "Start": 249,
+          "End": 267,
+          "Value": "456 Eighth Highway"
+        },
+        {
+          "Start": 307,
+          "End": 321,
+          "Value": "56 Second Road"
+        },
+        {
+          "Start": 365,
+          "End": 383,
+          "Value": "345 Fourth Highway"
+        },
+        {
+          "Start": 429,
+          "End": 447,
+          "Value": "78 Birch Boulevard"
+        },
+        {
+          "Start": 490,
+          "End": 504,
+          "Value": "789 Elm Street"
+        },
+        {
+          "Start": 552,
+          "End": 570,
+          "Value": "345 Fourth Parkway"
+        },
+        {
+          "Start": 619,
+          "End": 633,
+          "Value": "234 Apple Lane"
+        },
+        {
+          "Start": 681,
+          "End": 699,
+          "Value": "1234 Eighth Avenue"
+        },
+        {
+          "Start": 749,
+          "End": 764,
+          "Value": "12 Pecan Street"
+        },
+        {
+          "Start": 807,
+          "End": 822,
+          "Value": "34 12th Highway"
+        },
+        {
+          "Start": 870,
+          "End": 885,
+          "Value": "678 First Route"
+        },
+        {
+          "Start": 929,
+          "End": 944,
+          "Value": "3456 1st Avenue"
+        },
+        {
+          "Start": 987,
+          "End": 1002,
+          "Value": "456 Fourth Lane"
+        },
+        {
+          "Start": 1049,
+          "End": 1065,
+          "Value": "89 Sixth Parkway"
+        },
+        {
+          "Start": 1107,
+          "End": 1118,
+          "Value": "34 1st Road"
+        }
+      ]
+    }
+  ]
+}

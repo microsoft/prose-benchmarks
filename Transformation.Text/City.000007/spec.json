@@ -1,0 +1,34 @@
+{
+  "Examples": [
+    {
+      "Input": [
+        "SF"
+      ],
+      "Output": "San Francisco"
+    },
+    {
+      "Input": [
+        ""
+      ],
+      "Output": "Empty"
+    },
+    {
+      "Input": [
+        null
+      ],
+      "Output": ""
+    },
+    {
+      "Input": [
+        "SAN FRANCISCO"
+      ],
+      "Output": "San Francisco"
+    },
+    {
+      "Input": [
+        "san francisco"
+      ],
+      "Output": "San Francisco"
+    }
+  ]
+}

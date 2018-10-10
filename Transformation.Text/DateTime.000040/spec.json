@@ -1,0 +1,34 @@
+{
+  "Examples": [
+    {
+      "Input": [
+        "Word 10 Word 6 Word 2143 Word"
+      ],
+      "Output": "October 6, 2143"
+    },
+    {
+      "Input": [
+        "Word 3 Word 30 Word 2002 Word"
+      ],
+      "Output": "March 30, 2002"
+    },
+    {
+      "Input": [
+        "Word 1 Word 31 Word 1846 Word"
+      ],
+      "Output": "January 31, 1846"
+    },
+    {
+      "Input": [
+        "Word 4 Word 22 Word 1953 Word"
+      ],
+      "Output": "April 22, 1953"
+    },
+    {
+      "Input": [
+        "Word 3 Word 30 Word 2241 Word"
+      ],
+      "Output": "March 30, 2241"
+    }
+  ]
+}

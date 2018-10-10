@@ -1,0 +1,34 @@
+{
+  "Examples": [
+    {
+      "Input": [
+        "Hone Albert"
+      ],
+      "Output": "hone.A@"
+    },
+    {
+      "Input": [
+        "Aysu Polat"
+      ],
+      "Output": "aysu.P@"
+    },
+    {
+      "Input": [
+        "Fatma Yilmaz"
+      ],
+      "Output": "fatma.Y@"
+    },
+    {
+      "Input": [
+        "Artem Kuznetsov"
+      ],
+      "Output": "artem.K@"
+    },
+    {
+      "Input": [
+        "Cecep Sutresna"
+      ],
+      "Output": "cecep.S@"
+    }
+  ]
+}

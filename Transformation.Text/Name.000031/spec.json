@@ -1,0 +1,22 @@
+{
+  "Examples": [
+    {
+      "Input": [
+        "Asemelash, Svitlana"
+      ],
+      "Output": "Svitlana"
+    },
+    {
+      "Input": [
+        "Hennum, Alena"
+      ],
+      "Output": "Alena"
+    },
+    {
+      "Input": [
+        "Epherem, Elsa"
+      ],
+      "Output": "Elsa"
+    }
+  ]
+}

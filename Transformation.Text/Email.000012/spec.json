@@ -1,0 +1,64 @@
+{
+  "Examples": [
+    {
+      "Input": [
+        "Hone.Albert@southridgevideo.com"
+      ],
+      "Output": "Albert"
+    },
+    {
+      "Input": [
+        "Kiriakos.Sarlis@margiestravel.com"
+      ],
+      "Output": "Sarlis"
+    },
+    {
+      "Input": [
+        "Artem.KuznetsovNabiyeva@fabrikam.com"
+      ],
+      "Output": "KuznetsovNabiyeva"
+    },
+    {
+      "Input": [
+        "Milica.Zujovic@nodpublishers.com"
+      ],
+      "Output": "Zujovic"
+    },
+    {
+      "Input": [
+        "Anna.Traver@adventure-works.com"
+      ],
+      "Output": "Traver"
+    },
+    {
+      "Input": [
+        "Ojerinde.AdeniyiLabrecque@fabrikamresidences.com"
+      ],
+      "Output": "AdeniyiLabrecque"
+    },
+    {
+      "Input": [
+        "Snorre.Kolstad@woodgrovebank.com"
+      ],
+      "Output": "Kolstad"
+    },
+    {
+      "Input": [
+        "Rodel.Torres@lucernepublishing.com"
+      ],
+      "Output": "Torres"
+    },
+    {
+      "Input": [
+        "Habiba.HaidariChaiprasit@alpineskihouse.com"
+      ],
+      "Output": "HaidariChaiprasit"
+    },
+    {
+      "Input": [
+        "Svetlana.Konovalova@fabrikam.com"
+      ],
+      "Output": "Konovalova"
+    }
+  ]
+}

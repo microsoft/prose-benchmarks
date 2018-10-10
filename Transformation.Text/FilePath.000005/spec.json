@@ -1,0 +1,28 @@
+{
+  "Examples": [
+    {
+      "Input": [
+        "Quia\\Natus\\Ad Nostrum Totam Harum Totam - Doloremque Eos Asperiores Cum Ipsam\\Aperiam Cumque Non"
+      ],
+      "Output": "Aperiam Cumque Non"
+    },
+    {
+      "Input": [
+        "Amet\\Qui\\omnis\\A Quas - Sed"
+      ],
+      "Output": "A Quas - Sed"
+    },
+    {
+      "Input": [
+        "Blanditiis\\Ratione\\Dolorum Corrupti Adipisci Debitis - Id Vero Soluta Fuga Eius\\Quo"
+      ],
+      "Output": "Quo"
+    },
+    {
+      "Input": [
+        "Repellat\\Deleniti\\aut\\Et"
+      ],
+      "Output": "Et"
+    }
+  ]
+}

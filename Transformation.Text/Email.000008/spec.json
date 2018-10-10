@@ -1,0 +1,28 @@
+{
+  "Examples": [
+    {
+      "Input": [
+        "ndavignon",
+        "47345",
+        "5306"
+      ],
+      "Output": "ndavignon@fabrikam.com"
+    },
+    {
+      "Input": [
+        "gpodnieks",
+        "62118",
+        "63346"
+      ],
+      "Output": "gpodnieks@fabrikam.com"
+    },
+    {
+      "Input": [
+        "csevilla",
+        "32618",
+        "14025"
+      ],
+      "Output": "csevilla@fabrikam.com"
+    }
+  ]
+}

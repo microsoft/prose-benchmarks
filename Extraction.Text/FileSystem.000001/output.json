@@ -1,0 +1,475 @@
+{
+  "Property": "root",
+  "Start": 0,
+  "End": 2017,
+  "Children": [
+    {
+      "Property": "DateStruct",
+      "Start": 119,
+      "End": 160,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 119,
+          "End": 129,
+          "Value": "05/11/2014"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 160,
+      "End": 202,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 160,
+          "End": 170,
+          "Value": "05/11/2014"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 202,
+      "End": 252,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 202,
+          "End": 212,
+          "Value": "01/17/2014"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 252,
+      "End": 302,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 252,
+          "End": 262,
+          "Value": "03/22/2014"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 302,
+      "End": 351,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 302,
+          "End": 312,
+          "Value": "03/22/2014"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 351,
+      "End": 399,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 351,
+          "End": 361,
+          "Value": "01/27/2014"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 399,
+      "End": 450,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 399,
+          "End": 409,
+          "Value": "04/30/2014"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 450,
+      "End": 494,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 450,
+          "End": 460,
+          "Value": "04/23/2014"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 494,
+      "End": 538,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 494,
+          "End": 504,
+          "Value": "11/29/2013"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 538,
+      "End": 586,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 538,
+          "End": 548,
+          "Value": "04/09/2014"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 586,
+      "End": 633,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 586,
+          "End": 596,
+          "Value": "05/08/2014"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 633,
+      "End": 699,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 633,
+          "End": 643,
+          "Value": "01/22/2014"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 699,
+      "End": 769,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 699,
+          "End": 709,
+          "Value": "01/22/2014"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 769,
+      "End": 835,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 769,
+          "End": 779,
+          "Value": "05/06/2014"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 835,
+      "End": 905,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 835,
+          "End": 845,
+          "Value": "05/06/2014"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 905,
+      "End": 954,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 905,
+          "End": 915,
+          "Value": "05/09/2014"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 954,
+      "End": 1003,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 954,
+          "End": 964,
+          "Value": "05/09/2014"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 1003,
+      "End": 1050,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 1003,
+          "End": 1013,
+          "Value": "05/10/2014"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 1050,
+      "End": 1099,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 1050,
+          "End": 1060,
+          "Value": "04/21/2014"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 1099,
+      "End": 1142,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 1099,
+          "End": 1109,
+          "Value": "03/28/2014"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 1142,
+      "End": 1187,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 1142,
+          "End": 1152,
+          "Value": "05/02/2014"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 1187,
+      "End": 1236,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 1187,
+          "End": 1197,
+          "Value": "05/07/2014"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 1236,
+      "End": 1281,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 1236,
+          "End": 1246,
+          "Value": "05/09/2014"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 1281,
+      "End": 1323,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 1281,
+          "End": 1291,
+          "Value": "04/15/2014"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 1323,
+      "End": 1371,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 1323,
+          "End": 1333,
+          "Value": "05/05/2014"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 1371,
+      "End": 1422,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 1371,
+          "End": 1381,
+          "Value": "04/09/2014"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 1422,
+      "End": 1470,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 1422,
+          "End": 1432,
+          "Value": "04/09/2014"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 1470,
+      "End": 1518,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 1470,
+          "End": 1480,
+          "Value": "05/08/2014"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 1518,
+      "End": 1574,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 1518,
+          "End": 1528,
+          "Value": "01/11/2014"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 1574,
+      "End": 1626,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 1574,
+          "End": 1584,
+          "Value": "10/23/2013"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 1626,
+      "End": 1673,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 1626,
+          "End": 1636,
+          "Value": "10/10/2013"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 1673,
+      "End": 1724,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 1673,
+          "End": 1683,
+          "Value": "03/22/2014"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 1724,
+      "End": 1770,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 1724,
+          "End": 1734,
+          "Value": "04/09/2014"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 1770,
+      "End": 1824,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 1770,
+          "End": 1780,
+          "Value": "09/14/2013"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 1824,
+      "End": 1873,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 1824,
+          "End": 1834,
+          "Value": "11/19/2013"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 1873,
+      "End": 2017,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 1873,
+          "End": 1883,
+          "Value": "05/11/2014"
+        }
+      ]
+    }
+  ]
+}

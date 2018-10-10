@@ -1,0 +1,64 @@
+{
+  "Examples": [
+    {
+      "Input": [
+        "692 Practi+al Concrete Chips & 275 186, 531gm"
+      ],
+      "Output": "531gm"
+    },
+    {
+      "Input": [
+        "Incredible Concrete Keyboard Small Rubber Mouse & In+elligent Rubber Fish - Unbranded Granite Mouse - 502g"
+      ],
+      "Output": "502g"
+    },
+    {
+      "Input": [
+        "267 & 869 Handcrafted Granite Ball 562gm"
+      ],
+      "Output": "N/A"
+    },
+    {
+      "Input": [
+        "Rustic Steel Mo?se - 322 - 701ml"
+      ],
+      "Output": "701ml"
+    },
+    {
+      "Input": [
+        "Licensed Fresh Sausages & 384 - Rustic Concrete +ar - 954 g"
+      ],
+      "Output": "954 g"
+    },
+    {
+      "Input": [
+        "Intell+gent Fresh Towels Intelligent Concrete Fi?h 235 Handcrafted Metal Chair - 146Ml"
+      ],
+      "Output": "146Ml"
+    },
+    {
+      "Input": [
+        "Handcrafted Fresh Fish & 324, 457ml"
+      ],
+      "Output": "457ml"
+    },
+    {
+      "Input": [
+        "742 & Sleek Steel Ball - Handmade Frozen Chair - 515 g"
+      ],
+      "Output": "515 g"
+    },
+    {
+      "Input": [
+        "Handmade Soft Salad & Awesome Plastic+Mouse - Licensed Granite Sausages - 586g"
+      ],
+      "Output": "586g"
+    },
+    {
+      "Input": [
+        "548 - Intelligent Soft Ball & 407 - 497Ml"
+      ],
+      "Output": "497Ml"
+    }
+  ]
+}

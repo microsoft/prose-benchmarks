@@ -1,0 +1,16 @@
+{
+  "Examples": [
+    {
+      "Input": [
+        "24,gurbanjemal"
+      ],
+      "Output": "24"
+    },
+    {
+      "Input": [
+        "10,lilly"
+      ],
+      "Output": "10"
+    }
+  ]
+}

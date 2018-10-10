@@ -1,0 +1,124 @@
+{
+  "Examples": [
+    {
+      "Input": [
+        "Hone T. Albert"
+      ],
+      "Output": "H A"
+    },
+    {
+      "Input": [
+        "Kiriakos O. Sarlis"
+      ],
+      "Output": "K S"
+    },
+    {
+      "Input": [
+        "Artem??qsCND8b19P Shakenuly"
+      ],
+      "Output": "A S"
+    },
+    {
+      "Input": [
+        "Snorre??cRG5QHflCs Evans"
+      ],
+      "Output": "S E"
+    },
+    {
+      "Input": [
+        "Antonia A. Guachiac"
+      ],
+      "Output": "A G"
+    },
+    {
+      "Input": [
+        "Nikolajs Serdar Pirc"
+      ],
+      "Output": "N P"
+    },
+    {
+      "Input": [
+        "Jaap H. Kleefstra"
+      ],
+      "Output": "J K"
+    },
+    {
+      "Input": [
+        "Meena??Cjnz Jamilah"
+      ],
+      "Output": "M J"
+    },
+    {
+      "Input": [
+        "Igor F. Konecny"
+      ],
+      "Output": "I K"
+    },
+    {
+      "Input": [
+        "Aniruddha??1QMn33fZ Bonsaint"
+      ],
+      "Output": "A B"
+    },
+    {
+      "Input": [
+        "Madhuri F. Vaidya"
+      ],
+      "Output": "M V"
+    },
+    {
+      "Input": [
+        "Maša??SYgTSh4 Buzov"
+      ],
+      "Output": "M B"
+    },
+    {
+      "Input": [
+        "Mano Laziza Bellefeuille"
+      ],
+      "Output": "M B"
+    },
+    {
+      "Input": [
+        "Bolormaa Joyikutty Chanthavong"
+      ],
+      "Output": "B C"
+    },
+    {
+      "Input": [
+        "Krishnaprabha??GPu Capon"
+      ],
+      "Output": "K C"
+    },
+    {
+      "Input": [
+        "Yaron??eM Rees"
+      ],
+      "Output": "Y R"
+    },
+    {
+      "Input": [
+        "Shavkat F. Rustamov"
+      ],
+      "Output": "S R"
+    },
+    {
+      "Input": [
+        "Robert??QfjgL7EjQJ Har-Paz"
+      ],
+      "Output": "R P"
+    },
+    {
+      "Input": [
+        "Mukhtar J. Sarraf"
+      ],
+      "Output": "M S"
+    },
+    {
+      "Input": [
+        "Chingfan??R79 Simonsen"
+      ],
+      "Output": "C S"
+    }
+  ]
+}

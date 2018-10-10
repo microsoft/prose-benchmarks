@@ -1,0 +1,144 @@
+{
+  "Examples": [
+    {
+      "Input": [
+        "06-Nov-2001",
+        null
+      ],
+      "Output": "6/11/2001"
+    },
+    {
+      "Input": [
+        "Feb 07 1952",
+        null
+      ],
+      "Output": "7/2/1952"
+    },
+    {
+      "Input": [
+        "22 Jun 1868",
+        null
+      ],
+      "Output": "22/6/1868"
+    },
+    {
+      "Input": [
+        "09262072",
+        null
+      ],
+      "Output": "26/9/2072"
+    },
+    {
+      "Input": [
+        "29 Dec 2113",
+        "lgovprx"
+      ],
+      "Output": "29/12/2113"
+    },
+    {
+      "Input": [
+        "Oct 08 2089",
+        "msjgluuer"
+      ],
+      "Output": "8/10/2089"
+    },
+    {
+      "Input": [
+        "26-Mar-1816",
+        "fllgvjycq"
+      ],
+      "Output": "26/3/1816"
+    },
+    {
+      "Input": [
+        "25-Apr-2139",
+        null
+      ],
+      "Output": "25/4/2139"
+    },
+    {
+      "Input": [
+        "Mar 19 1853",
+        null
+      ],
+      "Output": "19/3/1853"
+    },
+    {
+      "Input": [
+        "02 Mar 2204",
+        "ehffxzhj"
+      ],
+      "Output": "2/3/2204"
+    },
+    {
+      "Input": [
+        "28 Dec 1698",
+        null
+      ],
+      "Output": "28/12/1698"
+    },
+    {
+      "Input": [
+        "03141908",
+        "ozs"
+      ],
+      "Output": "14/3/1908"
+    },
+    {
+      "Input": [
+        "09-Apr-1916",
+        "jdijfnzdd"
+      ],
+      "Output": "9/4/1916"
+    },
+    {
+      "Input": [
+        "10 December 2049",
+        "qhdc"
+      ],
+      "Output": "10/12/2049"
+    },
+    {
+      "Input": [
+        "Jul 03 1731",
+        null
+      ],
+      "Output": "3/7/1731"
+    },
+    {
+      "Input": [
+        "19 March 1943",
+        null
+      ],
+      "Output": "19/3/1943"
+    },
+    {
+      "Input": [
+        "21 June 2223",
+        null
+      ],
+      "Output": "21/6/2223"
+    },
+    {
+      "Input": [
+        "19-Sep-1873",
+        "gujtc"
+      ],
+      "Output": "19/9/1873"
+    },
+    {
+      "Input": [
+        "Apr 10 2239",
+        null
+      ],
+      "Output": "10/4/2239"
+    },
+    {
+      "Input": [
+        "Feb 27 1866",
+        "irbftku"
+      ],
+      "Output": "27/2/1866"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "Features": [
+    "Concatenation",
+    "DateTimeRange",
+    "DateTimeRounding",
+    "DateTime",
+    "Multicolumn"
+  ],
+  "Synthetic": true
+}

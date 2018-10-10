@@ -1,0 +1,214 @@
+{
+  "Examples": [
+    {
+      "Input": [
+        "MFM-Robot/8.7.52-internal LZ224 OS 6.4.9"
+      ],
+      "Output": "LZ224"
+    },
+    {
+      "Input": [
+        "MFM-Robot/8.9.63-internal ZA659 OS 6.5.0"
+      ],
+      "Output": "ZA659"
+    },
+    {
+      "Input": [
+        "MFM-Robot/4.2.96-internal JI YNSD OS 2.9.7"
+      ],
+      "Output": "JI YNSD"
+    },
+    {
+      "Input": [
+        "MFM-Robot/4.1.24-internal MF-W878 OS 6.6.2"
+      ],
+      "Output": "MF-W878"
+    },
+    {
+      "Input": [
+        "MFM-Robot/8.0.81-internal FZ467 OS 8.1.7"
+      ],
+      "Output": "FZ467"
+    },
+    {
+      "Input": [
+        "MFM-Robot/1.9.14-internal RM VVUT OS 9.2.5"
+      ],
+      "Output": "RM VVUT"
+    },
+    {
+      "Input": [
+        "MFM-Robot/3.2.82-internal QS QYFY OS 0.9.6"
+      ],
+      "Output": "QS QYFY"
+    },
+    {
+      "Input": [
+        "MFM-Robot/1.1.69-internal RO FQAJ OS 8.0.2"
+      ],
+      "Output": "RO FQAJ"
+    },
+    {
+      "Input": [
+        "MFM-Robot/9.9.35-internal NB-H486 OS 1.7.4"
+      ],
+      "Output": "NB-H486"
+    },
+    {
+      "Input": [
+        "MFM-Robot/1.6.68-internal EE-P295 OS 0.2.8"
+      ],
+      "Output": "EE-P295"
+    },
+    {
+      "Input": [
+        "MFM-Robot/6.5.90-internal VQ OORZ OS 3.0.4"
+      ],
+      "Output": "VQ OORZ"
+    },
+    {
+      "Input": [
+        "MFM-Robot/2.0.21-internal AK-V290 OS 5.9.9"
+      ],
+      "Output": "AK-V290"
+    },
+    {
+      "Input": [
+        "MFM-Robot/6.2.95-internal KZ XZGD OS 8.1.8"
+      ],
+      "Output": "KZ XZGD"
+    },
+    {
+      "Input": [
+        "MFM-Robot/7.5.39-internal DF452 OS 3.2.7"
+      ],
+      "Output": "DF452"
+    },
+    {
+      "Input": [
+        "MFM-Robot/6.5.63-internal WS XQGG OS 4.1.8"
+      ],
+      "Output": "WS XQGG"
+    },
+    {
+      "Input": [
+        "MFM-Robot/6.3.32-internal AZ-Z170 OS 1.0.1"
+      ],
+      "Output": "AZ-Z170"
+    },
+    {
+      "Input": [
+        "MFM-Robot/1.8.65-internal WL984 OS 3.7.4"
+      ],
+      "Output": "WL984"
+    },
+    {
+      "Input": [
+        "MFM-Robot/9.6.06-internal OD056 OS 3.8.3"
+      ],
+      "Output": "OD056"
+    },
+    {
+      "Input": [
+        "MFM-Robot/5.8.55-internal OI-G849 OS 3.1.1"
+      ],
+      "Output": "OI-G849"
+    },
+    {
+      "Input": [
+        "MFM-Robot/2.5.57-internal LD WOSQ OS 0.5.4"
+      ],
+      "Output": "LD WOSQ"
+    },
+    {
+      "Input": [
+        "MFM-Robot/1.1.26-internal GA LHVV OS 5.9.2"
+      ],
+      "Output": "GA LHVV"
+    },
+    {
+      "Input": [
+        "MFM-Robot/8.8.48-internal HK-K466 OS 9.9.2"
+      ],
+      "Output": "HK-K466"
+    },
+    {
+      "Input": [
+        "MFM-Robot/3.4.72-internal WY-H431 OS 2.6.5"
+      ],
+      "Output": "WY-H431"
+    },
+    {
+      "Input": [
+        "MFM-Robot/3.7.71-internal QO-V823 OS 5.6.0"
+      ],
+      "Output": "QO-V823"
+    },
+    {
+      "Input": [
+        "MFM-Robot/9.1.40-internal AI055 OS 8.2.1"
+      ],
+      "Output": "AI055"
+    },
+    {
+      "Input": [
+        "MFM-Robot/7.8.72-internal EP SVFK OS 0.2.4"
+      ],
+      "Output": "EP SVFK"
+    },
+    {
+      "Input": [
+        "MFM-Robot/6.4.71-internal NT JSLC OS 5.0.7"
+      ],
+      "Output": "NT JSLC"
+    },
+    {
+      "Input": [
+        "MFM-Robot/6.7.45-internal XK-V572 OS 9.5.9"
+      ],
+      "Output": "XK-V572"
+    },
+    {
+      "Input": [
+        "MFM-Robot/5.1.94-internal BQ398 OS 4.6.0"
+      ],
+      "Output": "BQ398"
+    },
+    {
+      "Input": [
+        "MFM-Robot/6.0.87-internal YN153 OS 3.5.3"
+      ],
+      "Output": "YN153"
+    },
+    {
+      "Input": [
+        "MFM-Robot/8.7.74-internal BI-X768 OS 2.8.5"
+      ],
+      "Output": "BI-X768"
+    },
+    {
+      "Input": [
+        "MFM-Robot/7.7.50-internal WR GPQU OS 9.0.5"
+      ],
+      "Output": "WR GPQU"
+    },
+    {
+      "Input": [
+        "MFM-Robot/2.0.10-internal OO PSZY OS 6.9.7"
+      ],
+      "Output": "OO PSZY"
+    },
+    {
+      "Input": [
+        "MFM-Robot/6.0.66-internal CU XBEY OS 7.2.4"
+      ],
+      "Output": "CU XBEY"
+    },
+    {
+      "Input": [
+        "MFM-Robot/2.1.52-internal SM-E044 OS 0.9.9"
+      ],
+      "Output": "SM-E044"
+    }
+  ]
+}

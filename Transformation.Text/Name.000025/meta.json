@@ -1,0 +1,8 @@
+{
+  "Features": [
+    "Casing",
+    "Concatenation",
+    "Substring"
+  ],
+  "Synthetic": true
+}

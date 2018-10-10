@@ -1,0 +1,8 @@
+{
+  "Features": [
+    "DateTimeRange",
+    "DateTimeRounding",
+    "DateTime"
+  ],
+  "Synthetic": true
+}

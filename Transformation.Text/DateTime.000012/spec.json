@@ -1,0 +1,64 @@
+{
+  "Examples": [
+    {
+      "Input": [
+        "1756"
+      ],
+      "Output": "1756"
+    },
+    {
+      "Input": [
+        "12 March 1933"
+      ],
+      "Output": "1933"
+    },
+    {
+      "Input": [
+        "2048"
+      ],
+      "Output": "2048"
+    },
+    {
+      "Input": [
+        "2238"
+      ],
+      "Output": "2238"
+    },
+    {
+      "Input": [
+        "2033"
+      ],
+      "Output": "2033"
+    },
+    {
+      "Input": [
+        "Unknown"
+      ],
+      "Output": null
+    },
+    {
+      "Input": [
+        "1784"
+      ],
+      "Output": "1784"
+    },
+    {
+      "Input": [
+        "2130"
+      ],
+      "Output": "2130"
+    },
+    {
+      "Input": [
+        "Unknown"
+      ],
+      "Output": null
+    },
+    {
+      "Input": [
+        "4 September 2088"
+      ],
+      "Output": "2088"
+    }
+  ]
+}

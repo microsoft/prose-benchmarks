@@ -1,0 +1,16 @@
+{
+  "Examples": [
+    {
+      "Input": [
+        "<n>Haniya Mehraban</n>"
+      ],
+      "Output": "<n>H Mehraban</n>"
+    },
+    {
+      "Input": [
+        "<n>Haniya Mehraban</n>"
+      ],
+      "Output": "<n>H Mehraban</n>"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "Examples": [
+    {
+      "Input": [
+        "10/4/2019 and 1/8/2003"
+      ],
+      "Output": "January 8, 2003"
+    },
+    {
+      "Input": [
+        "2/22/2024 and 3/5/2010"
+      ],
+      "Output": "March 5, 2010"
+    },
+    {
+      "Input": [
+        "3/18/1998 and 12/2/2015"
+      ],
+      "Output": "December 2, 2015"
+    }
+  ]
+}

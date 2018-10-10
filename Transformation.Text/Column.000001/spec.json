@@ -1,0 +1,64 @@
+{
+  "Examples": [
+    {
+      "Input": [
+        "Coln8"
+      ],
+      "Output": "Col8"
+    },
+    {
+      "Input": [
+        "Coln5"
+      ],
+      "Output": "Col5"
+    },
+    {
+      "Input": [
+        "ID"
+      ],
+      "Output": "Col1"
+    },
+    {
+      "Input": [
+        "Coln9"
+      ],
+      "Output": "Col9"
+    },
+    {
+      "Input": [
+        "ID"
+      ],
+      "Output": "Col1"
+    },
+    {
+      "Input": [
+        "Coln2"
+      ],
+      "Output": "Col2"
+    },
+    {
+      "Input": [
+        "ID"
+      ],
+      "Output": "Col1"
+    },
+    {
+      "Input": [
+        "ID"
+      ],
+      "Output": "Col1"
+    },
+    {
+      "Input": [
+        "Coln4"
+      ],
+      "Output": "Col4"
+    },
+    {
+      "Input": [
+        "Coln0"
+      ],
+      "Output": "Col0"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "Examples": [
+    {
+      "Input": [
+        "Male"
+      ],
+      "Output": "0"
+    },
+    {
+      "Input": [
+        "Female"
+      ],
+      "Output": "1"
+    },
+    {
+      "Input": [
+        "Unknown"
+      ],
+      "Output": "2"
+    },
+    {
+      "Input": [
+        "Female"
+      ],
+      "Output": "1"
+    },
+    {
+      "Input": [
+        "Female"
+      ],
+      "Output": "1"
+    },
+    {
+      "Input": [
+        "Male"
+      ],
+      "Output": "0"
+    },
+    {
+      "Input": [
+        "Unknown"
+      ],
+      "Output": "2"
+    },
+    {
+      "Input": [
+        "Male"
+      ],
+      "Output": "0"
+    },
+    {
+      "Input": [
+        "Female"
+      ],
+      "Output": "1"
+    }
+  ]
+}

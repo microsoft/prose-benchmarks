@@ -1,0 +1,316 @@
+{
+  "Examples": [
+    {
+      "Input": [
+        "Consectetur"
+      ],
+      "Output": "C"
+    },
+    {
+      "Input": [
+        "Nihil Impedit"
+      ],
+      "Output": "NI"
+    },
+    {
+      "Input": [
+        "Consectetur"
+      ],
+      "Output": "C"
+    },
+    {
+      "Input": [
+        "Nihil Impedit"
+      ],
+      "Output": "NI"
+    },
+    {
+      "Input": [
+        "Consectetur"
+      ],
+      "Output": "C"
+    },
+    {
+      "Input": [
+        "Consectetur"
+      ],
+      "Output": "C"
+    },
+    {
+      "Input": [
+        "Consectetur"
+      ],
+      "Output": "C"
+    },
+    {
+      "Input": [
+        "Eveniet"
+      ],
+      "Output": "E"
+    },
+    {
+      "Input": [
+        "Consectetur"
+      ],
+      "Output": "C"
+    },
+    {
+      "Input": [
+        "Eveniet"
+      ],
+      "Output": "E"
+    },
+    {
+      "Input": [
+        "Eveniet"
+      ],
+      "Output": "E"
+    },
+    {
+      "Input": [
+        "Consectetur"
+      ],
+      "Output": "C"
+    },
+    {
+      "Input": [
+        "Nihil Impedit"
+      ],
+      "Output": "NI"
+    },
+    {
+      "Input": [
+        "Consectetur"
+      ],
+      "Output": "C"
+    },
+    {
+      "Input": [
+        "Consectetur"
+      ],
+      "Output": "C"
+    },
+    {
+      "Input": [
+        "Nihil Impedit"
+      ],
+      "Output": "NI"
+    },
+    {
+      "Input": [
+        "Nihil Impedit"
+      ],
+      "Output": "NI"
+    },
+    {
+      "Input": [
+        "Nihil Impedit"
+      ],
+      "Output": "NI"
+    },
+    {
+      "Input": [
+        "Consectetur"
+      ],
+      "Output": "C"
+    },
+    {
+      "Input": [
+        "Consectetur"
+      ],
+      "Output": "C"
+    },
+    {
+      "Input": [
+        "Consectetur"
+      ],
+      "Output": "C"
+    },
+    {
+      "Input": [
+        "Consectetur"
+      ],
+      "Output": "C"
+    },
+    {
+      "Input": [
+        "Consectetur"
+      ],
+      "Output": "C"
+    },
+    {
+      "Input": [
+        "Nihil Impedit"
+      ],
+      "Output": "NI"
+    },
+    {
+      "Input": [
+        "Consectetur"
+      ],
+      "Output": "C"
+    },
+    {
+      "Input": [
+        "Consectetur"
+      ],
+      "Output": "C"
+    },
+    {
+      "Input": [
+        "Eveniet"
+      ],
+      "Output": "E"
+    },
+    {
+      "Input": [
+        "Eveniet"
+      ],
+      "Output": "E"
+    },
+    {
+      "Input": [
+        "Consectetur"
+      ],
+      "Output": "C"
+    },
+    {
+      "Input": [
+        "Consectetur"
+      ],
+      "Output": "C"
+    },
+    {
+      "Input": [
+        "Nihil Impedit"
+      ],
+      "Output": "NI"
+    },
+    {
+      "Input": [
+        "Eveniet"
+      ],
+      "Output": "E"
+    },
+    {
+      "Input": [
+        "Eveniet"
+      ],
+      "Output": "E"
+    },
+    {
+      "Input": [
+        "Consectetur"
+      ],
+      "Output": "C"
+    },
+    {
+      "Input": [
+        "Eveniet"
+      ],
+      "Output": "E"
+    },
+    {
+      "Input": [
+        "Consectetur"
+      ],
+      "Output": "C"
+    },
+    {
+      "Input": [
+        "Eveniet"
+      ],
+      "Output": "E"
+    },
+    {
+      "Input": [
+        "Consectetur"
+      ],
+      "Output": "C"
+    },
+    {
+      "Input": [
+        "Consectetur"
+      ],
+      "Output": "C"
+    },
+    {
+      "Input": [
+        "Nihil Impedit"
+      ],
+      "Output": "NI"
+    },
+    {
+      "Input": [
+        "Consectetur"
+      ],
+      "Output": "C"
+    },
+    {
+      "Input": [
+        "Consectetur"
+      ],
+      "Output": "C"
+    },
+    {
+      "Input": [
+        "Nihil Impedit"
+      ],
+      "Output": "NI"
+    },
+    {
+      "Input": [
+        "Nihil Impedit"
+      ],
+      "Output": "NI"
+    },
+    {
+      "Input": [
+        "Eveniet"
+      ],
+      "Output": "E"
+    },
+    {
+      "Input": [
+        "Nihil Impedit"
+      ],
+      "Output": "NI"
+    },
+    {
+      "Input": [
+        "Nihil Impedit"
+      ],
+      "Output": "NI"
+    },
+    {
+      "Input": [
+        "Consectetur"
+      ],
+      "Output": "C"
+    },
+    {
+      "Input": [
+        "Consectetur"
+      ],
+      "Output": "C"
+    },
+    {
+      "Input": [
+        "Eveniet"
+      ],
+      "Output": "E"
+    },
+    {
+      "Input": [
+        "Consectetur"
+      ],
+      "Output": "C"
+    },
+    {
+      "Input": [
+        "Eveniet"
+      ],
+      "Output": "E"
+    }
+  ]
+}

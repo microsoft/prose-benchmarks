@@ -1,0 +1,345 @@
+{
+  "Property": "root",
+  "Start": 0,
+  "End": 2017,
+  "Children": [
+    {
+      "Property": "DirStruct",
+      "Start": 158,
+      "End": 199,
+      "Children": [
+        {
+          "Property": "Dir",
+          "Start": 158,
+          "End": 159,
+          "Value": "."
+        }
+      ]
+    },
+    {
+      "Property": "DirStruct",
+      "Start": 199,
+      "End": 438,
+      "Children": [
+        {
+          "Property": "Dir",
+          "Start": 199,
+          "End": 201,
+          "Value": ".."
+        }
+      ]
+    },
+    {
+      "Property": "DirStruct",
+      "Start": 438,
+      "End": 489,
+      "Children": [
+        {
+          "Property": "Dir",
+          "Start": 438,
+          "End": 449,
+          "Value": ".receitanet"
+        }
+      ]
+    },
+    {
+      "Property": "DirStruct",
+      "Start": 489,
+      "End": 533,
+      "Children": [
+        {
+          "Property": "Dir",
+          "Start": 489,
+          "End": 493,
+          "Value": ".ssh"
+        }
+      ]
+    },
+    {
+      "Property": "DirStruct",
+      "Start": 533,
+      "End": 577,
+      "Children": [
+        {
+          "Property": "Dir",
+          "Start": 533,
+          "End": 537,
+          "Value": "atal"
+        }
+      ]
+    },
+    {
+      "Property": "DirStruct",
+      "Start": 577,
+      "End": 625,
+      "Children": [
+        {
+          "Property": "Dir",
+          "Start": 577,
+          "End": 585,
+          "Value": "Contacts"
+        }
+      ]
+    },
+    {
+      "Property": "DirStruct",
+      "Start": 625,
+      "End": 944,
+      "Children": [
+        {
+          "Property": "Dir",
+          "Start": 625,
+          "End": 632,
+          "Value": "Desktop"
+        }
+      ]
+    },
+    {
+      "Property": "DirStruct",
+      "Start": 944,
+      "End": 993,
+      "Children": [
+        {
+          "Property": "Dir",
+          "Start": 944,
+          "End": 953,
+          "Value": "Documents"
+        }
+      ]
+    },
+    {
+      "Property": "DirStruct",
+      "Start": 993,
+      "End": 1042,
+      "Children": [
+        {
+          "Property": "Dir",
+          "Start": 993,
+          "End": 1002,
+          "Value": "Downloads"
+        }
+      ]
+    },
+    {
+      "Property": "DirStruct",
+      "Start": 1042,
+      "End": 1089,
+      "Children": [
+        {
+          "Property": "Dir",
+          "Start": 1042,
+          "End": 1049,
+          "Value": "Dropbox"
+        }
+      ]
+    },
+    {
+      "Property": "DirStruct",
+      "Start": 1089,
+      "End": 1138,
+      "Children": [
+        {
+          "Property": "Dir",
+          "Start": 1089,
+          "End": 1098,
+          "Value": "Favorites"
+        }
+      ]
+    },
+    {
+      "Property": "DirStruct",
+      "Start": 1138,
+      "End": 1181,
+      "Children": [
+        {
+          "Property": "Dir",
+          "Start": 1138,
+          "End": 1141,
+          "Value": "git"
+        }
+      ]
+    },
+    {
+      "Property": "DirStruct",
+      "Start": 1181,
+      "End": 1226,
+      "Children": [
+        {
+          "Property": "Dir",
+          "Start": 1181,
+          "End": 1186,
+          "Value": "Links"
+        }
+      ]
+    },
+    {
+      "Property": "DirStruct",
+      "Start": 1226,
+      "End": 1275,
+      "Children": [
+        {
+          "Property": "Dir",
+          "Start": 1226,
+          "End": 1235,
+          "Value": "Microsoft"
+        }
+      ]
+    },
+    {
+      "Property": "DirStruct",
+      "Start": 1275,
+      "End": 1320,
+      "Children": [
+        {
+          "Property": "Dir",
+          "Start": 1275,
+          "End": 1280,
+          "Value": "Music"
+        }
+      ]
+    },
+    {
+      "Property": "DirStruct",
+      "Start": 1320,
+      "End": 1362,
+      "Children": [
+        {
+          "Property": "Dir",
+          "Start": 1320,
+          "End": 1322,
+          "Value": "p2"
+        }
+      ]
+    },
+    {
+      "Property": "DirStruct",
+      "Start": 1362,
+      "End": 1410,
+      "Children": [
+        {
+          "Property": "Dir",
+          "Start": 1362,
+          "End": 1370,
+          "Value": "Pictures"
+        }
+      ]
+    },
+    {
+      "Property": "DirStruct",
+      "Start": 1410,
+      "End": 1461,
+      "Children": [
+        {
+          "Property": "Dir",
+          "Start": 1410,
+          "End": 1421,
+          "Value": "Saved Games"
+        }
+      ]
+    },
+    {
+      "Property": "DirStruct",
+      "Start": 1461,
+      "End": 1509,
+      "Children": [
+        {
+          "Property": "Dir",
+          "Start": 1461,
+          "End": 1469,
+          "Value": "Searches"
+        }
+      ]
+    },
+    {
+      "Property": "DirStruct",
+      "Start": 1509,
+      "End": 1557,
+      "Children": [
+        {
+          "Property": "Dir",
+          "Start": 1509,
+          "End": 1517,
+          "Value": "SkyDrive"
+        }
+      ]
+    },
+    {
+      "Property": "DirStruct",
+      "Start": 1557,
+      "End": 1613,
+      "Children": [
+        {
+          "Property": "Dir",
+          "Start": 1557,
+          "End": 1573,
+          "Value": "SkyDrive (2).old"
+        }
+      ]
+    },
+    {
+      "Property": "DirStruct",
+      "Start": 1613,
+      "End": 1665,
+      "Children": [
+        {
+          "Property": "Dir",
+          "Start": 1613,
+          "End": 1625,
+          "Value": "SkyDrive.old"
+        }
+      ]
+    },
+    {
+      "Property": "DirStruct",
+      "Start": 1665,
+      "End": 1763,
+      "Children": [
+        {
+          "Property": "Dir",
+          "Start": 1665,
+          "End": 1672,
+          "Value": "Tracing"
+        }
+      ]
+    },
+    {
+      "Property": "DirStruct",
+      "Start": 1763,
+      "End": 1809,
+      "Children": [
+        {
+          "Property": "Dir",
+          "Start": 1763,
+          "End": 1769,
+          "Value": "Videos"
+        }
+      ]
+    },
+    {
+      "Property": "DirStruct",
+      "Start": 1809,
+      "End": 1863,
+      "Children": [
+        {
+          "Property": "Dir",
+          "Start": 1809,
+          "End": 1823,
+          "Value": "Web Essentials"
+        }
+      ]
+    },
+    {
+      "Property": "DirStruct",
+      "Start": 1863,
+      "End": 2017,
+      "Children": [
+        {
+          "Property": "Dir",
+          "Start": 1863,
+          "End": 1872,
+          "Value": "workspace"
+        }
+      ]
+    }
+  ]
+}

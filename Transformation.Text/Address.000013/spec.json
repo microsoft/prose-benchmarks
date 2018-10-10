@@ -1,0 +1,64 @@
+{
+  "Examples": [
+    {
+      "Input": [
+        "One Cherry Court, Greensboro, VA 38891"
+      ],
+      "Output": null
+    },
+    {
+      "Input": [
+        "234 Maple Blvd, Edison, AK 58712"
+      ],
+      "Output": "234"
+    },
+    {
+      "Input": [
+        "2345 1st Rte, Kinshasa, OH 38891"
+      ],
+      "Output": "2345"
+    },
+    {
+      "Input": [
+        "23 Fifth Ave SE, Maputo, WY 41230"
+      ],
+      "Output": "23"
+    },
+    {
+      "Input": [
+        "89 123rd Blvd, Corona, CT 17293"
+      ],
+      "Output": "89"
+    },
+    {
+      "Input": [
+        "234 Fourth Ct, Omsk, OK 41230"
+      ],
+      "Output": "234"
+    },
+    {
+      "Input": [
+        "One Main Parkway, Allentown, ND 41230"
+      ],
+      "Output": null
+    },
+    {
+      "Input": [
+        "One Second Way, Ekurhuleni, NY 58712"
+      ],
+      "Output": null
+    },
+    {
+      "Input": [
+        "789 Oak Pkwy, Yangon, OR 41230"
+      ],
+      "Output": "789"
+    },
+    {
+      "Input": [
+        "234 CHERRY PL, Knoxville, MN 58712"
+      ],
+      "Output": "234"
+    }
+  ]
+}

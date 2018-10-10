@@ -1,0 +1,64 @@
+{
+  "Examples": [
+    {
+      "Input": [
+        "type size =  206: Iste.Quia.Natus.DignissimosReiciendisAd type size =  96: Harum.Totam.DoloremqueEosAsperiores Illum"
+      ],
+      "Output": "      206->96      "
+    },
+    {
+      "Input": [
+        "type size =  242: Cumque.Non.EstUndeVitae type size =  74: Exercitationem.Doloribus.OmnisDoloremque"
+      ],
+      "Output": "      242->74      "
+    },
+    {
+      "Input": [
+        "type size =  235: Porro.Sed.Ad.AutemSuscipitBlanditiis type size =  66: Velit.Porro.CorruptiAdipisci IdVeroSoluta"
+      ],
+      "Output": "      235->66      "
+    },
+    {
+      "Input": [
+        "type size =  81: Eveniet.Dicta.Quo.Facilis type size =  207: Repellat.Deleniti.QuisquamConsequatur"
+      ],
+      "Output": "      81->207      "
+    },
+    {
+      "Input": [
+        "type size =  185: Et.Consectetur.UtVoluptas type size =  175: Fugiat.Consequatur.VoluptasItaqueExercitationem SitQuis"
+      ],
+      "Output": "      185->175      "
+    },
+    {
+      "Input": [
+        "type size =  82: Quasi.Fuga.EtMolestiaeModi type size =  229: Ut.Cum.Voluptatem"
+      ],
+      "Output": "      82->229      "
+    },
+    {
+      "Input": [
+        "type size =  234: Ratione.Cum.TemporaEt type size =  37: Pariatur.Veritatis.Nihil IureCupiditateMinima"
+      ],
+      "Output": "      234->37      "
+    },
+    {
+      "Input": [
+        "type size =  146: Minima.Dolores.LaborumAutQuod type size =  119: Magni.Cumque.Et.NobisSimiliqueQuia"
+      ],
+      "Output": "      146->119      "
+    },
+    {
+      "Input": [
+        "type size =  88: Similique.Veritatis.Voluptatem.SimiliqueFacilisSint type size =  237: Excepturi.Sequi.RerumInOmnis CorporisEtLaudantium"
+      ],
+      "Output": "      88->237      "
+    },
+    {
+      "Input": [
+        "type size =  80: Incidunt.Voluptatem.QuiSit type size =  116: Sed.Repudiandae.Doloremque.SapienteAsperiores"
+      ],
+      "Output": "      80->116      "
+    }
+  ]
+}

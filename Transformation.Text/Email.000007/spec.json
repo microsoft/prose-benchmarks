@@ -1,0 +1,22 @@
+{
+  "Examples": [
+    {
+      "Input": [
+        "nenad"
+      ],
+      "Output": "nenad@fabrikam.com"
+    },
+    {
+      "Input": [
+        "yuri"
+      ],
+      "Output": "yuri@fabrikam.com"
+    },
+    {
+      "Input": [
+        "henrique"
+      ],
+      "Output": "henrique@fabrikam.com"
+    }
+  ]
+}

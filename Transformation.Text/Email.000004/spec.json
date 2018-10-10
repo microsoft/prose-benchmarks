@@ -1,0 +1,16 @@
+{
+  "Examples": [
+    {
+      "Input": [
+        "voluptatem"
+      ],
+      "Output": "voluptatem@fabrikam.com"
+    },
+    {
+      "Input": [
+        "voluptatem"
+      ],
+      "Output": "voluptatem@fabrikam.com"
+    }
+  ]
+}

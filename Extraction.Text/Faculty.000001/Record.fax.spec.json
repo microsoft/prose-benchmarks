@@ -1,0 +1,171 @@
+{
+  "Kind": "Field",
+  "Examples": [
+    {
+      "Input": [
+        {
+          "Start": 0,
+          "End": 356,
+          "Value": "Hone Albert, Professor of Computer Science\nPhd (1996) University of Voluptatibus Doloremque Eos, Brownsville\nTrey Research Prize\nResearch: est unde vitae amet qui; facilis omnis doloremque vel nisi; porro sed ad; suscipit blanditiis ratione modi; dolorum corrupti adipisci debitis\n\nemail: qmn33fzk | office: FZ 4678C | tel: 771-914-5364 | fax: 877-925-6328"
+        },
+        {
+          "Start": 674,
+          "End": 1131,
+          "Value": "Ljubica Stojsic, Associate Professor of Computer Science\nPhd (1980) Doloremque Molestias Sapiente Asperiores Sit University\nWingtip Toys Fellow, Graphic Design Institute Fellow\nResearch: eveniet; perspiciatis repellendus excepturi aliquid doloribus; quia adipisci dolores culpa; et repellendus; natus expedita laboriosam voluptatem; quo saepe et aliquam voluptatem\n\nemail: entwp9la8@wingtiptoys.com | office: CE 0171V | tel: 652-884-9843 | fax: 469-606-9851"
+        },
+        {
+          "Start": 1134,
+          "End": 1476,
+          "Value": "Gadi Kuzbari, Emeritus Professor of Computer Science\nPhd (1982) Omnis Ipsam Magnam Et University\nFirst Up Consultants Prize\nResearch: molestias est atque; sed eos error; perferendis similique praesentium asperiores; veniam; aliquam voluptatem perferendis dignissimos\n\nemail: g6m603c0 | office: HK 3466Y | tel: 926-347-2958 | fax: 243-126-5937"
+        },
+        {
+          "Start": 1736,
+          "End": 2119,
+          "Value": "Anjali Chaturvedi, Chancellor's Professor of Computer Science\nPhd (1972) University of Rerum\nLamna Healthcare Company Prize; Proseware, Inc. Prize, First Up Consultants Prize\nResearch: eum autem occaecati; fugiat temporibus; sed nihil architecto; omnis et dolorem ut quo; quod quisquam officia\n\nemail: 2@northwindtraders.com | office: QU 9055G | tel: 010-725-5679 | fax: 697-660-6693"
+        },
+        {
+          "Start": 2853,
+          "End": 3151,
+          "Value": "Sergio Valladares, Professor of Computer Science\nPhd (1981) Est University\nWoodgrove Bank Fellow; Adventure Works Cycles Fellow; Wide World Importers Fellow\nResearch: tempora laudantium; voluptas; quod; repellendus\n\nemail: svd@fabrikam.com | office: VG 8245G | tel: 450-152-6406 | fax: 872-221-3829"
+        },
+        {
+          "Start": 3532,
+          "End": 3863,
+          "Value": "Miroslava Beňová, Emeritus Professor of Computer Science\nPhd (1981) Nostrum Aperiam Ut University\nLucerne Publishing Fellow\nResearch: velit quibusdam ea voluptatem; voluptates maiores nihil facilis; exercitationem molestiae ipsam voluptas\n\nemail: beaxfsdi@margiestravel.com | office: DM 0014 | tel: 712-707-8874 | fax: 007-012-2240"
+        },
+        {
+          "Start": 4790,
+          "End": 5137,
+          "Value": "Prakash Malviya, Assistant Professor of Computer Science, Professor of Mathematics\nPhd (1990) Provident Cumque Quasi Delectus Dolor University\nSouthridge Video Prize\nResearch: eligendi harum nihil deserunt omnis; aliquam architecto eveniet; nesciunt aut eveniet iure\n\nemail: gukl5r | office: 23 12th Parkway | tel: 411-084-3127 | fax: 648-836-4939"
+        },
+        {
+          "Start": 5910,
+          "End": 6253,
+          "Value": "De Hsieh, Adjunct Professor of Computer Science, Professor of Statistics\nPhd (1993) University of Atque Sit Facilis Non, Lafayette\n\nResearch: minus dolores sit; alias quo; repellat dolor ullam commodi; voluptatem adipisci nihil nobis hic; aut ut sed dolores et\n\nemail: ovuktb82 | office: 234 Ninth Place | tel: 991-619-3640 | fax: 080-227-1158"
+        },
+        {
+          "Start": 7979,
+          "End": 8331,
+          "Value": "Clara Barbosa, Associate Professor of Computer Science\nPhd (1982) Quasi Repudiandae Neque Placeat University\nFirst Up Consultants Fellow\nResearch: nemo est voluptatum accusantium; quibusdam fugit; quaerat hic atque; et et; debitis et excepturi nesciunt autem\n\nemail: sbf@fabrikamresidences.com | office: FJ 1445Q | tel: 894-562-2804 | fax: 068-274-1940"
+        },
+        {
+          "Start": 8334,
+          "End": 8657,
+          "Value": "Dorotea Ceh, Associate Professor of Computer Science\nPhd (1973) Illo Iusto University\n\nResearch: aut iure quo alias consectetur; eligendi repudiandae error porro; aspernatur unde placeat; ea autem; cum necessitatibus aut voluptas mollitia\n\nemail: rzxdkqwp | office: 45 Redwood Avenue | tel: 631-537-3182 | fax: 187-804-6390"
+        },
+        {
+          "Start": 10017,
+          "End": 10317,
+          "Value": "Lisha Daher, Professor of Computer Science\nPhd (1987) Accusantium Dolorem Veritatis Enim University\nConsolidated Messenger Prize\nResearch: non ab accusamus perspiciatis; suscipit error corrupti fugiat; vitae; adipisci aut velit\n\nemail: ym69cl | office: SZ 0347 | tel: 771-511-9212 | fax: 253-078-0321"
+        },
+        {
+          "Start": 10942,
+          "End": 11265,
+          "Value": "Chantha Mean, Associate Professor of Computer Science\nPhd (1983) Iste Ducimus Sit University\nSouthridge Video Fellow; The Phone Company Fellow; VanArsdel, Ltd. Fellow\nResearch: dolores quae praesentium voluptatem; totam rerum libero; aut nobis; esse\n\nemail: skq4eak | office: QK 9179 | tel: 240-155-6113 | fax: 939-941-5616"
+        },
+        {
+          "Start": 11847,
+          "End": 12213,
+          "Value": "Johanne Balstad, Adjunct Professor of Computer Science\nPhd (1974) Consequuntur Et Esse Temporibus Perferendis University\nBellows College Fellow, Trey Research Fellow\nResearch: rerum aut omnis eligendi ullam; in non alias amet; eaque; ea sequi sint et provident; molestiae; qui earum aut officia\n\nemail: issij | office: UK 4689 | tel: 759-903-3333 | fax: 866-774-9861"
+        },
+        {
+          "Start": 12446,
+          "End": 12790,
+          "Value": "Chi Lieu, Associate Professor of Computer Science\nPhd (1989) University of Consequatur Repudiandae Voluptas\nMunson's Pickles and Preserves Farm Fellow, Graphic Design Institute Prize; VanArsdel, Ltd. Fellow\nResearch: ut; qui; libero debitis dolorum\n\nemail: yuvt22erk@alpineskihouse.com | office: VR 2556U | tel: 058-288-4137 | fax: 518-556-6129"
+        },
+        {
+          "Start": 12793,
+          "End": 13192,
+          "Value": "Alena Jankova, Assistant Professor of Computer Science, Professor of Mathematics\nPhd (1983) University of Alias Voluptatem Omnis Odit, Temecula\nRelecloud Prize\nResearch: dolore aut provident itaque esse; alias ratione aliquid architecto nulla; error fugit facilis quam deserunt; voluptatem alias qui possimus ad; commodi autem\n\nemail: xuari | office: WZ 1100J | tel: 526-349-2091 | fax: 116-567-7461"
+        },
+        {
+          "Start": 13492,
+          "End": 13839,
+          "Value": "Margarita Kairyte, Professor of Computer Science\nPhd (1993) University of Occaecati Ut\nRelecloud Fellow, Consolidated Messenger Fellow\nResearch: suscipit hic nostrum; quibusdam nemo aut enim; sit doloremque laudantium quia; in nam; ratione ipsum doloremque quis dolore\n\nemail: 7gejh | office: 456 Maple Lane | tel: 421-786-7152 | fax: 289-261-7235"
+        }
+      ],
+      "Output": [
+        {
+          "Start": 344,
+          "End": 356,
+          "Value": "877-925-6328"
+        },
+        {
+          "Start": 1119,
+          "End": 1131,
+          "Value": "469-606-9851"
+        },
+        {
+          "Start": 1464,
+          "End": 1476,
+          "Value": "243-126-5937"
+        },
+        {
+          "Start": 2107,
+          "End": 2119,
+          "Value": "697-660-6693"
+        },
+        {
+          "Start": 3139,
+          "End": 3151,
+          "Value": "872-221-3829"
+        },
+        {
+          "Start": 3851,
+          "End": 3863,
+          "Value": "007-012-2240"
+        },
+        {
+          "Start": 5125,
+          "End": 5137,
+          "Value": "648-836-4939"
+        },
+        {
+          "Start": 6241,
+          "End": 6253,
+          "Value": "080-227-1158"
+        },
+        {
+          "Start": 8319,
+          "End": 8331,
+          "Value": "068-274-1940"
+        },
+        {
+          "Start": 8645,
+          "End": 8657,
+          "Value": "187-804-6390"
+        },
+        {
+          "Start": 10305,
+          "End": 10317,
+          "Value": "253-078-0321"
+        },
+        {
+          "Start": 11253,
+          "End": 11265,
+          "Value": "939-941-5616"
+        },
+        {
+          "Start": 12201,
+          "End": 12213,
+          "Value": "866-774-9861"
+        },
+        {
+          "Start": 12778,
+          "End": 12790,
+          "Value": "518-556-6129"
+        },
+        {
+          "Start": 13180,
+          "End": 13192,
+          "Value": "116-567-7461"
+        },
+        {
+          "Start": 13827,
+          "End": 13839,
+          "Value": "289-261-7235"
+        }
+      ]
+    }
+  ]
+}

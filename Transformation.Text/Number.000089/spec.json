@@ -1,0 +1,28 @@
+{
+  "Examples": [
+    {
+      "Input": [
+        "6,carlos"
+      ],
+      "Output": "6"
+    },
+    {
+      "Input": [
+        "2,ranjita"
+      ],
+      "Output": "2"
+    },
+    {
+      "Input": [
+        "7,anders"
+      ],
+      "Output": "7"
+    },
+    {
+      "Input": [
+        "2,iuliana"
+      ],
+      "Output": "2"
+    }
+  ]
+}

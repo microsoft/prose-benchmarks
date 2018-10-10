@@ -1,0 +1,201 @@
+{
+  "Kind": "Field",
+  "Examples": [
+    {
+      "Input": [
+        {
+          "Start": 0,
+          "End": 59,
+          "Value": "Hone Albert\n1234 Cherry Court\nGreensboro, VA\n(492) 246-4908"
+        },
+        {
+          "Start": 61,
+          "End": 123,
+          "Value": "Ojerinde Adeniyi\n789 Eighth Parkway\nVallejo, WY\n(065) 965-0142"
+        },
+        {
+          "Start": 125,
+          "End": 177,
+          "Value": "Haf Evans\n678 Redwood Lane\nPrague, KY\n(957) 129-7341"
+        },
+        {
+          "Start": 179,
+          "End": 233,
+          "Value": "Eitan Gonen\n123 Oak Road\nLouisville, FL\n(887) 866-2880"
+        },
+        {
+          "Start": 235,
+          "End": 293,
+          "Value": "Dunja Vukovic\n456 Eighth Highway\nDenver, TN\n(877) 925-6328"
+        },
+        {
+          "Start": 295,
+          "End": 350,
+          "Value": "Yaron Misha\n56 Second Road\nOceanside, NY\n(929) 096-0116"
+        },
+        {
+          "Start": 352,
+          "End": 414,
+          "Value": "Meaza Goitom\n345 Fourth Highway\nChula Vista, HI\n(603) 802-7993"
+        },
+        {
+          "Start": 416,
+          "End": 473,
+          "Value": "Jens Persson\n78 Birch Boulevard\nSuzhou, IN\n(486) 174-9166"
+        },
+        {
+          "Start": 475,
+          "End": 535,
+          "Value": "Jyeshta Davgar\n789 Elm Street\nQuezon City, NM\n(295) 028-5659"
+        },
+        {
+          "Start": 537,
+          "End": 597,
+          "Value": "Ruza Antunovic\n345 Fourth Parkway\nYonkers, NH\n(569) 304-4202"
+        },
+        {
+          "Start": 599,
+          "End": 668,
+          "Value": "Jukka-Pekka Enestam\n234 Apple Lane\nNizhny Novgorod, SD\n(290) 599-0629"
+        },
+        {
+          "Start": 670,
+          "End": 732,
+          "Value": "Ngoc Thach\n1234 Eighth Avenue\nJurupa Valley, VT\n(921) 818-5753"
+        },
+        {
+          "Start": 734,
+          "End": 790,
+          "Value": "Moustapha Ndaw\n12 Pecan Street\nLuanda, MO\n(523) 271-6563"
+        },
+        {
+          "Start": 792,
+          "End": 850,
+          "Value": "Rayko Dimitrov\n34 12th Highway\nPearland, NC\n(224) 184-6332"
+        },
+        {
+          "Start": 852,
+          "End": 910,
+          "Value": "Oguntade Olagunju\n678 First Route\nTyler, DC\n(701) 017-1865"
+        },
+        {
+          "Start": 912,
+          "End": 972,
+          "Value": "Shweta Chourasia\n3456 1st Avenue\nMurrieta, SC\n(437) 469-6069"
+        },
+        {
+          "Start": 974,
+          "End": 1031,
+          "Value": "Razia Saleem\n456 Fourth Lane\nHenderson, ND\n(383) 758-5516"
+        },
+        {
+          "Start": 1033,
+          "End": 1093,
+          "Value": "Mehmet Yildirim\n89 Sixth Parkway\nColumbus, WA\n(311) 625-5741"
+        },
+        {
+          "Start": 1095,
+          "End": 1145,
+          "Value": "Marta Grasu\n34 1st Road\nOntario, NY\n(054) 911-2672"
+        }
+      ],
+      "Output": [
+        {
+          "Start": 42,
+          "End": 44,
+          "Value": "VA"
+        },
+        {
+          "Start": 106,
+          "End": 108,
+          "Value": "WY"
+        },
+        {
+          "Start": 160,
+          "End": 162,
+          "Value": "KY"
+        },
+        {
+          "Start": 216,
+          "End": 218,
+          "Value": "FL"
+        },
+        {
+          "Start": 276,
+          "End": 278,
+          "Value": "TN"
+        },
+        {
+          "Start": 333,
+          "End": 335,
+          "Value": "NY"
+        },
+        {
+          "Start": 397,
+          "End": 399,
+          "Value": "HI"
+        },
+        {
+          "Start": 456,
+          "End": 458,
+          "Value": "IN"
+        },
+        {
+          "Start": 518,
+          "End": 520,
+          "Value": "NM"
+        },
+        {
+          "Start": 580,
+          "End": 582,
+          "Value": "NH"
+        },
+        {
+          "Start": 651,
+          "End": 653,
+          "Value": "SD"
+        },
+        {
+          "Start": 715,
+          "End": 717,
+          "Value": "VT"
+        },
+        {
+          "Start": 773,
+          "End": 775,
+          "Value": "MO"
+        },
+        {
+          "Start": 833,
+          "End": 835,
+          "Value": "NC"
+        },
+        {
+          "Start": 893,
+          "End": 895,
+          "Value": "DC"
+        },
+        {
+          "Start": 955,
+          "End": 957,
+          "Value": "SC"
+        },
+        {
+          "Start": 1014,
+          "End": 1016,
+          "Value": "ND"
+        },
+        {
+          "Start": 1076,
+          "End": 1078,
+          "Value": "WA"
+        },
+        {
+          "Start": 1128,
+          "End": 1130,
+          "Value": "NY"
+        }
+      ]
+    }
+  ]
+}

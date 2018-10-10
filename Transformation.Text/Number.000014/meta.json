@@ -1,0 +1,9 @@
+{
+  "Features": [
+    "Numeric",
+    "NumericRange",
+    "NumericRounding",
+    "Substring"
+  ],
+  "Synthetic": true
+}

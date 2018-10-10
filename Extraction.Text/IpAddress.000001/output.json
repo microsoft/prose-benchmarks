@@ -1,0 +1,507 @@
+{
+  "Property": "root",
+  "Start": 0,
+  "End": 1399,
+  "Children": [
+    {
+      "Property": "InternetStruct",
+      "Start": 102,
+      "End": 167,
+      "Children": [
+        {
+          "Property": "Internet",
+          "Start": 102,
+          "End": 117,
+          "Value": "143.231.113.250"
+        },
+        {
+          "Property": "Physical",
+          "Start": 123,
+          "End": 140,
+          "Value": "44-7a-7f-0d-fa-5d"
+        },
+        {
+          "Property": "Type",
+          "Start": 144,
+          "End": 151,
+          "Value": "dynamic"
+        }
+      ]
+    },
+    {
+      "Property": "InternetStruct",
+      "Start": 167,
+      "End": 232,
+      "Children": [
+        {
+          "Property": "Internet",
+          "Start": 167,
+          "End": 180,
+          "Value": "217.253.8.179"
+        },
+        {
+          "Property": "Physical",
+          "Start": 188,
+          "End": 205,
+          "Value": "8e-b8-12-74-fa-c0"
+        },
+        {
+          "Property": "Type",
+          "Start": 209,
+          "End": 216,
+          "Value": "dynamic"
+        }
+      ]
+    },
+    {
+      "Property": "InternetStruct",
+      "Start": 232,
+      "End": 297,
+      "Children": [
+        {
+          "Property": "Internet",
+          "Start": 232,
+          "End": 245,
+          "Value": "97.87.245.129"
+        },
+        {
+          "Property": "Physical",
+          "Start": 253,
+          "End": 270,
+          "Value": "b1-4e-c5-72-36-b9"
+        },
+        {
+          "Property": "Type",
+          "Start": 274,
+          "End": 281,
+          "Value": "dynamic"
+        }
+      ]
+    },
+    {
+      "Property": "InternetStruct",
+      "Start": 297,
+      "End": 362,
+      "Children": [
+        {
+          "Property": "Internet",
+          "Start": 297,
+          "End": 311,
+          "Value": "124.49.224.211"
+        },
+        {
+          "Property": "Physical",
+          "Start": 318,
+          "End": 335,
+          "Value": "bd-a9-3e-e1-d2-ad"
+        },
+        {
+          "Property": "Type",
+          "Start": 339,
+          "End": 346,
+          "Value": "dynamic"
+        }
+      ]
+    },
+    {
+      "Property": "InternetStruct",
+      "Start": 362,
+      "End": 427,
+      "Children": [
+        {
+          "Property": "Internet",
+          "Start": 362,
+          "End": 376,
+          "Value": "56.255.123.166"
+        },
+        {
+          "Property": "Physical",
+          "Start": 383,
+          "End": 400,
+          "Value": "bc-1b-b2-e3-78-5a"
+        },
+        {
+          "Property": "Type",
+          "Start": 404,
+          "End": 411,
+          "Value": "dynamic"
+        }
+      ]
+    },
+    {
+      "Property": "InternetStruct",
+      "Start": 427,
+      "End": 492,
+      "Children": [
+        {
+          "Property": "Internet",
+          "Start": 427,
+          "End": 442,
+          "Value": "119.213.207.203"
+        },
+        {
+          "Property": "Physical",
+          "Start": 448,
+          "End": 465,
+          "Value": "cf-48-a5-4d-32-19"
+        },
+        {
+          "Property": "Type",
+          "Start": 469,
+          "End": 476,
+          "Value": "dynamic"
+        }
+      ]
+    },
+    {
+      "Property": "InternetStruct",
+      "Start": 492,
+      "End": 557,
+      "Children": [
+        {
+          "Property": "Internet",
+          "Start": 492,
+          "End": 506,
+          "Value": "177.161.237.56"
+        },
+        {
+          "Property": "Physical",
+          "Start": 513,
+          "End": 530,
+          "Value": "e1-ea-12-19-f7-2a"
+        },
+        {
+          "Property": "Type",
+          "Start": 534,
+          "End": 541,
+          "Value": "dynamic"
+        }
+      ]
+    },
+    {
+      "Property": "InternetStruct",
+      "Start": 557,
+      "End": 622,
+      "Children": [
+        {
+          "Property": "Internet",
+          "Start": 557,
+          "End": 569,
+          "Value": "145.57.158.1"
+        },
+        {
+          "Property": "Physical",
+          "Start": 578,
+          "End": 595,
+          "Value": "5d-04-bf-f6-84-88"
+        },
+        {
+          "Property": "Type",
+          "Start": 599,
+          "End": 606,
+          "Value": "dynamic"
+        }
+      ]
+    },
+    {
+      "Property": "InternetStruct",
+      "Start": 622,
+      "End": 687,
+      "Children": [
+        {
+          "Property": "Internet",
+          "Start": 622,
+          "End": 635,
+          "Value": "14.71.126.216"
+        },
+        {
+          "Property": "Physical",
+          "Start": 643,
+          "End": 660,
+          "Value": "91-b6-e2-b9-da-92"
+        },
+        {
+          "Property": "Type",
+          "Start": 664,
+          "End": 671,
+          "Value": "dynamic"
+        }
+      ]
+    },
+    {
+      "Property": "InternetStruct",
+      "Start": 687,
+      "End": 752,
+      "Children": [
+        {
+          "Property": "Internet",
+          "Start": 687,
+          "End": 700,
+          "Value": "47.155.64.255"
+        },
+        {
+          "Property": "Physical",
+          "Start": 708,
+          "End": 725,
+          "Value": "91-4d-9a-8f-18-2d"
+        },
+        {
+          "Property": "Type",
+          "Start": 729,
+          "End": 736,
+          "Value": "dynamic"
+        }
+      ]
+    },
+    {
+      "Property": "InternetStruct",
+      "Start": 752,
+      "End": 817,
+      "Children": [
+        {
+          "Property": "Internet",
+          "Start": 752,
+          "End": 767,
+          "Value": "147.141.172.254"
+        },
+        {
+          "Property": "Physical",
+          "Start": 773,
+          "End": 790,
+          "Value": "41-77-31-32-77-06"
+        },
+        {
+          "Property": "Type",
+          "Start": 794,
+          "End": 800,
+          "Value": "static"
+        }
+      ]
+    },
+    {
+      "Property": "InternetStruct",
+      "Start": 817,
+      "End": 882,
+      "Children": [
+        {
+          "Property": "Internet",
+          "Start": 817,
+          "End": 829,
+          "Value": "208.51.233.7"
+        },
+        {
+          "Property": "Physical",
+          "Start": 838,
+          "End": 855,
+          "Value": "8f-f0-a4-f9-c5-6f"
+        },
+        {
+          "Property": "Type",
+          "Start": 859,
+          "End": 865,
+          "Value": "static"
+        }
+      ]
+    },
+    {
+      "Property": "InternetStruct",
+      "Start": 882,
+      "End": 947,
+      "Children": [
+        {
+          "Property": "Internet",
+          "Start": 882,
+          "End": 895,
+          "Value": "226.249.65.33"
+        },
+        {
+          "Property": "Physical",
+          "Start": 903,
+          "End": 920,
+          "Value": "e2-e8-c8-5f-0b-13"
+        },
+        {
+          "Property": "Type",
+          "Start": 924,
+          "End": 930,
+          "Value": "static"
+        }
+      ]
+    },
+    {
+      "Property": "InternetStruct",
+      "Start": 947,
+      "End": 1012,
+      "Children": [
+        {
+          "Property": "Internet",
+          "Start": 947,
+          "End": 960,
+          "Value": "127.148.66.79"
+        },
+        {
+          "Property": "Physical",
+          "Start": 968,
+          "End": 985,
+          "Value": "3c-29-8a-50-1e-be"
+        },
+        {
+          "Property": "Type",
+          "Start": 989,
+          "End": 995,
+          "Value": "static"
+        }
+      ]
+    },
+    {
+      "Property": "InternetStruct",
+      "Start": 1012,
+      "End": 1077,
+      "Children": [
+        {
+          "Property": "Internet",
+          "Start": 1012,
+          "End": 1025,
+          "Value": "166.65.67.121"
+        },
+        {
+          "Property": "Physical",
+          "Start": 1033,
+          "End": 1050,
+          "Value": "3e-7a-55-3f-90-ff"
+        },
+        {
+          "Property": "Type",
+          "Start": 1054,
+          "End": 1060,
+          "Value": "static"
+        }
+      ]
+    },
+    {
+      "Property": "InternetStruct",
+      "Start": 1077,
+      "End": 1142,
+      "Children": [
+        {
+          "Property": "Internet",
+          "Start": 1077,
+          "End": 1089,
+          "Value": "40.197.23.48"
+        },
+        {
+          "Property": "Physical",
+          "Start": 1098,
+          "End": 1115,
+          "Value": "11-b1-da-93-dd-7e"
+        },
+        {
+          "Property": "Type",
+          "Start": 1119,
+          "End": 1125,
+          "Value": "static"
+        }
+      ]
+    },
+    {
+      "Property": "InternetStruct",
+      "Start": 1142,
+      "End": 1207,
+      "Children": [
+        {
+          "Property": "Internet",
+          "Start": 1142,
+          "End": 1156,
+          "Value": "205.117.87.199"
+        },
+        {
+          "Property": "Physical",
+          "Start": 1163,
+          "End": 1180,
+          "Value": "6a-f9-19-fd-82-08"
+        },
+        {
+          "Property": "Type",
+          "Start": 1184,
+          "End": 1190,
+          "Value": "static"
+        }
+      ]
+    },
+    {
+      "Property": "InternetStruct",
+      "Start": 1207,
+      "End": 1272,
+      "Children": [
+        {
+          "Property": "Internet",
+          "Start": 1207,
+          "End": 1220,
+          "Value": "172.97.221.83"
+        },
+        {
+          "Property": "Physical",
+          "Start": 1228,
+          "End": 1245,
+          "Value": "c8-d8-82-a8-53-c7"
+        },
+        {
+          "Property": "Type",
+          "Start": 1249,
+          "End": 1255,
+          "Value": "static"
+        }
+      ]
+    },
+    {
+      "Property": "InternetStruct",
+      "Start": 1272,
+      "End": 1337,
+      "Children": [
+        {
+          "Property": "Internet",
+          "Start": 1272,
+          "End": 1284,
+          "Value": "235.86.49.38"
+        },
+        {
+          "Property": "Physical",
+          "Start": 1293,
+          "End": 1310,
+          "Value": "a3-88-c7-17-1d-8b"
+        },
+        {
+          "Property": "Type",
+          "Start": 1314,
+          "End": 1320,
+          "Value": "static"
+        }
+      ]
+    },
+    {
+      "Property": "InternetStruct",
+      "Start": 1337,
+      "End": 1399,
+      "Children": [
+        {
+          "Property": "Internet",
+          "Start": 1337,
+          "End": 1350,
+          "Value": "164.3.145.117"
+        },
+        {
+          "Property": "Physical",
+          "Start": 1358,
+          "End": 1375,
+          "Value": "f1-14-ac-44-07-4d"
+        },
+        {
+          "Property": "Type",
+          "Start": 1379,
+          "End": 1385,
+          "Value": "static"
+        }
+      ]
+    }
+  ]
+}

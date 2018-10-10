@@ -1,0 +1,31 @@
+{
+  "Kind": "Field",
+  "Examples": [
+    {
+      "Input": [
+        {
+          "Start": 19,
+          "End": 176,
+          "Value": "3905d04bff684880\nRegionSize:        7d91b6e2b9da9229\nState:             f914d9a8  PAGE_NOACCESS\nProtect:           da98af41  MEM_PRIVATE\n\nBaseAddress:       "
+        },
+        {
+          "Start": 176,
+          "End": 373,
+          "Value": "36b973edbda93ee1\nRegionSize:        2ad3f7abc1bb2e37\nState:             5a7dcccf  PAGE_READONLY\nProtect:           4d3219ba  MEM_PRIVATE\nType:              ea1219f7  MEM_PUBLIC\n\nBaseAddress:       "
+        }
+      ],
+      "Output": [
+        {
+          "Start": 134,
+          "End": 142,
+          "Value": "da98af41"
+        },
+        {
+          "Start": 291,
+          "End": 299,
+          "Value": "4d3219ba"
+        }
+      ]
+    }
+  ]
+}

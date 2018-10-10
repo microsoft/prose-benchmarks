@@ -1,0 +1,22 @@
+{
+  "Examples": [
+    {
+      "Input": [
+        "ggg"
+      ],
+      "Output": "ggg@proseware.com"
+    },
+    {
+      "Input": [
+        "malat"
+      ],
+      "Output": "malat@proseware.com"
+    },
+    {
+      "Input": [
+        "gulyas"
+      ],
+      "Output": "gulyas@proseware.com"
+    }
+  ]
+}

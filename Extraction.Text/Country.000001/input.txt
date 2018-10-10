@@ -1,0 +1,10 @@
+   Luxembourg          4828	190	Australia
+   Cameroon            8456	247	Asia
+   Congo (DRC)         4061	851	Africa
+   Singapore           5858	282	North America
+   Hong Kong SAR       282	610	Australia
+   Cameroon            4730	83	Antarctica
+   Rwanda              8551	562	North America
+   Panama              2968	830	Australia
+   France              2365	787	North America
+   Haiti               1270	203	Asia

@@ -1,0 +1,8 @@
+{
+  "Features": [
+    "Concatenation",
+    "Multicolumn",
+    "Substring"
+  ],
+  "Synthetic": true
+}

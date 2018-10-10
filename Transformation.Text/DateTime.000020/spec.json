@@ -1,0 +1,64 @@
+{
+  "Examples": [
+    {
+      "Input": [
+        "06-Oct-2143"
+      ],
+      "Output": null
+    },
+    {
+      "Input": [
+        "Mar 30 2002"
+      ],
+      "Output": null
+    },
+    {
+      "Input": [
+        "01311846"
+      ],
+      "Output": null
+    },
+    {
+      "Input": [
+        "22 Apr 1953 11:34"
+      ],
+      "Output": "22/4/1953"
+    },
+    {
+      "Input": [
+        "03302241"
+      ],
+      "Output": null
+    },
+    {
+      "Input": [
+        "02-Aug-2160"
+      ],
+      "Output": null
+    },
+    {
+      "Input": [
+        "23 May 1984 10:24"
+      ],
+      "Output": "23/5/1984"
+    },
+    {
+      "Input": [
+        "15 August 1740"
+      ],
+      "Output": null
+    },
+    {
+      "Input": [
+        "Jul 08 2237"
+      ],
+      "Output": null
+    },
+    {
+      "Input": [
+        "3 Nov 1904"
+      ],
+      "Output": "3/11/1904"
+    }
+  ]
+}

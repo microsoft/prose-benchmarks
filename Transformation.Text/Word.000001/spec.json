@@ -1,0 +1,28 @@
+{
+  "Examples": [
+    {
+      "Input": [
+        "assumenda'k 'et'"
+      ],
+      "Output": "\"et\""
+    },
+    {
+      "Input": [
+        "'ad'"
+      ],
+      "Output": "\"ad\""
+    },
+    {
+      "Input": [
+        "'harum'"
+      ],
+      "Output": "\"harum\""
+    },
+    {
+      "Input": [
+        "'doloremque'"
+      ],
+      "Output": "\"doloremque\""
+    }
+  ]
+}

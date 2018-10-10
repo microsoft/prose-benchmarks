@@ -1,0 +1,34 @@
+{
+  "Examples": [
+    {
+      "Input": [
+        "8, Anne"
+      ],
+      "Output": "Anne"
+    },
+    {
+      "Input": [
+        "2, Fatma"
+      ],
+      "Output": "Fatma"
+    },
+    {
+      "Input": [
+        "4, Dilorom"
+      ],
+      "Output": "Dilorom"
+    },
+    {
+      "Input": [
+        "2, Milica"
+      ],
+      "Output": "Milica"
+    },
+    {
+      "Input": [
+        "4, Anna"
+      ],
+      "Output": "Anna"
+    }
+  ]
+}

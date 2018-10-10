@@ -1,0 +1,11 @@
+{
+  "Features": [
+    "Casing",
+    "Concatenation",
+    "DateTime",
+    "Multicolumn",
+    "Numeric",
+    "Substring"
+  ],
+  "Synthetic": true
+}

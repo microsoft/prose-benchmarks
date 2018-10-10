@@ -1,0 +1,64 @@
+{
+  "Examples": [
+    {
+      "Input": [
+        "01. Assumenda6 - Natus9"
+      ],
+      "Output": "Assumenda6"
+    },
+    {
+      "Input": [
+        "02. Ad3 - Harum5"
+      ],
+      "Output": "Ad3"
+    },
+    {
+      "Input": [
+        "03. Eos9 - Ipsam8"
+      ],
+      "Output": "Eos9"
+    },
+    {
+      "Input": [
+        "04. Aperiam7 - Recusandae7"
+      ],
+      "Output": "Aperiam7"
+    },
+    {
+      "Input": [
+        "05. Amet5 - Doloribus6"
+      ],
+      "Output": "Amet5"
+    },
+    {
+      "Input": [
+        "06. Vel4 - Quas7"
+      ],
+      "Output": "Vel4"
+    },
+    {
+      "Input": [
+        "07. Et8 - Blanditiis2"
+      ],
+      "Output": "Et8"
+    },
+    {
+      "Input": [
+        "08. Porro6 - Adipisci8"
+      ],
+      "Output": "Porro6"
+    },
+    {
+      "Input": [
+        "09. Vero7 - Eius9"
+      ],
+      "Output": "Vero7"
+    },
+    {
+      "Input": [
+        "010. Quo2 - Dolorem2"
+      ],
+      "Output": "Quo2"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "Examples": [
+    {
+      "Input": [
+        "A. K. Fatma Ahmed-Sutresna"
+      ],
+      "Output": "Sutresna"
+    },
+    {
+      "Input": [
+        "Dr. A. K. Haf Shchur II"
+      ],
+      "Output": "Shchur"
+    },
+    {
+      "Input": [
+        "B. R. Jaap Susila-Shim"
+      ],
+      "Output": "Shim"
+    },
+    {
+      "Input": [
+        "Dr. B. R. Mekdes Konecny-Mahile"
+      ],
+      "Output": "Mahile"
+    }
+  ]
+}

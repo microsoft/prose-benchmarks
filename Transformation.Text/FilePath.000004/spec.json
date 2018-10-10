@@ -1,0 +1,28 @@
+{
+  "Examples": [
+    {
+      "Input": [
+        "Company\\Et\\index.html"
+      ],
+      "Output": "Company\\Et\\"
+    },
+    {
+      "Input": [
+        "company\\Totam\\index.html"
+      ],
+      "Output": "company\\Totam\\"
+    },
+    {
+      "Input": [
+        "Company\\Illum\\9cRG5QHfl.lhz"
+      ],
+      "Output": "Company\\Illum\\"
+    },
+    {
+      "Input": [
+        "company\\Quas\\index.html"
+      ],
+      "Output": "company\\Quas\\"
+    }
+  ]
+}

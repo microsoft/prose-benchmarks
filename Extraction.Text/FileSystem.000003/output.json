@@ -1,0 +1,137 @@
+{
+  "Property": "root",
+  "Start": 0,
+  "End": 2017,
+  "Children": [
+    {
+      "Property": "FileStruct",
+      "Start": 241,
+      "End": 291,
+      "Children": [
+        {
+          "Property": "File",
+          "Start": 241,
+          "End": 251,
+          "Value": ".gitconfig"
+        }
+      ]
+    },
+    {
+      "Property": "FileStruct",
+      "Start": 291,
+      "End": 341,
+      "Children": [
+        {
+          "Property": "File",
+          "Start": 291,
+          "End": 301,
+          "Value": ".jscs.json"
+        }
+      ]
+    },
+    {
+      "Property": "FileStruct",
+      "Start": 341,
+      "End": 390,
+      "Children": [
+        {
+          "Property": "File",
+          "Start": 341,
+          "End": 350,
+          "Value": ".jshintrc"
+        }
+      ]
+    },
+    {
+      "Property": "FileStruct",
+      "Start": 390,
+      "End": 672,
+      "Children": [
+        {
+          "Property": "File",
+          "Start": 390,
+          "End": 398,
+          "Value": ".lesshst"
+        }
+      ]
+    },
+    {
+      "Property": "FileStruct",
+      "Start": 672,
+      "End": 738,
+      "Children": [
+        {
+          "Property": "File",
+          "Start": 672,
+          "End": 698,
+          "Value": "DevelopmentStorageDb21.mdf"
+        }
+      ]
+    },
+    {
+      "Property": "FileStruct",
+      "Start": 738,
+      "End": 808,
+      "Children": [
+        {
+          "Property": "File",
+          "Start": 738,
+          "End": 768,
+          "Value": "DevelopmentStorageDb21_log.ldf"
+        }
+      ]
+    },
+    {
+      "Property": "FileStruct",
+      "Start": 808,
+      "End": 874,
+      "Children": [
+        {
+          "Property": "File",
+          "Start": 808,
+          "End": 834,
+          "Value": "DevelopmentStorageDb22.mdf"
+        }
+      ]
+    },
+    {
+      "Property": "FileStruct",
+      "Start": 874,
+      "End": 1712,
+      "Children": [
+        {
+          "Property": "File",
+          "Start": 874,
+          "End": 904,
+          "Value": "DevelopmentStorageDb22_log.ldf"
+        }
+      ]
+    },
+    {
+      "Property": "FileStruct",
+      "Start": 1712,
+      "End": 1912,
+      "Children": [
+        {
+          "Property": "File",
+          "Start": 1712,
+          "End": 1723,
+          "Value": "tslint.json"
+        }
+      ]
+    },
+    {
+      "Property": "FileStruct",
+      "Start": 1912,
+      "End": 2017,
+      "Children": [
+        {
+          "Property": "File",
+          "Start": 1912,
+          "End": 1920,
+          "Value": "_viminfo"
+        }
+      ]
+    }
+  ]
+}

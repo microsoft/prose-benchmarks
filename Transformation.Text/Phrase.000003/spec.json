@@ -1,0 +1,22 @@
+{
+  "Examples": [
+    {
+      "Input": [
+        "eaque placeat ullam ut"
+      ],
+      "Output": "placeat"
+    },
+    {
+      "Input": [
+        "error delectus expedita odit"
+      ],
+      "Output": "delectus"
+    },
+    {
+      "Input": [
+        "veniam qui illo aut"
+      ],
+      "Output": "qui"
+    }
+  ]
+}

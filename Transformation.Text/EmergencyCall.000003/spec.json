@@ -1,0 +1,76 @@
+{
+  "Examples": [
+    {
+      "Input": [
+        "REINDEER CT & DEAD END; NEW HANOVER; Station 332; 2015-12-10 @ 17:10:52;"
+      ],
+      "Output": "New Hanover"
+    },
+    {
+      "Input": [
+        "HAWS AVE; NORRISTOWN; 2015-12-10 @ 14:39:21-Station:STA27;"
+      ],
+      "Output": "Norristown"
+    },
+    {
+      "Input": [
+        "AIRY ST & SWEDE ST; NORRISTOWN; Station 308A; 2015-12-10 @ 16:47:36;"
+      ],
+      "Output": "Norristown"
+    },
+    {
+      "Input": [
+        "BRIAR PATH & WHITEMARSH LN; HATFIELD TOWNSHIP; Station 345; 2015-12-10 @ 17:29:21;"
+      ],
+      "Output": "Hatfield Township"
+    },
+    {
+      "Input": [
+        "CHERRYWOOD CT & DEAD END; LOWER POTTSGROVE; Station 329; 2015-12-10 @ 16:56:52;"
+      ],
+      "Output": "Lower Pottsgrove"
+    },
+    {
+      "Input": [
+        "CANNON AVE & W 9TH ST; LANSDALE; Station 345; 2015-12-10 @ 15:39:04;"
+      ],
+      "Output": "Lansdale"
+    },
+    {
+      "Input": [
+        "LAUREL AVE & OAKDALE AVE; HORSHAM; Station 352; 2015-12-10 @ 16:46:48;"
+      ],
+      "Output": "Horsham"
+    },
+    {
+      "Input": [
+        "COLLEGEVILLE RD & LYWISKI RD; SKIPPACK; Station 336; 2015-12-10 @ 16:17:05;"
+      ],
+      "Output": "Skippack"
+    },
+    {
+      "Input": [
+        "MAIN ST & OLD SUMNEYTOWN PIKE; LOWER SALFORD; Station 344; 2015-12-10 @ 16:51:42;"
+      ],
+      "Output": "Lower Salford"
+    },
+    {
+      "Input": [
+        "BLUEROUTE & RAMP I476 NB TO CHEMICAL RD; PLYMOUTH; 2015-12-10 @ 17:35:41;"
+      ],
+      "Output": "Plymouth"
+    },
+    {
+      "Input": [
+        "RT202 PKWY & KNAPP RD; MONTGOMERY; 2015-12-10 @ 17:33:50;"
+      ],
+      "Output": "Montgomery"
+    },
+    {
+      "Input": [
+        "BROOK RD & COLWELL LN; PLYMOUTH; 2015-12-10 @ 16:32:10;"
+      ],
+      "Output": "Plymouth"
+    }
+  ]
+}

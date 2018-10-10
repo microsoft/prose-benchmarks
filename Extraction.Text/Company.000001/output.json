@@ -1,0 +1,787 @@
+{
+  "Property": "root",
+  "Start": 0,
+  "End": 7760,
+  "Children": [
+    {
+      "Property": "StateStruct",
+      "Start": 0,
+      "End": 810,
+      "Children": [
+        {
+          "Property": "State",
+          "Start": 0,
+          "End": 12,
+          "Value": "South Dakota"
+        },
+        {
+          "Property": "BranchStruct",
+          "Start": 21,
+          "End": 219,
+          "Children": [
+            {
+              "Property": "Branch",
+              "Start": 21,
+              "End": 44,
+              "Value": "Contoso Pharmaceuticals"
+            }
+          ]
+        },
+        {
+          "Property": "BranchStruct",
+          "Start": 219,
+          "End": 392,
+          "Children": [
+            {
+              "Property": "Branch",
+              "Start": 219,
+              "End": 233,
+              "Value": "Woodgrove Bank"
+            }
+          ]
+        },
+        {
+          "Property": "BranchStruct",
+          "Start": 392,
+          "End": 494,
+          "Children": [
+            {
+              "Property": "Branch",
+              "Start": 392,
+              "End": 406,
+              "Value": "Nod Publishers"
+            }
+          ]
+        },
+        {
+          "Property": "BranchStruct",
+          "Start": 494,
+          "End": 682,
+          "Children": [
+            {
+              "Property": "Branch",
+              "Start": 494,
+              "End": 523,
+              "Value": "Best For You Organics Company"
+            }
+          ]
+        },
+        {
+          "Property": "BranchStruct",
+          "Start": 682,
+          "End": 810,
+          "Children": [
+            {
+              "Property": "Branch",
+              "Start": 682,
+              "End": 698,
+              "Value": "Alpine Ski House"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Property": "StateStruct",
+      "Start": 810,
+      "End": 1562,
+      "Children": [
+        {
+          "Property": "State",
+          "Start": 810,
+          "End": 815,
+          "Value": "Maine"
+        },
+        {
+          "Property": "BranchStruct",
+          "Start": 824,
+          "End": 978,
+          "Children": [
+            {
+              "Property": "Branch",
+              "Start": 824,
+              "End": 865,
+              "Value": "Liberty's Delightful Sinful Bakery & Cafe"
+            }
+          ]
+        },
+        {
+          "Property": "BranchStruct",
+          "Start": 978,
+          "End": 1122,
+          "Children": [
+            {
+              "Property": "Branch",
+              "Start": 978,
+              "End": 992,
+              "Value": "Woodgrove Bank"
+            }
+          ]
+        },
+        {
+          "Property": "BranchStruct",
+          "Start": 1122,
+          "End": 1256,
+          "Children": [
+            {
+              "Property": "Branch",
+              "Start": 1122,
+              "End": 1138,
+              "Value": "Alpine Ski House"
+            }
+          ]
+        },
+        {
+          "Property": "BranchStruct",
+          "Start": 1256,
+          "End": 1425,
+          "Children": [
+            {
+              "Property": "Branch",
+              "Start": 1256,
+              "End": 1278,
+              "Value": "Consolidated Messenger"
+            }
+          ]
+        },
+        {
+          "Property": "BranchStruct",
+          "Start": 1425,
+          "End": 1562,
+          "Children": [
+            {
+              "Property": "Branch",
+              "Start": 1425,
+              "End": 1440,
+              "Value": "Margie's Travel"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Property": "StateStruct",
+      "Start": 1562,
+      "End": 2390,
+      "Children": [
+        {
+          "Property": "State",
+          "Start": 1562,
+          "End": 1569,
+          "Value": "Wyoming"
+        },
+        {
+          "Property": "BranchStruct",
+          "Start": 1578,
+          "End": 1753,
+          "Children": [
+            {
+              "Property": "Branch",
+              "Start": 1578,
+              "End": 1594,
+              "Value": "Southridge Video"
+            }
+          ]
+        },
+        {
+          "Property": "BranchStruct",
+          "Start": 1753,
+          "End": 1906,
+          "Children": [
+            {
+              "Property": "Branch",
+              "Start": 1753,
+              "End": 1771,
+              "Value": "Lucerne Publishing"
+            }
+          ]
+        },
+        {
+          "Property": "BranchStruct",
+          "Start": 1906,
+          "End": 2125,
+          "Children": [
+            {
+              "Property": "Branch",
+              "Start": 1906,
+              "End": 1929,
+              "Value": "Contoso Pharmaceuticals"
+            }
+          ]
+        },
+        {
+          "Property": "BranchStruct",
+          "Start": 2125,
+          "End": 2250,
+          "Children": [
+            {
+              "Property": "Branch",
+              "Start": 2125,
+              "End": 2138,
+              "Value": "Trey Research"
+            }
+          ]
+        },
+        {
+          "Property": "BranchStruct",
+          "Start": 2250,
+          "End": 2390,
+          "Children": [
+            {
+              "Property": "Branch",
+              "Start": 2250,
+              "End": 2265,
+              "Value": "Proseware, Inc."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Property": "StateStruct",
+      "Start": 2390,
+      "End": 3131,
+      "Children": [
+        {
+          "Property": "State",
+          "Start": 2390,
+          "End": 2400,
+          "Value": "New Mexico"
+        },
+        {
+          "Property": "BranchStruct",
+          "Start": 2409,
+          "End": 2569,
+          "Children": [
+            {
+              "Property": "Branch",
+              "Start": 2409,
+              "End": 2422,
+              "Value": "Tailspin Toys"
+            }
+          ]
+        },
+        {
+          "Property": "BranchStruct",
+          "Start": 2569,
+          "End": 2707,
+          "Children": [
+            {
+              "Property": "Branch",
+              "Start": 2569,
+              "End": 2587,
+              "Value": "School of Fine Art"
+            }
+          ]
+        },
+        {
+          "Property": "BranchStruct",
+          "Start": 2707,
+          "End": 2849,
+          "Children": [
+            {
+              "Property": "Branch",
+              "Start": 2707,
+              "End": 2725,
+              "Value": "School of Fine Art"
+            }
+          ]
+        },
+        {
+          "Property": "BranchStruct",
+          "Start": 2849,
+          "End": 3016,
+          "Children": [
+            {
+              "Property": "Branch",
+              "Start": 2849,
+              "End": 2864,
+              "Value": "Margie's Travel"
+            }
+          ]
+        },
+        {
+          "Property": "BranchStruct",
+          "Start": 3016,
+          "End": 3131,
+          "Children": [
+            {
+              "Property": "Branch",
+              "Start": 3016,
+              "End": 3034,
+              "Value": "Lucerne Publishing"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Property": "StateStruct",
+      "Start": 3131,
+      "End": 3961,
+      "Children": [
+        {
+          "Property": "State",
+          "Start": 3131,
+          "End": 3137,
+          "Value": "Oregon"
+        },
+        {
+          "Property": "BranchStruct",
+          "Start": 3146,
+          "End": 3270,
+          "Children": [
+            {
+              "Property": "Branch",
+              "Start": 3146,
+              "End": 3162,
+              "Value": "Alpine Ski House"
+            }
+          ]
+        },
+        {
+          "Property": "BranchStruct",
+          "Start": 3270,
+          "End": 3456,
+          "Children": [
+            {
+              "Property": "Branch",
+              "Start": 3270,
+              "End": 3292,
+              "Value": "Consolidated Messenger"
+            }
+          ]
+        },
+        {
+          "Property": "BranchStruct",
+          "Start": 3456,
+          "End": 3631,
+          "Children": [
+            {
+              "Property": "Branch",
+              "Start": 3456,
+              "End": 3473,
+              "Value": "The Phone Company"
+            }
+          ]
+        },
+        {
+          "Property": "BranchStruct",
+          "Start": 3631,
+          "End": 3825,
+          "Children": [
+            {
+              "Property": "Branch",
+              "Start": 3631,
+              "End": 3644,
+              "Value": "Fourth Coffee"
+            }
+          ]
+        },
+        {
+          "Property": "BranchStruct",
+          "Start": 3825,
+          "End": 3961,
+          "Children": [
+            {
+              "Property": "Branch",
+              "Start": 3825,
+              "End": 3849,
+              "Value": "Lamna Healthcare Company"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Property": "StateStruct",
+      "Start": 3961,
+      "End": 4768,
+      "Children": [
+        {
+          "Property": "State",
+          "Start": 3961,
+          "End": 3966,
+          "Value": "Idaho"
+        },
+        {
+          "Property": "BranchStruct",
+          "Start": 3974,
+          "End": 4169,
+          "Children": [
+            {
+              "Property": "Branch",
+              "Start": 3974,
+              "End": 3990,
+              "Value": "Alpine Ski House"
+            }
+          ]
+        },
+        {
+          "Property": "BranchStruct",
+          "Start": 4169,
+          "End": 4365,
+          "Children": [
+            {
+              "Property": "Branch",
+              "Start": 4169,
+              "End": 4204,
+              "Value": "Munson's Pickles and Preserves Farm"
+            }
+          ]
+        },
+        {
+          "Property": "BranchStruct",
+          "Start": 4365,
+          "End": 4492,
+          "Children": [
+            {
+              "Property": "Branch",
+              "Start": 4365,
+              "End": 4384,
+              "Value": "Humongous Insurance"
+            }
+          ]
+        },
+        {
+          "Property": "BranchStruct",
+          "Start": 4492,
+          "End": 4624,
+          "Children": [
+            {
+              "Property": "Branch",
+              "Start": 4492,
+              "End": 4510,
+              "Value": "School of Fine Art"
+            }
+          ]
+        },
+        {
+          "Property": "BranchStruct",
+          "Start": 4624,
+          "End": 4768,
+          "Children": [
+            {
+              "Property": "Branch",
+              "Start": 4624,
+              "End": 4637,
+              "Value": "Contoso, Ltd."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Property": "StateStruct",
+      "Start": 4768,
+      "End": 5557,
+      "Children": [
+        {
+          "Property": "State",
+          "Start": 4768,
+          "End": 4777,
+          "Value": "Minnesota"
+        },
+        {
+          "Property": "BranchStruct",
+          "Start": 4785,
+          "End": 4917,
+          "Children": [
+            {
+              "Property": "Branch",
+              "Start": 4785,
+              "End": 4802,
+              "Value": "Northwind Traders"
+            }
+          ]
+        },
+        {
+          "Property": "BranchStruct",
+          "Start": 4917,
+          "End": 5109,
+          "Children": [
+            {
+              "Property": "Branch",
+              "Start": 4917,
+              "End": 4958,
+              "Value": "Liberty's Delightful Sinful Bakery & Cafe"
+            }
+          ]
+        },
+        {
+          "Property": "BranchStruct",
+          "Start": 5109,
+          "End": 5298,
+          "Children": [
+            {
+              "Property": "Branch",
+              "Start": 5109,
+              "End": 5124,
+              "Value": "Bellows College"
+            }
+          ]
+        },
+        {
+          "Property": "BranchStruct",
+          "Start": 5298,
+          "End": 5411,
+          "Children": [
+            {
+              "Property": "Branch",
+              "Start": 5298,
+              "End": 5310,
+              "Value": "Wingtip Toys"
+            }
+          ]
+        },
+        {
+          "Property": "BranchStruct",
+          "Start": 5411,
+          "End": 5557,
+          "Children": [
+            {
+              "Property": "Branch",
+              "Start": 5411,
+              "End": 5424,
+              "Value": "Trey Research"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Property": "StateStruct",
+      "Start": 5557,
+      "End": 6341,
+      "Children": [
+        {
+          "Property": "State",
+          "Start": 5557,
+          "End": 5567,
+          "Value": "California"
+        },
+        {
+          "Property": "BranchStruct",
+          "Start": 5576,
+          "End": 5761,
+          "Children": [
+            {
+              "Property": "Branch",
+              "Start": 5576,
+              "End": 5591,
+              "Value": "Bellows College"
+            }
+          ]
+        },
+        {
+          "Property": "BranchStruct",
+          "Start": 5761,
+          "End": 5928,
+          "Children": [
+            {
+              "Property": "Branch",
+              "Start": 5761,
+              "End": 5775,
+              "Value": "Fabrikam, Inc."
+            }
+          ]
+        },
+        {
+          "Property": "BranchStruct",
+          "Start": 5928,
+          "End": 6084,
+          "Children": [
+            {
+              "Property": "Branch",
+              "Start": 5928,
+              "End": 5948,
+              "Value": "First Up Consultants"
+            }
+          ]
+        },
+        {
+          "Property": "BranchStruct",
+          "Start": 6084,
+          "End": 6231,
+          "Children": [
+            {
+              "Property": "Branch",
+              "Start": 6084,
+              "End": 6100,
+              "Value": "Alpine Ski House"
+            }
+          ]
+        },
+        {
+          "Property": "BranchStruct",
+          "Start": 6231,
+          "End": 6341,
+          "Children": [
+            {
+              "Property": "Branch",
+              "Start": 6231,
+              "End": 6240,
+              "Value": "Relecloud"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Property": "StateStruct",
+      "Start": 6341,
+      "End": 7015,
+      "Children": [
+        {
+          "Property": "State",
+          "Start": 6341,
+          "End": 6349,
+          "Value": "Nebraska"
+        },
+        {
+          "Property": "BranchStruct",
+          "Start": 6357,
+          "End": 6484,
+          "Children": [
+            {
+              "Property": "Branch",
+              "Start": 6357,
+              "End": 6377,
+              "Value": "First Up Consultants"
+            }
+          ]
+        },
+        {
+          "Property": "BranchStruct",
+          "Start": 6484,
+          "End": 6619,
+          "Children": [
+            {
+              "Property": "Branch",
+              "Start": 6484,
+              "End": 6498,
+              "Value": "Fabrikam, Inc."
+            }
+          ]
+        },
+        {
+          "Property": "BranchStruct",
+          "Start": 6619,
+          "End": 6756,
+          "Children": [
+            {
+              "Property": "Branch",
+              "Start": 6619,
+              "End": 6635,
+              "Value": "Southridge Video"
+            }
+          ]
+        },
+        {
+          "Property": "BranchStruct",
+          "Start": 6756,
+          "End": 6858,
+          "Children": [
+            {
+              "Property": "Branch",
+              "Start": 6756,
+              "End": 6771,
+              "Value": "Margie's Travel"
+            }
+          ]
+        },
+        {
+          "Property": "BranchStruct",
+          "Start": 6858,
+          "End": 7015,
+          "Children": [
+            {
+              "Property": "Branch",
+              "Start": 6858,
+              "End": 6871,
+              "Value": "Fourth Coffee"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Property": "StateStruct",
+      "Start": 7015,
+      "End": 7760,
+      "Children": [
+        {
+          "Property": "State",
+          "Start": 7015,
+          "End": 7022,
+          "Value": "Indiana"
+        },
+        {
+          "Property": "BranchStruct",
+          "Start": 7031,
+          "End": 7205,
+          "Children": [
+            {
+              "Property": "Branch",
+              "Start": 7031,
+              "End": 7044,
+              "Value": "Trey Research"
+            }
+          ]
+        },
+        {
+          "Property": "BranchStruct",
+          "Start": 7205,
+          "End": 7361,
+          "Children": [
+            {
+              "Property": "Branch",
+              "Start": 7205,
+              "End": 7222,
+              "Value": "The Phone Company"
+            }
+          ]
+        },
+        {
+          "Property": "BranchStruct",
+          "Start": 7361,
+          "End": 7466,
+          "Children": [
+            {
+              "Property": "Branch",
+              "Start": 7361,
+              "End": 7374,
+              "Value": "Fourth Coffee"
+            }
+          ]
+        },
+        {
+          "Property": "BranchStruct",
+          "Start": 7466,
+          "End": 7628,
+          "Children": [
+            {
+              "Property": "Branch",
+              "Start": 7466,
+              "End": 7483,
+              "Value": "Northwind Traders"
+            }
+          ]
+        },
+        {
+          "Property": "BranchStruct",
+          "Start": 7628,
+          "End": 7760,
+          "Children": [
+            {
+              "Property": "Branch",
+              "Start": 7628,
+              "End": 7641,
+              "Value": "Contoso, Ltd."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "Examples": [
+    {
+      "Input": [
+        "Company\\Quia\\Natus\\B8qsCND8b1.zri"
+      ],
+      "Output": "Company\\Quia\\Natus\\"
+    },
+    {
+      "Input": [
+        "Company\\Cumque\\5QHflCs.zqt"
+      ],
+      "Output": "Company\\Cumque\\"
+    },
+    {
+      "Input": [
+        "company\\Quas\\Porro\\Sed\\4XuCj.fks"
+      ],
+      "Output": "company\\Quas\\Porro\\Sed\\"
+    },
+    {
+      "Input": [
+        "company\\Dolorem\\Id\\Vero\\Mn33fZkN.vfz"
+      ],
+      "Output": "company\\Dolorem\\Id\\Vero\\"
+    }
+  ]
+}

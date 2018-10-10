@@ -1,0 +1,16 @@
+{
+  "Examples": [
+    {
+      "Input": [
+        "Est - November 16, 2102 - Jawid"
+      ],
+      "Output": "2102"
+    },
+    {
+      "Input": [
+        "Aliquam - January 28, 1746 - with Gebhard"
+      ],
+      "Output": "1746"
+    }
+  ]
+}

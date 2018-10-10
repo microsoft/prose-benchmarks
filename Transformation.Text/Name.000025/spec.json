@@ -1,0 +1,64 @@
+{
+  "Examples": [
+    {
+      "Input": [
+        "Hone Albert"
+      ],
+      "Output": "h a"
+    },
+    {
+      "Input": [
+        "Aysu Polat"
+      ],
+      "Output": "a p"
+    },
+    {
+      "Input": [
+        "Fatma Yilmaz"
+      ],
+      "Output": "f y"
+    },
+    {
+      "Input": [
+        "Artem Kuznetsov"
+      ],
+      "Output": "a k"
+    },
+    {
+      "Input": [
+        "Cecep Sutresna"
+      ],
+      "Output": "c s"
+    },
+    {
+      "Input": [
+        "Milica Zujovic"
+      ],
+      "Output": "m z"
+    },
+    {
+      "Input": [
+        "Radmilo Bogic"
+      ],
+      "Output": "r b"
+    },
+    {
+      "Input": [
+        "Snezhana Bozhilova"
+      ],
+      "Output": "s b"
+    },
+    {
+      "Input": [
+        "Ojerinde Adeniyi"
+      ],
+      "Output": "o a"
+    },
+    {
+      "Input": [
+        "Daniyar Shakenuly"
+      ],
+      "Output": "d s"
+    }
+  ]
+}

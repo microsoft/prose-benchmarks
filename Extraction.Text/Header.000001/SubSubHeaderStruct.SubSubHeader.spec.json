@@ -1,0 +1,141 @@
+{
+  "Kind": "Field",
+  "Examples": [
+    {
+      "Input": [
+        {
+          "Start": 26,
+          "End": 41,
+          "Value": "Subheading0aa\n\t"
+        },
+        {
+          "Start": 41,
+          "End": 59,
+          "Value": "Subheading0ba\n    "
+        },
+        {
+          "Start": 73,
+          "End": 88,
+          "Value": "Subheading0ba\n\t"
+        },
+        {
+          "Start": 88,
+          "End": 102,
+          "Value": "Subheading0ca\n"
+        },
+        {
+          "Start": 128,
+          "End": 143,
+          "Value": "Subheading1aa\n\t"
+        },
+        {
+          "Start": 143,
+          "End": 157,
+          "Value": "Subheading1ab\n"
+        },
+        {
+          "Start": 183,
+          "End": 198,
+          "Value": "Subheading2aa\n\t"
+        },
+        {
+          "Start": 198,
+          "End": 216,
+          "Value": "Subheading2ab\n    "
+        },
+        {
+          "Start": 230,
+          "End": 245,
+          "Value": "Subheading2ba\n\t"
+        },
+        {
+          "Start": 245,
+          "End": 259,
+          "Value": "Subheading2bb\n"
+        },
+        {
+          "Start": 302,
+          "End": 320,
+          "Value": "Subheading3ba\n    "
+        },
+        {
+          "Start": 334,
+          "End": 349,
+          "Value": "Subheading3ca\n\t"
+        },
+        {
+          "Start": 349,
+          "End": 363,
+          "Value": "Subheading3cb\n"
+        }
+      ],
+      "Output": [
+        {
+          "Start": 26,
+          "End": 39,
+          "Value": "Subheading0aa"
+        },
+        {
+          "Start": 41,
+          "End": 54,
+          "Value": "Subheading0ba"
+        },
+        {
+          "Start": 73,
+          "End": 86,
+          "Value": "Subheading0ba"
+        },
+        {
+          "Start": 88,
+          "End": 101,
+          "Value": "Subheading0ca"
+        },
+        {
+          "Start": 128,
+          "End": 141,
+          "Value": "Subheading1aa"
+        },
+        {
+          "Start": 143,
+          "End": 156,
+          "Value": "Subheading1ab"
+        },
+        {
+          "Start": 183,
+          "End": 196,
+          "Value": "Subheading2aa"
+        },
+        {
+          "Start": 198,
+          "End": 211,
+          "Value": "Subheading2ab"
+        },
+        {
+          "Start": 230,
+          "End": 243,
+          "Value": "Subheading2ba"
+        },
+        {
+          "Start": 245,
+          "End": 258,
+          "Value": "Subheading2bb"
+        },
+        {
+          "Start": 302,
+          "End": 315,
+          "Value": "Subheading3ba"
+        },
+        {
+          "Start": 334,
+          "End": 347,
+          "Value": "Subheading3ca"
+        },
+        {
+          "Start": 349,
+          "End": 362,
+          "Value": "Subheading3cb"
+        }
+      ]
+    }
+  ]
+}

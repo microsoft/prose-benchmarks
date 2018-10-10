@@ -1,0 +1,113 @@
+{
+  "Kind": "Sequence",
+  "Examples": [
+    {
+      "Input": [
+        {
+          "Start": 0,
+          "End": 1146,
+          "Value": "Hone Albert\n1234 Cherry Court\nGreensboro, VA\n(492) 246-4908\n\nOjerinde Adeniyi\n789 Eighth Parkway\nVallejo, WY\n(065) 965-0142\n\nHaf Evans\n678 Redwood Lane\nPrague, KY\n(957) 129-7341\n\nEitan Gonen\n123 Oak Road\nLouisville, FL\n(887) 866-2880\n\nDunja Vukovic\n456 Eighth Highway\nDenver, TN\n(877) 925-6328\n\nYaron Misha\n56 Second Road\nOceanside, NY\n(929) 096-0116\n\nMeaza Goitom\n345 Fourth Highway\nChula Vista, HI\n(603) 802-7993\n\nJens Persson\n78 Birch Boulevard\nSuzhou, IN\n(486) 174-9166\n\nJyeshta Davgar\n789 Elm Street\nQuezon City, NM\n(295) 028-5659\n\nRuza Antunovic\n345 Fourth Parkway\nYonkers, NH\n(569) 304-4202\n\nJukka-Pekka Enestam\n234 Apple Lane\nNizhny Novgorod, SD\n(290) 599-0629\n\nNgoc Thach\n1234 Eighth Avenue\nJurupa Valley, VT\n(921) 818-5753\n\nMoustapha Ndaw\n12 Pecan Street\nLuanda, MO\n(523) 271-6563\n\nRayko Dimitrov\n34 12th Highway\nPearland, NC\n(224) 184-6332\n\nOguntade Olagunju\n678 First Route\nTyler, DC\n(701) 017-1865\n\nShweta Chourasia\n3456 1st Avenue\nMurrieta, SC\n(437) 469-6069\n\nRazia Saleem\n456 Fourth Lane\nHenderson, ND\n(383) 758-5516\n\nMehmet Yildirim\n89 Sixth Parkway\nColumbus, WA\n(311) 625-5741\n\nMarta Grasu\n34 1st Road\nOntario, NY\n(054) 911-2672\n"
+        }
+      ],
+      "Output": [
+        [
+          {
+            "Start": 0,
+            "End": 11,
+            "Value": "Hone Albert"
+          },
+          {
+            "Start": 61,
+            "End": 77,
+            "Value": "Ojerinde Adeniyi"
+          },
+          {
+            "Start": 125,
+            "End": 134,
+            "Value": "Haf Evans"
+          },
+          {
+            "Start": 179,
+            "End": 190,
+            "Value": "Eitan Gonen"
+          },
+          {
+            "Start": 235,
+            "End": 248,
+            "Value": "Dunja Vukovic"
+          },
+          {
+            "Start": 295,
+            "End": 306,
+            "Value": "Yaron Misha"
+          },
+          {
+            "Start": 352,
+            "End": 364,
+            "Value": "Meaza Goitom"
+          },
+          {
+            "Start": 416,
+            "End": 428,
+            "Value": "Jens Persson"
+          },
+          {
+            "Start": 475,
+            "End": 489,
+            "Value": "Jyeshta Davgar"
+          },
+          {
+            "Start": 537,
+            "End": 551,
+            "Value": "Ruza Antunovic"
+          },
+          {
+            "Start": 599,
+            "End": 618,
+            "Value": "Jukka-Pekka Enestam"
+          },
+          {
+            "Start": 670,
+            "End": 680,
+            "Value": "Ngoc Thach"
+          },
+          {
+            "Start": 734,
+            "End": 748,
+            "Value": "Moustapha Ndaw"
+          },
+          {
+            "Start": 792,
+            "End": 806,
+            "Value": "Rayko Dimitrov"
+          },
+          {
+            "Start": 852,
+            "End": 869,
+            "Value": "Oguntade Olagunju"
+          },
+          {
+            "Start": 912,
+            "End": 928,
+            "Value": "Shweta Chourasia"
+          },
+          {
+            "Start": 974,
+            "End": 986,
+            "Value": "Razia Saleem"
+          },
+          {
+            "Start": 1033,
+            "End": 1048,
+            "Value": "Mehmet Yildirim"
+          },
+          {
+            "Start": 1095,
+            "End": 1106,
+            "Value": "Marta Grasu"
+          }
+        ]
+      ]
+    }
+  ]
+}

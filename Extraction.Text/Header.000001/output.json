@@ -1,0 +1,332 @@
+{
+  "Property": "root",
+  "Start": 0,
+  "End": 363,
+  "Children": [
+    {
+      "Property": "HeaderStruct",
+      "Start": 0,
+      "End": 102,
+      "Children": [
+        {
+          "Property": "Header",
+          "Start": 0,
+          "End": 7,
+          "Value": "Header0"
+        },
+        {
+          "Property": "SubHeaderStruct",
+          "Start": 12,
+          "End": 59,
+          "Children": [
+            {
+              "Property": "SubHeader",
+              "Start": 12,
+              "End": 24,
+              "Value": "Subheading0a"
+            },
+            {
+              "Property": "SubSubHeaderStruct",
+              "Start": 26,
+              "End": 41,
+              "Children": [
+                {
+                  "Property": "SubSubHeader",
+                  "Start": 26,
+                  "End": 39,
+                  "Value": "Subheading0aa"
+                }
+              ]
+            },
+            {
+              "Property": "SubSubHeaderStruct",
+              "Start": 41,
+              "End": 59,
+              "Children": [
+                {
+                  "Property": "SubSubHeader",
+                  "Start": 41,
+                  "End": 54,
+                  "Value": "Subheading0ba"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Property": "SubHeaderStruct",
+          "Start": 59,
+          "End": 102,
+          "Children": [
+            {
+              "Property": "SubHeader",
+              "Start": 59,
+              "End": 71,
+              "Value": "Subheading0b"
+            },
+            {
+              "Property": "SubSubHeaderStruct",
+              "Start": 73,
+              "End": 88,
+              "Children": [
+                {
+                  "Property": "SubSubHeader",
+                  "Start": 73,
+                  "End": 86,
+                  "Value": "Subheading0ba"
+                }
+              ]
+            },
+            {
+              "Property": "SubSubHeaderStruct",
+              "Start": 88,
+              "End": 102,
+              "Children": [
+                {
+                  "Property": "SubSubHeader",
+                  "Start": 88,
+                  "End": 101,
+                  "Value": "Subheading0ca"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Property": "HeaderStruct",
+      "Start": 102,
+      "End": 157,
+      "Children": [
+        {
+          "Property": "Header",
+          "Start": 102,
+          "End": 109,
+          "Value": "Header1"
+        },
+        {
+          "Property": "SubHeaderStruct",
+          "Start": 114,
+          "End": 157,
+          "Children": [
+            {
+              "Property": "SubHeader",
+              "Start": 114,
+              "End": 126,
+              "Value": "Subheading1a"
+            },
+            {
+              "Property": "SubSubHeaderStruct",
+              "Start": 128,
+              "End": 143,
+              "Children": [
+                {
+                  "Property": "SubSubHeader",
+                  "Start": 128,
+                  "End": 141,
+                  "Value": "Subheading1aa"
+                }
+              ]
+            },
+            {
+              "Property": "SubSubHeaderStruct",
+              "Start": 143,
+              "End": 157,
+              "Children": [
+                {
+                  "Property": "SubSubHeader",
+                  "Start": 143,
+                  "End": 156,
+                  "Value": "Subheading1ab"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Property": "HeaderStruct",
+      "Start": 157,
+      "End": 259,
+      "Children": [
+        {
+          "Property": "Header",
+          "Start": 157,
+          "End": 164,
+          "Value": "Header2"
+        },
+        {
+          "Property": "SubHeaderStruct",
+          "Start": 169,
+          "End": 216,
+          "Children": [
+            {
+              "Property": "SubHeader",
+              "Start": 169,
+              "End": 181,
+              "Value": "Subheading2a"
+            },
+            {
+              "Property": "SubSubHeaderStruct",
+              "Start": 183,
+              "End": 198,
+              "Children": [
+                {
+                  "Property": "SubSubHeader",
+                  "Start": 183,
+                  "End": 196,
+                  "Value": "Subheading2aa"
+                }
+              ]
+            },
+            {
+              "Property": "SubSubHeaderStruct",
+              "Start": 198,
+              "End": 216,
+              "Children": [
+                {
+                  "Property": "SubSubHeader",
+                  "Start": 198,
+                  "End": 211,
+                  "Value": "Subheading2ab"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Property": "SubHeaderStruct",
+          "Start": 216,
+          "End": 259,
+          "Children": [
+            {
+              "Property": "SubHeader",
+              "Start": 216,
+              "End": 228,
+              "Value": "Subheading2b"
+            },
+            {
+              "Property": "SubSubHeaderStruct",
+              "Start": 230,
+              "End": 245,
+              "Children": [
+                {
+                  "Property": "SubSubHeader",
+                  "Start": 230,
+                  "End": 243,
+                  "Value": "Subheading2ba"
+                }
+              ]
+            },
+            {
+              "Property": "SubSubHeaderStruct",
+              "Start": 245,
+              "End": 259,
+              "Children": [
+                {
+                  "Property": "SubSubHeader",
+                  "Start": 245,
+                  "End": 258,
+                  "Value": "Subheading2bb"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Property": "HeaderStruct",
+      "Start": 259,
+      "End": 363,
+      "Children": [
+        {
+          "Property": "Header",
+          "Start": 259,
+          "End": 266,
+          "Value": "Header3"
+        },
+        {
+          "Property": "SubHeaderStruct",
+          "Start": 271,
+          "End": 288,
+          "Children": [
+            {
+              "Property": "SubHeader",
+              "Start": 271,
+              "End": 283,
+              "Value": "Subheading3a"
+            }
+          ]
+        },
+        {
+          "Property": "SubHeaderStruct",
+          "Start": 288,
+          "End": 320,
+          "Children": [
+            {
+              "Property": "SubHeader",
+              "Start": 288,
+              "End": 300,
+              "Value": "Subheading3b"
+            },
+            {
+              "Property": "SubSubHeaderStruct",
+              "Start": 302,
+              "End": 320,
+              "Children": [
+                {
+                  "Property": "SubSubHeader",
+                  "Start": 302,
+                  "End": 315,
+                  "Value": "Subheading3ba"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Property": "SubHeaderStruct",
+          "Start": 320,
+          "End": 363,
+          "Children": [
+            {
+              "Property": "SubHeader",
+              "Start": 320,
+              "End": 332,
+              "Value": "Subheading3c"
+            },
+            {
+              "Property": "SubSubHeaderStruct",
+              "Start": 334,
+              "End": 349,
+              "Children": [
+                {
+                  "Property": "SubSubHeader",
+                  "Start": 334,
+                  "End": 347,
+                  "Value": "Subheading3ca"
+                }
+              ]
+            },
+            {
+              "Property": "SubSubHeaderStruct",
+              "Start": 349,
+              "End": 363,
+              "Children": [
+                {
+                  "Property": "SubSubHeader",
+                  "Start": 349,
+                  "End": 362,
+                  "Value": "Subheading3cb"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

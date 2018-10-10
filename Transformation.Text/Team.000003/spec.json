@@ -1,0 +1,40 @@
+{
+  "Examples": [
+    {
+      "Input": [
+        "Green Bay Packers (2)"
+      ],
+      "Output": "Green Bay Packers"
+    },
+    {
+      "Input": [
+        "New York Jets"
+      ],
+      "Output": "New York Jets"
+    },
+    {
+      "Input": [
+        "Dallas Cowboys (2)"
+      ],
+      "Output": "Dallas Cowboys"
+    },
+    {
+      "Input": [
+        "Baltimore Colts (4)"
+      ],
+      "Output": "Baltimore Colts"
+    },
+    {
+      "Input": [
+        "New England Patriots (5)"
+      ],
+      "Output": "New England Patriots"
+    },
+    {
+      "Input": [
+        "Seattle Seahawks (2)"
+      ],
+      "Output": "Seattle Seahawks"
+    }
+  ]
+}

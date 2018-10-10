@@ -1,0 +1,31 @@
+{
+  "Kind": "Field",
+  "Examples": [
+    {
+      "Input": [
+        {
+          "Start": 332,
+          "End": 352,
+          "Value": "ea1219f7  MEM_PUBLIC"
+        },
+        {
+          "Start": 488,
+          "End": 509,
+          "Value": "a501ebea  MEM_PRIVATE"
+        }
+      ],
+      "Output": [
+        {
+          "Start": 332,
+          "End": 340,
+          "Value": "ea1219f7"
+        },
+        {
+          "Start": 488,
+          "End": 496,
+          "Value": "a501ebea"
+        }
+      ]
+    }
+  ]
+}

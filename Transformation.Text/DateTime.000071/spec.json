@@ -1,0 +1,34 @@
+{
+  "Examples": [
+    {
+      "Input": [
+        "11AM"
+      ],
+      "Output": "10AM-12PM"
+    },
+    {
+      "Input": [
+        "8AM"
+      ],
+      "Output": "8AM-10AM"
+    },
+    {
+      "Input": [
+        "12AM"
+      ],
+      "Output": "12AM-2AM"
+    },
+    {
+      "Input": [
+        "4PM"
+      ],
+      "Output": "4PM-6PM"
+    },
+    {
+      "Input": [
+        "4PM"
+      ],
+      "Output": "4PM-6PM"
+    }
+  ]
+}

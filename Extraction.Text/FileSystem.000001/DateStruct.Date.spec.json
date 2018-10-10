@@ -1,0 +1,371 @@
+{
+  "Kind": "Field",
+  "Examples": [
+    {
+      "Input": [
+        {
+          "Start": 119,
+          "End": 160,
+          "Value": "05/11/2014  12:50 AM    <DIR>          .\n"
+        },
+        {
+          "Start": 160,
+          "End": 202,
+          "Value": "05/11/2014  12:50 AM    <DIR>          ..\n"
+        },
+        {
+          "Start": 202,
+          "End": 252,
+          "Value": "01/17/2014  07:18 PM                61 .gitconfig\n"
+        },
+        {
+          "Start": 252,
+          "End": 302,
+          "Value": "03/22/2014  10:24 PM               811 .jscs.json\n"
+        },
+        {
+          "Start": 302,
+          "End": 351,
+          "Value": "03/22/2014  10:24 PM             6,054 .jshintrc\n"
+        },
+        {
+          "Start": 351,
+          "End": 399,
+          "Value": "01/27/2014  06:29 PM                35 .lesshst\n"
+        },
+        {
+          "Start": 399,
+          "End": 450,
+          "Value": "04/30/2014  04:00 PM    <DIR>          .receitanet\n"
+        },
+        {
+          "Start": 450,
+          "End": 494,
+          "Value": "04/23/2014  10:39 AM    <DIR>          .ssh\n"
+        },
+        {
+          "Start": 494,
+          "End": 538,
+          "Value": "11/29/2013  01:28 PM    <DIR>          atal\n"
+        },
+        {
+          "Start": 538,
+          "End": 586,
+          "Value": "04/09/2014  09:55 PM    <DIR>          Contacts\n"
+        },
+        {
+          "Start": 586,
+          "End": 633,
+          "Value": "05/08/2014  11:10 PM    <DIR>          Desktop\n"
+        },
+        {
+          "Start": 633,
+          "End": 699,
+          "Value": "01/22/2014  12:49 PM         3,211,264 DevelopmentStorageDb21.mdf\n"
+        },
+        {
+          "Start": 699,
+          "End": 769,
+          "Value": "01/22/2014  12:49 PM           802,816 DevelopmentStorageDb21_log.ldf\n"
+        },
+        {
+          "Start": 769,
+          "End": 835,
+          "Value": "05/06/2014  11:50 PM        62,980,096 DevelopmentStorageDb22.mdf\n"
+        },
+        {
+          "Start": 835,
+          "End": 905,
+          "Value": "05/06/2014  11:50 PM         1,114,112 DevelopmentStorageDb22_log.ldf\n"
+        },
+        {
+          "Start": 905,
+          "End": 954,
+          "Value": "05/09/2014  12:24 PM    <DIR>          Documents\n"
+        },
+        {
+          "Start": 954,
+          "End": 1003,
+          "Value": "05/09/2014  11:01 PM    <DIR>          Downloads\n"
+        },
+        {
+          "Start": 1003,
+          "End": 1050,
+          "Value": "05/10/2014  12:30 PM    <DIR>          Dropbox\n"
+        },
+        {
+          "Start": 1050,
+          "End": 1099,
+          "Value": "04/21/2014  10:46 AM    <DIR>          Favorites\n"
+        },
+        {
+          "Start": 1099,
+          "End": 1142,
+          "Value": "03/28/2014  01:34 PM    <DIR>          git\n"
+        },
+        {
+          "Start": 1142,
+          "End": 1187,
+          "Value": "05/02/2014  12:10 AM    <DIR>          Links\n"
+        },
+        {
+          "Start": 1187,
+          "End": 1236,
+          "Value": "05/07/2014  07:28 PM    <DIR>          Microsoft\n"
+        },
+        {
+          "Start": 1236,
+          "End": 1281,
+          "Value": "05/09/2014  12:17 PM    <DIR>          Music\n"
+        },
+        {
+          "Start": 1281,
+          "End": 1323,
+          "Value": "04/15/2014  05:15 PM    <DIR>          p2\n"
+        },
+        {
+          "Start": 1323,
+          "End": 1371,
+          "Value": "05/05/2014  03:33 PM    <DIR>          Pictures\n"
+        },
+        {
+          "Start": 1371,
+          "End": 1422,
+          "Value": "04/09/2014  09:55 PM    <DIR>          Saved Games\n"
+        },
+        {
+          "Start": 1422,
+          "End": 1470,
+          "Value": "04/09/2014  09:55 PM    <DIR>          Searches\n"
+        },
+        {
+          "Start": 1470,
+          "End": 1518,
+          "Value": "05/08/2014  09:35 AM    <DIR>          SkyDrive\n"
+        },
+        {
+          "Start": 1518,
+          "End": 1574,
+          "Value": "01/11/2014  12:25 PM    <DIR>          SkyDrive (2).old\n"
+        },
+        {
+          "Start": 1574,
+          "End": 1626,
+          "Value": "10/23/2013  07:56 AM    <DIR>          SkyDrive.old\n"
+        },
+        {
+          "Start": 1626,
+          "End": 1673,
+          "Value": "10/10/2013  01:01 PM    <DIR>          Tracing\n"
+        },
+        {
+          "Start": 1673,
+          "End": 1724,
+          "Value": "03/22/2014  10:24 PM             1,119 tslint.json\n"
+        },
+        {
+          "Start": 1724,
+          "End": 1770,
+          "Value": "04/09/2014  09:55 PM    <DIR>          Videos\n"
+        },
+        {
+          "Start": 1770,
+          "End": 1824,
+          "Value": "09/14/2013  01:10 PM    <DIR>          Web Essentials\n"
+        },
+        {
+          "Start": 1824,
+          "End": 1873,
+          "Value": "11/19/2013  04:31 PM    <DIR>          workspace\n"
+        },
+        {
+          "Start": 1873,
+          "End": 2017,
+          "Value": "05/11/2014  12:50 AM             7,238 _viminfo\n              10 File(s)     68,123,606 bytes\n              26 Dir(s)  29,080,342,528 bytes free"
+        }
+      ],
+      "Output": [
+        {
+          "Start": 119,
+          "End": 129,
+          "Value": "05/11/2014"
+        },
+        {
+          "Start": 160,
+          "End": 170,
+          "Value": "05/11/2014"
+        },
+        {
+          "Start": 202,
+          "End": 212,
+          "Value": "01/17/2014"
+        },
+        {
+          "Start": 252,
+          "End": 262,
+          "Value": "03/22/2014"
+        },
+        {
+          "Start": 302,
+          "End": 312,
+          "Value": "03/22/2014"
+        },
+        {
+          "Start": 351,
+          "End": 361,
+          "Value": "01/27/2014"
+        },
+        {
+          "Start": 399,
+          "End": 409,
+          "Value": "04/30/2014"
+        },
+        {
+          "Start": 450,
+          "End": 460,
+          "Value": "04/23/2014"
+        },
+        {
+          "Start": 494,
+          "End": 504,
+          "Value": "11/29/2013"
+        },
+        {
+          "Start": 538,
+          "End": 548,
+          "Value": "04/09/2014"
+        },
+        {
+          "Start": 586,
+          "End": 596,
+          "Value": "05/08/2014"
+        },
+        {
+          "Start": 633,
+          "End": 643,
+          "Value": "01/22/2014"
+        },
+        {
+          "Start": 699,
+          "End": 709,
+          "Value": "01/22/2014"
+        },
+        {
+          "Start": 769,
+          "End": 779,
+          "Value": "05/06/2014"
+        },
+        {
+          "Start": 835,
+          "End": 845,
+          "Value": "05/06/2014"
+        },
+        {
+          "Start": 905,
+          "End": 915,
+          "Value": "05/09/2014"
+        },
+        {
+          "Start": 954,
+          "End": 964,
+          "Value": "05/09/2014"
+        },
+        {
+          "Start": 1003,
+          "End": 1013,
+          "Value": "05/10/2014"
+        },
+        {
+          "Start": 1050,
+          "End": 1060,
+          "Value": "04/21/2014"
+        },
+        {
+          "Start": 1099,
+          "End": 1109,
+          "Value": "03/28/2014"
+        },
+        {
+          "Start": 1142,
+          "End": 1152,
+          "Value": "05/02/2014"
+        },
+        {
+          "Start": 1187,
+          "End": 1197,
+          "Value": "05/07/2014"
+        },
+        {
+          "Start": 1236,
+          "End": 1246,
+          "Value": "05/09/2014"
+        },
+        {
+          "Start": 1281,
+          "End": 1291,
+          "Value": "04/15/2014"
+        },
+        {
+          "Start": 1323,
+          "End": 1333,
+          "Value": "05/05/2014"
+        },
+        {
+          "Start": 1371,
+          "End": 1381,
+          "Value": "04/09/2014"
+        },
+        {
+          "Start": 1422,
+          "End": 1432,
+          "Value": "04/09/2014"
+        },
+        {
+          "Start": 1470,
+          "End": 1480,
+          "Value": "05/08/2014"
+        },
+        {
+          "Start": 1518,
+          "End": 1528,
+          "Value": "01/11/2014"
+        },
+        {
+          "Start": 1574,
+          "End": 1584,
+          "Value": "10/23/2013"
+        },
+        {
+          "Start": 1626,
+          "End": 1636,
+          "Value": "10/10/2013"
+        },
+        {
+          "Start": 1673,
+          "End": 1683,
+          "Value": "03/22/2014"
+        },
+        {
+          "Start": 1724,
+          "End": 1734,
+          "Value": "04/09/2014"
+        },
+        {
+          "Start": 1770,
+          "End": 1780,
+          "Value": "09/14/2013"
+        },
+        {
+          "Start": 1824,
+          "End": 1834,
+          "Value": "11/19/2013"
+        },
+        {
+          "Start": 1873,
+          "End": 1883,
+          "Value": "05/11/2014"
+        }
+      ]
+    }
+  ]
+}

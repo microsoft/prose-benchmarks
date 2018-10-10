@@ -1,0 +1,34 @@
+{
+  "Examples": [
+    {
+      "Input": [
+        "Aysu Fatma Ahmed 492 24th Place NW,Edison,AK,(896) 388-9065,000-93-6876,38891"
+      ],
+      "Output": "492 24th Place"
+    },
+    {
+      "Input": [
+        "Fiamma Greco 967 03th Place SE,Long Beach,OK,(129) 734-1247,000-61-4879,03719"
+      ],
+      "Output": "967 03th Place SE"
+    },
+    {
+      "Input": [
+        "Muralixxxxx Hasmik Drakou 880 81th Place SE,Brasília,WY,(467) 817-7191,000-47-5407,17293"
+      ],
+      "Output": "880 81th Place"
+    },
+    {
+      "Input": [
+        "Joyikuttyxxxxx Charles Arjun 256 32th Place NE,Kiev,AR,(666) 929-0960,000-14-1069,41230"
+      ],
+      "Output": "256 32th Place"
+    },
+    {
+      "Input": [
+        "Elise Vadeboncoeur 526 03th Place NE,Curitiba,OH,(993) 525-5024,000-84-6131,03719"
+      ],
+      "Output": "526 03th Place NE"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "Examples": [
+    {
+      "Input": [
+        "CCC"
+      ],
+      "Output": "ccc"
+    },
+    {
+      "Input": [
+        "CCC"
+      ],
+      "Output": "ccc"
+    },
+    {
+      "Input": [
+        "CCC"
+      ],
+      "Output": "ccc"
+    },
+    {
+      "Input": [
+        "Column2"
+      ],
+      "Output": "Col_2"
+    },
+    {
+      "Input": [
+        "Column6"
+      ],
+      "Output": "Col_6"
+    },
+    {
+      "Input": [
+        "Column9"
+      ],
+      "Output": "Col_9"
+    },
+    {
+      "Input": [
+        "Column8"
+      ],
+      "Output": "Col_8"
+    },
+    {
+      "Input": [
+        "AAA"
+      ],
+      "Output": "aaa"
+    },
+    {
+      "Input": [
+        "CCC"
+      ],
+      "Output": "ccc"
+    },
+    {
+      "Input": [
+        "Column6"
+      ],
+      "Output": "Col_6"
+    }
+  ]
+}

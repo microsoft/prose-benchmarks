@@ -1,0 +1,201 @@
+{
+  "Kind": "Field",
+  "Examples": [
+    {
+      "Input": [
+        {
+          "Start": 12,
+          "End": 44,
+          "Value": "1234 Cherry Court\nGreensboro, VA"
+        },
+        {
+          "Start": 78,
+          "End": 108,
+          "Value": "789 Eighth Parkway\nVallejo, WY"
+        },
+        {
+          "Start": 135,
+          "End": 162,
+          "Value": "678 Redwood Lane\nPrague, KY"
+        },
+        {
+          "Start": 191,
+          "End": 218,
+          "Value": "123 Oak Road\nLouisville, FL"
+        },
+        {
+          "Start": 249,
+          "End": 278,
+          "Value": "456 Eighth Highway\nDenver, TN"
+        },
+        {
+          "Start": 307,
+          "End": 335,
+          "Value": "56 Second Road\nOceanside, NY"
+        },
+        {
+          "Start": 365,
+          "End": 399,
+          "Value": "345 Fourth Highway\nChula Vista, HI"
+        },
+        {
+          "Start": 429,
+          "End": 458,
+          "Value": "78 Birch Boulevard\nSuzhou, IN"
+        },
+        {
+          "Start": 490,
+          "End": 520,
+          "Value": "789 Elm Street\nQuezon City, NM"
+        },
+        {
+          "Start": 552,
+          "End": 582,
+          "Value": "345 Fourth Parkway\nYonkers, NH"
+        },
+        {
+          "Start": 619,
+          "End": 653,
+          "Value": "234 Apple Lane\nNizhny Novgorod, SD"
+        },
+        {
+          "Start": 681,
+          "End": 717,
+          "Value": "1234 Eighth Avenue\nJurupa Valley, VT"
+        },
+        {
+          "Start": 749,
+          "End": 775,
+          "Value": "12 Pecan Street\nLuanda, MO"
+        },
+        {
+          "Start": 807,
+          "End": 835,
+          "Value": "34 12th Highway\nPearland, NC"
+        },
+        {
+          "Start": 870,
+          "End": 895,
+          "Value": "678 First Route\nTyler, DC"
+        },
+        {
+          "Start": 929,
+          "End": 957,
+          "Value": "3456 1st Avenue\nMurrieta, SC"
+        },
+        {
+          "Start": 987,
+          "End": 1016,
+          "Value": "456 Fourth Lane\nHenderson, ND"
+        },
+        {
+          "Start": 1049,
+          "End": 1078,
+          "Value": "89 Sixth Parkway\nColumbus, WA"
+        },
+        {
+          "Start": 1107,
+          "End": 1130,
+          "Value": "34 1st Road\nOntario, NY"
+        }
+      ],
+      "Output": [
+        {
+          "Start": 42,
+          "End": 44,
+          "Value": "VA"
+        },
+        {
+          "Start": 106,
+          "End": 108,
+          "Value": "WY"
+        },
+        {
+          "Start": 160,
+          "End": 162,
+          "Value": "KY"
+        },
+        {
+          "Start": 216,
+          "End": 218,
+          "Value": "FL"
+        },
+        {
+          "Start": 276,
+          "End": 278,
+          "Value": "TN"
+        },
+        {
+          "Start": 333,
+          "End": 335,
+          "Value": "NY"
+        },
+        {
+          "Start": 397,
+          "End": 399,
+          "Value": "HI"
+        },
+        {
+          "Start": 456,
+          "End": 458,
+          "Value": "IN"
+        },
+        {
+          "Start": 518,
+          "End": 520,
+          "Value": "NM"
+        },
+        {
+          "Start": 580,
+          "End": 582,
+          "Value": "NH"
+        },
+        {
+          "Start": 651,
+          "End": 653,
+          "Value": "SD"
+        },
+        {
+          "Start": 715,
+          "End": 717,
+          "Value": "VT"
+        },
+        {
+          "Start": 773,
+          "End": 775,
+          "Value": "MO"
+        },
+        {
+          "Start": 833,
+          "End": 835,
+          "Value": "NC"
+        },
+        {
+          "Start": 893,
+          "End": 895,
+          "Value": "DC"
+        },
+        {
+          "Start": 955,
+          "End": 957,
+          "Value": "SC"
+        },
+        {
+          "Start": 1014,
+          "End": 1016,
+          "Value": "ND"
+        },
+        {
+          "Start": 1076,
+          "End": 1078,
+          "Value": "WA"
+        },
+        {
+          "Start": 1128,
+          "End": 1130,
+          "Value": "NY"
+        }
+      ]
+    }
+  ]
+}

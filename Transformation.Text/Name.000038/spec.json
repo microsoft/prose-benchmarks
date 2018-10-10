@@ -1,0 +1,34 @@
+{
+  "Examples": [
+    {
+      "Input": [
+        "Hone Mukasine"
+      ],
+      "Output": "hone@"
+    },
+    {
+      "Input": [
+        "Kiriakos Yilmaz"
+      ],
+      "Output": "kiriakos@"
+    },
+    {
+      "Input": [
+        "Artem Nabiyeva"
+      ],
+      "Output": "artem@"
+    },
+    {
+      "Input": [
+        "Lisandro Zujovic"
+      ],
+      "Output": "lisandro@"
+    },
+    {
+      "Input": [
+        "Radmilo Traver"
+      ],
+      "Output": "radmilo@"
+    }
+  ]
+}

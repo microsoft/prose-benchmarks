@@ -1,0 +1,8 @@
+{
+  "Features": [
+    "Conditional",
+    "DateTime",
+    "Multicolumn"
+  ],
+  "Synthetic": true
+}

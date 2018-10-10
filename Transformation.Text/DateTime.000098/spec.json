@@ -1,0 +1,124 @@
+{
+  "Examples": [
+    {
+      "Input": [
+        "2001--11--6"
+      ],
+      "Output": "November"
+    },
+    {
+      "Input": [
+        "1846--1--31"
+      ],
+      "Output": "January"
+    },
+    {
+      "Input": [
+        "1712--11--2"
+      ],
+      "Output": "November"
+    },
+    {
+      "Input": [
+        "2160--8--2"
+      ],
+      "Output": "August"
+    },
+    {
+      "Input": [
+        "2072--9--26"
+      ],
+      "Output": "September"
+    },
+    {
+      "Input": [
+        "8/7/2237"
+      ],
+      "Output": "July"
+    },
+    {
+      "Input": [
+        "6.30.2220"
+      ],
+      "Output": "June"
+    },
+    {
+      "Input": [
+        "2131--5--30"
+      ],
+      "Output": "May"
+    },
+    {
+      "Input": [
+        "10.8.2089"
+      ],
+      "Output": "October"
+    },
+    {
+      "Input": [
+        "2098--11--24"
+      ],
+      "Output": "November"
+    },
+    {
+      "Input": [
+        "2187--1--30"
+      ],
+      "Output": "January"
+    },
+    {
+      "Input": [
+        "1816--3--26"
+      ],
+      "Output": "March"
+    },
+    {
+      "Input": [
+        "1751--6--25"
+      ],
+      "Output": "June"
+    },
+    {
+      "Input": [
+        "20/4/1957"
+      ],
+      "Output": "April"
+    },
+    {
+      "Input": [
+        "2139--4--25"
+      ],
+      "Output": "April"
+    },
+    {
+      "Input": [
+        "6.21.2059"
+      ],
+      "Output": "June"
+    },
+    {
+      "Input": [
+        "23/9/1733"
+      ],
+      "Output": "September"
+    },
+    {
+      "Input": [
+        "2/10/2204"
+      ],
+      "Output": "October"
+    },
+    {
+      "Input": [
+        "14/10/1754"
+      ],
+      "Output": "October"
+    },
+    {
+      "Input": [
+        "2008--4--3"
+      ],
+      "Output": "April"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "Examples": [
+    {
+      "Input": [
+        "Caribbean",
+        "359"
+      ],
+      "Output": "case 359: return Caribbean;"
+    },
+    {
+      "Input": [
+        "India",
+        "550"
+      ],
+      "Output": "case 550: return India;"
+    },
+    {
+      "Input": [
+        "Equatorial Guinea",
+        "967"
+      ],
+      "Output": "case 967: return Equatorial Guinea;"
+    },
+    {
+      "Input": [
+        "Botswana",
+        "713"
+      ],
+      "Output": "case 713: return Botswana;"
+    },
+    {
+      "Input": [
+        "Angola",
+        "581"
+      ],
+      "Output": "case 581: return Angola;"
+    },
+    {
+      "Input": [
+        "Gambia",
+        "955"
+      ],
+      "Output": "case 955: return Gambia;"
+    },
+    {
+      "Input": [
+        "Finland",
+        "879"
+      ],
+      "Output": "case 879: return Finland;"
+    },
+    {
+      "Input": [
+        "South Africa",
+        "827"
+      ],
+      "Output": "case 827: return South Africa;"
+    },
+    {
+      "Input": [
+        "China",
+        "812"
+      ],
+      "Output": "case 812: return China;"
+    },
+    {
+      "Input": [
+        "Afghanistan",
+        "523"
+      ],
+      "Output": "case 523: return Afghanistan;"
+    }
+  ]
+}

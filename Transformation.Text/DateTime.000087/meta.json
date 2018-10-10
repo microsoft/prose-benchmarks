@@ -1,0 +1,7 @@
+{
+  "Features": [
+    "DateTimeRounding",
+    "DateTime"
+  ],
+  "Synthetic": true
+}

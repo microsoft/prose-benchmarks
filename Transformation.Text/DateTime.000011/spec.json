@@ -1,0 +1,140 @@
+{
+  "Examples": [
+    {
+      "Input": [
+        "Tsehayetu Abera",
+        "French",
+        "1 April 1902"
+      ],
+      "Output": "Apr 1"
+    },
+    {
+      "Input": [
+        "Eulalia Terán",
+        "Arabic",
+        "10 August 2045"
+      ],
+      "Output": "Aug 10"
+    },
+    {
+      "Input": [
+        "Irbe L. Ziemele",
+        "Arabic",
+        "2 November 1878"
+      ],
+      "Output": "Nov 2"
+    },
+    {
+      "Input": [
+        "Aada Saar",
+        "Arabic",
+        "27 September 2194"
+      ],
+      "Output": "Sep 27"
+    },
+    {
+      "Input": [
+        "Ileana D. Stanescu",
+        "Russian",
+        "19 November 2212"
+      ],
+      "Output": "Nov 19"
+    },
+    {
+      "Input": [
+        "Irena Jovanovic",
+        "French",
+        "27 January 2157"
+      ],
+      "Output": "Jan 27"
+    },
+    {
+      "Input": [
+        "Maya Lominadze",
+        "Russian",
+        "4 October 2142a"
+      ],
+      "Output": null
+    },
+    {
+      "Input": [
+        "Piotr S. Kucharski",
+        "Arabic",
+        "1 September 2203a"
+      ],
+      "Output": null
+    },
+    {
+      "Input": [
+        "Aamir H. Solangi",
+        "French",
+        "2 November 1935"
+      ],
+      "Output": "Nov 2"
+    },
+    {
+      "Input": [
+        "Georg Kallas",
+        "Russian",
+        "12 October 1975"
+      ],
+      "Output": "Oct 12"
+    },
+    {
+      "Input": [
+        "Momchil Konstantinov",
+        "Arabic",
+        "1707"
+      ],
+      "Output": null
+    },
+    {
+      "Input": [
+        "Aira K. Zeltina",
+        "English",
+        "Unknown"
+      ],
+      "Output": null
+    },
+    {
+      "Input": [
+        "Karen P. Rivera",
+        "French",
+        "2 December 1711"
+      ],
+      "Output": "Dec 2"
+    },
+    {
+      "Input": [
+        "Hollie Rees",
+        "Arabic",
+        "14 September 1849"
+      ],
+      "Output": "Sep 14"
+    },
+    {
+      "Input": [
+        "Shinoj Velayudhan",
+        "Arabic",
+        "1923"
+      ],
+      "Output": null
+    },
+    {
+      "Input": [
+        "Oksana K. Boiko",
+        "English",
+        "4 December 2238"
+      ],
+      "Output": "Dec 4"
+    },
+    {
+      "Input": [
+        "Debajyoti K. Dasgupta",
+        "Arabic",
+        "17 January 2054"
+      ],
+      "Output": "Jan 17"
+    }
+  ]
+}

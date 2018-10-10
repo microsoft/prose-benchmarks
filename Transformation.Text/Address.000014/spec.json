@@ -1,0 +1,178 @@
+{
+  "Examples": [
+    {
+      "Input": [
+        "Hone Mukasine                 456 Fifth Rd SW,Caracas,IN,(464) 908-9638,(890) 659-6501,38891"
+      ],
+      "Output": "456 Fifth Rd SW"
+    },
+    {
+      "Input": [
+        "Haf Shchur                 1234 First Ave NW,Corona,CT,(297) 341-2476,(418) 878-6628,58712"
+      ],
+      "Output": "1234 First Ave NW"
+    },
+    {
+      "Input": [
+        "Aseem Bonsaint                 678 1st Ct SW,Yangon,OR,(719) 145-3648,(877) 925-6328,17293"
+      ],
+      "Output": "678 1st Ct SW"
+    },
+    {
+      "Input": [
+        "Srecko Ghazaryan                 789 Maple Rte NE ,Temecula,ND,(011) 694-1652,(603) 802-7993,38891"
+      ],
+      "Output": "789 Maple Rte NE"
+    },
+    {
+      "Input": [
+        "Ivana Mattsson                 23 Seventh Blvd SW ,Macon,MD,(916) 686-5116,(295) 028-5659,03719"
+      ],
+      "Output": "23 Seventh Blvd SW"
+    },
+    {
+      "Input": [
+        "Taneli Schembri                 678 Elm Rd SE ,Quanzhou,MN,(420) 214-4038,(290) 599-0629,38891"
+      ],
+      "Output": "678 Elm Rd SE"
+    },
+    {
+      "Input": [
+        "Zeynep Rodrigues                 7890 12th Rte NW,Peoria,NE,(753) 906-1145,(232) 716-5630,03719"
+      ],
+      "Output": "7890 12th Rte NW"
+    },
+    {
+      "Input": [
+        "Nitin Stanic                 678 Sixth Ct NW,Milwaukee,NY,(332) 960-9917,(010) 171-8652,58712"
+      ],
+      "Output": "678 Sixth Ct NW"
+    },
+    {
+      "Input": [
+        "Semyon Rajput                 2345 Apple Pl SW,Clinton,NM,(069) 851-0563,(837) 585-5165,17293"
+      ],
+      "Output": "2345 Apple Pl SW"
+    },
+    {
+      "Input": [
+        "Antoinette Jovovic                 5678 Eighth Ct NE ,Honolulu,MT,(741) 418-5760,(549) 112-6722,03719"
+      ],
+      "Output": "5678 Eighth Ct NE"
+    },
+    {
+      "Input": [
+        "Pierina Dangol                 2345 Cherry Rte NE,Downey,MN,(835) 343-4669,(926) 347-2958,58712"
+      ],
+      "Output": "2345 Cherry Rte NE"
+    },
+    {
+      "Input": [
+        "Jozef Kim                 56 Seventh Rd SE ,Rockford,SC,(116) 658-8235,(605) 914-0190,17293"
+      ],
+      "Output": "56 Seventh Rd SE"
+    },
+    {
+      "Input": [
+        "Marina Cheburko                 3456 Sixth St NE,Joliet,ID,(111) 578-2402,(436) 471-1157,17293"
+      ],
+      "Output": "3456 Sixth St NE"
+    },
+    {
+      "Input": [
+        "Ilija Blazkova                 567 First Pkwy NW,Charlotte,NE,(849) 485-7295,(905) 194-4906,17293"
+      ],
+      "Output": "567 First Pkwy NW"
+    },
+    {
+      "Input": [
+        "Manjit Seleznyova                 789 Third Rte SE,Recife,SD,(951) 533-5328,(774) 540-3976,58712"
+      ],
+      "Output": "789 Third Rte SE"
+    },
+    {
+      "Input": [
+        "Amal Sahin                 234 Redwood Hwy SE ,London,VT,(626) 679-0552,(010) 725-5679,58712"
+      ],
+      "Output": "234 Redwood Hwy SE"
+    },
+    {
+      "Input": [
+        "Aminata Salazar                 789 Maple Ln SE,Barcelona,CO,(790) 197-2482,(152) 647-4104,38891"
+      ],
+      "Output": "789 Maple Ln SE"
+    },
+    {
+      "Input": [
+        "Ayna Ibrahim                 67 12th Rte NE ,Irving,WA,(931) 606-7330,(654) 401-3149,58712"
+      ],
+      "Output": "67 12th Rte NE"
+    },
+    {
+      "Input": [
+        "Mussadiq Nomula                 34 48th Ln SW,Seattle,KY,(563) 230-3521,(192) 484-9052,17293"
+      ],
+      "Output": "34 48th Ln SW"
+    },
+    {
+      "Input": [
+        "Mayung Fekete                 789 Sixth Rd NE,Tacoma,LA,(071) 782-7967,(476) 715-8192,58712"
+      ],
+      "Output": "789 Sixth Rd NE"
+    },
+    {
+      "Input": [
+        "Kyrylo K'ung                 678 Third Blvd NE ,Munich,KY,(930) 221-2440,(379) 580-0007,38891"
+      ],
+      "Output": "678 Third Blvd NE"
+    },
+    {
+      "Input": [
+        "Shir Meyerson                 34 Second Pkwy SE ,Hiroshima,SD,(137) 303-6977,(582) 275-6191,58712"
+      ],
+      "Output": "34 Second Pkwy SE"
+    },
+    {
+      "Input": [
+        "Kahsay Oblak                 34 Main St NE,Inglewood,ME,(656) 574-9641,(068) 498-3103,03719"
+      ],
+      "Output": "34 Main St NE"
+    },
+    {
+      "Input": [
+        "Claudia Ozdemir                 234 Seventh Ct NW ,Tucson,DC,(811) 761-7112,(774) 367-8282,38891"
+      ],
+      "Output": "234 Seventh Ct NW"
+    },
+    {
+      "Input": [
+        "Amit Majewski                 567 Third St SE,Phoenix,AL,(698) 722-2138,(294) 101-6549,41230"
+      ],
+      "Output": "567 Third St SE"
+    },
+    {
+      "Input": [
+        "Fabrice Zhuniskyzy                 4567 Main St SE ,Waterbury,MO,(771) 548-4506,(863) 394-0987,03719"
+      ],
+      "Output": "4567 Main St SE"
+    },
+    {
+      "Input": [
+        "Grigorijs Svensli                 67 Birch Way NW,Shijiazhuang,CO,(971) 705-6809,(903) 005-8751,38891"
+      ],
+      "Output": "67 Birch Way NW"
+    },
+    {
+      "Input": [
+        "Ryuu Isabekuly                 90 Redwood Pl NE ,Lusaka,MO,(775) 214-4307,(252) 024-3531,03719"
+      ],
+      "Output": "90 Redwood Pl NE"
+    },
+    {
+      "Input": [
+        "Audu Mota                 2345 Tenth Ct NE,Davie,MA,(656) 243-7307,(440) 707-0555,03719"
+      ],
+      "Output": "2345 Tenth Ct NE"
+    }
+  ]
+}

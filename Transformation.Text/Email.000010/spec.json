@@ -1,0 +1,64 @@
+{
+  "Examples": [
+    {
+      "Input": [
+        "Hone.Albert@southridgevideo.com"
+      ],
+      "Output": "southridgevideo.com"
+    },
+    {
+      "Input": [
+        "Kiriakos.Sarlis@margiestravel.com"
+      ],
+      "Output": "margiestravel.com"
+    },
+    {
+      "Input": [
+        "Artem.Kuznetsov@woodgrovebank.com"
+      ],
+      "Output": "woodgrovebank.com"
+    },
+    {
+      "Input": [
+        "Lisandro.Milanesi@lamnahealtcare.com"
+      ],
+      "Output": "lamnahealtcare.com"
+    },
+    {
+      "Input": [
+        "Radmilo.Bogic@woodgrovebank.com"
+      ],
+      "Output": "woodgrovebank.com"
+    },
+    {
+      "Input": [
+        "Archana.Panigrahi@woodgrovebank.com"
+      ],
+      "Output": "woodgrovebank.com"
+    },
+    {
+      "Input": [
+        "Daniyar.Shakenuly@tailspintoys.com"
+      ],
+      "Output": "tailspintoys.com"
+    },
+    {
+      "Input": [
+        "Fatou.Ndiaye@adventure-works.com"
+      ],
+      "Output": "adventure-works.com"
+    },
+    {
+      "Input": [
+        "Niklas.Bengtsson@wideworldimporters.com"
+      ],
+      "Output": "wideworldimporters.com"
+    },
+    {
+      "Input": [
+        "Akaraporn.Chaiprasit@alpineskihouse.com"
+      ],
+      "Output": "alpineskihouse.com"
+    }
+  ]
+}

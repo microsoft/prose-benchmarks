@@ -1,0 +1,361 @@
+{
+  "Examples": [
+    {
+      "Input": [
+        "Arabic",
+        "http://proseware.com/ar"
+      ],
+      "Output": "ar"
+    },
+    {
+      "Input": [
+        "Basque",
+        "http://proseware.com/eu"
+      ],
+      "Output": "eu"
+    },
+    {
+      "Input": [
+        "Bosnian",
+        "http://proseware.com/bs"
+      ],
+      "Output": "bs"
+    },
+    {
+      "Input": [
+        "Bulgarian",
+        "http://proseware.com/bg"
+      ],
+      "Output": "bg"
+    },
+    {
+      "Input": [
+        "Catalan",
+        "http://proseware.com/ca"
+      ],
+      "Output": "ca"
+    },
+    {
+      "Input": [
+        "Chinese - Simplified",
+        "http://proseware.com/zh"
+      ],
+      "Output": "zh"
+    },
+    {
+      "Input": [
+        "Chinese - Traditional",
+        "http://proseware.com/hk"
+      ],
+      "Output": "hk"
+    },
+    {
+      "Input": [
+        "Croatian",
+        "http://proseware.com/hr"
+      ],
+      "Output": "hr"
+    },
+    {
+      "Input": [
+        "Czech",
+        "http://proseware.com/cs"
+      ],
+      "Output": "cs"
+    },
+    {
+      "Input": [
+        "Danish",
+        "http://proseware.com/da"
+      ],
+      "Output": "da"
+    },
+    {
+      "Input": [
+        "Dutch",
+        "http://proseware.com/nl"
+      ],
+      "Output": "nl"
+    },
+    {
+      "Input": [
+        "English",
+        "http://proseware.com/en"
+      ],
+      "Output": "en"
+    },
+    {
+      "Input": [
+        "Estonian",
+        "http://proseware.com/et"
+      ],
+      "Output": "et"
+    },
+    {
+      "Input": [
+        "Finnish",
+        "http://proseware.com/fi"
+      ],
+      "Output": "fi"
+    },
+    {
+      "Input": [
+        "French",
+        "http://proseware.com/fr"
+      ],
+      "Output": "fr"
+    },
+    {
+      "Input": [
+        "Galician",
+        "http://proseware.com/gl"
+      ],
+      "Output": "gl"
+    },
+    {
+      "Input": [
+        "German",
+        "http://proseware.com/de"
+      ],
+      "Output": "de"
+    },
+    {
+      "Input": [
+        "Greek",
+        "http://proseware.com/el"
+      ],
+      "Output": "el"
+    },
+    {
+      "Input": [
+        "Gujarati",
+        "http://proseware.com/gu"
+      ],
+      "Output": "gu"
+    },
+    {
+      "Input": [
+        "Hebrew",
+        "http://proseware.com/he"
+      ],
+      "Output": "he"
+    },
+    {
+      "Input": [
+        "Hindi",
+        "http://proseware.com/hi"
+      ],
+      "Output": "hi"
+    },
+    {
+      "Input": [
+        "Hungarian",
+        "http://proseware.com/hu"
+      ],
+      "Output": "hu"
+    },
+    {
+      "Input": [
+        "Icelandic",
+        "http://proseware.com/is"
+      ],
+      "Output": "is"
+    },
+    {
+      "Input": [
+        "Indonesian",
+        "http://proseware.com/id"
+      ],
+      "Output": "id"
+    },
+    {
+      "Input": [
+        "Italian",
+        "http://proseware.com/it"
+      ],
+      "Output": "it"
+    },
+    {
+      "Input": [
+        "Japanese",
+        "http://proseware.com/ja"
+      ],
+      "Output": "ja"
+    },
+    {
+      "Input": [
+        "Kazakh",
+        "http://proseware.com/kk"
+      ],
+      "Output": "kk"
+    },
+    {
+      "Input": [
+        "Kannada",
+        "http://proseware.com/kn"
+      ],
+      "Output": "kn"
+    },
+    {
+      "Input": [
+        "Korean",
+        "http://proseware.com/ko"
+      ],
+      "Output": "ko"
+    },
+    {
+      "Input": [
+        "Latvian",
+        "http://proseware.com/lv"
+      ],
+      "Output": "lv"
+    },
+    {
+      "Input": [
+        "Lithuanian",
+        "http://proseware.com/lt"
+      ],
+      "Output": "lt"
+    },
+    {
+      "Input": [
+        "Malay",
+        "http://proseware.com/ms"
+      ],
+      "Output": "ms"
+    },
+    {
+      "Input": [
+        "Malayalam",
+        "http://proseware.com/ml"
+      ],
+      "Output": "ml"
+    },
+    {
+      "Input": [
+        "Marathi",
+        "http://proseware.com/mr"
+      ],
+      "Output": "mr"
+    },
+    {
+      "Input": [
+        "Norwegian",
+        "http://proseware.com/nb"
+      ],
+      "Output": "nb"
+    },
+    {
+      "Input": [
+        "Polish",
+        "http://proseware.com/pl"
+      ],
+      "Output": "pl"
+    },
+    {
+      "Input": [
+        "Portuguese - Brazil",
+        "http://proseware.com/br"
+      ],
+      "Output": "br"
+    },
+    {
+      "Input": [
+        "Portuguese - Portugal",
+        "http://proseware.com/pt"
+      ],
+      "Output": "pt"
+    },
+    {
+      "Input": [
+        "Romanian",
+        "http://proseware.com/ro"
+      ],
+      "Output": "ro"
+    },
+    {
+      "Input": [
+        "Russian",
+        "http://proseware.com/ru"
+      ],
+      "Output": "ru"
+    },
+    {
+      "Input": [
+        "Serbian",
+        "http://proseware.com/sr"
+      ],
+      "Output": "sr"
+    },
+    {
+      "Input": [
+        "Slovakian",
+        "http://proseware.com/sk"
+      ],
+      "Output": "sk"
+    },
+    {
+      "Input": [
+        "Slovenian",
+        "http://proseware.com/sl"
+      ],
+      "Output": "sl"
+    },
+    {
+      "Input": [
+        "Spanish",
+        "http://proseware.com/es"
+      ],
+      "Output": "es"
+    },
+    {
+      "Input": [
+        "Swedish",
+        "http://proseware.com/sv"
+      ],
+      "Output": "sv"
+    },
+    {
+      "Input": [
+        "Tamil",
+        "http://proseware.com/ta"
+      ],
+      "Output": "ta"
+    },
+    {
+      "Input": [
+        "Telugu",
+        "http://proseware.com/te"
+      ],
+      "Output": "te"
+    },
+    {
+      "Input": [
+        "Thai",
+        "http://proseware.com/th"
+      ],
+      "Output": "th"
+    },
+    {
+      "Input": [
+        "Turkish",
+        "http://proseware.com/tr"
+      ],
+      "Output": "tr"
+    },
+    {
+      "Input": [
+        "Ukrainian",
+        "http://proseware.com/uk"
+      ],
+      "Output": "uk"
+    },
+    {
+      "Input": [
+        "Vietnamese",
+        "http://proseware.com/vi"
+      ],
+      "Output": "vi"
+    }
+  ]
+}

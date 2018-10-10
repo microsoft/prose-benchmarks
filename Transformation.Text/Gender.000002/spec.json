@@ -1,0 +1,40 @@
+{
+  "Examples": [
+    {
+      "Input": [
+        "M"
+      ],
+      "Output": "0"
+    },
+    {
+      "Input": [
+        "F"
+      ],
+      "Output": "1"
+    },
+    {
+      "Input": [
+        "13"
+      ],
+      "Output": "2"
+    },
+    {
+      "Input": [
+        "M"
+      ],
+      "Output": "0"
+    },
+    {
+      "Input": [
+        "F"
+      ],
+      "Output": "1"
+    },
+    {
+      "Input": [
+        "Male"
+      ],
+      "Output": null
+    }
+  ]
+}

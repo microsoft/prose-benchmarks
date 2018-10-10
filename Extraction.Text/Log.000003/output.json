@@ -1,0 +1,6507 @@
+{
+  "Property": "root",
+  "Start": 0,
+  "End": 38999,
+  "Children": [
+    {
+      "Property": "DateStruct",
+      "Start": 2,
+      "End": 77,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 2,
+          "End": 12,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 80,
+      "End": 155,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 80,
+          "End": 90,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 158,
+      "End": 233,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 158,
+          "End": 168,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 236,
+      "End": 311,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 236,
+          "End": 246,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 314,
+      "End": 389,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 314,
+          "End": 324,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 392,
+      "End": 467,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 392,
+          "End": 402,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 470,
+      "End": 545,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 470,
+          "End": 480,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 548,
+      "End": 623,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 548,
+          "End": 558,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 626,
+      "End": 701,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 626,
+          "End": 636,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 704,
+      "End": 779,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 704,
+          "End": 714,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 782,
+      "End": 857,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 782,
+          "End": 792,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 860,
+      "End": 935,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 860,
+          "End": 870,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 938,
+      "End": 1013,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 938,
+          "End": 948,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 1016,
+      "End": 1091,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 1016,
+          "End": 1026,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 1094,
+      "End": 1169,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 1094,
+          "End": 1104,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 1172,
+      "End": 1247,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 1172,
+          "End": 1182,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 1250,
+      "End": 1325,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 1250,
+          "End": 1260,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 1328,
+      "End": 1403,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 1328,
+          "End": 1338,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 1406,
+      "End": 1481,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 1406,
+          "End": 1416,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 1484,
+      "End": 1559,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 1484,
+          "End": 1494,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 1562,
+      "End": 1637,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 1562,
+          "End": 1572,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 1640,
+      "End": 1715,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 1640,
+          "End": 1650,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 1718,
+      "End": 1793,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 1718,
+          "End": 1728,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 1796,
+      "End": 1871,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 1796,
+          "End": 1806,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 1874,
+      "End": 1949,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 1874,
+          "End": 1884,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 1952,
+      "End": 2027,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 1952,
+          "End": 1962,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 2030,
+      "End": 2105,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 2030,
+          "End": 2040,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 2108,
+      "End": 2183,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 2108,
+          "End": 2118,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 2186,
+      "End": 2261,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 2186,
+          "End": 2196,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 2264,
+      "End": 2339,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 2264,
+          "End": 2274,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 2342,
+      "End": 2417,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 2342,
+          "End": 2352,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 2420,
+      "End": 2495,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 2420,
+          "End": 2430,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 2498,
+      "End": 2573,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 2498,
+          "End": 2508,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 2576,
+      "End": 2651,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 2576,
+          "End": 2586,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 2654,
+      "End": 2729,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 2654,
+          "End": 2664,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 2732,
+      "End": 2807,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 2732,
+          "End": 2742,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 2810,
+      "End": 2885,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 2810,
+          "End": 2820,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 2888,
+      "End": 2963,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 2888,
+          "End": 2898,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 2966,
+      "End": 3041,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 2966,
+          "End": 2976,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 3044,
+      "End": 3119,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 3044,
+          "End": 3054,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 3122,
+      "End": 3197,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 3122,
+          "End": 3132,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 3200,
+      "End": 3275,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 3200,
+          "End": 3210,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 3278,
+      "End": 3353,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 3278,
+          "End": 3288,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 3356,
+      "End": 3431,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 3356,
+          "End": 3366,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 3434,
+      "End": 3509,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 3434,
+          "End": 3444,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 3512,
+      "End": 3587,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 3512,
+          "End": 3522,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 3590,
+      "End": 3665,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 3590,
+          "End": 3600,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 3668,
+      "End": 3743,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 3668,
+          "End": 3678,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 3746,
+      "End": 3821,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 3746,
+          "End": 3756,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 3824,
+      "End": 3899,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 3824,
+          "End": 3834,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 3902,
+      "End": 3977,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 3902,
+          "End": 3912,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 3980,
+      "End": 4055,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 3980,
+          "End": 3990,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 4058,
+      "End": 4133,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 4058,
+          "End": 4068,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 4136,
+      "End": 4211,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 4136,
+          "End": 4146,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 4214,
+      "End": 4289,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 4214,
+          "End": 4224,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 4292,
+      "End": 4367,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 4292,
+          "End": 4302,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 4370,
+      "End": 4445,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 4370,
+          "End": 4380,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 4448,
+      "End": 4523,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 4448,
+          "End": 4458,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 4526,
+      "End": 4601,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 4526,
+          "End": 4536,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 4604,
+      "End": 4679,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 4604,
+          "End": 4614,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 4682,
+      "End": 4757,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 4682,
+          "End": 4692,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 4760,
+      "End": 4835,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 4760,
+          "End": 4770,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 4838,
+      "End": 4913,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 4838,
+          "End": 4848,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 4916,
+      "End": 4991,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 4916,
+          "End": 4926,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 4994,
+      "End": 5069,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 4994,
+          "End": 5004,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 5072,
+      "End": 5147,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 5072,
+          "End": 5082,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 5150,
+      "End": 5225,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 5150,
+          "End": 5160,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 5228,
+      "End": 5303,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 5228,
+          "End": 5238,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 5306,
+      "End": 5381,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 5306,
+          "End": 5316,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 5384,
+      "End": 5459,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 5384,
+          "End": 5394,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 5462,
+      "End": 5537,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 5462,
+          "End": 5472,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 5540,
+      "End": 5615,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 5540,
+          "End": 5550,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 5618,
+      "End": 5693,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 5618,
+          "End": 5628,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 5696,
+      "End": 5771,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 5696,
+          "End": 5706,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 5774,
+      "End": 5849,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 5774,
+          "End": 5784,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 5852,
+      "End": 5927,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 5852,
+          "End": 5862,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 5930,
+      "End": 6005,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 5930,
+          "End": 5940,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 6008,
+      "End": 6083,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 6008,
+          "End": 6018,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 6086,
+      "End": 6161,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 6086,
+          "End": 6096,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 6164,
+      "End": 6239,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 6164,
+          "End": 6174,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 6242,
+      "End": 6317,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 6242,
+          "End": 6252,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 6320,
+      "End": 6395,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 6320,
+          "End": 6330,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 6398,
+      "End": 6473,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 6398,
+          "End": 6408,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 6476,
+      "End": 6551,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 6476,
+          "End": 6486,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 6554,
+      "End": 6629,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 6554,
+          "End": 6564,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 6632,
+      "End": 6707,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 6632,
+          "End": 6642,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 6710,
+      "End": 6785,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 6710,
+          "End": 6720,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 6788,
+      "End": 6863,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 6788,
+          "End": 6798,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 6866,
+      "End": 6941,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 6866,
+          "End": 6876,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 6944,
+      "End": 7019,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 6944,
+          "End": 6954,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 7022,
+      "End": 7097,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 7022,
+          "End": 7032,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 7100,
+      "End": 7175,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 7100,
+          "End": 7110,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 7178,
+      "End": 7253,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 7178,
+          "End": 7188,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 7256,
+      "End": 7331,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 7256,
+          "End": 7266,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 7334,
+      "End": 7409,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 7334,
+          "End": 7344,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 7412,
+      "End": 7487,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 7412,
+          "End": 7422,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 7490,
+      "End": 7565,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 7490,
+          "End": 7500,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 7568,
+      "End": 7643,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 7568,
+          "End": 7578,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 7646,
+      "End": 7721,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 7646,
+          "End": 7656,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 7724,
+      "End": 7799,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 7724,
+          "End": 7734,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 7802,
+      "End": 7877,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 7802,
+          "End": 7812,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 7880,
+      "End": 7955,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 7880,
+          "End": 7890,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 7958,
+      "End": 8033,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 7958,
+          "End": 7968,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 8036,
+      "End": 8111,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 8036,
+          "End": 8046,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 8114,
+      "End": 8189,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 8114,
+          "End": 8124,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 8192,
+      "End": 8267,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 8192,
+          "End": 8202,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 8270,
+      "End": 8345,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 8270,
+          "End": 8280,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 8348,
+      "End": 8423,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 8348,
+          "End": 8358,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 8426,
+      "End": 8501,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 8426,
+          "End": 8436,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 8504,
+      "End": 8579,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 8504,
+          "End": 8514,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 8582,
+      "End": 8657,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 8582,
+          "End": 8592,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 8660,
+      "End": 8735,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 8660,
+          "End": 8670,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 8738,
+      "End": 8813,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 8738,
+          "End": 8748,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 8816,
+      "End": 8891,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 8816,
+          "End": 8826,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 8894,
+      "End": 8969,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 8894,
+          "End": 8904,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 8972,
+      "End": 9047,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 8972,
+          "End": 8982,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 9050,
+      "End": 9125,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 9050,
+          "End": 9060,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 9128,
+      "End": 9203,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 9128,
+          "End": 9138,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 9206,
+      "End": 9281,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 9206,
+          "End": 9216,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 9284,
+      "End": 9359,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 9284,
+          "End": 9294,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 9362,
+      "End": 9437,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 9362,
+          "End": 9372,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 9440,
+      "End": 9515,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 9440,
+          "End": 9450,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 9518,
+      "End": 9593,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 9518,
+          "End": 9528,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 9596,
+      "End": 9671,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 9596,
+          "End": 9606,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 9674,
+      "End": 9749,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 9674,
+          "End": 9684,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 9752,
+      "End": 9827,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 9752,
+          "End": 9762,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 9830,
+      "End": 9905,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 9830,
+          "End": 9840,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 9908,
+      "End": 9983,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 9908,
+          "End": 9918,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 9986,
+      "End": 10061,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 9986,
+          "End": 9996,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 10064,
+      "End": 10139,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 10064,
+          "End": 10074,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 10142,
+      "End": 10217,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 10142,
+          "End": 10152,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 10220,
+      "End": 10295,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 10220,
+          "End": 10230,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 10298,
+      "End": 10373,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 10298,
+          "End": 10308,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 10376,
+      "End": 10451,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 10376,
+          "End": 10386,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 10454,
+      "End": 10529,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 10454,
+          "End": 10464,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 10532,
+      "End": 10607,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 10532,
+          "End": 10542,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 10610,
+      "End": 10685,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 10610,
+          "End": 10620,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 10688,
+      "End": 10763,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 10688,
+          "End": 10698,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 10766,
+      "End": 10841,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 10766,
+          "End": 10776,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 10844,
+      "End": 10919,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 10844,
+          "End": 10854,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 10922,
+      "End": 10997,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 10922,
+          "End": 10932,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 11000,
+      "End": 11075,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 11000,
+          "End": 11010,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 11078,
+      "End": 11153,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 11078,
+          "End": 11088,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 11156,
+      "End": 11231,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 11156,
+          "End": 11166,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 11234,
+      "End": 11309,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 11234,
+          "End": 11244,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 11312,
+      "End": 11387,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 11312,
+          "End": 11322,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 11390,
+      "End": 11465,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 11390,
+          "End": 11400,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 11468,
+      "End": 11543,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 11468,
+          "End": 11478,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 11546,
+      "End": 11621,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 11546,
+          "End": 11556,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 11624,
+      "End": 11699,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 11624,
+          "End": 11634,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 11702,
+      "End": 11777,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 11702,
+          "End": 11712,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 11780,
+      "End": 11855,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 11780,
+          "End": 11790,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 11858,
+      "End": 11933,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 11858,
+          "End": 11868,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 11936,
+      "End": 12011,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 11936,
+          "End": 11946,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 12014,
+      "End": 12089,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 12014,
+          "End": 12024,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 12092,
+      "End": 12167,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 12092,
+          "End": 12102,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 12170,
+      "End": 12245,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 12170,
+          "End": 12180,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 12248,
+      "End": 12323,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 12248,
+          "End": 12258,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 12326,
+      "End": 12401,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 12326,
+          "End": 12336,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 12404,
+      "End": 12479,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 12404,
+          "End": 12414,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 12482,
+      "End": 12557,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 12482,
+          "End": 12492,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 12560,
+      "End": 12635,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 12560,
+          "End": 12570,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 12638,
+      "End": 12713,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 12638,
+          "End": 12648,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 12716,
+      "End": 12791,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 12716,
+          "End": 12726,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 12794,
+      "End": 12869,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 12794,
+          "End": 12804,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 12872,
+      "End": 12947,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 12872,
+          "End": 12882,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 12950,
+      "End": 13025,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 12950,
+          "End": 12960,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 13028,
+      "End": 13103,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 13028,
+          "End": 13038,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 13106,
+      "End": 13181,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 13106,
+          "End": 13116,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 13184,
+      "End": 13259,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 13184,
+          "End": 13194,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 13262,
+      "End": 13337,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 13262,
+          "End": 13272,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 13340,
+      "End": 13415,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 13340,
+          "End": 13350,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 13418,
+      "End": 13493,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 13418,
+          "End": 13428,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 13496,
+      "End": 13571,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 13496,
+          "End": 13506,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 13574,
+      "End": 13649,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 13574,
+          "End": 13584,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 13652,
+      "End": 13727,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 13652,
+          "End": 13662,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 13730,
+      "End": 13805,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 13730,
+          "End": 13740,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 13808,
+      "End": 13883,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 13808,
+          "End": 13818,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 13886,
+      "End": 13961,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 13886,
+          "End": 13896,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 13964,
+      "End": 14039,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 13964,
+          "End": 13974,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 14042,
+      "End": 14117,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 14042,
+          "End": 14052,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 14120,
+      "End": 14195,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 14120,
+          "End": 14130,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 14198,
+      "End": 14273,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 14198,
+          "End": 14208,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 14276,
+      "End": 14351,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 14276,
+          "End": 14286,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 14354,
+      "End": 14429,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 14354,
+          "End": 14364,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 14432,
+      "End": 14507,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 14432,
+          "End": 14442,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 14510,
+      "End": 14585,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 14510,
+          "End": 14520,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 14588,
+      "End": 14663,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 14588,
+          "End": 14598,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 14666,
+      "End": 14741,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 14666,
+          "End": 14676,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 14744,
+      "End": 14819,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 14744,
+          "End": 14754,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 14822,
+      "End": 14897,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 14822,
+          "End": 14832,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 14900,
+      "End": 14975,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 14900,
+          "End": 14910,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 14978,
+      "End": 15053,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 14978,
+          "End": 14988,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 15056,
+      "End": 15131,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 15056,
+          "End": 15066,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 15134,
+      "End": 15209,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 15134,
+          "End": 15144,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 15212,
+      "End": 15287,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 15212,
+          "End": 15222,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 15290,
+      "End": 15365,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 15290,
+          "End": 15300,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 15368,
+      "End": 15443,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 15368,
+          "End": 15378,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 15446,
+      "End": 15521,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 15446,
+          "End": 15456,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 15524,
+      "End": 15599,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 15524,
+          "End": 15534,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 15602,
+      "End": 15677,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 15602,
+          "End": 15612,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 15680,
+      "End": 15755,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 15680,
+          "End": 15690,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 15758,
+      "End": 15833,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 15758,
+          "End": 15768,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 15836,
+      "End": 15911,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 15836,
+          "End": 15846,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 15914,
+      "End": 15989,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 15914,
+          "End": 15924,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 15992,
+      "End": 16067,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 15992,
+          "End": 16002,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 16070,
+      "End": 16145,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 16070,
+          "End": 16080,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 16148,
+      "End": 16223,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 16148,
+          "End": 16158,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 16226,
+      "End": 16301,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 16226,
+          "End": 16236,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 16304,
+      "End": 16379,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 16304,
+          "End": 16314,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 16382,
+      "End": 16457,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 16382,
+          "End": 16392,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 16460,
+      "End": 16535,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 16460,
+          "End": 16470,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 16538,
+      "End": 16613,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 16538,
+          "End": 16548,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 16616,
+      "End": 16691,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 16616,
+          "End": 16626,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 16694,
+      "End": 16769,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 16694,
+          "End": 16704,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 16772,
+      "End": 16847,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 16772,
+          "End": 16782,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 16850,
+      "End": 16925,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 16850,
+          "End": 16860,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 16928,
+      "End": 17003,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 16928,
+          "End": 16938,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 17006,
+      "End": 17081,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 17006,
+          "End": 17016,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 17084,
+      "End": 17159,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 17084,
+          "End": 17094,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 17162,
+      "End": 17237,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 17162,
+          "End": 17172,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 17240,
+      "End": 17315,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 17240,
+          "End": 17250,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 17318,
+      "End": 17393,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 17318,
+          "End": 17328,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 17396,
+      "End": 17471,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 17396,
+          "End": 17406,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 17474,
+      "End": 17549,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 17474,
+          "End": 17484,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 17552,
+      "End": 17627,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 17552,
+          "End": 17562,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 17630,
+      "End": 17705,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 17630,
+          "End": 17640,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 17708,
+      "End": 17783,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 17708,
+          "End": 17718,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 17786,
+      "End": 17861,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 17786,
+          "End": 17796,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 17864,
+      "End": 17939,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 17864,
+          "End": 17874,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 17942,
+      "End": 18017,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 17942,
+          "End": 17952,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 18020,
+      "End": 18095,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 18020,
+          "End": 18030,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 18098,
+      "End": 18173,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 18098,
+          "End": 18108,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 18176,
+      "End": 18251,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 18176,
+          "End": 18186,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 18254,
+      "End": 18329,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 18254,
+          "End": 18264,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 18332,
+      "End": 18407,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 18332,
+          "End": 18342,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 18410,
+      "End": 18485,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 18410,
+          "End": 18420,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 18488,
+      "End": 18563,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 18488,
+          "End": 18498,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 18566,
+      "End": 18641,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 18566,
+          "End": 18576,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 18644,
+      "End": 18719,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 18644,
+          "End": 18654,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 18722,
+      "End": 18797,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 18722,
+          "End": 18732,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 18800,
+      "End": 18875,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 18800,
+          "End": 18810,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 18878,
+      "End": 18953,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 18878,
+          "End": 18888,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 18956,
+      "End": 19031,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 18956,
+          "End": 18966,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 19034,
+      "End": 19109,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 19034,
+          "End": 19044,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 19112,
+      "End": 19187,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 19112,
+          "End": 19122,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 19190,
+      "End": 19265,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 19190,
+          "End": 19200,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 19268,
+      "End": 19343,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 19268,
+          "End": 19278,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 19346,
+      "End": 19421,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 19346,
+          "End": 19356,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 19424,
+      "End": 19499,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 19424,
+          "End": 19434,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 19502,
+      "End": 19577,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 19502,
+          "End": 19512,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 19580,
+      "End": 19655,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 19580,
+          "End": 19590,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 19658,
+      "End": 19733,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 19658,
+          "End": 19668,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 19736,
+      "End": 19811,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 19736,
+          "End": 19746,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 19814,
+      "End": 19889,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 19814,
+          "End": 19824,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 19892,
+      "End": 19967,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 19892,
+          "End": 19902,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 19970,
+      "End": 20045,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 19970,
+          "End": 19980,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 20048,
+      "End": 20123,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 20048,
+          "End": 20058,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 20126,
+      "End": 20201,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 20126,
+          "End": 20136,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 20204,
+      "End": 20279,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 20204,
+          "End": 20214,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 20282,
+      "End": 20357,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 20282,
+          "End": 20292,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 20360,
+      "End": 20435,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 20360,
+          "End": 20370,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 20438,
+      "End": 20513,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 20438,
+          "End": 20448,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 20516,
+      "End": 20591,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 20516,
+          "End": 20526,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 20594,
+      "End": 20669,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 20594,
+          "End": 20604,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 20672,
+      "End": 20747,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 20672,
+          "End": 20682,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 20750,
+      "End": 20825,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 20750,
+          "End": 20760,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 20828,
+      "End": 20903,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 20828,
+          "End": 20838,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 20906,
+      "End": 20981,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 20906,
+          "End": 20916,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 20984,
+      "End": 21059,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 20984,
+          "End": 20994,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 21062,
+      "End": 21137,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 21062,
+          "End": 21072,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 21140,
+      "End": 21215,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 21140,
+          "End": 21150,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 21218,
+      "End": 21293,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 21218,
+          "End": 21228,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 21296,
+      "End": 21371,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 21296,
+          "End": 21306,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 21374,
+      "End": 21449,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 21374,
+          "End": 21384,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 21452,
+      "End": 21527,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 21452,
+          "End": 21462,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 21530,
+      "End": 21605,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 21530,
+          "End": 21540,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 21608,
+      "End": 21683,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 21608,
+          "End": 21618,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 21686,
+      "End": 21761,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 21686,
+          "End": 21696,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 21764,
+      "End": 21839,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 21764,
+          "End": 21774,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 21842,
+      "End": 21917,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 21842,
+          "End": 21852,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 21920,
+      "End": 21995,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 21920,
+          "End": 21930,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 21998,
+      "End": 22073,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 21998,
+          "End": 22008,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 22076,
+      "End": 22151,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 22076,
+          "End": 22086,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 22154,
+      "End": 22229,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 22154,
+          "End": 22164,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 22232,
+      "End": 22307,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 22232,
+          "End": 22242,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 22310,
+      "End": 22385,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 22310,
+          "End": 22320,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 22388,
+      "End": 22463,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 22388,
+          "End": 22398,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 22466,
+      "End": 22541,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 22466,
+          "End": 22476,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 22544,
+      "End": 22619,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 22544,
+          "End": 22554,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 22622,
+      "End": 22697,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 22622,
+          "End": 22632,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 22700,
+      "End": 22775,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 22700,
+          "End": 22710,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 22778,
+      "End": 22853,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 22778,
+          "End": 22788,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 22856,
+      "End": 22931,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 22856,
+          "End": 22866,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 22934,
+      "End": 23009,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 22934,
+          "End": 22944,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 23012,
+      "End": 23087,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 23012,
+          "End": 23022,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 23090,
+      "End": 23165,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 23090,
+          "End": 23100,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 23168,
+      "End": 23243,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 23168,
+          "End": 23178,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 23246,
+      "End": 23321,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 23246,
+          "End": 23256,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 23324,
+      "End": 23399,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 23324,
+          "End": 23334,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 23402,
+      "End": 23477,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 23402,
+          "End": 23412,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 23480,
+      "End": 23555,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 23480,
+          "End": 23490,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 23558,
+      "End": 23633,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 23558,
+          "End": 23568,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 23636,
+      "End": 23711,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 23636,
+          "End": 23646,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 23714,
+      "End": 23789,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 23714,
+          "End": 23724,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 23792,
+      "End": 23867,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 23792,
+          "End": 23802,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 23870,
+      "End": 23945,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 23870,
+          "End": 23880,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 23948,
+      "End": 24023,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 23948,
+          "End": 23958,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 24026,
+      "End": 24101,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 24026,
+          "End": 24036,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 24104,
+      "End": 24179,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 24104,
+          "End": 24114,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 24182,
+      "End": 24257,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 24182,
+          "End": 24192,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 24260,
+      "End": 24335,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 24260,
+          "End": 24270,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 24338,
+      "End": 24413,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 24338,
+          "End": 24348,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 24416,
+      "End": 24491,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 24416,
+          "End": 24426,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 24494,
+      "End": 24569,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 24494,
+          "End": 24504,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 24572,
+      "End": 24647,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 24572,
+          "End": 24582,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 24650,
+      "End": 24725,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 24650,
+          "End": 24660,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 24728,
+      "End": 24803,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 24728,
+          "End": 24738,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 24806,
+      "End": 24881,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 24806,
+          "End": 24816,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 24884,
+      "End": 24959,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 24884,
+          "End": 24894,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 24962,
+      "End": 25037,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 24962,
+          "End": 24972,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 25040,
+      "End": 25115,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 25040,
+          "End": 25050,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 25118,
+      "End": 25193,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 25118,
+          "End": 25128,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 25196,
+      "End": 25271,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 25196,
+          "End": 25206,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 25274,
+      "End": 25349,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 25274,
+          "End": 25284,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 25352,
+      "End": 25427,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 25352,
+          "End": 25362,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 25430,
+      "End": 25505,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 25430,
+          "End": 25440,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 25508,
+      "End": 25583,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 25508,
+          "End": 25518,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 25586,
+      "End": 25661,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 25586,
+          "End": 25596,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 25664,
+      "End": 25739,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 25664,
+          "End": 25674,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 25742,
+      "End": 25817,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 25742,
+          "End": 25752,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 25820,
+      "End": 25895,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 25820,
+          "End": 25830,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 25898,
+      "End": 25973,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 25898,
+          "End": 25908,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 25976,
+      "End": 26051,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 25976,
+          "End": 25986,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 26054,
+      "End": 26129,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 26054,
+          "End": 26064,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 26132,
+      "End": 26207,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 26132,
+          "End": 26142,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 26210,
+      "End": 26285,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 26210,
+          "End": 26220,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 26288,
+      "End": 26363,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 26288,
+          "End": 26298,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 26366,
+      "End": 26441,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 26366,
+          "End": 26376,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 26444,
+      "End": 26519,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 26444,
+          "End": 26454,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 26522,
+      "End": 26597,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 26522,
+          "End": 26532,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 26600,
+      "End": 26675,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 26600,
+          "End": 26610,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 26678,
+      "End": 26753,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 26678,
+          "End": 26688,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 26756,
+      "End": 26831,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 26756,
+          "End": 26766,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 26834,
+      "End": 26909,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 26834,
+          "End": 26844,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 26912,
+      "End": 26987,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 26912,
+          "End": 26922,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 26990,
+      "End": 27065,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 26990,
+          "End": 27000,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 27068,
+      "End": 27143,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 27068,
+          "End": 27078,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 27146,
+      "End": 27221,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 27146,
+          "End": 27156,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 27224,
+      "End": 27299,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 27224,
+          "End": 27234,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 27302,
+      "End": 27377,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 27302,
+          "End": 27312,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 27380,
+      "End": 27455,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 27380,
+          "End": 27390,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 27458,
+      "End": 27533,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 27458,
+          "End": 27468,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 27536,
+      "End": 27611,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 27536,
+          "End": 27546,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 27614,
+      "End": 27689,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 27614,
+          "End": 27624,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 27692,
+      "End": 27767,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 27692,
+          "End": 27702,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 27770,
+      "End": 27845,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 27770,
+          "End": 27780,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 27848,
+      "End": 27923,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 27848,
+          "End": 27858,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 27926,
+      "End": 28001,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 27926,
+          "End": 27936,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 28004,
+      "End": 28079,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 28004,
+          "End": 28014,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 28082,
+      "End": 28157,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 28082,
+          "End": 28092,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 28160,
+      "End": 28235,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 28160,
+          "End": 28170,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 28238,
+      "End": 28313,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 28238,
+          "End": 28248,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 28316,
+      "End": 28391,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 28316,
+          "End": 28326,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 28394,
+      "End": 28469,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 28394,
+          "End": 28404,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 28472,
+      "End": 28547,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 28472,
+          "End": 28482,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 28550,
+      "End": 28625,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 28550,
+          "End": 28560,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 28628,
+      "End": 28703,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 28628,
+          "End": 28638,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 28706,
+      "End": 28781,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 28706,
+          "End": 28716,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 28784,
+      "End": 28859,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 28784,
+          "End": 28794,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 28862,
+      "End": 28937,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 28862,
+          "End": 28872,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 28940,
+      "End": 29015,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 28940,
+          "End": 28950,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 29018,
+      "End": 29093,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 29018,
+          "End": 29028,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 29096,
+      "End": 29171,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 29096,
+          "End": 29106,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 29174,
+      "End": 29249,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 29174,
+          "End": 29184,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 29252,
+      "End": 29327,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 29252,
+          "End": 29262,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 29330,
+      "End": 29405,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 29330,
+          "End": 29340,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 29408,
+      "End": 29483,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 29408,
+          "End": 29418,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 29486,
+      "End": 29561,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 29486,
+          "End": 29496,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 29564,
+      "End": 29639,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 29564,
+          "End": 29574,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 29642,
+      "End": 29717,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 29642,
+          "End": 29652,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 29720,
+      "End": 29795,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 29720,
+          "End": 29730,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 29798,
+      "End": 29873,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 29798,
+          "End": 29808,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 29876,
+      "End": 29951,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 29876,
+          "End": 29886,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 29954,
+      "End": 30029,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 29954,
+          "End": 29964,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 30032,
+      "End": 30107,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 30032,
+          "End": 30042,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 30110,
+      "End": 30185,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 30110,
+          "End": 30120,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 30188,
+      "End": 30263,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 30188,
+          "End": 30198,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 30266,
+      "End": 30341,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 30266,
+          "End": 30276,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 30344,
+      "End": 30419,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 30344,
+          "End": 30354,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 30422,
+      "End": 30497,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 30422,
+          "End": 30432,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 30500,
+      "End": 30575,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 30500,
+          "End": 30510,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 30578,
+      "End": 30653,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 30578,
+          "End": 30588,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 30656,
+      "End": 30731,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 30656,
+          "End": 30666,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 30734,
+      "End": 30809,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 30734,
+          "End": 30744,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 30812,
+      "End": 30887,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 30812,
+          "End": 30822,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 30890,
+      "End": 30965,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 30890,
+          "End": 30900,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 30968,
+      "End": 31043,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 30968,
+          "End": 30978,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 31046,
+      "End": 31121,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 31046,
+          "End": 31056,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 31124,
+      "End": 31199,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 31124,
+          "End": 31134,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 31202,
+      "End": 31277,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 31202,
+          "End": 31212,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 31280,
+      "End": 31355,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 31280,
+          "End": 31290,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 31358,
+      "End": 31433,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 31358,
+          "End": 31368,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 31436,
+      "End": 31511,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 31436,
+          "End": 31446,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 31514,
+      "End": 31589,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 31514,
+          "End": 31524,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 31592,
+      "End": 31667,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 31592,
+          "End": 31602,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 31670,
+      "End": 31745,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 31670,
+          "End": 31680,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 31748,
+      "End": 31823,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 31748,
+          "End": 31758,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 31826,
+      "End": 31901,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 31826,
+          "End": 31836,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 31904,
+      "End": 31979,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 31904,
+          "End": 31914,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 31982,
+      "End": 32057,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 31982,
+          "End": 31992,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 32060,
+      "End": 32135,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 32060,
+          "End": 32070,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 32138,
+      "End": 32213,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 32138,
+          "End": 32148,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 32216,
+      "End": 32291,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 32216,
+          "End": 32226,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 32294,
+      "End": 32369,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 32294,
+          "End": 32304,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 32372,
+      "End": 32447,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 32372,
+          "End": 32382,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 32450,
+      "End": 32525,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 32450,
+          "End": 32460,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 32528,
+      "End": 32603,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 32528,
+          "End": 32538,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 32606,
+      "End": 32681,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 32606,
+          "End": 32616,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 32684,
+      "End": 32759,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 32684,
+          "End": 32694,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 32762,
+      "End": 32837,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 32762,
+          "End": 32772,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 32840,
+      "End": 32915,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 32840,
+          "End": 32850,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 32918,
+      "End": 32993,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 32918,
+          "End": 32928,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 32996,
+      "End": 33071,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 32996,
+          "End": 33006,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 33074,
+      "End": 33149,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 33074,
+          "End": 33084,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 33152,
+      "End": 33227,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 33152,
+          "End": 33162,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 33230,
+      "End": 33305,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 33230,
+          "End": 33240,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 33308,
+      "End": 33383,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 33308,
+          "End": 33318,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 33386,
+      "End": 33461,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 33386,
+          "End": 33396,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 33464,
+      "End": 33539,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 33464,
+          "End": 33474,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 33542,
+      "End": 33617,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 33542,
+          "End": 33552,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 33620,
+      "End": 33695,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 33620,
+          "End": 33630,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 33698,
+      "End": 33773,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 33698,
+          "End": 33708,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 33776,
+      "End": 33851,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 33776,
+          "End": 33786,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 33854,
+      "End": 33929,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 33854,
+          "End": 33864,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 33932,
+      "End": 34007,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 33932,
+          "End": 33942,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 34010,
+      "End": 34085,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 34010,
+          "End": 34020,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 34088,
+      "End": 34163,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 34088,
+          "End": 34098,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 34166,
+      "End": 34241,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 34166,
+          "End": 34176,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 34244,
+      "End": 34319,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 34244,
+          "End": 34254,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 34322,
+      "End": 34397,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 34322,
+          "End": 34332,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 34400,
+      "End": 34475,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 34400,
+          "End": 34410,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 34478,
+      "End": 34553,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 34478,
+          "End": 34488,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 34556,
+      "End": 34631,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 34556,
+          "End": 34566,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 34634,
+      "End": 34709,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 34634,
+          "End": 34644,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 34712,
+      "End": 34787,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 34712,
+          "End": 34722,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 34790,
+      "End": 34865,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 34790,
+          "End": 34800,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 34868,
+      "End": 34943,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 34868,
+          "End": 34878,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 34946,
+      "End": 35021,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 34946,
+          "End": 34956,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 35024,
+      "End": 35099,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 35024,
+          "End": 35034,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 35102,
+      "End": 35177,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 35102,
+          "End": 35112,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 35180,
+      "End": 35255,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 35180,
+          "End": 35190,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 35258,
+      "End": 35333,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 35258,
+          "End": 35268,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 35336,
+      "End": 35411,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 35336,
+          "End": 35346,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 35414,
+      "End": 35489,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 35414,
+          "End": 35424,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 35492,
+      "End": 35567,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 35492,
+          "End": 35502,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 35570,
+      "End": 35645,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 35570,
+          "End": 35580,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 35648,
+      "End": 35723,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 35648,
+          "End": 35658,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 35726,
+      "End": 35801,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 35726,
+          "End": 35736,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 35804,
+      "End": 35879,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 35804,
+          "End": 35814,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 35882,
+      "End": 35957,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 35882,
+          "End": 35892,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 35960,
+      "End": 36035,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 35960,
+          "End": 35970,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 36038,
+      "End": 36113,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 36038,
+          "End": 36048,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 36116,
+      "End": 36191,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 36116,
+          "End": 36126,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 36194,
+      "End": 36269,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 36194,
+          "End": 36204,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 36272,
+      "End": 36347,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 36272,
+          "End": 36282,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 36350,
+      "End": 36425,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 36350,
+          "End": 36360,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 36428,
+      "End": 36503,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 36428,
+          "End": 36438,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 36506,
+      "End": 36581,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 36506,
+          "End": 36516,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 36584,
+      "End": 36659,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 36584,
+          "End": 36594,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 36662,
+      "End": 36737,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 36662,
+          "End": 36672,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 36740,
+      "End": 36815,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 36740,
+          "End": 36750,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 36818,
+      "End": 36893,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 36818,
+          "End": 36828,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 36896,
+      "End": 36971,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 36896,
+          "End": 36906,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 36974,
+      "End": 37049,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 36974,
+          "End": 36984,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 37052,
+      "End": 37127,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 37052,
+          "End": 37062,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 37130,
+      "End": 37205,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 37130,
+          "End": 37140,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 37208,
+      "End": 37283,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 37208,
+          "End": 37218,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 37286,
+      "End": 37361,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 37286,
+          "End": 37296,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 37364,
+      "End": 37439,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 37364,
+          "End": 37374,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 37442,
+      "End": 37517,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 37442,
+          "End": 37452,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 37520,
+      "End": 37595,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 37520,
+          "End": 37530,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 37598,
+      "End": 37673,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 37598,
+          "End": 37608,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 37676,
+      "End": 37751,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 37676,
+          "End": 37686,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 37754,
+      "End": 37829,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 37754,
+          "End": 37764,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 37832,
+      "End": 37907,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 37832,
+          "End": 37842,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 37910,
+      "End": 37985,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 37910,
+          "End": 37920,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 37988,
+      "End": 38063,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 37988,
+          "End": 37998,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 38066,
+      "End": 38141,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 38066,
+          "End": 38076,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 38144,
+      "End": 38219,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 38144,
+          "End": 38154,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 38222,
+      "End": 38297,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 38222,
+          "End": 38232,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 38300,
+      "End": 38375,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 38300,
+          "End": 38310,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 38378,
+      "End": 38453,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 38378,
+          "End": 38388,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 38456,
+      "End": 38531,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 38456,
+          "End": 38466,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 38534,
+      "End": 38609,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 38534,
+          "End": 38544,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 38612,
+      "End": 38687,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 38612,
+          "End": 38622,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 38690,
+      "End": 38765,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 38690,
+          "End": 38700,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 38768,
+      "End": 38843,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 38768,
+          "End": 38778,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 38846,
+      "End": 38921,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 38846,
+          "End": 38856,
+          "Value": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "Property": "DateStruct",
+      "Start": 38924,
+      "End": 38999,
+      "Children": [
+        {
+          "Property": "Date",
+          "Start": 38924,
+          "End": 38934,
+          "Value": "2024-10-04"
+        }
+      ]
+    }
+  ]
+}

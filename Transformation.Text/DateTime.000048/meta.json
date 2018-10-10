@@ -1,0 +1,9 @@
+{
+  "Features": [
+    "Concatenation",
+    "DateTimeRange",
+    "DateTimeRounding",
+    "DateTime"
+  ],
+  "Synthetic": true
+}

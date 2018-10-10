@@ -1,0 +1,124 @@
+{
+  "Examples": [
+    {
+      "Input": [
+        "206 558 906 442 977 Cecep 632_469 995 677 Shakenuly"
+      ],
+      "Output": "Cecep 632_469"
+    },
+    {
+      "Input": [
+        "699 526 934 687 546 81 Jan 988@642 343 957 Pirc"
+      ],
+      "Output": "Jan 988@642"
+    },
+    {
+      "Input": [
+        "794 337 Bratislav 410@718 878 825 735 858 Berthelette"
+      ],
+      "Output": "Bratislav 410@718"
+    },
+    {
+      "Input": [
+        "86 838 170 644 826 219 Foluke 719_809 125 905 189 476 540 Abdirashkyzy"
+      ],
+      "Output": "Foluke 719_809"
+    },
+    {
+      "Input": [
+        "793 764 937 294 522 663 Joonsuh 624 693 Borkakati"
+      ],
+      "Output": "Joonsuh 624 693"
+    },
+    {
+      "Input": [
+        "900 678 93 149 106 609 Meaza 677@569 360 850 62 281 704 Dursunowa"
+      ],
+      "Output": "Meaza 677@569"
+    },
+    {
+      "Input": [
+        "506 531 57 280 Janez 104_742 699 615 830 685 569 172 Sixirei"
+      ],
+      "Output": "Janez 104_742"
+    },
+    {
+      "Input": [
+        "63 263 842 568 645 516 Qahar 155_813 672 994 301 64 Stojsic"
+      ],
+      "Output": "Qahar 155_813"
+    },
+    {
+      "Input": [
+        "150 Andrey 388@816 509 962 993 16 653 278 Ansari"
+      ],
+      "Output": "Andrey 388@816"
+    },
+    {
+      "Input": [
+        "974 885 Zeynep 897@178 514 352 991 33 Rees"
+      ],
+      "Output": "Zeynep 897@178"
+    },
+    {
+      "Input": [
+        "261 310 242 Bnar 559_655 877 710 Stanic"
+      ],
+      "Output": "Bnar 559_655"
+    },
+    {
+      "Input": [
+        "195 887 Julia 368@244 983 961 157 772 91 Moeller"
+      ],
+      "Output": "Julia 368@244"
+    },
+    {
+      "Input": [
+        "839 642 572 241 837 Manmaya 778 426 647 999 van Zyl"
+      ],
+      "Output": "Manmaya 778 426"
+    },
+    {
+      "Input": [
+        "539 137 1 557 672 379 Simranpreet 522 162 634 553 314 249 Krier"
+      ],
+      "Output": "Simranpreet 522 162"
+    },
+    {
+      "Input": [
+        "150 661 205 Martina 119 859 Ozkan"
+      ],
+      "Output": "Martina 119 859"
+    },
+    {
+      "Input": [
+        "457 Khady 283@630 12 445 294 Dangol"
+      ],
+      "Output": "Khady 283@630"
+    },
+    {
+      "Input": [
+        "945 851 896 466 844 356 Faruk 390_421 912 299 680 342 466 Zweber"
+      ],
+      "Output": "Faruk 390_421"
+    },
+    {
+      "Input": [
+        "949 270 496 327 Jakob 588_908 119 102 613 637 570 Abela"
+      ],
+      "Output": "Jakob 588_908"
+    },
+    {
+      "Input": [
+        "663 80 533 Ojerinde 63_152 34 517 Cheburko"
+      ],
+      "Output": "Ojerinde 63_152"
+    },
+    {
+      "Input": [
+        "775 Sainsuren 175@123 829 228 400 44 Suciningsih"
+      ],
+      "Output": "Sainsuren 175@123"
+    }
+  ]
+}

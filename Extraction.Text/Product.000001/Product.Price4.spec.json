@@ -1,0 +1,111 @@
+{
+  "Kind": "Field",
+  "Examples": [
+    {
+      "Input": [
+        {
+          "Start": 17,
+          "End": 185,
+          "Value": "Licensed Soft Towels\n$259.49  $224.64\nIn Stock\nMore Buying Choices\n$862.37 new (96 new offers)\n$314.59 used (88 new offers)\n     (906)\n\nHome & Kitchen:  See all 171,905"
+        },
+        {
+          "Start": 206,
+          "End": 426,
+          "Value": "Practical Plastic Chips\n$670.33  $957.12\nOrder in the next 34 hours and get it by Tuesday, Apr 30.\nMore Buying Choices\n$146.83 new (24 new offers)\n$718.73 used (64 new offers)\n     (188)\n\nHome & Kitchen:  See all 169,937"
+        },
+        {
+          "Start": 447,
+          "End": 664,
+          "Value": "Unbranded Steel Pizza\n$168.29  $467.81\nOrder in the next 19 hours and get it by Tuesday, Apr 30.\nMore Buying Choices\n$189.12 new (45 new offers)\n$325.50 used (64 new offers)\n     (887)\n\nHome & Kitchen:  See all 73,749"
+        },
+        {
+          "Start": 685,
+          "End": 852,
+          "Value": "Gorgeous Fresh Bike\n$106.66  $929.09\nIn Stock\nMore Buying Choices\n$149.10 new (16 new offers)\n$953.04 used (41 new offers)\n     (652)\n\nOffice Products:  See all 90,235"
+        },
+        {
+          "Start": 873,
+          "End": 1094,
+          "Value": "Handcrafted Frozen Chips\n$352.55  $024.86\nOrder in the next 49 hours and get it by Tuesday, Apr 30.\nMore Buying Choices\n$130.70 new (66 new offers)\n$830.57 used (65 new offers)\n     (116)\n\nHome & Kitchen:  See all 142,172"
+        },
+        {
+          "Start": 1115,
+          "End": 1278,
+          "Value": "Awesome Metal Hat\n$905.18  $655.69\nIn Stock\nMore Buying Choices\n$465.70 new (42 new offers)\n$71.69 used (21 new offers)\n     (440)\n\nHome & Kitchen:  See all 50,651"
+        },
+        {
+          "Start": 1299,
+          "End": 1465,
+          "Value": "Tasty Frozen Chair\n$629.57  $349.89\nIn Stock\nMore Buying Choices\n$897.25 new (18 new offers)\n$544.66 used (75 new offers)\n     (390)\n\nOffice Products:  See all 48,728"
+        },
+        {
+          "Start": 1486,
+          "End": 1656,
+          "Value": "Incredible Concrete Cheese\n$165.63  $008.78\nIn Stock\nMore Buying Choices\n$264.83 new (41 new offers)\n$887.58 used (46 new offers)\n     (332)\n\nHome & Kitchen:  See all 456"
+        },
+        {
+          "Start": 1683,
+          "End": 1900,
+          "Value": "Licensed Wooden Mouse\n$017.18  $652.88\nOrder in the next 84 hours and get it by Tuesday, Apr 30.\nMore Buying Choices\n$340.48 new (74 new offers)\n$647.17 used (96 new offers)\n     (069)\n\nHome & Kitchen:  See all 34,410"
+        },
+        {
+          "Start": 1921,
+          "End": 2136,
+          "Value": "Fantastic Fresh Gloves\n$758.55  $165.32\nIn stock. Processing takes an additional 9 to 3 days\nMore Buying Choices\n$192.25 new (16 new offers)\n$205.29 used (55 new offers)\n     (741)\n\nOffice Products:  See all 214,908"
+        }
+      ],
+      "Output": [
+        {
+          "Start": 112,
+          "End": 119,
+          "Value": "$314.59"
+        },
+        {
+          "Start": 353,
+          "End": 360,
+          "Value": "$718.73"
+        },
+        {
+          "Start": 592,
+          "End": 599,
+          "Value": "$325.50"
+        },
+        {
+          "Start": 779,
+          "End": 786,
+          "Value": "$953.04"
+        },
+        {
+          "Start": 1021,
+          "End": 1028,
+          "Value": "$830.57"
+        },
+        {
+          "Start": 1207,
+          "End": 1213,
+          "Value": "$71.69"
+        },
+        {
+          "Start": 1392,
+          "End": 1399,
+          "Value": "$544.66"
+        },
+        {
+          "Start": 1587,
+          "End": 1594,
+          "Value": "$887.58"
+        },
+        {
+          "Start": 1828,
+          "End": 1835,
+          "Value": "$647.17"
+        },
+        {
+          "Start": 2062,
+          "End": 2069,
+          "Value": "$205.29"
+        }
+      ]
+    }
+  ]
+}
