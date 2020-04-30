@@ -9,7 +9,7 @@
       "End": 41,
       "Children": [
         {
-          "Property": "Country",
+          "Property": "CountryOrRegion",
           "Start": 3,
           "End": 13,
           "Value": "Luxembourg"
@@ -40,7 +40,7 @@
       "End": 78,
       "Children": [
         {
-          "Property": "Country",
+          "Property": "CountryOrRegion",
           "Start": 45,
           "End": 53,
           "Value": "Cameroon"
@@ -71,7 +71,7 @@
       "End": 117,
       "Children": [
         {
-          "Property": "Country",
+          "Property": "CountryOrRegion",
           "Start": 82,
           "End": 93,
           "Value": "Congo (DRC)"
@@ -102,7 +102,7 @@
       "End": 163,
       "Children": [
         {
-          "Property": "Country",
+          "Property": "CountryOrRegion",
           "Start": 121,
           "End": 130,
           "Value": "Singapore"
@@ -133,7 +133,7 @@
       "End": 204,
       "Children": [
         {
-          "Property": "Country",
+          "Property": "CountryOrRegion",
           "Start": 167,
           "End": 180,
           "Value": "Hong Kong SAR"
@@ -164,7 +164,7 @@
       "End": 246,
       "Children": [
         {
-          "Property": "Country",
+          "Property": "CountryOrRegion",
           "Start": 208,
           "End": 216,
           "Value": "Cameroon"
@@ -195,7 +195,7 @@
       "End": 292,
       "Children": [
         {
-          "Property": "Country",
+          "Property": "CountryOrRegion",
           "Start": 250,
           "End": 256,
           "Value": "Rwanda"
@@ -226,7 +226,7 @@
       "End": 334,
       "Children": [
         {
-          "Property": "Country",
+          "Property": "CountryOrRegion",
           "Start": 296,
           "End": 302,
           "Value": "Panama"
@@ -257,7 +257,7 @@
       "End": 380,
       "Children": [
         {
-          "Property": "Country",
+          "Property": "CountryOrRegion",
           "Start": 338,
           "End": 344,
           "Value": "France"
@@ -288,7 +288,7 @@
       "End": 417,
       "Children": [
         {
-          "Property": "Country",
+          "Property": "CountryOrRegion",
           "Start": 384,
           "End": 389,
           "Value": "Haiti"

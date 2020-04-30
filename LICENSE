@@ -1,7 +1,7 @@
 This list of benchmarks is covered under the following license:
 - Extraction.Text\Address.000001
 - Extraction.Text\Company.000001
-- Extraction.Text\Country.000001
+- Extraction.Text\CountryOrRegion.000001
 - Extraction.Text\Employee.000001
 - Extraction.Text\Faculty.000001
 - Extraction.Text\FileSystem.000001
