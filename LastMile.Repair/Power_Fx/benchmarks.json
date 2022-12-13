@@ -1,0 +1,748 @@
+[
+  {
+    "Buggy": "AddColumns(AddColumns(Filter(tblPACKAGE_MILESTONES,MILESTONE_ID=100 And PROJECT=Var_Project And ((IsBlank('ACTUAL DATE') And !IsBlank('PLANNED DURATION')) Or !IsBlank('TARGET DATE'))),\"package_id\",PACKAGE_ID),\"PackageRecord\",LookUp(tblPACKAGES,PROJECT_ID=Var_ProjectID And PACKAGE_ID=package_id)))",
+    "GroundTruth": "AddColumns(AddColumns(Filter(tblPACKAGE_MILESTONES,MILESTONE_ID=100 And PROJECT=Var_Project And ((IsBlank('ACTUAL DATE') And !IsBlank('PLANNED DURATION')) Or !IsBlank('TARGET DATE'))),\"package_id\",PACKAGE_ID),\"PackageRecord\",LookUp(tblPACKAGES,PROJECT_ID=Var_ProjectID And PACKAGE_ID=package_id))"
+  },
+  {
+    "Buggy": "AddColumns(List01,\"YourAddedName1\",Lookup(List02,IDPed1=ID1,).YourList2Name1,\"YourAddedName2\",Lookup(List02,IDPed1=ID1,).YourList2Name2)",
+    "GroundTruth": "AddColumns(List01,\"YourAddedName1\",Lookup(List02,IDPed1=ID1).YourList2Name1,\"YourAddedName2\",Lookup(List02,IDPed1=ID1).YourList2Name2)"
+  },
+  {
+    "Buggy": "Office365.SendEmailV2(\"My@email.com\",\"Test Subject\",\"Test Body\",{Attachments:AddColumns(RenameColumns(Gallery1.Selected.Attachments,\"Value\",\"ContentBytes\"),\"@odata.type\",\"\"))}",
+    "GroundTruth": "Office365.SendEmailV2(\"My@email.com\",\"Test Subject\",\"Test Body\",{Attachments:AddColumns(RenameColumns(Gallery1.Selected.Attachments,\"Value\",\"ContentBytes\"),\"@odata.type\",\"\")})"
+  },
+  {
+    "Buggy": "Clear(FlowResponses);UpdateContext({resultMessage:\"\",submitWasClicked:True});ForAll(Filter(PhotoLog,jobId=JobList.Selected.jobId),Collect(FlowResponses,{response:MECHANIC.Run(Image,FolderPath&type,name&\"_\"&Text(Now(),\"[$-en-US]HHmmss\")&\".png\"))}));",
+    "GroundTruth": "Clear(FlowResponses);UpdateContext({resultMessage:\"\",submitWasClicked:True});ForAll(Filter(PhotoLog,jobId=JobList.Selected.jobId),Collect(FlowResponses,{response:MECHANIC.Run(Image,FolderPath&type,name&\"_\"&Text(Now(),\"[$-en-US]HHmmss\")&\".png\")}))"
+  },
+  {
+    "Buggy": "ClearCollect(combined,LastN(FirstN(Jobs,pageCounter),GalleryRowTotal+4));Collect(combined,Filter(Jobs,StartsWith(\"job_address1\",searchQueries))",
+    "GroundTruth": "ClearCollect(combined,LastN(FirstN(Jobs,pageCounter),GalleryRowTotal+4));Collect(combined,Filter(Jobs,StartsWith(\"job_address1\",searchQueries)))"
+  },
+  {
+    "Buggy": "ClearCollect(YourColName,DropColumns(Filter(YourGalleryName.AllItems,Railcar=YourGalleryName.Selected.Railcar,),\"RailCar#\"))",
+    "GroundTruth": "ClearCollect(YourColName,DropColumns(Filter(YourGalleryName.AllItems,Railcar=YourGalleryName.Selected.Railcar),\"RailCar#\"))"
+  },
+  {
+    "Buggy": "ClearCollect(collection,Filter(AddColumns(list1,\"thresholds2\",LookUp(list2,Feed_Type.Value=list2[@Feed_Type].Value,thresholds2),\"Feed_Type_Value\",Feed_Type.Value),(Test_Date>=DatePicker1.SelectedDate And Test_Date<=DatePicker1_1.SelectedDate Or If(IsBlank(DatePicker1.SelectedDate) Or IsBlank(DatePicker1_1.SelectedDate),True,False)))",
+    "GroundTruth": "ClearCollect(collection,Filter(AddColumns(list1,\"thresholds2\",LookUp(list2,Feed_Type.Value=list2[@Feed_Type].Value,thresholds2),\"Feed_Type_Value\",Feed_Type.Value),(Test_Date>=DatePicker1.SelectedDate And Test_Date<=DatePicker1_1.SelectedDate Or If(IsBlank(DatePicker1.SelectedDate) Or IsBlank(DatePicker1_1.SelectedDate),True,False))))"
+  },
+  {
+    "Buggy": "ClearCollect(colWhatever,Filter(EmpInfo,ID=AgentID,))",
+    "GroundTruth": "ClearCollect(colWhatever,Filter(EmpInfo,ID=AgentID))"
+  },
+  {
+    "Buggy": "ClearCollect(collection3,ForAll(collection2,LookUp(collection1,column1=collection2[@column2].Value))));",
+    "GroundTruth": "ClearCollect(collection3,ForAll(collection2,LookUp(collection1,column1=collection2[@column2].Value)));"
+  },
+  {
+    "Buggy": "ClearCollect(CollectionX,RenameColumns(Filter(CDSEntityY,FieldA=\"some value\"),\"CDSEntityYID\",\"CDSID\"));ForAll(CollectionX,Patch(CDSEntityY,LookUp(CDSEntityY,CDSEntityYID=CDSID,{FieldB:\"some value\"}));",
+    "GroundTruth": "ClearCollect(CollectionX,RenameColumns(Filter(CDSEntityY,FieldA=\"some value\"),\"CDSEntityYID\",\"CDSID\"));ForAll(CollectionX,Patch(CDSEntityY,LookUp(CDSEntityY,CDSEntityYID=CDSID),{FieldB:\"some value\"}));"
+  },
+  {
+    "Buggy": "ClearCollect(slot2test,ShowColumns(AddColumns(Filter('OneEng Candidates_Interviewers',MorningOrAfternoon=drpdownMorA.Selected.Value And IVSlot=1),\"Value\",Candidate.Name),\"Value\");",
+    "GroundTruth": "ClearCollect(slot2test,ShowColumns(AddColumns(Filter('OneEng Candidates_Interviewers',MorningOrAfternoon=drpdownMorA.Selected.Value And IVSlot=1),\"Value\",Candidate.Name),\"Value\"));"
+  },
+  {
+    "Buggy": "ClearCollect(ValidDates,With({_items:Sort(ValidDates,EventDate)},ForAll(Sequence(CountRows(_items)),With({_item:Last(FirstN(_items,Value))},Patch(_item,{Seq:Value}))))))",
+    "GroundTruth": "ClearCollect(ValidDates,With({_items:Sort(ValidDates,EventDate)},ForAll(Sequence(CountRows(_items)),With({_item:Last(FirstN(_items,Value))},Patch(_item,{Seq:Value})))))"
+  },
+  {
+    "Buggy": "ClearCollect(ResourceHours,{Resource:\"\",Jan:\"\",Feb:\"\",})",
+    "GroundTruth": "ClearCollect(ResourceHours,{Resource:\"\",Jan:\"\",Feb:\"\"})"
+  },
+  {
+    "Buggy": "Set(varJson, JSON(JSON(PenInput1.Image, JSONFormat.IncludeBinaryData));Set(varJson,Mid(varJson;24;Len(varJson) - 24));SigntoSP.Run(varJson);Navigate(Main)",
+    "GroundTruth": "Set(varJson, JSON(JSON(PenInput1.Image, JSONFormat.IncludeBinaryData)));Set(varJson,Mid(varJson,24,Len(varJson) - 24));SigntoSP.Run(varJson);Navigate(Main)"
+  },
+  {
+    "Buggy": "Coalesce(Switch(DropdownCodes.SelectedText.Value,\"La 111_T\",TABLELA111T,\"La 111\",TABLELA111)))",
+    "GroundTruth": "Coalesce(Switch(DropdownCodes.SelectedText.Value,\"La 111_T\",TABLELA111T,\"La 111\",TABLELA111))"
+  },
+  {
+    "Buggy": "Collect(FlowResponses,MECHANIC.Run(Image,FolderPath&type,name&\"_\"&Text(Now(),\"[$-en-US]HHmmss\")&\".png\")))",
+    "GroundTruth": "Collect(FlowResponses,MECHANIC.Run(Image,FolderPath&type,name&\"_\"&Text(Now(),\"[$-en-US]HHmmss\")&\".png\"))"
+  },
+  {
+    "Buggy": "Collect(LocalDatatoUpload,{Name:TextInput1.Text,Value:Label1.Text,CategoryID:Value(TextInput2.Text)};SaveData(LocalDatatoUpload,\"LocalDatatoUpload\")",
+    "GroundTruth": "Collect(LocalDatatoUpload,{Name:TextInput1.Text,Value:Label1.Text,CategoryID:Value(TextInput2.Text)});SaveData(LocalDatatoUpload,\"LocalDatatoUpload\")"
+  },
+  {
+    "Buggy": "UpdateIf('list', ID=ThisRecord.ID, {Description: TextInputDes.Text, Date:DatePicker1.SelectedDate }))",
+    "GroundTruth": "UpdateIf('list', ID=ThisRecord.ID, {Description: TextInputDes.Text, Date:DatePicker1.SelectedDate })"
+  },
+  {
+    "Buggy": "Patch(IdeaBox_1;ThisItem;{WhoLikedPeople:TempTable});)",
+    "GroundTruth": "Patch(IdeaBox_1,ThisItem,{WhoLikedPeople:TempTable})"
+  },
+  { "Buggy": "CountRows(wSubmitted}", "GroundTruth": "CountRows(wSubmitted)" },
+  {
+    "Buggy": "Date(1970,1,1)+Max(colDates,your_column_name)/(60*60*24*1000))",
+    "GroundTruth": "Date(1970,1,1)+Max(colDates,your_column_name)/(60*60*24*1000)"
+  },
+  {
+    "Buggy": "Distinct(AgencyDept,DeptCodeAndName).",
+    "GroundTruth": "Distinct(AgencyDept,DeptCodeAndName)"
+  },
+  {
+    "Buggy": "LastN(FirstN(Filter(Jobs,StartsWith(\"job_address1\",searchQueries)),pageCounter),GalleryRowTotal+4;",
+    "GroundTruth": "LastN(FirstN(Filter(Jobs,StartsWith(\"job_address1\",searchQueries)),pageCounter),GalleryRowTotal+4);"
+  },
+  {
+    "Buggy": "Filter(IntValueMappings,'Internal [1]'=Gallery1.Selected.'Internal [1]',)",
+    "GroundTruth": "Filter(IntValueMappings,'Internal [1]'=Gallery1.Selected.'Internal [1]')"
+  },
+  {
+    "Buggy": "Filter(Invoices,'Vendor Name'=YourFirstDDName.Selected.Value,).'PO Number'",
+    "GroundTruth": "Filter(Invoices,'Vendor Name'=YourFirstDDName.Selected.Value).'PO Number'"
+  },
+  {
+    "Buggy": "ForAll(Gallery.AllItems,Collect(CollectionName,{Field1:Title.Text,Field2:If(Field=\"Value\",Radio.Selected.Value,TextInput.Text}));",
+    "GroundTruth": "ForAll(Gallery.AllItems,Collect(CollectionName,{Field1:Title.Text,Field2:If(Field=\"Value\",Radio.Selected.Value,TextInput.Text)}));"
+  },
+  {
+    "Buggy": "ForAll(ComboBox2.SelectedItems,{'@odata.type':\"#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference\",Id:LookUp(Choices(Request.Location),Value=Name).Id,Value:LookUp(Choices(Request.Location),Value=Name).Name,})",
+    "GroundTruth": "ForAll(ComboBox2.SelectedItems,{'@odata.type':\"#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference\",Id:LookUp(Choices(Request.Location),Value=Name).Id,Value:LookUp(Choices(Request.Location),Value=Name).Name})"
+  },
+  {
+    "Buggy": "ForAll(updateCollection,Patch(Coll01,LookUp(Coll01,Coll01[@ProcessID]=updateCollection[@updID]),{Title:\"SomeDummy\",Completed:completed})))",
+    "GroundTruth": "ForAll(updateCollection,Patch(Coll01,LookUp(Coll01,Coll01[@ProcessID]=updateCollection[@updID]),{Title:\"SomeDummy\",Completed:completed}))"
+  },
+  {
+    "Buggy": "ForAll(Datasource1,Patch(Datasource2,LookUp(Datasource2,ID=Datasource1[@ID],{Column1:\"Some Value\"}))",
+    "GroundTruth": "ForAll(Datasource1,Patch(Datasource2,LookUp(Datasource2,ID=Datasource1[@ID]),{Column1:\"Some Value\"}))"
+  },
+  {
+    "Buggy": "If(CountRows(Filter('[dbo].[SQLDB2Table]',ThisItem.LocationNumber=LocationNumber)>0,NewForm(Form1),EditForm(Form1));Navigate(DB2Screen)",
+    "GroundTruth": "If(CountRows(Filter('[dbo].[SQLDB2Table]',ThisItem.LocationNumber=LocationNumber))>0,NewForm(Form1),EditForm(Form1));Navigate(DB2Screen)"
+  },
+  {
+    "Buggy": "If(ThisItem.Title=\"Pitch Coaching - Basics\",If(CountRows(ThisItem.Attendees)>=2,\"FULL\",\"available\"),\"available\"))",
+    "GroundTruth": "If(ThisItem.Title=\"Pitch Coaching - Basics\",If(CountRows(ThisItem.Attendees)>=2,\"FULL\",\"available\"),\"available\")"
+  },
+  {
+    "Buggy": "If(Label8.Text=\"Connected\",ForAll(ColImage,UploadaphototoSharePointfromPowerApps_1.Run(Name,File));))",
+    "GroundTruth": "If(Label8.Text=\"Connected\",ForAll(ColImage,UploadaphototoSharePointfromPowerApps_1.Run(Name,File)))"
+  },
+  {
+    "Buggy": "If(IsBlank('Sharepoint List'.BlankTest),Distinct(Filter('Sharepoint List',BlankTest=\"\"),UniqueColumn)))",
+    "GroundTruth": "If(IsBlank('Sharepoint List'.BlankTest),Distinct(Filter('Sharepoint List',BlankTest=\"\"),UniqueColumn))"
+  },
+  {
+    "Buggy": "If(IsBlank(LookUp(SelectedProducts,ID=ThisItem.ID,ID)),Collect(SelectedProducts,ThisItem);",
+    "GroundTruth": "If(IsBlank(LookUp(SelectedProducts,ID=ThisItem.ID,ID)),Collect(SelectedProducts,ThisItem));"
+  },
+  {
+    "Buggy": "If(!IsBlank(Dropdown1.Selected.Value)=True,&&!IsBlank(Dropdown2.Selected.Value)=True&&!IsBlank(Dropdown3.Selected.Value)=True,UpdateContext({ValidationConfirm:True}),UpdateContext({ValidationConfirm:False}))",
+    "GroundTruth": "If(!IsBlank(Dropdown1.Selected.Value)=True&&!IsBlank(Dropdown2.Selected.Value)=True&&!IsBlank(Dropdown3.Selected.Value)=True,UpdateContext({ValidationConfirm:True}),UpdateContext({ValidationConfirm:False}))"
+  },
+  {
+    "Buggy": "If(IsBlank(DataCardValue22.Text);UpdateContext({VarError:True})",
+    "GroundTruth": "If(IsBlank(DataCardValue22.Text),UpdateContext({VarError:True}))"
+  },
+  {
+    "Buggy": "If(!IsBlank(Dropdown1.Selected.Value)=True,&&!IsBlank(Dropdown2.Selected.Value)=True&&!IsBlank(Dropdown3.Selected.Value)=True,UpdateContext({ValidationConfirm:True}),UpdateContext({ValidationConfirm:False})",
+    "GroundTruth": "If(!IsBlank(Dropdown1.Selected.Value)=True&&!IsBlank(Dropdown2.Selected.Value)=True&&!IsBlank(Dropdown3.Selected.Value)=True,UpdateContext({ValidationConfirm:True}),UpdateContext({ValidationConfirm:False}))"
+  },
+  {
+    "Buggy": "If(IsBlank(ProjectManagerHeaderDataCardValue.Selected.DisplayName),UpdateIf('Proposal Intake',ID=varRecord.ID,{'Project Manager':Blank()});",
+    "GroundTruth": "If(IsBlank(ProjectManagerHeaderDataCardValue.Selected.DisplayName),UpdateIf('Proposal Intake',ID=varRecord.ID,{'Project Manager':Blank()}));"
+  },
+  {
+    "Buggy": "If(IsBlank(ProjectManagerDataCardValue.Selected.DisplayName),UpdateIf(MyList,ID=varRecord.ID,{'Project Manager':BlankPerson});",
+    "GroundTruth": "If(IsBlank(ProjectManagerDataCardValue.Selected.DisplayName),UpdateIf(MyList,ID=varRecord.ID,{'Project Manager':BlankPerson}));"
+  },
+  {
+    "Buggy": "OnSuccess=If(vStatus<>\"Draft\",Navigate(Confirmation_screen,ScreenTransition.Cover),ResetForm(Self),RequestHide()))",
+    "GroundTruth": "OnSuccess=If(vStatus<>\"Draft\",Navigate(Confirmation_screen,ScreenTransition.Cover),ResetForm(Self),RequestHide())"
+  },
+  {
+    "Buggy": "If(TechYes=\"true\",Navigate(ReviewRequiredScreen,Fade),Navigate(FinalScreen);UpdateIf(ListName,ID=vRecordID{SPOColumnName:\"N/A\"})",
+    "GroundTruth": "If(TechYes=\"true\",Navigate(ReviewRequiredScreen,Fade),Navigate(FinalScreen));UpdateIf(ListName,ID=vRecordID,{SPOColumnName:\"N/A\"})"
+  },
+  {
+    "Buggy": "If(DataCardValue20.Selected.Value=\"Rejected\",Office365Outlook.SendEmailV2(Form1.LastSubmit.YourName.Email,));Navigate(SuccessScreen,Fade);",
+    "GroundTruth": "If(DataCardValue20.Selected.Value=\"Rejected\",Office365Outlook.SendEmailV2(Form1.LastSubmit.YourName.Email));Navigate(SuccessScreen,Fade);"
+  },
+  {
+    "Buggy": "If(YourFormName.Mode=FormMode.New,Set(vMyTime:Text(Today(),\"[$-en-US]dd/mm/yyyy\")))",
+    "GroundTruth": "If(YourFormName.Mode=FormMode.New,Set(vMyTime,Text(Today(),\"[$-en-US]dd/mm/yyyy\")))"
+  },
+  {
+    "Buggy": "If(Dropdown1.Selected.Value=\"ALL\",Sort(Filter('Lookup - AHUnits','Academic Year'='Admin AER - Dropdown - AY_1'.Selected.'Academic Year',Department='Admin AER - Dropdown - Dept_1'.Selected.Department),'Unit Title',Ascending),If(Dropdown1.Selected.Value=\"#\",Sort(Filter('Lookup - AHUnits','Academic Year'='Admin AER - Dropdown - AY_1'.Selected.'Academic Year',Department='Admin AER - Dropdown - Dept_1'.Selected.Department,IsNumeric(Left('Unit Title',1))),'Unit Title',Ascending),Sort(Filter('Lookup - AHUnits','Academic Year'='Admin AER - Dropdown - AY_1'.Selected.'Academic Year',Department='Admin AER - Dropdown - Dept_1'.Selected.Department,StartsWith('Unit Title',Dropdown1.Selected.Value)),'Unit Title',Ascending))))",
+    "GroundTruth": "If(Dropdown1.Selected.Value=\"ALL\",Sort(Filter('Lookup - AHUnits','Academic Year'='Admin AER - Dropdown - AY_1'.Selected.'Academic Year',Department='Admin AER - Dropdown - Dept_1'.Selected.Department),'Unit Title',Ascending),If(Dropdown1.Selected.Value=\"#\",Sort(Filter('Lookup - AHUnits','Academic Year'='Admin AER - Dropdown - AY_1'.Selected.'Academic Year',Department='Admin AER - Dropdown - Dept_1'.Selected.Department,IsNumeric(Left('Unit Title',1))),'Unit Title',Ascending),Sort(Filter('Lookup - AHUnits','Academic Year'='Admin AER - Dropdown - AY_1'.Selected.'Academic Year',Department='Admin AER - Dropdown - Dept_1'.Selected.Department,StartsWith('Unit Title',Dropdown1.Selected.Value)),'Unit Title',Ascending)))"
+  },
+  {
+    "Buggy": "If(YourFormName.Mode=FormMode.New,Text(Hour(Now()),\"[$-en-US]00\"),Parent.Default,)",
+    "GroundTruth": "If(YourFormName.Mode=FormMode.New,Text(Hour(Now()),\"[$-en-US]00\"),Parent.Default)"
+  },
+  {
+    "Buggy": "LookUp(Filter('Drawing Register','Drawing Type'=\"Concrete\"),StartsWith(Contract,I_Contract.Selected.Contract) And StartsWith(Unit,I_Unit.Selected.Unit).'Drawing No'))",
+    "GroundTruth": "LookUp(Filter('Drawing Register','Drawing Type'=\"Concrete\"),StartsWith(Contract,I_Contract.Selected.Contract) And StartsWith(Unit,I_Unit.Selected.Unit)).'Drawing No'"
+  },
+  {
+    "Buggy": "LookUp([@People],'Person ID'=Last(Sort(yourdatasource,modified,Descending).'Person ID')",
+    "GroundTruth": "LookUp([@People],'Person ID'=Last(Sort(yourdatasource,modified,Descending).'Person ID'))"
+  },
+  {
+    "Buggy": "LookUp(Item:'[dbo].[wfmschedexport]'.Value)",
+    "GroundTruth": "LookUp(Item,'[dbo].[wfmschedexport]'.Value)"
+  },
+  {
+    "Buggy": "Patch(SpList,Defaults(SpList),Form1.Updates);Collect(SpList,MyCollect));",
+    "GroundTruth": "Patch(SpList,Defaults(SpList),Form1.Updates);Collect(SpList,MyCollect);"
+  },
+  {
+    "Buggy": "Patch(Hazards,Defaults(Hazards),{Title:\"Hazards\",HazardType:EFhaztyp.SelectedItems.'Hazard Type',})",
+    "GroundTruth": "Patch(Hazards,Defaults(Hazards),{Title:\"Hazards\",HazardType:EFhaztyp.SelectedItems.'Hazard Type'})"
+  },
+  {
+    "Buggy": "Patch(MassUploadTemplate,Defaults(MassUploadTemplate),{Category:{Value:YourCategoryDD.Selected.Value},Priority:{Value:YourPriorityDD.Selected.Value}))",
+    "GroundTruth": "Patch(MassUploadTemplate,Defaults(MassUploadTemplate),{Category:{Value:YourCategoryDD.Selected.Value},Priority:{Value:YourPriorityDD.Selected.Value}})"
+  },
+  {
+    "Buggy": "If(TechYes = \"true\", Navigate(ReviewRequiredScreen, Fade), Navigate(FinalScreen); UpdateIf(ListName, ID=vRecord.ID {SPOColumnName: \"N/A\"})",
+    "GroundTruth": "If(TechYes = \"true\", Navigate(ReviewRequiredScreen, Fade), Navigate(FinalScreen)); UpdateIf(ListName, ID=vRecord.ID ,{SPOColumnName: \"N/A\"})"
+  },
+  {
+    "Buggy": "Patch(Users,First(Filter(Users,'Primary Email'=User().Email)),{CustomField1:\"Testing\"}))",
+    "GroundTruth": "Patch(Users,First(Filter(Users,'Primary Email'=User().Email)),{CustomField1:\"Testing\"})"
+  },
+  {
+    "Buggy": "Patch('[Analysis].[PowerAppsInputTest]',First(Filter('[Analysis].[PowerAppsInputTest]',PowerAppsInputTestID=TextInput1.Text)),{DemeritScore:Value(TextInput2.Text))});",
+    "GroundTruth": "Patch('[Analysis].[PowerAppsInputTest]',First(Filter('[Analysis].[PowerAppsInputTest]',PowerAppsInputTestID=TextInput1.Text)),{DemeritScore:Value(TextInput2.Text)})"
+  },
+  {
+    "Buggy": "Patch('[PowerApp].[AllocatedResources]',First('[PowerApp].[AllocatedResources]'),{ProjectId:varProjectID,ResourceId:varResourceID,Allocation:Dropdown1_2.Selected.Value,ProjectName:TextInput3.Text,ResourceName:Dropdown1_12.SelectedText.Value,})",
+    "GroundTruth": "Patch('[PowerApp].[AllocatedResources]',First('[PowerApp].[AllocatedResources]'),{ProjectId:varProjectID,ResourceId:varResourceID,Allocation:Dropdown1_2.Selected.Value,ProjectName:TextInput3.Text,ResourceName:Dropdown1_12.SelectedText.Value})"
+  },
+  {
+    "Buggy": "Patch(IdeaBox_1,LookUp(IdeaBox_1,ID=ThisItem.ID),{WhoLikedPeople:TempTable});)",
+    "GroundTruth": "Patch(IdeaBox_1,LookUp(IdeaBox_1,ID=ThisItem.ID),{WhoLikedPeople:TempTable})"
+  },
+  {
+    "Buggy": "Patch('[PowerApp].[AllocatedResources]',Lookup('[PowerApp].[AllocatedResources]',ProjectId=1 And ResourceId=1),{ProjectId:varProjectID,ResourceId:varResourceID,Allocation:Dropdown1_2.Selected.Value,ProjectName:TextInput3.Text,ResourceName:Dropdown1_12.SelectedText.Value,})",
+    "GroundTruth": "Patch('[PowerApp].[AllocatedResources]',Lookup('[PowerApp].[AllocatedResources]',ProjectId=1 And ResourceId=1),{ProjectId:varProjectID,ResourceId:varResourceID,Allocation:Dropdown1_2.Selected.Value,ProjectName:TextInput3.Text,ResourceName:Dropdown1_12.SelectedText.Value})"
+  },
+  {
+    "Buggy": "Patch('[PowerApp].[AllocatedResources]',Lookup('[PowerApp].[AllocatedResources]',ProjectId=varProjectID And ResourceId=varResourceID),{Allocation:Dropdown1_3.Selected.Value,ProjectName:TextInput3_1.Text,ResourceName:Dropdown1_13.SelectedText.Value,})",
+    "GroundTruth": "Patch('[PowerApp].[AllocatedResources]',Lookup('[PowerApp].[AllocatedResources]',ProjectId=varProjectID And ResourceId=varResourceID),{Allocation:Dropdown1_3.Selected.Value,ProjectName:TextInput3_1.Text,ResourceName:Dropdown1_13.SelectedText.Value})"
+  },
+  {
+    "Buggy": "Patch(Users,LookUp(Users,'Primary Email'=CurrentUserEmai),{CustomField1:\"Testing\"}))",
+    "GroundTruth": "Patch(Users,LookUp(Users,'Primary Email'=CurrentUserEmai),{CustomField1:\"Testing\"})"
+  },
+  {
+    "Buggy": "Patch(WeeklyTimeSheet,LookUp(WeeklyTimeSheet,Title=ID And Emp_Name:EmpName),{Wed_Activity:WedAct.Selected,Wed_Contract:TuesContract.Selected,Wed_Start:DataCardKey41_1,Wed_End:DataCardKey42_1})",
+    "GroundTruth": "Patch(WeeklyTimeSheet,LookUp(WeeklyTimeSheet,Title=ID And Emp_Name=EmpName),{Wed_Activity:WedAct.Selected,Wed_Contract:TuesContract.Selected,Wed_Start:DataCardKey41_1,Wed_End:DataCardKey42_1})"
+  },
+  {
+    "Buggy": "Patch(eLeaveApp,{ID:Self.LastSubmit.ID},Form4_l.Updates,Form2.Updates,Form4.Updates,{DateApply:Now()});Navigate{Review);ResetForm(Form3);ResetForm(Form2);ResetForm(Form4_l);ResetForm(Form4);UpdateContext({showAlert:False});",
+    "GroundTruth": "Patch(eLeaveApp,{ID:Self.LastSubmit.ID},Form4_l.Updates,Form2.Updates,Form4.Updates,{DateApply:Now()});Navigate(Review);ResetForm(Form3);ResetForm(Form2);ResetForm(Form4_l);ResetForm(Form4);UpdateContext({showAlert:False});"
+  },
+  {
+    "Buggy": "Patch(HFAB_Proposals,ID=\"xpojg39jf\",{SubDate:Now()});SubmitForm(EditForm1",
+    "GroundTruth": "Patch(HFAB_Proposals,ID=\"xpojg39jf\",{SubDate:Now()});SubmitForm(EditForm1)"
+  },
+  {
+    "Buggy": "Patch(DocumentsList,{ID:1},Form1.Updates);Patch(DocumentsList,{ID:1),{DocumentType:{Value:\"AC\"}});",
+    "GroundTruth": "Patch(DocumentsList,{ID:1},Form1.Updates);Patch(DocumentsList,{ID:1},{DocumentType:{Value:\"AC\"}});"
+  },
+  {
+    "Buggy": "submitform(form1);Patch(list2name,defaults(list2name),{colum1:comunn1Value;colum2:comunn2Value});",
+    "GroundTruth": "submitform(form1);Patch(list2name,defaults(list2name),{colum1:comunn1Value,colum2:comunn2Value});"
+  },
+  {
+    "Buggy": "Refresh(TaskPlannerDatabase);With({ID1_var:(First(Sort(TaskPlannerDatabase,ID,Descending)).ID)+1},UpdateContext({TaskID_var:\"R-\"&Text(ID1_var,\"[$-en-US]000#\")})",
+    "GroundTruth": "Refresh(TaskPlannerDatabase);With({ID1_var:(First(Sort(TaskPlannerDatabase,ID,Descending)).ID)+1},UpdateContext({TaskID_var:\"R-\"&Text(ID1_var,\"[$-en-US]000#\")}))"
+  },
+  {
+    "Buggy": "Refresh('[dbo][RadioSelection1and2]') And Refresh[('[dbo][UserPermissions]')]",
+    "GroundTruth": "Refresh('[dbo][RadioSelection1and2]') And Refresh(('[dbo][UserPermissions]'))"
+  },
+  {
+    "Buggy": "RemoveIf('[dbo].[DimUnit]',ID=Entity_Id And d_Actions.SelectedText.Value=\"delete\" And d_EntityName.SelectedText.Value=\"unit name\",);ClearCollect(UNIT,Sort('[dbo].[DimUnit]',ENTITY_NAME,Ascending));",
+    "GroundTruth": "RemoveIf('[dbo].[DimUnit]',ID=Entity_Id And d_Actions.SelectedText.Value=\"delete\" And d_EntityName.SelectedText.Value=\"unit name\");ClearCollect(UNIT,Sort('[dbo].[DimUnit]',ENTITY_NAME,Ascending));"
+  },
+  {
+    "Buggy": "RemoveIf([Coverage],If(vGallNo=1,BrowseGallery1.Selected,BrowseGallery2.Selected));If(IsEmpty(Errors([Coverage],If(VGallNo=1,BrowseGallery1.Selected,BrowseGallery2.Selected),Back())",
+    "GroundTruth": "RemoveIf([Coverage],If(vGallNo=1,BrowseGallery1.Selected,BrowseGallery2.Selected));If(IsEmpty(Errors([Coverage])),If(VGallNo=1,BrowseGallery1.Selected,BrowseGallery2.Selected),Back())"
+  },
+  {
+    "Buggy": "MECHANIC.Run(Image,FolderPath&type,name&\"_\"&Text(Now(),\"[$-en-US]HHmmss\")&\".png\"))",
+    "GroundTruth": "MECHANIC.Run(Image,FolderPath&type,name&\"_\"&Text(Now(),\"[$-en-US]HHmmss\")&\".png\")"
+  },
+  {
+    "Buggy": "Select(Parent);Patch(List,LookUp(List,ID=ThisItem.ID),{Description:TextInputDes.text,Date:DateP.SelectedDate,Amt:InputAmt.Text)})",
+    "GroundTruth": "Select(Parent);Patch(List,LookUp(List,ID=ThisItem.ID),{Description:TextInputDes.text,Date:DateP.SelectedDate,Amt:InputAmt.Text})"
+  },
+  {
+    "Buggy": "Set(myActiveToggleID,ThisItem.ID);ClearCollect(myGalleryIDs,ShowColumns(Gallery1.AllItems,\"ID\"));ForAll(myGalleryIDs,Patch(your_datasource_name,LookUp(your_datasource_name,ID=myGalleryIDs[@ID]){toggle_field_name:If(myGalleryIDs[@ID]=myActiveToggleID,True,False}));Refresh(your_datasource_name);",
+    "GroundTruth": "Set(myActiveToggleID,ThisItem.ID);ClearCollect(myGalleryIDs,ShowColumns(Gallery1.AllItems,\"ID\"));ForAll(myGalleryIDs,Patch(your_datasource_name,LookUp(your_datasource_name,ID=myGalleryIDs[@ID]),{toggle_field_name:If(myGalleryIDs[@ID]=myActiveToggleID,True,False)}));Refresh(your_datasource_name);"
+  },
+  {
+    "Buggy": "Set(gblContextualRecord,LookUp(EntityA,ID=[@ModelDrivenFormIntegration].Item.ID);ClearCollect(EntityBRecord,LookUp(EntityB,ID=gblContextualRecord.LookupOfEntityBonEntityAID))",
+    "GroundTruth": "Set(gblContextualRecord,LookUp(EntityA,ID=[@ModelDrivenFormIntegration].Item.ID));ClearCollect(EntityBRecord,LookUp(EntityB,ID=gblContextualRecord.LookupOfEntityBonEntityAID))"
+  },
+  {
+    "Buggy": "Set(var,LookUp('Employees Information',DataCardValue2.Selected.DisplayName='Employee Name'.DisplayName,Branch)).",
+    "GroundTruth": "Set(var,LookUp('Employees Information',DataCardValue2.Selected.DisplayName='Employee Name'.DisplayName,Branch))"
+  },
+  {
+    "Buggy": "Set(varBase64Only,Mid(varDemoFromAttachControl,Find(\",\",varDemoFromAttachControl+1,Len(varDemoFromAttachControl)-Find(\",\",varDemoFromAttachControl)-1));",
+    "GroundTruth": "Set(varBase64Only,Mid(varDemoFromAttachControl,Find(\",\",varDemoFromAttachControl+1,Len(varDemoFromAttachControl)-Find(\",\",varDemoFromAttachControl)-1)));"
+  },
+  {
+    "Buggy": "Set(varCurrRecord,Param(\"ID\");",
+    "GroundTruth": "Set(varCurrRecord,Param(\"ID\"));"
+  },
+  {
+    "Buggy": "Set(PrevPatchedID,Patch(Datasource,Defaults(Datasource),{Title:TextInput.Text,},Form1.Updates));Concurrent(Patch(Datasource,LookUp(Datasource,ID=PrevPatchedID.ID),Form1_1.Updates),Patch(Datasource,LookUp(Datasource,ID=PrevPatchedID.ID),Form1_2.Updates))",
+    "GroundTruth": "Set(PrevPatchedID,Patch(Datasource,Defaults(Datasource),{Title:TextInput.Text},Form1.Updates));Concurrent(Patch(Datasource,LookUp(Datasource,ID=PrevPatchedID.ID),Form1_1.Updates),Patch(Datasource,LookUp(Datasource,ID=PrevPatchedID.ID),Form1_2.Updates))"
+  },
+  {
+    "Buggy": "Set(ID2,Patch(DataSource,Defaults(DataSource),Form3.Updates,).ID)",
+    "GroundTruth": "Set(ID2,Patch(DataSource,Defaults(DataSource),Form3.Updates).ID)"
+  },
+  {
+    "Buggy": "Set(SelectedDateValue,StageDateDatePicker.SelectedDate);Patch('[dbo].[tblPipelineStages]',ThisItem,{StageDate:SelectedDateValue},{Comments:StageCommentsInput.Text});Patch('[dbo].[tblPipeline]',LookUp('[dbo].[tblPipeline]',ID=PipeLineGallery1.Selected.ID,If(LookUp('[dbo].[tblPipelineStageTypes]',ID=StageGallery.Selected.PipelineStageTypeID,!IsEmpty(EndStage))),{DateFinished:SelectedDateValue});Refresh('[dbo].[tblPipelineStages]');UpdateContext({VisibleVar:False})",
+    "GroundTruth": "Set(SelectedDateValue,StageDateDatePicker.SelectedDate);Patch('[dbo].[tblPipelineStages]',ThisItem,{StageDate:SelectedDateValue},{Comments:StageCommentsInput.Text});Patch('[dbo].[tblPipeline]',LookUp('[dbo].[tblPipeline]',ID=PipeLineGallery1.Selected.ID,If(LookUp('[dbo].[tblPipelineStageTypes]',ID=StageGallery.Selected.PipelineStageTypeID),!IsEmpty(EndStage))),{DateFinished:SelectedDateValue});Refresh('[dbo].[tblPipelineStages]');UpdateContext({VisibleVar:False})"
+  },
+  {
+    "Buggy": "Set(payload,CreateSendDefinition.Run(txtDefKey.Text,If(Lower(ddStatus.Selected.Value)=\"true\",True,False),txtDefName.Text,txtDescription.Text,txtSendClassification.Text,txtCustomerKey.Text,txtList.Text,txtDataExtension.Text,If(Lower(ddAutoAddSub.Selected.Value)=\"true\",True,False),If(Lower(ddUpdateSub.Selected.Value)=\"true\",True,False),If(Lower(ddTrackLinks.Selected.Value)=\"true\",True,False),))",
+    "GroundTruth": "Set(payload,CreateSendDefinition.Run(txtDefKey.Text,If(Lower(ddStatus.Selected.Value)=\"true\",True,False),txtDefName.Text,txtDescription.Text,txtSendClassification.Text,txtCustomerKey.Text,txtList.Text,txtDataExtension.Text,If(Lower(ddAutoAddSub.Selected.Value)=\"true\",True,False),If(Lower(ddUpdateSub.Selected.Value)=\"true\",True,False),If(Lower(ddTrackLinks.Selected.Value)=\"true\",True,False)))"
+  },
+  {
+    "Buggy": "Set(lastID,Value(txtID.Text);Set(LastContactID,Value(txtID.Text);",
+    "GroundTruth": "Set(lastID,Value(txtID.Text));Set(LastContactID,Value(txtID.Text));"
+  },
+  {
+    "Buggy": "Set(With({varText:\"1;test1;no;yes|2;test2;no;yes|3;test3;yes;yes|4;test4;no;no|\"},If(Right(varText,1)=\"|\",Left(varText,Len(varText-1)),varText))",
+    "GroundTruth": "Set(With({varText:\"1;test1;no;yes|2;test2;no;yes|3;test3;yes;yes|4;test4;no;no|\"},If(Right(varText,1)=\"|\",Left(varText,Len(varText-1)))),varText)"
+  },
+  {
+    "Buggy": "Set(With({varMonitorPressureAllItems:ThisItem.MonitorPointPressure},If(Right(varMonitorPressureAllItems,1)=\"|\",Left(varMonitorPressureAllItems,Len(varMonitorPressureAllItems-1)),varMonitorPressureAllItems))",
+    "GroundTruth": "Set(With({varMonitorPressureAllItems:ThisItem.MonitorPointPressure},If(Right(varMonitorPressureAllItems,1)=\"|\",Left(varMonitorPressureAllItems,Len(varMonitorPressureAllItems-1)))),varMonitorPressureAllItems)"
+  },
+  { "Buggy": "Set(varID,YourIDNo}", "GroundTruth": "Set(varID,YourIDNo)" },
+  {
+    "Buggy": "SortByColumns(Filter('1920PersonnelTimesheets',Or(Administrator=VarUserName,Secretary=VarUserName,IsBlank(ApprovalStatus)),),\"Title\",Ascending,\"StartTime\",Ascending)",
+    "GroundTruth": "SortByColumns(Filter('1920PersonnelTimesheets',Or(Administrator=VarUserName,Secretary=VarUserName,IsBlank(ApprovalStatus))),\"Title\",Ascending,\"StartTime\",Ascending)"
+  },
+  {
+    "Buggy": "SubmitForm(Forml_6);Navigate(Screenl);SubmitForm(Form2_5);SubmitForm(Form3);Patch(Stock,LookUp(Stock,HardwareType.Value=DataCardValue7.Selected.Value,),{Amount:Value(DataCardValue37.Selected.Value)-1})",
+    "GroundTruth": "SubmitForm(Forml_6);Navigate(Screenl);SubmitForm(Form2_5);SubmitForm(Form3);Patch(Stock,LookUp(Stock,HardwareType.Value=DataCardValue7.Selected.Value),{Amount:Value(DataCardValue37.Selected.Value)-1})"
+  },
+  {
+    "Buggy": "SubmitForm(EditForm1);Patch(HFAB_Proposals,___PowerAppsID__:EditForm1.LastSubmit.___PowerAppsID__,{SubDate:Now()});",
+    "GroundTruth": "SubmitForm(EditForm1);Patch(HFAB_Proposals,___PowerAppsID__,EditForm1.LastSubmit.___PowerAppsID__,{SubDate:Now()});"
+  },
+  {
+    "Buggy": "Sum(Value(DataCardValue26.Selected.Value),(DataCardValue31.Selected.Value),(DataCardValue36.Selected.Value),(DataCardValue5.Selected.Value),)",
+    "GroundTruth": "Sum(Value(DataCardValue26.Selected.Value),(DataCardValue31.Selected.Value),(DataCardValue36.Selected.Value),(DataCardValue5.Selected.Value))"
+  },
+  {
+    "Buggy": "With{{wDays:Switch(AdminScreen_CO_Desks_DateFilter.Selected.Value,\"All\",1,\"Today\",0,\"Next 2 Days\",2,\"Next 7 Days\"7,\"Next 30 Days\"30)},ClearCollect(BookingLogCollect,Filter(BookingLogDateDiff(Today(),StartingDate)<=wDays)))",
+    "GroundTruth": "With({wDays:Switch(AdminScreen_CO_Desks_DateFilter.Selected.Value,\"All\",1,\"Today\",0,\"Next 2 Days\",2,\"Next 7 Days\",7,\"Next 30 Days\",30)},ClearCollect(BookingLogCollect,Filter(BookingLog,DateDiff(Today(),StartingDate)<=wDays)))"
+  },
+  {
+    "Buggy": "UpdateContext({varScan1,Self.Value)",
+    "GroundTruth": "UpdateContext({varScan1:Self.Value})"
+  },
+  {
+    "Buggy": "Set(varRecord,'Self.LastSubmit)",
+    "GroundTruth": "Set(varRecord,Self.LastSubmit)"
+  },
+  {
+    "Buggy": "UpdateIf(list,ID=ThisRecord.ID,{Description:TextInputDes.Text,Date:DatePicker1.SelectedDate}))",
+    "GroundTruth": "UpdateIf(list,ID=ThisRecord.ID,{Description:TextInputDes.Text,Date:DatePicker1.SelectedDate})"
+  },
+  {
+    "Buggy": "Office365Users.UserProfile(User().Email).CompanyName)",
+    "GroundTruth": "Office365Users.UserProfile(User().Email).CompanyName"
+  },
+  {
+    "Buggy": "Value(BranchID)=PrintersAllGal.Selected.BranchId)",
+    "GroundTruth": "Value(BranchID)=PrintersAllGal.Selected.BranchId"
+  },
+  {
+    "Buggy": "With({mlstns:Filter(Milestones,CodeofProject=varSelectedProject),},Sort(mlstns,If(locSortAscending,Descending),varsort))",
+    "GroundTruth": "With({mlstns:Filter(Milestones,CodeofProject=varSelectedProject)},Sort(mlstns,If(locSortAscending,Descending),varsort))"
+  },
+  {
+    "Buggy": "ForAll(Gallery.AllItems, Collect(CollectionName, {Field1:Title.Text, Field2: If('Field' = \"Value\", Radio.Selected.Value, TextInput.Text}));",
+    "GroundTruth": "ForAll(Gallery.AllItems, Collect(CollectionName, {Field1:Title.Text, Field2: If('Field' = \"Value\", Radio.Selected.Value, TextInput.Text)}));"
+  },
+  {
+    "Buggy": "With({wT2:Table2,wT1:Table1},ForAll(wT2asaTable,Patch(Table2,{ID:aTable.ID},{Asset_Cost:Lookup(wT1,Class_Name=aTable.Asset_Class).Class_Cost))))",
+    "GroundTruth": "With({wT2:Table2,wT1:Table1},ForAll(wT2asaTable,Patch(Table2,{ID:aTable.ID},{Asset_Cost:Lookup(wT1,Class_Name=aTable.Asset_Class).Class_Cost})))"
+  },
+  {
+    "Buggy": "With({itm:LookUp('PowerApps Usage',ID=34}),itm.Episode=ThisItem.Name&\" / \"&itm.EmailAddress=Lower(User().Email))",
+    "GroundTruth": "With({itm:LookUp('PowerApps Usage',ID=34)},itm.Episode=ThisItem.Name&\" / \"&itm.EmailAddress=Lower(User().Email))"
+  },
+  {
+    "Buggy": "With({vJSON:JSON(TakenPic,JSONFormat.IncludeBinaryData)},Set(v64Text,Substitute(vJSON,\"\",\"\")));Patch(YourListName{YourTextField:v64Text})",
+    "GroundTruth": "With({vJSON:JSON(TakenPic,JSONFormat.IncludeBinaryData)},Set(v64Text,Substitute(vJSON,\"\",\"\")));Patch(YourListName,{YourTextField:v64Text})"
+  },
+  {
+    "Buggy": "With({wYear:Text(Year(Now()),wNext:Text(Year(Now()+1),wSelected:DataCardValue29_1.Selected.Value,wDate:DateValue(\"01June\"&Year(Now())>=Today(),},Switch(wSelected,\"Test1\",If(wDate,DateValue(\"30June\"&wYear),DateValue(\"30June\"&wNext)),\"Test2\"If(wDate,DateValue(\"30October\"&wYear),DateValue(\"30October\"&wNext))))",
+    "GroundTruth": "With({wYear:Text(Year(Now())),wNext:Text(Year(Now()+1)),wSelected:DataCardValue29_1.Selected.Value,wDate:DateValue(\"01June\"&Year(Now()))>=Today()},Switch(wSelected,\"Test1\",If(wDate,DateValue(\"30June\"&wYear),DateValue(\"30June\"&wNext)),\"Test2\",If(wDate,DateValue(\"30October\"&wYear),DateValue(\"30October\"&wNext))))"
+  },
+  {
+    "Buggy": "With({vPlekken:Filter(werkplekken,LOCATIE=locatie_search.Selected.Result And VERDIEPING=verdiepingen.Selected.Result And RUIMTENAAM=room_search.Selected.Result)},Filter(vPlekken,LookUp(Reservaties,Text(reservatieDatum,ShortDate)<>Text(datum_kiezen.SelectedDate,ShortDate)).BUREAU)))",
+    "GroundTruth": "With({vPlekken:Filter(werkplekken,LOCATIE=locatie_search.Selected.Result And VERDIEPING=verdiepingen.Selected.Result And RUIMTENAAM=room_search.Selected.Result)},Filter(vPlekken,LookUp(Reservaties,Text(reservatieDatum,ShortDate)<>Text(datum_kiezen.SelectedDate,ShortDate)).BUREAU))"
+  },
+  {
+    "Buggy": "If(!IsBlank(X1)&&,true,false)",
+    "GroundTruth": "If(!IsBlank(X1),true,false)"
+  },
+  {
+    "Buggy": "If(X1.X2.Value=\"\") X3.X4",
+    "GroundTruth": "If(X1.X2.Value=\"\", X3.X4)"
+  },
+  {
+    "Buggy": "Filter(SortByColumns(X1, \"A Column\", Ascending), X3 = X4.)",
+    "GroundTruth": "Filter(SortByColumns(X1, \"A Column\", Ascending), X3 = X4)"
+  },
+  {
+    "Buggy": "SortByColumns(Filter(X1,X2 = If(IsBlank(X3.X4.X5), X6.X7,X3.X4.X5),\"A Column\")",
+    "GroundTruth": "SortByColumns(Filter(X1,X2 = If(IsBlank(X3.X4.X5), X6.X7,X3.X4.X5)),\"A Column\")"
+  },
+  {
+    "Buggy": "If(X1.X2 = X3.X4, Select(X5), Select(X6 ); ",
+    "GroundTruth": "If(X1.X2 = X3.X4, Select(X5), Select(X6 ))"
+  },
+  {
+    "Buggy": "Set(X1,AFunc(Last(Split(X4.X5.X6, \"\")).X7",
+    "GroundTruth": "Set(X1,AFunc(Last(Split(X4.X5.X6, \"\"))).X7)"
+  },
+  {
+    "Buggy": "If((X1.X2.=\"\"),true,false)",
+    "GroundTruth": "If((X1.X2=\"\"),true,false)"
+  },
+  {
+    "Buggy": "User().X1 & \"\" & Text(Today() & Text(Now(),\"\")",
+    "GroundTruth": "User().X1 & \"\" & Text(Today()) & Text(Now(),\"\")"
+  },
+  {
+    "Buggy": "If(IsBlank(Self.X1),Today(), Self.X2, Self.Language))",
+    "GroundTruth": "If(IsBlank(Self.X1),Today(), Self.X2, Self.Language)"
+  },
+  {
+    "Buggy": "Text(Value(X1.X2),\"\"))",
+    "GroundTruth": "Text(Value(X1.X2),\"\")"
+  },
+  {
+    "Buggy": "SortByColumns(Filter(X1,X2=(User().X3,)\"A Column\"Ascending)",
+    "GroundTruth": "SortByColumns(Filter(X1,X2=(User().X3)),\"A Column\",Ascending)"
+  },
+  {
+    "Buggy": "Collect(X1, Filter(X2, Not(EndsWith(X3,\"\"))); X4=X5.X6.X7, ",
+    "GroundTruth": "Collect(X1, Filter(X2, Not(EndsWith(X3,\"\")))); X4=X5.X6.X7"
+  },
+  {
+    "Buggy": "If(Not(IsMatch(X1,\"\")),X2.X3,X4",
+    "GroundTruth": "If(Not(IsMatch(X1,\"\")),X2.X3,X4)"
+  },
+  {
+    "Buggy": "If(IsBlank(X1.Text)=,RGBA(0, 0, 0, 0),X2,RGBA(0, 0, 0, 0))",
+    "GroundTruth": "If(IsBlank(X1.Text),RGBA(0, 0, 0, 0),X2,RGBA(0, 0, 0, 0))"
+  },
+  {
+    "Buggy": "If(X1.X2.Value=\"\"Blank,false,true) ",
+    "GroundTruth": "If(X1.X2.Value=\"\",false,true) "
+  },
+  { "Buggy": "If(X1,X2.X3 + X2.X4", "GroundTruth": "If(X1,X2.X3 + X2.X4)" },
+  {
+    "Buggy": "X1.X2.X3 in X4.X3 || X5.X2.X6 in AsType( X4.X7, X8).X9 || X10.X2. ",
+    "GroundTruth": "X1.X2.X3 in X4.X3 || X5.X2.X6 in AsType( X4.X7, X8).X9 || X10.X2"
+  },
+  {
+    "Buggy": "If(X1.Text = Tex(5),UpdateContext({X3:false}),Navigate(X4,X5.X6)",
+    "GroundTruth": "If(X1.Text = Text(5),UpdateContext({X3:false}),Navigate(X4,X5.X6))"
+  },
+  {
+    "Buggy": "Filter(Choices(X1.X2),X1.X3",
+    "GroundTruth": "Filter(Choices(X1.X2),X1.X3)"
+  },
+  {
+    "Buggy": "\"\" & If(X1.X2.X3=\"\",\"\",\"\") & \"\" & X1.X2.X4 & \"\" & X1.X2. & \"\"",
+    "GroundTruth": "\"\" & If(X1.X2.X3=\"\",\"\",\"\") & \"\" & X1.X2.X4 & \"\" & X1.X2 & \"\""
+  },
+  {
+    "Buggy": "Filter(Filter(Filter(X1,X2 = \"\"),X3 = false),EndsWith(X4,\"\")",
+    "GroundTruth": "Filter(Filter(Filter(X1,X2 = \"\"),X3 = false),EndsWith(X4,\"\"))"
+  },
+  {
+    "Buggy": "SubmitForm(X1); X2.X3(\"\",\"\",X4.X5.), X4.X5.X6, X4.X5.X6);",
+    "GroundTruth": "SubmitForm(X1); X2.X3(\"\",\"\",X4.X5, X4.X5.X6, X4.X5.X6);"
+  },
+  {
+    "Buggy": "X1.X2.(\"\" & Text(GUID()))",
+    "GroundTruth": "X1.X2(\"\" & Text(GUID()))"
+  },
+  {
+    "Buggy": "Patch(X1, Defaults(X1), {X2:X3., X4: \"\", X5:0})",
+    "GroundTruth": "Patch(X1, Defaults(X1), {X2:X3, X4: \"\", X5:0})"
+  },
+  {
+    "Buggy": "If(X1.Value=0,X2.X3,X2.X4",
+    "GroundTruth": "If(X1.Value=0,X2.X3,X2.X4)"
+  },
+  { "Buggy": "X1.X2 + X1.X3 + ", "GroundTruth": "X1.X2 + X1.X3" },
+  {
+    "Buggy": "Switch(X1.Text,\"String 1\", X2, \"String 2\", X3, \"String 3\", X4))",
+    "GroundTruth": "Switch(X1.Text,\"String 1\", X2, \"String 2\", X3, \"String 3\", X4)"
+  },
+  {
+    "Buggy": "Refresh(X1); Refresh(X2); Refresh(X3",
+    "GroundTruth": "Refresh(X1); Refresh(X2); Refresh(X3)"
+  },
+  {
+    "Buggy": "UpdateContext({X1:X2.X3}",
+    "GroundTruth": "UpdateContext({X1:X2.X3})"
+  },
+  {
+    "Buggy": "Filter(X1, X2 = X3.X4 X5.X6.X2, X7=X8.X6.X2)",
+    "GroundTruth": "Filter(X1, X2 = X3.X4.X5.X6.X2, X7=X8.X6.X2)"
+  },
+  { "Buggy": "Navigate(X1 X2.X3)", "GroundTruth": "Navigate(X1, X2.X3)" },
+  {
+    "Buggy": "Filter(X1.X2, X1.X3 = \"\", )",
+    "GroundTruth": "Filter(X1.X2, X1.X3 = \"\")"
+  },
+  {
+    "Buggy": "ForAll(X1, Patch(X2, Defaults(X2), {X3: X3,X4: X5, X6: X7}",
+    "GroundTruth": "ForAll(X1, Patch(X2, Defaults(X2), {X3: X3,X4: X5, X6: X7}))"
+  },
+  {
+    "Buggy": "\"Prefix\" & Last(X1.X2). & \"Suffix\"",
+    "GroundTruth": "\"Prefix\" & Last(X1.X2) & \"Suffix\""
+  },
+  {
+    "Buggy": "If(!IsBlank(LookUp(X1, X2=X3.Text And X4=X5.Text).X2,Navigate(X6),UpdateContext({X7:true})",
+    "GroundTruth": "If(!IsBlank(LookUp(X1, X2=X3.Text And X4=X5.Text).X2),Navigate(X6),UpdateContext({X7:true}))"
+  },
+  { "Buggy": "Choices(X1.X2).", "GroundTruth": "Choices(X1.X2)" },
+  {
+    "Buggy": "X1.X2({X3:Trim(X4.Text})",
+    "GroundTruth": "X1.X2({X3:Trim(X4.Text)})"
+  },
+  {
+    "Buggy": "SortByColumns( Filter( [@X1], StartsWith(X2, X3.Text), \"A Column\", If( X4, SortOrder.Ascending, SortOrder.Descending ) )",
+    "GroundTruth": "SortByColumns( Filter( [@X1], StartsWith(X2, X3.Text)), \"A Column\", If( X4, SortOrder.Ascending, SortOrder.Descending ) )"
+  },
+  {
+    "Buggy": "If(X1.X2.Value =\"Value1\",RGBA(0,0,0,0),X1.X2.Value = \"Value2\",RGBA(0,0,0,0)) \"\"",
+    "GroundTruth": "If(X1.X2.Value =\"Value1\",RGBA(0,0,0,0),X1.X2.Value = \"Value2\",RGBA(0,0,0,0))"
+  },
+  {
+    "Buggy": "\"Value 1\"&X1.&\"Value 2\"",
+    "GroundTruth": "\"Value 1\"&X1&\"Value 2\""
+  },
+  {
+    "Buggy": "Set(X1, X2.Value);If(IsBlank(LookUp(X3,X4 = X2.Value)), Navigate(X5,X6.X7),Navigate(X8,X6.X7)",
+    "GroundTruth": "Set(X1, X2.Value);If(IsBlank(LookUp(X3,X4 = X2.Value)), Navigate(X5,X6.X7),Navigate(X8,X6.X7))"
+  },
+  {
+    "Buggy": "AddColumns( X1, \"\",LookUp(X2, X3 = X1[@X4], X5 )",
+    "GroundTruth": "AddColumns( X1, \"\",LookUp(X2, X3 = X1[@X4], X5 ))"
+  },
+  { "Buggy": "X1.{X2}.X3", "GroundTruth": "X1.X2.X3" },
+  { "Buggy": "UpdateContext({X1:0)", "GroundTruth": "UpdateContext({X1:0})" },
+  {
+    "Buggy": "UpdateContext({X1:X2.X3});If(X1=0,X4",
+    "GroundTruth": "UpdateContext({X1:X2.X3});If(X1=0,X4)"
+  },
+  {
+    "Buggy": "Collect(X1, {X2: X3.X4,}",
+    "GroundTruth": "Collect(X1, {X2: X3.X4})"
+  },
+  {
+    "Buggy": "If(X1.Value = \"\", X2.X3, X2.X4",
+    "GroundTruth": "If(X1.Value = \"\", X2.X3, X2.X4)"
+  },
+  {
+    "Buggy": "Table( { X1: 0, X2: \"A value\", } )",
+    "GroundTruth": "Table( { X1: 0, X2: \"A value\" } )"
+  },
+  { "Buggy": "If(X1.X2=\"\",X3,X4", "GroundTruth": "If(X1.X2=\"\",X3,X4)" },
+  {
+    "Buggy": "If(X1,Patch(X2,X3)); Select(X4) Set(X1,!X1)",
+    "GroundTruth": "If(X1,Patch(X2,X3)); Select(X4); Set(X1,!X1)"
+  },
+  { "Buggy": "Filter(X1, X2 = X3", "GroundTruth": "Filter(X1, X2 = X3)" },
+  {
+    "Buggy": "If(IsBlank(X1),X2(X3,X4=X1)",
+    "GroundTruth": "If(IsBlank(X1),X2(X3,X4=X1))"
+  },
+  {
+    "Buggy": "If(X1.=\"\",RGBA(0, 0, 0, 0),RGBA(0, 0, 0, 0))",
+    "GroundTruth": "If(X1=\"\",RGBA(0, 0, 0, 0),RGBA(0, 0, 0, 0))"
+  },
+  { "Buggy": "Set(X1, X2.X3(); ", "GroundTruth": "Set(X1, X2.X3); " },
+  {
+    "Buggy": "{Patch(X1, Defaults( X1 ),{ X2: X3.X4 },{ X4: X3.X4 } }",
+    "GroundTruth": "Patch(X1, Defaults( X1 ),{ X2: X3.X4 },{ X4: X3.X4 })"
+  },
+  {
+    "Buggy": "Filter(X1, X2.X3 = X4) UpdateContext({X5: Filter(X1, X2.X3 = X4)}) ",
+    "GroundTruth": "Filter(X1, X2.X3 = X4); UpdateContext({X5: Filter(X1, X2.X3 = X4)}) "
+  },
+  {
+    "Buggy": "Search(X1, X2.Text,X3      ",
+    "GroundTruth": "Search(X1, X2.Text,X3)"
+  },
+  { "Buggy": "X1.X2 == X3", "GroundTruth": "X1.X2 = X3" },
+  { "Buggy": "Choices(.X1)", "GroundTruth": "Choices(X1)" },
+  {
+    "Buggy": "If((X1=0 && (X2=0 || X3.X4 in \"Constant string\"),true,false) ",
+    "GroundTruth": "If((X1=0 && (X2=0 || X3.X4 in \"Constant string\")),true,false) "
+  },
+  { "Buggy": "LookUp(X1,X2 = X3", "GroundTruth": "LookUp(X1,X2 = X3)" },
+  {
+    "Buggy": "If(X1.X2=\"\", Navigate(X3),)",
+    "GroundTruth": "If(X1.X2=\"\", Navigate(X3))"
+  },
+  {
+    "Buggy": "If( X1.X2 = X3.X4, { Value: Some.Fnc(X7.X8.X9 }, Parent.X10 )",
+    "GroundTruth": "If( X1.X2 = X3.X4, { Value: Some.Fnc(X7.X8.X9) }, Parent.X10 )"
+  },
+  {
+    "Buggy": "Switch(X1.Text,\"Case1\", RGBA(0,0,0,0),\"Case2\",RGBA(0,0,0,0),)",
+    "GroundTruth": "Switch(X1.Text,\"Case1\", RGBA(0,0,0,0),\"Case2\",RGBA(0,0,0,0))"
+  },
+  {
+    "Buggy": "If(X1.X2=\"Done\",Navigate(X3),Navigate(X4)",
+    "GroundTruth": "If(X1.X2=\"Done\",Navigate(X3),Navigate(X4))"
+  },
+  {
+    "Buggy": "\"Stuff:\" X1.X2 & X1.X3 & X1.X4 & X1.X5",
+    "GroundTruth": "\"Stuff:\" & X1.X2 & X1.X3 & X1.X4 & X1.X5"
+  },
+  {
+    "Buggy": "UpdateContext({X1:true}",
+    "GroundTruth": "UpdateContext({X1:true})"
+  },
+  {
+    "Buggy": "Table({X1:[\"Something\"]}, {X1:Choices([@X2].X3)",
+    "GroundTruth": "Table({X1:[\"Something\"]}, {X1:Choices([@X2].X3)})"
+  },
+  {
+    "Buggy": "If(X1=false,Text.X2 X3",
+    "GroundTruth": "If(X1=false,Text.X2, X3)"
+  },
+  {
+    "Buggy": "If(IsBlank(X1.X2),\"First\", \"Second\"",
+    "GroundTruth": "If(IsBlank(X1.X2),\"First\", \"Second\")"
+  },
+  {
+    "Buggy": "Set(X1,First(X2.X3); Navigate(X4, X5.X6)",
+    "GroundTruth": "Set(X1,First(X2.X3)); Navigate(X4, X5.X6)"
+  },
+  {
+    "Buggy": "Patch(X1,First(Filter(X1,X2.X3=X4)),{X5:{Value:\"Content\"});Notify(\"Message\",X6.X7);",
+    "GroundTruth": "Patch(X1,First(Filter(X1,X2.X3=X4)),{X5:{Value:\"Content\"}});Notify(\"Message\",X6.X7);"
+  },
+  {
+    "Buggy": "Navigate(X1,X2.X3(X4=\"Some value\")",
+    "GroundTruth": "Navigate(X1,X2.X3, {X4: \"Some value\"})"
+  },
+  { "Buggy": "Parent.X1 = X2 X3 ", "GroundTruth": "Parent.X1 = X2.X3 " },
+  {
+    "Buggy": "Outlook.SendEmail(X3.Text,X4.Value;Reset(X4)",
+    "GroundTruth": "Outlook.SendEmail(X3.Text,X4.Value);Reset(X4)"
+  },
+  {
+    "Buggy": "Set(X1, X1+1) Collect(X2, {X3:\"Val1\", X4:\"Val2\", X5:\"Val3\", X6:\"Val4\", X7:\"Val5\"});",
+    "GroundTruth": "Set(X1, X1+1); Collect(X2, {X3:\"Val1\", X4:\"Val2\", X5:\"Val3\", X6:\"Val4\", X7:\"Val5\"});"
+  },
+  {
+    "Buggy": "Search(LookUp(X1, X2 = GUID(X3.X4.X2)).X5().X6)",
+    "GroundTruth": "Search(LookUp(X1, X2 = GUID(X3.X4.X2)).X5, X6)"
+  },
+  {
+    "Buggy": "\"V1\" & EncodeUrl(\"Val2\" & Concat(X1,\"V3\" & First(Split(X2, \"Val4\").X3).X3& X4 \"Val5\")&\"V6\"&Concat(X1,\"V7\"&X5&\"String\")&\"Some value\")",
+    "GroundTruth": "\"V1\" & EncodeUrl(\"Val2\" & Concat(X1,\"V3\" & First(Split(X2, \"Val4\").X3).X3& X4 & \"Val5\")&\"V6\"&Concat(X1,\"V7\"&X5&\"String\")&\"Some value\")"
+  },
+  {
+    "Buggy": "Set(X1, X2); ResetForm(X3);EditForm(X3);Set(X4, X2 Navigate(X5)",
+    "GroundTruth": "Set(X1, X2); ResetForm(X3);EditForm(X3);Set(X4, X2); Navigate(X5)"
+  },
+  {
+    "Buggy": "If(X1=0,ClearCollect(X2,{X3:X4.X5(First(X6.X7).X7))); ",
+    "GroundTruth": "If(X1=0,ClearCollect(X2,{X3:X4.X5}, First(X6.X7).X7)); "
+  },
+  {
+    "Buggy": "Table((X1;1,X2;\"Value1\"),(X1;2,X2;\"Value2\"),(X1;3,X2;\"Value3\"),(X1;4,X2:\"Value4\"))",
+    "GroundTruth": "Table({X1:1,X2:\"Value1\"},{X1:2,X2:\"Value2\"},{X1:3,X2:\"Value3\"},{X1:4,X2:\"Value4\"})"
+  },
+  { "Buggy": "SubmitForm(X1 X2 X3) ", "GroundTruth": "SubmitForm(X1.X2.X3) " },
+  {
+    "Buggy": "UpdateContext({X1:true});  Patch( X2, Defaults(X2), { X3:X4.Text, }, X5.X6; );ResetForm(X5); ",
+    "GroundTruth": "UpdateContext({X1:true});  Patch( X2, Defaults(X2), { X3:X4.Text}, X5.X6);ResetForm(X5); "
+  },
+  {
+    "Buggy": "If( CountRows(X1.X2) <= X3.Value)), true, false )",
+    "GroundTruth": "If( CountRows(X1.X2) <= X3.Value, true, false )"
+  },
+  {
+    "Buggy": "First(Filter(X1,Not(X2 in Filter( X3, X4 >= X5 && X4 <= X6 )))).",
+    "GroundTruth": "First(Filter(X1,Not(X2 in Filter( X3, X4 >= X5 && X4 <= X6 ))))"
+  },
+  {
+    "Buggy": "Select(Parent);Navigate(X1 ",
+    "GroundTruth": "Select(Parent);Navigate(X1 )"
+  },
+  {
+    "Buggy": "ClearCollect( X1, { X2: 1 X3: \"Value1\" }, { X2: 2 X3: \"Value2\" } ); ",
+    "GroundTruth": "ClearCollect( X1, { X2: 1, X3: \"Value1\" }, { X2: 2, X3: \"Value2\" } ); "
+  },
+  {
+    "Buggy": "If((X1.X2 And X3.X4.Value != \"The value\"), X5.X6, X5.X7)",
+    "GroundTruth": "If((X1.X2 And X3.X4.Value <> \"The value\"), X5.X6, X5.X7)"
+  },
+  {
+    "Buggy": "Collect(X1, X2.X3); If(IsBlank(LookUp(X4, X5 = X2.X3.X5)) = false, Remove(X4, X2.X3)",
+    "GroundTruth": "Collect(X1, X2.X3); If(IsBlank(LookUp(X4, X5 = X2.X3.X5)) = false, Remove(X4, X2.X3))"
+  },
+  {
+    "Buggy": "If(CountRows(Filter(X1,X2=X3.Value))>0,Navigate(X4)",
+    "GroundTruth": "If(CountRows(Filter(X1,X2=X3.Value))>0,Navigate(X4))"
+  },
+  {
+    "Buggy": "X1 != X2.X3 && X1 != X2.X4",
+    "GroundTruth": "X1 <> X2.X3 && X1 <> X2.X4"
+  },
+  {
+    "Buggy": "Ext..Fnc({X3:\"Content\",X4:3})",
+    "GroundTruth": "Ext.Fnc({X3:\"Content\",X4:3})"
+  },
+  {
+    "Buggy": "If(X1.X2.X3 SubmitForm(X4)",
+    "GroundTruth": "If(X1.X2.X3, SubmitForm(X4))"
+  },
+  { "Buggy": "Navigate(X1), X2.X3)", "GroundTruth": "Navigate(X1, X2.X3)" },
+  {
+    "Buggy": "If(Fnc(IsBlank(Self.X2.Value), X3, Self.X2.Value = \"Something\", X4, X5)",
+    "GroundTruth": "If(Fnc(IsBlank(Self.X2.Value)), X3, Self.X2.Value = \"Something\", X4, X5)"
+  },
+  {
+    "Buggy": "Navigate(X1 NewForm(X2) ",
+    "GroundTruth": "Navigate(X1); NewForm(X2) "
+  },
+  {
+    "Buggy": "Filter(X1, X2 = X3.X4.X2 X5).X6",
+    "GroundTruth": "Filter(X1, X2 = X3.X4.X2.X5).X6"
+  },
+  {
+    "Buggy": "DateDiff(DateValue(X1), DateValue(X2)) + 5)",
+    "GroundTruth": "DateDiff(DateValue(X1), DateValue(X2) + 5)"
+  },
+  { "Buggy": "RGBA(255, 0, 0, 0.5))", "GroundTruth": "RGBA(255, 0, 0, 0.5)" },
+  {
+    "Buggy": "If(X1.X2.Value = \"S1\" && X3.X2.Value != \"S2\",true,false)",
+    "GroundTruth": "If(X1.X2.Value = \"S1\" && X3.X2.Value <> \"S2\",true,false)"
+  }
+]
