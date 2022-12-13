@@ -6,7 +6,7 @@ This suite contains benchmarks drawn from three classes of tasks:
 - `Transformation.Text`: string-to-string transformation
 - `Split.Text`: text-to-table transformation
 - `Extraction.Text`: substring extraction from semi-structured text
-- `LastMile.Repair`: program repair for code which require very few edits to fix
+- `LastMile.Repair`: syntax (and some semantic) program repair for code that can be achieved with few edits
 
 For more details on `LastMile.Repair` follow the [README](LastMile.Repair/README.md) in `LastMile.Repair/`
 

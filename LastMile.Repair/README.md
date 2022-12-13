@@ -19,7 +19,7 @@ The PowerShell benchmarks are coming soon!
 
 ## File Structure
 For each language, there is a JSON file (`benchmarks.json`), which contains a list of dictionaries
-with two keys: `Buggy` and `GroundTruth`. With the `Buggy` key containing buggy code and `GroundTruth`
+with two keys: `Buggy` and `GroundTruth`. The `Buggy` key containing buggy code and `GroundTruth`
 contains manually annotated fix for the corresponding `Buggy` code.
 
 ```JSON
