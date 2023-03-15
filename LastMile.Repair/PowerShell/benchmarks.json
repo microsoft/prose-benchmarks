@@ -1,0 +1,796 @@
+[
+  {
+    "Buggy": "\"C:\\Program Files\\VeraCrypt\\VeraCrypt Format-x86.exe\" /create \"C:\\test veracrypt file.hc\" /password alongpasswordisagoodpassword /hash sha512 /encryption serpent /filesystem NTFS /size 100G /dynamic /force /silent",
+    "GroundTruth": "& \"C:\\Program Files\\VeraCrypt\\VeraCrypt Format-x86.exe\" /create \"C:\\test veracrypt file.hc\" /password alongpasswordisagoodpassword /hash sha512 /encryption serpent /filesystem NTFS /size 100G /dynamic /force /silent"
+  },
+  {
+    "Buggy": "\"c:\\Program Files (x86)\\Odoo 12.0\\python\\python.exe\" \"C:\\Program Files (x86)\\Odoo 12.0\\server\\odoo-bin\" scaffold custom_salesorder \"C:\\Program Files (x86)\\Odoo 12.0\\server\\odoo\\addons\"",
+    "GroundTruth": "& \"c:\\Program Files (x86)\\Odoo 12.0\\python\\python.exe\" \"C:\\Program Files (x86)\\Odoo 12.0\\server\\odoo-bin\" scaffold custom_salesorder \"C:\\Program Files (x86)\\Odoo 12.0\\server\\odoo\\addons\""
+  },
+  {
+    "Buggy": "[array]$newObject += [PSCustomObject][ordered]@{ JitterInterArrival = (if ($_.QoeReport.AudioStreams){$_.QoeReport.AudioStreams[0].JitterInterArrival}else{\"N/A\"} }",
+    "GroundTruth": "[array]$newObject += [PSCustomObject][ordered]@{ JitterInterArrival = $(if ($_.QoeReport.AudioStreams){$_.QoeReport.AudioStreams[0].JitterInterArrival}else{\"N/A\"}) }"
+  },
+  {
+    "Buggy": "Add-Entity -TableName $myTableName -PartitionKey \"ABC\" -RowKey \"XYZ\" -JsonString {\"TO\":[\"abc@xyz.com\",\"def@xyz.com\"],\"CC\":[\"pqr@xyz.com\"],\"BCC\":[]}",
+    "GroundTruth": "Add-Entity -TableName $myTableName -PartitionKey \"ABC\" -RowKey \"XYZ\" -JsonString '{\"TO\":[\"abc@xyz.com\",\"def@xyz.com\"],\"CC\":[\"pqr@xyz.com\"],\"BCC\":[]}'"
+  },
+  {
+    "Buggy": "$result = Invoke-WebRequest -Uri https://localhost/MyApi/Foo/blahA/blahB?three=testing&four=2015-09-18T06:45:29.5199432Z",
+    "GroundTruth": "$result = Invoke-WebRequest -Uri \"https://localhost/MyApi/Foo?one=blahA&two=blahB&three=testing&four=2015-09-18T06:45:29.5199432Z\""
+  },
+  {
+    "Buggy": "add-content \"${env:homepath}\\.proxy\\TempProxy.bat\" \"alias proxyon='source `\"$HOMEPATH/.proxy/proxy-switch.sh on\"'\"",
+    "GroundTruth": "add-content \"${env:homepath}\\.proxy\\TempProxy.bat\" \"alias proxyon='source `\"`$HOMEPATH/.proxy/proxy-switch.sh on`\"'\""
+  },
+  {
+    "Buggy": "if ($Animal -eq \"Chicken\") { if ($Food -eq \"Egg\") { Write-Host \"This chicken eats egg\" } ElseIf ($Food -eq \"Soup\") { Write-Host \"This chicken eats soup\" } ElseIf ($Animal -eq \"Cow\") { if ($Food -eq \"Egg\") { Write-Host \"This cow eats egg\" } ElseIf ($Food -eq \"Soup\") { Write-Host \"This cow eats soup\" } ElseIf ($Animal -eq \"Zebra\") { if ($Food -eq \"Egg\") { Write-Host \"This zebra eats egg\" } ElseIf ($Food -eq \"Soup\") { Write-Host \"This zebra eats soup\"",
+    "GroundTruth": "if ($Animal -eq \"Chicken\") { if ($Food -eq \"Egg\") { Write-Host \"This chicken eats egg\" } ElseIf ($Food -eq \"Soup\") { Write-Host \"This chicken eats soup\" } } ElseIf ($Animal -eq \"Cow\") { if ($Food -eq \"Egg\") { Write-Host \"This cow eats egg\" } ElseIf ($Food -eq \"Soup\") { Write-Host \"This cow eats soup\" } } ElseIf ($Animal -eq \"Zebra\") { if ($Food -eq \"Egg\") { Write-Host \"This zebra eats egg\" } ElseIf ($Food -eq \"Soup\") { Write-Host \"This zebra eats soup\" } }"
+  },
+  {
+    "Buggy": "wevtutil sl security /ca:O:BAG:SYD:(A;;0xf0005;;;SY)(A;;0x5;;;BA)(A;;0x1;;;S-1-5-32-573)(A;;0x1;;;S-1-5-20)",
+    "GroundTruth": "wevtutil sl security /ca:'O:BAG:SYD:(A;;0xf0005;;;SY)(A;;0x5;;;BA)(A;;0x1;;;S-1-5-32-573)(A;;0x1;;;S-1-5-20)'"
+  },
+  {
+    "Buggy": "[void]$mailBody.add(\"<p style=\"color:#FF0000\";>Error Adding User ($Username) to Group ($group) </p> `r`n\")",
+    "GroundTruth": "[void]$mailBody.add(\"<p style=`\"color:#FF0000`\";>Error Adding User ($Username) to Group ($group) </p> `r`n\")"
+  },
+  {
+    "Buggy": "$command = \"a.xml b.xml c.xml\" junit-merge $command",
+    "GroundTruth": "$command = \"a.xml\", \"b.xml\", \"c.xml\"; junit-merge $command"
+  },
+  {
+    "Buggy": "$filename = 'filecsv' + (get-date -uformat %Y%m%d) + '.csv' $file = import-csv \\\\fs-01\\daily\\$filename",
+    "GroundTruth": "$filename = 'filecsv' + (get-date -uformat %Y%m%d) + '.csv';$file = import-csv \\\\fs-01\\daily\\$filename"
+  },
+  {
+    "Buggy": "$users = @{abertram = 'Adam Bertram' raquelcer = 'Raquel Cerillo' zheng21 = 'Justin Zheng'}",
+    "GroundTruth": "$users = @{abertram = 'Adam Bertram'; raquelcer = 'Raquel Cerillo'; zheng21 = 'Justin Zheng'}"
+  },
+  {
+    "Buggy": "az storage blob show --container-name <container name> --name training.txt --account-name <account> --sas-token \"spr=https&sv=2018-11-09&si=readpolicy&sr=b&sig=<the signature>\"",
+    "GroundTruth": "az storage blob show --% --container-name <container name> --name training.txt --account-name <account> --sas-token \"spr=https&sv=2018-11-09&si=readpolicy&sr=b&sig=<the signature>\""
+  },
+  {
+    "Buggy": "param([string] $Path, [string] $From, [string] $To) $file_list = \"hg log -R ${Path} -r ${From}:${To} --style fileList\" $file_list",
+    "GroundTruth": "param([string] $Path, [string] $From, [string] $To) $file_list = hg log -R ${Path} -r ${From}`:${To} --style fileList $file_list"
+  },
+  {
+    "Buggy": "Start-Process -FilePath msiexec -ArgumentList /i,<path>,/quiet -PassThru -Wait",
+    "GroundTruth": "Start-Process -FilePath msiexec -ArgumentList /i,'<path>',/quiet -PassThru -Wait"
+  },
+  {
+    "Buggy": "\"BubblePop.exe\" /s /V\"/qn /lie Target=C:\\Users\\amit TARGETDIR=C:\\Users\\amit\"",
+    "GroundTruth": "& \"BubblePop.exe\" /s /V\"/qn /lie Target=C:\\Users\\amit TARGETDIR=C:\\Users\\amit\""
+  },
+  {
+    "Buggy": "gcloud container images list-tags gcr.io/myRepo/myImage --limit=99999 --filter=\"timestamp.datetime.date('%Y-%m-%d,Z') < '2019-06-01'\" --sort-by TIMESTAMP --format='get(digest)",
+    "GroundTruth": "gcloud --% container images list-tags gcr.io/myRepo/myImage --limit=99999 --filter=\"timestamp.datetime.date('%Y-%m-%d,Z') < '2019-06-01'\" --sort-by TIMESTAMP --format='get(digest)'"
+  },
+  {
+    "Buggy": "\"C:\\Program Files\\QGIS 2.18\\bin\\python.exe\" \"C:\\mydata\\myscript.py\"",
+    "GroundTruth": ". \"C:\\Program Files\\QGIS 2.18\\bin\\python.exe\" \"C:\\mydata\\myscript.py\""
+  },
+  {
+    "Buggy": "$funcToCall.Invoke('blah' 'poo')",
+    "GroundTruth": "$funcToCall.Invoke('blah', 'poo')"
+  },
+  {
+    "Buggy": "systeminfo | $env:SystemRoot\\system32\\find.exe \"System Type\"",
+    "GroundTruth": "systeminfo | & $env:SystemRoot\\system32\\find.exe \"System Type\""
+  },
+  {
+    "Buggy": "\"C:\\Program Files (x86)\\Microsoft Visual Studio 12.0\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow\\vstest.console.exe\" C:\\DLL\\Automation_2.dll /Tests:AccessToWire",
+    "GroundTruth": "& \"C:\\Program Files (x86)\\Microsoft Visual Studio 12.0\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow\\vstest.console.exe\" \"C:\\DLL\\Automation_2.dll\" \"/Tests:AccessToWire\""
+  },
+  {
+    "Buggy": "'C:ProgramFiles(x86)\\Microsoft SQL Server\\130\\DAC\\bin\\SqlPackage.exe' /TargetFile:\"<C:\\Temp\\test.dacpac>\" /Action:Extract /SourceServerName:\"<localhost>\" /SourceDatabaseName:\"<MyDataBase>\" /SourceUser:\"<sa>\" /SourcePassword:\"<MyPa55w0d>\"",
+    "GroundTruth": "& \"C:\\Program Files (x86)\\Microsoft SQL Server\\130\\DAC\\bin\\SqlPackage.exe\" /TargetFile:\"<C:\\Temp\\test.dacpac>\" /Action:Extract /SourceServerName:\"<localhost>\" /SourceDatabaseName:\"<MyDataBase>\" /SourceUser:\"<sa>\" /SourcePassword:\"<MyPa55w0d>\""
+  },
+  {
+    "Buggy": "Set-AuthenticodeSignature C:\\xxadmin\\iisbackup.ps1 @ (get-childitem cert:\\CurrentUser\\My -codesigning) [0]",
+    "GroundTruth": "Set-AuthenticodeSignature C:\\xxadmin\\iisbackup.ps1 ` @(get-childitem cert:\\CurrentUser\\My -codesigning)[0]"
+  },
+  {
+    "Buggy": "$binRoot = ($path, Get-BinPath)[$path -eq $null]",
+    "GroundTruth": "$binRoot = ($path, (Get-BinPath))[$path -eq $null]"
+  },
+  {
+    "Buggy": "az storage blob show --container-name <container name> --name training.txt --account-name <account> --sas-token 'spr=https&sv=2018-11-09&si=readpolicy&sr=b&sig=<the signature>'",
+    "GroundTruth": "az storage blob show --% --container-name <container name> --name training.txt --account-name <account> --sas-token \"spr=https&sv=2018-11-09&si=readpolicy&sr=b&sig=<the signature>\""
+  },
+  {
+    "Buggy": "\"C:\\path\\ffmpeg.exe\" -i stuff.mp3 stuff.wav",
+    "GroundTruth": "& \"C:\\path\\ffmpeg.exe\" -i stuff.mp3 stuff.wav"
+  },
+  {
+    "Buggy": "&$coveragTool merge /Source= $TestResult1;$TestResult2 /Output= TestMergeOutput.dcvr",
+    "GroundTruth": "& $coveragTool merge /Source=$TestResult1`;$TestResult2 /Output=TestMergeOutput.dcvr"
+  },
+  {
+    "Buggy": "function Test-Success ($cmdlet){ try{ $cmdlet \"Y\" } catch { \"Err -- Perform manually.\" } } Test-Success(Get-DistributionList)",
+    "GroundTruth": "function Test-Success ($cmdlet){ try{ & $cmdlet \"Y\" } catch { \"Err -- Perform manually.\" } } Test-Success 'Get-DistributionList'"
+  },
+  {
+    "Buggy": "\"C:\\Program Files\\QGIS 2.18\\bin\\python.exe\" C:\\mydata\\myscript.py",
+    "GroundTruth": ". \"C:\\Program Files\\QGIS 2.18\\bin\\python.exe\" \"C:\\mydata\\myscript.py\""
+  },
+  {
+    "Buggy": "New-Object System.Security.Principal.NTAccount(\"Students\") | $_.Translate([System.Security.Principal.SecurityIdentifier]).Value",
+    "GroundTruth": "$(New-Object System.Security.Principal.NTAccount(\"Students\")).Translate([System.Security.Principal.SecurityIdentifier]).Value"
+  },
+  {
+    "Buggy": "sftpc.exe user@ftp.domain.com -pw=password -unat=y -cmd=\"ls \\\"somefile.txt\\\"\"\"",
+    "GroundTruth": "sftpc.exe user@ftp.domain.com -pw=password -unat=y -cmd=\"ls `\"somefile.txt`\"\""
+  },
+  {
+    "Buggy": "curl.exe -k --user abc:xyz -X POST https://myjenkins.com/job/abc/buildWithParameters??token=deploy\\&release_version=2.3.1.0-5-auto2\\&docker_registry=10.0.0.12:8083\\&vcmts_build=vcmts_pi07",
+    "GroundTruth": "curl -k --user 'abc:xyz' -X POST 'https://myjenkins.com/job/abc/buildWithParameters?token=deploy&release_version=2.3.1.0-5-auto2&docker_registry=10.0.0.12:8083&vcmts_build=vcmts_pi07'"
+  },
+  {
+    "Buggy": "sc.exe sdset bits D:(A;;CCLCSWRPWPDTLOCRRC;;;SY)(A;;CCDCLCSWRPWPDTLOCRSDRCWDWO;;;BA)(A;;CCLCSWLOCRRC;;;AU)(A;;CCLCSWRPWPDTLOCRRC;;;PU)",
+    "GroundTruth": "CMD /C \"sc.exe sdset bits D:(A;;CCLCSWRPWPDTLOCRRC;;;SY)(A;;CCDCLCSWRPWPDTLOCRSDRCWDWO;;;BA)(A;;CCLCSWLOCRRC;;;AU)(A;;CCLCSWRPWPDTLOCRRC;;;PU)\""
+  },
+  {
+    "Buggy": "foreach ($Computer in $CompObjToRM) { Get-ADComputer -Identity $Computer | Select Name, DistinguishedName } | Export-CSV C:\\T2\\ServersToRemoveFromAD2.csv -NoTypeInformation",
+    "GroundTruth": "foreach ($Computer in $CompObjToRM) { Get-ADComputer -Identity $Computer | Select Name, DistinguishedName | Export-CSV C:\\T2\\ServersToRemoveFromAD2.csv -Append -NoTypeInformation }"
+  },
+  {
+    "Buggy": ".\\jboss-cli.ps1 --connect --command=\"module add --name=mssql.jdbc --resources=C:/module\\ directory/sqljdbc42.jar",
+    "GroundTruth": ".\\jboss-cli.ps1 --connect --command='module add --name=mssql.jdbc --resources=\\\"C:/module directory/sqljdbc42.jar\\\"'"
+  },
+  {
+    "Buggy": "\"C:\\Program Files\\QGIS 2.18\\bin\\python.exe\" myscript.py",
+    "GroundTruth": ". \"C:\\Program Files\\QGIS 2.18\\bin\\python.exe\" \"myscript.py\""
+  },
+  {
+    "Buggy": "$auth_body =@{ \"workspaces\": [ \"97d03602-4873-4760-b37e-1563ef5358e3\", \"67b7e93a-3fb3-493c-9e41-2c5051008f24\" ] }",
+    "GroundTruth": "$auth_body = @{ \"workspaces\" = @( \"97d03602-4873-4760-b37e-1563ef5358e3\", \"67b7e93a-3fb3-493c-9e41-2c5051008f24\" ) }"
+  },
+  {
+    "Buggy": "$InstallString = \"$InstallLocation\\application.exe\" /install / quiet CID=\"BsDdfi3kj\" Tag=\"CinarCorp\"",
+    "GroundTruth": "$InstallString = \"`\"$InstallLocation\\application.exe`\" /install /quiet CID=`\"BsDdfi3kj`\" Tag=`\"CinarCorp`\"\""
+  },
+  {
+    "Buggy": "start /b /WAIT Powershell.exe -executionpolicy remotesigned -command \"%~dp0runFile.ps1\" %USERNAME% %PASSWORD% %CHOSTNAME% %MODE% %FILENAME%\"",
+    "GroundTruth": "start /b /WAIT Powershell.exe -executionpolicy remotesigned -file \"%~dp0runFile.ps1\" %USERNAME% %PASSWORD% %CHOSTNAME% %MODE% %FILENAME%"
+  },
+  {
+    "Buggy": "powershell.exe \"Import-Module ActiveDirectory;New-ADUser -name \"rr\" -path \"OU=Test,DC=Example,DC=com\"",
+    "GroundTruth": "powershell.exe \"Import-Module ActiveDirectory;New-ADUser -name 'rr' ` -path 'OU=Test,DC=Example,DC=com'\""
+  },
+  {
+    "Buggy": "goapp.exe --string-slice-list \"a\\\"b\",c,d,e",
+    "GroundTruth": "goapp.exe --string-slice-list \\\"a\\\"\\\"b\\\",c,d,e"
+  },
+  {
+    "Buggy": "Import-Module .\\DotNetForPowershell.dll $ArrayOfEmails = (\"test@test.com\", \"@anotheremail.com\", \"em.ail@test.com\" [DotNetForPowershell.Utils.StingTests]::ValidateEmailFormat($ArrayOfEmails)",
+    "GroundTruth": "Import-Module .\\DotNetForPowershell.dll $ArrayOfEmails = (\"test@test.com\", \"@anotheremail.com\", \"em.ail@test.com\") [DotNetForPowershell.Utils.StingTests]::ValidateEmailFormat([System.String[]]$ArrayOfEmails)"
+  },
+  {
+    "Buggy": "SET \"PGPASSWORD=db_pass\" & \"C:\\Program Files (x86)\\PostgreSQL\\9.4\\bin\\psql.exe\" -U postgres -a -d db_name -h localhost -f some.sql",
+    "GroundTruth": "$env:PGPASSWORD='db_pass'; & \"C:\\Program Files (x86)\\PostgreSQL\\9.4\\bin\\psql.exe\" -U postgres -a -d db_name -h localhost -f some.sql"
+  },
+  {
+    "Buggy": "\"$ROBOT_PATH\\robot.bat\" User.robot",
+    "GroundTruth": "& \"${ROBOT_PATH}\\robot.bat\" User.robot"
+  },
+  {
+    "Buggy": "if($item[\"Status\"] eq 'Fully Implemented')",
+    "GroundTruth": "if($item[\"Status\"] -eq 'Fully Implemented') { }"
+  },
+  {
+    "Buggy": "$funcToCall.Invoke 'blah' 'poo'",
+    "GroundTruth": "$funcToCall.Invoke('blah', 'poo')"
+  },
+  {
+    "Buggy": "Import-Module SqlServer\n$newConnectionString = \"Connection Timeout=60;User Id=SOME_NEW_ID;Data Source=10.10.19.10;Persist Security Info=True;Session Character Set=UTF8\" \n$svr = new-Object Microsoft.AnalysisServices.Tabular.Server\n$svr.Connect(\"server1.domain.com\") \n$svr.databases[1].model.datasources[0].ConnectionString = $newConnectionString\n$svr.Databases[1].model.datasources[0].Update(UpdateOptions.ExpandFull)",
+    "GroundTruth": "Import-Module SqlServer\n$newConnectionString = \"Connection Timeout=60;User Id=SOME_NEW_ID;Data Source=10.10.19.10;Persist Security Info=True;Session Character Set=UTF8\"\n$svr = new-Object Microsoft.AnalysisServices.Tabular.Server \n$svr.Connect(\"server1.domain.com\") \n$svr.databases[1].model.datasources[0].ConnectionString = $newConnectionString \n$svr.Databases[1].Update([Microsoft.AnalysisServices.UpdateOptions]::ExpandFull)"
+  },
+  {
+    "Buggy": "Rename-Item -Path '.\\'[Example'] Test File (Servers).xls' -NewName \"Example Test File (Servers).xls\"",
+    "GroundTruth": "Rename-Item -LiteralPath \".\\[Example] Test File (Servers).xls\" -NewName \"Example Test File (Servers).xls\""
+  },
+  {
+    "Buggy": "$logfile = \"x:\\test.log\" try { get-service Add-Content - Path $logfile -Value \"It Worked\" } catch { Add-Content -Path $logfile -Value $_.Exception.Message }",
+    "GroundTruth": "powershell -c $logfile = \\\"x:\\test.log\\\"; try { get-service; Add-Content -Path $logfile -Value \\\"It Worked\\\" } catch { Add-Content -Path $logfile -Value $_.Exception.Message }"
+  },
+  {
+    "Buggy": "$moddeduserdata = (\"{\"Id\":$userid,\"Timestamp\":\"$timestamp\",\"FirstName\":\"$numberout\",\"LastName\":\"$numberout\",\"CallId\":\"$numberout\"}\")",
+    "GroundTruth": "$moddeduserdata = \"{`\"Id`\":$userid,`\"Timestamp`\":`\"$timestamp`\",`\"FirstName`\":`\"$numberout`\",`\"LastName`\":`\"$numberout`\",`\"CallId`\":`\"$numberout`\"}\""
+  },
+  {
+    "Buggy": "(Get-Content $targetFile) | Foreach-Object { $_ -replace \"<add key=\"Path\" value=\"/DEV/Reports\" />\", \"<add key=\"WebReportsPath\" value=\"/QA/Reports\" />\" ` -replace \"<add key=\"EmpReport\" value=\"/DEV/Emp/Reports\" />\", \"<add key=\"EmpReport\" value=\"/QA/Emp/Reports\" />\" ` -replace \"olddatabase\", \"newdatabase\" } | Set-Content $targetFile",
+    "GroundTruth": "(Get-Content $targetFile) | Foreach-Object { $_ -replace [regex]::Escape('<add key=\"Path\" value=\"/DEV/Reports\" />'), '<add key=\"WebReportsPath\" value=\"/QA/Reports\" />' ` -replace [regex]::Escape('<add key=\"EmpReport\" value=\"/DEV/Emp/Reports\" />'), '<add key=\"EmpReport\" value=\"/QA/Emp/Reports\" />' ` -replace \"olddatabase\", \"newdatabase\" } | Set-Content $targetFile"
+  },
+  {
+    "Buggy": "@'\"BubblePop.exe\" /s /V\"/qn Target=C:\\Users\\amit TARGETDIR=C:\\Users\\amit\"'@",
+    "GroundTruth": "& \"BubblePop.exe\" /s /V\"/qn /lie Target=C:\\Users\\amit TARGETDIR=C:\\Users\\amit\""
+  },
+  {
+    "Buggy": "$myArray = folder1, folder2, folder3, myprogram.exe",
+    "GroundTruth": "$myArray = 'folder1', 'folder2', 'folder3', 'myprogram.exe'"
+  },
+  {
+    "Buggy": "c:\\remotetool>Psexec.exe \\\\10.10.10.10 -u demouser1 -p \"secretpassword\" -h net stop spooler && sc config \"spooler\" start= disabled",
+    "GroundTruth": "cmd /c Psexec.exe \\\\10.10.10.10 -u demouser1 -p \"secretpassword\" -h net stop spooler `&`& sc config \"spooler\" start= disabled"
+  },
+  {
+    "Buggy": "$hgAuth = \"--config auth.x.prefix=* --config auth.x.username=$Username --config auth.x.password=$Password --config auth.x.schemes=http",
+    "GroundTruth": "$hgAuth = \"--config\", \"auth.x.prefix=*\", \"--config\", \"auth.x.username=$Username\", \"--config\", \"auth.x.password=$Password\", \"--config\", \"auth.x.schemes=http\""
+  },
+  {
+    "Buggy": "param (\n    [Parameter(Mandatory = $true)][string]$SP_TenantId,\n    [Parameter(Mandatory = $true)][string]$ProjectName,\n)",
+    "GroundTruth": "param (\n    [Parameter(Mandatory = $true)][string]$SP_TenantId,\n    [Parameter(Mandatory = $true)][string]$ProjectName\n)"
+  },
+  {
+    "Buggy": "keytool -exportcert -alias androiddebugkey -keystore \"C:\\Users\\aasal\\.android\\debug.keystore\" | \"C:\\OpenSSL\\bin\\openssl\" sha1 -binary | \"C:\\OpenSSL\\bin\\openssl\" base64",
+    "GroundTruth": "keytool.exe --% -exportcert -alias androiddebugkey -keystore \"C:\\Users\\aasal\\.android\\debug.keystore\" | C:\\OpenSSL\\bin\\openssl.exe --% sha1 -binary | C:\\OpenSSL\\bin\\openssl.exe --% base64"
+  },
+  {
+    "Buggy": "powershell -File script.ps1 folderpath=\"$env:${CI_PROJECT_DIR}\" CommitID=\"$env:${CI_COMMIT_SHORT_SHA}\"",
+    "GroundTruth": "powershell -File script.ps1 -FolderPath \"${CI_PROJECT_DIR}\" -CommitID=\"${CI_COMMIT_SHORT_SHA}\""
+  },
+  {
+    "Buggy": "'C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Professional\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer\\tf.exe' workspace /new C:\\temp\\NewTestBuildProject /noprompt /collection:http://(servername):8080/tfs/defaultcollection",
+    "GroundTruth": "& \"C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Professional\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer\\tf.exe\" workspace /new mytemp /noprompt /collection:http://(server):8080/tfs/defaultcollection"
+  },
+  {
+    "Buggy": "Param([cmdletbinding(DefaultParametersetname=\"Directory\")] [Parameter(Mandatory=$false,ParameterSetName=\"File\")] [switch]$file, [Parameter(Mandatory=$false,ParameterSetName=\"Directory\")] [switch]$directory, [Parameter(Mandatory=$false,ParameterSetName=\"File\")] [Parameter(Mandatory=$false,ParameterSetName=\"Directory\")] [string]$Source, [Parameter(Mandatory=$true,ParameterSetName=\"File\")] [Parameter(Mandatory=$true,ParameterSetName=\"Directory\")] [string]$DestinationPath, [Parameter(Mandatory=$false,ParameterSetName=\"Directory\")] [Parameter(Mandatory=$false,ParameterSetName=\"File\")] [array]$Servers",
+    "GroundTruth": "[CmdletBinding(DefaultParametersetname=\"Directory\")] Param( [Parameter(Mandatory=$false,ParameterSetName=\"File\")] [switch]$file, [Parameter(Mandatory=$false,ParameterSetName=\"Directory\")] [switch]$directory, [Parameter(Mandatory=$false,ParameterSetName=\"File\")] [Parameter(Mandatory=$false,ParameterSetName=\"Directory\")] [string]$Source, [Parameter(Mandatory=$true,ParameterSetName=\"File\")] [Parameter(Mandatory=$true,ParameterSetName=\"Directory\")] [string]$DestinationPath, [Parameter(Mandatory=$false,ParameterSetName=\"Directory\")] [Parameter(Mandatory=$false,ParameterSetName=\"File\")] [array]$Servers )"
+  },
+  {
+    "Buggy": "a foo(foo; bar) foo/bar ver1.0",
+    "GroundTruth": "a 'foo(foo; bar) foo/bar ver1.0'"
+  },
+  {
+    "Buggy": "(Get-Content hist3.txt) | ForEach-Object { $_.split(\" \",2)[0]} | ForEach-Object { $rgbArray = @($_)} | for( $i = 0; $i -le $rgbArray.length - 1; $i++ ) {$rgbArray[$i]}",
+    "GroundTruth": "(Get-Content 'hist3.txt' )  |  ForEach-Object { $_.split(\" \",2)[0]} |  ForEach-Object { $rgbArray = @($_); for( $i = 0; $i -le $rgbArray.length - 1; $i++ ) {$rgbArray[$i]}}"
+  },
+  {
+    "Buggy": "\"C:\\backup_win.py \" -p \"QX+qos5eu1D36&kB\" -f \"D:\\pgbackups\\torwpinf002_postgresdb_bk_20160715_1050.bak\"",
+    "GroundTruth": "& python.exe C:\\backup_win.py -p \"QX+qos5eu1D36&kB\" -f D:\\pgbackups\\torwpinf002_postgresdb_bk_20160715_1058.bak"
+  },
+  {
+    "Buggy": "$codegenDir = \"Z:\\Desktop\\Song-Renamer\" $PowerShellRepresentation = dir -path $MyMusicFolder -recurse -include *.mp3,*.m4a,*.wma,*.flac,*.ape | select -ExpandProperty FullName | $codegenDir\\codegen.exe -s 10 20 | Out-String | ConvertFrom-Json",
+    "GroundTruth": "$PowerShellRepresentation = dir -path $MyMusicFolder -recurse -include *.mp3,*.m4a,*.wma,*.flac,*.ape | select -ExpandProperty FullName | & $codegenDir\\codegen.exe -s 10 20 | Out-String | ConvertFrom-Json"
+  },
+  {
+    "Buggy": "Invoke-RestMethod 'https://graph.microsoft.com/beta/identityGovernance/entitlementManagement/accessPackageAssignmentRequests' -Method POST -ContentType 'application/json' -Body @{ \"requestType\": \"AdminAdd\", \"accessPackageAssignment\":{ \"targetId\":\"xxx\", \"assignmentPolicyId\":\"xxx\", \"accessPackageId\":\"xxx\" } }",
+    "GroundTruth": "Invoke-RestMethod 'https://graph.microsoft.com/beta/identityGovernance/entitlementManagement/accessPackageAssignmentRequests' -Method POST -ContentType 'application/json' -Body @{ requestType = \"AdminAdd\"; accessPackageAssignment = { targetId = \"xxx\"; assignmentPolicyId = \"xxx\"; accessPackageId = \"xxx\" } }"
+  },
+  {
+    "Buggy": "$computer = Get-ADComputer -properties OperatingSystem -filter {(operatingsystem -match \"*Windows 7*|*Windows 8*|*Windows 10*\")} |",
+    "GroundTruth": "$computer = Get-ADComputer -properties OperatingSystem -Filter * ` | Where-Object {$_.operatingsystem -match \"*Windows 7*|*Windows 8*|*Windows 10*\"}"
+  },
+  {
+    "Buggy": "powershell invoke-command -scr {(get-content c:\\tmp\\test.txt) | (foreach-object {$_ -replace \"MYID\", \"MyValue\"}) | (set-content c:\\tmp\\test.txt)}",
+    "GroundTruth": "powershell -command \"(get-content c:\\tmp\\test.txt) | foreach-object { $_ -replace 'MYID', 'MyValue' } | set-content c:\\tmp\\test.txt\""
+  },
+  {
+    "Buggy": "$clusterNodes = Get-ClusterNode | select Name ForEach($item in $clusterNodes) {Get-VM -ComputerName $item}",
+    "GroundTruth": "$clusterNodes = Get-ClusterNode; ForEach($item in $clusterNodes) {Get-VM -ComputerName $item.Name; }"
+  },
+  {
+    "Buggy": "$text = \"Hello\",\"World\" [IO.File]::AppendAllLines( \"C:\\test.txt\", $text, [Text.Encoding]::Default )",
+    "GroundTruth": "[string[]]$text = \"Hello\",\"World\" \n # or \n[IO.File]::AppendAllLines( \"C:\\test.txt\", [string[]]$text, [Text.Encoding]::Default )"
+  },
+  {
+    "Buggy": "Get-VM \"VM Name\" | %{ Stop-VM -VM $_ -Force; Remove-VM -VM $_ -Force; Remove-Item -Path $_.Path -Recurse -Force",
+    "GroundTruth": "Get-VM \"VM Name\" | %{Stop-VM -VM $_ -Force;Remove-VMSnapshot -vm $_;Remove-VM -VM $_ -Force;Remove-Item -Path $_.Path -Recurse -Force;}"
+  },
+  {
+    "Buggy": "\nImport-Module ActiveDirectory\n\n$str = $args\n\n$str1 = $str.Replace(\"\"\", \"\")\n$array1 = $str1.split(\",\")\n$array_length = $array1.Length\n$user_id = $array1[0]\n$unremoved_Ad = @($array_length - 1)\n\nfor($i = 1; $i -lt $array_length; $i++) {\n    Write-Host \"$($user_id) - $($array1[$i])\"\n\n    try {\n        #Remove-ADGroupMember -Identity $array[$i] -Member $user_id -Confirm:$false\n    } catch {\n        $unremoved_Ad = $unremoved_Ad + $array[$i]\n\n        if($i -ne ($array_length - 1)) {\n            $unremoved_Ad = $unremoved_Ad\n        }\n    }\n}\nWrite-Host $unremoved_Ad\n",
+    "GroundTruth": "\nImport-Module ActiveDirectory\n\n$str = $args\n\n$str1 = $str.Replace('\"', \"\")\n$array1 = $str1.split(\",\")\n$array_length = $array1.Length\n$user_id = $array1[0]\n$unremoved_Ad = @($array_length - 1)\n\n\nfor($i = 1; $i -lt $array_length; $i++) {\n    Write-Host \"$($user_id) - $($array1[$i])\"\n\n    try {\n        #Remove-ADGroupMember -Identity $array[$i] -Member $user_id -Confirm:$false\n    } catch {\n        $unremoved_Ad = $unremoved_Ad + $array[$i]\n\n        if($i -ne ($array_length - 1)) \n        {\n            $unremoved_Ad = $unremoved_Ad\n        }\n    }\n}                \nWrite-Host $unremoved_Ad\n"
+  },
+  {
+    "Buggy": "$convertcmd=\"convert $dir\\tmpI.mpc `(-clone 0 $process `)`(-clone 0 -channel $color2 -separate -threshold $high% $tapering `) -compose over -composite `\"$outfile`\"\" Invoke-Expression -Command $convertcmd",
+    "GroundTruth": "$convertcmd=\"convert $dir\\tmpI.mpc ``(-clone 0 $process ``)``(-clone 0 -channel $color2 -separate -threshold $high% $tapering ``) -compose over -composite `\"$outfile`\"\""
+  },
+  {
+    "Buggy": "$domain= (gwmi WIN32_ComputerSystem).Domain -ComputerName $machinename",
+    "GroundTruth": "$domain = (gwmi WIN32_ComputerSystem -ComputerName $machinename).Domain"
+  },
+  {
+    "Buggy": "$ExcludedOU = \"Service Accounts\" $inactiveUsers = Get-QADUser -SizeLimit 3 -SearchRoot $sourceOu -NotLoggedOnFor $InactiveFor -Enabled | Where-Object {$_.description -notlike $DescriptionPrefix -and @{n=\"ParentContainerDN\";e={($_.ParentContainerDN -split \",*..=\")[0]}} -notlike $ExcludedOU }",
+    "GroundTruth": "$inactiveUsers = Get-QADUser -SizeLimit 3 -SearchRoot $sourceOu -NotLoggedOnFor $InactiveFor -Enabled | Where-Object {$_.description -notlike $DescriptionPrefix -and ($_.ParentContainerDN -split \",*..=\")[1] -notlike $ExcludedOU}"
+  },
+  {
+    "Buggy": "$BinaryPath=\"$PSScriptRoot\\Binaries\" $proc = Start-Process \"$BinaryPath\\Ketarin\\Ketarin.exe\" -NoNewWindow -PassThru $proc.WaitForExit()",
+    "GroundTruth": "$BinaryPath=Join-Path (Split-Path $PSScriptRoot) -ChildPath Binaries $proc = Start-Process \"$BinaryPath\\Ketarin\\Ketarin.exe\" -NoNewWindow -PassThru $proc.WaitForExit()"
+  },
+  {
+    "Buggy": "$myRegex = \"^param[\\s?]*\\([\\$\\sa-zA-Z\\=\\@\\(\\)\\\"\\d\\,\\:\\\\\\_\\.\\']*\\)\"",
+    "GroundTruth": "$myRegex = \"^param\\s*\\([$\\sa-zA-Z=@()`\"\\d,:\\\\_.']*\\)\""
+  },
+  {
+    "Buggy": "$command = @' & cmd.exe \"\"C:\\Program Files\\VeraCrypt\\VeraCrypt Format-x86.exe\" /create \"C:\\test veracrypt file.hc\" /password alongpasswordisagoodpassword /hash sha512 /encryption serpent /filesystem NTFS /size 100G /dynamic /force /silent\" '@ Invoke-Expression -Command:$command",
+    "GroundTruth": "& \"C:\\Program Files\\VeraCrypt\\VeraCrypt Format-x86.exe\" /create \"C:\\test veracrypt file.hc\" /password alongpasswordisagoodpassword /hash sha512 /encryption serpent /filesystem NTFS /size 100G /dynamic /force /silent"
+  },
+  {
+    "Buggy": "function IterateThroughMachineSubkeys{ ( [Parameter()] [string]$machine, [Microsoft.Win32.RegistryKey]$subKey ) foreach($subKeyName in $subKey.GetSubKeyNames()) { Write-Host -Object ([System.String]::Format(\"Machine: {0} Module: {1} Version: {2}\", $machine.ToString(), $subKeyName.ToString(), $subKey.OpenSubKey([string]$subKeyName).GetValue(\"Version\", \"Not found\", [Microsoft.Win32.RegistryValueOptions]::None))) } }",
+    "GroundTruth": "function IterateThroughMachineSubkeys([string]$machine, [Microsoft.Win32.RegistryKey]$subKey) { foreach($subKeyName in $subKey.GetSubKeyNames()) { Write-Host -Object ([System.String]::Format(\"Machine: {0} Module: {1} Version: {2}\", $machine.ToString(), $subKeyName.ToString(), $subKey.OpenSubKey([string]$subKeyName).GetValue(\"Version\", \"Not found\", [Microsoft.Win32.RegistryValueOptions]::None))) } } $testKey = get-item \"HKCU:\\Software\" IterateThroughMachineSubkeys -machine . -subKey $testKey"
+  },
+  {
+    "Buggy": "$object=New-Object System.Object $object|Add-Member -MemberType ScriptMethod -Name ScriptedMethod -Value {$input|foreach{\"Got \"+$_}} 1,2,3|$object.ScriptedMethod",
+    "GroundTruth": "$object = New-Object System.Object $object | Add-Member -MemberType NoteProperty -Name Script -Value {$input|foreach{\"Got \"+$_}} 1,2,3 | & $object.Script"
+  },
+  {
+    "Buggy": "$funcToCall('blah' 'poo')",
+    "GroundTruth": "$funcToCall.Invoke('blah', 'poo')"
+  },
+  {
+    "Buggy": "CMD if (-not ([string]::IsNullOrEmpty(env:UPDATE_FROM_GITHUB))) { \\ Write-Host Git pull started; \\ PortableGit\\bin\\git.exe pull; \\ }; \\",
+    "GroundTruth": "CMD if ($env:UPDATE_FROM_GITHUB) { \\ Write-Host Git pull started; \\ PortableGit\\bin\\git.exe pull; \\ }; \\"
+  },
+  {
+    "Buggy": "$funcToCall.Invoke(\"blah\" \"poo\")",
+    "GroundTruth": "$funcToCall.Invoke('blah', 'poo')"
+  },
+  {
+    "Buggy": "Get-ADGroupMember <GroupName> -Property members",
+    "GroundTruth": "Get-ADGroup groupname -Property members"
+  },
+  {
+    "Buggy": "Powershell (Get-Content -Raw allactsconv.txt) \"-replace '~~~~~', \"[\\r\\n]\" | Out-File -FilePath allactsconv.txt -Force -Encoding ascii\"",
+    "GroundTruth": "Powershell -NoProfile \"(Get-Content -Raw '.\\allactsconv.txt') -Replace '~~~~~', '[`r`n]' | Out-File -FilePath '.\\allactsconv.txt' -Force -Encoding ASCII\""
+  },
+  {
+    "Buggy": "$Users=Get-Content \"C:\\Project\\NewUSers\\FirstBatch.txt\" $UserInfo = foreach($User in $Users) { Get-ADUser $User -properties DisplayName,PasswordLastSet,whencreated | Select-Object -ExpandProperty DisplayName,PasswordLastSet,WhenCreated } $UserInfo",
+    "GroundTruth": "$Users=Get-Content \"C:\\Project\\NewUSers\\FirstBatch.txt\" $UserInfo = $Users | foreach-object {Get-ADUser $_ -properties DisplayName,PasswordLastSet,whencreated} | Select DisplayName, PasswordLastSet, WhenCreated $UserInfo"
+  },
+  {
+    "Buggy": "retval = Shell(\"powershell -ExecutionPolicy UnRestricted -File \"\"Environ(\"USERPROFILE\")\" & \"\\Desktop\\open\\file_merge.ps1\"\"\", 1)",
+    "GroundTruth": "retval = Shell(\"powershell -ExecutionPolicy Unrestricted -File \"\"%USERPROFILE%\\Desktop\\open\\file_merge.ps1\"\"\", 1)"
+  },
+  {
+    "Buggy": "Get-Child-Item \"\\\\$serverName\\d$\\mposlogs\\device\" | where {$_.PSIsContainer} | Sort CreationTime -Descending | Select -Skip 1 | Select -First 1 | ForEach-Object { Rename-Item -Path $_.FullName -NewName ( \"$serverName\" + \"\" + $.Name ) ; Copy-Item ( \"$serverName\" + \"\" + $.Name ) -Destination \"\\\\$reportServer\\c$\\temp\\mpos\\logs\" }",
+    "GroundTruth": "Get-ChildItem \"\\\\$serverName\\d$\\mposlogs\\device\" | where {$_.PSIsContainer} | Sort CreationTime -Descending | Select -Skip 1 | Select -First 1 | ForEach-Object { Rename-Item -Path $_.FullName -NewName ( \"$serverName\" + \"_\" + $_.Name ) -PassThru | Copy-Item -Destination \"\\\\$reportServer\\c$\\temp\\mpos\\logs\" }"
+  },
+  {
+    "Buggy": "mysql -u root -p --database=database < Backup.sql",
+    "GroundTruth": "& cmd /c \"mysql.exe -u root -p --database=database < Backup.sql\""
+  },
+  {
+    "Buggy": "Get-NetIpAddress | where { $_.Interfaceindex -EQ 2 -and $_.AddressFamily -EQ IPv4 }",
+    "GroundTruth": "Get-NetIpAddress | Where-Object {($_.Interfaceindex -eq \"2\") -and ($_.AddressFamily -eq \"IPv4\")}"
+  },
+  {
+    "Buggy": "Get-Content -Path \"~\\filepath\\debug.log\"-Wait | Select-String \"String 1\" {if (notcontain (select-string \"String 2\"))}",
+    "GroundTruth": "Get-Content -Path \"~\\filepath\\debug.log\" -Wait | Select-String \"String 1\" | Select-String \"String 2\" -NotMatch"
+  },
+  {
+    "Buggy": "Import-Csv -Delimiter `t E:\\Server_Data\\Unstructured\\DCDOR\\DCDOR_2015_07.txt | Select-Object business_format_date,business_time,room,guest_full_name,trx_code,trx_desc,currency1,cashier_debit,cashier_credit,@{Name=\"Derived\"; Expression={$_.Reference.Substring(0,if($_.Reference.Length -lt 800) {$_.Reference.Length} else {800)}}; | Export-CSV -Delimiter `t E:\\Server_Data\\Unstructured\\DCDOR\\DCDOR_2015_07_Target.txt;",
+    "GroundTruth": "Import-Csv -Delimiter '`t' 'E:\\Server_Data\\Unstructured\\DCDOR\\DCDOR_2015_07.txt' | Select-Object business_format_date, business_time, room,guest_full_name, trx_code, trx_desc, currency1, cashier_debit, cashier_credit, @{Name=\"Derived\"; Expression={ $_.Reference.Substring(0, [System.Math]::Min(800, $_.Reference.Length)) }} | Export-CSV -Delimiter '`t' 'E:\\Server_Data\\Unstructured\\DCDOR\\DCDOR_2015_07_Target.txt'"
+  },
+  {
+    "Buggy": "PowerShell -NoProfile -ExecutionPolicy Bypass -Command \"& {Start-Process PowerShell -ArgumentList '-NoProfile -ExecutionPolicy Bypass -File \"D:\\z_Batchs e Scripts\\Batchs\\Normaliza_LUFS\\ArqsNorms_LUFS_pass.ps1' '%_vLUF%' -Verb RunAs}\"",
+    "GroundTruth": "powershell -NoProfile -ExecutionPolicy Bypass -Command \"Start-Process -Verb RunAs powershell -ArgumentList '-NoProfile -ExecutionPolicy Bypass -File \\\"D:\\z_Batchs e Scripts\\Batchs\\Normaliza_LUFS\\ArqsNorms_LUFS_pass.ps1\\\" -_vLUF %_vLUF%'\""
+  },
+  {
+    "Buggy": "FROM mcr.microsoft.com/windows/servercore:ltsc2022 SHELL [\"powershell\", \"-Command\", \"$ErrorActionPreference = 'Stop';\"] RUN Invoke-WebRequest \\ -Uri https://aka.ms/vs/17/release/vs_buildtools.exe \\ -OutFile vs_buildtools.exe; \\ .\\vs_buildtools.exe --nocache --norestart --quiet --wait \\ --add Microsoft.VisualStudio.Component.VC.Tools.x86.x64 \\ --add Microsoft.VisualStudio.Component.Windows10SDK.19041; \\ Remove-Item -Path vs_buildtools.exe",
+    "GroundTruth": "RUN Invoke-WebRequest \\ -Uri https://aka.ms/vs/17/release/vs_buildtools.exe \\ -OutFile vs_buildtools.exe; \\ cmd /c \"vs_buildtools.exe --nocache --norestart --quiet --wait \\ --add Microsoft.VisualStudio.Component.VC.Tools.x86.x64 \\ --add Microsoft.VisualStudio.Component.Windows10SDK.19041\"; \\ Remove-Item -Path vs_buildtools.exe"
+  },
+  {
+    "Buggy": "PowerShell -NoExit -Command \"Start-Process powershell -verb runas -ArgumentList \\\"-NoExit -Command (Get-Content 'C:\\ProgramData\\MySQL\\MySQL Server 5.7\\my.ini') | ForEach-Object {{ $_ -replace \\\"\"max_connections=[0-9]+$\\\"\", \\\"\"max_connections=10000\\\"\" } | Set-Content 'C:\\ProgramData\\MySQL\\MySQL Server 5.7\\my.ini' -\\\"\"",
+    "GroundTruth": "PowerShell -NoExit -Command {(Get-Content 'C:\\ProgramData\\MySQL\\MySQL Server 5.7\\my.ini') | ForEach-Object { $_ -replace \"max_connections=[0-9]+$\", \"max_connections=10000\" } | Set-Content 'C:\\ProgramData\\MySQL\\MySQL Server 5.7\\my.ini'}"
+  },
+  {
+    "Buggy": "try{ $ErrorActionPreference = \"Stop\" aws ecr describe-repositories --repository-names \"some-project\" } catch { aws ecr create-repository --repository-name \"some-project\" }",
+    "GroundTruth": "aws ecr describe-repositories --repository-names \"some-project\" if ($LastExitCode) { aws ecr create-repository --repository-name \"some-project\" }"
+  },
+  {
+    "Buggy": "$NewUserPassword = Read-Host -assecurestring \"Please enter New Run time user password\" $NewUserPassword=$NewUserPassword.Trim() If ( ($NewUserPassword -eq $null) -or ($NewUserPassword -eq \"\") ){ Write-Warning \"Please enter valid password. Script execution is stopped\" Exit }",
+    "GroundTruth": "$NewUserPassword = Read-Host -assecurestring \"Please enter New Run time user password\" If ($NewUserPassword.Length -eq 0){ Write-Warning \"Please enter valid password. Script execution is stopped\" Exit }"
+  },
+  {
+    "Buggy": "foreach($vm in (get-vm)){ if (Get-NetworkAdapter -vm $vm.name |?{$_.NetworkName -eq \"vlan13_VM\"}){$vm.name} | export-csv -path c:\\scripts\\vlans.csv -NoTypeInformation }",
+    "GroundTruth": "foreach ( $vm in (Get-VM) ) { if ( (Get-NetworkAdapter -vm $vm.name).NetworkName -eq \"vlan13_VM\" ) {$vm.name | out-file c:\\scripts\\vlans.csv -Append} }"
+  },
+  {
+    "Buggy": "$csv = Import-Csv c:\\export.csv Foreach ($line in $csv){ $inc = $i++ mkdir $inc Copy-Item -Path $_.FileLocation -destination c:\\users\\bford.$inc -Recurse }",
+    "GroundTruth": "Import-Csv c:\\export.csv | ForEach-Object { mkdir ($inc = $i++); Copy-Item -Path $_.FileLocation -destination c:\\users\\bford.$inc -Recurse }"
+  },
+  {
+    "Buggy": "Function Trainee-Admin { param($groups = import-csv C:\\Users\\administrator\\Desktop\\Powershell\\Scripts\\TraineeAdmin\\groups.csv) $groups } Trainee-Admin",
+    "GroundTruth": "Function Trainee-Admin { param($groups) write-host $groups } $groups = import-csv -path \"C:\\Users\\administrator\\Desktop\\Powershell\\Scripts\\TraineeAdmin\\groups.csv\" Trainee-Admin -groups $groups"
+  },
+  {
+    "Buggy": "heroku config:set SECRET_KEY=eoik6-&dnr9elgmrt7-%3hu_&37$3hg!9c6x!^khjr3!z*z&b4",
+    "GroundTruth": "& 'heroku' @('config:set', 'SECRET_KEY=eoik6-\"&\"dnr9elgmrt7-%3hu_\"&\"37$3hg!9c6x!^khjr3!z*z\"&\"b4')"
+  },
+  {
+    "Buggy": "$body = @{ \"definition\": { \"id\":1 } }",
+    "GroundTruth": "$body = @{ definition = @{id = 1} }"
+  },
+  {
+    "Buggy": "Install-Package -Name 'MailKit' -Source 'nuget.org",
+    "GroundTruth": "Install-Package -Name \"MailKit\" -Source nuget.org -SkipDependencies"
+  },
+  {
+    "Buggy": "$appCmdCommand2 = [string]::Format( {\"appcmd.exe set config -section:system.applicationHost/sites /+\"[name='Default Web Site'].[path='/'].[path='/MyWebsite/dev',physicalPath='{0}']\" /commit:apphost\"},$folderName)",
+    "GroundTruth": "[string]::Format(\"appcmd.exe set config -section:system.applicationHost/sites /+`\"[name='Default Web Site'].[path='/'].[path='/MyWebsite/dev',physicalPath='{0}']`\" /commit:apphost\",$folderName)"
+  },
+  {
+    "Buggy": " $DateStamp = get-date -uformat \"%Y%m%d\" $files = @(get-childitem C:\\PowershellTesting\\FolderTwo\\*.csv) foreach ($file in $files) { get-childitem | rename-item $file -NewName {\"CompanyName\" + $DateStamp + \".csv\"}}",
+    "GroundTruth": "$DateStamp = get-date -uformat \"%Y%m%d\" Get-ChildItem \"C:\\PowershellTesting\\FolderTwo\\*.csv\" | Rename-Item -NewName {\"CompanyName\" + $DateStamp + \".csv\"}"
+  },
+  {
+    "Buggy": "start cmd /k powershell -Command \"(New-Object Net.WebClient).DownloadFile('https://www.python.org/ftp/python/3.6.2/python-3.6.2.exe', 'C:/Tools/python-3.6.2.exe')\" && c:\\Tools\\python-3.6.2.exe /quiet InstallAllUsers=1 PrependPath=1 Include_test=0 TargetDir=c:\\Tools\\Python362 && setx path \"%PATH%;C:\\Tools\\Python362\\\" /M",
+    "GroundTruth": "powershell -command \"(New-Object Net.WebClient).DownloadFile('https://www.python.org/ftp/python/3.6.2/python-3.6.2.exe', 'C:/Tools/python-3.6.2.exe'); & c:\\Tools\\python-3.6.2.exe /quiet InstallAllUsers=1 PrependPath=1 Include_test=0 TargetDir=c:\\Tools\\Python362; [Environment]::SetEnvironmentVariable('PATH', ${env:path} + ';C:\\Tools\\Python362', 'Machine')\""
+  },
+  {
+    "Buggy": "powershell.exe -Command \"Start-Process -Verb RunAs -FilePath cmd.exe -Args /C, '\\\"takeown.exe /F \"C:\\Users\\WobbyChip\\Desktop\\New folder\" /R /D Y & icacls.exe \"C:\\Users\\WobbyChip\\Desktop\\New folder\" /grant Everyone:F /T\\\"'\"",
+    "GroundTruth": "powershell.exe -Command Start-Process -Verb RunAs cmd.exe -Args /C, 'takeown.exe /F \\\"C:\\Users\\WobbyChip\\Desktop\\New folder\\\" /R /D Y \"&\" icacls.exe \\\"C:\\Users\\WobbyChip\\Desktop\\New folder\\\" /grant Everyone:F /T'"
+  },
+  {
+    "Buggy": "$userIDs = Import-CSV \"C:\\Users_.csv\" foreach($userID in $userIDs) { Get-ADUser -Filter \"EmployeeID -eq $($userID.EmployeeID)\" -Properties SAMAccountName } Export-CSV \"C:\\UserResults.csv\" -NoTypeInformation -Encoding UTF8",
+    "GroundTruth": "Import-CSV \"C:\\Users_.csv\" | ForEach-Object { Get-ADUser -Filter \"EmployeeID -eq $($_.EmployeeID)\" } | Export-CSV \"C:\\UserResults.csv\" -NoTypeInformation -Encoding UTF8"
+  },
+  {
+    "Buggy": "$Base = (Get-ADOrganizationalUnit -Filter {(Name -like \"Department\")}).DistinguishedName Get-ADUser -Filter * -SearchBase $Base -Properties Name",
+    "GroundTruth": "Get-ADOrganizationalUnit -Filter {(Name -like \"Department\")} | ForEach { Get-ADUser -Filter * -SearchBase $_.DistinguishedName -Properties Name }"
+  },
+  {
+    "Buggy": "Clear-Host $Elementos =Get-WmiObject Win32_Battery -namespace 'root\\CIMV2' foreach ($Elemento in $Elementos) { $Elemento.BatteryStatus $Elemento.EstimatedChargeRemaining $Elemento.EstimatedRunTime} >C:\\temp\\Prueba.txt",
+    "GroundTruth": "Clear-Host $Elementos =Get-WmiObject Win32_Battery -namespace 'root\\CIMV2' $Elementos | Select BatteryStatus,EstimatedChargeRemaining,EstimatedRunTime | Export-CSV C:\\Temp\\Prueba.txt -notype"
+  },
+  {
+    "Buggy": "([DateTime]\"2015.08.24 09:10\") -UFormat %s",
+    "GroundTruth": "Get-Date '2015.08.24 09:10' -UFormat %s"
+  },
+  {
+    "Buggy": "Split-Path -Parent -Path $dte.Solution.FullName | ' Get-ChildItem -Include @(\"*.cs\") -Recurse | ' %{ $dte.ExecuteCommand(\"Project.AddExistingItem\", $_.FullName) }",
+    "GroundTruth": "Split-Path -Parent -Path $dte.Solution.FullName | ` Get-ChildItem -Include @(\"*.cs\") -Recurse | ` Select-Object FullName | ` %{ $dte.Application.ItemOperations.AddExistingItem($_.FullName) }"
+  },
+  {
+    "Buggy": "param( $Servers = get-content -Path \"Servers.txt\" ForEach($Server in $Servers) { $instance = $Server} )",
+    "GroundTruth": "param( $Servers = (get-content -Path \"Servers.txt\") ) ForEach($server in $Servers) { $instance = $server }"
+  },
+  {
+    "Buggy": "$start = [System.DateTime]::Now.AddMonths(-1) $end = [System.DateTime]::Now.AddMonths(1) $cloudConfigSas = New-AzStorageBlobSASToken -Container \"myContainer\" -Blob \"myBlob\" -Permission \"rwd\" -Protocol HttpsOnly -StartTime $start -ExpiryTime $end -FullUri -Context $storageContext",
+    "GroundTruth": "$storageContext = New-AzStorageContext -StorageAccountName storageaccount -StorageAccountKey 4i41SDZ3xxxxxxZJYA== $start = [System.DateTime]::Now.AddMonths(-1) $end = [System.DateTime]::Now.AddMonths(1) $cloudConfigSas = New-AzStorageBlobSASToken -Container \"test1\" -Blob \"batch.json\" -Permission \"rwd\" -Protocol HttpsOnly -StartTime $start -ExpiryTime $end -FullUri -Context $storageContext"
+  },
+  {
+    "Buggy": "[System.Math]::Sqrt (9)",
+    "GroundTruth": "[System.Math]::Sqrt(9)"
+  },
+  {
+    "Buggy": "[string]$SqlPackagePath = \"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Enterprise\\Common7\\IDE\\Extensions\\Microsoft\\SQLDB\\DAC\\150\\SqlPackage.exe\"\n[int]$ErrorCount = 0\n$DatabaseNames | ForEach-Object -Parallel {\n    \n    echo \"$_ - Updating database using DACPAC.\"\n    \n    dir -Path \"C:\\Program Files (x86)\\Microsoft Visual Studio*\" -Filter \"SqlPackage.exe\" -Recurse -ErrorAction SilentlyContinue | %{$_.FullName} {$using:SqlPackagePath /Action:Publish /tu:$using:DatabaseUsername /tp:$using:DatabasePassword /tsn:$using:ServerInstance /tdn:\"$_\" /sf:using:$DacpacLocation /p:BlockOnPossibleDataLoss=False}\n        \n  }",
+    "GroundTruth": "[string]$SqlPackagePath = \"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Enterprise\\Common7\\IDE\\Extensions\\Microsoft\\SQLDB\\DAC\\150\\SqlPackage.exe\"\n[int]$ErrorCount = 0\n$DatabaseNames | ForEach-Object -Parallel {\n    \n    echo \"$_ - Updating database using DACPAC.\"\n\n    $sqlPackageExe = dir -Path \"C:\\Program Files (x86)\\Microsoft Visual Studio*\" -Filter \"SqlPackage.exe\" -Recurse -ErrorAction SilentlyContinue | Select -First 1\n    & $sqlPackageExe /Action:Publish /tu:$using:DatabaseUsername /tp:$using:DatabasePassword /tsn:$using:ServerInstance /tdn:\"$_\" /sf:$using:DacpacLocation /p:BlockOnPossibleDataLoss=False        \n}"
+  },
+  {
+    "Buggy": "$path = \"C:\\AD\"\n$filename \"Test.zip\"\n\nExpand-Archive -Path $path\\$filename -DestinationPath $path\\$filename.split('.')[0]",
+    "GroundTruth": "$path = \"C:\\AD\"\n$filename=\"Test.zip\"\n\nExpand-Archive -Path \"$path$filename\" -DestinationPath \"$path$filename\".split('.')[0]\n"
+  },
+  {
+    "Buggy": "$folder = 'c:\\test'\n\"c:\\test\" -replace $folder \"\"",
+    "GroundTruth": "$folder = 'c:\test'\n$folder -replace \"test\",\"\""
+  },
+  {
+    "Buggy": "$timeout = new-timespan -Minutes 10\n$file = \"C:\\Users\\i859241\\Desktop\\resultilz.xlsx\"\n$sheetName = \"UNO\"\n\n$objExcel = New-Object -ComObject Excel.Application\n$workbook = $objExcel.Workbooks.Open($file)\n$sheet = $workbook.Worksheets.Item($sheetName)\n$objExcel.Visible=$false\n\n$i=0\n$rowStartTime,$colStartTime = 2,1\n$rowCPULoad,$colCPULoad = 2,2\n$rowpctFree,$colpctFree = 2,3\n\n$sw = [diagnostics.stopwatch]::StartNew()\nGet-WmiObject -Class Win32_logicaldisk\nwhile ($sw.elapsed -lt $timeout){\n\n    $StartTime = Get-Date\n    $os = Get-Ciminstance Win32_OperatingSystem\n    $CpuLoad = (Get-WmiObject win32_processor | Measure-Object - \n    property LoadPercentage -Average | Select Average ).Average\n    pctFree =[math]::Round(($os.FreePhysicalMemory/$os.TotalVisibleMemorySize)*100,2)\n\n\n    Write-Host $StartTime, $pctFree, $CpuLoad\n\n    $sheet.Cells.Item($rowStartTime+$i,$colStartTime).value = $StartTime\n    $sheet.Cells.Item($rowCPULoad+$i,$colCPULoad).value = $CPULoad\n    $sheet.Cells.Item($rowpctFree+$i,$colpctFree).value = $pctFree\n\n    start-sleep -seconds 2\n}\nwrite-host \"Timed\"\n$workbook.save()\n$workbook.close()\n$objExcel.quit()\n[System.Runtime.Interopservices.Marshal]::ReleaseComObject($objExcel)\nStop-Process -Name EXCEL -Force",
+    "GroundTruth": "$timeout = new-timespan -Minutes 10\n$file = \"C:\\Temp\\resultilz.xlsx\"\n$sheetName = \"UNO\"\n\n$objExcel = New-Object -ComObject Excel.Application\n$workbook = $objExcel.Workbooks.Open($file)\n$sheet = $workbook.Worksheets.Item($sheetName)\n$objExcel.Visible=$false\n$row=1\n\n$sw = [diagnostics.stopwatch]::StartNew()\n\nwhile ($sw.elapsed -lt $timeout){\n\n    $StartTime = Get-Date\n    $os = Get-Ciminstance Win32_OperatingSystem\n    $CpuLoad = (Get-WmiObject win32_processor | Measure-Object -property LoadPercentage -Average | Select Average ).Average\n    $pctFree =[math]::Round(($os.FreePhysicalMemory/$os.TotalVisibleMemorySize)*100,2)\n\n    Write-Host $StartTime, $pctFree, $CpuLoad\n\n    $sheet.Cells.Item($row,1).value = [string]$StartTime\n    $sheet.Cells.Item($row,2).value = [string]$pctFree\n    $sheet.Cells.Item($row,3).value = [string]$CpuLoad\n    $row++\n\n    start-sleep -seconds 2\n}\nwrite-host \"Timed\"\n$workbook.save()\n$workbook.close()\n$objExcel.quit()\n[System.Runtime.Interopservices.Marshal]::ReleaseComObject($objExcel)\nStop-Process -Name EXCEL -Force"
+  },
+  {
+    "Buggy": "$task_path = \"C:\\Users\\me\\Desktop\\ST Testing\\exported ST's\\scheduledTask.xml\"\n$task_user = \"usr\"\n$task_pass = \"pwd\"\n\n$schedule = new-object -com(\"Schedule.Service\")\n$schedule.Connect(\"server\") $folder = $schedule.GetFolder(\"\\SubTasks\") Write-Host $folder\n\nGet-Item $task_path | % {\n   $task_name = $_.Name.Replace('.xml', '')\n   $task_xml = Get-Content $_.FullName\n   $task = $schedule.NewTask($null)\n   $task.XmlText = $task_xml\n   $folder.RegisterTaskDefinition($task_name, $task, 6, $task_user, $task_pass, 1, $null)",
+    "GroundTruth": "$task_user=\"username\"\n$task_pass=\"password\"\n$schedule=new-object -ComObject (\"Schedule.Service\")\n$schedule.Connect(\"server\")\n$folder=$schedule.GetFolder(\"\\tasks\")\n$path=\"\\\\server\\c$\\temp\\Tasks\\\"\nGet-ChildItem $path -Filter \"*.xml\"| foreach {\n$task_conf=Get-Item -Path $_.FullName\n$taskname=$task_conf.Name\n$task_xml=$task_conf.FullName\n$task=$schedule.NewTask(0)\n$task.XmlText=(Get-Content $task_xml).Replace('Task version=\"1.1\" xmlns','Task version=\"1.2\" xmlns')\n$folder.RegisterTaskDefinition($taskname,$task,6,$task_user,$task_pass,1,$null)\n}"
+  },
+  {
+    "Buggy": "Get-MoveRequest -ResultSize unlimited \n   | where {$_.status -ne \"Completed\" \n    -and ( ( $_.StatusDetail -ne \"CopyingMessages\") \n      -and ( $_.StatusDetail -ne \"Queued\") ) } \n   | Get-MoveRequestStatistics |sort percentcomplete \n   | ft displayname, percentcomplete,  status, statusdetail, syncstage, baditemsencountered, totalinprogressduration, totalmailboxsize, message, validationmessage, *duration -a",
+    "GroundTruth": "Get-MoveRequest -ResultSize unlimited | \nWhere {$_.status -ne \"Completed\" -and $_.StatusDetail -ne \"CopyingMessages\" -and $_.StatusDetail -ne \"Queued\" } | \nGet-MoveRequestStatistics | \nFormat-Table Displayname, Percentcomplete, Status, Statusdetail, Syncstage, Baditemsencountered, Totalmailboxsize, Message, Validationmessage, *duration -AutoSize"
+  },
+  {
+    "Buggy": "Import-Module activedirectory\n$Group=import-csv C:\\Users\\axb3055\\Documents\\CSV_Test.csv \n$ServiceList = Test-Path C:\\ServiceList\nif($ServiceList -eq $true)\n{Write-Host \"Service List Exists\"}\nelse\n{\nWrite-Host \"Creating ServiceList folder\"\nNew-Item C:\\ServiceList\\$CompName -ItemType directory -ErrorActionSilentlyContinue | Out-Null\n}\n$Group | foreach {$CompName = $_.Computers New-Item -Path C:\\ServiceList\\$CompName -ItemType directory | Get-Service -ComputerName  $_.Computers} | Out-File C:\\ServiceList\\$CompName\\$CompName.txt",
+    "GroundTruth": "Import-Module activedirectory\n    $Group=import-csv C:\\Users\\axb3055\\Documents\\CSV_Test.csv \n    $ServiceList = Test-Path C:\\ServiceList\n    if($ServiceList -eq $true)\n    {\n    Write-Host \"Service List Exists\"\n    }\n    else\n    {\n    Write-Host \"Creating ServiceList folder\"\n    New-Item C:\\ServiceList\\$CompName -ItemType directory -ErrorActionSilentlyContinue | Out-Null\n    }\n\n    foreach ($CompName in $Group.Computers){\n   New-Item -Path C:\\ServiceList\\$CompName -ItemType directory \n    $service = Get-Service -ComputerName $CompName\n      Out-File C:\\ServiceList\\$CompName\\$CompName.txt -value $service        \n    }"
+  },
+  {
+    "Buggy": "for($i=1; $i le 2; $i++)\n{$nic1 = Get=AzNetworkInterface -Name nic-0($i) -ResourceGroupName \"rg--\"\n$sidArray =$sidname.Split(\":\")\nRemove-AzNetworkInterfaceIpConfig -Name ipconfig-$sidArray[1] -NetworkInterface $nic1 |Set-AzNetworkInterface\nRemove-AzNetworkInterfaceIpConfig -Name ipconfig-$sidArray[2] -NetworkInterface $nic1 |Set-AzNetworkInterface\n}",
+    "GroundTruth": "$sidname = \"S1:S2:S3\"\nfor($i=1; $i -le 2; $i++)\n{\n$nic1 = Get-AzNetworkInterface -Name \"nic-0$i\" -ResourceGroupName \"rg--\"\n$sidArray =$sidname.Split(\":\")\n$sidArray1 = $sidArray[1]\n$sidArray2 = $sidArray[2]\nRemove-AzNetworkInterfaceIpConfig -Name \"ipconfig-$sidArray1\" -NetworkInterface $nic1 | Set-AzNetworkInterface\nRemove-AzNetworkInterfaceIpConfig -Name \"ipconfig-$sidArray2\" -NetworkInterface $nic1 | Set-AzNetworkInterface\n}"
+  },
+  {
+    "Buggy": "Get-Process s* |\n    where {s$_.Path} |\n    dir |\n    sort LastWriteTime |\n    Format-Table fullname, name,@{label=\"LastWriteTime\";Expr={$_.LastWriteTime}",
+    "GroundTruth": "Get-Process s* |where {$_.Path} | ForEach-Object {Get-Item $_.Path } |\nSort-Object LastWriteTime | Format-Table fullname, name,LastWriteTime"
+  },
+  {
+    "Buggy": "$UrlToUse = identityTest\n\nfunction identityTest\n{\n    $internalMatch = \".*inbound\"\n    $externalMatch = \".*outbound\"\n    $fqdn = \"blahblah_inbound\"\n\n    if ( $fqdn -match $internalMatch )\n    {\n        return \"http://in3\"\n        Write-Host \"Inbound Hit\"\n    }\n    if ( $fqdn -match $externalMatch )\n    {\n        return \"http://out\"\n        Write-Host \"Outbond Hit\"\n    }\n    else\n    {\n        return \"http://default\"\n        write-host \"Default Hit\"\n    }\n}    \n\n\nfunction sampleTest\n{\n    write-host \"will upload to the following URL: + $UrlToUse\n}\n\nWrite-Host $UrlToUse",
+    "GroundTruth": "function identityTest\n{\n    $internalMatch = \".*inbound\"\n    $externalMatch = \".*outbound\"\n    $fqdn = \"blahblah_inbound\"\n\n    if ( $fqdn -match $internalMatch )\n    {\n        return \"http://in3\"\n        Write-Host \"Inbound Hit\"\n    }\n    if ( $fqdn -match $externalMatch )\n    {\n        return \"http://out\"\n        Write-Host \"Outbond Hit\"\n    }\n    else\n    {\n        return \"http://default\"\n        write-host \"Default Hit\"\n    }\n}    \n$UrlToUse = identityTest\n\n\n\nfunction sampleTest\n{\n    write-host \"will upload to the following URL: + $UrlToUse\"\n}\n\nWrite-Host $UrlToUse"
+  },
+  {
+    "Buggy": "$SEPVersion = Get-ItemProperty 'HKLM:\\SOFTWARE\\Symantec\\Symantec Endpoint Protection\\SMC' -Name 'ProductVersion' | fl  ProductVersion -ErrorAction SilentlyContinue\nif ($SEPVersion-eq \"11.0.5002.333\") {\n    \"SEP Version is correct the version is set to\" $SEPVersion\n}\nelse {\n    \"SEP Version is INCORRECT - Please resolve this - the version of SEP is \" $SEPVersion }",
+    "GroundTruth": "$SEPVersion = (Get-ItemProperty 'HKLM:\\SOFTWARE\\Symantec\\Symantec Endpoint Protection\\SMC' -Name 'ProductVersion' -ea SilentlyContinue ).Productversion     \n\nif ($SEPVersion -eq \"11.0.5002.333\") \n{\n    \"SEP Version is correct the version is set to $SEPVersion\"\n}\nelse \n{\n    \"SEP Version is INCORRECT - Please resolve this - the version of SEP is $SEPVersion\" \n}"
+  },
+  {
+    "Buggy": "for ($i = 5; $i <=110 -le ; $i+=15) {Write-Host $i}",
+    "GroundTruth": "for ($i = 5; $i -le 110; $i += 15) {Write-Host $i}"
+  },
+  {
+    "Buggy": "$text = \"INDEPENDENT ELECTORAL AND BOUNDARIES COMMISSION\nPOLLING STATION: \"ABC DEF GHIJKL (001)\" \nSTREAM:123\"",
+    "GroundTruth": "$Text = @'\nAll the symbols I/ can ` hope for\nbetween \" the *>$ opening $() and closing ${}\nof the symbols\n'@"
+  },
+  {
+    "Buggy": "$DiskReport | \n\nSelect-Object @{Label = \"Server Name\";Expression = {$_.SystemName}},\n          @{Label = \"Drive Letter\";Expression = {$_.DeviceID}},\n          @{Label = \"Total Capacity (GB)\";Expression = {\"{0:N1}\" -f( $_.Size \n / 1gb)}},\n          @{Label = \"Free Space (GB)\";Expression = {\"{0:N1}\" -f( \n $_.Freespace / 1gb ) }},\n          @{Label = 'Free Space (%)'; Expression = {\"{0:P0}\" -f \n ($_.freespace/$_.size)}} |\n\nExport-Csv -path \"c:\\data\\server\\ServerStorageReport\\DiskReport\\DiskReport_$logDate.csv\" -NoTypeInformation",
+    "GroundTruth": "$DiskReport | Select-Object @{Label = \"Server Name\";Expression = {$_.SystemName}},\n    @{Label = \"Drive Letter\";Expression = {$_.DeviceID}},\n    @{Label = \"Total Capacity (GB)\";Expression = {\"{0:N1}\" -f( $_.Size / 1gb)}},\n    @{Label = \"Free Space (GB)\";Expression = {\"{0:N1}\" -f( $_.Freespace / 1gb ) }},\n    @{Label = 'Free Space (%)'; Expression = {\"{0:P0}\" -f ($_.freespace/$_.size)}} |\n    Export-Csv -path \"c:\\data\\server\\ServerStorageReport\\DiskReport\\DiskReport_$logDate.csv\" -NoTypeInformation"
+  },
+  {
+    "Buggy": "# Get DHCP Scope Start - first IP to check - End Last IP to check \n$X = 0\n$Y = 0\n$Z = 0\n$End = 0\n\n$DHCPServer = \"DHCP\"\n$ScopeID = \"10.0.0.0\"\n\nswitch (Read-Host \"Choose device to add: 1 PS3,2 PS4,3 PS4Pro,4 XboxOne,\") {\n    1 {$z = 1 $End = 20}\n    2 {$z = 30 $End = 50}\n    3 {$z = 100  $End = 255}\n    4 {$y = 1 $z = 1 $end = 100}\n}",
+    "GroundTruth": "# Get DHCP Scope Start - first IP to check - End Last IP to check \n$X = 0\n$Y = 0\n$Z = 0\n$End = 0\n\n$DHCPServer = \"DHCP\"\n$ScopeID = \"10.0.0.0\"\n\nswitch (Read-Host \"Choose device to add: 1 PS3,2 PS4,3 PS4Pro,4 XboxOne,\") {\n    1 {$z = 1; $End = 20}\n    2 {$z = 30; $End = 50}\n    3 {$z = 100;  $End = 255}\n    4 {$y = 1; $z = 1; $end = 100}\n}"
+  },
+  {
+    "Buggy": "[System.Collections.Generic.List<System.String>]$myList = New-Object System.Collections.Generic.List<System.String>",
+    "GroundTruth": "$myList = New-Object 'System.Collections.Generic.List[System.String]'"
+  },
+  {
+    "Buggy": "$startFolder = \"C:\\\"\n\n$colItems = (Get-ChildItem $startFolder | Measure-Object -property length -sum)\n\"$startFolder -- \" + \"{0:N2}\" -f ($colItems.sum / 1MB) + \" MB\"\n\n$colItems = (Get-ChildItem $startFolder -recurse | Where-Object $_.PSIsContainer -eq $True} | Sort-Object)\nforeach ($i in $colItems)\n{\n    $subFolderItems = (Get-ChildItem $i.FullName | Measure-Object -property length -sum)\n    $i.FullName + \" -- \" + \"{0:N2}\" -f ($subFolderItems.sum / 1MB) + \" MB\"\n}",
+    "GroundTruth": "$startFolder = \"C:\\\"\n\n$colItems = (Get-ChildItem $startFolder | Measure-Object -property length -sum)\n\"$startFolder -- \" + \"{0:N2}\" -f ($colItems.sum / 1MB) + \" MB\"\n\n$colItems = (Get-ChildItem $startFolder -recurse | Where-Object {$_.PSIsContainer -eq $True} | Sort-Object)\nforeach ($i in $colItems)\n{\n    $subFolderItems = (Get-ChildItem $i.FullName | Measure-Object -property length -sum -ErrorAction SilentlyContinue)\n    $i.FullName + \" -- \" + \"{0:N2}\" -f ($subFolderItems.sum / 1MB) + \" MB\"\n}"
+  },
+  {
+    "Buggy": "$_default_log = $env:userprofile + '\\Documents\\never_used_ad_group_age.csv'\n\nIf ($(Try { Test-Path $_default_log} Catch { $false })){Remove-Item $_default_log -force}\n\n(get-adforest).domains | foreach {$_domain = $_\n\n    get-adgroup -LDAPFilter \"(&(!(member=*))(!(memberof=*)))\" -Properties \"msDS-ReplValueMetaData\",whencreated,groupscope,groupcategory -server $_domain | `\n\n        where {(!($_.\"msDS-ReplValueMetaData\"))} | select `\n\n        @{name='Domain';expression={$_domain}},name,samaccountname,groupcategory,groupscope,whencreated,`\n\n        @{name='AgeinDays';expression={(new-TimeSpan($($_.whencreated)) $(Get-Date)).days}},isCriticalSystemObject,distinguishedname,`\n\n        @{name='ParentOU';expression={$($_.distinguishedname -split '(?<![\\\\]),')[1..$($($_.distinguishedname -split '(?<![\\\\]),').Count-1)] -join ','}} | `\n        export-csv $_default_log -Append -NoTypeInformation\n\n}\n\nwrite-host \"Report Can be found here $_default_log\"",
+    "GroundTruth": "$_default_log = $env:userprofile + '\\Documents\\never_used_ad_group_age.csv'\n\nIf ($(Try { Test-Path $_default_log} Catch { $false })){Remove-Item $_default_log -force}\n\n(get-adforest).domains | foreach {$_domain = $_\n\n    get-adgroup -LDAPFilter \"(&(!(member=*))(!(memberof=*)))\" -Properties \"msDS-ReplValueMetaData\",whencreated,groupscope,groupcategory -server $_domain | `\n\n        where {(!($_.\"msDS-ReplValueMetaData\"))} | select @{name='Domain';expression={$_domain}},name,samaccountname,groupcategory,groupscope,whencreated,`\n\n        @{name='AgeinDays';expression={(new-TimeSpan($($_.whencreated)) $(Get-Date)).days}},isCriticalSystemObject,distinguishedname,`\n\n        @{name='ParentOU';expression={$($_.distinguishedname -split '(?<![\\\\]),')[1..$($($_.distinguishedname -split '(?<![\\\\]),').Count-1)] -join ','}} | `\n        export-csv $_default_log -Append -NoTypeInformation\n\n}\n\nwrite-host \"Report Can be found here $_default_log\""
+  },
+  {
+    "Buggy": "echo \"# foobar\" > echo_test.rb >>> ruby echo_test.rb",
+    "GroundTruth": "'# foobar' | Out-File -FilePath echo_test.rb -Encoding ascii ruby echo_test.rb"
+  },
+  {
+    "Buggy": "sqlite3 ex1.db < ex1.sql",
+    "GroundTruth": "get-content ext1.sql | sqllite3 ext1.db"
+  },
+  {
+    "Buggy": "$subject = \"Email for $item[\"EmployeeName\"]. Date expire $AccountExpire\"",
+    "GroundTruth": "$subject = \"Email for $($item[\"EmployeeName\"]). Date expire $AccountExpire\""
+  },
+  {
+    "Buggy": " $data = New-Object Collections.ArrayList\nGet-Printer | $data.Add($_)",
+    "GroundTruth": " $data = New-Object Collections.ArrayList\nGet-Printer | ForEach-Object { $data.Add($_) }"
+  },
+  {
+    "Buggy": "$myArray = 4..9\n | %\\{ \"usr$_\"\\}",
+    "GroundTruth": "@(4..9) | % {\"usr\" + $_}"
+  },
+  {
+    "Buggy": "$a = @()\n$b = @()\n$a, $b += \"test\"",
+    "GroundTruth": "$a,$b = $a,$b |% {,($_ += 'test')}"
+  },
+  {
+    "Buggy": "for ($i = 5; $i <=110 -le ; $i+=15) { Write-Host $i }",
+    "GroundTruth": "for ($i = 5; $i -le 110; $i += 15) { Write-Host $i }"
+  },
+  {
+    "Buggy": "foreach ($i in gci){$i.length} | measure -max",
+    "GroundTruth": "$(foreach ($item in Get-ChildItem) { $item.Length }) | measure -max"
+  },
+  {
+    "Buggy": "foreach($group in $groups){$get-ADUser $group}",
+    "GroundTruth": "foreach($group in $groups) { Get-ADGroupMember $group | Where-Object {$_.objectClass -eq \"user\"} }"
+  },
+  {
+    "Buggy": "Get-ChildItem -Exclude \"fn*\" | Rename-Item -NewName {\"fn\" + $_.Name",
+    "GroundTruth": "Get-ChildItem -Exclude \"fn*\"| Rename-Item -NewName { 'fn' +$_.Name }"
+  },
+  {
+    "Buggy": "$args -match '-arg1(?'arg1'.*?) -arg3(?'arg3'.*?) -arg3(?'arg3'.*)'.",
+    "GroundTruth": "$args -match '-arg1(?<arg1>.*?) -arg2(?<arg2>.*?) -arg3(?<arg3>.*)'"
+  },
+  {
+    "Buggy": "(for ($i=0; $i -lt 5; $i++) { Get-Content source }) | Out-File destination",
+    "GroundTruth": "(get-content source) * 5 | out-file destination"
+  },
+  {
+    "Buggy": "$strEmailFile = \"C:\\Testing\\SomeTextFile.txt\"; $Dir = \"E:\"; cat $strEmailFile | $Dir + \"\\sendmail.exe\" -t",
+    "GroundTruth": "$strEmailFile = \"C:\\Testing\\SomeTextFile.txt\"; $Dir = \"E:\"; cat $strEmailFile | & ($Dir + \"\\sendmail.exe\") -t"
+  },
+  {
+    "Buggy": "Get-ADComputer -Filter * | {Sort-Object Name -Ascending }",
+    "GroundTruth": "Get-ADComputer -Filter * | Sort-Object Name -Ascending"
+  },
+  {
+    "Buggy": "cmd /c PowerShell Remove-Item \\\"%1\\\" -recurse -force cmd /c PowerShell Remove-Item & \"{\"%1\" -recurse -force\"}\"",
+    "GroundTruth": "cmd /c PowerShell -command \"& {Remove-Item -path '%1' -recurse -force -confirm:$false}\""
+  },
+  {
+    "Buggy": "Start-ChocolateyProcessAsAdmin @\" [System.Environment]::SetEnvironmentVariable(\"JAVA_HOME\", \"path/to/jre/install\", \"Machine\") \"@",
+    "GroundTruth": "Install-ChocolateyEnvironmentVariable 'JAVA_HOME' 'path\\to\\jre' 'Machine'"
+  },
+  {
+    "Buggy": "$a = Get-AzureRmVM -ResourceGroupName Test2 | ft Name foreach($output in $a) {Stop-AzRmVM -ResourceGroupName \"Test2\" -Name $output}",
+    "GroundTruth": "Get-AzureRmVM -ResourceGroupName 'Test2' | ForEach-Object { $_ | Stop-AzRmVM }"
+  },
+  {
+    "Buggy": "$serverList = @('server1\"', '\"server2\"', '\"server3\"', '\"server4\"', '\"server5\"') Get-CimInstance -ComputerName $serverList -ClassName win32_operatingsystem | Select-Object csname, lastbootuptime",
+    "GroundTruth": "Get-CimInstance -ComputerName server1,server2,server3,server4,server5 -ClassName win32_operatingsystem | Select-Object csname, lastbootuptime"
+  },
+  {
+    "Buggy": "Get-ExecutingScriptDirectory | Join-Path -Path {{PREVIOUS STDOUT}} -ChildPath \"foo.json\" | Get-Content {{PREVIOUS STDOUT}} | Convert-FromJson {{PREVIOUS STDOUT}} | {{PREVIOUS STDOUT}}.data",
+    "GroundTruth": "(Get-Content -Path (Get-ExecutingScriptDirectory | Join-Path -ChildPath \"foo.json\" | ConvertFrom-Json)).data"
+  },
+  {
+    "Buggy": "get-adcomputer -filter * -properties name,operatingsystem | where-object {($_.operatingsystem -like \"windows xp\") -and ($_.operatingsystem -like \"windows server 2003\") -and ($_.operating system -like \"windows 98\")}",
+    "GroundTruth": "get-adcomputer -filter \"operatingsystem -like '*xp*' -or operatingsystem -like '*2003*' -or operatingsystem -like '*98*'\" -properties operatingsystem"
+  },
+  {
+    "Buggy": "for ( $i = 1; $i -le 10; $i++) {\n$pypy epto.py conf_epto/ $i > conf_epto/run-$i.log $\ndone}\n",
+    "GroundTruth": "foreach ($i in 1..10) {\n  Measure-Command { & $pypy epto.py conf_epto/ $i > conf_epto/run-$i.log } | Out-Host\n}\n\n& $pypy genStats.py conf_epto 10"
+  },
+  {
+    "Buggy": "foreach($group in $groups){$get-ADUser $group}",
+    "GroundTruth": "foreach($group in $groups) { Get-ADGroupMember $group | Where-Object {$_.objectClass -eq \"user\"} }"
+  },
+  {
+    "Buggy": "foreach ($i in gci){$i.length} | measure -max",
+    "GroundTruth": "$(foreach ($item in Get-ChildItem) { $item.Length }) | measure -max"
+  },
+  {
+    "Buggy": "GCI 'C:\\ | ?{$_.LastWriteTime -ge '21/01/2018'}",
+    "GroundTruth": "$date = get-date '21/01/2018' gci C:\\ | ? {$_.LastWriteTime -ge $date }"
+  },
+  {
+    "Buggy": "Write-Output $file.Vnet.Subnet.1.SubnetName",
+    "GroundTruth": "Write-Output $file.Vnet.Subnet.'1'.SubnetName"
+  },
+  {
+    "Buggy": "$SearchString = \"Some Text\" OR \"Different text\"",
+    "GroundTruth": "$SearchString = 'Some Text|Different text'"
+  },
+  {
+    "Buggy": "subprocess.call(['.\\ConvertPPTtoImage.ps1', path+'file.pptx'])",
+    "GroundTruth": "powershell.exe -ExecutionPolicy Bypass -File '.\\ConvertPPTtoImage.ps1' path+'file.pptx'"
+  },
+  {
+    "Buggy": "$combLat = '-GPSLatitude*=' + $lat $combLon = '-GPSLongitude*=' + $lon .\\exiftool.exe $combLat $fileName '-overwrite_original_in_place' .\\exiftool.exe $combLon $fileName '-overwrite_original_in_place'",
+    "GroundTruth": ".\\exiftool.exe `-GPSLatitude*=$lat `-GPSLongitude*=$lon $fileName -overwrite_original_in_place"
+  },
+  {
+    "Buggy": "$i = 'hello' echo $i # hello",
+    "GroundTruth": "powershell -c '$i = ''hello''; echo $i'"
+  },
+  {
+    "Buggy": "$folder = 'c:\\test'\n\"c:\\test\" -replace $folder \"\"",
+    "GroundTruth": "\n$folder = 'c:\\test'\n\"c:\\test\" -replace $folder, \"\""
+  },
+  {
+    "Buggy": "Import-AzureRmContext -Path \"c:\\temp\\Azure.json\"\n$adla = Get-AdlAnalyticsAccount -ResourceGroupName \"test\" -Name \"dla\"\nSubmit-AdlJob -Account $adla -Name \"test\" \u2013ScriptPath \"C:\\temp\\temp.usql\"",
+    "GroundTruth": "Import-AzureRmContext -Path \"c:\\temp\\Azure.json\"\n$adla = Get-AdlAnalyticsAccount -ResourceGroupName \"test\" -Name \"dla\"\nSubmit-AdlJob -Account \"dla\" -Name \"test\" -ScriptPath \"C:\\temp\\temp.usql\""
+  },
+  {
+    "Buggy": "$log = [Microsoft.VisualBasic.Interaction]::InputBox ('Enter the Event ID you are looking for.', 'Event ID Query')\ncd C:\\temp\\winevent_logs\n$List = Get-ChildItem | Where-Object {$_.FullName -match \"security\"} | Select-Object\nGet-WinEvent -FilterHashtable @{path=$List;id=$Log} | Measure-Object | Select-Object count\n",
+    "GroundTruth": "$log = [Microsoft.VisualBasic.Interaction]::InputBox('Enter the Event ID you are looking for.', 'Event ID Query')\ncd C:\\temp\\winevent_logs\n$List = Get-ChildItem | Where-Object {$_.FullName -match \"security\"} | Select-Object\nGet-WinEvent -FilterHashtable @{path=$List;id=$Log} | Measure-Object | Select-Object count\n"
+  },
+  {
+    "Buggy": "$moddeduserdata = (\"{\"Id\":$userid,\"Timestamp\":\"$timestamp\",\"FirstName\":\"$numberout\",\"LastName\":\"$numberout\",\"CallId\":\"$numberout\"}\")",
+    "GroundTruth": "$moddeduserdata = \"{`\"Id`\":$userid,`\"Timestamp`\":`\"$timestamp`\",`\"FirstName`\":`\"$numberout`\",`\"LastName`\":`\"$numberout`\",`\"CallId`\":`\"$numberout`\"}\""
+  },
+  {
+    "Buggy": "class C {\n  C() {\n    Write-Host $pid\n  }\n}\n",
+    "GroundTruth": "class C {\n  C() {\n    Write-Host $Global:pid\n  }\n}\n"
+  },
+  {
+    "Buggy": "Get-AzureADGroup -Filter \"endswith(DisplayName, 'Member')",
+    "GroundTruth": "Get-AzureADGroup -Filter \"endswith(DisplayName, 'Member')\""
+  },
+  {
+    "Buggy": "cat > Dockerfile <<EOF",
+    "GroundTruth": "Set-Content -Path Dockerfile"
+  },
+  {
+    "Buggy": "foreach($line in get-content\nc:\\users\\jcuthbertson\\desktop\\filesforgettingdate.txt) {\nif($line -match $regex){\n-join((get-item $line).lastwritetime,\",\", (get-item $line).name)}} | out-file c:\\users\\jcuthbertson\\desktop\\testdatawrite.txt",
+    "GroundTruth": "foreach($line in get-content c:\\users\\jcuthbertson\\desktop\\filesforgettingdate.txt) {\n    if($line -match $regex){\n        -join ((get-item $line).lastwritetime,\",\",(get-item $line).name) |\n            Out-File c:\\users\\jcuthbertson\\desktop\\testdatawrite.txt -Append\n    }\n}"
+  },
+  {
+    "Buggy": "If (-NOT ([Security.Principal.WindowsPrincipal] [Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole(` [Security.Principal.WindowsBuiltInRole] \"Administrator\"))\n{\n Write-Warning \"You do not have Administrator rights to run this script.`nPlease re-run this script as an Administrator.\"\"\n Break\n}\n",
+    "GroundTruth": "if (!([Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole([Security.Principal.WindowsBuiltInRole] \"Administrator\")) {\n    Write-Warning \"You do not have Administrator rights to run this script.`nPlease re-run this script as an Administrator.\"\n    Break\n}\n"
+  },
+  {
+    "Buggy": "Param([Parameter(Mandatory=$true,ValueFromPipelin=$true)][string[]] $appPoolArray)\n$zero = 0\nif ($appPoolArray.length -eq $zero){\nWrite-Output \"no app pools where selected\"\nexit\n}\nelse {\nforeach ($elem in $appPoolArray)\n$appPool = Get-WmiObject -namespace \"root\\MicrosoftIISv2\" -class \"IIsApplicationPool\" | Where-Object {$_.Name -eq \"W3SVC/APPPOOLS/$elem\"}\n$appPool.Recycle()\nWrite-Output \"Recycled.\"\nStart-Sleep -Second 60\n}\nWrite-Output \"Done.\"\n}\n",
+    "GroundTruth": "Param([Parameter(ValueFromPipeline=$true)][string[]] $appPoolArray)\n    if ($appPoolArray -eq $null){\n        Write-Output \"no app pools where selected\"           \n    }\n    else {\n        foreach ($elem in $appPoolArray){\n            $appPool = Get-WmiObject -namespace \"root\\MicrosoftIISv2\" -class \"IIsApplicationPool\" | Where-Object {$_.Name -eq \"W3SVC/APPPOOLS/$elem\"}\n            $appPool.Recycle()\n            Write-Output \"Recycled.\"\n            Start-Sleep -Second 60\n        }\n    Write-Output \"Done.\"\n    }\n"
+  },
+  {
+    "Buggy": "Import-Module SqlServer\n\n$newConnectionString = \"Connection Timeout=60;User Id=SOME_NEW_ID;Data Source=10.10.19.10;Persist Security Info=True;Session Character Set=UTF8\"\n\n $svr = new-Object Microsoft.AnalysisServices.Tabular.Server\n$svr.Connect(\"server1.domain.com\")\n\n$svr.databases[1].model.datasources[0].ConnectionString = $newConnectionString\n$svr.Databases[1].model.datasources[0].Update(UpdateOptions.ExpandFull)\n",
+    "GroundTruth": "Import-Module SqlServer\n\n$newConnectionString = \"Connection Timeout=60;User Id=SOME_NEW_ID;Data Source=10.10.19.10;Persist Security Info=True;Session Character Set=UTF8\"\n\n$svr = new-Object Microsoft.AnalysisServices.Tabular.Server\n$svr.Connect(\"server1.domain.com\")\n\n$svr.databases[1].model.datasources[0].ConnectionString = $newConnectionString\n$svr.Databases[1].Update([Microsoft.AnalysisServices.UpdateOptions]::ExpandFull)\n"
+  },
+  {
+    "Buggy": "Param([cmdletbinding(DefaultParametersetname=\"Directory\")] \n      [Parameter(Mandatory=$false,ParameterSetName=\"File\")]\n      [switch]$file, \n      [Parameter(Mandatory=$false,ParameterSetName=\"Directory\")]  \n      [switch]$directory,\n\n[Parameter(Mandatory=$false,ParameterSetName=\"File\")] \n[Parameter(Mandatory=$false,ParameterSetName=\"Directory\")] \n[string]$Source,\n[Parameter(Mandatory=$true,ParameterSetName=\"File\")]  \n[Parameter(Mandatory=$true,ParameterSetName=\"Directory\")] \n[string]$DestinationPath, \n[Parameter(Mandatory=$false,ParameterSetName=\"Directory\")] \n[Parameter(Mandatory=$false,ParameterSetName=\"File\")]\n[array]$Servers\n\nPS C:\\> Test-Script -Source \"c:\\somedirectory\" -DestinationPath \"c:\\someotherdirectory\"\n",
+    "GroundTruth": "[CmdletBinding(DefaultParametersetname=\"Directory\")]\nParam(\n    [Parameter(Mandatory=$false,ParameterSetName=\"File\")]\n    [switch]$file, \n\n    [Parameter(Mandatory=$false,ParameterSetName=\"Directory\")]\n    [switch]$directory,\n\n    [Parameter(Mandatory=$false,ParameterSetName=\"File\")]\n    [Parameter(Mandatory=$false,ParameterSetName=\"Directory\")]\n    [string]$Source,\n\n    [Parameter(Mandatory=$true,ParameterSetName=\"File\")]\n    [Parameter(Mandatory=$true,ParameterSetName=\"Directory\")]\n    [string]$DestinationPath,\n\n    [Parameter(Mandatory=$false,ParameterSetName=\"Directory\")]\n    [Parameter(Mandatory=$false,ParameterSetName=\"File\")] \n    [array]$Servers\n)\n"
+  },
+  {
+    "Buggy": "PS> a foo(foo; bar) foo/bar ver1.0",
+    "GroundTruth": "a foo`(foo`;` bar`)` foo/bar` ver1.0"
+  },
+  {
+    "Buggy": "function Excel2PPT{\nparam ($xslx, $targetsheet, $targetrange, $pptx, $targetslide, $npath)\n    $Excel = New-Object -ComObject Excel.Application\n    $workbook = $Excel.workbooks.open($xslx)\n    $Excel.Visible= $true\n    $worksheet = $workbook.worksheets.Item($targetsheet)\n\n$range = $worksheet.Range($targetrange)\n$range.select()\n$range.copy()\n",
+    "GroundTruth": "function Excel2PPT {\n    param ($xslx, $targetsheet, $targetrange, $pptx, $targetslide, $npath)\n\n    $Excel = New-Object -ComObject Excel.Application\n    $workbook = $Excel.workbooks.open($xslx)\n    $Excel.Visible= $true\n    $worksheet = $workbook.worksheets.Item($targetsheet)\n    $range = $worksheet.Range($targetrange)\n    $range.select()\n    $range.copy()\n}"
+  },
+  {
+    "Buggy": "sc.exe sdset bits D:(A;;CCLCSWRPWPDTLOCRRC;;;SY)(A;;CCDCLCSWRPWPDTLOCRSDRCWDWO;;;BA)(A;;CCLCSWLOCRRC;;;AU)(A;;CCLCSWRPWPDTLOCRRC;;;PU)",
+    "GroundTruth": "CMD /C\"sc.exe sdset bits D:(A;;CCLCSWRPWPDTLOCRRC;;;SY)(A;;CCDCLCSWRPWPDTLOCRSDRCWDWO;;;BA)(A;;CCLCSWLOCRRC;;;AU)(A;;CCLCSWRPWPDTLOCRRC;;;PU)\""
+  },
+  {
+    "Buggy": "Copy-Item -Path $myOfile \u00e2\u20ac\u201cDestination ([io.path]::ChangeExtension($myOfile, '.txt')) -Verbose",
+    "GroundTruth": "Rename-Item -Path $myOfile -NewName ([io.path]::ChangeExtension($myOfile, '.txt')) -Verbose"
+  },
+  {
+    "Buggy": "ls \"*.zip\" | % {\n    $name = $_.name\n    if (-not ($name -match '(?<x>\\d\\d)(?<y>\\d{4})\\.zip')\uff09 { continue }\n    $p = $matches[\"y\"] + $matches[\"x\"]\n}\n",
+    "GroundTruth": "ls \"*.zip\" | % { \n    $name = $_.name \n    if (-not ($name -match '(?<x>\\d\\d)(?<y>\\d{4})\\.zip$')) { continue } \n    $p = $matches[\"y\"] + $matches[\"x\"] \n} \n"
+  },
+  { "Buggy": "%{\" \"$_ \" OR \"}", "GroundTruth": "% { \"`\"$_`\" OR\" }" },
+  {
+    "Buggy": "\"C:\\Program Files\\MySQL\\MySQL Server 5.7\\bin\\mysql\" -u user --password=pass dbname < backup.sql",
+    "GroundTruth": "&\"C:\\Program Files\\MySQL\\MySQL Server 5.7\\bin\\mysql.exe\" -u user --password=pass dbnamedbname"
+  },
+  {
+    "Buggy": "$test = Get-Date\n[System.TimeZoneInfo}::ConvertTime($test, 'GMT Standard Time')\n",
+    "GroundTruth": "$test = Get-Date\n[System.TimeZoneInfo]::ConvertTimeBySystemTimeZoneId($test, [System.TimeZoneInfo]::Local.Id, 'GMT Standard Time')\n"
+  },
+  {
+    "Buggy": "FROM mcr.microsoft.com/dotnet/aspnet:3.1",
+    "GroundTruth": "\"FROM mcr.microsoft.com/dotnet/aspnet:3.1\" |Add-Content .\\Dockerfile"
+  },
+  {
+    "Buggy": "'C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Professional\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer\\tf.exe' workspace /new C:\\temp\\NewTestBuildProject /noprompt /collection:http://(servername):8080/tfs/defaultcollection\n",
+    "GroundTruth": "& \"C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Professional\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer\\tf.exe\" workspace /new mytemp /noprompt /collection:http://(server):8080/tfs/defaultcollection\n"
+  },
+  { "Buggy": "--% where Java", "GroundTruth": "cmd.exe /C where.exe Java" },
+  {
+    "Buggy": "$Name = \"\\Test Name\\Test_Underscore 1_2\"\n$NameFull = $NAME -replace '\\s' | '_',''\n",
+    "GroundTruth": "$Name = \"\\Test Name\\Test_Underscore 1_2\"\n$NameFull1 = $NAME -replace '[\\s_\\\\]+'\n"
+  },
+  {
+    "Buggy": "$a= \"abc: \" + quote('hi');\n",
+    "GroundTruth": "$a= \"abc: \" + $(quote('hi'));\n"
+  },
+  {
+    "Buggy": "$ap|where-Object {$_.destination->observability\u00a7bin -eq \"1.00000000000000E+00\"}\n",
+    "GroundTruth": "$ap | Where-Object {$_.\"destination->observability\u00a7bin\" -eq \"1.00000000000000E+00\"}"
+  },
+  {
+    "Buggy": "echo Hello | \"C:\\Very\\Long\\Path\\StreamToClipboard.exe\"\n",
+    "GroundTruth": "'Hello' | & \"C:\\Very\\Long\\Path\\StreamToClipboard.exe\"\n"
+  },
+  {
+    "Buggy": "# Get DHCP Scope Start - first IP to check - End Last IP to check \n$X = 0\n$Y = 0\n$Z = 0\n$End = 0\n\n$DHCPServer = \"DHCP\"\n$ScopeID = \"10.0.0.0\"\n\nswitch (Read-Host \"Choose device to add: 1 PS3,2 PS4,3 PS4Pro,4 XboxOne,\") {\n    1 {$z = 1 $End = 20}\n    2 {$z = 30 $End = 50}\n    3 {$z = 100  $End = 255}\n    4 {$y = 1 $z = 1 $end = 100}\n}\n",
+    "GroundTruth": "# Get DHCP Scope Start - first IP to check - End Last IP to check \n$X = 0\n$Y = 0\n$Z = 0\n$End = 0\n\n$DHCPServer = \"DHCP\"\n$ScopeID = \"10.0.0.0\"\n\nswitch (Read-Host \"Choose device to add: 1 PS3,2 PS4,3 PS4Pro,4 XboxOne,\") {\n    1 {$z = 1; $End = 20}\n    2 {$z = 30; $End = 50}\n    3 {$z = 100;  $End = 255}\n    4 {$y = 1; $z = 1; $end = 100}\n}\n"
+  },
+  {
+    "Buggy": "Get-ADUser -Filter \"Name -eq '$i.Name'\"",
+    "GroundTruth": "Get-ADUser -Filter \"Name -eq '$($i.Name)'\""
+  },
+  {
+    "Buggy": "sqlite3 ex1.db < ex1.sql",
+    "GroundTruth": "get-content ext1.sql | sqllite3 ext1.db"
+  },
+  {
+    "Buggy": "$txtPath = \"c:\\users\\xxxxxx\\desktop\\cgc\\tx\"\n$txtPath2 = \"c:\\users\\xxxxxx\\desktop\\cgc\\tx2\"\nget-childitem $txtPath | foreach {  \n    Move-Item -literalpath $txtPath2.Name $_.Name.Replace (\"]\" | \"[\", \"_\") \n}",
+    "GroundTruth": "$txtPath = \"c:\\users\\xxxxxx\\desktop\\cgc\\tx\"\n$txtPath2 = \"c:\\users\\xxxxxx\\desktop\\cgc\\tx2\"\nget-childitem $txtPath | foreach {  \n    Move-Item -literalpath $txtPath2.Name ($_.Name -replace '\\[|]', '_') \n}"
+  },
+  {
+    "Buggy": "$newFile = $docLibrary.RootFolder.Files.Add($newDestinationFolderPath,UTF8Encoding.UTF8.GetBytes(build\ner.ToString()), $true)  \n",
+    "GroundTruth": "$newFile = $docLibrary.RootFolder.Files.Add($newDestinationFolderPath, $utf.GetBytes($content.ToString()), $true)\n"
+  },
+  {
+    "Buggy": "\"C:\\Program Files\\Python36\\python.exe\" .\\setup.py install",
+    "GroundTruth": "& \"C:\\Program Files\\Python36\\python.exe\" .\\setup.py install"
+  },
+  {
+    "Buggy": "mysql -u root -p Tutorials < tut_backup.sql",
+    "GroundTruth": "& cmd.exe /c \"mysql -u root -p Tutorials < tut_backup.sql\""
+  },
+  {
+    "Buggy": "aws s3api put-object-tagging --bucket bucketName --key fileName.tar.gz --tagging TagSet={Key=public,Value=yes}",
+    "GroundTruth": "aws s3api put-object-tagging --bucket bucketName --key fileName.tar.gz --tagging TagSet='{Key=public,Value=yes}'"
+  },
+  {
+    "Buggy": "$url = \"http://api.weatherunlocked.com/api/forecast/29.36,47.97?app_id=****&app_key=****\"; $req = [System.Net.WebRequest]::Create($url) $req.Method =\"GET\" $req.ContentLength = 0 $req.Timeout = 600000 $resp = $req.GetResponse() $reader = new-object System.IO.StreamReader($resp.GetResponseStream()) $reader.ReadToEnd() | Out-File weatherOutput.json",
+    "GroundTruth": "url=\"http://api.weatherunlocked.com/api/forecast/29.36,47.97?app_id=****&app_key=****\" wget -O weatherOutput.json $url"
+  },
+  {
+    "Buggy": "pip freeze| Out-File requirements.txt foreach($line in Get-Content requirements.txt) { pip install --upgrade $line } Remove-Item requirements.txt",
+    "GroundTruth": "pip freeze | ForEach-Object { pip install --upgrade $_ }"
+  },
+  {
+    "Buggy": "$ping = & { Invoke-Expression \"ping -n 2 google.com\" } 2>&1 foreach ($line in $ping ) { \" $_\" }",
+    "GroundTruth": "$ping = & { ping -n 2 google.com } 2>&1 $ping |ForEach-Object {\" $_\"}"
+  },
+  {
+    "Buggy": "$ServerName=\".\\SQL\"\n\n$ScriptLoc=$pwd\n\necho $pwd\n\n$DrScript=$(scriptLoc)\\main_file.sql\n\necho $DrScript\n",
+    "GroundTruth": "$ServerName=\".\\SQL\"\n\n$ScriptLoc=$pwd\n\necho $pwd\n$DrScript=\"$scriptLoc\\main_file.sql\"\necho $DrScript\n"
+  }
+]
