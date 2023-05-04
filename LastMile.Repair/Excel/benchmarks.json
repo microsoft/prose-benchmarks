@@ -896,7 +896,7 @@
   },
   {
     "Buggy": "=IFERROR(J7,\"N\",\"Y\")",
-    "GroundTruth": "=IF(IFERROR(J7),\"N\",\"Y\")"
+    "GroundTruth": "=IF(ISERROR(J7),\"N\",\"Y\")"
   },
   {
     "Buggy": "=IF(ABS(N2)>45. \"N\")",
