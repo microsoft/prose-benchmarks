@@ -1,0 +1,15 @@
+# Build with: pipeline-tool docker-build --image-name excel-online-calc-test/commonimages/1-xlsx-to-json [--build-loc <this directory>]
+
+ARG BASE_IMAGE
+
+FROM mcr.microsoft.com/dotnet/sdk:5.0 as build
+COPY ./xlsx-to-json.csproj /src/
+# (Cache dotnet restore, so we only re-fetch everything from the internet when the .csproj changes.)
+COPY . /src
+RUN cd /src && dotnet restore -r win-x64
+RUN cd /src && dotnet publish --no-restore -c Release -r win-x64 --self-contained true
+
+# Multi-stage build, to keep the final output clean.
+FROM ${BASE_IMAGE}
+COPY --from=build /src/bin/Release/net5.0/win-x64/publish /xlsx-to-json
+ENV PIPELINE_MAP_COMMAND="C:\\\\xlsx-to-json\\\\xlsx-to-json.exe -i {input} -o {output}" PIPELINE_MAP_SERVER_COMMAND="C:\\\\xlsx-to-json\\\\xlsx-to-json.exe --server {endpoint}"

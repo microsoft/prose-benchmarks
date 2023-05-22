@@ -3,7 +3,7 @@
 This repository contains the conditional formatting benchmarks used in CORNET ([CORNET: Learning Table Formatting Rules By Example](https://arxiv.org/abs/2208.06032)) and FormaT5 (FORMAT5: Abstention and examples for table formatting with natural language)
 
 ## Benchmark Status
-**All Benchmarks Coming Soon!**
+**NL To CF Benchmarks Coming Soon!**
 
 ## Folder Structure
 
@@ -19,15 +19,26 @@ This repository contains the conditional formatting benchmarks used in CORNET ([
 The URL folder has a json file with links to all the spreadsheets used for generating the benchmarks.
 
 ## Steps to generate
-1. Download all files from the urls. `scripts/download_urls.py` will help you in this.
+1. Download all files from the urls in `urls/file_url_mapping.json`. `scripts/url_downloader.py` might help you with this step. Run the following code in the `scripts` directory.
+    ```
+       python url_downloader.py             \\
+        --input {url_file_path}             \\
+        --output {dir_to_download_files_to} \\
+    ```
 2. Run the Conditional Formatting extraction tool on the downloaded files.
     - This will require .NET 6.0 Runtime
-    - This can be done by running `dotnet run {downloaded_xlsx_files_dir} {benchmarks_dir}`
+    - This can be done by running the following in `scripts/cf-rule-extraction` directory.
+        ```
+           dotnet run                           \\
+            --input {downloaded_xlsx_files_dir} \\
+            --output {benchmarks_dir}           \\
+            --gzip false                        \\
+        ```
     - This will dump all the benchmarks in `{benchmarks_dir}`.
-3. Each benchmark file contains the JSON of all CF Rules corresponding to each Excel workbook.
+3. Each benchmark file contains the JSON of all CF Rules corresponding to each sheet in the Excel workbook.
 
 ## File Structure
-For each Conditional Formatting task extracted from the workbooks, there is a json file, with the following structur
+For each Conditional Formatting task extracted from the workbooks, there is a json file, with the following structure
 
 ```JSON
 [
