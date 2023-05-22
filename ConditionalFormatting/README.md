@@ -13,7 +13,7 @@ This repository contains the conditional formatting benchmarks used in CORNET ([
     - Scripts for processing and extracting benchmarks
 - `Benchmarks`
     - `CORNET`: CF benchmarks for CORNET (need to be generated using instructions below)
-    - `NLToCF`: Natural language to CF benchmarks from Online blogs and StackOverflow
+    - `NLToCF`: Natural language to CF benchmarks from Online blogs and StackOverflow (Will be uploaded soon)
 
 ## Urls
 The URL folder has a json file with links to all the spreadsheets used for generating the benchmarks.
