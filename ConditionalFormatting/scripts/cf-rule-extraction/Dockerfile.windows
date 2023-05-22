@@ -1,5 +1,3 @@
-# Build with: pipeline-tool docker-build --image-name excel-online-calc-test/commonimages/1-xlsx-to-json [--build-loc <this directory>]
-
 ARG BASE_IMAGE
 
 FROM mcr.microsoft.com/dotnet/sdk:5.0 as build
