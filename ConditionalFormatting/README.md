@@ -2,8 +2,6 @@
 
 This repository contains the conditional formatting benchmarks used in CORNET ([CORNET: Learning Table Formatting Rules By Example](https://arxiv.org/abs/2208.06032)) and FormaT5 (FORMAT5: Abstention and examples for table formatting with natural language)
 
-## Benchmark Status
-**NL To CF Benchmarks Coming Soon!**
 
 ## Folder Structure
 
