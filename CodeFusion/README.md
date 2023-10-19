@@ -5,9 +5,9 @@ This repository contains the conditional formatting benchmarks used in CodeFusio
 ## Folder Structure
 
 - `Benchmarks`
-    - Training and Testing data for Python, M and CF Rules
+    - Training and Testing data for Python, Bash and CF Rules
 - `Pretraining Data`
-    - Unannotated code used for pretraining for Python, M and CF Rules
+    - Unannotated code used for pretraining for Python, Bash and CF Rules
     - CF Rules only contain a subset of data due to compliance.
 
 ## File Structure
