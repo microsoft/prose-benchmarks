@@ -1,0 +1,99 @@
+{
+    "submission": [
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\ndef missingletter(j):\n    global char\n    y=''\n    sample=\"abcdefghijklmnopqrstuvwxyz\"\n    for i in range(len(sample)): \n        if sample[i] not in j.lower():\n          y=y+', '+sample[i]\n    y=y.replace(',','',1)\n    return y     \ndef pangram(j): \n    sample=\"abcdefghijklmnopqrstuvwxyz\"\n    for i in range(len(sample)): \n        if sample[i] not in j.lower(): \n            return False\n    return True\nk=str(input())\nl=missingletter(k)\nif(pangram(k) == True): \n    print(\"Yes, the string is a pangram.\") \nelse: \n    print(\"No, the string is NOT a pangram. Missing letter(s) is(are)\"+l+'.')",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nn=input()\nl=[]\nfor i in range(97,123):\n    l.append(i)\nj=[]\nfor i in l:\n    x=chr(i)\n    y=chr(i-32)\n    if x not in n and y not in n:\n        j.append(i)\nk=[]\nstr1=\"\nfor i in j:\n    str1=str1+chr(i)+','\nstr1=str1[:len(st)-2]\nstr1=str1+'.'\nif j==k:\n    print(\"Yes, the string is a pangram.\")\nelse:\n    print(\"No, the string is NOT a pangram. Missing letter(s) is(are)\",str1)\n    "
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nimport string as s\nl1 = list(s.ascii_lowercase)\nl2 = []\ntext = input()\ntext = text.lower()\nfor i in range(26):\n    if l1[i] not in text:\n        l2.append(l1[i])\nif len(l2) == 0:\n    print('Yes, the string is a pangram.')\nelse:\n    print('No, the string is NOT a pangram. Missing letter(s) is(are)', end = ' ')\n    print(*l2, sep = \", \", end = '.')",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nl1 = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z']\nl2 = []\ntext = input()\ntext = text.lower()\nfor i in range(26):\n    if l1[i] not in text:\n        l2.append(l1[i])\nif len(l2) == 0:\n    print('Yes, the string is a pangram.')\nelse:\n    print('No, the string is NOT a pangram. Missing letter(s) is(are) {}'.for)"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nimport string as s\nl1 = list(s.ascii_lowercase)\nl2 = []\ntext = input()\ntext = text.lower()\nfor i in range(26):\n    if l1[i] not in text:\n        l2.append(l1[i])\nif len(l2) == 0:\n    print('Yes, the string is a pangram.')\nelse:\n    print('No, the string is NOT a pangram. Missing letter(s) is(are)', end = ' ')\n    print(*l2, sep = \", \", end = '.')",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\ndef returnmissingchar(x):\n    global char\n    a=''\n    alp = \"abcdefghijklmnopqrstuvwxyz\"\n    for i in range(len(alp)): \n        if alp[i] not in x.lower():\n          a=a+', '+alp[i]\n    a=a.replace(',','',1)\n    return a     \ndef pangram(x): \n    alp = \"abcdefghijklmnopqrstuvwxyz\"\n    for i in range(len(alp)): \n        if alp[i] not in x.lower(): \n            return False\n    return True\n\n\n          \n      \n      \nx1=str(input())\nk=returnmissingchar(x1)\nif(pangram(x1) == True): \n    print(\"Yes, the string is a pangram.\") \nelse: \n    print(\"No, the string is NOT a pangram. Missing letter(s) is(are)\"+k+'.'"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nimport string\n\nimp = []\n\ndef check(text):\n  global imp\n  alphabet = set(string.ascii_lowercase)\n  text = set(text)\n  for i in alphabet:\n    if i not in text:\n      imp.append(i)\n      \n    \ntext = str(input())\ncheck(text.lower())\nimp.sort()\n\nif len(imp) ==  0:\n  print(\"Yes, the string is a pangram.\")\nelse:\n  print(\"No, the string is NOT a pangram. Missing letter(s) is(are)\", end = \"\")\n  for i in imp:\n    if imp.index(i) == len(imp)-1:\n      print(\" {}\". format(i), end = '.')\n    else:\n      print(\" {}\". format(i), end = ',')\n  print('\\n')",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nimport string\n\nrem = []\n\ndef check(txt):\n  global rem\n  alphabet = set(string.ascii_lowercase)\n  txt = set(txt)\n  for i in alphabet:\n    if i not in txt:\n      rem.append(i)\n      \n    \ntxt = str(input())\ncheck(txt.lower())\nrem.sort()\n\nif len(rem) ==  0:\n  print(\"Yes, the string is a pangram.\")\nelse:\n  print(\"No, the string is NOT a pangram. Missing letter(s) is(are)\", end = \"\")\n  for i in rem:\n    if rem.index(i) == len(rem)-1:\n      print(\" {}\". format(i), end = '.')\n    else:\n      print(\" {}\". format(i), end = ',')\n  print('\\n'"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\ninp=input()\nletters=[]\nfor i in range(97,123):\n    letters.append(i)\nmiss=[]\nfor i in letters:\n    t=chr(i)\n    q=chr(i-32)\n    #print(t,q)\n    if t not in inp and q not in inp:\n        miss.append(i)\nempt=[]\nstr1=''\nfor i in miss:\n    str1=str1+chr(i)+', '\nstr1=str1[:len(str1)-2]\nstr1=str1+'.'\n#prin\nif miss==empt:\n    print(\"Yes, the string is a pangram.\")\nelse:\n    print(\"No, the string is NOT a pangram. Missing letter(s) is(are)\",str1)",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nimport string\ndef ispangram(str):\n    alphabet = \"abcdefghijklmnopqrstuvwxyz\"\n    empt=''\n    for char in alphabet:\n        if char not in str.lower():\n            char=char+', '\n            empt=empt+char#space aayega comma ke baad\n    return empt\n   \n# main\nstring = str(input().split())\nempt=\"\"\nk=ispangram(string)\nif(k ==empt):\n  print(\"Yes, the string is a pangram.\")\nelse:\n    k=k[:len(k)-2)]\n    k=k+'.'\n    print(\"No, the string is NOT a pangram. Missing letter(s) is(are)\",k)"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nimport string\nmissing = []\ndef check(inp):\n  global missing\n  alphabet = set(string.ascii_lowercase)\n  inp = set(inp)\n  for i in alphabet:\n    if i not in inp:\n      missing.append(i)\n      \ninp = str(input())\ncheck(inp.lower())\nmissing.sort()\n\nif len(missing) == 0:\n  print(\"Yes, the string is a pangram.\")\nelse:\n  print(\"No, the string is NOT a pangram. Missing letter(s) is(are)\", end = \"\")\n  for i in missing:\n    if missing.index(i) == len(missing)-1:\n      print(\" {}\". format(i), end = '.')\n    else:\n      print(\" {}\". format(i), end = ',')\n  print('\\n')",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\ndef checkPangram(s): \n\n    List = [] \n\n    # create list of 26 charecters and set false each entry \n\n    for i in range(26): \n\n        List.append(False) \n\n          \n\n    # converting the sentence to lowercase and iterating \n\n    # over the sentence  \n\n    for c in s.lower():  \n\n        if not c == \" \": \n\n  \n\n            # make the corresponding entry True \n\n            List[ord(c) -ord('a')]= True \n\n              \n\n    # check if any charecter is missing then return False \n\n    for ch in List: \n\n        if ch == False: \n\n            return False\n\n    return True\n\n  \n# Driver Program to test above functions \n\nsentence = \"The quick brown fox jumps over the little lazy dog\"\n\n  \n\nif (checkPangram(sentence)): \n\n    print (sentence)\n\n    print (\"is a pangram\")\n\nelse: \n\n    print '\"'+sentence+'\"'\n\n    print \"is not a pangram\""
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\ndef returnmissingchar(x):\n    global char\n    a=''\n    alp = \"abcdefghijklmnopqrstuvwxyz\"\n    for i in range(len(alp)): \n        if alp[i] not in x.lower():\n          a=a+', '+alp[i]\n    a=a.replace(',','',1)\n    return a     \ndef pangram(x): \n    alp = \"abcdefghijklmnopqrstuvwxyz\"\n    for i in range(len(alp)): \n        if alp[i] not in x.lower(): \n            return False\n    return True\n\n\n          \n      \n      \nx1=str(input())\nk=returnmissingchar(x1)\nif(pangram(x1) == True): \n    print(\"Yes, the string is a pangram.\") \nelse: \n    print(\"No, the string is NOT a pangram. Missing letter(s) is(are)\"+k+'.')",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nglobal a=''\ndef returnmissingchar(x):\n    global char\n    alp = \"abcdefghijklmnopqrstuvwxyz\"\n    for i in range(len(alp)): \n        if alp[i] not in x.lower():\n          a=a+','+char\n    a.lstrip(',')      \ndef pangram(str): \n    alp = \"abcdefghijklmnopqrstuvwxyz\"\n    for i in range(len(alp)): \n        if alp[i] not in x.lower(): \n            return False\n    return True\n\n\n          \n      \n      \nx1=input()\nreturnmissingchar(x1)\nif(pangram(x1) == True): \n    print(\"Yes, the string is a pangram.\") \nelse: \n    print(\"No, the string is NOT a pangram. Missing letter(s) is(are)\",a+'.')"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nimport string\ndef ispangram(str):\n    alphabet = \"abcdefghijklmnopqrstuvwxyz\"\n    empt=''\n    for char in alphabet:\n        if char not in str.lower():\n            char=char+', '\n            empt=empt+char\n    return empt\n   \n# main\nstring = str(input().split())\nempt=\"\"\nk=ispangram(string)\nif(k ==empt):\n  print(\"Yes, the string is a pangram.\")\nelse:\n    k=k[:len(k)-2]\n    k=k+'.'\n    print(\"No, the string is NOT a pangram. Missing letter(s) is(are)\",k)",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nimport string \nstring = input().split()  \ndef ispangram(str): \n    alphabet = \"abcdefghijklmnopqrstuvwxyz\"\n    for char in alphabet: \n        if char not in str.lower(): \n            return False\n  \n    return True\n\nif(ispangram(string) == True): \n    print(\"Yes, the string is a pangram.\") \nelse: \n    print(f\"No, the string is NOT a pangram. Missing letter(s) is(are) {}\") "
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\ndef returnmissingchar(x):\n    global char\n    a=''\n    alp = \"abcdefghijklmnopqrstuvwxyz\"\n    for i in range(len(alp)): \n        if alp[i] not in x.lower():\n          a=a+', '+alp[i]\n    a=a.replace(',','',1)\n    return a     \ndef pangram(x): \n    alp = \"abcdefghijklmnopqrstuvwxyz\"\n    for i in range(len(alp)): \n        if alp[i] not in x.lower(): \n            return False\n    return True\n\n\n          \n      \n      \nx1=str(input())\nk=returnmissingchar(x1)\nif(pangram(x1) == True): \n    print(\"Yes, the string is a pangram.\") \nelse: \n    print(\"No, the string is NOT a pangram. Missing letter(s) is(are)\"+k+'.')",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\n### DO NOT CHANGE. REQUIRED TO PLOT IN PRUTOR #################################\nimport math\nimport prutorplotlib as pl\nimport matplotlib as mpl\nmpl.use('Agg')\nimport matplotlib.pyplot as plt\nimport numpy as np\n###############################################################################\n\n\n\n\n# YOUR CODE GOES HERE ********************\n\nV=int(input())\nA=int(input())\ng=9.8\nAr=math.radians(A)\nT=2*V*math.sin(Ar)/g\nx1=V*math.cos(Ar)*T\ny1=(V*math.sin(Ar)T/2)+((-g/2)(T/2)**2)\nprint('Time of Flight =',float(round(T,2)))\nprint('Distance Covered =',float(round(x1,2)))\nprint('Peak Height =',float(round(y1,2)))\n\n\nx = np.array(range(0,int(x1)))\nk1=math.tan(Ar)\nk2=g/(2*(V*math.cos(Ar))**2)\ny = x*k1-(x**2)*k2\n\n\nplt.plot(x,y)\nplt.show()\n\n\n### DO NOT CHANGE. REQUIRED TO PLOT IN PRUTOR #################################\npl.prutorsaveplot(plt, 'plot1.pdf')\n###############################################################################"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nimport string\ndef ispangram(str):\n    alphabet = \"abcdefghijklmnopqrstuvwxyz\"\n    empt=''\n    for char in alphabet:\n        if char not in str.lower():\n            char=char+', '\n            empt=empt+char\n    return empt\n   \n# main\nstring = str(input().split())\nempt=\"\"\nk=ispangram(string)\nif(k ==empt):\n  print(\"Yes, the string is a pangram.\")\nelse:\n    k=k[:len(k)-2]\n    k=k+'.'\n    print(\"No, the string is NOT a pangram. Missing letter(s) is(are)\",k)",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nx = input()\nx=set(x)\nalphabet = set(\"abcdefghijklmnopqrstuvwxyz\")\nop = alphabet - x\nif len(alphabet-x) != 0: \n    print('No, the string is NOT a pangram. Missing letter(s) is(are) ',\", \".join(str(e) for e in op,'.'))\nelse:\n    print('Yes, the string is a pangram.')"
+        }
+    ],
+    "IO_example": [
+        {
+            "IO_number": "20262",
+            "input": "The quick brown fox jump over the lazy dog",
+            "output": "No, the string is NOT a pangram. Missing letter(s) is(are) s.\n"
+        },
+        {
+            "IO_number": "20263",
+            "input": "The quick brown fox jumps over the lazy dog",
+            "output": "Yes, the string is a pangram.\n"
+        },
+        {
+            "IO_number": "20264",
+            "input": "The brown fox jump over the lazy dog",
+            "output": "No, the string is NOT a pangram. Missing letter(s) is(are) c, i, k, q, s.\n"
+        },
+        {
+            "IO_number": "20265",
+            "input": "Hi, I am Amey\n",
+            "output": "No, the string is NOT a pangram. Missing letter(s) is(are) b, c, d, f, g, j, k, l, n, o, p, q, r, s, t, u, v, w, x, z.\n"
+        },
+        {
+            "IO_number": "20266",
+            "input": "Did The quick brown fox jump over the lazy dog, hmm ..., I don't know.",
+            "output": "No, the string is NOT a pangram. Missing letter(s) is(are) s.\n"
+        },
+        {
+            "IO_number": "20267",
+            "input": "This problem has no automated test cases. Add automated/pre-generated test cases to this problem.\n",
+            "output": "No, the string is NOT a pangram. Missing letter(s) is(are) f, j, k, q, v, w, x, y, z.\n"
+        },
+        {
+            "IO_number": "20268",
+            "input": "",
+            "output": "\nOUCH!! your program generated an Exception on line 10 :\nEOF when reading a line\n"
+        },
+        {
+            "IO_number": "20269",
+            "input": "...",
+            "output": "No, the string is NOT a pangram. Missing letter(s) is(are) a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z.\n"
+        },
+        {
+            "IO_number": "20270",
+            "input": "No, the string is NOT a pangram. Missing letter(s) is(are) a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z.\ninvisible\t",
+            "output": "Yes, the string is a pangram.\n"
+        },
+        {
+            "IO_number": "20271",
+            "input": "Yes, the string is a pangram.",
+            "output": "No, the string is NOT a pangram. Missing letter(s) is(are) b, c, d, f, j, k, l, o, q, u, v, w, x, z.\n"
+        }
+    ],
+    "reference_solution": "import string\n\nalphabet = set(string.ascii_lowercase) \n  \ndef ispangram(s): \n    schar = set(s.lower())\n    return (schar >= alphabet, sorted(list(alphabet - schar)))\n      \n# Driver code \ns = input()\nflag, missing = ispangram(s)\nif flag:\n    print(\"Yes, the string is a pangram.\") \nelse: \n    misstr = \", \".join(missing)\n    print(\"No, the string is NOT a pangram. Missing letter(s) is(are) {}.\".format(misstr)) \n    \n",
+    "statement": "A Pangram is a sentence containing every letter in the English Alphabet. Write a Python program to check if a an input string is Pangram or not. Ignore the case of the the letters.\nIf the string is a Pangram, the output should be: <b>Yes, the string is a pangram.</b>\nIf the string is not a Pangram, it should report the missing letters, in lowercase, in ORDER.  See the Examples below.\n\nEXAMPLES:\n\nINPUT: The brown fox jump over the lazy dog\nOUTPUT: No, the string is NOT a pangram. Missing letter(s) is(are) c, i, k, q, s.\n\nINPUT: The quick brown fox jumps over the lazy dog\nOUTPUT: Yes, the string is a pangram.\n",
+    "problem_ID": "2920"
+}

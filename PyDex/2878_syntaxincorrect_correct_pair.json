@@ -1,0 +1,144 @@
+{
+    "submission": [
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\na = input()\ndata = []\nd={}\nfor i in range((int(a))):\n    data.append(input().split(','))\nfor x in data:\n    keys = x[0]\n    values = x[2]\n    d[keys] = d.get(keys,0)+ int(values)\nfor k in d:\n    print(k,d[k],sep=':')",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\na = input()\ndata = []\nd = {}\nfor i in range((int(a))):\n    data.append(input().split(',')\nfor x in data:\n    keys = x[0]\n    values = x[2]\n    d[keys] = d.get(keys,0)+ int(values)\nfor k in d:\n    print(k,d[k],sep='.')"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\ni=int(input())\nt=[]\nfor n in range (1, i+1):\n    j=input()\n    s=j.split(',')\n    t.append(s)\nsum={}\nfor n in t:\n    if int(n[0]) not in sum:\n        sum[int(n[0])]=int(n[2])\n    else:\n        k=int(n[2])\n        sum[int(n[0])]+=k\nfor n in sorted(sum):\n    print(str(n)+\":\"+str(sum[n]))",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\ni=int(input())\nt=[]\nfor n in range (1, i+1):\n    j=input()\n    s=j.split(',')\n    t.append(s)\nsum={}\nfor n in t:\n    if int(n[0]) not in sum:\n        sum[int(n[0])]=int(n[2])\n    else:\n        k=int(n[2])\n        sum[int(n[0])]+=k\nfor n in sorted(sum):\n    print(str(n)+\":\"+str(sum[n])"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nN = int(input())\ntotal=[]\nfor i in range (1,N+1):\n    line=input()\n    student=line.split(',')\n    total.append(student)\nmarksSum={}\nfor i in total:\n    if int(i[0])not in marksSum:\n        marksSum[int(i[0])]= int(i[2])\n    else:\n        k=int(i[2])\n        marksSum[int(i[0])]+=k\nfor i in sorted(marksSum):\n    print(str(i)+\":\"+str(marksSum[i]))",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nN = int(input())\ntotal=[]\nfor i in range (1,N+1):\n    line=input()\n    student=line.split(',')\n    total.append(student)\nmarksSum={}\nfor i in total:\n    if int(i[0])not in marksSum:\n        marksSum[int(i[0])]= int(i[2])\n    else:\n        k=int(i[2])\n        marksSum[int(i[0])]+=k\nfor i in sorted(marksSum):\n    print(str(i)=\":\"+str(marksSum[i]))"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\ndef sum_marks(lst):\n    a=dict()\n    for i in lst:\n        x=int(i[0])\n        y=int(i[-1])\n        if x in a:\n            a[x]+=y\n        else:\n            b={x:y}\n            a.update(b)\n    return(a)\n    \nq=int(input())\nr=1\nlst=list()\nwhile (r<=q):\n    str=input()\n    lst.append(str.split(','))\n    r+=1\ng=(sum_marks(lst))\nL1=list()\nfor i in g:\n    k=(i)\n    l=(g[i])\n    L1.append('{}:{}'.format(k,l))\nL1.sort()\nfor i in L1:\n    print(i)",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\ndef sum_marks(lst):\n    a=dict()\n    for i in lst:\n        x=int(i[0])\n        y=int(i[-1])\n        if x in a:\n            a[x]+=y\n        else:\n            b=(x:y)\n            a.update(b)\n    return(a)\n    \nq=int(input())\nr=1\nlst=list()\nwhile (r<=q):\n    str=input()\n    lst.append(str.split(','))\n    r+=1\ng=(sum_marks(lst))\nL1=list()\nfor i in g:\n    k=(i)\n    l=(g[i])\n    L1.append('{}:{}'.format(k,1))\nL1.sort()\nfor i in L1:\n    print(i)"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\ndef addMarks(tMarks):\n    lst=dict()\n    for i in tMarks:\n        x=int(i[0])\n        y=int(i[-1])\n        if x in lst:\n            lst[x]+=y\n        else:\n            b={x:y}\n            lst.update(b)\n    return(lst)\n    \nnum=int(input())\ntMarks=list()\nfor i in range(num):\n    str=input()\n    tMarks.append(str.split(','))\nreport=(addMarks(tMarks))\nL1=list()\nfor i in report:\n    k=(i)\n    l=(report[i])\n    L1.append('{}:{}'.format(k,l))\nL1.sort()\nfor i in L1:\n    print(i)",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nnum = int(input())\nstuData = []\nsample = {'rn':000, 'code':'val', 'marks':00}\n\nif num <= 0:\n    print('Wrong Input!')\n    quit()\n    \nfor i in range(0,num) :\n    stuData.append(sample.copy())\n    raw = input()\n    rawList = raw.split(',')\n    stuData[i]['rn'] = int(rawList[0].strip())\n    stuData[i]['code'] = rawList[1].strip()\n    stuData[i]['marks'] = int(rawList[2].strip())\n\ntMarks = {}\nfor i in range(0,num):\n    tMarks[stuData[i]['rn']] = 0\n    #if (i+1) <= num :\n        for j in range(i+1, num):\n            print('njkdsgg');\n            if stuData[i]['rn'] == stuData[j]['rn'] :\n                tMarks[stuData[i]['rn']] = stuData[j]['marks']+stuData[i]['marks']\n\nprint(tMarks)"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\na=input()\ndata=[]\ndict={}\nfor i in range((int(a))):\n    data.append(input().split(','))\nfor x in data:\n    keys=x[0]\n    values=x[2]\n    dict[keys]=dict.get(keys,0) + int(values)\nfor k in dict:\n    print(k,dict[k],sep=':')",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\na=input()\ndata=[]\ndict={}\nfor i in range((int(a))):\n    data.append(input().split(','))\nfor x in data:\n    keys=x[]\n    values=x[2]\n    dict[keys]=dict.get(keys,0) + int(values)\nfor k in d:\n    print(k,dict[k],sep=':')"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\na= input()\ndata=[]\ndict={}\nfor i in range ((int(a))):\n    data.append(input().split(','))\nfor x in data:\n    keys=x[0]\n    values=x[2]\n    dict[keys]=dict.get(keys,0) + int(values)\nfor k in dict:\n    print(k,dict[k],sep=':')",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\na= input()\ndata=[]\ndict={}\nfor i in range a:\n    data.append(input().split(','))\nfor x in data:\n    keys=x[0]\n    values=x[2]\n    dict[keys]=dict.get(key,0) + int(values)\nfor k in dict:\n    print(k,dict[k],sep=':')"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\na=input()\ndata=[]\ndict={}\nfor i in range((int(a))):\n    data.append(input().split(','))\nfor x in data:\n    keys=x[0]\n    values=x[2]\n    dict[keys]=dict.get(keys,0) + int(values)\nfor k in dict:\n    print(k,dict[k],sep=':')\n    \n                \n            ",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\na=input()\ndata=[]\ndict={}\nfoor i in range((int(a))):\n    data.append(input().split(','))\nfor x in data:\n    keys=x[0]\n    values=x[2]\n    dict[keys]=dict.get(keys,0) + int(values)\nfor k in dict:\n    ptint(k,dict[k],sep=':')\n    \n                \n            "
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\na = input()\ndata = []\ndict = {}\nfor i in range((int(a))):\n    data.append(input().split(','))\nfor x in data:\n    keys = x[0]\n    values = x[2]\n    dict[keys] = dict.get(keys,0) + int(values)\nfor k in dict:\n    print(k,dict[k],sep = ':')",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\na = input()\ndata = []\ndict = {}\nfor i in range((int(a))):\n    data.append(input().split(','))\nfro x in data:\n    keys = x[0]\n    values = x[2]\n    dict[keys] = dict.get(keys,0) + int(values)\nfor k in dict:\n    print(k,dict[k],sep = ':')"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nx=input()\ndata = []\ndict = {}\nfor i in range(int(x)):\n    data.append(input().split(','))\nfor a in data:\n    keys= a[0]\n    values=a[2]\n    dict[keys] = dict.get(keys,0) + int(values)\nfor k in dict:\n    print(k,dict[k], sep=':')",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nN = int(input())\nr = []\ns = []\nm = []\ni = 1\nwhile i <= N:\n    t = 0\n    z =str(input())\n    k =z.replace(' ','',)\n    d =k.split(',',)\n    id d[0] in r:\n        if d[0] + d[1] in s:\n            t=t\n        else:\n            s.append(d[0]+d[1])\n            q=r.index(d[0])\n            t =int(m[q]+int(d[2]))\n            m[q]=t\n    else:\n        r.append(d[0])\n        s.append(d[0]+d[1])\n        m.append(int(d[2]))\n    i =i+1\nx=0\nwhile x<len(r):\n    f=r[x]+':'+str(m[x])\n    f1=f.replace(' ','',)\n    print(f1)\n    x=x+1"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\ndef sum_marks(lst):\n    a=dict()\n    for i in lst:\n        x=int(i[0])\n        y=int(i[-1])\n        if x in a:\n            a[x]+=y\n        else:\n            b={x:y}\n            a.update(b)\n    return(a)\n    \nq=int(input())\nr=1\nlst=list()\nwhile (r<=q):\n    str=input()\n    lst.append(str.split(','))\n    r+=1\ng=(sum_marks(lst))\nL1=list()\nfor i in g:\n    k=(i)\n    l=(g[i])\n    L1.append('{}:{}'.format(k,l))\nL1.sort()\nfor i in L1:\n    print(i)",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\na=input()\ndata=[]\ndict={}\nfor i in range((int(a))):\n    data.append(input().split(','))\nfor x in data:\n    keys=x[0]\n    values=x[2]\n    dict[keys]=dict.get9keys.0)+int(values)\nfor k in dict:\n    print(k,dict[k],sep=':')"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\ndef sum(lst):\n    a=dict()\n    for i in lst:\n        x=int(i[0])\n        y=int(i[-1])\n        if x in a:\n            a[x]+=y\n        else:\n            b={x:y}\n            a.update(b)\n            \n    return(a)\n\nq=int(input())\nr=1\nlst = list()\nwhile (r<=q):\n    str=input()\n    lst.append(str.split(','))\n    r=r+1\n\ng=(sum(lst))\nl1=list()\n\nfor i in g:\n    k=i\n    l=g[i]\n    l1.append('{}:{}'.format(k,l))\n\nl1.sort()\nfor i in l1:\n    print (i)",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\ndef sum(lst):\n    a=dict()\n    for i in lst:\n        x=int(i[0])\n        y=int(i[-1])\n        if x in a:\n            a[x]+=y\n        else:\n            b={x:y}\n            a.update(b)\n            \n    return(a)\n\nq=int(input())\nr=1\nlst = list()\nwhile (r<=q):\n    str=input()\n    lst.append(str.split(','))\n    r=r+1\n\ng=(sum(lst))\nl1=list()\n\nfor i in g:\n    k=i\n    l=g(i)\n    l1=append('{}:{}'.format(k,l)\n\nl1.sort()\nfor i in l1:\n    print (i)"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nx = input()\ndata = []\ndict = {}\nfor i in range((int(x))):\n    data.append(input().split(','))\nfor x in data:\n    keys = x[0]\n    values = x[2]\n    dict[keys] = dict.get(keys,0) + int(values)\nfor k in dict:\n    print(k,dict[k],sep=':')",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nx = input()\ndata = []\ndict = {}\nfor i in range((int(x))):\n    data.append(input().split(',')\nfor x in data:\n    keys = x[0]\n    values = x[2]\n    dict[keys] = dict.get(keys,0) + int(values)\nfor k in dict:\n    print(k,dict[k],sep=':')"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nN=int(input())\ntotal=[]\n\nfor i in range(1,N+1):\n    line=input()\n    student=line.split(',')\n    total.append(student)\n\nmarksSum={}\nfor i in total:\n    if int(i[0]) not in marksSum:\n         marksSum[int(i[0])]=int(i[2])\n    else:\n        k=int(i[2])\n        marksSum[int(i[0])]+=k\n        \nfor i in sorted(marksSum):\n    print(str(i)+\":\"+str(marksSum[i]))\n\n",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nN=int(input())\ntotal=[]\n\nfor i in range(1,N+1):\n    line=input()\n    student=line.split(',')\n    print(student)\n    total.append(student)\n\nprint()\nmarksSum={}\nfor i in total:\n    print(i[0])\n    if int(i[0]) not in marksSum:\n         marksSum[int(i[0])]=int(i[2])\n    else:\n        k=int(i[2])\n        print(k)\n        marksSum[int(i[0])]=marksSum[int(i[0])+k\n    \n\nprint()\nprint(marksSum)\n\n"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\ndef sumofmarks(lis):\n    z=dict()\n    for i in lis:\n        roll=int(i[0])\n        mark=int(i[-1])\n        if roll in z:\n            z[roll]+= mark\n        else:\n            y={roll:mark}\n            z.update(y)\n    return(z)\n    \nnumline=int(input())\nx=1\nlis=list()\nwhile (x<=numline):\n    managein=input()\n    lis.append(managein.split(','))\n    x+=1\nw=(sumofmarks(lis))\nNewlis=list()\nfor i in w:\n    a=(i)\n    b=(w[i])\n    Newlis.append('{}:{}'.format(a,b))\nNewlis.sort()\nfor i in Newlis:\n    print(i)\n    ",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\n\nb=input()\na=b.split(,)\nfor i in range (0,int(a[0])):\n    rollno,subjectcode,marks=int(a[1]),a[2],a[3]\n    print (rollno,subjectcode,marks)\n    "
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\ndef sum_marks(lst):\n    a=dict()\n    for i in lst:\n        x=int(i[0])\n        y=int(i[-1])\n        if x in a:\n            a[x]+=y\n        else:\n            b={x:y}\n            a.update(b)\n    return(a)\n    \nq=int(input())\nr=1\nlst=list()\nwhile (r<=q):\n    str=input()\n    lst.append(str.split(','))\n    r+=1\ng=(sum_marks(lst))\nL1=list()\nfor i in g:\n    k=(i)\n    l=(g[i])\n    L1.append('{}:{}'.format(k,l))\nL1.sort()\nfor i in L1:\n    print(i)",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\ndef sum_marks(1st):\n    a=dict()\n    for i in 1st:\n        x=int(i[0])\n        y=int(i[-1])\n        if x in a:\n            a[x]+=y\n        else:\n            b={x:y}\n            a.update(b)\n    return(a)\n    \nq=int(input())\nr=1\n1st=list()\nwhile (r<=q):\n    str=input()\n    1st.append(str.split(','))\n    r+=1\ng=(sum_marks(1st))\nL1=list()\nfor i in g:\n    k=(i)\n    l=(g[i])\n    L1.append('{}:{}'.format(k,l))\nL1.sort()\nfor i in L1:\n    print(i)"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\ndef sum_marks(lst):\n    a=dict()\n    for i in lst:\n        x=int(i[0])\n        y=int(i[-1])\n        if x in a:\n            a[x]+=y\n        else:\n            b={x:y}\n            a.update(b)\n    return(a)\n    \nq=int(input())\nr=1\nlst=list()\nwhile (r<=q):\n    str=input()\n    lst.append(str.split(','))\n    r+=1\ng=(sum_marks(lst))\nL1=list()\nfor i in g:\n    k=(i)\n    l=(g[i])\n    L1.append('{}:{}'.format(k,l))\nL1.sort()\nfor i in L1:\n    print(i)",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\ndef sum_marks(lst):\n    a=dict()\n    for i in lst:\n        x=int(i[0])\n        y=int(i[1])\n        if x in a:\n            a[x]+=y\n        else:\n            b={x:y}\n            a.update(b)\n    return(a)\n    \nq=int(input())\nr=1\nlst=list()\nwhile (r<=q):\n    str=input()\n    lst.append(str.split(','))\n    r=+=1\ng=(sum_marks(lst))\nL1=lst()\nfor i in g:\n    k=(i)\n    l=(g[i])\n    L1.append('{}:{}'.format(k,l))\nL1.sort()\nfor i in L1:\n    print(i)"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nt=int(input())\ntotal=[]\nfor t in range(1,t+1):\n    line=input()\n    student=line.split(',')\n    total.append(student)\n    \nmarks={}\nfor x in total:\n    if int(x[0]) not in marks:\n        marks[int(x[0])]=int(x[2])\n    else:\n        y=int(x[2])\n        marks[int(x[0])]+=y\nfor x in sorted(marks):\n    print(str(x)+\":\"+str(marks[x]))",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nt=int(input())\ntotal=[]\nfor t in range(1,t+1):\n    line=input()\n    student=line.split(',')\n    total.append(student)\n    \nmarks={}\nfor x in total:\n    if int(x[0]) not in marks:\n        marks(int(x[0]))=int(x[2])\n    else:\n        y=int(x[2])\n        marks[int(x[0])]+=y\nfor x in sorted(marks):\n    print(str(x)+\":\"+str(marks[x]))"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\na=input()\ndata=[]\ndict={}\nfor i in range((int(a))):\n    data.append(input().split(','))\nfor x in data:\n    keys=x[0]\n    values=x[2]\n    dict[keys]=dict.get(keys,0) + int(values)\nfor k in dict:\n    print(k,dict[k],sep=':')\n    \n",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\na=input()\ndata=[]\ndict={}\nfor i in the range((int(a))):\n    data.append(input().split(','))\nfor x in data:\n    keys=x[0]\n    values=x[2]\n    dict[keys]=dict.get(keys,0) + int(values)\nfor k in dict:\n    print(k,dict[k],sep=':')\n    \n"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nx = input()\ndata = []\ndict = {}\nfor i in range ((int(x))):\n    data.append(input().split(','))\nfor x in data:\n    keys=x[0]\n    values=x[2]\n    dict[keys]=dict.get(keys,0) + int(values)\nfor k in dict:\n    print(k,dict[k],sep=':')",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nx = input()\ndata = []\ndict = {}\nfor i in range ((int(a))):\n    data.append(input().split(,))\nfor x in data:\n    keys=x[0]\n    values=x[2]\n    dict[keys]=dict.get(keys,0) + int(values)\nfor k in dict:\n    print(k,dict[k],sep=':')"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\ndef sum_marks(lst):\n    a=dict()\n    for i in lst:\n        x=int(i[0])\n        y=int(i[-1])\n        if x in a:\n            a[x]+=y\n        else:\n            b={x:y}\n            a.update(b)\n    return(a)\n    \nq=int(input())\nr=1\nlst=list()\nwhile (r<=q):\n    str=input()\n    lst.append(str.split(','))\n    r+=1\ng=(sum_marks(lst))\nL1=list()\nfor i in g:\n    k=(i)\n    l=(g[i])\n    L1.append('{}:{}'.format(k,l))\nL1.sort()\nfor i in L1:\n    print(i)\n",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\ndef sum_marks(lst):\n    a=dict()\n    for i in lst:\n        x=int(i[0])\n        y=int(i[-1])\n        if x in a:\n            a[x]+=y\n        else:\n            b={x:y}\n            a.update(b)\n    return(a)\nq=int(input())\nr=1\nlst=list()\nwhile (r<=q):\n    str=input()\n    1st.append(str.split(','))\n    r+=1\ng=(sum_marks(lst))\nL1=list()\nfor i in g:\n    k=(i)\n    l=(g[i])\n    L1.append('{}:{}'.format(k,1))\nL1.sort()\nfor i in L1:\n    print(i)\n"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nx = input()\ndata = []\ndict = {}\nfor i in range((int(x))):\n    data.append(input().split(','))\nfor x in data:\n    keys = x[0]\n    values = x[2]\n    dict[keys] = dict.get(keys,0) + int(values)\nfor k in dict:\n    print(k,dict[k],sep=':')",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\na=input()\ndata=[]\ndict={}\nfor i in range((int(a)))\n    data.append(input().split(','))\nfor x in data:\n    keys=x[0]\n    values=x[2]\n    dict[keys]=dict.get(keys,0) + int(values)\nfor k in dict:\n    print(k,dict[k],sep='.')"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nx = input()\nd = []\ndict = {}\nfor i in range((int(x))):\n    d.append(input().split(','))\nfor y in d:\n    keys=y[0]\n    values=y[2]\n    dict[keys]=dict.get(keys,0)+int(values)\nfor k in dict:\n    print(k,dict[k],sep=':')\n\n\n\n\n\n\n\n\n",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nN = int(input())\nr = []\ns = []\nm = []\ni = 1\nwhile i<=N:\n    t=0\n    z=str(input())\n    k=z.replace(' ','',)\n    d=k.split(',',)\n    if d[0] in r:\n        if d[0] + d[1] in s:\n            t=t\n        else:\n            s.append(d[0]+d[1])\n            q=r.index(d[0])\n            t=int(m[q]+int(d[2])\n            m[q]=t\n    else:\n        r.append(d[0])\n        s.append(d[0]+d[1])\n        m.append(int(d[2])\n    i=i+1\nx=0\nwhile x<len(r):\n    f=r[x]+':'+str(m[x])\n    f1=f.replace(' ','',)\n    print(f1)\n    x=x+1\n\n\n\n\n\n\n\n"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\ninitialinput = input()\ndata = []\ndict = {}\nfor i in range(int(initialinput)):\n    data.append(input().split(','))\nfor x in data:\n    keys = x[0]\n    values = x[2]\n    dict[keys] = dict.get(keys, 0 ) + int(values)\nfor k in dict:\n    print(k,dict[k],sep=':')",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nf,l,m = (input()).split(',')\ndef printName(rolln, subj ,int(marks)):\n      if (rolln[2] == subj[4]):  \n        return(rolln + ':' , sum(marks))\n      else:\n        print(rolln, subj)\n\nprintName(f,l,m)"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\na = input()\ndata = []\nd={}\nfor i in range((int(a))):\n    data.append(input().split(','))\nfor x in data:\n    keys = x[0]\n    values = x[2]\n    d[keys] = d.get(keys,0)+ int(values)\nfor k in d:\n    print(k,d[k],sep=':')\n",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\na = input()\ndata = []\nd={}\nfor i in range((int(a))):\n    data.append(input().split(','))\nfor x in data:\n    keys = x[0]\n    values = x[2]\n    d[keys] = d.get(keys,0)+ int(values)\nfor k:v in d:\n    print(k)\n#         roll_num = x[0]\n#         marks = x[2]\n#         for r,m in zip(roll_num,marks):\n#             print('Roll num {} has {} marks.'.format(r,m)\n"
+        }
+    ],
+    "IO_example": [
+        {
+            "IO_number": "19889",
+            "input": "4\n101, CS101, 10\n101,   CS102, 20\n102, CS102  , 30\n102,CS101,-10",
+            "output": "101:30\n102:20\n"
+        },
+        {
+            "IO_number": "19890",
+            "input": "1\n101, CS101, 10",
+            "output": "101:10\n"
+        },
+        {
+            "IO_number": "19891",
+            "input": "10\n101, CS101, 10\n101,   CS102, 20\n102, CS102  , 30\n102,CS101,-10\n101,   CS102, 10\n102, CS101  , 30\n103, EE121a, 25\n105, ME243, 33\n102, EE121a, 5\n101, ME243, 37\n",
+            "output": "101:77\n102:55\n103:25\n105:33\n"
+        },
+        {
+            "IO_number": "19892",
+            "input": "10\n101, CS101, 10\n101,   CS102, 20\n102, CS102  , 30\n102,                                                                           CS101,-10\n101,   CS102, 10\n102, CS101  , 30\n103, EE121a, 25\n105, ME243, 33\n102, EE121a, 5\n101, ME243, 37",
+            "output": "101:77\n102:55\n103:25\n105:33\n"
+        },
+        {
+            "IO_number": "19893",
+            "input": "10\n101, CS101, 1\n101, CS101, 1\n101, CS101, 1\n101, CS101, 1\n101, CS101, 1\n101, CS101, 1\n101, CS101, 1\n101, CS101, 1\n101, CS101, 1\n101, CS101, 1",
+            "output": "101:10\n"
+        },
+        {
+            "IO_number": "19894",
+            "input": "2\n101, CS101, 1\n101, CS101, 1\n101, CS101, 1\n101, CS101, 1\n101, CS101, 1\n101, CS101, 1\n101, CS101, 1\n101, CS101, 1\n101, CS101, 1\n101, CS101, 1",
+            "output": "101:2\n"
+        },
+        {
+            "IO_number": "19895",
+            "input": "2\n101, CS101, 1\n101, CS102, 1\n",
+            "output": "101:2\n"
+        }
+    ],
+    "reference_solution": "records=int(input())\nif records <= 0:\n    exit()\n\nRoll2Marks = dict()\nfor i in range(records):\n    inp  = input().split(',')\n    roll = int(inp[0])\n    subj = inp[1].strip()\n    marks= int(inp[2])\n    #print(roll, subj, marks)\n    Roll2Marks[roll] = Roll2Marks.get(roll, 0) + marks\n    \n\nfor key in sorted(Roll2Marks.keys()):\n    print(key, Roll2Marks[key], sep=':')",
+    "statement": "In this problem (and the next), you need to create a program for managing marks for the students of some batch. \n\nThe input to the program will be as described next:\nThe first line will contain a positive integer <b>N</b>. This will be followed by at least <b>N</b> lines, where each line will contain <b>three</b> items, separated by COMMA (,):\n  \n   <b>Roll Number, Subject Code, Marks</b>\n\nHere <b>Roll Number</b> is a positive integer, <b>Subject Code</b> is an alpha-numeric string and <b>Marks</b> are integers. Any of the three items can repeat in the input. Also, whitespaces are allowed around the comma.\n\nYou task is to print the TOTAL marks for each Roll Number on separate lines, sorted by the Roll Number. Roll Number and marks are to be separated by a single : in the output.\n\nEXAMPLES:\n____________________________________\nInput:\n4\n101, CS101, 10\n101,   CS102, 20\n102, CS102  , 30\n102,CS101,-10\n\nOutput:\n101:30\n102:20\n____________________________________\nInput:\n1\n101, CS101, 10\n\nOutput:\n101:10\n___________________________________ ",
+    "problem_ID": "2878"
+}

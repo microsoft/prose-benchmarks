@@ -1,0 +1,121 @@
+{
+    "submission": [
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\ni=str(input())\nx=i.find(\"not\")\ny=i.find(\"bad\")\nz=x<y\nif(z == True):\n    snot=i.split(\"not\")\n    sbad=i.split(\"bad\")\n    s1=snot[0]\n    s3=sbad[1]\n    print(s1+\"good\"+s3)\nelse:\n    print(i)\n",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\ni=str(input())\nx=i.find(\"not\")\ny=i.find(\"bad\")\nz=x<y\nif(z==true):\n    snot=i.split(\"not\")\n    sbad=i.split(\"bad\")\n    s1=snot[0]\n    s3=sbad[1]\n    print(s1+\"good\"+s3)\nelse:\nprint(i)\n"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\ns1 = str(input())\nsearch_not = s1.find('not')\nsearch_bad = s1.find('bad')\nif search_not < search_bad:\n     s2 = s1.replace(s1[(search_not):(search_bad+3)], 'good')\n     print(s2)\nelse: \n    print(s1)\n",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\ns1 = str(input())\nsearch_not = s1.find('not')\nsearch_bad = s1.find('bad')\nif search_not < search_bad:\n     s2 = s1.replace(s1[search_not:(search_bad+3)], 'good')\nprint(s2)\nelif "
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nstring=input()\nwet_index=string.find(\"not\")\nhot_index=string.find(\"bad\")+3\n\n\nif(hot_index < wet_index or hot_index==(-1) or wet_index==(-1)):\n    print(string)\nelse:\n    substring=string[wet_index:hot_index]\n    result=string.replace(substring, \"good\")\n    print(result)",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nstring=input()\nnot_index=string.find(\"not\")\nbad_index=string.find(\"bad\")\nbad_index=bad_index + 3\n\nif(bad_index < not_index or bad_index==(-1) or not_index==(-1)):\nprint(string)\nelse:\nsubstring=string[not_index:bad_index]\nresult=string.replace(substring, \"good\")\nprint(result)"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nv=str(input())\nk=(v.find('not',0,len(v)))\nl=(v.find('bad',0,len(v)))\nif k<l and k!=-1 and l!=-1:\n    print(v.replace(v[k:l+3],'good', ))\nelse:\n    print(v)\n    ",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nv=str(input())\nk=(v.find('not',\u00ce\u00b8,len(v)))\nl=(v.find('bad',\u00ce\u00b8,len(v)))\nif k<l and k!=-1 and l!=-1:\n    print(v.replace(v[k:l+3],'good', ))\nelse:\n    print(v)\n    "
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nstr = input()\nx = str.find('not')\ny = str.find('bad')\nif y>x:\n    str=str.replace(str[x:(y+3)], 'good')\n    print(str)\nelse:\n    print(str)",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nstr = input()\nx = str.find('not')\ny = str.find('bad')\nif y>x:\n    str=str.replace(str[x:(y+3], 'good')\n    print(str)\nelse:\n    print(str)"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\na = input()\nb = a.find('not')\nc = a.find('bad')\nif c>b:\n    x = a[b:c+3]\n    print(a.replace(x, 'good'))\nelse:\n        print(a)",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\na = input()\nb = a.find('not')\nc = a.find('bad')\nif c>b:\n    x = a[b:c+3]\n    print(a.replace(x, 'good'))\n    else:\n        print(a)"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nx = str(input())\nsearch_not = x.find('not')\nsearch_bad = x.find('bad')\nif search_not < search_bad:\n    x1 = x.replace(x[search_not:(search_bad+3)], 'good')\n    print(x1)\nelse:\n    print(x)\n",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\ns = str(input())\nsearch_not = s.find(\"not)\nsearch_bad = s.find(\"bad\")\nif search_not < search_bad:\n    s1 = s.replace(s[search_not:(search_bad+3:)], \"good\")\n    print(s1)\nelse:\n    print(s)\n"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nn=input()\na=n.rfind('not')\nb=n.rfind('bad')\n\nif(a<b and a!=-1 and b!=-1):\n    m=n[a:b+3]\n    n=n.replace(m,'good')\n    print(n)\nelse:\n    print(n)",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nn=input()\na=n.rfind('not')\nb=n.rfind('bad')\n\nif(a<b):\n    m=n[a:b+3]\n    n=n.replace(m,'good')\n    print(n)\nelse\n    print(n)"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\na=str(input())\nb=(a.find('not',0,len(a)))\nc=(a.find('bad',0,len(a)))\nif b<c and b!=-1 and c!=-1:\n    print(a.replace(a[b:c+3],'good',))\nelse:\n      print(a)\n",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\na=str(input())\nb=(a.find('not',0,len(a)))\nc=(a.find('bad',0,len(a)))\nif b<c and b!=-1 and c!=-1:\n    print(a.replace(a[b:c+3],'good',))\n  else:\n      print(a)\n"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\na=input()\nindex_not=a.find('not')\nindex_bad=a.find('bad')\nif index_bad==-1 or index_not==-1 or index_not>index_bad:\n    print(a)\nelse:\n    b=a[:index_not]+'good'+a[index_bad+3:]\n    print(b)",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\na=input()\nindex_not=a.find('not')\nindex_bad=a.find('bad')\nif index_bad=-1 or index_not=-1 or index_not>index_bad:\n    print(a)\nelse:\n    b=a[:index_not]+'good'+a[index_bad+3:]\n    print(b)"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nv=str(input())\nk=(v.find('not',0,len(v)))\nl=(v.find('bad',0,len(v)))\nif k<l and k!=-1 and l!=-1:\n    print(v.replace(v[k:l+3],'good',))\nelse:\n    print(v)",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nv=str(input())\nk=(v,find('not',0,len(v)))\nl=(v,find('bad',0,len(v)))\nif k<1 and k!=-1 and 1!=-1:\n    print(v.replace(v[k:1=3],'good', ))\nelse:\n    print(v)"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nv=str(input())\nk=(v.find('not',0,len(v)))\nl=(v.find('bad',0,len(v)))\nif k<l and k!=-1 and l!=-1:\n    print(v.replace(v[k:l+3],'good', ))\nelse:\n    print(v)",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nv=str(input())\nk=(v.find('not',0,len(v)))\nl=(v.find('bad',0,len(v)))\nif k<l and k!=-1 and l!=-1:\n    print(v.replace(v[k:l+3],'good', ))\n    else:\n        print(v)"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nstring=input()\nidx1=string.find('not')\nidx2=string.find('bad')\nif idx2>idx1:\n    str_st=string[:idx1]\n    str_en=string[idx2+3:]\n    print(str_st+\"good\"+str_en)\nelif idx1==-1 or idx2==-1:\n    print(string)\nelse:\n    print(string)\n\n",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nstring=input()\nidx1=string.find('not')\nidx2=string.find('bad')\nif idx2>idx1:\n    str_st=string[:id1]\n    str_en=string[id2+3:]\n    print(str_st+\"good\"+str_en)\nelse if idx1==-1 or idx2==-1:\n    print(string)\nelse:\n    print(string)\n\n"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nstr=input()\na=str.find('not')\nb=str.find('bad')\nif b>a:\n    str=str.replace(str[a:(b+3)],'good')\n    print(str)\nelse:\n    print(str)",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nname = 'The class will be good '\nprint(name)\nprint(name.replace('will be good','is informative')\n"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nStr = input()\na = 'not' in Str\nb = 'bad' in Str\nif(a and b):\n    Not = Str.find('not')\n    Bad = Str.find('bad')+3\n    if(Not < (Bad-3)):\n        print(Str.replace(Str[Not:Bad],'good'))\n    else:\n        print(Str)\nelse:\n    print(Str)\n    \n",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nstring = input()\na = 'not' in string\nb = 'bad' in string\nif(a and b):\n    Not = string.find('not')\n    Bad = string.find('bad')+3\n    if(Not < (Bad-3)):\n        \nprint(string.replace(string[Not:Bad],'good')):\n    else:\n        print(string)\n   else:\n       print(string)\n       "
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\n#       %% Input to the system in string %%\nSentence = str(input())\n\n#finding the index of not and bad to compare them\nindex_not = Sentence.find(\"not\")\nindex_bad = Sentence.find(\"bad\")\n\n#Adding a les than statement so that i can compare better in if condition\nBad_comes_first = index_not < index_bad\n\n# If condition tryiing without subscript\nif( Bad_comes_first == True):\n    split_not = Sentence.split(\"not\",1)\n    #split from after not to bad end thus remaining only the end statement(symbol)\n    split_bad = Sentence.split(\"bad\", 1)\n    \n    # giving before not setence a value\n    substring1 = split_not[0]\n    # giving after not to end bad  setence a value\n    substring3 = split_bad[1]\n    #adding these sentences but because the not is removed and also the bad is removed after using slpit function\n    print(substring1+\"good\"+substring3)\n\n\nelse:\n    print(Sentence)\n",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\n#       %% Input to the system in string %%\nsnt = str(input())\n\n#finding the index of not and bad to compare them\ninot = snt.find(\"not\")\nibad = snt.find(\"bad\")\n##Diffecult is providing a sequence in for not/bad due to which the problem is not able to sepcifiy when the bad comes before good\n# If condition tryiing without subscript\nif( inot > ibad):\n    split_not = snt.split(\"not\",1)\n    #split from after not to bad end thus remaining only the end statement(symbol)\n    split_bad = snt.split(\"bad\", 1)\n    \n    # giving before not setence a value\n    substring1 = split_not[0]\n    # giving after not to end bad  setence a value\n    substring3 = split_bad[1]\n    #adding these sentences but because the not is removed and also the bad is removed after using slpit function\n    print(substring1+\"good\"+substring3)\n\nfor(inot < ibad):\n    print(snt)\nelse:\n    print(snt)"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nstring = input()\n\nindex_not = string.find('not')\nindex_bad = string.find('bad') + 3\n\nif (index_bad < index_not) or (index_bad and index_not == -1):\n    print(string)\nelse:\n    substring = string[index_not:index_bad]\n    result = (string.replace(substring,'good'))\n    print(result)",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nstring = input()\n\nindex_not = string.find('not')\nindex_bad = string.find('bad') + 3\n\nif index_not < index_bad:\n    substring = string[index_not:index_bad]\n    result = (string.replace(substring,'good'))\n    print(result)\nelif index_not index_bad == -1:\n    print(string)"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nstr1=input()\nstr2=str1.find('not')\nstr3=str1.find('bad')\nname=str1[str2:str3+3:1]\nfinal=str1.replace(name, \"good\")\nif str3>str2:\n    print(final)\nelse:\n    print(str1)",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nstr1=input()\nstr2=str1.find('not')\nstr3=str1.find('bad')\nname=str1[str2:str3+3:1]\nfinal=str1.replace(name, \"good\")\nif str3>str2:\n    print(final)\n    else:\n        print(str1)"
+        }
+    ],
+    "IO_example": [
+        {
+            "IO_number": "19836",
+            "input": "The lyrics is not that bad!",
+            "output": "The lyrics is good!\n"
+        },
+        {
+            "IO_number": "19837",
+            "input": "Food is bad? not at all.",
+            "output": "Food is bad? not at all.\n"
+        },
+        {
+            "IO_number": "19838",
+            "input": "The song is good.",
+            "output": "The song is good.\n"
+        },
+        {
+            "IO_number": "19839",
+            "input": "The song is not extremely good.",
+            "output": "The song is not extremely good.\n"
+        },
+        {
+            "IO_number": "19840",
+            "input": "not bad",
+            "output": "good\n"
+        },
+        {
+            "IO_number": "19841",
+            "input": "not very bad",
+            "output": "good\n"
+        },
+        {
+            "IO_number": "19842",
+            "input": "heynotatallbadatall",
+            "output": "heygoodatall\n"
+        },
+        {
+            "IO_number": "19843",
+            "input": "notbad",
+            "output": "good\n"
+        }
+    ],
+    "reference_solution": "inp = input()\n\nni = inp.find('not')\nbi = inp.find('bad')\nif ni == -1:\n    # 'not' not found.\n    print(inp)\nelif bi == -1:\n    # 'bad' not found\n    print(inp)\nelif ni > bi:\n    # 'not' after 'bad'\n    print(inp)\nelse:\n    # all conditions satisfied.\n    bi = bi + len('bad')\n    op = inp[:ni] + 'good' + inp[bi:]\n    print(op)\n    ",
+    "statement": "Write a program as per the following specification: The input to the program is a string. The string may contain substrings 'not' and 'bad'. There are either 0 or 1 occurrences of 'not' and 'bad'. If  'bad' comes after 'not', then \n the program outputs a string such that the whole 'not...bad' substring in the input is replaced by 'good'. Otherwise, it prints the original string itself.\n\nNOTE: In this question, the input strings for evaluation may or may not contain the substrings 'not' and 'bad' as substrings. Even if the input contains both, it is not guaranteed that 'bad' comes after 'not'.\n\nEXAMPLES:\nINPUT: The song is good.\nOUTPUT: The song is good.\n\nINPUT: Food is bad? not at all.\nOUTPUT: Food is bad? not at all.\n\nINPUT: The lyrics is not that bad!\nOUTPUT: The lyrics is good!\n",
+    "problem_ID": "2872"
+}

@@ -1,0 +1,146 @@
+{
+    "submission": [
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nnum1 = int(input())\nx =str(num1)\nr = x [: :-1]\ns = int(r) + num1\nprint(\"Reverse:\",int(r) )\nprint(\"Sum:\",s)\n",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nnum1 = int(input())\nx =str(num1)\nr = x [: :-1]\nsum = int(r) + num1\nprint(\"Reverse: \",r )\nprint(Sum: \",sum)\n"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nx=int(input())\ns=str(x)\nprint(\"Reverse:\", int(s[::-1]))\nprint(\"Sum:\", ((x) + int(s[::-1])))",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nx=int(input())\ns=str(x)\nprint(\"Reverse :\", int(s[::-1]))\nprint(\"Sum :\", ((x) + int(s[::-1]))"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nInput = int(input())\nString_input = str(Input)\nReverse = String_input[ ::-1]\nSum = Input + int(Reverse)\nReverse_Integer= int(Reverse)\nprint(\"Reverse: \" + str(Reverse_Integer))\nprint(\"Sum: \" + str(Sum))",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\na = int(input())\nb = str(a)\nc = b[ ::-1]\nd = int(a) + int(b)\nprint(\"Reverse:  \"c)\nprint(\"Sum:  \"d)"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nnum=int(input())#int type,to read only integers as input\ntest_num=str(num)#converting into string type,for indexing and reversal\nprint(\"Reverse:\",int(test_num[::-1]))\nprint(\"Sum:\",((num)+int(test_num[::-1])))",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nnum=int(input())\ntest_num=str(num)\nprint(\"Reverse:\",int(test_num[::-1]))\nprint(\"Sum:\",(num+int(test_num[::-1]))"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nx = int(input())\ns = str(x)\nprint('Reverse:', int(s[::-1]))\nprint('Sum:', ((x)+int(s[::-1])))",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nx = int(input())\na=str(x)[::-1]\na=int(a)\nprint('Reverse: ', a)\nsum = x+a\nprint(\\n'sum: ',sum)"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\na = int(input())\nb = str(a)\nd = b[ ::-1]\nprint('Reverse:',int(d))\nS= a+int(d)\nprint('Sum:',S)",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\na =int(input())\nb =str(a)\nd =c[ : :-1]\nprint('Reverse:',int(d)\nS= a+int(d)\nprint('Sum:',S)"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nstr1=int(input())\nstr2=str(str1)\nrev_str2=str2[::-1]\nprint(\"Reverse:\", int(rev_str2))\nprint(\"Sum:\",(str1)+int(rev_str2))",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nstr1=input()\nrev_str1=str1[::-1]\nprint(\"Reverse:\", rev_str)\nprint (int(str1)+int(rev_str1)"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nn = int(input())\ns =int(str(n)[::-1])\nprint('Reverse:', s)\nprint('Sum:', n+s)\n",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nn = int(input())\ns =int(str(n)[::-1]\nprint('Reverse:', s)\nprint('Sum:', n+s)\n"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nnumber=input()\nn=int(number)\nif n>10:\n    rev= number[::-1]\nelse:\n    rev=number\nr=int(rev)\nprint(\"Reverse:\",r)\nif n>10:\n    sum=n+r\nelse:\n    sum=n+n\nprint(\"Sum:\",sum)",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nn=int input()\nnumber=str(n)\nrev= number[::-1]\nprint(\"Reverse:\",rev)\nr=int(rev)\nif n>10:\n    sum=n+r\nelse:\n    sum=n+n\n"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\na = int(input())\nb = str(a)\nc = b[::-1]\nd = int(c)\nprint('Reverse:', d)\nX = a + d\nprint('Sum:', X )",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\na = int(input())\nb = str(a)\nc = b[::-1])\nd = int(c)\nprint('Reverse:', c)\nX = int(a) + int(c)\nprint('Sum:', sum )"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nx = int(input())\nz = str(x)\ny = z[::-1]\nprint('Reverse:',int(y))\nX = x + int(y)\nprint('Sum:',X)",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nx = int(input())\nz = str(x)\ny = z[::-1]\nprint('Reverse:',y)\ny = x + \n"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nfirst_number=int(input())\nffirst_number=str(first_number)\nsecond_number=ffirst_number[::-1]\ni_number=int(second_number)\nprint('Reverse:',i_number)\naddn=(first_number + i_number)\nprint('Sum:',addn)\n",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nfirst_number=int(input())\n1first_number=str(first_number)\nsecond_number=1first_number[::-1]\ni_number=int(second_number)\nprint('Reverse:',i_number)\naddn=(first_number + i_number)\nprint('sum:',addn)\n"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nnumber=int(input())\na=str(number)\na[::-1]\nb=int(a[::-1])\nprint('Reverse:',b)\nprint('Sum:',number+b)",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nnum=int(input())\nx=str(num)\nx[::-1]\ny=int(x[::-1])\nprint('Reverse:',y)\nprint(Sum:',num+y)"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nf_n = int(input())\nff_n = str(f_n)\ns_n = ff_n [::-1]\ni_n = int(s_n)\nprint ('Reverse:',i_n)\naddn = (f_n + i_n)\nprint ('Sum:', addn)",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nn=int(input())\nk=str(n)\n1=k[ : :-1]\nm=int(1)\nprint('reverse:',m)\ns=m+n\nprint('sum:',S);"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nf_n = int(input())\nff_n = str(f_n)\ns_n = ff_n [::-1]\ni_n = int(s_n)\nprint ('Reverse:',i_n)\naddn = (f_n + i_n)\nprint ('Sum:', addn)",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nf_n = input()\ns_n = f_n [::-1]\nif type(f_n) == int\n    print(s_n)\n"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nx=int(input())\ny=str(x)\nz=y[::-1]\na=int(z)\nprint(\"Reverse: {}\".format(a))\nSum=x + a\nprint(\"Sum: {}\".format(Sum))\n",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nx=input()\ny=int x\nz = number % 10\ny = 10 * y + z\nnumber = number / 10\nnumber = int(number)\nprint(\"Reverse: {}\".format(x[::-1]))\nprint(\"Sum: {}\".format(Sum))"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\ni=int(input())\ns=str(i)\nr=s[::-1]\nsum=i+int(r)\nprint('Reverse: {}\\nSum: {}'.format(int(r),sum))\n",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\ni=int(input())\ns=str(i)\nr=s[::-1]\nsum=i+int(r)\nprint('Reverse:{}\\nSum:{}.format(int(r),sum))\n"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nn = int(input())\nm = str(n)\nprint('Reverse:',int(m[::-1]))\nprint('Sum:', n + int(m[::-1]))",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nn = int(input())\nm = str(n)\nprint('Reverse:',int(m[::-1]))\nprint('Sum:',((n)=int(m[::-1)))"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\ns=input()\ns=int(s)\nx=abs(s)\nc=str(x)\nv=c[::-1]\nif (s>=0):\n    print(\"Reverse:\",int(v))\n    print('Sum:',int(c)+int(v))\nelse:\n    print('Reverse:',int(v)*(-1))\n    print('Sum:',(int(c)+int(v))*-1)",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\ns=input()\ns=int(s)\nc=str(s)\nv=c[::-1]\nprint(\"Reverse:\"int(v))\nprint('Sum:'int(c)+int(v))"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nINPUT=int(input())\nSTRING=str(INPUT)\nprint('Reverse:',int(STRING[::-1]))\nprint('Sum:',((INPUT)+int(STRING[::-1])))\n\n",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nINPUT=int(input())\nSTRING=str(INPUT)\nprint('Reverse:',INPUT[::-1])\nprint('Sum:',(STRING)+int(INPUT[::-1])))\n\n"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nx = int(input())\ny = str(x)\nrev = y[::-1]\nd = int(rev)\nprint('Reverse:',d )\nk = int(x) + int(d)\nprint('Sum:', k)\n",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\n\nx = input()\nstr(rev) = x[::-1]\nprint('Reverse:',rev )\nk = int(x) + int(rev)\nprint('Sum:', k)\n"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nnum = int(input())\nn = str(num)\n\nprint('Reverse:', int(n[::-1]))\nprint('Sum:',num+int(n[::-1]))",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nn = input()\n\n\t  num = str(n)\n\t  if num == num[::-1]:\n\t      sum = int(n)*2\n\t      print('Reverse:',num[::-1])\n\t      print('Sum:',sum)\n\t      break\n\t  else:\n\t      sum = int(n) + int(num[::-1])\n\t      print('Reverse:',num[::-1])\n\t      print('Sum:',sum)\n\t      break"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nf_n = int(input())\nff_n = str(f_n)\ns_n = ff_n [::-1]\ni_n = int(s_n)\nprint ('Reverse:',i_n)\naddn = (f_n + i_n)\nprint ('Sum:', addn)",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nnumber1= 67\nreverse_of_number1 = '67'[::-1]\nnumber2 = int(reverse_of_number1)\nprint('Reverse'number2)\nprint('sum'number1+number2)"
+        }
+    ],
+    "IO_example": [
+        {
+            "IO_number": "19814",
+            "input": "43",
+            "output": "Reverse: 34\nSum: 77\n"
+        },
+        {
+            "IO_number": "19815",
+            "input": "500",
+            "output": "Reverse: 5\nSum: 505\n"
+        },
+        {
+            "IO_number": "19816",
+            "input": "202",
+            "output": "Reverse: 202\nSum: 404\n"
+        },
+        {
+            "IO_number": "19817",
+            "input": "002",
+            "output": "Reverse: 2\nSum: 4\n"
+        },
+        {
+            "IO_number": "19818",
+            "input": "05",
+            "output": "Reverse: 5\nSum: 10\n"
+        },
+        {
+            "IO_number": "19819",
+            "input": "05",
+            "output": "Reverse: 5\nSum: 10\n"
+        },
+        {
+            "IO_number": "19820",
+            "input": "314159",
+            "output": "Reverse: 951413\nSum: 1265572\n"
+        },
+        {
+            "IO_number": "19821",
+            "input": "0",
+            "output": "Reverse: 0\nSum: 0\n"
+        },
+        {
+            "IO_number": "19822",
+            "input": "0",
+            "output": "Reverse: 0\nSum: 0\n"
+        }
+    ],
+    "reference_solution": "nn = int(input())\nrn = str(nn)[::-1]\n\nrn = int(rn)\n\nprint('Reverse:', rn)\nprint('Sum:', nn + rn)",
+    "statement": "Write a program to read a number (int) from the user.  Print the number in reverse. Also print the sum of the number and its reverse in a separate line. See the examples.\n\nNOTE: Do not print any prompt in the input().\n\nEXAMPLES:\nINPUT:\n43\nOUTPUT:\nReverse: 34\nSum: 77\n\nEXAMPLES:\nINPUT:\n005\nOUTPUT:\nReverse: 5   # Note that the number is 5 and its reverse is also 5.\nSum: 10\n\n",
+    "problem_ID": "2869"
+}

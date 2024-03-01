@@ -1,0 +1,108 @@
+{
+    "submission": [
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nN = int(input())\nfor i in range(1,N+1):\n    print('*' * i)",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nN = input()\nn = int(N)\nfor i in range(1,N+1)\n    print('*' * i)"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nnum=int(input())\nfor i in range(0,num):\n    j=0\n    while j<=i:\n        print('*', end='')\n        j+=1\n    print('')\n",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nnum=int(input())\nfor i in range(0,num):\n    j=0\n    while j<=i:\n        print('*', end='')\n        j++\n    print('\\n')\n"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nN = int(input())\nfor i in range(0,N):\n    for j in range(0,i+1):\n        print(\"*\",end=\"\")\n    print(\"\\r\")",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nN = int(input())\nfor i in range(0,N):\n    for j in range(0,i+1):\n        print(\"*\",end\"\")\n    print(\"\\r\")"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nn = int(input())\nc = str('*')\nfor i in range(1,n+1):\n    for j in range(i,2*i):\n        t = print(c, end='')\n    print('')",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nn = int(input())\nc = str('*')\nfor i in range(1,n+1):\n    for j in range(i,2*i):\n        t = print(c+, end='')\n    print('')"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nrows = int(input())\nprint(\"\") \nfor i in range(1, rows + 1):\n    for j in range(1, i + 1):\n        print('*',end='')\n    print() ",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\ndef triangle(n): \nk = 2*n - 2\nfor i in range(0, n): \nfor j in range(0, k): \nprint(end=\" \") \nk = k - 1\nfor j in range(0, i+1): \nprint(\"* \", end=\"\") \nprint(\"\\r\") \nn = 3\ntriangle(n) "
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nn=int(input())\nfor i in range (n+1):\n    for j in range(i):\n        print('*',end='')\n    print ()\n",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nn=int(input())\nfor i in range (n):\n    for j in range(i)\n        print('*')\n    print ()\n"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nn=int(input())\nfor i in range(0,n):\n    for j in range(0,i+1):\n        print(\"*\", end='')\n    print()",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\na = int(input())\nfor i in range(0, a):\n    for j in range(0, i + 1):\n        print(\"*\", end='')\n    print(\"\\\")"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nN=int(input())\nk=1\nwhile k<=N:\n    print('*'*k)\n    k=k+1",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nN=int(input())\nk=1\nwhile k<=N:\n    print('*'k)\n    k=k+1"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nN=int(input())\ni,j=0,0\nfor i in range(0,N):\n    for j in range(0,i+1):\n        print('*',end='')\n    print()\n    ",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nN=int(input())\ni,j=0,0\nfor i in range(0,N)\n    for j in range(0,i)\n        print('*')\n    print()\n    "
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nx = int(input())\nfor i in range(0,x):\n  for j in range(0,i+1):\n    print(\"*\",end=\"\")\n  print(\"\\r\")",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nheight = int(input()), c = str(input())\nfor i in range(1,height+1):\n  for j in range(1,i+1):\n    print(c+\" \", end='')\n  print()"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nN = int(input())\nfor i in range(1,N+1):\n    print('*' * i)",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nN = int(input())\nfor i in range(1,N+1):\n    print('*' * i"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nN=int(input())\nfor i in range(N):\n    for j in range(i+1):\n        print(\"*\",end=\"\")\n    print()\n    ",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nusr = input()\nfor i in range(1,usr):\n    print(\"*\")\n    println(\"\")\n    i++\n"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\n#initial input in int\nInitial_Num = int(input())\n\n#nested loop for statement goes one number in range for each loop\nfor TempRange in range(1,(Initial_Num+1)):\n    #tells excatly how can * to print on each line i,2*i i.e 1 to 2 =1 , 2 to 4 = 2 and so on\n  for FRange in range(TempRange, 2 * TempRange):\n    print('*', end='')\n  print()",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nn = int(input())\nsum = 0\n\ntemp = num\nwhile temp > 0:\n       sum + 1 = k \n       print('*')\n"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nrows = int(input())\nprint(\"\")\nfor i in range(1, rows + 1) :\n    for j in range (1, i + 1) :\n        print('*',end='')\n    print()\n    ",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nrows = 5\nfor i in range(0, rows):\n    for j in range(0, i + 1):\n        print(\"*\", end=' ')\n\n    print(\"\\r\")\n    rows = "
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\na=int(input())\nfor i in range(0,a):\n    for j  in range (0, i+1):\n        print('*', end='')\n    print()\n    \n",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\na=int(input())\nprint(a)\nfor i in range(0,a):\n    for j  in range (0, i+1):\n        print(*, end='')\n    print()\n    \n"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nn = int(input(\"\"))\nfor i in range(0, n):  \n    for j in range(0, i + 1):  \n        print(\"*\", end=\"\") \n    print()\n",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nn= int(input())\nfor i in range(1,n):\n    for j in range(i,i+1)\n        print(\"*\", end=\" \")\n    print()\n"
+        }
+    ],
+    "IO_example": [
+        {
+            "IO_number": "19855",
+            "input": "3",
+            "output": "*\n**\n***\n"
+        },
+        {
+            "IO_number": "19856",
+            "input": "4",
+            "output": "*\n**\n***\n****\n"
+        },
+        {
+            "IO_number": "19857",
+            "input": "10",
+            "output": "*\n**\n***\n****\n*****\n******\n*******\n********\n*********\n**********\n"
+        },
+        {
+            "IO_number": "19858",
+            "input": "13",
+            "output": "*\n**\n***\n****\n*****\n******\n*******\n********\n*********\n**********\n***********\n************\n*************\n"
+        },
+        {
+            "IO_number": "19859",
+            "input": "1",
+            "output": "*\n"
+        },
+        {
+            "IO_number": "19860",
+            "input": "6",
+            "output": "*\n**\n***\n****\n*****\n******\n"
+        },
+        {
+            "IO_number": "19861",
+            "input": "16",
+            "output": "*\n**\n***\n****\n*****\n******\n*******\n********\n*********\n**********\n***********\n************\n*************\n**************\n***************\n****************\n"
+        }
+    ],
+    "reference_solution": "N = int(input())\n\nfor i in range(N):\n    for j in range(i+1):\n        print('*',end='')\n    print()\n    ",
+    "statement": "Write a program to print an isosceles right triangle as shown in the examples. The equal sides of the triangle are created using N stars (*). N is taken as input by the program.\n\nInput: 3\nOutput:\n*\n**\n***\n\nInput: 4\nOutput:\n*\n**\n***\n****\n\nNOTE: \n1. The length of the side is number of stars in it. Do not get confused by the display.\n2. Make sure that there are no extra spaces anywhere in the output.\n3. The input to the program will be an integer > 0.\n",
+    "problem_ID": "2874"
+}

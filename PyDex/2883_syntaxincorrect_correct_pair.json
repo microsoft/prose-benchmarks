@@ -1,0 +1,94 @@
+{
+    "submission": [
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\ndef Ackermann(m,n):\n    if m==0:\n        return  n+1\n    if n==0:\n        return Ackermann(m-1,1)\n    return Ackermann(m-1,Ackermann(m,n-1))\n   \nmn=input()\ntempList=mn.split(',')\nm=int(tempList[0])\nn=int(tempList[1])\nprint(Ackermann(m,n))",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\n\ndef ackermann(m,n):\n    m, n= input().split(',')\n     if m = 0:\n          return (n + 1)\n     elif n = 0:\n          return ackermann(m - 1, 1)\n     else:\n          return ackermann(m - 1, ackermann(m, n - 1)) \n\nackermann(m,n)"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\n\ndef ack(m,n):\n    if m==0:\n        return n+1\n    elif n==0:\n        return ack(m-1,1)\n    else:\n        return ack(m-1,ack(m,n-1))\n\nm,n=[int(x) for x in input().split(',')]\nb= ack(m,n)\nprint(b)",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\n\ndef ack(m,n):\n    if m==0:\n        return n+1\n    elif n==0:\n        return ack(m-1,1)\n    else:\n        return ack(m-1,ack(m,n-1))\n\nm=int(input())\nn=int(input())\nprint ack(m,n)"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\ndef a(m,n):\n    if m == 0:\n        return n+1\n    if n ==0:\n        return a(m-1,1)\n    if m>0 and n>0:\n        return a(m-1,a(m,n-1))\nnum = input().split(',')\nx = int(num[0])\ny = int(num[1])\nprint(a(x,y))\n\n\n\n",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\ndef a(m,n):\n    \n    if m == 0:\n        return n+1\n    elif n ==0:\n        return a(m-1,1)\n    else m>0 and n>0:\n        return a(m-1,a(m,n-1))\nprint(a(1,2))\n\n\n\n"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\ndef a(m,n):\n    if m == 0:\n        return (n + 1)\n    if n == 0:\n        return a(m-1,1)\n    return a(m-1,a(m,n-1))\n    \nx,y = input().split(',')\nm,n = int(x),int(y)\nprint(a(m,n))",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\ndef a(m,n):\n    if m == 0:\n        return (n + 1)\n    if n == 0:\n        return a(m-1,1)\n    return a(m-1,a(m,n-1))\n    \nx,y = input().split(',')\nm,n = int(x),int(y)\nprint(a(m,n)"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\ndef a(m,n):\n    if m == 0:\n        return (n + 1)\n    if n == 0:\n        return a(m-1,1)\n    return a(m-1,a(m,n-1))\n    \nx,y = input().split(',')\nm,n = int(x),int(y)\nprint(a(m,n))",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\ndef x(m,n):\n    if m== 0:\n        return(n+1)\n    if n==0:\n        return x(m-1,1)\n    return x(m-1,x(m,n-1)\n    \na,b=input().split(',')\nm,n= int(x),int(y)\nprint()\n        "
+        }
+    ],
+    "IO_example": [
+        {
+            "IO_number": "19925",
+            "input": "2, 3",
+            "output": "9\n"
+        },
+        {
+            "IO_number": "19926",
+            "input": "0, 1500",
+            "output": "1501\n"
+        },
+        {
+            "IO_number": "19927",
+            "input": "1, 1503",
+            "output": "\nOUCH!! your program generated an Exception on line 7 :\nmaximum recursion depth exceeded in comparison\n"
+        },
+        {
+            "IO_number": "19928",
+            "input": "1, 15",
+            "output": "17\n"
+        },
+        {
+            "IO_number": "19929",
+            "input": "4,   1",
+            "output": "\nOUCH!! your program generated an Exception on line 7 :\nmaximum recursion depth exceeded in comparison\n"
+        },
+        {
+            "IO_number": "19930",
+            "input": "2, 5",
+            "output": "13\n"
+        },
+        {
+            "IO_number": "19931",
+            "input": "1, 15",
+            "output": "17\n"
+        },
+        {
+            "IO_number": "19932",
+            "input": "2, 10",
+            "output": "23\n"
+        },
+        {
+            "IO_number": "19933",
+            "input": "3, 9",
+            "output": "\nOUCH!! your program generated an Exception on line 7 :\nmaximum recursion depth exceeded in comparison\n"
+        },
+        {
+            "IO_number": "19934",
+            "input": "3,4",
+            "output": "125\n"
+        },
+        {
+            "IO_number": "19935",
+            "input": "1, 17",
+            "output": "19\n"
+        },
+        {
+            "IO_number": "19936",
+            "input": "2, 6",
+            "output": "15\n"
+        },
+        {
+            "IO_number": "19937",
+            "input": "0 1123",
+            "output": "\nOUCH!! your program generated an Exception on line 13 :\nnot enough values to unpack (expected 2, got 1)\n"
+        }
+    ],
+    "reference_solution": "def ackmn(m, n):\n    '''\n    A(0,n)      = n+1\n    A(m+1, 0)   = A(m,1)\n    A(m+1, n+1) = A(m, A(m+1, n))\n    '''\n    if m==0:\n        return n+1\n    if n==0:\n        return ackmn(m-1, 1)\n    return ackmn(m-1, ackmn(m, n-1))\n    \nm, n = input().split(',')\nm, n = int(m), int(n)\n\na = ackmn(m, n)\nprint(a)",
+    "statement": "Ackermann Function developed by Peter and Robinson is defined for nonnegative integers m and n as follows:\n\\begin{array}{lcl}\n\\operatorname {A} (0,n)           &=& n+1\\\\\n\\operatorname {A} (m+1,0)      &=& \\operatorname {A} (m,1) \\\\\n\\operatorname {A} (m+1,n+1)  &=& \\operatorname {A} (m,A(m+1,n))\n\\end{array}\nIts value grows rapidly, even for small inputs. For example, $\\operatorname{A}(4, 2)$ is an integer of $19,729$ decimal digits (equivalent to $2^{65536}-3$, or $2^{2^{2^{2^2}}}-3$).\n\nWrite a program to read $m$ and $n$ from input (COMMA-separated, input can contain whitespaces). It then computes $\\operatorname{A}(m,n)$ <b>recursively</b> and prints the value.",
+    "problem_ID": "2883"
+}
