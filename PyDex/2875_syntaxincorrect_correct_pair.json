@@ -1,0 +1,131 @@
+{
+    "submission": [
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\ni = int(input())\nfor x in range(1, i+1):\n    print('_', end='')\n    j = 65\n    for y in range(1, x + 1):\n        print(chr(j)+\"_\", end=\"\")\n        j = j + 1\n    print()",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\ni = int(input())\nfor x in range(65, 90):\n    for y in range(65, x + 1):\n        print(chr(y), end=\"\")\n    print(\"_{}_\".format y)"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nnum=int(input())\n\nif num<=26 and num>=1:\n    for i in range(1,num+1):\n        j=0\n        print(\"_\", end=\"\")\n        while j<i:\n            print(chr(65+j),end=\"_\")\n            j+=1\n        print()",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nnum=int(input())\n\nif num<=26 and num>=1:\n    for i in range(1,num+1):\n        j=\n        print(\"_\", end=\"\")\n        while j<=i:\n            print(chr(65+j),end=\"_\")\n            j+=1\n    print()"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nn=int(input())\nfor i in range(0,n):\n    for j in range(65,66+i):#using ASCII codes for Capital Alphabets\n        print(\"_\",chr(j),end=\"\",sep=\"\")\n    print(\"_\")\n    \n",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nn=int(input())\n\nfor i in range(65,90):\n    for j in range(65,i+1):\n        print(\"_\"chr(j)\"_\",sep=\"\")\n    print()\n"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nn = int(input())\na = ['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z'] \nfor i in range(n):\n    for j in range(i + 1): \n            print('_',(a[j]),sep='',end='')\n    print('_')",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nn = int(input())\na = ['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z'] \nfor i in range(n):\n    for j in range(i + 1): \n            print('_',(a[j]),sep='',end='')\n        print('_')"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\na='ABCDEFGHIJKLMNOPQRSTUVWXYZ'\nn=int(input())\ni=0\nj='_'\nwhile i<n and n<=26:\n    j=j+a[i:i+1]+'_'\n    print(j)\n    i=i+1",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nn= int(input())\nfor i in range(65,n+65):\n    for j in range(65,i+1):\n        print(end=\"_\",chr(j),end=\"_\")\n    print()"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nN = int(input())\nfor i in range(0,N):\n    for j in range(0,i+1):\n        ch=chr(j+65)\n        print(\"_\",ch,end=\"\",sep=\"\")\n    print(\"_\")",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nN = int(input())\nfor i in range(0,N):\n    print(\"_\")\n    for j in range(0,i+1):\n        ch=chr(j+65)\n        print(ch,\"_\",<end=\"\",sep=\"\")\n    print(\"\\r\")"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nn =int(input())\nalphabet = [\"A\",\"B\",\"C\",\"D\",\"E\",\"F\",\"G\",\"H\",\"I\",\"J\",\"K\",\"L\",\"M\",\"N\",\"O\",\"P\",\"Q\",\"R\",\"S\",\"T\",\"U\",\"V\",\"W\",\"X\",\"Y\",\"Z\"]\nif 1<=n<=26:\n#outerloop\n    for i in range(0,n):\n#innerloop\n        for j in range(0,i+1):\n            print('_'+ alphabet[j], end='')\n        print('_')",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nn = int(input())\nalphabet = [\"A\",\"B\",\"C\",\"D\",\"E\",\"F\",\"G\",\"H\",\"I\",\"J\",\"K\",\"L\",\"M\",\"N\",\"O\",\"P\",\"Q\",\"R\",\"S\",\"T\",\"U\",\"V\",\"W\",\"X\",\"Y\",\"Z\"]\nif 1<=n<=26:\n    for i in range(0,n):\n    for j in range(0,i+1):\n        print('_'+ alphabet[j], end='')\n    print('_')"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nif __name__ == '__main__': \n      \n    n = int(input()) \n    for i in range(1, n + 1):\n        print('_', end='')\n        for j in range(1, i + 1): \n            print(chr(ord('A') + j - 1),  \n                             end = \"_\"); \n  \n        print(\"\"); \n",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nif __name__== '__main__'\n    n = int(input()) \n    for i in range(1, n + 1):\n        print('_', end='')\n    for j in range(1, i + 1): \n        print(chr(ord('A') + j - 1),\n                         end = \"_\"); \n  \n        print(\"\"); \n"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nnum='A'\nn=int(input())\nfor i in range(1,n+1):\n    for j in range (i):\n        print('_{}'.format(num),end='')\n        num=chr(ord(num)+1)\n    num='A'\n    print('_')\n",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nnum='A'\nn=int(input())\nfor i in range(n+1):\n    for j in range (i):\n        print('_{}'.format(num),end='')\n        num=chr(ord(num)+1)\n    print('_'\n    num='A'"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nnumber=int(input())\nalphabet=['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z']\npattern=''\nfor i in range(number):\n    pattern=pattern+'_'+alphabet[i]\n    print (pattern + '_')\n\n",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nnumber=int(input())\nalphabet=['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z']\npattern=''\nfor i in range(number):\n    pattern=pattern+'_'+alphabet+'_'\n    print pattern\n\n"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nimport string\nn=int(input())\nstr=string.ascii_uppercase\nresult=\"\"\nfor i in range(0, n):\n for j in range(0, i+1):\n  result+=\"_\"\n  result+=str[j]\n result+=\"_\"\n print(result, end= '\\n')\n result=\"\"",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nimport string\nn=int(input())\nstr=string.ascii_uppercase\nresult=\"\"\nfor i in range(0, n):\n for j in range(0, i+1)\n  result+=\"_\"\n  result+=str[j]\n result+=\"_\"\n print(result, end= '\\n')\n result=\"\""
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nn=int(input())\nfor i in range(1,n+1):\n    for j in range(1,i+1):\n        if(j==1):\n            print('_', end='')\n        print(chr(ord('A')-1+j),end='_')\n    print()",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nn=int(input())\nfor i in range(1,n+1):\n    for j in range(1,i+1):\n        print('_', end='')\n        print({}.format('_',chr(ord('A')-1+j),end='_')\n    print()"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nn=int(input())\nfor i in range (1,n+1):\n    print('_',end=\"\")\n    a=65\n    for j in range(1,i+1):\n        \n        print(chr(a)+\"_\",end=\"\")\n        a+=1\n    print()",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nn=int(input())\nfor i in range (1,n+1):\n    print('_',end=\"\")\n    a=65\n    for j in range(1,i+1):\n        \n        print(chr(a)+\"_\",end=\"\")\n        a++\n    print()"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nn=int(input())\nfor i in range(1,n+1):\n    for j in range(1,i+1):\n        if(j==1):\n            print('_', end='')\n        print(chr(ord('A')-1+j),end='_')\n    print()\n",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nn=int(input())\nfor i in range(1,n+1):\n        if(j==1):\n            print('_', end='')\n        print(chr(ord('A')-1+j),end='_')\n    print()\n"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nn = int(input())\nfor i in range(1,n+1):\n    for j in range(1,i+1):\n        if(j==1):\n            print('_', end='')\n        print(chr(ord('A')-1+j),end='_')\n    print()    ",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nn = int(input())\nfor n in range 1 <= n <= 26\nrow = 0\nwhile row<n:\n    alphabet_string = string.ascii_uppercase\n    alphabet_list = list(alphabet_string) \n    word = row+1\n    while word >0:\n        print(\"_alphabet_list_\",end=\"\")\n        word=word-1\n    row = row+1\n    print()\n    \n    \n"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nn=int(input())\ni=0\nfor i in range(0,n):\n    for j in range(0,i+1):\n        if(j==0):\n            print(\"_\"+chr(65+j),end=\"_\")\n        else:\n            print(chr(65+j),end=\"_\")\n    print('')\n\n         \n",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nn=int(input())\nfor i in range(0,n):\n    for j in range(65,66+i):\n        print('_',chr(j,end='',sep='')\n        print('_')\n\n         \n"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\na='ABCDEFGHIJKLMNOPQRSTUVWXYZ'\nn=int(input())\nk=0\nj='_'\nwhile k<n and n<=26:\n    j=j+a[k:k+1]+'_'\n    print(j)\n    k=k+1",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\na='ABCDEFGHIJKLMNOPQRSTUVWXYZ'\nn=int(input())\nk=0\nj='_'\nwhile k<n nd n<=26:\n    j=j+a[k:k+1]+'_'\n    print(j)\n    k=k+1"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nn=int(input())\nfor i in range(1,n+1):\n    for j in range(1, i+1):\n        if(j==1):\n            print('_', end='')\n        print(chr(ord('A')-1+j),end='_')\n    print()",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nasciiNumber = 65\nN = int(input())\nif(N>=1 and N<=26):\n for i in range(0, N):\n     print(\"_\",end='')\n    for j in range(0, i + 1):\n        character = chr(asciiNumber)\n    \n        asciiNumber += 2\n    \n        print(character + \"_\", end=' ')\n        \n    print(\" \")\n    "
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nl = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'\ni = 0\nn = int(input())\nif 1<=n<=26:\n    for i in range(0,n):\n        for j in range(0,i+1):\n            print('_'+l[j],end='')\n        print('_')\n\n",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nletter = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'\ni = 0\nn = int(input())\nfor i in range(1,n+1):\n    for j in range(1,i+1):\nprint('_',letter[i],end = '_')\n\n"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nn = int(input())\n\nfor i in range(1 , n+1):\n    print('_',end='')\n    a = 65\n    for Row in range(1,i+1):\n        print(chr(a) + \"_\",end='')\n        a = a+1\n    print()",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nInitial_Input = int(input())\nAlphabetlist =  [\"a\",\"b\",\"c\",\"d\",\"e\",\"f\",\"g\",\"h\",\"i\",\"j\",\"k\",\"l\",\"m\",\"n\",\"o\",\"p\",\"q\",\"r\",\"s\",\"t\",\"u\",\"v\",\"w\",\"x\",\"y\",\"z\"]\nBigAlpha = [x.upper() for x in Alphabetlist] \n# Outer loop\nfor int(Initial_Input) in range(1,27):\n    for i in range(0,Initial_Input):\n            # inner loop\n        for j in range(0,i+1):\n            print('_'+ BigAlpha[j], end='')\n    print('_')"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nn=int(input())\nif((1<=n) and(n<=26)):\n    a=65+n\n    for i in range(65,a):\n        for j in range(65,i+1):\n            print('_{}'.format(chr(j)),end='',)\n        print('_')\nelse:\n    print('n should be between 1 and 26 to print pattern')",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nn=int(input())\nif((1<=n) and(n<=26)):\n    a=65+n\n    for i in range(65,a):\n        for j in range(65,i+1):\n            print('_{}_'.format(chr(j),end='',)\n        print()\nelse:\n    print('n should be between 1 and 26 to print pattern')"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nn = int(input())\nalphabets = ['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z']\nfor i in range(n):\n    for j in range(i+1):\n        print('_',(alphabets[j]),sep='',end='')\n    print('_')",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nn = int(input())\nalphabets = ['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z']\nfor i in range(n):\n    for j in range(i+1):\n        print('_'+(alphabets[j]),end='')print('_')\n    print()"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\np='ABCDEFGHIJKLMNOPQRSTUVWXYZ'\nn=int(input())\na=0\nb='_'\nwhile a<n and n<=26:\n    b=b+p[a:a+1]+'_'\n    print(b)\n    a=a+1",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\np='ABCDEFGHIJKLMNOPQRSTUVWXYZ'\nn=int(input())\na=0\nb='_'\nwhile a<n and n<=26:\n    b=b+p[a:a=1]+'_'\n    print(b)\n    a=a+1"
+        }
+    ],
+    "IO_example": [
+        {
+            "IO_number": "19862",
+            "input": "3",
+            "output": "_A_\n_A_B_\n_A_B_C_\n"
+        },
+        {
+            "IO_number": "19863",
+            "input": "4",
+            "output": "_A_\n_A_B_\n_A_B_C_\n_A_B_C_D_\n"
+        },
+        {
+            "IO_number": "19864",
+            "input": "1",
+            "output": "_A_\n"
+        },
+        {
+            "IO_number": "19865",
+            "input": "26",
+            "output": "_A_\n_A_B_\n_A_B_C_\n_A_B_C_D_\n_A_B_C_D_E_\n_A_B_C_D_E_F_\n_A_B_C_D_E_F_G_\n_A_B_C_D_E_F_G_H_\n_A_B_C_D_E_F_G_H_I_\n_A_B_C_D_E_F_G_H_I_J_\n_A_B_C_D_E_F_G_H_I_J_K_\n_A_B_C_D_E_F_G_H_I_J_K_L_\n_A_B_C_D_E_F_G_H_I_J_K_L_M_\n_A_B_C_D_E_F_G_H_I_J_K_L_M_N_\n_A_B_C_D_E_F_G_H_I_J_K_L_M_N_O_\n_A_B_C_D_E_F_G_H_I_J_K_L_M_N_O_P_\n_A_B_C_D_E_F_G_H_I_J_K_L_M_N_O_P_Q_\n_A_B_C_D_E_F_G_H_I_J_K_L_M_N_O_P_Q_R_\n_A_B_C_D_E_F_G_H_I_J_K_L_M_N_O_P_Q_R_S_\n_A_B_C_D_E_F_G_H_I_J_K_L_M_N_O_P_Q_R_S_T_\n_A_B_C_D_E_F_G_H_I_J_K_L_M_N_O_P_Q_R_S_T_U_\n_A_B_C_D_E_F_G_H_I_J_K_L_M_N_O_P_Q_R_S_T_U_V_\n_A_B_C_D_E_F_G_H_I_J_K_L_M_N_O_P_Q_R_S_T_U_V_W_\n_A_B_C_D_E_F_G_H_I_J_K_L_M_N_O_P_Q_R_S_T_U_V_W_X_\n_A_B_C_D_E_F_G_H_I_J_K_L_M_N_O_P_Q_R_S_T_U_V_W_X_Y_\n_A_B_C_D_E_F_G_H_I_J_K_L_M_N_O_P_Q_R_S_T_U_V_W_X_Y_Z_\n"
+        },
+        {
+            "IO_number": "19866",
+            "input": "13",
+            "output": "_A_\n_A_B_\n_A_B_C_\n_A_B_C_D_\n_A_B_C_D_E_\n_A_B_C_D_E_F_\n_A_B_C_D_E_F_G_\n_A_B_C_D_E_F_G_H_\n_A_B_C_D_E_F_G_H_I_\n_A_B_C_D_E_F_G_H_I_J_\n_A_B_C_D_E_F_G_H_I_J_K_\n_A_B_C_D_E_F_G_H_I_J_K_L_\n_A_B_C_D_E_F_G_H_I_J_K_L_M_\n"
+        },
+        {
+            "IO_number": "19867",
+            "input": "20",
+            "output": "_A_\n_A_B_\n_A_B_C_\n_A_B_C_D_\n_A_B_C_D_E_\n_A_B_C_D_E_F_\n_A_B_C_D_E_F_G_\n_A_B_C_D_E_F_G_H_\n_A_B_C_D_E_F_G_H_I_\n_A_B_C_D_E_F_G_H_I_J_\n_A_B_C_D_E_F_G_H_I_J_K_\n_A_B_C_D_E_F_G_H_I_J_K_L_\n_A_B_C_D_E_F_G_H_I_J_K_L_M_\n_A_B_C_D_E_F_G_H_I_J_K_L_M_N_\n_A_B_C_D_E_F_G_H_I_J_K_L_M_N_O_\n_A_B_C_D_E_F_G_H_I_J_K_L_M_N_O_P_\n_A_B_C_D_E_F_G_H_I_J_K_L_M_N_O_P_Q_\n_A_B_C_D_E_F_G_H_I_J_K_L_M_N_O_P_Q_R_\n_A_B_C_D_E_F_G_H_I_J_K_L_M_N_O_P_Q_R_S_\n_A_B_C_D_E_F_G_H_I_J_K_L_M_N_O_P_Q_R_S_T_\n"
+        }
+    ],
+    "reference_solution": "N = int(input())\nLETTERS=\"ABCDEFGHIJKLMNOPQRSTUVWXYZ\"\n\nfor i in range(N):\n    print('_',end='')\n    for j in range(i+1):\n        print(LETTERS[j], end='_')\n    print()\n    ",
+    "statement": "Write a program to print the Alphabet pattern, as shown below. The input will be a number n, such that 1 <= n <= 26.\n\nNOTE: \n1. There is a single _ (underscore) at the start, at the end, and between two letters on each line.\n\n\nInput: 3\nOutput\n_A_\n_A_B_\n_A_B_C_\n\nInput: 4\nOutput\n_A_\n_A_B_\n_A_B_C_\n_A_B_C_D_\n\n\n\n",
+    "problem_ID": "2875"
+}

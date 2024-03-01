@@ -1,0 +1,171 @@
+{
+    "submission": [
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nf = float(input())\nc = (f-32)*(5/9)\nprint(\"Fahrenheit temperature {} is same as {} degree Celsius.\".format(f,round(c,2)))",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nfahrenheit = float(input())\ncelsius = (far-32)*5/9\nprint(\"Fahrenheit temperature\" fahrenheit\" is same as\"celsius\" degree Celsius.\")"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nf=float(input())\nc=(f-32)*5/9\nprint('Fahrenheit temperature', f, 'is same as' ,round(c,2), 'degree Celsius.')",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\n#!/usr/bin/env python\nFahrenheit = int(raw_input(\"Enter a temperature in Fahrenheit: \"))\n\nCelsius = (Fahrenheit - 32) * 5.0/9.0\n\nprint \"Temperature:\", Fahrenheit, \"Fahrenheit = \", Celsius, \" C\""
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\n\nf=input()\n\nc=((float(f)-32)*(5/9))\nround(int(c),2)\n\nprint(\"Fahrenheit temperature\",float(f), \"is same as\",round(float(c),2),\"degree Celsius.\")",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nprint(\"INPUT\")\n>>>f=input()\nc=((float(f)-32)*(5/9))\nprint(\"OUTPUT\")\nprint(\"Fahrenheit temperature\",f, \"is same as \",round(float(c),2),\"degree Celsius.\")"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nf=float(input())\nc=(f-32)*5/9\nprint('Fahrenheit temperature', f ,'is same as' ,round(c,2), 'degree Celsius.')\n",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nf=float(input())\nc=(f-32)*5/9\nprint('Fahrenheit temperature', f ,'is same as' ,round(c,2), 'degree Celsius.'\n"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\n#Convert the Fahrenheit temperature to Celsius temperature.\nf= float(input())\nc= ((f-32)*(5/9))\nprint(\"Fahrenheit temperature {} is same as {} degree Celsius.\".format(f,round(float(c),2)))",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\n#Convert the Fahrenheit temperature to Celsius temperature.\nf= float(input())\nc= (f-32)*(5/9))\nprint(\"Farenheit temperature {} is same as {} degree Celsius\".format(f,round(float(c),2)))"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\ntemp=input()\nf_temp=float((temp))\ncelsius=(f_temp-32)*5/9\ncelsius1=round(celsius, 2)\nprint('Fahrenheit temperature', f_temp,'is same as', celsius1, 'degree Celsius.')",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\ntemp=input()\n    f_temp=float(temp)\ncelsius=(f_temp-32)*5/9\nround(celsius, 2)\nprint('Fahrenheit temperature', temp,'is same as', celsius)"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nFahrenheit = float(input())\nCelsius = (Fahrenheit - 32) * 5/9\nC1 = round(Celsius,2)\nprint('Fahrenheit temperature', Fahrenheit, 'is same as', C1, 'degree Celsius.')\n",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nprint ('HI! Chhaya Kumari Meena')\nprint ('We Welcome you to NRTI')\nprint (int(3+5))\nprint('3+5 is', 3+5)\nage= input(how old are you?)\nprint(age)"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\n#fill input with Fahrenheit temperature\nf = float(input())\nc = float((f-32) * 5/9)\nC = print('Fahrenheit temperature', f, 'is same as', round(c,2), 'degree Celsius.')",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nfill input with Fahrenheit temperature\nf = float(input())\nc = float((f-32) * 5/9)\nC = print('Fahrenheit temperature', f, 'is same as', round(c,2), 'degree Celsius.')"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nFr = float(input())\n\nC = ((Fr - 32)*5)/9\n\n\nprint('Fahrenheit temperature', Fr ,'is same as',round(C,2),'degree Celsius.')",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nFahrenheit=float(input())\nC= ((Fr-32)*5)/9\nprint ('Fahrenheit temperature', Fahrenheit is same as, round(C,2), 'degree Celcius')"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nF = float(input())\nC = (F-32)*5/9\nC = round(C,2)\nprint(\"Fahrenheit temperature {} is same as {} degree Celsius.\".format(F,C))",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nF= int(input())\nprint(\"Fahrenheit temperature\" F \"is same as\", ((F-32)*5/9), \"degree celcius.\")"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nF = float(input('Fahrenheit temperature '))\nC = float((F - 32) * 5/9)\nprint(F,'is same as',round(C,2),'degree Celsius.')",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nF = float(input('temperature in fahrenheit '))\nC = float((F - 32) * 5/9)\nprint('Fahrenheit temperature', F , 'is same as' , round(C,2) , 'degree Celsius. )"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nfahrenheit=float(input())\ncelcius=(fahrenheit-32)*(5/9)\ncel_round=round(celcius,2)\nprint(\"Fahrenheit temperature\",fahrenheit,\"is same as\",cel_round,\"degree Celsius.\") \n\n    ",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nfahrenhiet=float(input())\ncelcius=(fahrenhiet-32)*(5/9)\ncel_round=round(celcius,2)\nprint(\"Fahrenheit temperature\",fahrenhiet,\"is same as\",cel_round,\"degree Celsius.\" \n\n    "
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\ntemp=input()\nFahrenheit=float((temp))\nCelsius=(Fahrenheit-32)*5/9\nCelsius0=round(Celsius,2)\nprint('Fahrenheit temperature', Fahrenheit, 'is same as', Celsius0,'degree Celsius.')\n",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\ntemp=0.555\nFahrenheit=float((temp))\ncelsius=(Fahrenheit temp-32)*5/9\ncelsius0=round(celsius,2)\nprint('Fahrenheit temperature', Fahrenheit, 'is same as', celsius0,'degree celsius.')"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nf=float(input())\nc=round((f-32)*5/9,2)\nprint('Fahrenheit temperature',f, 'is same as',c, 'degree Celsius.')",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nf=float(input())\nc=round((f-32)*5/\nprint('Fahrenheit temperature f is same as c degree Celsius')"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nf_t = float(input())\nc_t = ((f_t)-32) * (5/9)\nprint('Fahrenheit temperature',f_t,'is same as',round(c_t,2),'degree Celsius.')",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nF=float(())\nC=(F-32)*5/9\nprint(\"temperature fahrenheit\" F \"is same as\" round(C,2) \"degree celsius\")\n"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nf=float(input())\nc=(f-32)*5/9\nprint('Fahrenheit temperature', f ,'is same as' ,round(c,2), 'degree Celsius.')\n",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nf=float(input())\nc=(f-32)*5/9\nc2=round(c,2)\nprint('Fahrenheit temperature', f ,'is same as' ,c2, 'degree Celsius'.)\n"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nF=float(input())\nC=(F-32)*5/9\nprint('Fahrenheit temperature {} is same as {} degree Celsius.'.format(F,round(C,2)))",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nF=input()\nC=(F-32)*(5/9)\nprint('Fahrenhiet temperature' float(F) 'is same as' float((F-32)*(5/9)) 'in Celcius scale')"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nfar = float(input())\ncel=5/9*(far-32)\ncel=round(cel,2)\nprint(\"Fahrenheit temperature {} is same as {} degree Celsius.\".format(far,cel))",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nfar = float(input()\ncel=5/9*(far-32)\ncel=round(cel,2)\nprint(\"Fahrenheit temperature {} is same as {} degree Celsius.\".format(far,cel))"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nF = float(input())\nC = (F-32)*5/9\nprint(\"Fahrenheit temperature {} is same as {} degree Celsius.\".format(F,round(C,2)))\n",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nF = (float(input())\nC = (F-32)*5/9\nprint(\"Fahrenheit temperature {} is same as {} degree celsius.\".format(F,round(C,2)))\n"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\ntemp_f = float(input())\ntemp_c = round((temp_f - 32)*(5/9),2)\nprint(\"Fahrenheit temperature\", temp_f, \"is same as\", temp_c, \"degree Celsius.\")",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\ntemp_f = input()\nterm_c = (temp_f - 32)*(5//9)\nprint(\"Fahrenheit temperature, temp_f, \"is same as\", temp_c, \"degree Celsius.\")"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nf=float(input())\nc=(f-32)*5/9\nc=round(c,2)\nprint('Fahrenheit temperature {} is same as {} degree Celsius.'.format(f,c))",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nf=float(input())\nc=(f-32)5/9\nc=round(c,2)\nprint('Fahrenheit temperature{} is same as {} degree Celsius.',format(f,c))"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nf=float(input())\nc=(f-32)*5/9\nprint('Fahrenheit temperature', f , 'is same as' ,round(c,2), 'degree Celsius.')",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nf=float(input())212\nc=(f-32)*5/9\nprint('Fahrenheit temperature' ,f, 'is same as' ,c, 'degree Celsius')\n"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nf_temp= float(input())\nc_temp=(f_temp - 32) * 5/9\nprint('Fahrenheit temperature {} is same as {} degree Celsius.'.format(f_temp,round(c_temp,2)))",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nprint float(input())\nc_temp=(f_temp - 32) * 5/9\nprint('Fahrenhreit temperature {} is same as {} degree Celsius'.format(f_temp,round(c_temp,2)))\n"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nF = float(input())\nC = (F-32)*5/9\nprint('Fahrenheit temperature {} is same as {} degree Celsius.'.format(F, round(C,2)))",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nF=float(input())\nC=(F-32)*5/9\nprint('Fahrenheit temperature {} is same as {} degree Celcius.'.format(F,round(C,2))"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\n# input in fahrenheit\nFahrenheit_temp = float(input())\n\n# Coversion Formula & assigning Celcius \nCelsius_temp = ((Fahrenheit_temp - 32)*5)/9\n\n# printing the full statement\nprint('Fahrenheit temperature', Fahrenheit_temp ,'is same as',round(Celsius_temp,2),'degree Celsius.')",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\n\nFr = float(input())\nfloat C\nC = ((Fr - 32)*5)/9\nround(C,2)\nprint('Fahrenheit temperature', Fr ,'is same as ',C,' degree Celsius.')"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nf=float(input())\nc=(f-32)*5/9\nc=round(c,2)\nprint('Fahrenheit temperature', f ,'is same as', c ,'degree Celsius.')\n",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nf=float(input())\nc=(f-32)*5/9\nc=round(c,2)\nprint('Fahrenheit temperature', f ,'is same as', c ,'degree Celsius.'\n"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nF = float(input())\nC = (F-32)*5/9\nc1=round(C,2)\nprint('Fahrenheit temperature',F,'is same as',c1,'degree Celsius.')",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nF=int(input())\nC=(F-32)*5/9\nprint('Fahrenheit temperature',F,'is same as'.C,'degree C)"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nF=float(input('Fahrenheit temperature '))\nC=float((F - 32) * 5/9)\nprint(F,'is same as',round(C,2),'degree Celsius.')",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nF=float(input('Fahrenheit temperature '))\nC=float((F - 32) * 5/9)\nprint(F,'is same as',,round(C,2),'degree Celsius.')"
+        }
+    ],
+    "IO_example": [
+        {
+            "IO_number": "19804",
+            "input": "212",
+            "output": "Fahrenheit temperature 212.0 is same as 100.0 degree Celsius.\n"
+        },
+        {
+            "IO_number": "19805",
+            "input": "0.555",
+            "output": "Fahrenheit temperature 0.555 is same as -17.47 degree Celsius.\n"
+        },
+        {
+            "IO_number": "19806",
+            "input": "0",
+            "output": "Fahrenheit temperature 0.0 is same as -17.78 degree Celsius.\n"
+        },
+        {
+            "IO_number": "19807",
+            "input": "-40",
+            "output": "Fahrenheit temperature -40.0 is same as -40.0 degree Celsius.\n"
+        },
+        {
+            "IO_number": "19808",
+            "input": "32",
+            "output": "Fahrenheit temperature 32.0 is same as 0.0 degree Celsius.\n"
+        },
+        {
+            "IO_number": "19809",
+            "input": "373",
+            "output": "Fahrenheit temperature 373.0 is same as 189.44 degree Celsius.\n"
+        },
+        {
+            "IO_number": "19810",
+            "input": "373",
+            "output": "Fahrenheit temperature 373.0 is same as 189.44 degree Celsius.\n"
+        },
+        {
+            "IO_number": "19811",
+            "input": "-23",
+            "output": "Fahrenheit temperature -23.0 is same as -30.56 degree Celsius.\n"
+        },
+        {
+            "IO_number": "19812",
+            "input": "0",
+            "output": "Fahrenheit temperature 0.0 is same as -17.78 degree Celsius.\n"
+        },
+        {
+            "IO_number": "19813",
+            "input": "-40.00",
+            "output": "Fahrenheit temperature -40.0 is same as -40.0 degree Celsius.\n"
+        }
+    ],
+    "reference_solution": "f = float(input())\nc = round((f - 32)* 5 /9,2)\nprint('Fahrenheit temperature {} is same as {} degree Celsius.'.format(f, c))",
+    "statement": "Write a program which takes as input Fahrenheit temperature. It converts the input temperature to Celsius and print out the converted temperature as shown in the example.\n\nNOTE:\n1. DO NOT use any prompts in the input().\n2. Formula for conversion: $$C = (F - 32) \\times 5 / 9$$\n3. Use <b>round()</b> function to round your answer to up to two decimal places. That is, use <b>round(VALUE, 2)</b>.\n\nEXAMPLE:\nINPUT:\n212\nOUTPUT:\nFahrenheit temperature 212.0 is same as 100.0 degree Celsius. \n\nINPUT:\n0.555\nOUTPUT:\nFahrenheit temperature 0.555 is same as -17.47 degree Celsius.\n\n\n",
+    "problem_ID": "2868"
+}

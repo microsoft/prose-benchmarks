@@ -1,0 +1,71 @@
+{
+    "submission": [
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nfrom scipy import linalg\nimport numpy as np\narr = eval(input())\nL = eval(input())\nM = np.mat(arr)\ntry:\n    sol = linalg.solve(M,L)\n    print(sol)\nexcept:\n    print('ERROR: Cannot find solution.')",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nfrom scipy import linalg\nimport numpy as np\narr =x.strip('[]') for x in input().split('],')\n#arr = np.array(list(x.strip('[]') for x in input().split(',')))\n#L = list(x.strip('[]') for x in input().split(','))\n#print(L)\nprint(arr)\n#M = np.mat(arr)\n#sol = linalg.solve(M,L)\n#print(sol)"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nfrom scipy import linalg\nimport numpy as np\nA=eval(input())\nB=eval(input())\na=np.array(A)\nb=np.array(B)\ntry:\n    x=linalg.solve(a,b)\nexcept Exception as e:\n    print('ERROR: Cannot find solution.')\nelse:\n    print(x)",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nimport numpy as np\na=np.array(eval(input())\nb=np.array(eval(input())\nprint(a)\nprint(b)"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nfrom scipy import linalg\nimport numpy as np\nfirst = input()\nfirst = eval(first)\nsecond = input()\nsecond = eval(second)\na = np.array(first)\nb = np.array(second)\ntry:\n    x = np.linalg.solve(a,b)\n    print(x)\nexcept Exception:\n    print('ERROR: Cannot find solution.')",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nfrom scipy import linalg\nimport numpy as np\nfirst = map(float, input())\nsecond = map(float, (input())\na = np.array(first)\nb = np.array(second)\nx = linalg.solve(a,b)\nprint(x)"
+        }
+    ],
+    "IO_example": [
+        {
+            "IO_number": "20272",
+            "input": "[[3, 2, 0], [1, -1, 0], [0, 5, 1]]\n[2, 4, -1]",
+            "output": "[ 2. -2.  9.]\n"
+        },
+        {
+            "IO_number": "20273",
+            "input": "[[1, 0, 0], [1, 0, 0], [1, 0, 0]]\n[3, 4, 5]",
+            "output": "ERROR: Cannot find solution.\n"
+        },
+        {
+            "IO_number": "20279",
+            "input": "[[1, 0, 0], [0, 1, 0], [0, 0, 1]]\n[3, 4, 5]",
+            "output": "[3. 4. 5.]\n"
+        },
+        {
+            "IO_number": "20280",
+            "input": "[[1,1], [2, -1]]\n[24, -6]\n",
+            "output": "[ 6. 18.]\n"
+        },
+        {
+            "IO_number": "20281",
+            "input": "[[1, 0], [2, 0], [3, 1]]\n[3, 6, 10]",
+            "output": "ERROR: Cannot find solution.\n"
+        },
+        {
+            "IO_number": "20282",
+            "input": "[[2, 0], [3, 1]]\n[6, 10]",
+            "output": "[3. 1.]\n"
+        },
+        {
+            "IO_number": "20283",
+            "input": "[[1], [2]]\n[3, 6]",
+            "output": "ERROR: Cannot find solution.\n"
+        },
+        {
+            "IO_number": "20284",
+            "input": "[[1, 0, 0], [2, 0, 0], [3, 1, 0]]\n[3, 6, 10]",
+            "output": "ERROR: Cannot find solution.\n"
+        },
+        {
+            "IO_number": "20285",
+            "input": "[[1, 0], [2, 0]]\n[3, 6]",
+            "output": "ERROR: Cannot find solution.\n"
+        },
+        {
+            "IO_number": "20286",
+            "input": "[[1, 0, 1], [2, 0, 0], [3, 1, 0]]\n[3, 6, 10]",
+            "output": "[3. 1. 0.]\n"
+        }
+    ],
+    "reference_solution": "import numpy as np\nfrom scipy import linalg\n\na = eval(input())\nb = eval(input())\nA = np.array(a)\nB = np.array(b)\n\ntry:\n    x = linalg.solve(a, b)\nexcept:\n    print('ERROR: Cannot find solution.')\nelse:\n    print(x)\n",
+    "statement": "Use SciPy's linalg module to solve a system of Equations AX = B.\nThe input:\n1. The first line contains the matrix A (size n * n) as a list of lists. \n2. The second line contains the vector B (size n) as a list.\nDo not forget to use \"eval\" to store the inputs as Python lists.\n\nThe output is the vector X as a numpy array of size n, i.e. having shape (n,). In case the solution is not possible, the program should print: ERROR: Cannot find solution. (Hint: you will need to catch Exceptions)\n\nEXAMPLE:\nInput:\n[[3, 2, 0], [1, -1, 0], [0, 5, 1]]\n[2, 4, -1]\n\nOutput:\n[ 2. -2.  9.]\n\nInput:\n[[1, 0, 0], [1, 0, 0], [1, 0, 0]]\n[3, 4, 5]\n\nOutput:\nERROR: Cannot find solution.",
+    "problem_ID": "2921"
+}

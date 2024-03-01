@@ -1,0 +1,152 @@
+{
+    "submission": [
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\np = str(input())\nx = p.lower()\nrev = x[::-1]\nif(rev == x):\n  print(p,\"is a palindrome.\")\nelse:\n  print(p,\"is NOT a palindrome.\")",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\np = str(input())\nx = p.lower()\nrev = x[::-1]\nif(rev == x):\nprint (p,\"is a palindrome.\")\nelse:\n    print(p, \"is NOT a palindrome\")"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nS = input()\nif(S.lower()==S.lower()[::-1]):\n        print(S,'is a palindrome.')\nelse:\n        print(S,'is NOT a palindrome.')",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\ni = input()\nS = lower(i)\nl = len(S)\nif(l%2!=0)\n    B = S[:(l+1)/2]\n    E = S[:(l+1)/2:-1]\n    print(B,E)\n    if(B==E)\n        print(i,'is a palindrome.')\n    else\n        print(i,'is NOT a palindrome.')\nelse\n    B = S[:l/2]\n    E = S[:l/2:-1]\n    print(B,E)"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\na=str(input())\nb=a.casefold()\nc=b[ : :-1]\nif b==c:\n        print(a,'is a palindrome.')\nelse: print(a, 'is NOT a palindrome.')",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\na=str(input())\nb=a.casefold()\nc=b[ : :-1]\nif b==c:"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nstring = input()\nif(string.lower()==string.lower()[::-1]):\n    print(string,'is a palindrome.')\nelse: \n    print(string, 'is NOT a palindrome.')",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nstring = input()\nif(string.lower()==string.lower()[::-1]):\n    print(<string>\"is a palindrome\")\nelse: \n    print(string) \n    print(\"is NOT a palindrome\")"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\na=str(input())\nb=a.casefold()\nc=b[ : :-1]\nif b==c:\n    print(a, 'is a palindrome.')\nelse: print(a, 'is NOT a palindrome.')\n    ",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\na=str(input())\nb=a.casefold()\nc=b[ : :-1]\nif b==c:\n    print(a, 'is a palindrome.')\n    else: print(a, 'is NOT a palindrome.')\n    "
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nindex = input()\n\nif index.lower() == index[::-1].lower():\n    print(index,'is a palindrome.')\nelse:\n    print(index,'is NOT a palindrome. ')",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nindex = input()\n\nif index.lower() == index[::-1].lower():\n    print(index,'is a palindrome.')\nelse:\n    print(index,'is NOT a palindrome."
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nword=input()\nif word.lower()==word[::-1].lower():\n    print(word,\"is a palindrome.\")\nelse:\n    print(word,\"is NOT a palindrome.\")\n",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nw=input()\nif 97<ord(w[0])<122:\n   rev_word=w[::-1]\n   if w==rev_word:\n        print(w,\"is a palindrome\")\n   else:\n        print(w,\"is not a palindrome\")\nelse:\n    w[0]=chr(ord(w[0])+32)\n    rev_word=w[::-1]\n    if w==rev_word:\n        print(w,\"is a palindrome\")\n   else:\n        print(w,\"is not a palindrome\")"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nname = input()\na = name.casefold()\nreverse = a [::-1]\nif(reverse == a):\n    print(name,'is a palindrome.')\nelse:\n    print(name,'is NOT a palindrome.')",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nname = str(input())\nc = name.casefold()\nreverse = c[::-1]\nprint( c == reverse)\nif(reverse == c):\n    print(name , 'is a palindrome')\n    else:\n        print(name , 'is NOT a palindrome')"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nsuv = str(input())\ns = suv.lower()\npt = s [::-1]\nif(pt == s):\n    print(suv,'is a palindrome.')\nelse:\n    print(suv,'is NOT a palindrome.')",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\ntxt = str(input())\nk = txt.lower()\nrev = k [::-1]\nif(rev == k):\n    print(,'is a palindrome.')\nelse:\n    print(txt,'is NOT a palindrome.')"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nWord=input()\nx=Word.lower()\nif(x==x[::-1]):\n    print(Word,\"is a palindrome.\")\nelse:\n    print(Word,\"is NOT a palindrome.\")",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nWord=input()\nx=Word.lower()\nIf(x==x[::-1]):\n    print(Word,\"is a palindrome.\")\nelse:\n    print(Word,\"is NOT a palindrome.\")"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\n\nn=input()\nm=n[::-1]\nif(n.casefold()==m.casefold()):\n    print('{} is a palindrome.'.format(n))\nelse:\n    print('{} is NOT a palindrome.'.format(n))",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nn=input()\nm=n[::-1]\nif(n==m):\n    print('{} is  a palindrome.'.format(n))\nelse\n    print('{} is NOT a palindrome.'.format(n))"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\na=str(input())\nb=a.casefold()\nc=b[::-1]\nif b==c:\n    print(a,'is a palindrome.')\nelse: print(a,'is NOT a palindrome.')",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\na=str(input())\nb=a.casefold()\nc=b[::-1]\nif b==c:\n    print(a,'is a palindrome.')\n    else: print(a,'is NOT a palindrome.')"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nx = str(input())\ny = x.casefold()\nif y == y[::-1]:\n    print(x,'is a palindrome.')\nelse:\n    print(x, 'is NOT a palindrome.')",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nx = str(input())\nprintx[::-1]:\n"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\na=input()\nb=a.casefold()\nreverse=b[::-1]\nif b==reverse:\n    print(a,\"is a palindrome.\")\nelse:\n    print(a,\"is NOT a palindrome.\")",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\na=input()\nb=a.casefold()\nreverse=b[::-1]\nif b==reverse:\n    print(a,\"is a palindrome\")\nelse\n    print(a,\"is NOT a palindrome\")"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nname=input()\nx= name.casefold()\nif (x==x[::-1]):\n    print(name , 'is a palindrome.')\nelse :\n    print(name , 'is NOT a palindrome.')",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nn=input()\nif (name==name[::-1]):\n    print(str(n) , 'is a palindrome.')\nelse\n    print(str(n) , 'is NOT a palindrome.')"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nx=input()\ny=x.lower()\nif y==y[::-1]:\n    print(x,'is a palindrome.')\nelse:\n    print(x,'is NOT a palindrome.')",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nx=\"Nitin\"\nw=''\nfor i in x:\nw=i+w\nif (x==w):\n    print(\"yes\")\nelse:\n    print(\"no\")"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nstr=input()\nstr1=str.casefold()\nstr2=str1[::-1]\nif(str1)==(str2):\n    print(str,\"is a palindrome.\")\nelse:\n    print(str,\"is NOT a palindrome.\")",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nstr=input()\nstr1=str[::-1]\nif(str==str1)\n    print(str,\"is a palindrome.\")\nelse:\n    print(str,\"is NOT a palindrome.\")"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nstring=str(input())\nx=string.casefold()\nif(x==x[::-1]):\n    print(string, \"is a palindrome.\")\nelse:\n    print(string, \"is NOT a palindrome.\")",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nstring=str(input())\nx=string.casefold()\nif(x==x[::-1]):\n    print(string \"is a palindrome\")\nelse:\n    print(string \"is not a palindrome\")"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nstr=input()\nstr1=str.casefold()\nstr2=str1[::-1]\nif(str1)==(str2):\n    print(str,\"is a palindrome.\")\nelse:\n    print(str,\"is NOT a palindrome.\")",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nstr=input()\nstr1=str.casefold()\nstr2=str1[::-1]\nif(str1)==(str2):\n    print(str,\"is a palindrome.\")\n else:\n    print(str,\"is NOT a palindrome.\")"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nstring = input()\nif(string.lower()==string.lower()[::-1]):\n    print(string,'is a palindrome.')\nelse:\n    print(string, 'is NOT a palindrome.')",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\ndef isPalindrome(s):\n    def isPal(s):\n        print('',s)\n        if lens(s) <= 1:\n            print(' is a palindrome')\n            return True\n        else :\n            answer = s[0] == s[-1] amd isPal(s[1:-1])\n            print('is NOT a palindrome, s)\n            return answer\n    def testisPalindrome ():\n        print('Nitin')\n        print(isPalindrome('Nitin'))\n        print('Uma')\n        print(isPalindrome('Uma'))\n        "
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nx = input()\ny = x.lower()\nif(y == y[::-1]):\n    print(x, \"is a palindrome.\")\nelse:\n    print(x, \"is NOT a palindrome.\")",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nx = input()\ny = x.lower()\nif y = y[::-1]\n  print(x, \"is a palindrome.\")\nelse\n  print(x, \"is NOT a palindrome.\")"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nX = str(input())\nY = X.lower()\nif(Y==Y[::-1]):\n   print(X ,'is a palindrome.')\nelse:\n    print(X ,'is NOT a palindrome.')",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nX = str(input())\nif(X==X[::-1])\n   print(X ,'is a palindrome.')\nelse:\n    print(X ,'is not a palindrome.')"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nname=input()\nif name.lower()==name.lower()[::-1]:\n    print(name,'is a palindrome.')\nelse:\n    print(name,'is NOT a palindrome.')",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nname=input().casefold()\nif name=name[::-1]:\n    print(name,'is a palindrome')\n"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\ntxt = str(input())\nk = txt.lower()\nrev = k [::-1]\nif(rev == k):\n    print(txt,'is a palindrome.')\nelse:\n    print(txt,'is NOT a palindrome.')",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\ntxt = str(input())\n\nrev = txt.lower([::-1])\nif(rev == txt):\n    print(txt,' is a palindrome.')\nelse:\n    print(txt,' is NOT a palindrome.')"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\na=str(input())\nm=a.casefold()\nx=m[ : :-1]\nif m==x: \n    print(a,'is a palindrome.')\nelse: print(a,'is NOT a palindrome.')\n",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\na=str(input())\nm=a.casefold()\nx=m[ : :-1]\nif m==x: \nprint(a,'is a palindrome.')\nelse: print(a,'is NOT a palindrome.')\n"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nx = input()\ny = x.lower()\nif(y == y[::-1]):\n    print(x, \"is a palindrome.\")\nelse:\n        print(x, \"is NOT a palindrome.\")",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nx = input()\ny = x.lower()\nif(y == y[::-1]):\n    print(x, \"is a palindrome.\")\n    else:\n        print(x, \"is not a palindrome.\")"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\na=str(input())\nb=a.casefold()\nc=b[ : :-1]\nif b==c:\n    print(a,'is a palindrome.')\nelse: print(a,'is NOT a palindrome.')",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nstr = (input('Ayush')\n\nstr = str.casefold()\n\nrev_str = reversed(str)\n\nif list(str) == list(rev_str):\n   print(str, 'is a palindrome.')\nelse:\n   print(str, 'is NOT a palindrome.')"
+        }
+    ],
+    "IO_example": [
+        {
+            "IO_number": "19823",
+            "input": "Nitin",
+            "output": "Nitin is a palindrome.\n"
+        },
+        {
+            "IO_number": "19824",
+            "input": "Uma",
+            "output": "Uma is NOT a palindrome.\n"
+        },
+        {
+            "IO_number": "19825",
+            "input": "AmeyemA",
+            "output": "AmeyemA is a palindrome.\n"
+        },
+        {
+            "IO_number": "19826",
+            "input": "Tintin",
+            "output": "Tintin is NOT a palindrome.\n"
+        },
+        {
+            "IO_number": "19827",
+            "input": "ye ey",
+            "output": "ye ey is a palindrome.\n"
+        },
+        {
+            "IO_number": "19828",
+            "input": "Amrev Verma",
+            "output": "Amrev Verma is a palindrome.\n"
+        },
+        {
+            "IO_number": "19829",
+            "input": "Amy Yummy",
+            "output": "Amy Yummy is NOT a palindrome.\n"
+        }
+    ],
+    "reference_solution": "name = input()\ncname = name.upper()\nrname = cname[::-1]\n\nif cname == rname:\n    print('{} is a palindrome.'.format(name))\nelse:\n    print('{} is NOT a palindrome.'.format(name))",
+    "statement": "Write a program that accepts a string from the user and prints whether it is a palindrome or not. Ignore case of characters.\n\nNOTE: DO NOT print any prompt in input().\n\nEXAMPLE:\nINPUT: Nitin\nOUTPUT: Nitin is a palindrome.\n\nINPUT: Uma\nOUTPUT: Uma is NOT a palindrome.",
+    "problem_ID": "2870"
+}

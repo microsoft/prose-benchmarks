@@ -1,0 +1,128 @@
+{
+    "submission": [
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nn = str(input()).split(',')\nx = [y for y in n]\nk = 0\nfor y in x:\n    if len(y)>=2 and y[0]==y[-1]:\n        k += 1\nprint(k)",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nn = input().split(\",')\nx = [y for y in n]\nk = 0\nfor y in x:\n    if len(y)>=2 and y[0]==y[len(y)-1: ]:\n        k = k+1\nprint(k)"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\ninp = input().split(',')\ncnt = 0\nfor i in range(len(inp)):\n    ctr = inp[i]\n    if len(ctr)>=2 and ctr[0] == ctr[-1]:\n        cnt+=1\nprint(cnt)",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\ninp = input().split(',')\ncount = 0\nfor i in range(len(inp)):\n    ctr = inp[i]\n    l = len(ctr)\n    print(type(ctr))\n    if l>=2 and ctr[] == ctr[-1]:\n        count+=1\nprint(count)"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\ns1 = str(input())\ns2 = s1.split(',')\ncnt = 0\nfor i in range(len(s2)):\n    ctr = s2[i]\n    if len(ctr)>=2 and ctr[0]==ctr[-1]:\n        cnt+=1\nprint(cnt)\n   \n    ",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\ns1 = str(input()\ns2=s1.split(', ')\ncnt = 0\nfor i in range(len(s2)):\n    ctr = s2[i]\n    if len(ctr)>=2 and ctr[0]==ctr[-1]:\n        ctr+=1\nprint(cnt)\n   \n    "
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nx = input().split(',')\ny = 0\nfor z in range (len(x)):\n    p = x[z]\n    if len(p)>=2 and p[0] == p[-1]:\n        y += 1\nprint(y)",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\ninp=input().split(',')\ncnt=0\nfor i in range(len(inp)):\n    ctr=inp[i]\n    if len(ctr0>=2 and ctr[0]==ctr[-1]:\n        cnt+=1\nprint(cnt)"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nN = str(input())\nli = N.split(',')\nc=0\nfor i in range(len(li)):\n    ctr = li[i]\n    if len(ctr)>=2 and ctr[0]==ctr[-1]:\n        c+=1\nprint(c)",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nN = str(input())\nli=N.split()\nc=0\nfor i in range(len(li)):\n    c = li[i]\n    if len c>=2 and c[0]==c[-1]:\n        c+=1\nprint(c)"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\na=str(input())\nx=a.split(\",\")\ni=0 \ncount=0\nwhile (i<len(x)):\n    word=x[i]\n    if(len(word)>=2 and word[0]==word[len(word)-1]):\n        count=count+1\n    i=i+1\nprint (count)",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\na=str(input())\nx=a.split(\",\")\ni=0 , count=0\nwhile (i<len(x)):\n    word=x[i]\n    if(len(word)>=2 and word[0]==word[len(word)-1]):\n        count=count+1\n    i=i+1\nprint (count)"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nn = input()\ncount = 0\nsplit_n = n.split(',')\nfor i in split_n:\n    if (len(i)>= 2 and str(i)[0] == str(i)[-1]):\n        count = count+1\nprint(count)",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nn = input()\ncount = 0\nsplit_n = n.split(',')\nfor i in split_n:\n    if len(i)>= 2:\n        if (tuple(i)[0] == tuple(i)[-1], end=''):\n            count = count+1\n            print(count)"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nn=input()\ncount=0\nsplit_n = n.split(',')\nfor i in split_n:\n    if (len(i)>= 2) and str(i)[0] == str(i)[-1]:\n        count = count+1\nprint(count)",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nn=input()\ncount=0\nsplit_n = n.split(',')\nfor i in split_n:\n    if (len(i)>= 2 and str(i)[0] == str(i)[-1]:\n        count = count+1\nprint(count)"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nstring = input()\nsilo = string.split(',')\ncount = 0\nfor i in silo:\n    if len(i) >= 2 and i.endswith(i[0]):\n        count += 1\nprint(count)",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nstring = input()\nsilo = string.split(',')\ncount = 0\nfor i in silo:\n    if len(i) >= 2 and i.endswith(i[0]):\n    count += 1\nprint(count)"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nn=input()\nm=n.split(\",\")\nl=len(m)\nc=0\nfor i in range (0,l):\n    n2=m[i]\n    l2=len(n2)\n    if l2>=2:\n        if n2[0]==n2[l2-1]:\n            c=c+1\nprint(c)",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nn=input()\nm=n.split(\",\")\nl=len(m)\nc=0\nfor i in range (0,l):\n    n2=m[i]\n#    print (n2)\n    l2=len(n2)\n#    print (l2)\n    if l2>=2:\n        c=c+1\n    a=n2[0]\n    b=n2[l2-1]\n    print (\"asd\",a,b)\n        if n2[0]==n2[l2-1]:\n            c=c+1\nprint(c)"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nx = str(input())\ny = x.split(',')\nz = len(y)\na = 0\nb = 0\nwhile b < z:\n    i = y[b]\n    if len(i) >= 2 and i[0] == i[len(i) - 1]:\n        a = a + 1\n    else:\n        a = a\n    b = b +1\nprint(a)",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nx = str(input())\ny = x.split(',')\nz = len(x)\na = 0 and b = 0\nwhile b < z:\n    i = y[b]\n    if len(i) >= 2 and i[0] == i[len(i) - 1]:\n        a = a + 1\n    else:\n        a = a\n    b = b +1\nprint(a)"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nstrInput=input()\ncounter=0\nlistInput=strInput.split(',')\nfor i in range(0,len(listInput)):\n    lstring=listInput[i]\n    if(len(lstring)>=2):\n        if lstring[0]==lstring[(len(lstring)-1)]:\n            counter=counter+1\nprint(counter)\n",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nstrInput=input()\ncounter=0\nprint(strInput)\nlistInput=strInput.split(',')\nfor i in range(0,len(listInput)):\n    lstring=listInput[i]\n    if(len(lstring)>=2):\n        flag=0\n        for j in range(0,(len(lstring)//2):\n            print(\"__\",lstring[j],lstring[len(lstring)-1],\"__\")\n            if lstring[j]!=lstring[len(lstring)-1]:\n                flag=1\n        if flag==1:\n            counter=counter+1\n            print(lstring)\nprint(counter)\n"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nenter= input().split(\",\")\ny=[x for x in enter]\noutput=0\nfor x in y:\n    if len(x)>=2 and x[0]==x[len(x)-1:] :\n        output=output+1\nprint (output)\n\n",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nenter= input().split(\",\")\ny=[for x in enter]\nprint(y)\n"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nstring=(input())\nlist=string.split(',')\ncount=0\nfor i in range(0,len(list)):\n    ctr=list[i]\n    if len(ctr)>=2 and ctr[0]==ctr[-1]:\n        count+=1\nprint(count)",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nstring=(input())\nlist=string.split(',')\ncount=0\nfor i in range(0,len(list)):\n    ctr=list[i]\n    if len(ctr)>=2 and ctr[0]==ctr[-1]:\n    count+=1\nprint(count)"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nn=str(input())\nx=n.split(',')\nk=len(x)\ni=0\nc=0\nwhile i<k:\n    a=x[i]\n    if len(a)>=2 and a[0]==a[len(a)-1]:\n        c=c+1\n    else:\n        c=c\n    i=i+1\nprint(c)",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nnew=str(input())\ny=new.split(',')\nl=len(y)\ni=0\ncount=0\nwhile i<l:\n    a=y[i]\n    if len(a)>=2 and a[0]==a[(len(a)-1]:\n        count+=1\n    else:\n        count=count\n    i=i+1\nprint(count)"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\ns1 = str(input())\ns2 = s1.split(',')\ncnt = 0\nfor i in range(len(s2)):\n    ctr = s2[i]\n    if len(ctr)>=2 and ctr[0]==ctr[-1]:\n        cnt+=1\nprint(cnt)",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\ns1 = str(input())\ns2 = s1.split(',')\ncnt = 0\nfor i in range(len(s2))\n    ctr = s2[i]\n    if len(ctr)>=2 and ctr[0]==ctr[-1]:\n        cnt+=1\nprint(cnt)"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nn=str(input())\nt=n.split(',')\nk=len(t)\ni=0\nc=0\nwhile i<k:\n    a=t[i]\n    if len(a)>=2 and a[0]==a[len(a)-1]:\n        c=c+1\n    else:\n        c=c\n    i=i+1\nprint(c)",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nn=str(input())\nt=n.split(',')\nk=len(t)\ni=0\nc=0\nwhile i<k:\n    a=t[i]\n    if len(a).=2 and a[0]==a[len(a)-1]:\n        c=c+1\n    else:\n        c=c\n    i=i+1\nprint(c)"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nn=str(input())\nx=n.split(',')\nk=len(x)\ni=0\nc=0\nwhile i<k:\n    a=x[i]\n    if len(a)>=2 and a[0]==a[len(a)-1]:\n        c=c+1\n    else:\n        c=c\n    i=i+1\nprint(c)",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nn=str(input())\nx=n.split(',')\nk=len(x)\ni=0\nc=0\nwhile i<k:\n    a=x[i]\n    if len(a)>=2 and a[0]==a[len(a)-1]:\n        c=c+1\n        else:\n            c=c\n        i=1+1\nprint(c)"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\ns = input()\nx = s.split(',')\ncount = 0\nfor i in x:\n    if len(i)>=2 and i[0] == i[len(i)-1]:\n        count = count+1\nprint(count)\n\n\n",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\ns = str(input())\nx=s.split(',')\ncount = 0\nfor i in x:\n    if len((i)=>2 and i.[0] == i.[len((i))-1]:\n        count = count+1\nprint(count)\n\n\n"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nString_Input = input()\nK = 0\nlistinput =String_Input.split(',')\nfor i in range(0,len(listinput)):\n    StringList =listinput[i]\n    if(len(StringList)>=2):\n        flag =0\n        if StringList[0] == StringList[len(StringList)-1]:\n            K = K+1\nprint (K)",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nstrI = input()\nK = 0\nlistinput =strl.split(',')\nfor i in range(0,len(listinput)):\n    Lstr =listinput[i]\n    if(len(Lstr)>=2):\n    flag =0\n    if Lstr[0] == Lstr[len(Lstr)-1]:\n        K = K+1\nprint (K)"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\na=str(input())\nb=a.split(',')\nk=len(b)\nm=0\nx=0\nwhile m<k:\n    n=b[m]\n    if len(n)>=2 and n[0]==n[len(n)-1]:\n        x=x+1\n    else:\n        x=x\n    m=m+1\nprint(x)",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\na=str(input())\nb=a.split(',')\nk=len(a)\nm=0\nn=0\nwhile m<k:\n    n=b[m]\n    if len(n)>=2 and n[0]==n[len(a)-1]:\n        n=n+1\n    else:\n            n=n\n        m=m+1\nprint(c)"
+        }
+    ],
+    "IO_example": [
+        {
+            "IO_number": "19874",
+            "input": "abc,xyz,aba,1221,1",
+            "output": "2\n"
+        },
+        {
+            "IO_number": "19875",
+            "input": "abc, xyz , alpha",
+            "output": "1\n"
+        },
+        {
+            "IO_number": "19876",
+            "input": "www,google,.com.",
+            "output": "2\n"
+        },
+        {
+            "IO_number": "19877",
+            "input": "i am ,alba, a ,bbb",
+            "output": "3\n"
+        },
+        {
+            "IO_number": "19878",
+            "input": "aba",
+            "output": "1\n"
+        },
+        {
+            "IO_number": "19879",
+            "input": ",,,,,",
+            "output": "0\n"
+        },
+        {
+            "IO_number": "19880",
+            "input": "abc,def",
+            "output": "0\n"
+        }
+    ],
+    "reference_solution": "myinput=input()\nvs = myinput.split(',')\ncount=0\n\nfor v in vs:\n    if len(v) >= 2 and v[0]==v[-1]:\n        count += 1\n    \nprint(count)",
+    "statement": "Write a python program to read from input a string. The input contains COMMA separated string values.\n \nThe output of the program is the count of string values where \n(a) the length is >= 2;  AND\n(b) the first and last character of the string value are the same.\n\nInput:\nabc,xyz,aba,1221,1\t\nOutput:\n2\n\nInput:\nabc, xyz , alpha\nOutput:\n1\n\n[Note that the second string ( xyz ) has SPACE at the start and at the end; while the last string ( alpha) has SPACE only at the start.\n",
+    "problem_ID": "2877"
+}

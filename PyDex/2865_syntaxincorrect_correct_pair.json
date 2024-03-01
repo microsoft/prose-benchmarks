@@ -1,0 +1,73 @@
+{
+    "submission": [
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nname = input()\nprint('Hi', name)\n# write your code below. Do not change the code above.\nprint('Bye', name)\n",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nname = input()\nprint('Hi', name)\n# write your code below. Do not change the code above.\nname = input(Hi AK Bye AK)\nprint('Hi', name)\n"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nname = input();\nprint('Hi '+name);\nprint('Bye '+name);",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nname = input();\nprint('Hi 'name);\nprint('Bye 'name);"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nname=input()\nprint('Hi',name)\nprint('Bye',name)",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nname=input()\nname\"AK\"\nprint('Hi',name)\nprint('Bye',name)"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nname = input()\nprint('Hi', name)\n# write your code below. Do not change the code above\nprint ('Bye', name )\n",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nname = input()\nprint('Hi', name)\n# write your code below. Do not change the code above\n   print ( 'Bye', name \n"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nname = input()\nprint('Hi', name)\n# write your code below. Do not change the code above.\nprint('Bye', name)\n",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nname = input()print('Hi', name)\n# write your code below. Do not change the code above."
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nname = input()\nprint('Hi', name)\n#write your code below. Do not change the code above.\nprint('Bye' , name)",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nname = input()\nprint('Hi', name)\n#write your code below. Do not change the code above.\nname = input('AK')\nprint('Hi' {name})\nprint('Bye',{name})"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nname = input()\nx = str(name)\nprint('Hi', x)\nprint('Bye', x)",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nname = input()\nx = str(name)\nprint('Hi' +, x)\nprint('Bye' +, x)"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nname = input()\nprint('Hi', name)\n# write your code below. Do not change the code above.\nprint('Bye', name)\n",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nname = input(print(input:))\nprint('Hi', name)\n# write your code below. Do not change the code above.\nprint('Bye')"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nname = input()\nprint('Hi', name)\n# write your code below. Do not change the code above\nprint( 'Bye', name)\n\n",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\n\n# write your code below. Do not change the code above.\n Arindam = input()\nprint(\"Hi\", Arindam)\n"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nname = input()\nprint('Hi', name)\nprint('Bye',name)",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\n name = input()\n print('Hi', name)\n print('Bye',name)"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\n\nname = input( )\nprint('Hi', name)\n\n\n# write your code below. Do not change the code above.\nprint('Bye', name)",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nname = input( )\nprint('Hi', name)\nexcept:\n    pass\n# write your code below. Do not change the code above.\n"
+        }
+    ],
+    "IO_example": [
+        {
+            "IO_number": "19798",
+            "input": "AK",
+            "output": "Hi AK\nBye AK\n"
+        },
+        {
+            "IO_number": "19799",
+            "input": "**",
+            "output": "Hi **\nBye **\n"
+        },
+        {
+            "IO_number": "19800",
+            "input": "\\n",
+            "output": "Hi \\n\nBye \\n\n"
+        },
+        {
+            "IO_number": "19801",
+            "input": "Everyone",
+            "output": "Hi Everyone\nBye Everyone\n"
+        }
+    ],
+    "reference_solution": "name = input()\nprint('Hi', name)\n# write your code below\nprint('Bye', name)",
+    "statement": "The below program reads a <b>name</b> and says Hi to it.\nModify so that it also says Bye to it.\n\n<b>EXAMPLE:</b>\nInput:\nAK\nOutput:\nHi AK\nBye AK\n",
+    "problem_ID": "2865"
+}

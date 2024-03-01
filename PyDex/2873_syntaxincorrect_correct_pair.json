@@ -1,0 +1,177 @@
+{
+    "submission": [
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nnum = (input())\nsum = 0\nfor i in num :\n    sum += int(i)**3\nif sum == int(num):\n    print(\"Sum of Cubes is {}. It is the same as the number {}.\".format(sum,num))\nelse:\n    print(\"Sum of Cubes is {}. It is NOT same as the number {}.\".format(sum,num))",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nnum = input()\nfor i in range i = i +1\n"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\ni = int(input())\nj = 0\nk = i\nwhile k > 0:\n    l = k % 10\n    j = j + l ** 3\n    k = k // 10\nif i == j:\n    print(\"Sum of Cubes is {}. It is the same as the number {}.\" .format(j,i))\nelse:\n        print(\"Sum of Cubes is {}. It is NOT same as the number {}.\" .format(j,i))",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\ni = int(input())\nj = 0\nk = i\nwhile k > 0:\n    l = k % 10\n    j = j + l ** 3\n    k = k // 10\nif i == j:\n    print(\"Sum of Cubes is\", j., \"It is same as the number\", i)\nelse:\n        print(\"Sum of Cubes is\", j., \"It is NOT same as the number\", i)"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nn=int(input())\nk=str(n)\nl=len(k)\ns=0\np=l-1\nwhile p>=0:\n    j=k[p:p+1]\n    i=int(j)\n    s=s+i**3\n    p=p-1\nif s==n:\n    print('Sum of Cubes is '+ str(s) +'. It is the same as the number '+ k +'.')\nelse:\n    print('Sum of Cubes is '+ str(s) +'. It is NOT same as the number '+ k +'.')",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nn=int(input())\nk=str(n)\nl=len(k)\ns=0\np=l-1\nwhile p>=0:\n    j=k[p:p+1]\n    i=int(j)\n    s=s+i**3\n    p=p-1\n    if s==n:\n        print('Sum of Cubes is '+ str(s) +'. It is the same as the number '+ k +'.')\n        else:\n            print('Sum of Cubes is '+ str(s) +'. It is NOT same as the number '+ k +'.')"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nnum=str(input())\nsum=0\nfor i in range(0,len(num)):\n    sum+=pow(int(num[i]),3)\nif sum==int(num):\n    print(\"Sum of Cubes is \"+str(sum)+\". It is the same as the number \"+str(num)+\".\")\nelse:\n    print(\"Sum of Cubes is \"+str(sum)+\". It is NOT same as the number \"+str(num)+\".\")",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nnum=str(input())\nsum=0\nfor i in range(0,len(num)):\n    sum+=pow(int(num[i]),3)\nif sum==int(num):\n    print(\"Sum of Cubes is \"+str(sum)+\". It is the same as the number \"+str(num)+\".\"\nelse:\n    print(\"Sum of Cubes is \"+str(sum)+\". It is NOT same as the number \"+str(num)+\".\""
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nnum = int(input())\nsum = 0\ntemp = num\nwhile temp > 0:\n   digit = temp % 10\n   sum += digit ** 3\n   temp //= 10\n     \nif num == sum:\n   print(\"Sum of Cubes is \" + str(sum) +\". It is the same as the number \" + str(num) + '.')\nelse:\n   print(\"Sum of Cubes is \" + str(sum) +\". It is NOT same as the number \" + str(num) + '.')\n\n",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nnum = int(input())\nsum = 0\ntemp = num\nwhile temp > 0:\n   digit = temp % 10\n   sum += digit ** 3\n   temp //= 10\n    \nif num == sum:\n   print(\"Sum of Cubes is\" + sum +\". It is the same as the number\" + num'.')\nelse:\n   print(\"Sum of Cubes is\" + sum +\". It is the same as the number\" + num'.')\n\n"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nn=input()\nsum=0\nfor i in n:\n    cube=int(i)**3\n    sum +=cube\nif int(n)==sum:\n    print(\"Sum of Cubes is {}. It is the same as the number {}.\".format(sum,n))\nelse:\n    print(\"Sum of Cubes is {}. It is NOT same as the number {}.\".format(sum,n))",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nn=int(input())\ntemp=n\nsum=0\nwhile temp>0:\n    d=temp%10\n    sum +=d**3\n    temp //=10\nif n==sum:\n    print(\"Sum of Cubes is\",n\". It is the same as the number\",n\".\")\nelse:\n    print(\"Sum of Cubes is\",n\". It is NOT the same as the number\",n\".\")"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nn=int(input())\nk=str(n)\nl=len(k)\ns=0\np=l-1\nwhile p>=0:\n    j=k[p:p+1]\n    i=int(j)\n    s=s+i**3\n    p=p-1\nif s==n:\n    print('Sum of Cubes is '+ str(s) +'. It is the same as the number '+ k +'.')\nelse:\n    print('Sum of Cubes is '+ str(s) +'. It is NOT same as the number '+ k +'.')",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nn=int(input())\nk=str(n)\nl=len(k)\ns=0\np=1-1\nwhile p>=0\n    j=k[p:p+1]\n    i=int(j)\n    s=s+i**3\n    p=p-1\nif s==n\n    print('Sum of Cubes is '+ str(s) +'. It is the same as the number '+ k +'.')\nelse:\n    print('Sum of Cubes is '+ str(s) +'. It is NOT same as the number '+ k +'.')"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nno=(input())\nsum=0\nfor m in no:\n    sum += int(m)**3\nif sum == int(no):\n    print(\"Sum of Cubes is {}. It is the same as the number {}.\".format(sum,no))\nelse:\n    print(\"Sum of Cubes is {}. It is NOT same as the number {}.\".format(sum,no))",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nno=(input())\nsum=0\nfor m in no:\n    sum+=int(m)**3\nif sum==int(no):\n    print(\"Sum of Cubes{}. It is the same as the number {}.\".format(sum,num00\nelse:\n    print(\"Sum of the Cubes is {}. IT is NOT same as the number {}.\".format(sum,num))"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nnum=str(input())\nsum=0\nfor i in range(0,len(num)):\n    sum+=pow(int(num[i]),3)\nif sum==int(num):\n    print(\"Sum of Cubes is \"+str(sum)+\". It is the same as the number \"+str(num)+\".\")\nelse:\n    print(\"Sum of Cubes is \"+str(sum)+\". It is NOT same as the number \"+str(num)+\".\")",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nnum=int(input())\nini=0\nfor (i) in str(num):\n  cube=int(i)*int(i)*int(i)\n  sum=ini+cube\nif sum==num:\n    print(\"Sum of Cubes is\",sum, \".It is the same as the number\", num)\nelse:\n    print(\"Sum of Cubes is\",sum, \".It is NOT same as the number\", num))"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nnum = int(input())\nsum = 0\ntemp = num\nwhile temp > 0:\n    digit = temp % 10\n    sum += digit ** 3\n    temp //=10\n    \nif num == sum:\n    print(\"Sum of Cubes is \",num,\". It is the same as the number \",num,\".\", sep='')\nelse:\n    print(\"Sum of Cubes is \",sum,\". It is NOT same as the number \", num,\".\", sep='')\n",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nnum = int(input())\nsum = 0\ntemp = num\nwhile temp > 0:\n   digit = temp % 10\n   sum += digit ** 3\n   temp //= 10\n\nif num == sum:\n   print(\"Sum of Cubes is\"num\". It is the same as the number\"num\".\")\nelse:\n   print(\"Sum of Cubes is\"sum\". It is NOT same as the number\"num\".\")"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nn = int(input())\nk = str(n)\nl =len(k)\ns = 0\np = l-1\nwhile p>= 0:\n    j = k[p:p+1]\n    i = int(j)\n    s = s+i**3\n    p=p-1\nif s==n:\n    print('Sum of Cubes is',str(s)+'. It is the same as the number', k +'.')\nelse:\n    print('Sum of Cubes is', str(s)+'. It is NOT same as the number', k +'.') \n\n",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nnum = int(input())\nsum = 0\ntemp = num\nwhile temp > 0:\n    digit = temp % 10\n    sum = digit**3\n    temp // = 10\nif num == sum:\n    print('Sum of Cubes is', temp'.', 'It is the same as the number',num,'.')\nelse :\n    print('Sum of Cubes is', temp'.', 'It is NOT same as the number', num,'.')\n"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nn = input()\nsum = 0\nt=int(n)\nwhile (t>0):\n    sum = sum + (t%10)**3\n    t = t//10\nif int(n) == int(sum) :\n    print('Sum of Cubes is {}. It is the same as the number {}.'.format(sum,n))\nelse:\n    print('Sum of Cubes is {}. It is NOT same as the number {}.'.format(sum,n))",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nn = int(input())\nsum = 0\ntimes = 0\nt = n\nwhile (t>0):\n    times = times + 1\n    t = t//10\nt=n\nwhile (t>0):\n    sum = sum + (t%10)**times\n    t = t//10\nif t == sum :\n    print('Sum of cubes is'{}'.It is the same as the number'{}'.'.format(sum,t))\nelse:\n    print('Sum of cubes is'{}'.It is NOT same as the number'{}'.'.format(sum,t))"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nn=int(input())\nk=str(n)\nl=len(k)\ns=0\np=l-1\nwhile p >=0:\n    j=k[p:p+1]\n    i=int(j)\n    s=s+i**3\n    p=p-1\nif s==n:\n    print('Sum of Cubes is '+ str(s) +'. It is the same as the number '+ k +'.')\nelse:\n    print('Sum of Cubes is '+ str(s) +'. It is NOT same as the number '+ k +'.')",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nn=int(input())\nsum = 0\ntemp = n\nwhile (temp > 0):\n   digit = temp % 10\n   sum += digit ** 3\n   temp = temp// 10\nif(sum==n):\n    print('Sum of cubes is{}. It is same as the number{}.'.format(sum,n)\nelse:\n    print('Sum of cubes is {}. It is NOT same as the number{}.'.format(sum,n)"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nn=int(input())\nk=str(n)\nl=len(k)\ns=0\np=l-1\nwhile p>=0:\n    j=k[p:p+1]\n    i=int(j)\n    s=s+i**3\n    p=p-1\nif s==n:\n    print('Sum of Cubes is '+ str(s) +'. It is the same as the number '+ k +'.')\nelse:\n    print('Sum of Cubes is '+str(s) +'. It is NOT same as the number '+ k +'.')",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nn=int(input())\nk=str(n)\nl=len(k)\ns=0\np=1-1\nwhile p>=0\n    j=k[p:p+1]\n    i=int(j)\n    s=s+i**3\n    p=p-1\nif s==n:\n    print('Sum of Cubes is '+ str(s) +'. It is the same as the number '+ k +'.')\nelse:\n    print('Sum of Cubes is '+str(s) +'. It is NOT same as the number '+ k +'.')"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nnum = int(input())\nsum = 0\ntemp = num\nwhile temp > 0:\n    digit = temp % 10\n    sum += digit ** 3\n    temp //=10\n    \nif num == sum:\n    print(\"Sum of Cubes is \", num ,\". It is the same as the number \", num ,\".\", sep='')\nelse:\n    print(\"Sum of Cubes is \", sum ,\". It is NOT same as the number \", num ,\".\", sep='')",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nnum = int(input())\nsum = 0\ntemp = num\nwhile temp > 0:\n    digit = temp % 10\n    sum += digit ** 3\n    temp // =10\n    \nif num == sum:\n    print(\"Sum of Cubes is\", num,\". It is the same as the number\", num, \".\", sep='')\nelse:\n    print(\"Sum of Cubes is\", sum,\". It is the same as the number\", num, \".\", sep='')"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nx = int(input())\ny = str(x)\nz = len(y) - 1\nSum = 0\nwhile z >= 0:\n    a = y[z:z+1]\n    b = int(a)\n    Sum += b**3\n    z = z - 1\nif x ==Sum:\n    print('Sum of Cubes is ' + str(Sum) + '. It is the same as the number ' + y + '.')\nelse:\n    print('Sum of Cubes is ' + str(Sum) + '. It is NOT same as the number ' + y + '.')",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nx = input()\ny = str(x)\nif x == int(y[0])**3+int(y[1])**3+int(y[2])**3:\n    print('Sum of Cubes is', x,' It is the same as the number', x,'.')\nelse:\n    z = int(y[0])**3+int(y[1])**3+int(y[2])**3\n    print('Sum of Cubes is', y,' It is NOT same as the number',x'.')"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\na=int(input())\nsum=0\ncopy_a=a\nwhile(a!=0):\n    r=a%10\n    sum=sum+r*r*r\n    a=a//10\nif(sum==copy_a):\n    print(\"Sum of Cubes is {}. It is the same as the number {}.\".format(sum,copy_a))\nelse:\n    print(\"Sum of Cubes is {}. It is NOT same as the number {}.\".format(sum,copy_a))",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\na=int(input())\nsum=0\ncopy_a=a\nwhile(a!=0):\n    int r=a%10\n    sum=sum+r*r*r\n    a=a/10\nif(sum==copy_a):\n    print(\"Sum of Cubes is {}. It is the same as the number {}.\".format(sum,copy_a))\nelse:\n    print(\"Sum of Cubes is {}. It is NOT same as the number {}.\".format(sum,copy_a))"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\ndigit= int(input())\nsum=0\nnew= digit\nwhile new>0 :\n    x= new%10\n    sum= sum + x**3\n    new= new//10\nif sum==digit :\n    descript1='Sum of Cubes is ' + str(sum) +'. ' + 'It is the same as the number ' + str(digit) + '.'\n    print(descript1)\n\n    \nelse:\n     descript2= 'Sum of Cubes is ' + str(sum) + '. ' + 'It is NOT same as the number ' + str(digit) + '.'\n     print(descript2)\n    ",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\ndigit= int(input())\nsum=0\nnew= digit\nwhile new>0 :\n    x= new%10\n    sum= sum + x**3\n    new= new//10\nif sum==digit :\n    descript='Sum of Cubes is ' + str(sum) +'.' + 'It is the same as the number ' str(digit) + '.'\n    print(descript)\n\n    \nelse:\n    print ('Sum of Cubes i'  )\n    "
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nn=int(input())\nk=str(n)\nl=len(k)\ns=0\np=l-1\nwhile p>=0:\n    j=k[p:p+1]\n    i=int(j)\n    s=s+i**3\n    p=p-1\nif s==n:\n    print('Sum of Cubes is '+ str(s) +'. It is the same as the number '+ k +'.')\nelse:\n    print('Sum of Cubes is '+ str(s) +'. It is NOT same as the number '+ k +'.')",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nn=int(input())\nk=str(n)\nl=len(k)\ns=0\np=1-1\nwhile p>=0\n    j=k[p:p+1]\n    i=int(j)\n    s=s+i**3\n    p=p-1\nif s==n:\n    print('sum of cubes is '+ str(s) +'. It is the same as the number '+ k +'.')\nelse:\n    print('sum of cubes is '+ str(s) +'. It is NOT same as the number '+ k +'.')"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nn=int(input())\nsum=0\ntemp=n\nwhile temp>0:\n   digit=temp%10\n   sum+=digit**3\n   temp//=10\nif n==sum:\n   print(\"Sum of Cubes is {}. It is the same as the number {}.\".format(sum,n))\nelse:\n   print(\"Sum of Cubes is {}. It is NOT same as the number {}.\".format(sum,n))",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nn=int(input())\nsum=0\ntemp=n\nwhile temp>0:\n   digit=temp%10\n   sum+=digit**3\n   temp//=10\nif n==sum:\n   print(\"Sum of Cubes is {}. It is the same as the number {}.\".format(sum,n))\nelse:\n   print(\"Sum of Cubes is {}. It is NOT same as the number {}.\".format(sum,n)"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nn=int(input())\nk=str(n)\nl=len(k)\ns=0\np=l-1\nwhile p>=0:\n    j=k[p:p+1]\n    i=int(j)\n    s=s+i**3\n    p=p-1\nif s==n:\n    print('Sum of Cubes is '+ str(s) +'. It is the same as the number '+ k +'.')\nelse:\n    print('Sum of Cubes is '+ str(s) +'. It is NOT same as the number '+ k +'.')",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nn=int(input())\nk=str(n)\nl=len(k)\ns=0\np=l-1\nwhile p>=0:\n    j=k[p:p+1]\n    i=int(j)\n    s=s+i*i*i\n    p=p-1\nif s==n:\n    print('Sum of Cubes is',s.,'It is the same as the number',n,'.')\nelse:\n    print('Sum of Cubes is',s.,'It is NOT same as the number ',n,'.')"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nn=int(input())\nsum=0\ntemp=n\nwhile(temp>0):\n    digit=temp%10\n    sum=sum + digit**3\n    temp=temp//10\n\nif(sum==n):\n    print('Sum of Cubes is {}. It is the same as the number {}.'.format(sum,n))\nelse:\n    print('Sum of Cubes is {}. It is NOT same as the number {}.'.format(sum,n))",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nn=int(input())\ncount,sum=0,0\nwhile(n>0):\n    digit=n%10\n    sum=sum + digit^3\n    digit=digit%10\nif(sum==n):\n    print('Sum of Cubes is',sum,'.','It is the same as the number',n)\n else:\n    print('Sum of Cubes is',sum,'.','It is NOT same as the number',n)"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nnum = int(input())\nsum = 0\n# find the sum of the cube of each digit\nx = num\nwhile x > 0:\n   digit = x % 10\n   sum += digit ** 3\n   x //= 10\nif num == sum:\n   print(\"Sum of Cubes is {}. It is the same as the number {}.\".format(sum,num))\nelse:\n   print(\"Sum of Cubes is {}. It is NOT same as the number {}.\".format(sum,num))\n",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nnum = int(input())\nsum = 0\n# find the sum of the cube of each digit\nx = num\nwhile x > 0:\n   digit = x % 10\n   sum += digit ** 3\n   x //= 10\nif num == sum:\n   print(\"Sum of Cubes is\"sum,\". It is the same as the number\"num\".\")\nelse:\n   print(\"Sum of Cubes is\"sum,\". It is NOT same as the number\"num\".\")\n"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nn=int(input())\nsum=0\ntemp=n\nwhile(temp>0):\n    digit=temp%10\n    sum=sum + digit**3\n    temp=temp//10\n    \nif(sum==n):\n    print('Sum of Cubes is {}. It is the same as the number {}.'.format(sum,n))\nelse:\n    print('Sum of Cubes is {}. It is NOT same as the number {}.'.format(sum,n))",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nn=int(input())\nsum=0\ntemp=n\nwhile(temp>0)\n    digit=temp%10\n    sum=sum+digit**3\n    temp=temp//10\n    \nif(sum==n)\n    print('sum of cubes is {}. It is the same as the number {} .'.format(sum,n))\nelse:\n    print('sum of cubes is {}. It is NOT same as the number {} .'.format(sum,n))"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nnum = int(input())\nsum = 0\ntemp = num\nwhile temp > 0:\n   digit = temp % 10\n   sum += digit ** 3\n   temp //= 10\nif num == sum:\n    print('Sum of Cubes is {}.'' It is the same as the number {}.'.format(int(sum),num))\nelse :\n    print('Sum of Cubes is {}.'' It is NOT same as the number {}.'.format(int(sum),num))",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nnum = int(input())\nsum = 0\ntemp = num\nwhile temp > 0:\n   digit = temp % 10\n   sum += digit ** 3\n   temp //= 10\nif num == sum:\n    print('Sum of Cubes is',sum .'It is same as the number',num.)\nelse :\n    print('Sum of Cubes is',sum.'It is NOT same as the number',num.)"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nx = int(input())\nsum = 0\ntemp = x\nwhile temp >0:\n    digit = temp% 10\n    sum += digit ** 3\n    temp//= 10\nif(x==sum):\n    print(\"Sum of Cubes is \",x,\". It is the same as the number \",x,\".\",sep='')\nelse:\n    print(\"Sum of Cubes is \",sum,\". It is NOT same as the number \", x,\".\",sep='')",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nx = int(input())\nsum = 0\ntemp = x\nwhile temp >0:\n    digit = temp% 10\n    sum += digit ** 3\n    temp//= 10\nif(x==sum):\n    print('Sum of Cubes is',x, end=\". \")\n    print('It is the same as the number',x, end\".\")\nelse:\n    print('Sum of Cubes is',sum,'. It is NOT same as the number',x,'.')"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nnum=(input())\nsum=0\nfor i in num:\n    sum+=int(i)**3\nif sum==int(num):\n    print(\"Sum of Cubes is {}. It is the same as the number {}.\".format(sum,num))\nelse:\n    print(\"Sum of Cubes is {}. It is NOT same as the number {}.\".format(sum,num))\n    ",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nnum=(input())\nsum=0\nfor i in num:\n    sum==int(i)**3\nif sum==int(num):\n    print(\"Sum of cubes is {}. It is the same as the number {}.\".format(sum,num))\n     else:\n    print(\"Sum of cubes is {}. It is NOT same as the number {}.\".format(sum,num))\n    "
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nn=int(input())\nk=str(n)\nl=len(k)\ns=0\np=l-1\nwhile p>=0:\n    j=k[p:p+1]\n    i=int(j)\n    s=s+i**3\n    p=p-1\nif s==n:\n    print('Sum of Cubes is '+ str(s) +'. It is the same as the number '+ k +'.')\nelse:\n    print('Sum of Cubes is '+ str(s) +'. It is NOT same as the number '+ k +'.')",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nn=int(input())\nk=str(n)\nl=len(k)\ns=0\np=l-1\nwhile p>=0:\n    j=k[p:p+1]\n    i=int(j)\n    s=s+i**3\n    p=p-1\nif s==n\n    print('Sum of cubes is '+ str(s) +'. It is the same as the number '+ k +'.')\nelse:\n    print('Sum of Cubes is '+ str(s) +'. It is NOT same as the number '+ k +'.')"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nnum = int(input())\n\nsum=0\ntemp = num\nwhile temp > 0:\n    digit = temp % 10\n    sum += digit ** 3\n    temp //=10\n\nif num == sum:\n      print(\"Sum of Cubes is \",sum,\". It is the same as the number \",num,\".\", sep='')\nelse:\n      print(\"Sum of Cubes is \",sum,\". It is NOT same as the number \",num,\".\", sep='')",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nnum = int(input())\nsum=0\ntemp = num\nwhile temp > 0:\n    digit = temp % 10\n    sum += digit ** 3\n    temp //=10\n\nif num == sum\n    print(\"Sum of Cubes is \",num,\". It is the same as the number \",num,\".\", sep='')\nelse:\n    print(\"Sum of the Cubes is \",sum,\". It is NOT same as the number \",num,\".\", sep='')"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\n#iniutla input in int\nInitial_Number = int(input())\n\n#length of the inital input\norder = len(str(Initial_Number))\n\n#value of Cubes initialized\nSum_of_Digits_Cube = 0\n\n#temp inum to complete while loop\nTempInitial_Number = Initial_Number\n\n\nwhile TempInitial_Number > 0:\n       digit = TempInitial_Number % 10\n       Sum_of_Digits_Cube += digit ** 3\n       TempInitial_Number //= 10\n\n\n\nif(Sum_of_Digits_Cube == Initial_Number):\n    print(\"Sum of Cubes is \" + str(Sum_of_Digits_Cube) + \". It is the same as the number \" + str(Initial_Number) +\".\")\nelse:\n    print(\"Sum of Cubes is \" + str(Sum_of_Digits_Cube) + \". It is NOT same as the number \" + str(Initial_Number) +\".\")",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\ninum = input()\nCube = 0\nlength = len(str(inum))\nfnum = inum\nwhile(n>0)\n    digit = n%10\n    Cube += digit **length\n    inum = inum//10\n\nif(Cube == fnum):\n    print(\"Sum of Cubes is\",Cube,\". It is the same as the number\",inum,\".\")\nelse:\n    print(\"Sum of Cubes is\",Cube,\". It is NOT same as the number\",inum,\".\")"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nnum=input()\na=int(num)\nSum=0\nwhile a > 0 :\n    digit=a%10\n    Sum=Sum+digit**3\n    a=a//10\nif int(Sum)==int(num):\n    print('Sum of Cubes is {}. It is the same as the number {}.'.format(Sum,num))\nelse:\n    print('Sum of Cubes is {}. It is NOT same as the number {}.'.format(Sum,num))",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nnum=input()\na=int(num)\nSum=0\nwhile a > 0 :\n    digit=a%10\n    Sum=Sum+digit**3\n    a=a//10\nif int(num)==int(Sum):\n    print('Sum of Cubes is {}. It is the same as the number {}.'.format(Sum,num))\nelse:\n    print('Sum of Cubes is {}. It is NOT same as the number {}.'.format(Sum,num)"
+        },
+        {
+            "semantics_correct": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nn=int(input())\nk=str(n)\nl=len(k)\ns=0\np=l-1\nwhile p>=0:\n    j=k[p:p+1]\n    i=int(j)\n    s=s+i**3\n    p=p-1\nif s==n:\n    print('Sum of Cubes is '+ str(s) +'. It is the same as the number '+ k +'.')\nelse:\n    print('Sum of Cubes is '+ str(s) +'. It is NOT same as the number '+ k +'.')",
+            "syntax_incorrect": "# compile-errors:success: Compilation Successful #\n# compile-result:1 #\n# save-event:compile #\nnumber=int(input())\nk=str(number)\nl=len(k)\ns=0\np=1-1\nwhile p>=0:\n    j=k[p:p+1]\n    i=int(j)\n    s=s+i***3\n    p=p-1\nif s==number:\n    print('sum of cubes is '+ str(s) +'. It is the same as the number '+ k +'.')\nelse:\n    print('Sum of Cubes is '+ str(s) +'. It is NOT same as the number '+ k +'.')"
+        }
+    ],
+    "IO_example": [
+        {
+            "IO_number": "19847",
+            "input": "371",
+            "output": "Sum of Cubes is 371. It is the same as the number 371.\n"
+        },
+        {
+            "IO_number": "19848",
+            "input": "5",
+            "output": "Sum of Cubes is 125. It is NOT same as the number 5.\n"
+        },
+        {
+            "IO_number": "19849",
+            "input": "12639369517103790328947807201478392",
+            "output": "Sum of Cubes is 7752. It is NOT same as the number 12639369517103790328947807201478392.\n"
+        },
+        {
+            "IO_number": "19850",
+            "input": "10203020",
+            "output": "Sum of Cubes is 44. It is NOT same as the number 10203020.\n"
+        },
+        {
+            "IO_number": "19851",
+            "input": "1634",
+            "output": "Sum of Cubes is 308. It is NOT same as the number 1634.\n"
+        },
+        {
+            "IO_number": "19852",
+            "input": "407",
+            "output": "Sum of Cubes is 407. It is the same as the number 407.\n"
+        },
+        {
+            "IO_number": "19853",
+            "input": "0",
+            "output": "Sum of Cubes is 0. It is the same as the number 0.\n"
+        },
+        {
+            "IO_number": "19854",
+            "input": "1",
+            "output": "Sum of Cubes is 1. It is the same as the number 1.\n"
+        }
+    ],
+    "reference_solution": "nums = input()\nnumi = int(nums)\n\nsum = 0\nfor ds in nums:\n    di = int(ds)\n    sum += di ** 3\n\nsame = \"the\"\nif (sum != numi):\n    same = \"NOT\"\n\nprint ('Sum of Cubes is {}. It is {} same as the number {}.'.format(sum, same, nums))\n    \n\n",
+    "statement": "Armstrong number is a number that is equal to the sum of cubes of its digits. For example, 0, 1, 153, 370, 371 and 407 are the Armstrong numbers.\nWrite a program to check if an input number is an Armstrong number. The output should match the format as given in the example below.\n\nNOTE: Use input() without any prompt to read the number.\n\n\nInput: 371\nOutput: Sum of Cubes is 371. It is the same as the number 371.\nInput: 5\nOutput: Sum of Cubes is 125. It is NOT same as the number 5.\n",
+    "problem_ID": "2873"
+}
