@@ -396,8 +396,8 @@
     "GroundTruth": "Function Trainee-Admin { param($groups) write-host $groups } $groups = import-csv -path \"C:\\Users\\administrator\\Desktop\\Powershell\\Scripts\\TraineeAdmin\\groups.csv\" Trainee-Admin -groups $groups"
   },
   {
-    "Buggy": "heroku config:set SECRET_KEY=eoik6-&dnr9elgmrt7-%3hu_&37$3hg!9c6x!^khjr3!z*z&b4",
-    "GroundTruth": "& 'heroku' @('config:set', 'SECRET_KEY=eoik6-\"&\"dnr9elgmrt7-%3hu_\"&\"37$3hg!9c6x!^khjr3!z*z\"&\"b4')"
+    "Buggy": "heroku config:set SECRET_KEY=REDACTED-SECRET",
+    "GroundTruth": "& 'heroku' @('config:set', 'SECRET_KEY=REDACTED-SECRET')"
   },
   {
     "Buggy": "$body = @{ \"definition\": { \"id\":1 } }",
