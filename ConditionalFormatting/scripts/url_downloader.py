@@ -1,8 +1,25 @@
 import sys
 import json
 import os
+from pathlib import Path
 import requests
 import argparse
+
+
+def get_safe_output_path(filename, output_directory):
+    """Return a destination path contained within ``output_directory``."""
+    output_root = Path(output_directory).resolve()
+    output_path = (output_root / filename).resolve()
+
+    try:
+        output_path.relative_to(output_root)
+    except ValueError as error:
+        raise ValueError(f"Unsafe output filename: {filename}") from error
+
+    if output_path == output_root:
+        raise ValueError(f"Unsafe output filename: {filename}")
+
+    return output_path
 
 
 def download_file(filename, url, output_directory):
@@ -14,13 +31,17 @@ def download_file(filename, url, output_directory):
         url (str): The URL of the file to download.
         output_directory (str): The directory to save the downloaded file.
     """
-    output_path = os.path.join(output_directory, filename)
+    try:
+        output_path = get_safe_output_path(filename, output_directory)
+    except (OSError, ValueError) as error:
+        print(f"Error downloading {filename}: {error}")
+        return
 
     try:
         response = requests.get(url, stream=True)
         response.raise_for_status()
 
-        with open(output_path, 'wb') as file:
+        with output_path.open('wb') as file:
             for chunk in response.iter_content(chunk_size=8192):
                 file.write(chunk)
 
