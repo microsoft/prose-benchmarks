@@ -13,7 +13,6 @@ using System.Threading;
 using System.Threading.Tasks;
 using ColorScheme = DocumentFormat.OpenXml.Drawing.ColorScheme;
 using Color2Type = DocumentFormat.OpenXml.Drawing.Color2Type;
-using System.Net.Sockets;
 using DocumentFormat.OpenXml;
 
 namespace ExcelLoader
@@ -32,9 +31,6 @@ namespace ExcelLoader
     [Option('o', "output", HelpText = "The path to the output file (or directory)")]
     public string? OutputPath { get; set; }
 
-    [Option("server", HelpText = "Run as a server")]
-    public string? Server { get; set; }
-
     [Option("gzip", HelpText = "Write gzipped output")]
     public bool? GZipOpt { get; set; } // Annoyingly, the library won't work with a bool and needs a bool? - it treats "bool" as being a flag, there's no way to set to false
     public bool GZip
@@ -46,18 +42,6 @@ namespace ExcelLoader
     public bool Verbose { get; set; }
   }
 
-  public class ServerInput
-  {
-    public string Input;
-    public string Output;
-
-    public ServerInput(string input, string output)
-    {
-      Input = input;
-      Output = output;
-    }
-  }
-
   public class Program
   {
     private static int Main(string[] args)
@@ -65,19 +49,9 @@ namespace ExcelLoader
       return Parser.Default.ParseArguments<Options>(args).MapResult(
         opts =>
         {
-          if (opts.Server != null)
-          {
-            if (opts.InputPath != null || opts.OutputPath != null)
-            {
-              Console.Error.WriteLine("Cannot specify \"input\" or \"output\" with \"server\"");
-              return 1;
-            }
-            return ProcessServer(opts.Server, opts);
-          }
-
           if (opts.InputPath == null || opts.OutputPath == null)
           {
-            Console.Error.WriteLine("Must specify \"input\" and \"output\", or \"server\"");
+            Console.Error.WriteLine("Must specify \"input\" and \"output\"");
             return 1;
           }
 
@@ -89,45 +63,6 @@ namespace ExcelLoader
           return ProcessFile(opts.InputPath, opts.OutputPath, opts, error => Console.Error.WriteLine(error));
         },
         _ => 1);
-    }
-
-    private static int ProcessServer(string endpoint, IGlobalOptions opts)
-    {
-      Console.WriteLine($"Started processing server. Connecting to {endpoint}");
-      var client = new TcpClient();
-      client.Connect(IPEndPoint.Parse(endpoint));
-      var reader = new StreamReader(client.GetStream(), Encoding.UTF8);
-      var writer = new StreamWriter(client.GetStream());
-      try{
-        while (true)
-        {
-          var line = reader.ReadLine();
-          if (line == null)
-          {
-            break;
-          }
-
-          var command = Newtonsoft.Json.JsonConvert.DeserializeObject<ServerInput>(line);
-
-          var rv = ProcessFile(command.Input, command.Output, opts, error => Console.Error.WriteLine(error));
-          if (rv != 0)
-          {
-            return rv;
-          }
-          writer.WriteLine("{}");
-          writer.Flush();
-        }
-
-        return 0;
-      }
-      catch(Exception e) {
-        writer.WriteLine(e.ToString());
-        writer.Flush();
-        throw;
-      }
-      finally {
-        client.Close();
-      }
     }
 
     private static int ProcessDirectory(string inputDir, string outputDir, IGlobalOptions opts)
@@ -1201,4 +1136,3 @@ namespace ExcelLoader
   }
 
 }
-
